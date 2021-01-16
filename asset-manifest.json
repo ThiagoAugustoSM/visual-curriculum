@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/visual-curriculum/static/js/main.c4a1ab10.chunk.js",
-    "main.js.map": "/visual-curriculum/static/js/main.c4a1ab10.chunk.js.map",
+    "main.js": "/visual-curriculum/static/js/main.d305b3b6.chunk.js",
+    "main.js.map": "/visual-curriculum/static/js/main.d305b3b6.chunk.js.map",
     "runtime-main.js": "/visual-curriculum/static/js/runtime-main.70a98611.js",
     "runtime-main.js.map": "/visual-curriculum/static/js/runtime-main.70a98611.js.map",
-    "static/js/2.2f6fd6c2.chunk.js": "/visual-curriculum/static/js/2.2f6fd6c2.chunk.js",
-    "static/js/2.2f6fd6c2.chunk.js.map": "/visual-curriculum/static/js/2.2f6fd6c2.chunk.js.map",
+    "static/js/2.c9503f8c.chunk.js": "/visual-curriculum/static/js/2.c9503f8c.chunk.js",
+    "static/js/2.c9503f8c.chunk.js.map": "/visual-curriculum/static/js/2.c9503f8c.chunk.js.map",
     "static/js/3.63b229a5.chunk.js": "/visual-curriculum/static/js/3.63b229a5.chunk.js",
     "static/js/3.63b229a5.chunk.js.map": "/visual-curriculum/static/js/3.63b229a5.chunk.js.map",
     "index.html": "/visual-curriculum/index.html",
-    "static/js/2.2f6fd6c2.chunk.js.LICENSE.txt": "/visual-curriculum/static/js/2.2f6fd6c2.chunk.js.LICENSE.txt",
+    "static/js/2.c9503f8c.chunk.js.LICENSE.txt": "/visual-curriculum/static/js/2.c9503f8c.chunk.js.LICENSE.txt",
     "static/media/peacock-logo.c54a9c97.png": "/visual-curriculum/static/media/peacock-logo.c54a9c97.png"
   },
   "entrypoints": [
     "static/js/runtime-main.70a98611.js",
-    "static/js/2.2f6fd6c2.chunk.js",
-    "static/js/main.c4a1ab10.chunk.js"
+    "static/js/2.c9503f8c.chunk.js",
+    "static/js/main.d305b3b6.chunk.js"
   ]
 }
