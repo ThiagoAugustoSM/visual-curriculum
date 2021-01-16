@@ -4,7 +4,11 @@ Este projeto tem o objetivo de facilitar o entendimento do currículo de univers
 
 - Stack: React + Typescript + Chakra.
 - Status: Alpha, versões iniciais, mas que já contam com funcionalidades a serem testadas.
-- Link para Demo
+- [Link para Demo](https://thiagoaugustosm.github.io/visual-curriculum/)
+
+# Features
+- Cálculo de aproveitamento acadêmico
+- Modo claro/escuro
 
 # Próximos Passos
 
