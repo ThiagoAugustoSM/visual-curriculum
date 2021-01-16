@@ -17,7 +17,7 @@ const Header = () => {
   const { colorMode, toggleColorMode } = useColorMode()
 
   const openGithub = () => {
-    window.open('https://thiagoaugustosm.github.io/visual-curriculum/')
+    window.open('https://github.com/ThiagoAugustoSM/visual-curriculum/')
   }
 
   return (
