@@ -8,7 +8,7 @@ import {
   ListItem,
   ListIcon
 } from '@chakra-ui/react';
-import { MdCheckCircle, MdSettings } from 'react-icons/md';
+import { MdTimelapse } from 'react-icons/md';
 
 const NextSteps = () => {
   return (
@@ -17,24 +17,20 @@ const NextSteps = () => {
         Sobre o Projeto
       </Heading>
       <Text>
-      Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+        Este projeto tem o objetivo de facilitar o entendimento do currículo de universidades do Brasil, através de uma fácil visualização. Com o modelo Open Source, estudantes de todo o Brasil podem adicionar informações atualizadas a este site. O projeto ainda está em desenvolvimento, abaixo estão as próximas funcionalidades:
       </Text>
       <List spacing={3}>
         <ListItem>
-          <ListIcon as={MdCheckCircle} color="green.500" />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit
+          <ListIcon as={MdTimelapse} color="green.500" />
+          Opção de salvar o seu histórico localmente.
         </ListItem>
         <ListItem>
-          <ListIcon as={MdCheckCircle} color="green.500" />
-          Assumenda, quia temporibus eveniet a libero incidunt suscipit
+          <ListIcon as={MdTimelapse} color="green.500" />
+          Habilitar para a criação de novos currículos e Universidades.
         </ListItem>
         <ListItem>
-          <ListIcon as={MdCheckCircle} color="green.500" />
-          Quidem, ipsam illum quis sed voluptatum quae eum fugit earum
-        </ListItem>
-        <ListItem>
-          <ListIcon as={MdSettings} color="green.500" />
-          Quidem, ipsam illum quis sed voluptatum quae eum fugit earum
+          <ListIcon as={MdTimelapse} color="green.500" />
+          Visualização dos pré-requisitos de cada disciplina.
         </ListItem>
       </List>
     </Stack>

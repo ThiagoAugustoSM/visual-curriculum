@@ -16,6 +16,10 @@ import Logo from '../../assets/img/peacock-logo.png';
 const Header = () => {
   const { colorMode, toggleColorMode } = useColorMode()
 
+  const openGithub = () => {
+    window.open('https://thiagoaugustosm.github.io/visual-curriculum/')
+  }
+
   return (
     <Stack
       direction="row"
@@ -53,7 +57,9 @@ const Header = () => {
           marginY="2"
           colorScheme="blue" 
           variant="outline" 
-          rightIcon={<Icon as={FaGithub}/>}>
+          rightIcon={<Icon as={FaGithub}/>}
+          onClick={() => openGithub()}
+        >
           Quero contribuir! 
         </Button>
         <Button 
