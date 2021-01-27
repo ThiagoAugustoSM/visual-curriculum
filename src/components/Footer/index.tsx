@@ -3,7 +3,7 @@ import React from 'react';
 import { Stack, Text, Icon, IconButton } from '@chakra-ui/react';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
-const Footer = () => {
+const Footer = (): React.ReactElement => {
   return (
     <Stack align="center" mt="5">
       <Text>

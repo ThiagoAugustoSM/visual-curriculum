@@ -1,18 +1,25 @@
 import React from 'react';
-
 import { Stack, Heading, Box } from '@chakra-ui/react';
 
 import StatsHours from '../StatsHours';
 
-const StatsContainer = (props) => {
-  const {
-    academicTotalDone,
-    academicObligatoryDone,
-    academicElectiveDone,
-    totalHours,
-    totalHoursObligatory,
-    totalHoursElective,
-  } = props;
+type StatsContainerProps = {
+  academicTotalDone: number;
+  academicObligatoryDone: number;
+  academicElectiveDone: number;
+  totalHours: number;
+  totalHoursObligatory: number;
+  totalHoursElective: number;
+};
+
+const StatsContainer = ({
+  academicTotalDone,
+  academicObligatoryDone,
+  academicElectiveDone,
+  totalHours,
+  totalHoursObligatory,
+  totalHoursElective,
+}: StatsContainerProps): React.ReactElement => {
   return (
     <Stack>
       <Heading as="h2" size="lg" marginY="2">

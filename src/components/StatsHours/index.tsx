@@ -1,8 +1,17 @@
 import React from 'react';
 import { Box, Progress, Text } from '@chakra-ui/react';
 
-const HourStats = (props) => {
-  const { title, total, partial } = props;
+type HourStatsProps = {
+  title: string;
+  total: number;
+  partial: number;
+};
+
+const HourStats = ({
+  title,
+  total,
+  partial,
+}: HourStatsProps): React.ReactElement => {
   const percentage = parseFloat(((partial / total) * 100).toFixed(2));
   return (
     <Box

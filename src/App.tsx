@@ -11,12 +11,14 @@ import Footer from './components/Footer';
 import { CurriculumType } from './models/Curriculum';
 
 function App(): React.ReactElement {
-  const [curriculum, setCurriculum] = useState<CurriculumType | any>({});
+  const [curriculum, setCurriculum] = useState<
+    CurriculumType | Record<string, never>
+  >({});
   const [academicTotalDone, setAcademicTotalDone] = useState(0);
   const [academicObligatoryDone, setAcademicObligatoryDone] = useState(0);
   const [academicElectiveDone, setAcademicElectiveDone] = useState(0);
 
-  const handleClick = ({ isActive, id, isObligatory, hours }) => {
+  const handleClick = ({ isActive, isObligatory, hours }) => {
     if (isActive) {
       if (isObligatory) {
         setAcademicObligatoryDone(academicObligatoryDone + hours);

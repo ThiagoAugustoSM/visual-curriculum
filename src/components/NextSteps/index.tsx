@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
   Heading,
   Text,
@@ -10,7 +9,7 @@ import {
 } from '@chakra-ui/react';
 import { MdTimelapse } from 'react-icons/md';
 
-const NextSteps = () => {
+const NextSteps = (): React.ReactElement => {
   return (
     <Stack>
       <Heading as="h2" size="lg" marginY="2">

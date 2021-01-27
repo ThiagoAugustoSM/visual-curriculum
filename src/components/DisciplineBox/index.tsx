@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 import { Box, Badge, useColorMode } from '@chakra-ui/react';
+import { DisciplineType } from '../../models/Curriculum';
 
-const badgeSemesterColor = (semester) => {
+const badgeSemesterColor = (semester: number) => {
   switch (semester) {
     case 1:
       return 'gray';
@@ -28,11 +29,23 @@ const badgeSemesterColor = (semester) => {
       return 'gray';
   }
 };
-const DisciplineBox = (props) => {
+
+type OnClickTypes = {
+  isActive: boolean;
+  id: string;
+  isObligatory: boolean;
+  hours: number;
+};
+
+type DisciplineBoxProps = {
+  id: string;
+  onClick: (params: OnClickTypes) => void;
+} & DisciplineType;
+
+const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
   const { semester, isObligatory, name, hours, credits, id, onClick } = props;
   const [isActive, setIsActive] = useState(false);
-  const { colorMode, toggleColorMode } = useColorMode();
-  // const bg = useColorModeValue("red.500", "red.200")
+  const { colorMode } = useColorMode();
   const [bgColor, setBgColor] = useState('white');
   const [bgColorDark, setBgColorDark] = useState('');
 

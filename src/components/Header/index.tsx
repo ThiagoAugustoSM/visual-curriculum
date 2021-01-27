@@ -13,7 +13,7 @@ import { FaSun, FaMoon, FaGithub } from 'react-icons/fa';
 
 import Logo from '../../assets/img/peacock-logo.png';
 
-const Header = () => {
+const Header = (): React.ReactElement => {
   const { colorMode, toggleColorMode } = useColorMode();
 
   const openGithub = () => {
