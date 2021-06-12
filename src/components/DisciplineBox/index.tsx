@@ -1,68 +1,85 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 import { Box, Badge, useColorMode } from '@chakra-ui/react';
+import { DisciplineType } from '../../models/Curriculum';
 
-const badgeSemesterColor = (semester) => {
-  switch(semester){
+const badgeSemesterColor = (semester: number) => {
+  switch (semester) {
     case 1:
-      return "gray"
+      return 'gray';
     case 2:
-      return "red"
+      return 'red';
     case 3:
-      return "orange"
+      return 'orange';
     case 4:
-      return "yellow"
+      return 'yellow';
     case 5:
-      return "green"
+      return 'green';
     case 6:
-      return "teal"
+      return 'teal';
     case 7:
-      return "blue"
+      return 'blue';
     case 8:
-      return "cyan"
+      return 'cyan';
     case 9:
-      return "purple"
-    case 9:
-      return "pink"
+      return 'purple';
+    case 10:
+      return 'pink';
     default:
-      return "gray"
+      return 'gray';
   }
-}
-const DisciplineBox = (props) => {
-  const {semester, isObligatory, name, hours, credits, id, onClick} = props;
+};
+
+type OnClickTypes = {
+  isActive: boolean;
+  id: string;
+  isObligatory: boolean;
+  hours: number;
+};
+
+type DisciplineBoxProps = {
+  id: string;
+  onClick: (params: OnClickTypes) => void;
+} & DisciplineType;
+
+const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
+  const { semester, isObligatory, name, hours, credits, id, onClick } = props;
   const [isActive, setIsActive] = useState(false);
-  const { colorMode, toggleColorMode } = useColorMode()
-  // const bg = useColorModeValue("red.500", "red.200")
-  const [bgColor, setBgColor] = useState("white");
-  const [bgColorDark, setBgColorDark] = useState("");
+  const { colorMode } = useColorMode();
+  const [bgColor, setBgColor] = useState('white');
+  const [bgColorDark, setBgColorDark] = useState('');
 
   const handleClick = () => {
-    if(isActive === true){
-      setBgColor("white");
-      setBgColorDark("gray.800");
-    } else{
-      setBgColor("green.200");
-      setBgColorDark("green.500");
+    if (isActive === true) {
+      setBgColor('white');
+      setBgColorDark('gray.800');
+    } else {
+      setBgColor('green.200');
+      setBgColorDark('green.500');
     }
-    onClick({isActive: !isActive, id, isObligatory, hours})
+    onClick({ isActive: !isActive, id, isObligatory, hours });
     setIsActive(!isActive);
-  }
+  };
 
   return (
-    <Box 
-      id={id} 
-      onClick={handleClick} 
+    <Box
+      id={id}
+      onClick={handleClick}
       m="3"
-      minW="200px" 
-      maxW="sm" 
-      borderWidth="1px" 
-      borderRadius="lg" 
+      minW="200px"
+      maxW="sm"
+      borderWidth="1px"
+      borderRadius="lg"
       overflow="hidden"
-      bgColor={colorMode === "light" ? bgColor : bgColorDark }
+      bgColor={colorMode === 'light' ? bgColor : bgColorDark}
     >
-      <Box p="4" >
+      <Box p="4">
         <Box d="flex" alignItems="baseline">
-          <Badge borderRadius="full" px="2" colorScheme={badgeSemesterColor(semester)}>
+          <Badge
+            borderRadius="full"
+            px="2"
+            colorScheme={badgeSemesterColor(semester)}
+          >
             {semester} º Período
           </Badge>
           <Box
@@ -102,7 +119,7 @@ const DisciplineBox = (props) => {
         </Box>
       </Box>
     </Box>
-  )
-}
+  );
+};
 
 export default DisciplineBox;
