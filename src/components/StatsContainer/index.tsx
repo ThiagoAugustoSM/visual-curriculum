@@ -4,18 +4,18 @@ import { Stack, Heading, Box } from '@chakra-ui/react';
 import StatsHours from '../StatsHours';
 
 type StatsContainerProps = {
-  academicTotalDone: number;
-  academicObligatoryDone: number;
-  academicElectiveDone: number;
+  academicTotal: number;
+  academicObligatory: number;
+  academicElective: number;
   totalHours: number;
   totalHoursObligatory: number;
   totalHoursElective: number;
 };
 
 const StatsContainer = ({
-  academicTotalDone,
-  academicObligatoryDone,
-  academicElectiveDone,
+  academicTotal,
+  academicObligatory,
+  academicElective,
   totalHours,
   totalHoursObligatory,
   totalHoursElective,
@@ -28,17 +28,17 @@ const StatsContainer = ({
       <Box w="100%" d="flex" flexWrap="wrap">
         <StatsHours
           title="Total"
-          partial={academicTotalDone}
+          partial={academicTotal}
           total={totalHours}
         />
         <StatsHours
           title="Obrigatória"
-          partial={academicObligatoryDone}
+          partial={academicObligatory}
           total={totalHoursObligatory}
         />
         <StatsHours
           title="Eletivas"
-          partial={academicElectiveDone}
+          partial={academicElective}
           total={totalHoursElective}
         />
       </Box>

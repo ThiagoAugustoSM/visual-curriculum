@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { Box, SimpleGrid } from '@chakra-ui/react';
 
 import Header from './components/Header';
@@ -8,39 +8,20 @@ import StatsContainer from './components/StatsContainer';
 import NextSteps from './components/NextSteps';
 import Footer from './components/Footer';
 
-import { CurriculumType } from './models/Curriculum';
+// import { CurriculumType } from './models/Curriculum';
+import useCurriculum from './service/hook';
 
 function App(): React.ReactElement {
-  const [curriculum, setCurriculum] = useState<
-    CurriculumType | Record<string, never>
-  >({});
-  const [academicTotalDone, setAcademicTotalDone] = useState(0);
-  const [academicObligatoryDone, setAcademicObligatoryDone] = useState(0);
-  const [academicElectiveDone, setAcademicElectiveDone] = useState(0);
-
-  const handleClick = ({ isActive, isObligatory, hours }) => {
-    if (isActive) {
-      if (isObligatory) {
-        setAcademicObligatoryDone(academicObligatoryDone + hours);
-      } else {
-        setAcademicElectiveDone(academicElectiveDone + hours);
-      }
-      setAcademicTotalDone(academicTotalDone + hours);
-    } else {
-      if (isObligatory) {
-        setAcademicObligatoryDone(academicObligatoryDone - hours);
-      } else {
-        setAcademicElectiveDone(academicElectiveDone - hours);
-      }
-      setAcademicTotalDone(academicTotalDone - hours);
-    }
-  };
+  const {
+    loadCurriculum,
+    curriculum,
+    updateState,
+    completed,
+  } = useCurriculum();
 
   useEffect(() => {
-    fetch('./university/UFPE/engenhariaDaComputacao.json')
-      .then((response) => response.json())
-      .then((json) => setCurriculum(json));
-  }, []);
+    loadCurriculum();
+  }, [loadCurriculum]);
 
   const arrayOfSemesters = Array.from(
     { length: curriculum?.semesters },
@@ -60,7 +41,7 @@ function App(): React.ReactElement {
                 <DisciplineBox
                   key={item.name}
                   id={item.code}
-                  onClick={handleClick}
+                  onClick={updateState}
                   {...item}
                 />
               ))}
@@ -69,9 +50,9 @@ function App(): React.ReactElement {
       </Box>
       <SimpleGrid columns={[1, 2]} spacing="5">
         <StatsContainer
-          academicTotalDone={academicTotalDone}
-          academicObligatoryDone={academicObligatoryDone}
-          academicElectiveDone={academicElectiveDone}
+          academicTotal={completed.academicTotal}
+          academicObligatory={completed.academicObligatory}
+          academicElective={completed.academicElective}
           totalHours={curriculum?.totalHours}
           totalHoursObligatory={curriculum?.totalHoursObligatory}
           totalHoursElective={curriculum?.totalHoursElective}
