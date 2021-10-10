@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { ChakraProvider, CSSReset, ColorModeScript } from '@chakra-ui/react';
 
 import App from './App';
@@ -10,7 +11,11 @@ ReactDOM.render(
     <ChakraProvider>
       <CSSReset />
       <ColorModeScript />
-      <App />
+      <Router>
+        <Switch>
+          <Route path="/:university/:course" component={App} />
+        </Switch>
+      </Router>
     </ChakraProvider>
   </React.StrictMode>,
   document.getElementById('root')

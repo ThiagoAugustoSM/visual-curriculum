@@ -1,0 +1,14 @@
+[
+    {
+        "key": "UFPE",
+        "name": "Universidade Federal de Pernambuco",
+        "website": "",
+        "logo": "",
+        "courses": [
+            {
+                "key": "engenharia-da-computacao",
+                "name": "Engenharia da Computação"
+            }
+        ]
+    }
+]

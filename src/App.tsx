@@ -8,7 +8,6 @@ import StatsContainer from './components/StatsContainer';
 import NextSteps from './components/NextSteps';
 import Footer from './components/Footer';
 
-// import { CurriculumType } from './models/Curriculum';
 import useCurriculum from './service/hook';
 
 function App(): React.ReactElement {
