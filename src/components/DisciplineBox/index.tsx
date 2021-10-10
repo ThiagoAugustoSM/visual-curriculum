@@ -1,6 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
-import { Box, Badge, useColorMode } from '@chakra-ui/react';
+import {
+  useColorMode,
+  Box,
+  Badge,
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+  PopoverArrow,
+  PopoverHeader,
+  PopoverBody,
+  UnorderedList,
+  ListItem,
+} from '@chakra-ui/react';
+import { AiOutlineLock } from 'react-icons/ai';
 import { DisciplineType } from '../../models/Curriculum';
 
 const badgeSemesterColor = (semester: number) => {
@@ -43,11 +56,21 @@ type DisciplineBoxProps = {
 } & DisciplineType;
 
 const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
-  const { semester, isObligatory, name, hours, credits, id, onClick } = props;
-  const [isActive, setIsActive] = useState(false);
+  const {
+    id,
+    onClick,
+    name,
+    prerequisites,
+    semester,
+    hours,
+    credits,
+    isObligatory,
+  } = props;
   const { colorMode } = useColorMode();
+  const [isActive, setIsActive] = useState(false);
   const [bgColor, setBgColor] = useState('white');
   const [bgColorDark, setBgColorDark] = useState('');
+  const [popover, setPopover] = useState({ bgColor: '', color: '' });
 
   const handleClick = () => {
     if (isActive === true) {
@@ -57,47 +80,90 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
       setBgColor('green.200');
       setBgColorDark('green.500');
     }
+
     onClick({ isActive: !isActive, id, isObligatory, hours });
     setIsActive(!isActive);
   };
+
+  useEffect(() => {
+    setPopover({
+      bgColor: colorMode === 'light' ? 'white' : 'gray.800',
+      color: colorMode === 'light' ? 'gray.500' : 'gray.400',
+    });
+  }, [colorMode]);
 
   return (
     <Box
       id={id}
       onClick={handleClick}
-      m="3"
-      minW="200px"
-      maxW="sm"
-      borderWidth="1px"
-      borderRadius="lg"
-      overflow="hidden"
       bgColor={colorMode === 'light' ? bgColor : bgColorDark}
+      borderRadius="lg"
+      borderWidth="1px"
+      m="3"
+      maxW="sm"
+      minW="245px"
+      overflow="hidden"
     >
       <Box p="4">
-        <Box d="flex" alignItems="baseline">
+        <Box d="flex" alignItems="center">
           <Badge
             borderRadius="full"
-            px="2"
             colorScheme={badgeSemesterColor(semester)}
+            px="2"
           >
-            {semester} º Período
+            {semester}º Período
           </Badge>
+
           <Box
             color="gray.500"
+            fontSize="xs"
             fontWeight="semibold"
             letterSpacing="wide"
-            fontSize="xs"
+            marginX="2"
             textTransform="uppercase"
-            ml="2"
           >
             {isObligatory ? 'Obrigatória' : 'Eletiva'}
           </Box>
+
+          {!!prerequisites?.length && (
+            <Box ml="auto">
+              <Popover placement="top" trigger="hover">
+                <PopoverTrigger>
+                  <Box>
+                    <AiOutlineLock />
+                  </Box>
+                </PopoverTrigger>
+
+                <PopoverContent
+                  d="flex"
+                  bgColor={popover.bgColor}
+                  color={popover.color}
+                  fontSize="12px"
+                  marginX="auto"
+                  maxW="200px"
+                  textTransform="uppercase"
+                >
+                  <PopoverArrow bgColor={popover.bgColor} />
+                  <PopoverHeader fontWeight="semibold">
+                    Pré-requisitos
+                  </PopoverHeader>
+                  <PopoverBody>
+                    <UnorderedList>
+                      {prerequisites.map((prerequisite) => (
+                        <ListItem key={prerequisite}>{prerequisite}</ListItem>
+                      ))}
+                    </UnorderedList>
+                  </PopoverBody>
+                </PopoverContent>
+              </Popover>
+            </Box>
+          )}
         </Box>
 
         <Box
+          as="h4"
           mt="1"
           fontWeight="semibold"
-          as="h4"
           lineHeight="tight"
           isTruncated
         >
@@ -113,7 +179,7 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
 
         <Box>
           {credits}
-          <Box as="span" ml="1" color="gray.600" fontSize="sm">
+          <Box as="span" color="gray.600" fontSize="sm" ml="1">
             crédito(s)
           </Box>
         </Box>
