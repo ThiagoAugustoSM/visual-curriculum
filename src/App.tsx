@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Box, SimpleGrid } from '@chakra-ui/react';
+import { useParams } from 'react-router-dom';
 
 import Header from './components/Header';
 import Navigator from './components/Navigator';
@@ -10,6 +11,11 @@ import Footer from './components/Footer';
 
 import useCurriculum from './service/hook';
 
+type ParamsType = {
+  course: string;
+  university: string;
+};
+
 function App(): React.ReactElement {
   const {
     loadCurriculum,
@@ -17,10 +23,11 @@ function App(): React.ReactElement {
     updateState,
     completed,
   } = useCurriculum();
+  const params = useParams<ParamsType>();
 
   useEffect(() => {
-    loadCurriculum();
-  }, [loadCurriculum]);
+    loadCurriculum(params.university, params.course);
+  }, [loadCurriculum, params]);
 
   const arrayOfSemesters = Array.from(
     { length: curriculum?.semesters },
@@ -30,7 +37,10 @@ function App(): React.ReactElement {
   return (
     <Box m="5">
       <Header />
-      <Navigator />
+      <Navigator
+        university={curriculum.university}
+        course={curriculum.course}
+      />
       <Box w="100%" maxH="60vh" overflow="scroll">
         {arrayOfSemesters.map((semester) => (
           <Box d="flex" w="100%" key={`row-${semester}`}>

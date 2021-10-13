@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable class-methods-use-this */
 
 import { CurriculumType } from '../models/Curriculum';
@@ -13,12 +14,11 @@ export default class Service {
   }
 
   async loadCurriculum(
-    key = ''
+    university: string,
+    course: string
   ): Promise<CurriculumType | Record<string, never>> {
     try {
-      const response = await fetch(
-        '/university/UFPE/engenharia-da-computacao.json'
-      );
+      const response = await fetch(`/university/${university}/${course}.json`);
       return response.json() as Promise<CurriculumType>;
     } catch (err) {
       console.error(err);

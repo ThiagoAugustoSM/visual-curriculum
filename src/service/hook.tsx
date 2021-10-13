@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import { useCallback, useMemo, useState, useEffect } from 'react';
 import { useRouteMatch } from 'react-router-dom';
 
@@ -37,10 +38,13 @@ export default function useCurriculum() {
     }
   };
 
-  const loadCurriculum = useCallback(async () => {
-    const data = await service.loadCurriculum();
-    setCurriculum(data);
-  }, [service]);
+  const loadCurriculum = useCallback(
+    async (university: string, course: string) => {
+      const data = await service.loadCurriculum(university, course);
+      setCurriculum(data);
+    },
+    [service]
+  );
 
   return {
     curriculum,

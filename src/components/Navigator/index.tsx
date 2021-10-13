@@ -1,16 +1,26 @@
+/* eslint-disable react/require-default-props */
 import React from 'react';
 
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from '@chakra-ui/react';
 
-const Navigator = (): React.ReactElement => {
+type NavigatorProps = {
+  university?: string;
+  course?: string;
+};
+
+const Navigator = ({
+  university,
+  course,
+}: NavigatorProps): React.ReactElement => {
+  if (!university && !course) return <></>;
   return (
     <Breadcrumb size="20" m="3" separator="/">
       <BreadcrumbItem>
-        <BreadcrumbLink href="#">UFPE</BreadcrumbLink>
+        <BreadcrumbLink href="#">{university}</BreadcrumbLink>
       </BreadcrumbItem>
       <BreadcrumbItem>
         <BreadcrumbLink href="#" isCurrentPage>
-          Engenharia da Computação
+          {course}
         </BreadcrumbLink>
       </BreadcrumbItem>
     </Breadcrumb>
