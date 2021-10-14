@@ -125,7 +125,7 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
             {isObligatory ? 'Obrigatória' : 'Eletiva'}
           </Box>
 
-          {!!prerequisites?.length && (
+          {prerequisites.length > 0 && (
             <Box ml="auto">
               <Popover placement="top" trigger="hover">
                 <PopoverTrigger>
