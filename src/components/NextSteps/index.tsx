@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
   Heading,
   Text,
@@ -30,10 +31,6 @@ const NextSteps = (): React.ReactElement => {
         <ListItem>
           <ListIcon as={MdTimelapse} color="green.500" />
           Habilitar para a criação de novos currículos e Universidades.
-        </ListItem>
-        <ListItem>
-          <ListIcon as={MdTimelapse} color="green.500" />
-          Visualização dos pré-requisitos de cada disciplina.
         </ListItem>
       </List>
     </Stack>
