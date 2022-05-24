@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Box, SimpleGrid, Flex } from '@chakra-ui/react';
-import JSON from './assets/engenhariaDaComputacao.json';
 import Header from './components/Header';
 import Navigator from './components/Navigator';
 import DisciplineBox from './components/DisciplineBox';
@@ -12,7 +11,7 @@ import { CurriculumType } from './models/Curriculum';
 
 function App(): React.ReactElement {
   const [curriculum, setCurriculum] = useState<
-    CurriculumType | Record<string, any>
+    CurriculumType | Record<string, never>
   >({});
   const [academicTotalDone, setAcademicTotalDone] = useState(0);
   const [academicObligatoryDone, setAcademicObligatoryDone] = useState(0);
@@ -37,10 +36,9 @@ function App(): React.ReactElement {
   };
 
   useEffect(() => {
-    setCurriculum(JSON);
-    // fetch('./university/UFPE/engenhariaDaComputacao.json')
-    //   .then((response) => response.json())
-    //   .then((json) => setCurriculum(json));
+    fetch('http://localhost:3000/api')
+      .then((response) => response.json())
+      .then((json) => setCurriculum(json));
   }, []);
 
   const arrayOfSemesters = Array.from(
