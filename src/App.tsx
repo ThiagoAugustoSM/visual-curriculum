@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Box, SimpleGrid } from '@chakra-ui/react';
+import { Box, SimpleGrid, Flex } from '@chakra-ui/react';
 
 import Header from './components/Header';
 import Navigator from './components/Navigator';
@@ -38,8 +38,9 @@ function App(): React.ReactElement {
 
   useEffect(() => {
     fetch('./university/UFPE/engenhariaDaComputacao.json')
-      .then((response) => response.json())
-      .then((json) => setCurriculum(json));
+      .then((response) => console.log(response))
+      // .then((json) => setCurriculum(json))
+      .catch((err) => console.log(err));
   }, []);
 
   const arrayOfSemesters = Array.from(
@@ -53,18 +54,20 @@ function App(): React.ReactElement {
       <Navigator />
       <Box w="100%" maxH="60vh" overflow="scroll">
         {arrayOfSemesters.map((semester) => (
-          <Box d="flex" w="100%" key={`row-${semester}`}>
-            {curriculum?.disciplines
-              .filter((item) => item.semester === semester)
-              .map((item) => (
-                <DisciplineBox
-                  key={item.name}
-                  id={item.code}
-                  onClick={handleClick}
-                  {...item}
-                />
-              ))}
-          </Box>
+          <Flex>
+            <Box w="100%" key={`row-${semester}`}>
+              {curriculum?.disciplines
+                .filter((item) => item.semester === semester)
+                .map((item) => (
+                  <DisciplineBox
+                    key={item.name}
+                    id={item.code}
+                    onClick={handleClick}
+                    {...item}
+                  />
+                ))}
+            </Box>
+          </Flex>
         ))}
       </Box>
       <SimpleGrid columns={[1, 2]} spacing="5">
@@ -72,7 +75,7 @@ function App(): React.ReactElement {
           academicTotalDone={academicTotalDone}
           academicObligatoryDone={academicObligatoryDone}
           academicElectiveDone={academicElectiveDone}
-          totalHours={curriculum?.totalHours}
+          totalHours={curriculum.totalHours}
           totalHoursObligatory={curriculum?.totalHoursObligatory}
           totalHoursElective={curriculum?.totalHoursElective}
         />

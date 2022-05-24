@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Progress, Text } from '@chakra-ui/react';
+import { Box, Flex, Progress, Text } from '@chakra-ui/react';
 
 type HourStatsProps = {
   title: string;
@@ -22,38 +22,39 @@ const HourStats = ({
       overflow="hidden"
       m="3"
     >
-      <Box
-        p="4"
-        d="flex"
-        flexDir="column"
-        alignItems="flex-start"
-        justifyContent="center"
-      >
-        <Text as="h4" fontWeight="semibold" lineHeight="tight" isTruncated>
-          {title}
-        </Text>
-        <Box w="100%" mt="1">
-          <Progress hasStripe size="md" value={percentage} />
-        </Box>
-        <Box>
-          <Text>
-            {percentage}
-            <Box as="span" color="gray.600" fontSize="sm">
-              %
-            </Box>
+      <Flex>
+        <Box
+          p="4"
+          flexDir="column"
+          alignItems="flex-start"
+          justifyContent="center"
+        >
+          <Text as="h4" fontWeight="semibold" lineHeight="tight" noOfLines={1}>
+            {title}
           </Text>
-        </Box>
-        <Box flexDir="row">
-          {partial}
-          <Box as="span" color="gray.600" fontSize="sm">
-            /
+          <Box w="100%" mt="1">
+            <Progress hasStripe size="md" value={percentage} />
           </Box>
-          {total}
-          <Box as="span" color="gray.600" fontSize="sm">
-            HRs
+          <Box>
+            <Text>
+              {percentage}
+              <Box as="span" color="gray.600" fontSize="sm">
+                %
+              </Box>
+            </Text>
+          </Box>
+          <Box flexDir="row">
+            {partial}
+            <Box as="span" color="gray.600" fontSize="sm">
+              /
+            </Box>
+            {total}
+            <Box as="span" color="gray.600" fontSize="sm">
+              HRs
+            </Box>
           </Box>
         </Box>
-      </Box>
+      </Flex>
     </Box>
   );
 };

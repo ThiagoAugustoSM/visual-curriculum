@@ -5,11 +5,10 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:jest/recommended",
     "prettier",
-    "prettier/react",
-    "prettier/@typescript-eslint",
+    "plugin:import/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["react", "@typescript-eslint", "jest"],
+  "plugins": ["react", "@typescript-eslint", "jest", "import"],
   "env": { "browser": true, "es6": true, "jest": true },
   "globals": { "Atomics": "readonly", "SharedArrayBuffer": "readonly" },
   "parser": "@typescript-eslint/parser",

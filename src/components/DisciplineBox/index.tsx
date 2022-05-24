@@ -12,6 +12,8 @@ import {
   PopoverBody,
   UnorderedList,
   ListItem,
+  Flex,
+  Text,
 } from '@chakra-ui/react';
 import { AiOutlineLock } from 'react-icons/ai';
 import { DisciplineType } from '../../models/Curriculum';
@@ -105,69 +107,75 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
       overflow="hidden"
     >
       <Box p="4">
-        <Box d="flex" alignItems="center">
-          <Badge
-            borderRadius="full"
-            colorScheme={badgeSemesterColor(semester)}
-            px="2"
-          >
-            {semester}º Período
-          </Badge>
+        <Flex>
+          <Box alignItems="center">
+            <Badge
+              borderRadius="full"
+              colorScheme={badgeSemesterColor(semester)}
+              px="2"
+            >
+              {semester}º Período
+            </Badge>
 
-          <Box
-            color="gray.500"
-            fontSize="xs"
-            fontWeight="semibold"
-            letterSpacing="wide"
-            marginX="2"
-            textTransform="uppercase"
-          >
-            {isObligatory ? 'Obrigatória' : 'Eletiva'}
-          </Box>
-
-          {prerequisites.length > 0 && (
-            <Box ml="auto">
-              <Popover placement="top" trigger="hover">
-                <PopoverTrigger>
-                  <Box>
-                    <AiOutlineLock />
-                  </Box>
-                </PopoverTrigger>
-
-                <PopoverContent
-                  d="flex"
-                  bgColor={popover.bgColor}
-                  color={popover.color}
-                  fontSize="12px"
-                  marginX="auto"
-                  maxW="200px"
-                  textTransform="uppercase"
-                >
-                  <PopoverArrow bgColor={popover.bgColor} />
-                  <PopoverHeader fontWeight="semibold">
-                    Pré-requisitos
-                  </PopoverHeader>
-                  <PopoverBody>
-                    <UnorderedList>
-                      {prerequisites.map((prerequisite) => (
-                        <ListItem key={prerequisite}>{prerequisite}</ListItem>
-                      ))}
-                    </UnorderedList>
-                  </PopoverBody>
-                </PopoverContent>
-              </Popover>
+            <Box
+              color="gray.500"
+              fontSize="xs"
+              fontWeight="semibold"
+              letterSpacing="wide"
+              marginX="2"
+              textTransform="uppercase"
+            >
+              {isObligatory ? 'Obrigatória' : 'Eletiva'}
             </Box>
-          )}
-        </Box>
 
-        <Box
-          as="h4"
-          mt="1"
-          fontWeight="semibold"
-          lineHeight="tight"
-          isTruncated
-        >
-          {name}
+            {prerequisites.length > 0 && (
+              <Box ml="auto">
+                <Popover placement="top" trigger="hover">
+                  <PopoverTrigger>
+                    <Box>
+                      <AiOutlineLock />
+                    </Box>
+                  </PopoverTrigger>
+                  <Flex>
+                    <PopoverContent
+                      bgColor={popover.bgColor}
+                      color={popover.color}
+                      fontSize="12px"
+                      marginX="auto"
+                      maxW="200px"
+                      textTransform="uppercase"
+                    >
+                      <PopoverArrow bgColor={popover.bgColor} />
+                      <PopoverHeader fontWeight="semibold">
+                        Pré-requisitos
+                      </PopoverHeader>
+                      <PopoverBody>
+                        <UnorderedList>
+                          {prerequisites.map((prerequisite) => (
+                            <ListItem key={prerequisite}>
+                              {prerequisite}
+                            </ListItem>
+                          ))}
+                        </UnorderedList>
+                      </PopoverBody>
+                    </PopoverContent>
+                  </Flex>
+                </Popover>
+              </Box>
+            )}
+          </Box>
+        </Flex>
+
+        <Box>
+          <Text
+            noOfLines={1}
+            as="h4"
+            mt="1"
+            fontWeight="semibold"
+            lineHeight="tight"
+          >
+            {name}
+          </Text>
         </Box>
 
         <Box>
