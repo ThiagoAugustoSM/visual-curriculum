@@ -1,5 +1,5 @@
 import React from 'react';
-import { Stack, Heading, Box, Flex } from '@chakra-ui/react';
+import { Stack, Heading, Flex } from '@chakra-ui/react';
 
 import StatsHours from '../StatsHours';
 
@@ -25,24 +25,22 @@ const StatsContainer = ({
       <Heading as="h2" size="lg" marginY="2">
         Aproveitamento Acadêmico
       </Heading>
-      <Flex flexWrap="wrap">
-        <Box w="100%">
-          <StatsHours
-            title="Total"
-            partial={academicTotalDone}
-            total={totalHours}
-          />
-          <StatsHours
-            title="Obrigatória"
-            partial={academicObligatoryDone}
-            total={totalHoursObligatory}
-          />
-          <StatsHours
-            title="Eletivas"
-            partial={academicElectiveDone}
-            total={totalHoursElective}
-          />
-        </Box>
+      <Flex flexWrap="wrap" w="100%">
+        <StatsHours
+          title="Total"
+          partial={academicTotalDone}
+          total={totalHours}
+        />
+        <StatsHours
+          title="Obrigatória"
+          partial={academicObligatoryDone}
+          total={totalHoursObligatory}
+        />
+        <StatsHours
+          title="Eletivas"
+          partial={academicElectiveDone}
+          total={totalHoursElective}
+        />
       </Flex>
     </Stack>
   );

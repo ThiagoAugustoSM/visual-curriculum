@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box, SimpleGrid, Flex } from '@chakra-ui/react';
-
+import JSON from './assets/engenhariaDaComputacao.json';
 import Header from './components/Header';
 import Navigator from './components/Navigator';
 import DisciplineBox from './components/DisciplineBox';
@@ -12,7 +12,7 @@ import { CurriculumType } from './models/Curriculum';
 
 function App(): React.ReactElement {
   const [curriculum, setCurriculum] = useState<
-    CurriculumType | Record<string, never>
+    CurriculumType | Record<string, any>
   >({});
   const [academicTotalDone, setAcademicTotalDone] = useState(0);
   const [academicObligatoryDone, setAcademicObligatoryDone] = useState(0);
@@ -37,10 +37,10 @@ function App(): React.ReactElement {
   };
 
   useEffect(() => {
-    fetch('./university/UFPE/engenhariaDaComputacao.json')
-      .then((response) => console.log(response))
-      // .then((json) => setCurriculum(json))
-      .catch((err) => console.log(err));
+    setCurriculum(JSON);
+    // fetch('./university/UFPE/engenhariaDaComputacao.json')
+    //   .then((response) => response.json())
+    //   .then((json) => setCurriculum(json));
   }, []);
 
   const arrayOfSemesters = Array.from(
@@ -54,19 +54,17 @@ function App(): React.ReactElement {
       <Navigator />
       <Box w="100%" maxH="60vh" overflow="scroll">
         {arrayOfSemesters.map((semester) => (
-          <Flex>
-            <Box w="100%" key={`row-${semester}`}>
-              {curriculum?.disciplines
-                .filter((item) => item.semester === semester)
-                .map((item) => (
-                  <DisciplineBox
-                    key={item.name}
-                    id={item.code}
-                    onClick={handleClick}
-                    {...item}
-                  />
-                ))}
-            </Box>
+          <Flex key={`rows-${semester}`}>
+            {curriculum?.disciplines
+              .filter((item) => item.semester === semester)
+              .map((item) => (
+                <DisciplineBox
+                  key={item.name}
+                  id={item.code}
+                  onClick={handleClick}
+                  {...item}
+                />
+              ))}
           </Flex>
         ))}
       </Box>
@@ -76,8 +74,8 @@ function App(): React.ReactElement {
           academicObligatoryDone={academicObligatoryDone}
           academicElectiveDone={academicElectiveDone}
           totalHours={curriculum.totalHours}
-          totalHoursObligatory={curriculum?.totalHoursObligatory}
-          totalHoursElective={curriculum?.totalHoursElective}
+          totalHoursObligatory={curriculum.totalHoursObligatory}
+          totalHoursElective={curriculum.totalHoursElective}
         />
         <NextSteps />
       </SimpleGrid>
