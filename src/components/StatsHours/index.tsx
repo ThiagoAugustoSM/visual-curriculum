@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Progress, Text } from '@chakra-ui/react';
+import { Box, Flex, Progress, Text } from '@chakra-ui/react';
 
 type HourStatsProps = {
   title: string;
@@ -22,14 +22,13 @@ const HourStats = ({
       overflow="hidden"
       m="3"
     >
-      <Box
+      <Flex
         p="4"
-        d="flex"
         flexDir="column"
         alignItems="flex-start"
         justifyContent="center"
       >
-        <Text as="h4" fontWeight="semibold" lineHeight="tight" isTruncated>
+        <Text as="h4" fontWeight="semibold" lineHeight="tight" noOfLines={1}>
           {title}
         </Text>
         <Box w="100%" mt="1">
@@ -53,7 +52,7 @@ const HourStats = ({
             HRs
           </Box>
         </Box>
-      </Box>
+      </Flex>
     </Box>
   );
 };

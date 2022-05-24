@@ -12,6 +12,8 @@ import {
   PopoverBody,
   UnorderedList,
   ListItem,
+  Flex,
+  Text,
 } from '@chakra-ui/react';
 import { AiOutlineLock } from 'react-icons/ai';
 import { DisciplineType } from '../../models/Curriculum';
@@ -105,7 +107,7 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
       overflow="hidden"
     >
       <Box p="4">
-        <Box d="flex" alignItems="center">
+        <Flex alignItems="center">
           <Badge
             borderRadius="full"
             colorScheme={badgeSemesterColor(semester)}
@@ -133,39 +135,40 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
                     <AiOutlineLock />
                   </Box>
                 </PopoverTrigger>
-
-                <PopoverContent
-                  d="flex"
-                  bgColor={popover.bgColor}
-                  color={popover.color}
-                  fontSize="12px"
-                  marginX="auto"
-                  maxW="200px"
-                  textTransform="uppercase"
-                >
-                  <PopoverArrow bgColor={popover.bgColor} />
-                  <PopoverHeader fontWeight="semibold">
-                    Pré-requisitos
-                  </PopoverHeader>
-                  <PopoverBody>
-                    <UnorderedList>
-                      {prerequisites.map((prerequisite) => (
-                        <ListItem key={prerequisite}>{prerequisite}</ListItem>
-                      ))}
-                    </UnorderedList>
-                  </PopoverBody>
-                </PopoverContent>
+                <Flex>
+                  <PopoverContent
+                    bgColor={popover.bgColor}
+                    color={popover.color}
+                    fontSize="12px"
+                    marginX="auto"
+                    maxW="200px"
+                    textTransform="uppercase"
+                  >
+                    <PopoverArrow bgColor={popover.bgColor} />
+                    <PopoverHeader fontWeight="semibold">
+                      Pré-requisitos
+                    </PopoverHeader>
+                    <PopoverBody>
+                      <UnorderedList>
+                        {prerequisites.map((prerequisite) => (
+                          <ListItem key={prerequisite}>{prerequisite}</ListItem>
+                        ))}
+                      </UnorderedList>
+                    </PopoverBody>
+                  </PopoverContent>
+                </Flex>
               </Popover>
             </Box>
           )}
-        </Box>
+        </Flex>
 
         <Box
+          overflow="hidden"
           as="h4"
-          mt="1"
           fontWeight="semibold"
-          lineHeight="tight"
-          isTruncated
+          mt="1"
+          whiteSpace="nowrap"
+          textOverflow="ellipsis"
         >
           {name}
         </Box>
