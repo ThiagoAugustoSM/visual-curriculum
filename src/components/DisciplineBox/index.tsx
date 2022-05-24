@@ -14,6 +14,7 @@ import {
   ListItem,
   Flex,
   Text,
+  useSlider,
 } from '@chakra-ui/react';
 import { AiOutlineLock } from 'react-icons/ai';
 import { DisciplineType } from '../../models/Curriculum';
@@ -50,6 +51,7 @@ type OnClickTypes = {
   id: string;
   isObligatory: boolean;
   hours: number;
+  prerequisites: string[];
 };
 
 type DisciplineBoxProps = {
@@ -68,6 +70,7 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
     credits,
     isObligatory,
   } = props;
+  const initalPrerequisiteState = prerequisites.length > 0 ? true : false;
   const { colorMode } = useColorMode();
   const [isActive, setIsActive] = useState(false);
   const [bgColor, setBgColor] = useState('white');
@@ -83,7 +86,7 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
       setBgColorDark('green.500');
     }
 
-    onClick({ isActive: !isActive, id, isObligatory, hours });
+    onClick({ isActive: !isActive, id, isObligatory, hours, prerequisites });
     setIsActive(!isActive);
   };
 
@@ -97,6 +100,8 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
   return (
     <Box
       id={id}
+      as="button"
+      disabled={initalPrerequisiteState}
       onClick={handleClick}
       bgColor={colorMode === 'light' ? bgColor : bgColorDark}
       borderRadius="lg"
