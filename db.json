@@ -1,0 +1,372 @@
+{
+  "api": {
+    "university": "UFPE - Universidade Federal de Pernambuco",
+    "course": "Engenharia da Computação",
+    "semesters": 10,
+    "totalHours": 4065,
+    "totalHoursObligatory": 3165,
+    "totalHoursElective": 900,
+    "disciplines": [
+      {
+        "name": "CALCULO DIFERENCIAL E INTEGRAL 1",
+        "code": "MA531",
+        "prerequisites": [],
+        "semester": 1,
+        "hours": 60,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "ALGEBRA VET LINEAR P/COMPUTACAO",
+        "code": "MA026",
+        "prerequisites": [],
+        "semester": 1,
+        "hours": 75,
+        "credits": 5,
+        "isObligatory": true
+      },
+      {
+        "name": "INTRODUCAO A PROGRAMACAO",
+        "code": "IF669",
+        "prerequisites": [],
+        "semester": 1,
+        "hours": 120,
+        "credits": 6,
+        "isObligatory": true
+      },
+      {
+        "name": "MATEMAT DISCRETA P/COMPUTACAO",
+        "code": "IF670",
+        "prerequisites": [],
+        "semester": 1,
+        "hours": 75,
+        "credits": 5,
+        "isObligatory": true
+      },
+      {
+        "name": "INTRODUCAO A COMPUTACAO",
+        "code": "IF668",
+        "prerequisites": [],
+        "semester": 1,
+        "hours": 45,
+        "credits": 2,
+        "isObligatory": true
+      },
+      {
+        "name": "CALCULO DIFERENCIAL E INTEGRAL 2",
+        "code": "MA027",
+        "prerequisites": ["MA531"],
+        "semester": 2,
+        "hours": 60,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "FISICA GERAL 1",
+        "code": "FI006",
+        "prerequisites": [],
+        "semester": 2,
+        "hours": 60,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "SISTEMAS DIGITAIS",
+        "code": "IF675",
+        "prerequisites": [],
+        "semester": 2,
+        "hours": 75,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "LOGICA PARA COMPUTACAO",
+        "code": "IF673",
+        "prerequisites": ["IF670"],
+        "semester": 2,
+        "hours": 75,
+        "credits": 5,
+        "isObligatory": true
+      },
+      {
+        "name": "ALGORITMOS E ESTRUTURAS DE DADOS",
+        "code": "IF672",
+        "prerequisites": ["IF669"],
+        "semester": 2,
+        "hours": 75,
+        "credits": 5,
+        "isObligatory": true
+      },
+      {
+        "name": "CALCULO DIFERENCIAL E INTEGRAL 3",
+        "code": "MA128",
+        "prerequisites": ["MA027"],
+        "semester": 3,
+        "hours": 60,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "FISICA GERAL 2",
+        "code": "FI007",
+        "prerequisites": [],
+        "semester": 3,
+        "hours": 60,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "INFORMATICA E SOCIEDADE",
+        "code": "IF679",
+        "prerequisites": [],
+        "semester": 3,
+        "hours": 75,
+        "credits": 5,
+        "isObligatory": true
+      },
+      {
+        "name": "INFRA-ESTRUTURA DE HARDWARE",
+        "code": "IF674",
+        "prerequisites": [],
+        "semester": 3,
+        "hours": 75,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "INFRA-ESTRUTURA DE SOFTWARE",
+        "code": "IF677",
+        "prerequisites": [],
+        "semester": 3,
+        "hours": 75,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "ESTATIST PROBABILIDADE COMPUTACAO",
+        "code": "ET586",
+        "prerequisites": [],
+        "semester": 4,
+        "hours": 75,
+        "credits": 5,
+        "isObligatory": true
+      },
+      {
+        "name": "FISICA EXPERIMENTAL 1",
+        "code": "FI021",
+        "prerequisites": [],
+        "semester": 4,
+        "hours": 45,
+        "credits": 1,
+        "isObligatory": true
+      },
+      {
+        "name": "FISICA GERAL 3",
+        "code": "FI108",
+        "prerequisites": [],
+        "semester": 4,
+        "hours": 60,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "GERENCIAMENTO DADOS E INFORMACAO",
+        "code": "IF685",
+        "prerequisites": [],
+        "semester": 4,
+        "hours": 75,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "INTERFACE HARDWARE-SOFTWARE",
+        "code": "IF817",
+        "prerequisites": [],
+        "semester": 4,
+        "hours": 75,
+        "credits": 3,
+        "isObligatory": true
+      },
+      {
+        "name": "MET. NUMERICOS COMPUTACIONAIS",
+        "code": "IF816",
+        "prerequisites": [],
+        "semester": 4,
+        "hours": 75,
+        "credits": 5,
+        "isObligatory": true
+      },
+      {
+        "name": "CIRCUITOS ELETRICOS 1A",
+        "code": "EL215",
+        "prerequisites": [],
+        "semester": 5,
+        "hours": 90,
+        "credits": 5,
+        "isObligatory": true
+      },
+      {
+        "name": "HISTORIA E FUTURO DA COMPUTACAO",
+        "code": "IF690",
+        "prerequisites": [],
+        "semester": 5,
+        "hours": 45,
+        "credits": 3,
+        "isObligatory": true
+      },
+      {
+        "name": "INFRA-ESTRUTURA DE COMUNICACAO",
+        "code": "IF678",
+        "prerequisites": [],
+        "semester": 5,
+        "hours": 75,
+        "credits": 5,
+        "isObligatory": true
+      },
+      {
+        "name": "PARADIGMAS LING.COMPUTACIONAIS",
+        "code": "IF686",
+        "prerequisites": [],
+        "semester": 5,
+        "hours": 75,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "SINAIS SISTEMAS P/ENG. COMPUTACAO",
+        "code": "ES413",
+        "prerequisites": [],
+        "semester": 5,
+        "hours": 75,
+        "credits": 5,
+        "isObligatory": true
+      },
+      {
+        "name": "ELETROMAGNETISMO 1",
+        "code": "ES238",
+        "prerequisites": [],
+        "semester": 6,
+        "hours": 75,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "ENGENHARIA SOFTWARE E SISTEMAS",
+        "code": "IF682",
+        "prerequisites": [],
+        "semester": 6,
+        "hours": 75,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "INFORMATICA TEORICA",
+        "code": "IF689",
+        "prerequisites": [],
+        "semester": 6,
+        "hours": 75,
+        "credits": 5,
+        "isObligatory": true
+      },
+      {
+        "name": "INGLES PARA COMPUTACAO",
+        "code": "LE530",
+        "prerequisites": [],
+        "semester": 6,
+        "hours": 75,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "INTRODUCAO DISPOS SEMICONDUTORES",
+        "code": "ES232",
+        "prerequisites": [],
+        "semester": 6,
+        "hours": 60,
+        "credits": 3,
+        "isObligatory": true
+      },
+      {
+        "name": "ELETRONICA 1",
+        "code": "ES238",
+        "prerequisites": [],
+        "semester": 7,
+        "hours": 75,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "PRINCIPIOS DE COMUNICACAO",
+        "code": "ES344",
+        "prerequisites": [],
+        "semester": 7,
+        "hours": 75,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "SERVOMECANISMO P/ ENG. COMPUTACAO",
+        "code": "ES414",
+        "prerequisites": [],
+        "semester": 7,
+        "hours": 75,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "SISTEMAS INTELIGENTES",
+        "code": "IF684",
+        "prerequisites": [],
+        "semester": 7,
+        "hours": 75,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "TEO.IMPLEMEN.LING. COMPUTACIONAIS",
+        "code": "IF688",
+        "prerequisites": [],
+        "semester": 7,
+        "hours": 75,
+        "credits": 4,
+        "isObligatory": true
+      },
+      {
+        "name": "METODOL EXPRESSAO TEC-CIENTIFICA",
+        "code": "IF676",
+        "prerequisites": [],
+        "semester": 8,
+        "hours": 75,
+        "credits": 5,
+        "isObligatory": true
+      },
+      {
+        "name": "PROJETO CO-DESENV. HARD-SOFTWARE",
+        "code": "IF822",
+        "prerequisites": [],
+        "semester": 8,
+        "hours": 75,
+        "credits": 3,
+        "isObligatory": true
+      },
+      {
+        "name": "ESTAGIO",
+        "code": "IF819",
+        "prerequisites": [],
+        "semester": 9,
+        "hours": 300,
+        "credits": 16,
+        "isObligatory": true
+      },
+      {
+        "name": "TRABALHO DE GRADUACAO",
+        "code": "IF813",
+        "prerequisites": [],
+        "semester": 10,
+        "hours": 150,
+        "credits": 7,
+        "isObligatory": true
+      }
+    ]
+  }
+}
