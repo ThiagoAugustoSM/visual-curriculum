@@ -50,7 +50,28 @@ function App(): React.ReactElement {
     <Box m="5">
       <Header />
       <Navigator />
-      <Box w="100%" maxH="60vh" overflow="scroll">
+      <Box
+        w="100%"
+        maxH="60vh"
+        overflow="scroll"
+        sx={{
+          '&::-webkit-scrollbar-corner': {
+            background: 'rgba(0, 0, 0, 0)',
+          },
+          '&::-webkit-scrollbar': {
+            height: '0.5rem',
+            width: '0.5rem',
+          },
+          '&::-webkit-scrollbar-track': {
+            borderRadius: '0.5rem',
+            background: 'rgb(57, 62, 72)',
+          },
+          '&::-webkit-scrollbar-thumb': {
+            background: 'rgb(177, 183, 190)',
+            borderRadius: '0.5rem',
+          },
+        }}
+      >
         {arrayOfSemesters.map((semester) => (
           <Flex key={`rows-${semester}`}>
             {curriculum?.disciplines
