@@ -13,8 +13,6 @@ import {
   UnorderedList,
   ListItem,
   Flex,
-  Text,
-  useSlider,
 } from '@chakra-ui/react';
 import { AiOutlineLock } from 'react-icons/ai';
 import { DisciplineType } from '../../models/Curriculum';
