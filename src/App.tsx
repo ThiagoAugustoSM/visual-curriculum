@@ -17,7 +17,6 @@ function App(): React.ReactElement {
   const [academicElectiveDone, setAcademicElectiveDone] = useState(0);
 
   const handleClick = ({ isActive, isObligatory, hours, prerequisites }) => {
-    //console.log(prerequisites);
     if (isActive) {
       if (isObligatory) {
         setAcademicObligatoryDone(academicObligatoryDone + hours);
@@ -45,7 +44,6 @@ function App(): React.ReactElement {
     { length: curriculum?.semesters },
     (_, i) => i + 1
   );
-  //console.log(curriculum);
   return (
     <Box m="5">
       <Header />
@@ -80,7 +78,6 @@ function App(): React.ReactElement {
                 <DisciplineBox
                   key={item.name}
                   id={item.code}
-                  //onClick={() => console.log(item)}
                   onClick={handleClick}
                   {...item}
                 />
