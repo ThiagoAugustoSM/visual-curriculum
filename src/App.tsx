@@ -6,8 +6,14 @@ import DisciplineBox from './components/DisciplineBox';
 import StatsContainer from './components/StatsContainer';
 import NextSteps from './components/NextSteps';
 import Footer from './components/Footer';
+import localForage from 'localforage';
+import { CurriculumType, DisciplineType, Itime } from './models/Curriculum';
 
-import { CurriculumType } from './models/Curriculum';
+localForage.config({
+  name: 'cv',
+  description: 'save changes',
+  storeName: 'disciplines',
+});
 
 function App(): React.ReactElement {
   const [curriculum, setCurriculum] = useState<
@@ -17,7 +23,7 @@ function App(): React.ReactElement {
   const [academicObligatoryDone, setAcademicObligatoryDone] = useState(0);
   const [academicElectiveDone, setAcademicElectiveDone] = useState(0);
 
-  const handleClick = ({ isActive, isObligatory, hours }) => {
+  const handleClick = ({ isActive, isObligatory, hours, id }) => {
     if (isActive) {
       if (isObligatory) {
         setAcademicObligatoryDone(academicObligatoryDone + hours);
@@ -33,6 +39,16 @@ function App(): React.ReactElement {
       }
       setAcademicTotalDone(academicTotalDone - hours);
     }
+    const newData = curriculum;
+    const discipline = newData.disciplines.find((el) => el.code === id);
+    if (discipline) discipline.isActive = isActive;
+    setCurriculum(newData);
+    localForage.setItem('hours', {
+      total: academicTotalDone,
+      eletiva: academicElectiveDone,
+      obrigatoria: academicObligatoryDone,
+    });
+    localForage.setItem('disciplines', curriculum.disciplines);
   };
 
   useEffect(() => {
@@ -40,6 +56,30 @@ function App(): React.ReactElement {
       .then((response) => response.json())
       .then((json) => setCurriculum(json));
   }, []);
+
+  useEffect(() => {
+    async function loadData() {
+      const tempo: Itime | null = await localForage.getItem('hours');
+      if (tempo) {
+        setAcademicTotalDone(tempo.total);
+        setAcademicElectiveDone(tempo.eletiva);
+        setAcademicObligatoryDone(tempo.obrigatoria);
+      }
+      const data = curriculum;
+      const disciplines: [DisciplineType] | null = await localForage.getItem(
+        'disciplines'
+      );
+
+      if (disciplines !== null) {
+        disciplines.map((el) => {
+          el.isActive = el.isActive ?? false;
+        });
+        data.disciplines = disciplines;
+      }
+      setCurriculum(data);
+    }
+    loadData();
+  }, [curriculum]);
 
   const arrayOfSemesters = Array.from(
     { length: curriculum?.semesters },
