@@ -43,29 +43,20 @@ function App(): React.ReactElement {
     const discipline = newData.disciplines.find((el) => el.code === id);
     if (discipline) discipline.isActive = isActive;
     setCurriculum(newData);
-    localForage.setItem('hours', {
-      total: academicTotalDone,
-      eletiva: academicElectiveDone,
-      obrigatoria: academicObligatoryDone,
-    });
-    localForage.setItem('disciplines', curriculum.disciplines);
   };
 
   useEffect(() => {
-    fetch('http://localhost:3000/api')
-      .then((response) => response.json())
-      .then((json) => setCurriculum(json));
-  }, []);
-
-  useEffect(() => {
     async function loadData() {
+      const data: CurriculumType = await fetch(
+        'http://localhost:3000/api'
+      ).then((response) => response.json());
+
       const tempo: Itime | null = await localForage.getItem('hours');
-      if (tempo) {
+      if (tempo !== null) {
         setAcademicTotalDone(tempo.total);
         setAcademicElectiveDone(tempo.eletiva);
         setAcademicObligatoryDone(tempo.obrigatoria);
       }
-      const data = curriculum;
       const disciplines: [DisciplineType] | null = await localForage.getItem(
         'disciplines'
       );
@@ -73,13 +64,29 @@ function App(): React.ReactElement {
       if (disciplines !== null) {
         disciplines.map((el) => {
           el.isActive = el.isActive ?? false;
+          return el;
         });
         data.disciplines = disciplines;
       }
       setCurriculum(data);
     }
     loadData();
-  }, [curriculum]);
+  }, []);
+
+  useEffect(() => {
+    if (!academicTotalDone) return;
+    localForage.setItem('hours', {
+      total: academicTotalDone,
+      eletiva: academicElectiveDone,
+      obrigatoria: academicObligatoryDone,
+    });
+    localForage.setItem('disciplines', curriculum.disciplines);
+  }, [
+    academicObligatoryDone,
+    academicElectiveDone,
+    academicTotalDone,
+    curriculum.disciplines,
+  ]);
 
   const arrayOfSemesters = Array.from(
     { length: curriculum?.semesters },
