@@ -13,7 +13,6 @@ import {
   UnorderedList,
   ListItem,
   Flex,
-  Text,
 } from '@chakra-ui/react';
 import { AiOutlineLock } from 'react-icons/ai';
 import { DisciplineType } from '../../models/Curriculum';
@@ -67,9 +66,9 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
     hours,
     credits,
     isObligatory,
+    isActive,
   } = props;
   const { colorMode } = useColorMode();
-  const [isActive, setIsActive] = useState(false);
   const [bgColor, setBgColor] = useState('white');
   const [bgColorDark, setBgColorDark] = useState('');
   const [popover, setPopover] = useState({ bgColor: '', color: '' });
@@ -84,15 +83,21 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
     }
 
     onClick({ isActive: !isActive, id, isObligatory, hours });
-    setIsActive(!isActive);
   };
 
   useEffect(() => {
+    if (isActive !== true) {
+      setBgColor('white');
+      setBgColorDark('gray.800');
+    } else {
+      setBgColor('green.200');
+      setBgColorDark('green.500');
+    }
     setPopover({
       bgColor: colorMode === 'light' ? 'white' : 'gray.800',
       color: colorMode === 'light' ? 'gray.500' : 'gray.400',
     });
-  }, [colorMode]);
+  }, [colorMode, isActive]);
 
   return (
     <Box
