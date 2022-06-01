@@ -6,6 +6,7 @@ export type DisciplineType = {
   hours: number;
   credits: number;
   isObligatory: true;
+  isActive: boolean;
 };
 
 export type CurriculumType = {
@@ -16,4 +17,17 @@ export type CurriculumType = {
   totalHoursObligatory: number;
   totalHoursElective: number;
   disciplines: [DisciplineType];
+};
+
+export interface Itime {
+  total: number;
+  obrigatoria: number;
+  eletiva: number;
+}
+
+export type OnClickTypes = {
+  isActive: boolean;
+  id: string;
+  isObligatory: boolean;
+  hours: number;
 };

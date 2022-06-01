@@ -6,8 +6,19 @@ import DisciplineBox from './components/DisciplineBox';
 import StatsContainer from './components/StatsContainer';
 import NextSteps from './components/NextSteps';
 import Footer from './components/Footer';
-import { CurriculumType } from './models/Curriculum';
+import localForage from 'localforage';
+import {
+  CurriculumType,
+  DisciplineType,
+  Itime,
+  OnClickTypes,
+} from './models/Curriculum';
 
+localForage.config({
+  name: 'cv',
+  description: 'save changes',
+  storeName: 'disciplines',
+});
 function App(): React.ReactElement {
   const [curriculum, setCurriculum] = useState<
     CurriculumType | Record<string, never>
@@ -16,8 +27,7 @@ function App(): React.ReactElement {
   const [academicObligatoryDone, setAcademicObligatoryDone] = useState(0);
   const [academicElectiveDone, setAcademicElectiveDone] = useState(0);
 
-  const handleClick = ({ isActive, isObligatory, hours, prerequisites }) => {
-    //console.log(prerequisites);
+  const handleClick = ({ isActive, isObligatory, hours, id }: OnClickTypes) => {
     if (isActive) {
       if (isObligatory) {
         setAcademicObligatoryDone(academicObligatoryDone + hours);
@@ -33,19 +43,59 @@ function App(): React.ReactElement {
       }
       setAcademicTotalDone(academicTotalDone - hours);
     }
+    const newData = curriculum;
+    const discipline = newData.disciplines.find((el) => el.code === id);
+    if (discipline) discipline.isActive = isActive;
+    setCurriculum(newData);
   };
 
   useEffect(() => {
-    fetch('http://localhost:3000/api')
-      .then((response) => response.json())
-      .then((json) => setCurriculum(json));
+    async function loadData() {
+      const data: CurriculumType = await fetch(
+        'http://localhost:3000/api'
+      ).then((response) => response.json());
+
+      const tempo: Itime | null = await localForage.getItem('hours');
+      if (tempo !== null) {
+        setAcademicTotalDone(tempo.total);
+        setAcademicElectiveDone(tempo.eletiva);
+        setAcademicObligatoryDone(tempo.obrigatoria);
+      }
+      const disciplines: [DisciplineType] | null = await localForage.getItem(
+        'disciplines'
+      );
+
+      if (disciplines !== null) {
+        disciplines.map((el) => {
+          el.isActive = el.isActive ?? false;
+          return el;
+        });
+        data.disciplines = disciplines;
+      }
+      setCurriculum(data);
+    }
+    loadData();
   }, []);
+
+  useEffect(() => {
+    if (!academicTotalDone) return;
+    localForage.setItem('hours', {
+      total: academicTotalDone,
+      eletiva: academicElectiveDone,
+      obrigatoria: academicObligatoryDone,
+    });
+    localForage.setItem('disciplines', curriculum.disciplines);
+  }, [
+    academicObligatoryDone,
+    academicElectiveDone,
+    academicTotalDone,
+    curriculum.disciplines,
+  ]);
 
   const arrayOfSemesters = Array.from(
     { length: curriculum?.semesters },
     (_, i) => i + 1
   );
-  //console.log(curriculum);
   return (
     <Box m="5">
       <Header />
@@ -59,7 +109,6 @@ function App(): React.ReactElement {
                 <DisciplineBox
                   key={item.name}
                   id={item.code}
-                  //onClick={() => console.log(item)}
                   onClick={handleClick}
                   {...item}
                 />

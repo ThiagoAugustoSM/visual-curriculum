@@ -15,7 +15,7 @@ import {
   Flex,
 } from '@chakra-ui/react';
 import { AiOutlineLock } from 'react-icons/ai';
-import { DisciplineType } from '../../models/Curriculum';
+import { DisciplineType, OnClickTypes } from '../../models/Curriculum';
 
 const badgeSemesterColor = (semester: number) => {
   switch (semester) {
@@ -44,14 +44,6 @@ const badgeSemesterColor = (semester: number) => {
   }
 };
 
-type OnClickTypes = {
-  isActive: boolean;
-  id: string;
-  isObligatory: boolean;
-  hours: number;
-  prerequisites: string[];
-};
-
 type DisciplineBoxProps = {
   id: string;
   onClick: (params: OnClickTypes) => void;
@@ -67,10 +59,10 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
     hours,
     credits,
     isObligatory,
+    isActive,
   } = props;
   const initalPrerequisiteState = prerequisites.length > 0 ? true : false;
   const { colorMode } = useColorMode();
-  const [isActive, setIsActive] = useState(false);
   const [bgColor, setBgColor] = useState('white');
   const [bgColorDark, setBgColorDark] = useState('');
   const [popover, setPopover] = useState({ bgColor: '', color: '' });
@@ -84,16 +76,21 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
       setBgColorDark('green.500');
     }
 
-    onClick({ isActive: !isActive, id, isObligatory, hours, prerequisites });
-    setIsActive(!isActive);
+    onClick({ isActive: !isActive, id, isObligatory, hours });
   };
-
   useEffect(() => {
+    if (isActive !== true) {
+      setBgColor('white');
+      setBgColorDark('gray.800');
+    } else {
+      setBgColor('green.200');
+      setBgColorDark('green.500');
+    }
     setPopover({
       bgColor: colorMode === 'light' ? 'white' : 'gray.800',
       color: colorMode === 'light' ? 'gray.500' : 'gray.400',
     });
-  }, [colorMode]);
+  }, [colorMode, isActive]);
 
   return (
     <Box
