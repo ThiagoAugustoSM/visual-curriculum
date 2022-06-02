@@ -46,7 +46,7 @@ const badgeSemesterColor = (semester: number) => {
 
 type DisciplineBoxProps = {
   id: string;
-  onClick: (params: OnClickTypes) => void;
+  onClick: (params: OnClickTypes) => boolean;
 } & DisciplineType;
 
 const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
@@ -61,23 +61,33 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
     isObligatory,
     isActive,
   } = props;
-  const initalPrerequisiteState = prerequisites.length > 0 ? true : false;
+  const [disabled, setDisabled] = useState<boolean>(false);
   const { colorMode } = useColorMode();
   const [bgColor, setBgColor] = useState('white');
   const [bgColorDark, setBgColorDark] = useState('');
   const [popover, setPopover] = useState({ bgColor: '', color: '' });
 
   const handleClick = () => {
-    if (isActive === true) {
-      setBgColor('white');
-      setBgColorDark('gray.800');
-    } else {
-      setBgColor('green.200');
-      setBgColorDark('green.500');
+    const verif = onClick({
+      isActive: !isActive,
+      id,
+      isObligatory,
+      hours,
+      setDisabled,
+    });
+    if (!verif) {
+      if (!disabled) {
+        if (isActive === true) {
+          setBgColor('white');
+          setBgColorDark('gray.800');
+        } else {
+          setBgColor('green.200');
+          setBgColorDark('green.500');
+        }
+      }
     }
-
-    onClick({ isActive: !isActive, id, isObligatory, hours });
   };
+
   useEffect(() => {
     if (isActive !== true) {
       setBgColor('white');
@@ -96,7 +106,6 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
     <Box
       id={id}
       as="button"
-      disabled={initalPrerequisiteState}
       onClick={handleClick}
       bgColor={colorMode === 'light' ? bgColor : bgColorDark}
       borderRadius="lg"

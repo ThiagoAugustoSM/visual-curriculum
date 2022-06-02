@@ -30,4 +30,5 @@ export type OnClickTypes = {
   id: string;
   isObligatory: boolean;
   hours: number;
+  setDisabled: React.Dispatch<React.SetStateAction<boolean>>;
 };
