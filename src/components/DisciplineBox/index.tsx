@@ -15,7 +15,7 @@ import {
   Flex,
 } from '@chakra-ui/react';
 import { AiOutlineLock } from 'react-icons/ai';
-import { DisciplineType } from '../../models/Curriculum';
+import { DisciplineType, OnClickTypes } from '../../models/Curriculum';
 
 const badgeSemesterColor = (semester: number) => {
   switch (semester) {
@@ -44,16 +44,9 @@ const badgeSemesterColor = (semester: number) => {
   }
 };
 
-type OnClickTypes = {
-  isActive: boolean;
-  id: string;
-  isObligatory: boolean;
-  hours: number;
-};
-
 type DisciplineBoxProps = {
   id: string;
-  onClick: (params: OnClickTypes) => void;
+  onClick: (params: OnClickTypes) => boolean;
 } & DisciplineType;
 
 const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
@@ -68,21 +61,31 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
     isObligatory,
     isActive,
   } = props;
+  const [disabled, setDisabled] = useState<boolean>(false);
   const { colorMode } = useColorMode();
   const [bgColor, setBgColor] = useState('white');
   const [bgColorDark, setBgColorDark] = useState('');
   const [popover, setPopover] = useState({ bgColor: '', color: '' });
 
   const handleClick = () => {
-    if (isActive === true) {
-      setBgColor('white');
-      setBgColorDark('gray.800');
-    } else {
-      setBgColor('green.200');
-      setBgColorDark('green.500');
+    const verif = onClick({
+      isActive: !isActive,
+      id,
+      isObligatory,
+      hours,
+      setDisabled,
+    });
+    if (!verif) {
+      if (!disabled) {
+        if (isActive === true) {
+          setBgColor('white');
+          setBgColorDark('gray.800');
+        } else {
+          setBgColor('green.200');
+          setBgColorDark('green.500');
+        }
+      }
     }
-
-    onClick({ isActive: !isActive, id, isObligatory, hours });
   };
 
   useEffect(() => {
@@ -102,6 +105,7 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
   return (
     <Box
       id={id}
+      as="button"
       onClick={handleClick}
       bgColor={colorMode === 'light' ? bgColor : bgColorDark}
       borderRadius="lg"
