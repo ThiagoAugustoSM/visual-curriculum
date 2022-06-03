@@ -7,14 +7,18 @@ import StatsContainer from './components/StatsContainer';
 import NextSteps from './components/NextSteps';
 import Footer from './components/Footer';
 import localForage from 'localforage';
-import { CurriculumType, DisciplineType, Itime } from './models/Curriculum';
+import {
+  CurriculumType,
+  DisciplineType,
+  Itime,
+  OnClickTypes,
+} from './models/Curriculum';
 
 localForage.config({
   name: 'cv',
   description: 'save changes',
   storeName: 'disciplines',
 });
-
 function App(): React.ReactElement {
   const [curriculum, setCurriculum] = useState<
     CurriculumType | Record<string, never>
@@ -23,26 +27,66 @@ function App(): React.ReactElement {
   const [academicObligatoryDone, setAcademicObligatoryDone] = useState(0);
   const [academicElectiveDone, setAcademicElectiveDone] = useState(0);
 
-  const handleClick = ({ isActive, isObligatory, hours, id }) => {
-    if (isActive) {
-      if (isObligatory) {
-        setAcademicObligatoryDone(academicObligatoryDone + hours);
-      } else {
-        setAcademicElectiveDone(academicElectiveDone + hours);
-      }
-      setAcademicTotalDone(academicTotalDone + hours);
-    } else {
-      if (isObligatory) {
-        setAcademicObligatoryDone(academicObligatoryDone - hours);
-      } else {
-        setAcademicElectiveDone(academicElectiveDone - hours);
-      }
-      setAcademicTotalDone(academicTotalDone - hours);
-    }
+  const handleClick = (props: OnClickTypes): boolean => {
+    const { isActive, isObligatory, hours, id, setDisabled } = props;
     const newData = curriculum;
     const discipline = newData.disciplines.find((el) => el.code === id);
-    if (discipline) discipline.isActive = isActive;
-    setCurriculum(newData);
+    if (discipline) {
+      if (discipline.prerequisites.length) {
+        const requisiteSize = discipline.prerequisites.length;
+        let length = 0;
+        discipline.prerequisites.forEach((disciplineID) => {
+          const element = newData.disciplines.find(
+            (el) => disciplineID === el.code
+          );
+          if (element?.isActive) length++;
+        });
+        if (length === requisiteSize) {
+          if (isActive) {
+            if (isObligatory) {
+              setAcademicObligatoryDone(academicObligatoryDone + hours);
+            } else {
+              setAcademicElectiveDone(academicElectiveDone + hours);
+            }
+            setAcademicTotalDone(academicTotalDone + hours);
+          } else {
+            if (isObligatory) {
+              setAcademicObligatoryDone(academicObligatoryDone - hours);
+            } else {
+              setAcademicElectiveDone(academicElectiveDone - hours);
+            }
+            setAcademicTotalDone(academicTotalDone - hours);
+          }
+          setDisabled(false);
+          discipline.isActive = isActive;
+          setCurriculum(newData);
+          return false;
+        } else {
+          setDisabled(true);
+          return true;
+        }
+      } else {
+        if (isActive) {
+          if (isObligatory) {
+            setAcademicObligatoryDone(academicObligatoryDone + hours);
+          } else {
+            setAcademicElectiveDone(academicElectiveDone + hours);
+          }
+          setAcademicTotalDone(academicTotalDone + hours);
+        } else {
+          if (isObligatory) {
+            setAcademicObligatoryDone(academicObligatoryDone - hours);
+          } else {
+            setAcademicElectiveDone(academicElectiveDone - hours);
+          }
+          setAcademicTotalDone(academicTotalDone - hours);
+        }
+        discipline.isActive = isActive;
+        setCurriculum(newData);
+        return false;
+      }
+    }
+    return true;
   };
 
   useEffect(() => {
@@ -92,7 +136,6 @@ function App(): React.ReactElement {
     { length: curriculum?.semesters },
     (_, i) => i + 1
   );
-
   return (
     <Box m="5">
       <Header />

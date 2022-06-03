@@ -24,3 +24,11 @@ export interface Itime {
   obrigatoria: number;
   eletiva: number;
 }
+
+export type OnClickTypes = {
+  isActive: boolean;
+  id: string;
+  isObligatory: boolean;
+  hours: number;
+  setDisabled: React.Dispatch<React.SetStateAction<boolean>>;
+};
