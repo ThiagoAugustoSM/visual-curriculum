@@ -7,6 +7,7 @@ import StatsContainer from '../../components/StatsContainer';
 import NextSteps from '../../components/NextSteps';
 import Footer from '../../components/Footer';
 import localForage from 'localforage';
+import setAcademicHours from '../../utils/setAcademicHours';
 import {
   CurriculumType,
   DisciplineType,
@@ -28,6 +29,12 @@ function Home(): React.ReactElement {
   const [academicObligatoryDone, setAcademicObligatoryDone] = useState(0);
   const [academicElectiveDone, setAcademicElectiveDone] = useState(0);
 
+  const setters = {
+    setAcademicObligatoryDone,
+    setAcademicElectiveDone,
+    setAcademicTotalDone,
+  };
+
   const handleClick = (props: OnClickTypes): boolean => {
     const { isActive, isObligatory, hours, id, setDisabled } = props;
     const newData = curriculum;
@@ -43,21 +50,7 @@ function Home(): React.ReactElement {
           if (element?.isActive) length++;
         });
         if (length === requisiteSize) {
-          if (isActive) {
-            if (isObligatory) {
-              setAcademicObligatoryDone(academicObligatoryDone + hours);
-            } else {
-              setAcademicElectiveDone(academicElectiveDone + hours);
-            }
-            setAcademicTotalDone(academicTotalDone + hours);
-          } else {
-            if (isObligatory) {
-              setAcademicObligatoryDone(academicObligatoryDone - hours);
-            } else {
-              setAcademicElectiveDone(academicElectiveDone - hours);
-            }
-            setAcademicTotalDone(academicTotalDone - hours);
-          }
+          setAcademicHours(setters, isActive, isObligatory, hours);
           setDisabled(false);
           discipline.isActive = isActive;
           setCurriculum(newData);
@@ -67,21 +60,7 @@ function Home(): React.ReactElement {
           return true;
         }
       } else {
-        if (isActive) {
-          if (isObligatory) {
-            setAcademicObligatoryDone(academicObligatoryDone + hours);
-          } else {
-            setAcademicElectiveDone(academicElectiveDone + hours);
-          }
-          setAcademicTotalDone(academicTotalDone + hours);
-        } else {
-          if (isObligatory) {
-            setAcademicObligatoryDone(academicObligatoryDone - hours);
-          } else {
-            setAcademicElectiveDone(academicElectiveDone - hours);
-          }
-          setAcademicTotalDone(academicTotalDone - hours);
-        }
+        setAcademicHours(setters, isActive, isObligatory, hours);
         discipline.isActive = isActive;
         setCurriculum(newData);
         return false;
