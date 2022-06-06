@@ -14,6 +14,7 @@ import {
   Itime,
   OnClickTypes,
 } from '../../models/Curriculum';
+import disciplineData from '../../utils/requestDisciplines';
 
 localForage.config({
   name: 'cv',
@@ -71,9 +72,7 @@ function Home(): React.ReactElement {
 
   useEffect(() => {
     async function loadData() {
-      const data: CurriculumType = await fetch(
-        'http://localhost:3000/api'
-      ).then((response) => response.json());
+      const data: CurriculumType = await disciplineData;
 
       const tempo: Itime | null = await localForage.getItem('hours');
       if (tempo !== null) {
@@ -178,5 +177,4 @@ function Home(): React.ReactElement {
     </Box>
   );
 }
-
 export default Home;
