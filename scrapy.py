@@ -1,5 +1,3 @@
-import fitz, json, re, sys
-
 HEADER_FONT_SIZE = 59.808998107910156
 
 def get_block_info(block: tuple) -> tuple:
@@ -131,6 +129,20 @@ def save_json_file(output_path: str, university_name: str, course_name: str,
             "totalHoursObligatory": obligatory_hours,
             "disciplines": disciplines,
         }, file, ensure_ascii=False, indent=2)
+
+def fill_disciplines_dependents(disciplines_list: list) -> list:
+    for discipline_i in disciplines_list:
+        discipline_i["dependents"] = []
+        for discipline_j in disciplines_list:
+            if discipline_i == discipline_j:
+                continue
+            else:
+                for item in discipline_j.prerequisites:
+                    if discipline_i.code == item["code"]:
+                        discipline_i["dependents"].append({
+                            "code": discipline_j.code
+                            })
+    return discipline_i
 
 def pdf_to_json(pdf_path: str, output_json: str):
     document = fitz.open(pdf_path)
@@ -295,7 +307,7 @@ def pdf_to_json_2(pdf_path: str, output_json: str):
         "equivalences": disc_equivalences,
         "prerequisites": disc_prerequisites,
     })
-    
+    print(disciplines)   
     save_json_file(output_json, university_name, course_name,
                    total_hours, elective_hours, obligatory_hours,
                    semesters, disciplines)
