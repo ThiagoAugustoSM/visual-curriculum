@@ -17,12 +17,8 @@ type ParamsType = {
 };
 
 function App(): React.ReactElement {
-  const {
-    loadCurriculum,
-    curriculum,
-    updateState,
-    completed,
-  } = useCurriculum();
+  const { loadCurriculum, curriculum, updateState, completed } =
+    useCurriculum();
   const params = useParams<ParamsType>();
 
   useEffect(() => {

@@ -26,11 +26,7 @@ const StatsContainer = ({
         Aproveitamento Acadêmico
       </Heading>
       <Box w="100%" d="flex" flexWrap="wrap">
-        <StatsHours
-          title="Total"
-          partial={academicTotal}
-          total={totalHours}
-        />
+        <StatsHours title="Total" partial={academicTotal} total={totalHours} />
         <StatsHours
           title="Obrigatória"
           partial={academicObligatory}

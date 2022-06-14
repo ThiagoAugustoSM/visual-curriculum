@@ -19,7 +19,7 @@ export default class Service {
   ): Promise<CurriculumType | Record<string, never>> {
     try {
       const response = await fetch(`/university/${university}/${course}.json`);
-      return response.json() as Promise<CurriculumType>;
+      return await (response.json() as Promise<CurriculumType>);
     } catch (err) {
       console.error(err);
       return {};
