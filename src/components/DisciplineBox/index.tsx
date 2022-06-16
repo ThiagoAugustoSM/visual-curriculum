@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-
 import {
   useColorMode,
   Box,
@@ -15,7 +14,7 @@ import {
   Flex,
 } from '@chakra-ui/react';
 import { AiOutlineLock } from 'react-icons/ai';
-import { DisciplineType, OnClickTypes } from '../../models/Curriculum';
+import { DisciplineBoxProps } from '../../models/Curriculum';
 
 const badgeSemesterColor = (semester: number) => {
   switch (semester) {
@@ -43,11 +42,6 @@ const badgeSemesterColor = (semester: number) => {
       return 'gray';
   }
 };
-
-type DisciplineBoxProps = {
-  id: string;
-  onClick: (params: OnClickTypes) => boolean;
-} & DisciplineType;
 
 const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
   const {
@@ -111,7 +105,7 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
       borderRadius="lg"
       borderWidth="1px"
       m="3"
-      maxW="sm"
+      maxW="300px"
       minW="245px"
       overflow="hidden"
     >
@@ -160,7 +154,9 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
                     <PopoverBody>
                       <UnorderedList>
                         {prerequisites.map((prerequisite) => (
-                          <ListItem key={prerequisite}>{prerequisite}</ListItem>
+                          <ListItem key={prerequisite.code}>
+                            {prerequisite.name}
+                          </ListItem>
                         ))}
                       </UnorderedList>
                     </PopoverBody>

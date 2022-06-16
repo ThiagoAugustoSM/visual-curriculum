@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react';
-import { Box, SimpleGrid, Flex } from '@chakra-ui/react';
-import Header from '../components/Header';
-import Navigator from '../components/Navigator';
-import DisciplineBox from '../components/DisciplineBox';
-import StatsContainer from '../components/StatsContainer';
-import NextSteps from '../components/NextSteps';
-import Footer from '../components/Footer';
+import { Box, SimpleGrid, Grid } from '@chakra-ui/react';
+import Header from '../../components/Header';
+import Navigator from '../../components/Navigator';
+import DisciplineBox from '../../components/DisciplineBox';
+import StatsContainer from '../../components/StatsContainer';
+import NextSteps from '../../components/NextSteps';
+import Footer from '../../components/Footer';
 import localForage from 'localforage';
 import {
   CurriculumType,
   DisciplineType,
   Itime,
   OnClickTypes,
-} from '../models/Curriculum';
+} from '../../models/Curriculum';
 
 localForage.config({
   name: 'cv',
@@ -38,7 +38,7 @@ function Home(): React.ReactElement {
         let length = 0;
         discipline.prerequisites.forEach((disciplineID) => {
           const element = newData.disciplines.find(
-            (el) => disciplineID === el.code
+            (el) => disciplineID.code === el.code
           );
           if (element?.isActive) length++;
         });
@@ -122,7 +122,7 @@ function Home(): React.ReactElement {
     if (!academicTotalDone) return;
     localForage.setItem('hours', {
       total: academicTotalDone,
-     eletiva: academicElectiveDone,
+      eletiva: academicElectiveDone,
       obrigatoria: academicObligatoryDone,
     });
     localForage.setItem('disciplines', curriculum.disciplines);
@@ -141,11 +141,17 @@ function Home(): React.ReactElement {
     <Box m="5">
       <Header />
       <Navigator />
-      <Box w="100%" maxH="60vh" overflow="scroll">
+      <Box w="100%" maxWidth="1700px" maxH="60vh" overflow="scroll">
         {arrayOfSemesters.map((semester) => (
-          <Flex key={`rows-${semester}`}>
+          <Grid
+            maxW="1600px"
+            key={`rows-${semester}`}
+            templateColumns="repeat(5, 1fr)"
+            gap={1}
+          >
             {curriculum?.disciplines
               .filter((item) => item.semester === semester)
+              .filter((item) => item.isObligatory)
               .map((item) => (
                 <DisciplineBox
                   key={item.name}
@@ -154,7 +160,28 @@ function Home(): React.ReactElement {
                   {...item}
                 />
               ))}
-          </Flex>
+          </Grid>
+        ))}
+        <hr style={{ maxWidth: 'calc(100% - 10px)' }} />
+        {arrayOfSemesters.map((semester) => (
+          <Grid
+            maxW="1600px"
+            key={`rows-${semester}`}
+            templateColumns="repeat(5, 1fr)"
+            gap={1}
+          >
+            {curriculum?.disciplines
+              .filter((item) => item.semester === semester)
+              .filter((item) => !item.isObligatory)
+              .map((item) => (
+                <DisciplineBox
+                  key={item.name}
+                  id={item.code}
+                  onClick={handleClick}
+                  {...item}
+                />
+              ))}
+          </Grid>
         ))}
       </Box>
       <SimpleGrid columns={[1, 2]} spacing="5">
@@ -173,4 +200,4 @@ function Home(): React.ReactElement {
   );
 }
 
-export default Home; 
+export default Home;

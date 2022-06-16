@@ -1,7 +1,12 @@
+interface IpreRequisites {
+  name: string;
+  code: string;
+}
+
 export type DisciplineType = {
   name: string;
   code: string;
-  prerequisites: [string];
+  prerequisites: IpreRequisites[];
   semester: number;
   hours: number;
   credits: number;
@@ -32,3 +37,8 @@ export type OnClickTypes = {
   hours: number;
   setDisabled: React.Dispatch<React.SetStateAction<boolean>>;
 };
+
+export type DisciplineBoxProps = {
+  id: string;
+  onClick: (params: OnClickTypes) => boolean;
+} & DisciplineType;
