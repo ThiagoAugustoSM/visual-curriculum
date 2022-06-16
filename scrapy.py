@@ -1,5 +1,5 @@
-import fitz, json, re, sys
-
+import sys, fitz
+import re, json
 HEADER_FONT_SIZE = 59.808998107910156
 
 def get_block_info(block: tuple) -> tuple:
@@ -116,7 +116,8 @@ def get_equivalence_and_prereq_values(string: str,
         else: pre_req = splitted_string[0]
         disc_prerequisites = get_equivalences(pre_req)
         is_prerequisite = False
-    return is_equivalence, is_prerequisite, disc_prerequisites, disc_equivalences
+    return (is_equivalence, is_prerequisite,
+            disc_prerequisites, disc_equivalences)
 
 def save_json_file(output_path: str, university_name: str, course_name: str,
                    total_hours: int, elective_hours: int, obligatory_hours: int,
@@ -131,6 +132,18 @@ def save_json_file(output_path: str, university_name: str, course_name: str,
             "totalHoursObligatory": obligatory_hours,
             "disciplines": disciplines,
         }, file, ensure_ascii=False, indent=2)
+
+def get_dependents_value(discipline_list: list) -> list:
+
+    for discipline in discipline_list:
+        for item in discipline['prerequisites']:
+            for x in discipline_list:
+                if x['code'] == item['code']:
+                    x['dependents'].append({
+                        'code': discipline['code'],
+                        'name': discipline['name']
+                        })
+    return discipline_list
 
 def pdf_to_json(pdf_path: str, output_json: str):
     document = fitz.open(pdf_path)
@@ -181,6 +194,7 @@ def pdf_to_json(pdf_path: str, output_json: str):
                         "semester": current_semester,
                         "equivalences": disc_equivalences,
                         "prerequisites": disc_prerequisites,
+                        "dependents": [],
                     })
                     ementa = ""
                     disc_equivalences = []
@@ -208,8 +222,10 @@ def pdf_to_json(pdf_path: str, output_json: str):
         "semester": current_semester,
         "equivalences": disc_equivalences,
         "prerequisites": disc_prerequisites,
+        "dependents": [],
     })
-
+    
+    get_dependents_value(disciplines)
     save_json_file(output_json, university_name, course_name,
                    total_hours, elective_hours, obligatory_hours,
                    semesters, disciplines)
@@ -265,6 +281,7 @@ def pdf_to_json_2(pdf_path: str, output_json: str):
                         "isObligatory": disc_type,
                         "equivalences": disc_equivalences,
                         "prerequisites": disc_prerequisites,
+                        "dependents": [],
                     })
                     ementa = ""
                     disc_equivalences = []
@@ -294,11 +311,16 @@ def pdf_to_json_2(pdf_path: str, output_json: str):
         "isObligatory": disc_type,
         "equivalences": disc_equivalences,
         "prerequisites": disc_prerequisites,
+        "dependents": [],
     })
-    
+    get_dependents_value(disciplines)
+    print(disciplines)   
     save_json_file(output_json, university_name, course_name,
                    total_hours, elective_hours, obligatory_hours,
                    semesters, disciplines)
 
 if __name__ == "__main__":
-    pdf_to_json_2(sys.argv[1], sys.argv[2])
+    if sys.argv[1] in ['cc', 'si']:
+        pdf_to_json(sys.argv[2], sys.argv[3])
+    elif sys.argv[1] == 'ec':
+        pdf_to_json_2(sys.argv[2], sys.argv[3])

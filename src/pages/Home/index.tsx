@@ -7,12 +7,14 @@ import StatsContainer from '../../components/StatsContainer';
 import NextSteps from '../../components/NextSteps';
 import Footer from '../../components/Footer';
 import localForage from 'localforage';
+import setAcademicHours from '../../utils/setAcademicHours';
 import {
   CurriculumType,
   DisciplineType,
   Itime,
   OnClickTypes,
 } from '../../models/Curriculum';
+import disciplineData from '../../utils/requestDisciplines';
 
 localForage.config({
   name: 'cv',
@@ -27,6 +29,12 @@ function Home(): React.ReactElement {
   const [academicTotalDone, setAcademicTotalDone] = useState(0);
   const [academicObligatoryDone, setAcademicObligatoryDone] = useState(0);
   const [academicElectiveDone, setAcademicElectiveDone] = useState(0);
+
+  const setters = {
+    setAcademicObligatoryDone,
+    setAcademicElectiveDone,
+    setAcademicTotalDone,
+  };
 
   const handleClick = (props: OnClickTypes): boolean => {
     const { isActive, isObligatory, hours, id, setDisabled } = props;
@@ -43,21 +51,7 @@ function Home(): React.ReactElement {
           if (element?.isActive) length++;
         });
         if (length === requisiteSize) {
-          if (isActive) {
-            if (isObligatory) {
-              setAcademicObligatoryDone(academicObligatoryDone + hours);
-            } else {
-              setAcademicElectiveDone(academicElectiveDone + hours);
-            }
-            setAcademicTotalDone(academicTotalDone + hours);
-          } else {
-            if (isObligatory) {
-              setAcademicObligatoryDone(academicObligatoryDone - hours);
-            } else {
-              setAcademicElectiveDone(academicElectiveDone - hours);
-            }
-            setAcademicTotalDone(academicTotalDone - hours);
-          }
+          setAcademicHours(setters, isActive, isObligatory, hours);
           setDisabled(false);
           discipline.isActive = isActive;
           setCurriculum(newData);
@@ -67,21 +61,7 @@ function Home(): React.ReactElement {
           return true;
         }
       } else {
-        if (isActive) {
-          if (isObligatory) {
-            setAcademicObligatoryDone(academicObligatoryDone + hours);
-          } else {
-            setAcademicElectiveDone(academicElectiveDone + hours);
-          }
-          setAcademicTotalDone(academicTotalDone + hours);
-        } else {
-          if (isObligatory) {
-            setAcademicObligatoryDone(academicObligatoryDone - hours);
-          } else {
-            setAcademicElectiveDone(academicElectiveDone - hours);
-          }
-          setAcademicTotalDone(academicTotalDone - hours);
-        }
+        setAcademicHours(setters, isActive, isObligatory, hours);
         discipline.isActive = isActive;
         setCurriculum(newData);
         return false;
@@ -92,9 +72,7 @@ function Home(): React.ReactElement {
 
   useEffect(() => {
     async function loadData() {
-      const data: CurriculumType = await fetch(
-        'http://localhost:3000/api'
-      ).then((response) => response.json());
+      const data: CurriculumType = await disciplineData;
 
       const tempo: Itime | null = await localForage.getItem('hours');
       if (tempo !== null) {
@@ -199,5 +177,4 @@ function Home(): React.ReactElement {
     </Box>
   );
 }
-
 export default Home;

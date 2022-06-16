@@ -30,6 +30,12 @@ export interface Itime {
   eletiva: number;
 }
 
+export type hoursSetterFuncTypes = {
+  setAcademicObligatoryDone: React.Dispatch<React.SetStateAction<number>>;
+  setAcademicElectiveDone: React.Dispatch<React.SetStateAction<number>>;
+  setAcademicTotalDone: React.Dispatch<React.SetStateAction<number>>;
+}
+
 export type OnClickTypes = {
   isActive: boolean;
   id: string;
