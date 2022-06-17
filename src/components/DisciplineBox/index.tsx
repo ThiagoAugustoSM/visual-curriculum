@@ -45,41 +45,29 @@ const badgeSemesterColor = (semester: number) => {
 
 const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
   const {
-    id,
     onClick,
+    id,
     name,
-    prerequisites,
-    semester,
     hours,
     credits,
-    isObligatory,
     isActive,
+    semester,
+    isObligatory,
+    prerequisites,
   } = props;
-  const [disabled, setDisabled] = useState<boolean>(false);
-  const { colorMode } = useColorMode();
   const [bgColor, setBgColor] = useState('white');
   const [bgColorDark, setBgColorDark] = useState('');
   const [popover, setPopover] = useState({ bgColor: '', color: '' });
 
+  const { colorMode } = useColorMode();
+
   const handleClick = () => {
-    const verif = onClick({
+    onClick({
       isActive: !isActive,
-      id,
       isObligatory,
       hours,
-      setDisabled,
+      id,
     });
-    if (!verif) {
-      if (!disabled) {
-        if (isActive === true) {
-          setBgColor('white');
-          setBgColorDark('gray.800');
-        } else {
-          setBgColor('green.200');
-          setBgColorDark('green.500');
-        }
-      }
-    }
   };
 
   useEffect(() => {

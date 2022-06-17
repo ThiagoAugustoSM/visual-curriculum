@@ -28,9 +28,23 @@ export default function CurriculumPage(): React.ReactElement {
   const [curriculum, setCurriculum] = useState<
     CurriculumType | Record<string, never>
   >({});
-  const [academicTotalDone, setAcademicTotalDone] = useState(0);
+  const [obligatory, setObligatory] = useState<Map<number, DisciplineType[]>>(
+    new Map()
+  );
+  const [electives, setElectives] = useState<Map<number, DisciplineType[]>>(
+    new Map()
+  );
+  const [activeDisciplines, setActiveDisciplines] = useState<Set<string>>(
+    new Set()
+  );
+  const [disciplineMap, setDisciplineMap] = useState<
+    Map<string, DisciplineType>
+  >(new Map());
+
   const [academicObligatoryDone, setAcademicObligatoryDone] = useState(0);
   const [academicElectiveDone, setAcademicElectiveDone] = useState(0);
+  const [academicTotalDone, setAcademicTotalDone] = useState(0);
+
   const params = useParams();
 
   const setters = {
@@ -39,64 +53,73 @@ export default function CurriculumPage(): React.ReactElement {
     setAcademicTotalDone,
   };
 
-  const handleClick = (props: OnClickTypes): boolean => {
-    const { isActive, isObligatory, hours, id, setDisabled } = props;
-    const newData = curriculum;
-    const discipline = newData.disciplines.find((el) => el.code === id);
-    if (discipline) {
-      if (discipline.prerequisites.length) {
-        const requisiteSize = discipline.prerequisites.length;
-        let length = 0;
-        discipline.prerequisites.forEach((disciplineID) => {
-          const element = newData.disciplines.find(
-            (el) => disciplineID.code === el.code
-          );
-          if (element?.isActive) length++;
-        });
-        if (length === requisiteSize) {
-          setAcademicHours(setters, isActive, isObligatory, hours);
-          setDisabled(false);
-          discipline.isActive = isActive;
-          setCurriculum(newData);
-          return false;
-        } else {
-          setDisabled(true);
-          return true;
+  const handleClick = (props: OnClickTypes) => {
+    const { id, isActive, isObligatory, hours } = props;
+    if (isActive) {
+      let hasAllPreRequisites = true;
+      disciplineMap.get(id)?.prerequisites.forEach((prerequisite) => {
+        if (!activeDisciplines.has(prerequisite.code)) {
+          hasAllPreRequisites = false;
         }
-      } else {
-        setAcademicHours(setters, isActive, isObligatory, hours);
-        discipline.isActive = isActive;
-        setCurriculum(newData);
-        return false;
-      }
+      });
+
+      if (!hasAllPreRequisites) return;
+
+      setAcademicHours(setters, isActive, isObligatory, hours);
+      setActiveDisciplines((currentDisciplines) => {
+        currentDisciplines.add(id);
+        return currentDisciplines;
+      });
+    } else {
+      setAcademicHours(setters, isActive, isObligatory, hours);
+      setActiveDisciplines((currentDisciplines) => {
+        currentDisciplines.delete(id);
+        return currentDisciplines;
+      });
     }
-    return true;
   };
 
   useEffect(() => {
     async function loadData() {
-      const data: CurriculumType = await requestDisciplines(
-        params.university as string,
-        params.course as string
-      );
+      const university = params.university as string;
+      const course = params.course as string;
+      const cacheID = `${university}-${course}`;
 
-      const tempo: Itime | null = await localForage.getItem('hours');
+      const data: CurriculumType = await requestDisciplines(university, course);
+      setDisciplineMap(new Map(data.disciplines.map((el) => [el.code, el])));
+
+      const tempObligatory: Map<number, DisciplineType[]> = new Map();
+      const tempElectives: Map<number, DisciplineType[]> = new Map();
+      data.disciplines.forEach((discipline) => {
+        const semester = discipline.semester;
+        if (discipline.isObligatory) {
+          if (!tempObligatory.has(semester)) {
+            tempObligatory.set(semester, []);
+          }
+          tempObligatory.get(semester)?.push(discipline);
+        } else {
+          if (!tempElectives.has(semester)) {
+            tempElectives.set(semester, []);
+          }
+          tempElectives.get(semester)?.push(discipline);
+        }
+      });
+
+      setObligatory(tempObligatory);
+      setElectives(tempElectives);
+      const tempo: Itime | null = await localForage.getItem(`${cacheID}-hours`);
       if (tempo !== null) {
         setAcademicTotalDone(tempo.total);
         setAcademicElectiveDone(tempo.eletiva);
         setAcademicObligatoryDone(tempo.obrigatoria);
       }
-      const disciplines: [DisciplineType] | null = await localForage.getItem(
-        'disciplines'
+      const disciplinesCode: string[] | null = await localForage.getItem(
+        `${cacheID}-disciplines`
       );
-
-      if (disciplines !== null) {
-        disciplines.map((el) => {
-          el.isActive = el.isActive ?? false;
-          return el;
-        });
-        data.disciplines = disciplines;
+      if (disciplinesCode !== null) {
+        setActiveDisciplines(new Set(disciplinesCode));
       }
+
       setCurriculum(data);
     }
     loadData();
@@ -104,67 +127,68 @@ export default function CurriculumPage(): React.ReactElement {
 
   useEffect(() => {
     if (!academicTotalDone) return;
-    localForage.setItem('hours', {
+    const university = params.university as string;
+    const course = params.course as string;
+    const cacheID = `${university}-${course}`;
+
+    localForage.setItem(`${cacheID}-hours`, {
       total: academicTotalDone,
       eletiva: academicElectiveDone,
       obrigatoria: academicObligatoryDone,
     });
-    localForage.setItem('disciplines', curriculum.disciplines);
+    localForage.setItem(
+      `${cacheID}-disciplines`,
+      Array.from(activeDisciplines)
+    );
   }, [
     academicObligatoryDone,
     academicElectiveDone,
     academicTotalDone,
-    curriculum.disciplines,
+    activeDisciplines,
+    params.university,
+    params.course,
   ]);
 
-  const arrayOfSemesters = Array.from(
-    { length: curriculum?.semesters },
-    (_, i) => i + 1
-  );
   return (
     <Box m="5">
       <Header />
       <Navigator />
       <Box w="100%" maxWidth="1700px" maxH="60vh" overflow="scroll">
-        {arrayOfSemesters.map((semester) => (
+        {Array.from(obligatory.entries()).map(([semester, disciplines]) => (
           <Grid
             maxW="1600px"
             key={`rows-${semester}`}
             templateColumns="repeat(5, 1fr)"
             gap={1}
           >
-            {curriculum?.disciplines
-              .filter((item) => item.semester === semester)
-              .filter((item) => item.isObligatory)
-              .map((item) => (
-                <DisciplineBox
-                  key={item.name}
-                  id={item.code}
-                  onClick={handleClick}
-                  {...item}
-                />
-              ))}
+            {disciplines.map((item) => (
+              <DisciplineBox
+                key={item.name}
+                id={item.code}
+                onClick={handleClick}
+                isActive={activeDisciplines.has(item.code)}
+                {...item}
+              />
+            ))}
           </Grid>
         ))}
         <hr style={{ maxWidth: 'calc(100% - 10px)' }} />
-        {arrayOfSemesters.map((semester) => (
+        {Array.from(electives.entries()).map(([semester, disciplines]) => (
           <Grid
             maxW="1600px"
             key={`rows-${semester}`}
             templateColumns="repeat(5, 1fr)"
             gap={1}
           >
-            {curriculum?.disciplines
-              .filter((item) => item.semester === semester)
-              .filter((item) => !item.isObligatory)
-              .map((item) => (
-                <DisciplineBox
-                  key={item.name}
-                  id={item.code}
-                  onClick={handleClick}
-                  {...item}
-                />
-              ))}
+            {disciplines.map((item) => (
+              <DisciplineBox
+                key={item.name}
+                id={item.code}
+                onClick={handleClick}
+                isActive={activeDisciplines.has(item.code)}
+                {...item}
+              />
+            ))}
           </Grid>
         ))}
       </Box>

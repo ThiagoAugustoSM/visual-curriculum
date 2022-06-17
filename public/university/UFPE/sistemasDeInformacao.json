@@ -2,9 +2,9 @@
   "university": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
   "course": "SISTEMAS DE INFORMAÇÃO",
   "semesters": 8,
-  "totalHours": 0,
-  "totalHoursElective": 1740,
-  "totalHoursObligatory": 29,
+  "totalHours": 3000,
+  "totalHoursElective": 1260,
+  "totalHoursObligatory": 1740,
   "disciplines": [
     {
       "name": "ADMINISTRAÇÃO CONTEMPORÂNEA",

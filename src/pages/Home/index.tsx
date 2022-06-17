@@ -15,12 +15,14 @@ function Home(): React.ReactElement {
         <Link to={`/UFPE/engenhariaDaComputacao`}>
           <Box
             m="3"
+            p="3"
             maxW="md"
-            minW="200px"
-            minH="200px"
+            minW="100px"
+            minH="100px"
             borderWidth="1px"
             borderRadius="lg"
             overflow="hidden"
+            textAlign="center"
           >
             <Text> UFPE - Engenharia da computação </Text>
           </Box>
@@ -28,12 +30,14 @@ function Home(): React.ReactElement {
         <Link to={`/UFPE/cienciaDaComputacao`}>
           <Box
             m="3"
+            p="3"
             maxW="md"
-            minW="200px"
-            minH="200px"
+            minW="100px"
+            minH="100px"
             borderWidth="1px"
             borderRadius="lg"
             overflow="hidden"
+            textAlign="center"
           >
             <Text> UFPE - Ciência da computação </Text>
           </Box>
@@ -41,12 +45,14 @@ function Home(): React.ReactElement {
         <Link to={`/UFPE/sistemasDeInformacao`}>
           <Box
             m="3"
+            p="3"
             maxW="md"
-            minW="200px"
-            minH="200px"
+            minW="100px"
+            minH="100px"
             borderWidth="1px"
             borderRadius="lg"
             overflow="hidden"
+            textAlign="center"
           >
             <Text> UFPE - Sistemas de informação </Text>
           </Box>

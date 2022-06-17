@@ -31,16 +31,6 @@ def get_hours(string: str) -> int:
 def get_semester(string: str) -> int:
     return int(re.findall("[0-9]+", string)[0])
 
-def get_discipline_infos(string: str) -> "tuple[str]":
-    (name, _type, _, _, total, credits) = string.split("\n")
-    disc_cod, disc_name = name.split("- ")
-    disc_credits = int(float(credits))
-    disc_type = _type == "OBRIG"
-    disc_hours = int(total)
-    
-    return (disc_cod, disc_name, disc_type, 
-            disc_hours, disc_credits)
-
 def get_equivalences(string: str) -> list:
     equivalence_list = []
     if "NÃO" in string:
@@ -218,6 +208,7 @@ def pdf_to_json(pdf_path: str, output_json: str):
                 disc_cod, disc_name = name.split("- ")
                 disc_credits = int(float(credits))
                 disc_type = "OBRIG" in _type
+                disc_cod = disc_cod.strip()
                 disc_hours = int(total)
             else:
                 (is_equivalence, is_prerequisite, 
@@ -301,6 +292,7 @@ def pdf_to_json_2(pdf_path: str, output_json: str):
                 disc_cod, disc_name = name.split("- ")
                 disc_credits = int(float(credits))
                 disc_type = "OBRIG" in _type
+                disc_cod = disc_cod.strip()
                 disc_hours = int(total)
                 semester = int(period)
                 semesters = max(semester, semesters)

@@ -8,7 +8,7 @@
   "disciplines": [
     {
       "name": "ALGEBRA VET LINEAR P/COMPUTACAO",
-      "code": "MA531 ",
+      "code": "MA531",
       "ementa": "",
       "hours": 75,
       "semester": 1,
@@ -21,11 +21,24 @@
         }
       ],
       "prerequisites": [],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF850",
+          "name": "PROCESSAMENTO GRAFICO"
+        },
+        {
+          "code": "MA533",
+          "name": "ALGEBRA LINEAR AVANC.P/COMPUTACAO"
+        },
+        {
+          "code": "IF777",
+          "name": "TOP.AVANC. MATEMAT. COMPUTACIONAL"
+        }
+      ]
     },
     {
       "name": "CALCULO DIFERENCIAL E INTEGRAL 1",
-      "code": "MA026 ",
+      "code": "MA026",
       "ementa": "LIMITES E CONTINUIDADE DE FUNÇÕES. DERIVADAS. APLICAÇÕES DA DERIVADA. TEOREMA DE ROLLE, TEOREMA DO VALOR MÉDIO E TEOREMA DO VALOR MÉDIO GENERALIZADO. INTEGRAIS DEFINIDAS. INTEGRAIS INDEFINIDAS. TÉCNICAS DE INTEGRAÇÃO.",
       "hours": 60,
       "semester": 1,
@@ -35,14 +48,18 @@
       "prerequisites": [],
       "dependents": [
         {
-          "code": "IF850 ",
-          "name": "PROCESSAMENTO GRAFICO"
+          "code": "MA027",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 2"
+        },
+        {
+          "code": "ET586",
+          "name": "ESTATIST PROBABILIDADE COMPUTACAO"
         }
       ]
     },
     {
       "name": "CALCULO DIFERENCIAL E INTEGRAL 2",
-      "code": "MA027 ",
+      "code": "MA027",
       "ementa": "TÉCNICAS DE INTEGRAÇÃO. DIFERENCIABILIDADE EM DUAS VARIÁVEIS. INTEGRAÇÃO EM DUAS VARIÁVEIS.",
       "hours": 60,
       "semester": 2,
@@ -55,11 +72,16 @@
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "MA128",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 3"
+        }
+      ]
     },
     {
       "name": "CALCULO DIFERENCIAL E INTEGRAL 3",
-      "code": "MA128 ",
+      "code": "MA128",
       "ementa": "SÉRIES, FÓRMULA DE TAYLOR. MÁXIMOS E MÍNIMOS. INTEGRAIS TRIPLAS. INTEGRAIS DE LINHA E DE SUPERFÍCIE. TEOREMAS DE GREEN, GAUSS E STOKES.",
       "hours": 60,
       "semester": 3,
@@ -79,14 +101,14 @@
       ],
       "dependents": [
         {
-          "code": "IF765 ",
-          "name": "ANALISE NUMERICA"
+          "code": "IF816",
+          "name": "MET. NUMERICOS COMPUTACIONAIS"
         }
       ]
     },
     {
       "name": "FISICA EXPERIMENTAL 1",
-      "code": "FI021 ",
+      "code": "FI021",
       "ementa": "CINEMÁTICA; ENERGIA MECÂNICA; COLISÕES; DINÂMICA DOS CORPOS RÍGIDOS; OSCILAÇÕES E ONDAS; HIDROSTÁTICA E TERMODINÂMICA.",
       "hours": 45,
       "semester": 4,
@@ -103,7 +125,7 @@
     },
     {
       "name": "FISICA GERAL 1",
-      "code": "FI006 ",
+      "code": "FI006",
       "ementa": "MOVIMENTO EM UMA DIMENSÃO; VETORES; MOVIMENTO EM UM PLANO; DINÂMICA DA PARTÍCULA; TRABALHO E ENERGIA; CONSERVAÇÃO DA ENERGIA; CONSERVAÇÃO DO MOMENTUM LINEAR; CHOQUES; CINEMÁTICA DA ROTAÇÃO; DINÂMICA DA ROTAÇÃO.",
       "hours": 60,
       "semester": 2,
@@ -111,11 +133,20 @@
       "isObligatory": true,
       "equivalences": [],
       "prerequisites": [],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "FI021",
+          "name": "FISICA EXPERIMENTAL 1"
+        },
+        {
+          "code": "FI007",
+          "name": "FISICA GERAL 2"
+        }
+      ]
     },
     {
       "name": "FISICA GERAL 2",
-      "code": "FI007 ",
+      "code": "FI007",
       "ementa": "GRAVITAÇÃO; FLUÍDOS; MOVIMENTO OSCILATÓRIO; ONDAS; SUPERPOSIÇÃO E INTERFERÊNCIA DE ONDAS HARMÔNICAS; TERMOLOGIA; LEIS DA TERMODINÂMICA; TEORIA CINÉTICA DOS GASES; EXPANSÃO TÉRMICA.",
       "hours": 60,
       "semester": 3,
@@ -128,11 +159,16 @@
           "name": "FISICA GERAL 1"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "FI108",
+          "name": "FISICA GERAL 3"
+        }
+      ]
     },
     {
       "name": "FISICA GERAL 3",
-      "code": "FI108 ",
+      "code": "FI108",
       "ementa": "CAMPO ELÉTRICO; POTENCIAL ELÉTRICO; CAPACITORES E DIELÉTRICOS; CIRCUITOS ELÉTRICOS; CAMPO MAGNÉTICO; LEI DE AMPÉRE; INDUÇÃO ELETROMAGNÉTICO.",
       "hours": 60,
       "semester": 4,
@@ -147,18 +183,22 @@
       ],
       "dependents": [
         {
-          "code": "EL215 ",
-          "name": "CIRCUITOS ELETRICOS 1A"
+          "code": "ES232",
+          "name": "INTRODUCAO DISPOS SEMICONDUTORES"
         },
         {
-          "code": "ES203 ",
-          "name": "ELETROMAGNETISMO 1"
+          "code": "IF832",
+          "name": "MEDIDAS DE RADIO-FREQUENCIA"
+        },
+        {
+          "code": "FI109",
+          "name": "FISICA GERAL 4"
         }
       ]
     },
     {
       "name": "INTRODUCAO A COMPUTACAO",
-      "code": "IF668 ",
+      "code": "IF668",
       "ementa": "O QUE É A INTERNET?",
       "hours": 45,
       "semester": 1,
@@ -166,11 +206,20 @@
       "isObligatory": true,
       "equivalences": [],
       "prerequisites": [],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF690",
+          "name": "HISTORIA E FUTURO DA COMPUTACAO"
+        },
+        {
+          "code": "IF676",
+          "name": "METODOL EXPRESSAO TEC-CIENTIFICA"
+        }
+      ]
     },
     {
       "name": "ALGORITMOS E ESTRUTURAS DE DADOS",
-      "code": "IF672 ",
+      "code": "IF672",
       "ementa": "INTRODUÇÃO À ANÁLISE DE ALGORITMOS; ELEMENTOS DE ESTRUTURAS DE DADOS; ALGORITMOS DE BUSCA; ALGORITMOS GEOMÉTRICOS; NOÇÕES DE BUSCAS POR EXAUSTÃO E PROBLEMA NP COMPLETOS; E APLICAÇÕES.",
       "hours": 75,
       "semester": 2,
@@ -190,22 +239,22 @@
       ],
       "dependents": [
         {
-          "code": "IF682 ",
-          "name": "ENGENHARIA SOFTWARE E SISTEMAS"
+          "code": "IF685",
+          "name": "GERENCIAMENTO DADOS E INFORMACAO"
         },
         {
-          "code": "IF689 ",
-          "name": "INFORMATICA TEORICA"
+          "code": "IF768",
+          "name": "TEORIA DE GRAFOS"
         },
         {
-          "code": "IF684 ",
-          "name": "SISTEMAS INTELIGENTES"
+          "code": "IF775",
+          "name": "TOPICOS AVANCADOS EM ALGORITMOS"
         }
       ]
     },
     {
       "name": "CIRCUITOS ELETRICOS 1A",
-      "code": "EL215 ",
+      "code": "EL215",
       "ementa": "ELEMENTOS DE CIRCUITOS. CIRCUITOS DE 1A. E 2A. ORDEM. REGIME SENOIDAL. INDUTÂNCIA.",
       "hours": 90,
       "semester": 5,
@@ -222,16 +271,11 @@
           "name": "MET. NUMERICOS COMPUTACIONAIS"
         }
       ],
-      "dependents": [
-        {
-          "code": "ES238 ",
-          "name": "ELETRONICA 1"
-        }
-      ]
+      "dependents": []
     },
     {
       "name": "ELETROMAGNETISMO 1",
-      "code": "ES203 ",
+      "code": "ES203",
       "ementa": "CAMPOS ELÉTRICOS E MAGNÉTICOS ESTACIONÁRIOS. CAMPOS ELÉTRICOS E MAGNÉTICOS VARIÁVEIS NO TEMPO. ONDAS.",
       "hours": 75,
       "semester": 6,
@@ -250,14 +294,14 @@
       ],
       "dependents": [
         {
-          "code": "ES292 ",
-          "name": "FOTONICA 1"
+          "code": "ES204",
+          "name": "ELETROMAGNETISMO 2"
         }
       ]
     },
     {
       "name": "ELETRONICA 1",
-      "code": "ES238 ",
+      "code": "ES238",
       "ementa": "COMPONENTES E DISPOSITIVOS. DIODO E TRANSISTOR COMO ELEMENTO DE CIRCUITO. TRANSISTOR EM COMUTAÇÃO E AMPLIFICAÇÃO. MODULADORES E DEMODULADORES. TRANSISTORES ESPECIAIS.",
       "hours": 75,
       "semester": 7,
@@ -276,18 +320,26 @@
       ],
       "dependents": [
         {
-          "code": "IF854 ",
-          "name": "DISPOSITIVOS MULTIMIDIA"
+          "code": "IF833",
+          "name": "INSTRUMENTACAO ELETRONICA"
         },
         {
-          "code": "ES285 ",
-          "name": "CIRCUITOS INTEGRADOS DIGITAIS 1"
+          "code": "IF733",
+          "name": "TRANSDUTORES"
+        },
+        {
+          "code": "IF861",
+          "name": "AQUISIC.PROCESS.SINAIS BIOLOGICOS"
+        },
+        {
+          "code": "IF862",
+          "name": "BIOSENSORES E NANOTECNOLOGIA"
         }
       ]
     },
     {
       "name": "ENGENHARIA SOFTWARE E SISTEMAS",
-      "code": "IF682 ",
+      "code": "IF682",
       "ementa": "DEFINIÇÃO E OBJETIVOS DA ENGENHARIA DE SOFTWARE; ATIVIDADES DA ENGENHARIA DE SOFTWARE; RECURSOS DA ENGENHARIA DE SOFTWARE; PLANEJAMENTO DO PROJETO E LEVANTAMENTO DE ESTIMATIVAS; GERENCIAMENTO DO PROJETO; ESPECIFICAÇÕES DE REQUISITOS; ANÁLISE E PROJETO; IMPLEMENTAÇÃO; DEPURAÇÃO E TESTES; CONTROLE DE QUALIDADE E INSPEÇÃO.",
       "hours": 75,
       "semester": 6,
@@ -309,11 +361,28 @@
           "name": "LOGICA PARA COMPUTACAO"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF822",
+          "name": "PROJETO CO-DESENV. HARD-SOFTWARE"
+        },
+        {
+          "code": "IF718",
+          "name": "ANALISE E PROJETOS DE SISTEMAS"
+        },
+        {
+          "code": "IF716",
+          "name": "ESPECIF.REQUIS.VALIDACAO SISTEMAS"
+        },
+        {
+          "code": "IF717",
+          "name": "PLANEJ. GERENCIAMENTO DE PROJETOS"
+        }
+      ]
     },
     {
       "name": "ESTAGIO",
-      "code": "IF819 ",
+      "code": "IF819",
       "ementa": "",
       "hours": 300,
       "semester": 9,
@@ -325,7 +394,7 @@
     },
     {
       "name": "ESTATIST PROBABILIDADE COMPUTACAO",
-      "code": "ET586 ",
+      "code": "ET586",
       "ementa": "ESTATÍSTICA DESCRITIVA; PROBABILIDADE; ESTATÍSTICA INFERENCIAL.",
       "hours": 75,
       "semester": 4,
@@ -345,14 +414,18 @@
       ],
       "dependents": [
         {
-          "code": "IF699 ",
-          "name": "APRENDIZAGEM DE MAQUINA"
+          "code": "IF845",
+          "name": "MODELAGEM E AVALIACAO DE SISTEMAS"
+        },
+        {
+          "code": "IF815",
+          "name": "SIMULACAO ESTOCAST. P/COMUNICACAO"
         }
       ]
     },
     {
       "name": "GERENCIAMENTO DADOS E INFORMACAO",
-      "code": "IF685 ",
+      "code": "IF685",
       "ementa": "ALGORITMOS E ESTRUTURAS DE DADOS.",
       "hours": 75,
       "semester": 4,
@@ -370,11 +443,28 @@
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF694",
+          "name": "BANCO DE DADOS DISTRIB. E MOVEIS"
+        },
+        {
+          "code": "IF696",
+          "name": "INTEG. DADOS WEB E WAREHOUSE"
+        },
+        {
+          "code": "IF698",
+          "name": "SEMIN. GERENC. DADOS E INFORMACAO"
+        },
+        {
+          "code": "IF693",
+          "name": "SIST.GERENC. DE BANCO DE DADOS"
+        }
+      ]
     },
     {
       "name": "HISTORIA E FUTURO DA COMPUTACAO",
-      "code": "IF690 ",
+      "code": "IF690",
       "ementa": "GRANDES IDÉIAS E METÁFORA EM COMPUTAÇÃO; TENDÊNCIAS TECNOLÓGICAS; NOVOS PARADIGMAS DE PENSAR, FAZER E APLICAR COMPUTAÇÃO.",
       "hours": 45,
       "semester": 5,
@@ -391,7 +481,7 @@
     },
     {
       "name": "INFORMATICA E SOCIEDADE",
-      "code": "IF679 ",
+      "code": "IF679",
       "ementa": "CONCEITOS GERAIS BÁSICOS DE SOCIOLOGIA; IMPACTO SOCIAL DE NOVAS TECNOLOGIAS NA HISTÓRIA; MUDANÇAS SOCIOLÓGICAS DISPARADAS PELA INFORMÁTICA; PERCEPÇÕES E EXPECTATIVAS DO PÚBLICO SOBRE ESSAS MUDANÇAS; CONCEITOS GERAIS BÁSICOS DE ÉTICA E DIREITO; CIBERCRIMES; PROPRIEDADE INTELECTUAL E PIRATARIA; INTRUSÃO E VIROSAS; PRIVACIDADE E CIDADANIA; RESPONSABILIDADE LEGAL E SEGURANÇA; ESTUDOS DE CASOS.",
       "hours": 75,
       "semester": 3,
@@ -403,7 +493,7 @@
     },
     {
       "name": "INFORMATICA TEORICA",
-      "code": "IF689 ",
+      "code": "IF689",
       "ementa": "INTRODUÇÃO; ANÁLISE DE ALGORITMOS; COMPLEXIDADE COMPUTACIONAL; COMPUTABILIDADE.",
       "hours": 75,
       "semester": 6,
@@ -425,11 +515,24 @@
           "name": "LOGICA PARA COMPUTACAO"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF688",
+          "name": "TEO.IMPLEMEN.LING. COMPUTACIONAIS"
+        },
+        {
+          "code": "IF766",
+          "name": "ALGORITMOS DE APROXIMACAO"
+        },
+        {
+          "code": "IF778",
+          "name": "SEMINARIO EM INFORMATICA TEORICA"
+        }
+      ]
     },
     {
       "name": "INFRA-ESTRUTURA DE COMUNICACAO",
-      "code": "IF678 ",
+      "code": "IF678",
       "ementa": "INTRODUÇÃO E PRINCIPAIS CONCEITOS. APLICAÇÕES EM REDES DE COMPUTADORES. APLICAÇÕES CLIENTE SERVIDOR. SERVIÇOS WEB. WIRELESS APLICATION PROTOCOL-WAP. PROTOCOLOS DE APLICAÇÃO. SEGURANÇA EM REDES. COMÉRCIO ELETRÔNICO. GERENCIAMENTO DE REDES. TECNOLOGIA DE BACKBONE. REDES TCP/IP. INTERNET 2. NÍVEL DE REDES EM ATM. TECNOLOGIA DE BACKBONE. FRAME RELAY. NÍVEL DE TRANSPORTE. TRANSMISSÃO DE DADOS. NÍVEL DE ENLACE. PROJETOS SOBRE PROTOCOLOS DE ENLACE E REDE. REDES DE ACESSO. INTRODUÇÃO. REDES DE COMPUTADORES. WAP. PROTOCOLOS DE APLICAÇÃO.SEGURANÇA. COMÉRCIO ELETRÔNICO. GERENCIAMENTO DE REDES. BACKBONE. INTERNET 2. REDES ATM. PROJETO DE REDES. REDES DE ACESSO. COMUNICAÇÃO SEM FIO. SISTEMAS CELULARES.",
       "hours": 75,
       "semester": 5,
@@ -449,14 +552,38 @@
       ],
       "dependents": [
         {
-          "code": "IF848 ",
-          "name": "DETECCAO DE INTRUSAO"
+          "code": "IF738",
+          "name": "REDES DE COMPUTADORES"
+        },
+        {
+          "code": "IF741",
+          "name": "GERENCIAMENTO DE REDES"
+        },
+        {
+          "code": "IF843",
+          "name": "PROJETO E PLANEJAMENTO DE REDES"
+        },
+        {
+          "code": "IF847",
+          "name": "SEGURANCA DE APLICACOES"
+        },
+        {
+          "code": "IF846",
+          "name": "SEGURANCA DE REDES"
+        },
+        {
+          "code": "IF743",
+          "name": "SEGURANCA DE SISTEMAS"
+        },
+        {
+          "code": "IF857",
+          "name": "SEMINARIOS EM REDES COMPUTADORES"
         }
       ]
     },
     {
       "name": "INFRA-ESTRUTURA DE HARDWARE",
-      "code": "IF674 ",
+      "code": "IF674",
       "ementa": "INTRODUÇÃO À PROGRAMAÇÃO; SISTEMAS DIGITAIS.",
       "hours": 75,
       "semester": 3,
@@ -480,22 +607,58 @@
       ],
       "dependents": [
         {
-          "code": "IF817 ",
-          "name": "INTERFACE HARDWARE-SOFTWARE"
+          "code": "IF831",
+          "name": "ARQUITETURAS AVANC. DE COMPUTADORES"
         },
         {
-          "code": "IF709 ",
-          "name": "IMPLEMENTACAO SIST. OPERACIONAIS"
+          "code": "IF728",
+          "name": "ENGENHARIA DE SISTEMAS EMBUTIDOS"
         },
         {
-          "code": "IF829 ",
-          "name": "TOLERANCIA A FALHAS"
+          "code": "IF814",
+          "name": "METODOL. HARD/SORFTWARE CO-DESIGN"
+        },
+        {
+          "code": "IF726",
+          "name": "ORGANIZ. TECNOLOGIA COMPUTADORES"
+        },
+        {
+          "code": "IF727",
+          "name": "PROCESSADORES APLICAC. ESPECIFICA"
+        },
+        {
+          "code": "IF725",
+          "name": "PROJETO DE CPU"
+        },
+        {
+          "code": "IF729",
+          "name": "PROTOTIP. DE CIRCUITOS INTEGRADOS"
+        },
+        {
+          "code": "IF736",
+          "name": "SEMIN.ARQUIT. SISTEMAS EMBUTIDOS"
+        },
+        {
+          "code": "IF737",
+          "name": "TOP.AVANC. EM SISTEMAS EMBUTIDOS"
+        },
+        {
+          "code": "IF735",
+          "name": "TOP.AVANC.ARQUIT.DE COMPUTADORES"
+        },
+        {
+          "code": "IF828",
+          "name": "VALIDACAO DE SISTEMAS EMBUTIDOS"
+        },
+        {
+          "code": "ES415",
+          "name": "MICROCONTROLADORES"
         }
       ]
     },
     {
       "name": "INFRA-ESTRUTURA DE SOFTWARE",
-      "code": "IF677 ",
+      "code": "IF677",
       "ementa": "INTRODUÇÃO. ESTRUTURA DE UM SISTEMA OPERACIONAL. PROCESSOS CONCORRENTES. ESCALONAMENTO. GERENCIAMENTO DE MEMÓRIA. MEMÓRIA VIRTUAL. GERENCIAMENTO DE DISCO. SISTEMAS DE ARQUIVO. PROTEÇÃO E SEGURANÇA. SISTEMAS DISTRIBUÍDOS. ESTUDOS DE CASOS.",
       "hours": 75,
       "semester": 3,
@@ -515,22 +678,38 @@
       ],
       "dependents": [
         {
-          "code": "IF694 ",
-          "name": "BANCO DE DADOS DISTRIB. E MOVEIS"
+          "code": "IF817",
+          "name": "INTERFACE HARDWARE-SOFTWARE"
         },
         {
-          "code": "IF696 ",
-          "name": "INTEG. DADOS WEB E WAREHOUSE"
+          "code": "IF711",
+          "name": "PROGRAM. CONCORRENTE DISTRIBUIDA"
         },
         {
-          "code": "IF847 ",
-          "name": "SEGURANCA DE APLICACOES"
+          "code": "IF709",
+          "name": "IMPLEMENTACAO SIST. OPERACIONAIS"
+        },
+        {
+          "code": "IF730",
+          "name": "SISTEMA DE TEMPO REAL"
+        },
+        {
+          "code": "IF829",
+          "name": "TOLERANCIA A FALHAS"
+        },
+        {
+          "code": "IF744",
+          "name": "ADM. DE SISTEMAS HETEROGENEOS"
+        },
+        {
+          "code": "IF747",
+          "name": "TOP. AVANC. REDES DE COMPUTADORES"
         }
       ]
     },
     {
       "name": "INGLES PARA COMPUTACAO",
-      "code": "LE530 ",
+      "code": "LE530",
       "ementa": "VOCABULÁRIO E EXPRESSÕES IDIOMÁTICAS INGLESAS EM CIÊNCIAS DA COMPUTAÇÃO E TECNOLOGIA DA INFORMAÇÃO; INTERPRETAÇÃO DE TEXTO TÉCNICO-CIENTÍFICOS EM INGLÊS; COMPREENSÃO DE APRESENTAÇÕES ORAIS TÉCNICO-CIENTÍFICOS EM INGLÊS; ESTILÍSTICA DA REDAÇÃO DE DOCUMENTOS TÉCNICO-CIENTÍFICOS EM INGLÊS; ESTILÍSTICA DE SEMINÁRIOS ORAIS TÉCNICO-CIENTÍFICOS EM INGLÊS.",
       "hours": 75,
       "semester": 6,
@@ -542,7 +721,7 @@
     },
     {
       "name": "INTERFACE HARDWARE-SOFTWARE",
-      "code": "IF817 ",
+      "code": "IF817",
       "ementa": "",
       "hours": 75,
       "semester": 4,
@@ -563,7 +742,7 @@
     },
     {
       "name": "INTRODUCAO A PROGRAMACAO",
-      "code": "IF669 ",
+      "code": "IF669",
       "ementa": "CONCEITOS BÁSICOS DE LINGUAGENS DE PROGRAMAÇÃO; CONCEITOS BÁSICOS DE PROGRAMAÇÃO ORIENTADA A OBJETOS E QUALIDADE DE SOFTWARE; ESTRUTURAS DE CONTROLE E ESTRUTURA DE DADOS COMPOSTAS; AMBIENTE DE PROGRAMAÇÃO; CONCEITOS BÁSICOS DE PROGRAMAÇÃO IMPERATIVA; PADRÕES E ARQUITETURAS DE SOFTWARE CONVENCIONAIS; ESTILO DE PROGRAMAÇÃO; PROJETO DE IMPLEMENTAÇÃO.",
       "hours": 120,
       "semester": 1,
@@ -582,14 +761,30 @@
       "prerequisites": [],
       "dependents": [
         {
-          "code": "IF674 ",
-          "name": "INFRA-ESTRUTURA DE HARDWARE"
+          "code": "IF672",
+          "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
+        },
+        {
+          "code": "IF678",
+          "name": "INFRA-ESTRUTURA DE COMUNICACAO"
+        },
+        {
+          "code": "IF677",
+          "name": "INFRA-ESTRUTURA DE SOFTWARE"
+        },
+        {
+          "code": "IF686",
+          "name": "PARADIGMAS LING.COMPUTACIONAIS"
+        },
+        {
+          "code": "IF851",
+          "name": "INTERFACES USUARIO-MAQUINA"
         }
       ]
     },
     {
       "name": "INTRODUCAO DISPOS SEMICONDUTORES",
-      "code": "ES232 ",
+      "code": "ES232",
       "ementa": "BANDAS DE ENERGIA NOS SÓLIDOS. FENÔMENOS DE TRANSPORTES EM SEMICONDUTORES. JUNÇÃO P-N. DISPOSITIVOS SEMICONDUTORES. TECNOLOGIAS DE FABRICAÇÃO DE CIRCUITOS ELETRÔNICOS.",
       "hours": 60,
       "semester": 6,
@@ -602,11 +797,16 @@
           "name": "FISICA GERAL 3"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "ES238",
+          "name": "ELETRONICA 1"
+        }
+      ]
     },
     {
       "name": "LOGICA PARA COMPUTACAO",
-      "code": "IF673 ",
+      "code": "IF673",
       "ementa": "INTRODUÇÃO; LÓGICA PROPOSICIONAL; LÓGICA DOS PREDICADOS; APLICAÇÕES PRÁTICAS PARA COMPUTAÇÃO; TÓPICOS AVANÇADOS: LÓGICAS NÃO CLÁSSICAS.",
       "hours": 75,
       "semester": 2,
@@ -624,11 +824,24 @@
           "name": "MATEMAT DISCRETA P/COMPUTACAO"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF682",
+          "name": "ENGENHARIA SOFTWARE E SISTEMAS"
+        },
+        {
+          "code": "IF689",
+          "name": "INFORMATICA TEORICA"
+        },
+        {
+          "code": "IF684",
+          "name": "SISTEMAS INTELIGENTES"
+        }
+      ]
     },
     {
       "name": "MATEMAT DISCRETA P/COMPUTACAO",
-      "code": "IF670 ",
+      "code": "IF670",
       "ementa": "INTRODUÇÃO; INDUÇÃO E RECURSÃO; TEORIA DOS CONJUNTOS; ÁLGEBRA DISCRETA; TEORIA DOS NÚMEROS; COMBINATÓRIA; FUNÇÕES GERADORAS.",
       "hours": 75,
       "semester": 1,
@@ -636,11 +849,28 @@
       "isObligatory": true,
       "equivalences": [],
       "prerequisites": [],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF673",
+          "name": "LOGICA PARA COMPUTACAO"
+        },
+        {
+          "code": "ES268",
+          "name": "CRIPTOGRAFIA"
+        },
+        {
+          "code": "ES341",
+          "name": "COMUNICACAO DIGITAL"
+        },
+        {
+          "code": "ES268",
+          "name": "CRIPTOGRAFIA"
+        }
+      ]
     },
     {
       "name": "MET. NUMERICOS COMPUTACIONAIS",
-      "code": "IF816 ",
+      "code": "IF816",
       "ementa": "",
       "hours": 75,
       "semester": 4,
@@ -658,11 +888,28 @@
           "name": "CALCULO DIFERENCIAL E INTEGRAL 3"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "EL215",
+          "name": "CIRCUITOS ELETRICOS 1A"
+        },
+        {
+          "code": "ES203",
+          "name": "ELETROMAGNETISMO 1"
+        },
+        {
+          "code": "ES414",
+          "name": "SERVOMECANISMO P/ ENG. COMPUTACAO"
+        },
+        {
+          "code": "ES413",
+          "name": "SINAIS SISTEMAS P/ENG. COMPUTACAO"
+        }
+      ]
     },
     {
       "name": "METODOL EXPRESSAO TEC-CIENTIFICA",
-      "code": "IF676 ",
+      "code": "IF676",
       "ementa": "PRINCÍPIOS FILOSÓFICOS E EPISTEMOLOGIA DAS CIÊNCIAS PESQUISA CIENTIFICA. PESQUISA BIBLIOGRÁFICA. AVALIAÇÃO EMPÍRICA. INTERPRETAÇÃO. ESTRUTURA. REDAÇÃO DOCUMENTOS TÉCNICOS E CIENTÍFICOS. APRESENTAÇÃO DE SEMINÁRIOS.",
       "hours": 75,
       "semester": 7,
@@ -679,7 +926,7 @@
     },
     {
       "name": "PARADIGMAS LING.COMPUTACIONAIS",
-      "code": "IF686 ",
+      "code": "IF686",
       "ementa": "INTRODUÇÃO; CONCEITOS GERAIS DE LINGUAGEM DE PROGRAMAÇÃO; PROGRAMAÇÃO DECLARATIVA; PROGRAMAÇÃO MULTI PARADIGMAS; LINGUAGENS DE COMANDOS, SCRIPTING E MARK-UP.",
       "hours": 75,
       "semester": 5,
@@ -692,11 +939,24 @@
           "name": "INTRODUCAO A PROGRAMACAO"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF710",
+          "name": "PROGRAMACAO COM COMPONENTES"
+        },
+        {
+          "code": "IF723",
+          "name": "SEM.ENG. SOFT LING. COMPUTACIONAL"
+        },
+        {
+          "code": "IF722",
+          "name": "TOPICOS AVANCADOS ENG. SOFTWARE"
+        }
+      ]
     },
     {
       "name": "PRINCIPIOS DE COMUNICACAO",
-      "code": "ES344 ",
+      "code": "ES344",
       "ementa": "NOÇÕES DE INFORMAÇÕES. ANÁLISE DE SINAIS. PRINCIPAIS TIPOS DE MODULAÇÃO E DEMODULAÇÃO.",
       "hours": 75,
       "semester": 8,
@@ -711,14 +971,30 @@
       ],
       "dependents": [
         {
-          "code": "ES341 ",
-          "name": "COMUNICACAO DIGITAL"
+          "code": "ES249",
+          "name": "CIRCUITOS DE COMUNICACAO"
+        },
+        {
+          "code": "ES290",
+          "name": "COMUNICACOES MOVEIS"
+        },
+        {
+          "code": "ES349",
+          "name": "PROPAGACAO ELETROMAGNETICA"
+        },
+        {
+          "code": "ES266",
+          "name": "TELEFONIA BASICA"
+        },
+        {
+          "code": "ES348",
+          "name": "TEORIA DA INFORMACAO"
         }
       ]
     },
     {
       "name": "PROJETO CO-DESENV. HARD-SOFTWARE",
-      "code": "IF822 ",
+      "code": "IF822",
       "ementa": "",
       "hours": 75,
       "semester": 7,
@@ -735,7 +1011,7 @@
     },
     {
       "name": "SERVOMECANISMO P/ ENG. COMPUTACAO",
-      "code": "ES414 ",
+      "code": "ES414",
       "ementa": "",
       "hours": 75,
       "semester": 7,
@@ -757,16 +1033,11 @@
           "name": "MET. NUMERICOS COMPUTACIONAIS"
         }
       ],
-      "dependents": [
-        {
-          "code": "IF705 ",
-          "name": "AUTOMACAO INTELIGENTE"
-        }
-      ]
+      "dependents": []
     },
     {
       "name": "SINAIS SISTEMAS P/ENG. COMPUTACAO",
-      "code": "ES413 ",
+      "code": "ES413",
       "ementa": "",
       "hours": 75,
       "semester": 5,
@@ -786,14 +1057,26 @@
       ],
       "dependents": [
         {
-          "code": "ES414 ",
-          "name": "SERVOMECANISMO P/ ENG. COMPUTACAO"
+          "code": "ES344",
+          "name": "PRINCIPIOS DE COMUNICACAO"
+        },
+        {
+          "code": "IF852",
+          "name": "ANALISE DE VOZ E VIDEO"
+        },
+        {
+          "code": "ES265",
+          "name": "PROCESSAMENTO DIGITAL DE SINAIS"
+        },
+        {
+          "code": "IF852",
+          "name": "ANALISE DE VOZ E VIDEO"
         }
       ]
     },
     {
       "name": "SISTEMAS DIGITAIS",
-      "code": "IF675 ",
+      "code": "IF675",
       "ementa": "ÁLGEBRA BOOLEANA; VHDL; CIRCUITOS COMBINACIONAIS; CIRCUITOS SEQÜENCIAIS.",
       "hours": 75,
       "semester": 2,
@@ -806,11 +1089,28 @@
         }
       ],
       "prerequisites": [],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF674",
+          "name": "INFRA-ESTRUTURA DE HARDWARE"
+        },
+        {
+          "code": "ES285",
+          "name": "CIRCUITOS INTEGRADOS DIGITAIS 1"
+        },
+        {
+          "code": "ES286",
+          "name": "CIRCUITOS INTEGRADOS DIGITAIS 2"
+        },
+        {
+          "code": "ES287",
+          "name": "PROJETO LOG DISPOSIT PROGRAMAVEIS"
+        }
+      ]
     },
     {
       "name": "SISTEMAS INTELIGENTES",
-      "code": "IF684 ",
+      "code": "IF684",
       "ementa": "INTRODUÇÃO; BUSCA; RACIOCÍNIO E REPRESENTAÇÃO DO CONHECIMENTO; SISTEMAS MULTIAGENTES; APRENDIZAGEM DE MÁQUINA; TÓPICOS AVANÇADOS.",
       "hours": 75,
       "semester": 8,
@@ -834,18 +1134,38 @@
       ],
       "dependents": [
         {
-          "code": "IF752 ",
-          "name": "ANALISE IMAG. VISAO COMPUTACIONAL"
+          "code": "IF703",
+          "name": "AGENTES AUTONOMOS"
         },
         {
-          "code": "IF758 ",
-          "name": "INTERFACES ADAPT. SISTEMAS MOVEIS"
+          "code": "IF699",
+          "name": "APRENDIZAGEM DE MAQUINA"
+        },
+        {
+          "code": "IF705",
+          "name": "AUTOMACAO INTELIGENTE"
+        },
+        {
+          "code": "IF701",
+          "name": "ENG.CONHEC.SISTEMAS ESPECIALISTAS"
+        },
+        {
+          "code": "IF707",
+          "name": "SEMIN. EM INTELIGENCIA ARTIFICIAL"
+        },
+        {
+          "code": "IF826",
+          "name": "TOP.AVANC. SIST. INTELIG.ROBOTICA"
+        },
+        {
+          "code": "IF848",
+          "name": "DETECCAO DE INTRUSAO"
         }
       ]
     },
     {
       "name": "TEO.IMPLEMEN.LING. COMPUTACIONAIS",
-      "code": "IF688 ",
+      "code": "IF688",
       "ementa": "LÓGICA PARA COMPUTAÇÃO, ALGORITMOS E ESTRUTURAS DE DADOS; INFRA-ESTRUTURA DE HARDWARE; INFRA-ESTRUTURA DE SOFTWARE;",
       "hours": 75,
       "semester": 7,
@@ -863,11 +1183,16 @@
           "name": "INFORMATICA TEORICA"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF827",
+          "name": "PROJETOS DE COMPILADORES"
+        }
+      ]
     },
     {
       "name": "TRABALHO DE GRADUACAO",
-      "code": "IF813 ",
+      "code": "IF813",
       "ementa": "",
       "hours": 150,
       "semester": 10,
@@ -879,7 +1204,7 @@
     },
     {
       "name": "ARMAZENAMENTO DE DADOS",
-      "code": "IF823 ",
+      "code": "IF823",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -891,7 +1216,7 @@
     },
     {
       "name": "BANCO DE DADOS DISTRIB. E MOVEIS",
-      "code": "IF694 ",
+      "code": "IF694",
       "ementa": "ABORDAGEM TOP-DOWN; ABORDAGEM BOTTOM-UP; BD HOMOGÊNEO X HETEROGÊNEO; BD FEDERADOS X MULTI-BANCO DE DADOS; MÉTODOS; TÉCNICAS: FRAGMENTAÇÃO, REPLICAÇÃO E ALOCAÇÃO.",
       "hours": 75,
       "semester": 0,
@@ -912,7 +1237,7 @@
     },
     {
       "name": "INTEG. DADOS WEB E WAREHOUSE",
-      "code": "IF696 ",
+      "code": "IF696",
       "ementa": "INTRODUÇÃO; BD TEMPORAIS; BD ESPECIAIS; SISTEMAS DE INFORMAÇÕES GEOGRÁFICAS; BD MULTIDIMENSIONAIS 12H (16H)",
       "hours": 75,
       "semester": 0,
@@ -929,16 +1254,11 @@
           "name": "GERENCIAMENTO DADOS E INFORMACAO"
         }
       ],
-      "dependents": [
-        {
-          "code": "IF825 ",
-          "name": "SIST.SUPORTE DECISAO MINER. DADOS"
-        }
-      ]
+      "dependents": []
     },
     {
       "name": "SEMIN. GERENC. DADOS E INFORMACAO",
-      "code": "IF698 ",
+      "code": "IF698",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE GERENCIAMENTO DE DADOS E INFORMAÇÕES. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO EM SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 45,
       "semester": 0,
@@ -955,7 +1275,7 @@
     },
     {
       "name": "SIST.GERENC. DE BANCO DE DADOS",
-      "code": "IF693 ",
+      "code": "IF693",
       "ementa": "ESTRUTURAS DE ARMAZENAMENTO; ARQUITETURAS DE SGBD; PROCESSAMENTO E OTIMIZAÇÃO DE CONSULTAS; PROCESSAMENTO DE TRANSAÇÕES; CONTROLE DE CONCORRÊNCIA; TÉCNICAS DE RECUPERAÇÃO; SEGURANÇA E AUTORIZAÇÃO; PROVA; EXERCÍCIOS.",
       "hours": 75,
       "semester": 0,
@@ -972,7 +1292,7 @@
     },
     {
       "name": "TOP.AVANC.GERENC.DADOS INFORMACAO",
-      "code": "IF697 ",
+      "code": "IF697",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADDAS EM GERENCIAMENTO DE DADOS E DE INFORMAÇÕES PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ARES DE PESQUISA.",
       "hours": 75,
       "semester": 0,
@@ -984,7 +1304,7 @@
     },
     {
       "name": "AGENTES AUTONOMOS",
-      "code": "IF703 ",
+      "code": "IF703",
       "ementa": "PLANEJAMENTO E NAVEGAÇÃO; MODELOS DE AGENTES; COMUNICAÇÃO; SISTEMAS MULTIAGENTES; METODOLOGIA E FERRAMENTAS DE IMPLEMENTAÇÃO; APLICAÇÕES.",
       "hours": 75,
       "semester": 0,
@@ -997,11 +1317,16 @@
           "name": "SISTEMAS INTELIGENTES"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF859",
+          "name": "ROBOTICA P/ ENGENHARIA COMPUTACAO"
+        }
+      ]
     },
     {
       "name": "APRENDIZAGEM DE MAQUINA",
-      "code": "IF699 ",
+      "code": "IF699",
       "ementa": "INTRODUÇÃO; AM (APRENDIZAGEM DE MÁQUINA) SUPERVISIONADA SIMBÓLICA; AM SUPERVISIONADA ESTOCASTICA; AM SUPERVISIONADA CONEXIONISTA; AM NÃO SUPERVISIONADA; AM POR REFORÇO; LIMITES TEÓRICOS; ANÁLISE DE COMPONENTES PRINCIPAIS (PCA), ICA ; PROJETO.",
       "hours": 75,
       "semester": 0,
@@ -1018,11 +1343,24 @@
           "name": "SISTEMAS INTELIGENTES"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF824",
+          "name": "OTIMIZACAO"
+        },
+        {
+          "code": "IF700",
+          "name": "PERCEP. COMPUTAC.E RECONH. PADRAO"
+        },
+        {
+          "code": "IF825",
+          "name": "SIST.SUPORTE DECISAO MINER. DADOS"
+        }
+      ]
     },
     {
       "name": "AUTOMACAO INTELIGENTE",
-      "code": "IF705 ",
+      "code": "IF705",
       "ementa": "INTRODUÇÃO; SISTEMAS FUZZY; SISTEMAS NEURAIS; SISTEMAS NEURO-FUZZY; ESTUDO DE CASO; SISTEMAS EVOLUCIONISTAS: ALGORITMOS GENÉTICOS; PROGRAMAÇÃO GENÉTICA; APLICAÇÕES DE ALGORITMOS GENÉTICOS; MÉTODOS HÍDRICOS DE COMPUTAÇÃO EVOLUCIONISTA E NEURAL; MÉTODOS ALTERNATIVAS DE OTIMIZAÇÃO; ESTUDOS DE CASOS DA COMPUTAÇÃO EVOLUCIONISTA E NEURAL; OUTRAS TÉCNICAS: RACIOCÍNIO BASEADO EM CASOS, APRENDIZAGEM POR REFORÇO, ETC. PROJETO.",
       "hours": 75,
       "semester": 0,
@@ -1043,7 +1381,7 @@
     },
     {
       "name": "ENG.CONHEC.SISTEMAS ESPECIALISTAS",
-      "code": "IF701 ",
+      "code": "IF701",
       "ementa": "ENGENHARIA DO CONHECIMENTO; SISTEMAS ESPECIALISTAS; TÓPICOS AVANÇADOS EM RACIOCÍNIO E REPRESENTAÇÃO DE CONHECIMENTO; PROJETO.",
       "hours": 75,
       "semester": 0,
@@ -1060,7 +1398,7 @@
     },
     {
       "name": "OTIMIZACAO",
-      "code": "IF824 ",
+      "code": "IF824",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1077,7 +1415,7 @@
     },
     {
       "name": "PERCEP. COMPUTAC.E RECONH. PADRAO",
-      "code": "IF700 ",
+      "code": "IF700",
       "ementa": "INTRODUÇÃO; CAPTURAÇÃO E PRÉ-PROCESSAMENTO DE SINAL; RP: MÉTODOS ESTATÍSTICOS; RP: MÉTODOS NEURAIS;",
       "hours": 75,
       "semester": 0,
@@ -1094,7 +1432,7 @@
     },
     {
       "name": "SEMIN. EM INTELIGENCIA ARTIFICIAL",
-      "code": "IF707 ",
+      "code": "IF707",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ARES DE SISTEMAS INTELIGENTES. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO DE SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 45,
       "semester": 0,
@@ -1111,7 +1449,7 @@
     },
     {
       "name": "SIST.SUPORTE DECISAO MINER. DADOS",
-      "code": "IF825 ",
+      "code": "IF825",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1132,7 +1470,7 @@
     },
     {
       "name": "TOP.AVANC. SIST. INTELIG.ROBOTICA",
-      "code": "IF826 ",
+      "code": "IF826",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1149,7 +1487,7 @@
     },
     {
       "name": "ANALISE E PROJETOS DE SISTEMAS",
-      "code": "IF718 ",
+      "code": "IF718",
       "ementa": "IMPORTÂNCIA, CONTEXTO, E OBJETIVOS DAS ATIVIDADES DE ANÁLISE E PROJETO, DISTINÇÃO ENTRE ANÁLISE E PROJETO; ANÁLISE E PROJETO DE SISTEMAS ORIENTADOS A OBJETOS; TÉCNICAS E FERRAMENTAS EFETIVAS PARA ENGENHARIA DIRETA E REVERSA; ATIVIDADES DE ANÁLISE E PROJETO DE UM PROCESSO ESPECÍFICO; ANÁLISE E PROJETO DE UM SISTEMA SIMPLES; ARQUITETURA DE SOFTWARE; EXEMPLOS E UTILIZAÇÃO DE VÁRIOS PADRÕES DE ARQUITETURA, ANÁLISE E PROJETO; OUTRAS LINGUAGENS, TÉCNICAS, E FERRAMENTAS PARA ANÁLISE, PROJETO, E DESCRIÇÃO DE ARQUITETURAS.",
       "hours": 75,
       "semester": 0,
@@ -1166,7 +1504,7 @@
     },
     {
       "name": "ESPECIF.REQUIS.VALIDACAO SISTEMAS",
-      "code": "IF716 ",
+      "code": "IF716",
       "ementa": "MOTIVAÇÃO; TÉCNICAS DE ESPECIFICAÇÃO DE REQUISITOS; FERRAMENTAS DE ESPECIFICAÇÃO DE REQUISITOS; TÉCNICAS DE VALIDADE DE SISTEMAS; FERRAMENTAS DE VALIDAÇÃO DE SISTEMAS; ESTUDO DE CASOS; PROJETO.",
       "hours": 75,
       "semester": 0,
@@ -1183,7 +1521,7 @@
     },
     {
       "name": "PLANEJ. GERENCIAMENTO DE PROJETOS",
-      "code": "IF717 ",
+      "code": "IF717",
       "ementa": "DEFINIÇÃO; POR QUE GERÊNCIA DE PROJETOS? CICLO DE VIDA DE PROJETOS; PECULIARIDADE DO PROJETO DE SOFTWARE; OBJETIVOS GERAIS DO GERENCIAMENTO DE PROJETOS; EQUIPE DE PROJETO; O PAPEL DO GERENTE; ESTRUTURA ORGANIZACIONAL VOLTADA A PROJETOS; PLANEJAMENTO ESTRATÉGICO: SELEÇÃO DE PROJETOS; PLANO DE NEGÓCIOS; PLANEJAMENTO TÉCNICO: CICLO DE VIDA E PROCESSOS DE DESENVOLVIMENTO DE SOFTWARE (REVISÃO); TIPOS E MÉTODOS DE PLANEJAMENTO; ANÁLISE DE RISCOS; ESTIMATIVAS: CUSTOS; RECURSOS; TAMANHO E COMPLEXIDADE.",
       "hours": 75,
       "semester": 0,
@@ -1200,7 +1538,7 @@
     },
     {
       "name": "PROGRAM. CONCORRENTE DISTRIBUIDA",
-      "code": "IF711 ",
+      "code": "IF711",
       "ementa": "CONCEITOS BÁSICOS DE PROGRAMAÇÃO CONCORRENTE; PROGRAMAÇÃO BASEADA EM VARIÁVEIS COMPARTILHADAS; PROCESSOS E SINCRONIZAÇÃO, SEMÁFOROS, MONITORES; PROGRAMAÇÃO BASEADA EM TROCA DE MENSAGENS; CHAMADA REMOTA DE PROCEDIMENTOS; ESTUDOS DE CASOS;",
       "hours": 75,
       "semester": 0,
@@ -1217,7 +1555,7 @@
     },
     {
       "name": "PROGRAMACAO COM COMPONENTES",
-      "code": "IF710 ",
+      "code": "IF710",
       "ementa": "DEFINIÇÃO DE COMPONENTES; DESENVOLVIMENTO BASEADO EM COMPONENTES; MODELAGEM ORIENTADA A COMPONENTES; COMPOSIÇÃO DE COMPONENTES; PADRÕES DE IMPLEMENTAÇÃO DE COMPONENTES; FRAMEWORKS DE COMPONENTES; DESENVOLVIMENTO E USO DE COMPONENTES; PROJETOS.",
       "hours": 75,
       "semester": 0,
@@ -1234,7 +1572,7 @@
     },
     {
       "name": "PROJETOS DE COMPILADORES",
-      "code": "IF827 ",
+      "code": "IF827",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1251,7 +1589,7 @@
     },
     {
       "name": "SEM.ENG. SOFT LING. COMPUTACIONAL",
-      "code": "IF723 ",
+      "code": "IF723",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE ENGENHARIA DE SOFTWARE E LINGUAGENS. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO EM SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 45,
       "semester": 0,
@@ -1268,7 +1606,7 @@
     },
     {
       "name": "TOPICOS AVANCADOS ENG. SOFTWARE",
-      "code": "IF722 ",
+      "code": "IF722",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM ENGENHARIA DE SOFTWARE PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
       "semester": 0,
@@ -1285,7 +1623,7 @@
     },
     {
       "name": "ARQUITETURAS AVANC. DE COMPUTADORES",
-      "code": "IF831 ",
+      "code": "IF831",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1302,7 +1640,7 @@
     },
     {
       "name": "ENGENHARIA DE SISTEMAS EMBUTIDOS",
-      "code": "IF728 ",
+      "code": "IF728",
       "ementa": "METODOLOGIAS DE PROJETO DE SISTEMAS EMBUTIDOS; IMPLEMENTAÇÃO DE SISTEMAS EMBUTIDOS; FERRAMENTAS DE APOIO AO DESENVOLVIMENTO DE S.E.",
       "hours": 75,
       "semester": 0,
@@ -1315,16 +1653,11 @@
           "name": "INFRA-ESTRUTURA DE HARDWARE"
         }
       ],
-      "dependents": [
-        {
-          "code": "IF732 ",
-          "name": "PROJETOS DE SISTEMAS EMBUTIDOS"
-        }
-      ]
+      "dependents": []
     },
     {
       "name": "IMPLEMENTACAO SIST. OPERACIONAIS",
-      "code": "IF709 ",
+      "code": "IF709",
       "ementa": "ORGANIZAÇÃO DE UM SISTEMA OPERACIONAL; PROJETO DE UM SISTEMA OPERACIONAL; TECNOLOGIA UTILIZADA PARA IMPLEMENTAÇÃO DE SISTEMAS OPERACIONAIS; PROJETO.",
       "hours": 75,
       "semester": 0,
@@ -1345,7 +1678,7 @@
     },
     {
       "name": "INSTRUMENTACAO ELETRONICA",
-      "code": "IF833 ",
+      "code": "IF833",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1362,7 +1695,7 @@
     },
     {
       "name": "MEDIDAS DE RADIO-FREQUENCIA",
-      "code": "IF832 ",
+      "code": "IF832",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1379,7 +1712,7 @@
     },
     {
       "name": "METODOL. HARD/SORFTWARE CO-DESIGN",
-      "code": "IF814 ",
+      "code": "IF814",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1396,7 +1729,7 @@
     },
     {
       "name": "ORGANIZ. TECNOLOGIA COMPUTADORES",
-      "code": "IF726 ",
+      "code": "IF726",
       "ementa": "INTRODUÇÃO; FAMÍLIAS DE PROCESSADORES E COMPUTADORES; BARRAMENTOS; TECNOLOGIA DE MEMÓRIA; DEVICE DRIVERS; PERIFÉRICOS COMUNS.",
       "hours": 75,
       "semester": 0,
@@ -1413,7 +1746,7 @@
     },
     {
       "name": "PROCESSADORES APLICAC. ESPECIFICA",
-      "code": "IF727 ",
+      "code": "IF727",
       "ementa": "INTRODUÇÃO; MODELOS DE ARQUITETURAS; DESENVOLVIMENTO DE SOFTWARE PARA SISTEMAS EMBUTIDOS; TECNOLOGIAS DE COMPILAÇÃO; PROJETO DE UM ASIP; GERAÇÃO DO COMPILADOR.",
       "hours": 75,
       "semester": 0,
@@ -1430,7 +1763,7 @@
     },
     {
       "name": "PROJETO DE CPU",
-      "code": "IF725 ",
+      "code": "IF725",
       "ementa": "INTRODUÇÃO; CONCEITOS BÁSICOS DE ARQUITETURA; PROJETO DE UMA CPU; EXECUÇÕES; PIPELINE; RESOLVENDO EXCEÇÕES COM PIPELINE.",
       "hours": 75,
       "semester": 0,
@@ -1447,7 +1780,7 @@
     },
     {
       "name": "PROJETOS DE SISTEMAS EMBUTIDOS",
-      "code": "IF732 ",
+      "code": "IF732",
       "ementa": "INTRODUÇÃO (4HS) ; PROTOTIPAÇÃO DE HARDWARE (FPGAS, ASICS) (12HS); PROTOTIPAÇÃO DE SOFTWARE (10HS); CO-SIMULAÇÃO DE HARDWARE E SOFTWARE (12HS); TESTES (12HS); PROJETO DE UM SISTEMA EMBUTIDO (22HS).",
       "hours": 75,
       "semester": 0,
@@ -1468,7 +1801,7 @@
     },
     {
       "name": "PROTOTIP. DE CIRCUITOS INTEGRADOS",
-      "code": "IF729 ",
+      "code": "IF729",
       "ementa": "FERRAMENTAS DE CAD (COMPUTER AIDED-DESIGN); METODOLOGIAS DE PROJETOS; TECNOLOGIA PARA IMPLEMENTAÇÃO DE CIRCUITOS DE ALTA INTEGRAÇÃO; ESTILOS DE PROJETOS PARA IMPLEMENTAÇÃO DE CIRCUITOS INTEGRADOS; PROJETO E IMPLEMENTAÇÃO DE CIRCUITOS INTEGRADOS USANDO FERRAMENTAS DE CAD; LABORATÓRIO/PROJETO DE UM ESTUDO DE CASO.",
       "hours": 75,
       "semester": 0,
@@ -1481,11 +1814,16 @@
           "name": "INFRA-ESTRUTURA DE HARDWARE"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF732",
+          "name": "PROJETOS DE SISTEMAS EMBUTIDOS"
+        }
+      ]
     },
     {
       "name": "SEMIN.ARQUIT. SISTEMAS EMBUTIDOS",
-      "code": "IF736 ",
+      "code": "IF736",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE ARQUITETURA E SISTEMAS EMBUTIDOS. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO EM SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 45,
       "semester": 0,
@@ -1502,7 +1840,7 @@
     },
     {
       "name": "SISTEMA DE TEMPO REAL",
-      "code": "IF730 ",
+      "code": "IF730",
       "ementa": "SISTEMAS DE TEMPO REAL; PROCESSOS DE TEMPO REAL; INTERAÇÕES ENTRE PROCESSOS; TEMPO DE EXECUÇÃO; ESCALONAMENTO DE PROCESSOS; GARANTIA DE ESCALONAMENTO; KERNELS E SISTEMAS OPERACIONAIS DE TEMPO REAL; INTRODUÇÃO A TOLERÂNCIA A FALHAS; DISPOSITIVOS PARA AUMENTAR ROBUSTEZ DE SIST. EMBARCADOS.",
       "hours": 75,
       "semester": 0,
@@ -1519,7 +1857,7 @@
     },
     {
       "name": "SISTEMAS ASSINCRONOS",
-      "code": "IF830 ",
+      "code": "IF830",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1531,7 +1869,7 @@
     },
     {
       "name": "TOLERANCIA A FALHAS",
-      "code": "IF829 ",
+      "code": "IF829",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1552,7 +1890,7 @@
     },
     {
       "name": "TOP.AVANC. EM SISTEMAS EMBUTIDOS",
-      "code": "IF737 ",
+      "code": "IF737",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM SISTEMAS EMBUTIDOS PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
       "semester": 0,
@@ -1569,7 +1907,7 @@
     },
     {
       "name": "TOP.AVANC.ARQUIT.DE COMPUTADORES",
-      "code": "IF735 ",
+      "code": "IF735",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1586,7 +1924,7 @@
     },
     {
       "name": "TRANSDUTORES",
-      "code": "IF733 ",
+      "code": "IF733",
       "ementa": "INTRODUÇÃO; AMOSTRAGEM; TÉCNICAS E DISPOSITIVOS DE CONVERSÃO MECÂNICA; TÉCNICAS E DISPOSITIVOS DE CONVERSÃO LUMINOSA; TÉCNICAS E DISPOSITIVOS DE CONVERSÃO SONORA; OUTROS DISPOSITIVOS; SISTEMAS DE AQUISIÇÃO DE DADOS; APLICAÇÕES DE TRANSDUTORES; PROJETO DE CURSO.",
       "hours": 75,
       "semester": 0,
@@ -1603,7 +1941,7 @@
     },
     {
       "name": "VALIDACAO DE SISTEMAS EMBUTIDOS",
-      "code": "IF828 ",
+      "code": "IF828",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1620,7 +1958,7 @@
     },
     {
       "name": "GERENCIAMENTO DE SERVICOS 1",
-      "code": "IF841 ",
+      "code": "IF841",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1633,11 +1971,16 @@
           "name": "PROTOCOLOS DE COMUNICACAO"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF842",
+          "name": "GERENCIAMENTO DE SERVICOS 2"
+        }
+      ]
     },
     {
       "name": "GERENCIAMENTO DE SERVICOS 2",
-      "code": "IF842 ",
+      "code": "IF842",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1654,7 +1997,7 @@
     },
     {
       "name": "PROTOCOLOS DE COMUNICACAO",
-      "code": "IF837 ",
+      "code": "IF837",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1662,11 +2005,28 @@
       "isObligatory": false,
       "equivalences": [],
       "prerequisites": [],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF841",
+          "name": "GERENCIAMENTO DE SERVICOS 1"
+        },
+        {
+          "code": "IF838",
+          "name": "REDES DE ACESSO"
+        },
+        {
+          "code": "IF839",
+          "name": "REDES MOVEIS 1"
+        },
+        {
+          "code": "IF839",
+          "name": "REDES MOVEIS 1"
+        }
+      ]
     },
     {
       "name": "REDES DE ACESSO",
-      "code": "IF838 ",
+      "code": "IF838",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1687,7 +2047,7 @@
     },
     {
       "name": "REDES DE COMPUTADORES",
-      "code": "IF738 ",
+      "code": "IF738",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1704,7 +2064,7 @@
     },
     {
       "name": "REDES MOVEIS 1",
-      "code": "IF839 ",
+      "code": "IF839",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1717,11 +2077,16 @@
           "name": "PROTOCOLOS DE COMUNICACAO"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF840",
+          "name": "REDES MOVEIS 2"
+        }
+      ]
     },
     {
       "name": "REDES MOVEIS 2",
-      "code": "IF840 ",
+      "code": "IF840",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1738,7 +2103,7 @@
     },
     {
       "name": "TRANSMISSAO DE DADOS",
-      "code": "IF836 ",
+      "code": "IF836",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1746,16 +2111,11 @@
       "isObligatory": false,
       "equivalences": [],
       "prerequisites": [],
-      "dependents": [
-        {
-          "code": "IF838 ",
-          "name": "REDES DE ACESSO"
-        }
-      ]
+      "dependents": []
     },
     {
       "name": "ADM. DE SISTEMAS HETEROGENEOS",
-      "code": "IF744 ",
+      "code": "IF744",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1772,7 +2132,7 @@
     },
     {
       "name": "DETECCAO DE INTRUSAO",
-      "code": "IF848 ",
+      "code": "IF848",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1793,7 +2153,7 @@
     },
     {
       "name": "GERENCIAMENTO DE REDES",
-      "code": "IF741 ",
+      "code": "IF741",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1810,7 +2170,7 @@
     },
     {
       "name": "MODELAGEM E AVALIACAO DE SISTEMAS",
-      "code": "IF845 ",
+      "code": "IF845",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1827,7 +2187,7 @@
     },
     {
       "name": "PROJETO DE SISTEMAS SEM FIO",
-      "code": "IF844 ",
+      "code": "IF844",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1839,7 +2199,7 @@
     },
     {
       "name": "PROJETO E PLANEJAMENTO DE REDES",
-      "code": "IF843 ",
+      "code": "IF843",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1856,7 +2216,7 @@
     },
     {
       "name": "SEGURANCA DE APLICACOES",
-      "code": "IF847 ",
+      "code": "IF847",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1877,7 +2237,7 @@
     },
     {
       "name": "SEGURANCA DE REDES",
-      "code": "IF846 ",
+      "code": "IF846",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1894,7 +2254,7 @@
     },
     {
       "name": "SEGURANCA DE SISTEMAS",
-      "code": "IF743 ",
+      "code": "IF743",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1911,7 +2271,7 @@
     },
     {
       "name": "SEMINARIOS EM REDES COMPUTADORES",
-      "code": "IF857 ",
+      "code": "IF857",
       "ementa": "",
       "hours": 45,
       "semester": 0,
@@ -1928,7 +2288,7 @@
     },
     {
       "name": "SIMULACAO ESTOCAST. P/COMUNICACAO",
-      "code": "IF815 ",
+      "code": "IF815",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1945,7 +2305,7 @@
     },
     {
       "name": "SISTEMAS MULTIMIDIA DISTRIBUIDOS",
-      "code": "IF745 ",
+      "code": "IF745",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1957,7 +2317,7 @@
     },
     {
       "name": "TOP. AVANC. REDES DE COMPUTADORES",
-      "code": "IF747 ",
+      "code": "IF747",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1974,7 +2334,7 @@
     },
     {
       "name": "ANALISE DE VOZ E VIDEO",
-      "code": "IF852 ",
+      "code": "IF852",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -1991,7 +2351,7 @@
     },
     {
       "name": "ANALISE IMAG. VISAO COMPUTACIONAL",
-      "code": "IF752 ",
+      "code": "IF752",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2012,7 +2372,7 @@
     },
     {
       "name": "COMPUTACAO GRAFICA",
-      "code": "IF750 ",
+      "code": "IF750",
       "ementa": "ALGORITMOS E TRANSFORMAÇÕES GEOMÉTRICAS EM 2D, PRIMITIVAS GRÁFICAS EM 2D, NOÇÕES BÁSICAS DE REPRESENTAÇÃO E VISUALIZAÇÃO EM 3D, ARQUITETURA DOS PROCESSADORES E PERIFÉRICOS GRÁFICOS, INTERFACES GRÁFICAS: TÉCNICAS DE INTERAÇÃO, PROJETO DE DIÁLOGO, INTERFACE DO USUÁRIO.",
       "hours": 75,
       "semester": 0,
@@ -2029,7 +2389,7 @@
     },
     {
       "name": "DISPOSITIVOS MULTIMIDIA",
-      "code": "IF854 ",
+      "code": "IF854",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2050,7 +2410,7 @@
     },
     {
       "name": "INTERFACES ADAPT. SISTEMAS MOVEIS",
-      "code": "IF758 ",
+      "code": "IF758",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2071,7 +2431,7 @@
     },
     {
       "name": "INTERFACES USUARIO-MAQUINA",
-      "code": "IF851 ",
+      "code": "IF851",
       "ementa": "",
       "hours": 45,
       "semester": 0,
@@ -2084,11 +2444,16 @@
           "name": "INTRODUCAO A PROGRAMACAO"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF758",
+          "name": "INTERFACES ADAPT. SISTEMAS MOVEIS"
+        }
+      ]
     },
     {
       "name": "INTRODUCAO A MULTIMIDIA",
-      "code": "IF849 ",
+      "code": "IF849",
       "ementa": "",
       "hours": 45,
       "semester": 0,
@@ -2096,11 +2461,16 @@
       "isObligatory": false,
       "equivalences": [],
       "prerequisites": [],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF854",
+          "name": "DISPOSITIVOS MULTIMIDIA"
+        }
+      ]
     },
     {
       "name": "PROCESSAMENTO DIGITAL DE SINAIS",
-      "code": "ES265 ",
+      "code": "ES265",
       "ementa": "",
       "hours": 60,
       "semester": 0,
@@ -2113,11 +2483,16 @@
           "name": "SINAIS SISTEMAS P/ENG. COMPUTACAO"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "ES291",
+          "name": "PROCESSAMENTO DE VOZ"
+        }
+      ]
     },
     {
       "name": "PROCESSAMENTO GRAFICO",
-      "code": "IF850 ",
+      "code": "IF850",
       "ementa": "",
       "hours": 45,
       "semester": 0,
@@ -2134,11 +2509,16 @@
           "name": "ALGEBRA VET LINEAR P/COMPUTACAO"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF750",
+          "name": "COMPUTACAO GRAFICA"
+        }
+      ]
     },
     {
       "name": "PROCESSAMENTO LINEAR DE IMAGENS",
-      "code": "IF751 ",
+      "code": "IF751",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2146,11 +2526,16 @@
       "isObligatory": false,
       "equivalences": [],
       "prerequisites": [],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF752",
+          "name": "ANALISE IMAG. VISAO COMPUTACIONAL"
+        }
+      ]
     },
     {
       "name": "SEMINARIO PROCESSAMENTO DE SINAIS",
-      "code": "IF855 ",
+      "code": "IF855",
       "ementa": "",
       "hours": 45,
       "semester": 0,
@@ -2162,7 +2547,7 @@
     },
     {
       "name": "TOP.AVANC.PROCESSAMENTO DE SINAIS",
-      "code": "IF856 ",
+      "code": "IF856",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2174,7 +2559,7 @@
     },
     {
       "name": "ALGEBRA LINEAR AVANC.P/COMPUTACAO",
-      "code": "MA533 ",
+      "code": "MA533",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2187,11 +2572,16 @@
           "name": "ALGEBRA VET LINEAR P/COMPUTACAO"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF765",
+          "name": "ANALISE NUMERICA"
+        }
+      ]
     },
     {
       "name": "ALGORITMOS DE APROXIMACAO",
-      "code": "IF766 ",
+      "code": "IF766",
       "ementa": "INTRODUÇÃO; ABORDAGENS COMBINATÓRIAS; MÉTODO DE ARREDONDAMENTO; MÉTODO PRIMA-DUAL; CLASSES DE COMPLEXIDADE EM APROXIMAÇÃO.",
       "hours": 75,
       "semester": 0,
@@ -2208,7 +2598,7 @@
     },
     {
       "name": "ANALISE DE VOZ E VIDEO",
-      "code": "IF852 ",
+      "code": "IF852",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2225,7 +2615,7 @@
     },
     {
       "name": "ANALISE NUMERICA",
-      "code": "IF765 ",
+      "code": "IF765",
       "ementa": "ELEMENTOS DE ANÁLISE FUNCIONAL; SOLUÇÃO NUMÉRICA DE EQUAÇÕES NÃO-LINEARES; MATRIZES E SISTEMAS DE EQUAÇÕES LINEARES; TEORIA DA APROXIMAÇÃO; SOLUÇÃO NUMÉRICA DE EQUAÇÕES DIFERENCIAIS.",
       "hours": 75,
       "semester": 0,
@@ -2246,7 +2636,7 @@
     },
     {
       "name": "CRIPTOGRAFIA",
-      "code": "ES268 ",
+      "code": "ES268",
       "ementa": "SISTEMAS CRIPTOGRÁFICOS, SEGURANÇA DE DADOS, ACESSO E CONTROLE DE FLUXOS DE INFORMAÇÃO.",
       "hours": 60,
       "semester": 0,
@@ -2263,7 +2653,7 @@
     },
     {
       "name": "SEMINARIO EM INFORMATICA TEORICA",
-      "code": "IF778 ",
+      "code": "IF778",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE INFORMÁTICA TEÓRICA. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO EM SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 45,
       "semester": 0,
@@ -2280,7 +2670,7 @@
     },
     {
       "name": "TEORIA DE GRAFOS",
-      "code": "IF768 ",
+      "code": "IF768",
       "ementa": "GRAFOS, SUBGRAFOS E GRAFOS ORIENTADOS; FLORESTAS E ÁRVORES; BUSCA EM GRAFOS, CONECTIVIDADE E CORTES; ÁRVORE GERADORA, DISTÂNCIAS, FLUXO EM REDE E EMPARELHAMENTOS; PROBLEMAS INTRATÁVEIS.",
       "hours": 75,
       "semester": 0,
@@ -2297,7 +2687,7 @@
     },
     {
       "name": "TOP.AVANC. MATEMAT. COMPUTACIONAL",
-      "code": "IF777 ",
+      "code": "IF777",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM MATEMÁTICA COMPUTACIONAL PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
       "semester": 0,
@@ -2314,7 +2704,7 @@
     },
     {
       "name": "TOPICOS AVANCADOS EM ALGORITMOS",
-      "code": "IF775 ",
+      "code": "IF775",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM ALGORITMOS PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
       "semester": 0,
@@ -2331,7 +2721,7 @@
     },
     {
       "name": "CIRCUITOS INTEGRADOS DIGITAIS 1",
-      "code": "ES285 ",
+      "code": "ES285",
       "ementa": "TRANSISTOR MOS E APLICAÇÕES. ESTUDO DO TRANSISTOR MOS. O TRANSISTOR MOS COMO UMA CHAVE. PORTAS DE TRANSMISSÃO. INVERSORES. PORTAS LÓGICAS. CMOS NA REGIÃO LINEAR. TECNOLOGIA DE PROCESSAMENTO NMOS E CMOS. CARACTERIZAÇÃSO DE CIRCUITOS E ESTIMATIVA DE DESEMPENHO. CIRCUITOS E PROJETOS LÓGICOS.",
       "hours": 60,
       "semester": 0,
@@ -2352,7 +2742,7 @@
     },
     {
       "name": "CIRCUITOS INTEGRADOS DIGITAIS 2",
-      "code": "ES286 ",
+      "code": "ES286",
       "ementa": "METODOLOGIA DE PROJETO. INTRODUÇÃO A CIRCUITOS CMOS. PROJETO LÓGICO. REPRESENTAÇÃO DE CIRCUITOS (FÍSICA, ESTRUTURAL, COMPORTAMENTAL). TRANSISTOR MOS. TECNOLOGIA DE FABRICAÇÃO. INTERFACE PROJETO-FABRICAÇÃO. PROJETO DE SISTEMAS. FERRAMENTAS DEE PROJETO.",
       "hours": 60,
       "semester": 0,
@@ -2369,7 +2759,7 @@
     },
     {
       "name": "ELETROMAGNETISMO 2",
-      "code": "ES204 ",
+      "code": "ES204",
       "ementa": "ONDAS TEM, TE E TM. REFLEXÃO E REFRAÇÃO DE ONDAS PLANAS. ESTRUTURAS GUIADAS. RADIAÇÃO ELETROMAGNÉTICA.",
       "hours": 60,
       "semester": 0,
@@ -2382,16 +2772,11 @@
           "name": "ELETROMAGNETISMO 1"
         }
       ],
-      "dependents": [
-        {
-          "code": "ES349 ",
-          "name": "PROPAGACAO ELETROMAGNETICA"
-        }
-      ]
+      "dependents": []
     },
     {
       "name": "MICROCONTROLADORES",
-      "code": "ES415 ",
+      "code": "ES415",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2408,7 +2793,7 @@
     },
     {
       "name": "PROCESSAMENTO DE IMAGEM",
-      "code": "ES235 ",
+      "code": "ES235",
       "ementa": "NOÇÕES BÁSICAS DE PROCESSAMENTO DE IMAGEM, FILTRAGEM E ESTIMAÇÃO ESPECIAL EM DUAS DIMENSÕES. CODIFICAÇÃO E RECUPERAÇÃO DE IMAGENS.",
       "hours": 60,
       "semester": 0,
@@ -2420,7 +2805,7 @@
     },
     {
       "name": "PROCESSAMENTO DE VOZ",
-      "code": "ES291 ",
+      "code": "ES291",
       "ementa": "SISTEMA DE PRODUÇÃO DE VOZ. COMPRESSÃO E SÍNTESE DE SINAIS DE VOZ. RECONHECIMENTO DE VOZ E DE FALANTE.",
       "hours": 60,
       "semester": 0,
@@ -2432,7 +2817,7 @@
     },
     {
       "name": "PROJETO LOG DISPOSIT PROGRAMAVEIS",
-      "code": "ES287 ",
+      "code": "ES287",
       "ementa": "PROJETO LÓGICO: ASPECTOS BÁSICOS. LÓGICA PROGRAMÁVEL. VS. LÓGICA FIXA. DISPOSITIVOS COMBINACIONAIS LÓGICOS PROGRAMÁVEIS. APLICATIVOS PARA O DESENVOLVIMENTO DE PROJETOS USANDO DLP#S. FORMAS AVANÇADAS DE DLP#S. MICROCONTROLADORES. CONTROLADORES LÓGICO-PROGRAMÁVEIS.",
       "hours": 60,
       "semester": 0,
@@ -2449,7 +2834,7 @@
     },
     {
       "name": "TOPICOS ESP EM ENG COMPUTADORES 1",
-      "code": "ES283 ",
+      "code": "ES283",
       "ementa": "TRANSISTOR MOS E APLICAÇÕES. ESTUDO DETALHADO DO TRANSISTOR MOS. O TRANSISTOR MOS COMO UMA CHAVE. PORTAS DE TRANSMISÃO. INVERSORES. PORTAS LÓGICAS. CMOS NA REGIÃO LINEAR. TECNOLOGIA DE PROCESSAMENTO NMOS E CMOS. CARACTERIZAÇÃO DE CIRCUITOS E ESTIMATIVA DE SEMPENHO. CIRCUITOS E PROJETOS LÓGICOS.",
       "hours": 60,
       "semester": 0,
@@ -2461,7 +2846,7 @@
     },
     {
       "name": "TOPICOS ESP EM ENG COMPUTADORES 2",
-      "code": "ES284 ",
+      "code": "ES284",
       "ementa": "TRANSISTOR MOS E APLICAÇÕES. ESTUDO DETALHADO DO TRANSISTOR MOS. O TRANSISTOR MOS COMO UMA CHAVE. PORTAS DE TRANSMISÃO. INVERSORES. PORTAS LÓGICAS. CMOS NA REGIÃO LINEAR. TECNOLOGIA DE PROCESSAMENTO NMOS E CMOS. CARACTERIZAÇÃO DE CIRCUITOS E ESTIMATIVA DE SEMPENHO. CIRCUITOS E PROJETOS LÓGICOS.",
       "hours": 60,
       "semester": 0,
@@ -2473,7 +2858,7 @@
     },
     {
       "name": "CIRCUITOS DE COMUNICACAO",
-      "code": "ES249 ",
+      "code": "ES249",
       "ementa": "ANÁLISE E PROJETO DE CIRCUITOS DE COMUNICAÇÃO ANALÓGICA E DIGITAIS.",
       "hours": 60,
       "semester": 0,
@@ -2490,7 +2875,7 @@
     },
     {
       "name": "COMUNICACAO DIGITAL",
-      "code": "ES341 ",
+      "code": "ES341",
       "ementa": "INTRODUÇÃO À TEORIA DA INFORMAÇÃO, RUÍDOS, MODULAÇÃO DIGITAL, CÓDIGOS.",
       "hours": 60,
       "semester": 0,
@@ -2511,7 +2896,7 @@
     },
     {
       "name": "COMUNICACAO OPTICAS",
-      "code": "ES416 ",
+      "code": "ES416",
       "ementa": "",
       "hours": 60,
       "semester": 0,
@@ -2528,7 +2913,7 @@
     },
     {
       "name": "COMUNICACOES MOVEIS",
-      "code": "ES290 ",
+      "code": "ES290",
       "ementa": "SISTEMAS DE TELEFONIA CELULAR ANALÓGICO E DIGITAL.TÉCNICAS DE ACESSO MÚTIPLO.SISTEMAS E SERVIÇOS DE COMUNICAÇÕES PESSOAL.",
       "hours": 60,
       "semester": 0,
@@ -2545,7 +2930,7 @@
     },
     {
       "name": "COMUTACAO TELEFONICA",
-      "code": "ES269 ",
+      "code": "ES269",
       "ementa": "GENERALIDADES, CENTRAIS PASSO A PASSO, CROSS-BAR E TRANSITO, INTRODUÇÃO A CENTRAIS CP. A",
       "hours": 60,
       "semester": 0,
@@ -2562,7 +2947,7 @@
     },
     {
       "name": "CRIPTOGRAFIA",
-      "code": "ES268 ",
+      "code": "ES268",
       "ementa": "SISTEMAS CRIPTOGRÁFICOS, SEGURANÇA DE DADOS, ACESSO E CONTROLE DE FLUXOS DE INFORMAÇÃO.",
       "hours": 60,
       "semester": 0,
@@ -2579,7 +2964,7 @@
     },
     {
       "name": "FOTONICA 1",
-      "code": "ES292 ",
+      "code": "ES292",
       "ementa": "EQUAÇÕES DE MAXWELL. POLARIZAÇÃO DA MATÉRIA. ONDAS ELETROMAGNÉTICAS. REFLEXÃO E REFRAÇÃO. INTERFERÊNCIA. DIFRAÇÃO E ESPALHAMENTO. MEIOS NÃO HOMOGÊNEOS.",
       "hours": 60,
       "semester": 0,
@@ -2596,11 +2981,16 @@
           "name": "FISICA GERAL 4"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "ES416",
+          "name": "COMUNICACAO OPTICAS"
+        }
+      ]
     },
     {
       "name": "PROCESSAMENTO DE IMAGEM",
-      "code": "ES235 ",
+      "code": "ES235",
       "ementa": "NOÇÕES BÁSICAS DE PROCESSAMENTO DE IMAGEM, FILTRAGEM E ESTIMAÇÃO ESPECIAL EM DUAS DIMENSÕES. CODIFICAÇÃO E RECUPERAÇÃO DE IMAGENS.",
       "hours": 60,
       "semester": 0,
@@ -2612,7 +3002,7 @@
     },
     {
       "name": "PROCESSAMENTO DE VOZ",
-      "code": "ES291 ",
+      "code": "ES291",
       "ementa": "SISTEMA DE PRODUÇÃO DE VOZ. COMPRESSÃO E SÍNTESE DE SINAIS DE VOZ. RECONHECIMENTO DE VOZ E DE FALANTE.",
       "hours": 60,
       "semester": 0,
@@ -2629,7 +3019,7 @@
     },
     {
       "name": "PROPAGACAO ELETROMAGNETICA",
-      "code": "ES349 ",
+      "code": "ES349",
       "ementa": "PROPAGAÇÃO EM MEIOS DIELÉTRICOS E EM MEIOS IONIZADOS. PROPAGAÇÃO IONOSFÉRICA. CÁLCULO DE ENLACES.",
       "hours": 60,
       "semester": 0,
@@ -2650,7 +3040,7 @@
     },
     {
       "name": "REDES MOVEIS 1",
-      "code": "IF839 ",
+      "code": "IF839",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2663,11 +3053,16 @@
           "name": "PROTOCOLOS DE COMUNICACAO"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "IF840",
+          "name": "REDES MOVEIS 2"
+        }
+      ]
     },
     {
       "name": "TELEFONIA BASICA",
-      "code": "ES266 ",
+      "code": "ES266",
       "ementa": "INTRODUÇÃO AO TRÁFEGO, CIRCUITO E REDES TELEFÓNICAS.",
       "hours": 60,
       "semester": 0,
@@ -2680,11 +3075,16 @@
           "name": "PRINCIPIOS DE COMUNICACAO"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "ES269",
+          "name": "COMUTACAO TELEFONICA"
+        }
+      ]
     },
     {
       "name": "TEORIA DA INFORMACAO",
-      "code": "ES348 ",
+      "code": "ES348",
       "ementa": "MEDIDAS DE INFORMAÇÃO, ENTROPIA, FONTES E CANAIS. CODIFICAÇÃO DE FONTES E DE CANAL, OS TEOREMAS DE SHANNON.",
       "hours": 60,
       "semester": 0,
@@ -2701,7 +3101,7 @@
     },
     {
       "name": "TOPICOS ESPEC EM COMUNICACOES 1",
-      "code": "ES288 ",
+      "code": "ES288",
       "ementa": "SISTEMAS DE TELEFONIA CELULAR ANALÓGICO E DIGITAL.TÉCNICAS DE ACESSO MÚTIPLO.SISTEMAS E SERVIÇOS DE COMUNICAÇÕES PESSOAL.",
       "hours": 60,
       "semester": 0,
@@ -2713,7 +3113,7 @@
     },
     {
       "name": "TOPICOS ESPEC EM COMUNICACOES 2",
-      "code": "ES289 ",
+      "code": "ES289",
       "ementa": "SISTEMAS DE TELEFONIA CELULAR ANALÓGICO E DIGITAL.TÉCNICAS DE ACESSO MÚTIPLO.SISTEMAS E SERVIÇOS DE COMUNICAÇÕES PESSOAL.",
       "hours": 60,
       "semester": 0,
@@ -2725,7 +3125,7 @@
     },
     {
       "name": "CONTABILIDADE FINANC. E GERENCIAL",
-      "code": "CT784 ",
+      "code": "CT784",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2737,7 +3137,7 @@
     },
     {
       "name": "ECONOMIA PARA EMPREENDEDOR",
-      "code": "IF780 ",
+      "code": "IF780",
       "ementa": "PRECIFICAÇÃO, CUSTO E PRODUÇÃO. TEORIA DA UTILIDADE. OFERTA E PROCURA. COMPETIÇÃO. COMPORTAMENTO DE MERCADOS COMPETITIVOS E NÃO COMPETITIVOS. FONTES E USOS DE PODER DE MERCADO. TEORIA DOS JOGOS E ESTRATÉGIA COMPETITIVA. LEI ANTI-TRUSTES.",
       "hours": 75,
       "semester": 0,
@@ -2749,7 +3149,7 @@
     },
     {
       "name": "EMPREENDIMENTOS EM INFORMATICA",
-      "code": "IF781 ",
+      "code": "IF781",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2761,7 +3161,7 @@
     },
     {
       "name": "FISICA EXPERIMENTAL L 2",
-      "code": "FI131 ",
+      "code": "FI131",
       "ementa": "PRÁTICA SOBRE TÓPICOS DOS TEMAS ESTUDADOS EM FÍSICA L2.",
       "hours": 30,
       "semester": 0,
@@ -2773,7 +3173,7 @@
     },
     {
       "name": "FISICA GERAL 4",
-      "code": "FI109 ",
+      "code": "FI109",
       "ementa": "MAGNETISMO EM MEIOS MATERIAIS; CIRCUITOS DE CORRENTE ALTERNADA; AS EQUAÇÕES DE MAXWELL E AS ONDAS ELETROMAGNÉTICAS; LUZ; ÓTICA GEOMÉTRICA; ÓTICA FÍSICA; TEORIA DA RELATIVIDADE; QUANTIZAÇÃO.",
       "hours": 60,
       "semester": 0,
@@ -2786,11 +3186,16 @@
           "name": "FISICA GERAL 3"
         }
       ],
-      "dependents": []
+      "dependents": [
+        {
+          "code": "ES292",
+          "name": "FOTONICA 1"
+        }
+      ]
     },
     {
       "name": "GESTAO DE NEGOCIOS",
-      "code": "AD783 ",
+      "code": "AD783",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2802,7 +3207,7 @@
     },
     {
       "name": "INICIACAO CIENTIFICA 1",
-      "code": "IF788 ",
+      "code": "IF788",
       "ementa": "DESENVOLVIMENTO DE ATIVIDADE DE INICIAÇÃO CIENTIFICA EM UMA ÁREA DA CIÊNCIA DA COMPUTAÇÃO PELO PERÍODO MÍNIMO DE 1 ANO SOB A SUPERVISÃO DE UM PROFESSOR DO CENTRO DE INFORMÁTICA. OS PLANOS DE INICIAÇÃO DEVEM SER JULGADOS PELO COLEGIADO DA GRADUAÇÃO NAS 4 PRIMEIRAS SEMANAS DO SEMESTRE LETIVO E O RELATÓRIO FINAL DEVERÁ SER APROVADO PRO BANCA EXAMINADORA.",
       "hours": 75,
       "semester": 0,
@@ -2814,7 +3219,7 @@
     },
     {
       "name": "INICIACAO CIENTIFICA 2",
-      "code": "IF789 ",
+      "code": "IF789",
       "ementa": "DESENVOLVIMENTO DE ATIVIDADE DE INICIAÇÃO CIENTIFICA EM UMA ÁREA DA CIÊNCIA DA COMPUTAÇÃO PELO PERÍODO MÍNIMO DE 2 ANOS SOB A SUPERVISÃO DE UM PROFESSOR DO CENTRO DE INFORMÁTICA. OS PLANOS DE INICIAÇÃO DEVEM SER JULGADOS PELO COLEGIADO DA GRADUAÇÃO NAS 4 PRIMEIRAS SEMANAS DO SEMESTRE LETIVO E O RELATÓRIO FINAL DEVERÁ SER APROVADO PRO BANCA EXAMINADORA.",
       "hours": 75,
       "semester": 0,
@@ -2826,7 +3231,7 @@
     },
     {
       "name": "PROFICIENCIA EM INGLES 1",
-      "code": "IF785 ",
+      "code": "IF785",
       "ementa": "REALIZAÇÃO DE TESTE DE PROFICIÊNCIA EM INGLÊS CONSIDERANDO CAPACIDADE DE ESCRITA, LEITURA E CONVERSAÇÃO EM NÍVEL BÁSICO.",
       "hours": 75,
       "semester": 0,
@@ -2838,7 +3243,7 @@
     },
     {
       "name": "PROFICIENCIA EM INGLES 2",
-      "code": "IF786 ",
+      "code": "IF786",
       "ementa": "REALIZAÇÃO DE TESTE DE PROFICIÊNCIA EM INGLÊS CONSIDERANDO CAPACIDADE DE ESCRITA, LEITURA E CONVERSAÇÃO EM INTERMEDIÁRIO.",
       "hours": 75,
       "semester": 0,
@@ -2850,7 +3255,7 @@
     },
     {
       "name": "PROFICIENCIA EM INGLES 3",
-      "code": "IF787 ",
+      "code": "IF787",
       "ementa": "REALIZAÇÃO DE TESTE DE PROFICIÊNCIA EM INGLÊS CONSIDERANDO CAPACIDADE DE ESCRITA, LEITURA E CONVERSAÇÃO EM AVANÇADO.",
       "hours": 75,
       "semester": 0,
@@ -2862,7 +3267,7 @@
     },
     {
       "name": "PROJETO DE MONITORIA 1",
-      "code": "IF790 ",
+      "code": "IF790",
       "ementa": "DESEMPENHO DE ATIVIDADES DE MONITORIA EM DISCIPLINAS PELO PERÍODO MÍNIMO DE 1 ANO SOB A SUPERVISÃO DE UM PROFESSOR DO CENTRO DE INFORMÁTICA. O PLANO DE ATIVIDADES DEVERÁ SER APROVADO PELO COLEGIADO DA GRADUAÇÃO E O RELATÓRIO DEVERÁ SER AVALIADO PELO DOCENTE DO CENTRO.",
       "hours": 45,
       "semester": 0,
@@ -2874,7 +3279,7 @@
     },
     {
       "name": "PROJETO DE MONITORIA 2",
-      "code": "IF791 ",
+      "code": "IF791",
       "ementa": "DESENVOLVIMENTO DE ATIVIDADE DE INICIAÇÃO CIENTIFICA EM UMA ÁREA DA CIÊNCIA DA COMPUTAÇÃO PELO PERÍODO MÍNIMO DE 2 ANOS SOB A SUPERVISÃO DE UM PROFESSOR DO CENTRO DE INFORMÁTICA. OS PLANOS DE INICIAÇÃO DEVEM SER JULGADOS PELO COLEGIADO DA GRADUAÇÃO NAS 4 PRIMEIRAS SEMANAS DO SEMESTRE LETIVO E O RELATÓRIO FINAL DEVERÁ SER APROVADO PRO BANCA EXAMINADORA.",
       "hours": 45,
       "semester": 0,
@@ -2886,7 +3291,7 @@
     },
     {
       "name": "AQUISIC.PROCESS.SINAIS BIOLOGICOS",
-      "code": "IF861 ",
+      "code": "IF861",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2903,7 +3308,7 @@
     },
     {
       "name": "AUTOMACAO HOSPITALAR E HOME CARE",
-      "code": "BQ307 ",
+      "code": "BQ307",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2915,7 +3320,7 @@
     },
     {
       "name": "BIOQ.BIOLOGIA MOLEC. SIST. VIVOS",
-      "code": "BQ308 ",
+      "code": "BQ308",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2927,7 +3332,7 @@
     },
     {
       "name": "BIOSENSORES E NANOTECNOLOGIA",
-      "code": "IF862 ",
+      "code": "IF862",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2944,7 +3349,7 @@
     },
     {
       "name": "INTRODUÇÃO A LIBRAS",
-      "code": "LE716 ",
+      "code": "LE716",
       "ementa": "REFLEXÃO SOBRE OS ASPECTOS HISTÓRICOS DA INCLUSÃO DAS PESSOAS SURDAS NA SOCIEDADE EM GERAL E NA ESCOLA; A LIBRAS COMO LÍNGUA DE COMUNICAÇÃO SOCIAL EM CONTEXTO DE COMUNICAÇÃO ENTRE PESSOAS SURDAS E COMO SEGUNDA LÍNGUA. ESTRUTURA LINGUÍSTICA E GRAMATICAL DE LIBRAS. ESPECIFICIDADES DA ESCRITA DO ALUNO SURDO. NA PRODUÇÃO DE TEXTO EM LÍNGUA PORTUGUESA. O INTÉRPRETE E A INTERPRETAÇÃO COMO FATOR DE INCLUSÃO E ACESSO EDUCACIONAL PARA OS ALUNOS SURDOS OU COM BAIXA AUDIÇÃO.",
       "hours": 60,
       "semester": 0,
@@ -2956,7 +3361,7 @@
     },
     {
       "name": "MECANICA DIN.MANIPULACAO ROBOTICA",
-      "code": "ME434 ",
+      "code": "ME434",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2968,7 +3373,7 @@
     },
     {
       "name": "PROJETO MECATRONICA E ROBOTICA",
-      "code": "IF860 ",
+      "code": "IF860",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2980,7 +3385,7 @@
     },
     {
       "name": "ROBOTICA P/ ENGENHARIA COMPUTACAO",
-      "code": "IF859 ",
+      "code": "IF859",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -2997,7 +3402,7 @@
     },
     {
       "name": "SEMINARIOS MULTIDISCIPLINAR",
-      "code": "IF864 ",
+      "code": "IF864",
       "ementa": "",
       "hours": 45,
       "semester": 0,
@@ -3009,7 +3414,7 @@
     },
     {
       "name": "TELESAUDE",
-      "code": "MC252 ",
+      "code": "MC252",
       "ementa": "",
       "hours": 75,
       "semester": 0,
@@ -3021,7 +3426,7 @@
     },
     {
       "name": "TOP. AVANCADOS EM BIOTECNOLOGIA",
-      "code": "IF863 ",
+      "code": "IF863",
       "ementa": "",
       "hours": 75,
       "semester": 0,

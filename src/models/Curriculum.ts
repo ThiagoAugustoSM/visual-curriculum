@@ -42,10 +42,9 @@ export type OnClickTypes = {
   id: string;
   isObligatory: boolean;
   hours: number;
-  setDisabled: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 export type DisciplineBoxProps = {
   id: string;
-  onClick: (params: OnClickTypes) => boolean;
+  onClick: (params: OnClickTypes) => void;
 } & DisciplineType;
