@@ -1,7 +1,7 @@
-import { hoursSetterFuncTypes } from '../models/Curriculum';
+import { HoursSetterFuncTypes } from '../models/Curriculum';
 
 function setAcademicHours(
-  props: hoursSetterFuncTypes,
+  props: HoursSetterFuncTypes,
   active: boolean,
   obligatory: boolean,
   hours: number

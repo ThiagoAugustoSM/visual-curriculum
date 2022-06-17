@@ -1,11 +1,15 @@
-import disciplineData from './requestDisciplines';
+import { CurriculumType, DisciplineType } from '../models/Curriculum';
 
-const disciplineHashMap = new Map();
+function getDisciplineHashMap(
+  curriculum: CurriculumType
+): Map<string, DisciplineType> {
+  const disciplineHashMap = new Map();
 
-disciplineData.then((res) => {
-  res.disciplines.forEach((discipline) => {
+  curriculum.disciplines.forEach((discipline) => {
     disciplineHashMap.set(discipline.code, discipline);
   });
-});
 
-export default disciplineHashMap;
+  return disciplineHashMap;
+}
+
+export default getDisciplineHashMap;

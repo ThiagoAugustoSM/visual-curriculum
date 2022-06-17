@@ -134,18 +134,32 @@ def save_json_file(output_path: str, university_name: str, course_name: str,
         }, file, ensure_ascii=False, indent=2)
 
 def get_dependents_value(discipline_list: list) -> list:
+    dependents = {}
 
     for discipline in discipline_list:
-        for item in discipline['prerequisites']:
-            for x in discipline_list:
-                if x['code'] == item['code']:
-                    x['dependents'].append({
-                        'code': discipline['code'],
-                        'name': discipline['name']
-                        })
+        for requisite in discipline['prerequisites']:
+            code = requisite['code']
+            if code not in dependents:
+                dependents[code] = []
+            dependents[code].append({
+                'code': discipline['code'],
+                'name': discipline['name']
+            })
+
+    for discipline in discipline_list:
+        discipline['dependents'] = []
+        code = discipline['code']
+        if code in dependents:
+            discipline['dependents'] = dependents[code]
+        
     return discipline_list
 
 def pdf_to_json(pdf_path: str, output_json: str):
+    """
+    Scraps the PDF file getting the information and
+    writing it to a JSON file. This version was made
+    to Computer Engineering course.
+    """
     document = fitz.open(pdf_path)
 
     current_semester = 0
@@ -231,11 +245,6 @@ def pdf_to_json(pdf_path: str, output_json: str):
                    semesters, disciplines)
 
 def pdf_to_json_2(pdf_path: str, output_json: str):
-    """
-    Scraps the PDF file getting the information and
-    writing it to a JSON file. This version was made
-    to Computer Engineering course.
-    """
     document = fitz.open(pdf_path)
 
     disciplines = []
@@ -314,7 +323,6 @@ def pdf_to_json_2(pdf_path: str, output_json: str):
         "dependents": [],
     })
     get_dependents_value(disciplines)
-    print(disciplines)   
     save_json_file(output_json, university_name, course_name,
                    total_hours, elective_hours, obligatory_hours,
                    semesters, disciplines)
