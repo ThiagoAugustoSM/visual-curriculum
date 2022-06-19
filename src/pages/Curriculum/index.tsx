@@ -53,38 +53,58 @@ export default function CurriculumPage(): React.ReactElement {
     setAcademicTotalDone,
   };
 
+  function fillOrCleanPreRequisites(
+    goalDiscipline: string,
+    isToFill: boolean
+  ): void {
+    const disciplineQueue = [goalDiscipline];
+    const disciplinesToModify = new Set<string>();
+
+    while (disciplineQueue.length > 0) {
+      const disciplineCode = disciplineQueue[0];
+      const discipline = disciplineMap.get(disciplineCode);
+      disciplineQueue.splice(0, 1);
+      if (!discipline) {
+        continue;
+      }
+      setAcademicHours(
+        setters,
+        isToFill,
+        discipline.isObligatory,
+        discipline.hours
+      );
+      disciplinesToModify.add(disciplineCode);
+      const disciplineList = isToFill
+        ? discipline.prerequisites
+        : discipline.dependents;
+      disciplineList.forEach((prerequisite) => {
+        if (
+          ((isToFill && !activeDisciplines.has(prerequisite.code)) ||
+            (!isToFill && activeDisciplines.has(prerequisite.code))) &&
+          !disciplinesToModify.has(prerequisite.code)
+        ) {
+          disciplineQueue.push(prerequisite.code);
+        }
+      });
+    }
+    setActiveDisciplines((currentDisciplines) => {
+      disciplinesToModify.forEach((element) => {
+        if (isToFill) {
+          currentDisciplines.add(element);
+        } else {
+          currentDisciplines.delete(element);
+        }
+      });
+      return currentDisciplines;
+    });
+  }
+
   const handleClick = (props: OnClickTypes) => {
-    const { id, isActive, isObligatory, hours } = props;
+    const { id, isActive } = props;
     if (isActive) {
-      let hasAllPreRequisites = true;
-      disciplineMap.get(id)?.prerequisites.forEach((prerequisite) => {
-        if (!activeDisciplines.has(prerequisite.code)) {
-          hasAllPreRequisites = false;
-        }
-      });
-
-      if (!hasAllPreRequisites) return;
-
-      setAcademicHours(setters, isActive, isObligatory, hours);
-      setActiveDisciplines((currentDisciplines) => {
-        currentDisciplines.add(id);
-        return currentDisciplines;
-      });
+      fillOrCleanPreRequisites(id, true);
     } else {
-      let hasDependent = false;
-      disciplineMap.get(id)?.dependents.forEach((prerequisite) => {
-        if (activeDisciplines.has(prerequisite.code)) {
-          hasDependent = true;
-        }
-      });
-
-      if (hasDependent) return;
-
-      setAcademicHours(setters, isActive, isObligatory, hours);
-      setActiveDisciplines((currentDisciplines) => {
-        currentDisciplines.delete(id);
-        return currentDisciplines;
-      });
+      fillOrCleanPreRequisites(id, false);
     }
   };
 

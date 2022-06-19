@@ -144,7 +144,7 @@ def get_dependents_value(discipline_list: list) -> list:
         
     return discipline_list
 
-def pdf_to_json(pdf_path: str, output_json: str):
+def ufpe_cin_pdf_to_json(pdf_path: str, output_json: str):
     """
     Scraps the PDF file getting the information and
     writing it to a JSON file. This version was made
@@ -241,7 +241,7 @@ def pdf_to_json(pdf_path: str, output_json: str):
                    total_hours, elective_hours, obligatory_hours,
                    semesters, disciplines)
 
-def pdf_to_json_2(pdf_path: str, output_json: str):
+def ufpe_ec_pdf_to_json(pdf_path: str, output_json: str):
     """
     Scraps the PDF file getting the information and
     writing it to a JSON file. This version was made
@@ -335,10 +335,10 @@ def pdf_to_json_2(pdf_path: str, output_json: str):
 
 if __name__ == "__main__":
     if len(sys.argv) < 4:
-        print("Usage: python3 scrapy.py <course_type> <pdf_path> <output_json>")
+        print("Usage: python3 pdf_to_json.py <course_type> <pdf_path> <output_json>")
         print("course_type: ec for Computer Engineering and cc or si for Computer Science or Information systems")
     else:
         if sys.argv[1].lower() in ['cc', 'si']:
-            pdf_to_json(sys.argv[2], sys.argv[3])
+            ufpe_cin_pdf_to_json(sys.argv[2], sys.argv[3])
         elif sys.argv[1].lower() == 'ec':
-            pdf_to_json_2(sys.argv[2], sys.argv[3])
+            ufpe_ec_pdf_to_json(sys.argv[2], sys.argv[3])
