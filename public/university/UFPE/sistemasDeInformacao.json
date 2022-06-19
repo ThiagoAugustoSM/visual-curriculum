@@ -20,7 +20,61 @@
           "name": "INTRODUCAO A ADMINISTRACAO"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AD291",
+          "name": "ANÁLISE DAS ORGANIZACOES"
+        },
+        {
+          "code": "IF995",
+          "name": "SEMINÁRIO EM SI 1"
+        },
+        {
+          "code": "IF996",
+          "name": "SEMINÁRIO EM SI 2"
+        },
+        {
+          "code": "IF997",
+          "name": "TÓPICOS AVANÇADOS EM SI 1"
+        },
+        {
+          "code": "IF998",
+          "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF1004",
+          "name": "SEMINÁRIO EM SI 3"
+        },
+        {
+          "code": "IF1005",
+          "name": "SEMINÁRIO EM SI 4"
+        },
+        {
+          "code": "IF1006",
+          "name": "TÓPICOS AVANÇADOS EM SI 3"
+        },
+        {
+          "code": "IF1007",
+          "name": "TÓPICOS AVANÇADOS EM SI 4"
+        },
+        {
+          "code": "IF1012",
+          "name": "SEMINÁRIO EM SI 5"
+        },
+        {
+          "code": "IF1013",
+          "name": "SEMINÁRIO EM SI 6"
+        },
+        {
+          "code": "IF1014",
+          "name": "TÓPICOS AVANÇADOS EM SI 5"
+        },
+        {
+          "code": "IF1015",
+          "name": "TÓPICOS AVANÇADOS EM SI 6"
+        }
+      ]
     },
     {
       "name": "CALCULO DIFERENCIAL E INTEGRAL 1",
@@ -31,7 +85,57 @@
       "isObligatory": true,
       "semester": 1,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF971",
+          "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
+        },
+        {
+          "code": "IF995",
+          "name": "SEMINÁRIO EM SI 1"
+        },
+        {
+          "code": "IF997",
+          "name": "TÓPICOS AVANÇADOS EM SI 1"
+        },
+        {
+          "code": "IF998",
+          "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF1004",
+          "name": "SEMINÁRIO EM SI 3"
+        },
+        {
+          "code": "IF1005",
+          "name": "SEMINÁRIO EM SI 4"
+        },
+        {
+          "code": "IF1006",
+          "name": "TÓPICOS AVANÇADOS EM SI 3"
+        },
+        {
+          "code": "IF1007",
+          "name": "TÓPICOS AVANÇADOS EM SI 4"
+        },
+        {
+          "code": "IF1012",
+          "name": "SEMINÁRIO EM SI 5"
+        },
+        {
+          "code": "IF1013",
+          "name": "SEMINÁRIO EM SI 6"
+        },
+        {
+          "code": "IF1014",
+          "name": "TÓPICOS AVANÇADOS EM SI 5"
+        },
+        {
+          "code": "IF1015",
+          "name": "TÓPICOS AVANÇADOS EM SI 6"
+        }
+      ]
     },
     {
       "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO",
@@ -47,7 +151,61 @@
           "name": "SISTEMAS DE INFORMACAO"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF976",
+          "name": "BANCO DE DADOS"
+        },
+        {
+          "code": "IF977",
+          "name": "ENGENHARIA DE SOFTWARE"
+        },
+        {
+          "code": "IF995",
+          "name": "SEMINÁRIO EM SI 1"
+        },
+        {
+          "code": "IF997",
+          "name": "TÓPICOS AVANÇADOS EM SI 1"
+        },
+        {
+          "code": "IF998",
+          "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF1004",
+          "name": "SEMINÁRIO EM SI 3"
+        },
+        {
+          "code": "IF1005",
+          "name": "SEMINÁRIO EM SI 4"
+        },
+        {
+          "code": "IF1006",
+          "name": "TÓPICOS AVANÇADOS EM SI 3"
+        },
+        {
+          "code": "IF1007",
+          "name": "TÓPICOS AVANÇADOS EM SI 4"
+        },
+        {
+          "code": "IF1012",
+          "name": "SEMINÁRIO EM SI 5"
+        },
+        {
+          "code": "IF1013",
+          "name": "SEMINÁRIO EM SI 6"
+        },
+        {
+          "code": "IF1014",
+          "name": "TÓPICOS AVANÇADOS EM SI 5"
+        },
+        {
+          "code": "IF1015",
+          "name": "TÓPICOS AVANÇADOS EM SI 6"
+        }
+      ]
     },
     {
       "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO",
@@ -63,7 +221,57 @@
           "name": "MATEMAT DISCRETA P/COMPUTACAO"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF972",
+          "name": "LÓGICA PARA COMPUTAÇÃO"
+        },
+        {
+          "code": "IF995",
+          "name": "SEMINÁRIO EM SI 1"
+        },
+        {
+          "code": "IF997",
+          "name": "TÓPICOS AVANÇADOS EM SI 1"
+        },
+        {
+          "code": "IF998",
+          "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF1004",
+          "name": "SEMINÁRIO EM SI 3"
+        },
+        {
+          "code": "IF1005",
+          "name": "SEMINÁRIO EM SI 4"
+        },
+        {
+          "code": "IF1006",
+          "name": "TÓPICOS AVANÇADOS EM SI 3"
+        },
+        {
+          "code": "IF1007",
+          "name": "TÓPICOS AVANÇADOS EM SI 4"
+        },
+        {
+          "code": "IF1012",
+          "name": "SEMINÁRIO EM SI 5"
+        },
+        {
+          "code": "IF1013",
+          "name": "SEMINÁRIO EM SI 6"
+        },
+        {
+          "code": "IF1014",
+          "name": "TÓPICOS AVANÇADOS EM SI 5"
+        },
+        {
+          "code": "IF1015",
+          "name": "TÓPICOS AVANÇADOS EM SI 6"
+        }
+      ]
     },
     {
       "name": "PROGRAMAÇÃO 1",
@@ -72,14 +280,72 @@
       "hours": 60,
       "credits": 3,
       "isObligatory": true,
-      "semester": 2,
+      "semester": 1,
       "equivalences": [
         {
           "code": "IF669",
           "name": "INTRODUCAO A PROGRAMACAO"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF969",
+          "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
+        },
+        {
+          "code": "IF975",
+          "name": "REDES DE COMPUTADORES"
+        },
+        {
+          "code": "IF977",
+          "name": "ENGENHARIA DE SOFTWARE"
+        },
+        {
+          "code": "IF995",
+          "name": "SEMINÁRIO EM SI 1"
+        },
+        {
+          "code": "IF997",
+          "name": "TÓPICOS AVANÇADOS EM SI 1"
+        },
+        {
+          "code": "IF998",
+          "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF1004",
+          "name": "SEMINÁRIO EM SI 3"
+        },
+        {
+          "code": "IF1005",
+          "name": "SEMINÁRIO EM SI 4"
+        },
+        {
+          "code": "IF1006",
+          "name": "TÓPICOS AVANÇADOS EM SI 3"
+        },
+        {
+          "code": "IF1007",
+          "name": "TÓPICOS AVANÇADOS EM SI 4"
+        },
+        {
+          "code": "IF1012",
+          "name": "SEMINÁRIO EM SI 5"
+        },
+        {
+          "code": "IF1013",
+          "name": "SEMINÁRIO EM SI 6"
+        },
+        {
+          "code": "IF1014",
+          "name": "TÓPICOS AVANÇADOS EM SI 5"
+        },
+        {
+          "code": "IF1015",
+          "name": "TÓPICOS AVANÇADOS EM SI 6"
+        }
+      ]
     },
     {
       "name": "ALGORITMOS E ESTRUTURAS DE DADOS",
@@ -100,6 +366,60 @@
           "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF973",
+          "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
+        },
+        {
+          "code": "IF976",
+          "name": "BANCO DE DADOS"
+        },
+        {
+          "code": "IF995",
+          "name": "SEMINÁRIO EM SI 1"
+        },
+        {
+          "code": "IF997",
+          "name": "TÓPICOS AVANÇADOS EM SI 1"
+        },
+        {
+          "code": "IF998",
+          "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF1004",
+          "name": "SEMINÁRIO EM SI 3"
+        },
+        {
+          "code": "IF1005",
+          "name": "SEMINÁRIO EM SI 4"
+        },
+        {
+          "code": "IF1006",
+          "name": "TÓPICOS AVANÇADOS EM SI 3"
+        },
+        {
+          "code": "IF1007",
+          "name": "TÓPICOS AVANÇADOS EM SI 4"
+        },
+        {
+          "code": "IF1012",
+          "name": "SEMINÁRIO EM SI 5"
+        },
+        {
+          "code": "IF1013",
+          "name": "SEMINÁRIO EM SI 6"
+        },
+        {
+          "code": "IF1014",
+          "name": "TÓPICOS AVANÇADOS EM SI 5"
+        },
+        {
+          "code": "IF1015",
+          "name": "TÓPICOS AVANÇADOS EM SI 6"
+        }
       ]
     },
     {
@@ -115,6 +435,64 @@
         {
           "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "AD193",
+          "name": "COMPORTAMENTO ORGANIZACIONAL"
+        },
+        {
+          "code": "IF979",
+          "name": "PLANEJAMENTO E GERENCIAMENTO DE PROJETOS"
+        },
+        {
+          "code": "IF995",
+          "name": "SEMINÁRIO EM SI 1"
+        },
+        {
+          "code": "IF996",
+          "name": "SEMINÁRIO EM SI 2"
+        },
+        {
+          "code": "IF997",
+          "name": "TÓPICOS AVANÇADOS EM SI 1"
+        },
+        {
+          "code": "IF998",
+          "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF1004",
+          "name": "SEMINÁRIO EM SI 3"
+        },
+        {
+          "code": "IF1005",
+          "name": "SEMINÁRIO EM SI 4"
+        },
+        {
+          "code": "IF1006",
+          "name": "TÓPICOS AVANÇADOS EM SI 3"
+        },
+        {
+          "code": "IF1007",
+          "name": "TÓPICOS AVANÇADOS EM SI 4"
+        },
+        {
+          "code": "IF1012",
+          "name": "SEMINÁRIO EM SI 5"
+        },
+        {
+          "code": "IF1013",
+          "name": "SEMINÁRIO EM SI 6"
+        },
+        {
+          "code": "IF1014",
+          "name": "TÓPICOS AVANÇADOS EM SI 5"
+        },
+        {
+          "code": "IF1015",
+          "name": "TÓPICOS AVANÇADOS EM SI 6"
         }
       ]
     },
@@ -137,6 +515,68 @@
           "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
+      ],
+      "dependents": [
+        {
+          "code": "CT503",
+          "name": "CONTABILIDADE DE CUSTOS E GERENCIAL"
+        },
+        {
+          "code": "IF983",
+          "name": "SISTEMAS DE APOIO À DECISÃO"
+        },
+        {
+          "code": "IF995",
+          "name": "SEMINÁRIO EM SI 1"
+        },
+        {
+          "code": "IF997",
+          "name": "TÓPICOS AVANÇADOS EM SI 1"
+        },
+        {
+          "code": "IF998",
+          "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF1002",
+          "name": "AVALIAÇÃO DE DESEMPENHO DE SISTEMAS"
+        },
+        {
+          "code": "IF1004",
+          "name": "SEMINÁRIO EM SI 3"
+        },
+        {
+          "code": "IF1005",
+          "name": "SEMINÁRIO EM SI 4"
+        },
+        {
+          "code": "IF1006",
+          "name": "TÓPICOS AVANÇADOS EM SI 3"
+        },
+        {
+          "code": "IF1007",
+          "name": "TÓPICOS AVANÇADOS EM SI 4"
+        },
+        {
+          "code": "IF1017",
+          "name": "INTELIGÊNCIA ARTIFICIAL"
+        },
+        {
+          "code": "IF1012",
+          "name": "SEMINÁRIO EM SI 5"
+        },
+        {
+          "code": "IF1013",
+          "name": "SEMINÁRIO EM SI 6"
+        },
+        {
+          "code": "IF1014",
+          "name": "TÓPICOS AVANÇADOS EM SI 5"
+        },
+        {
+          "code": "IF1015",
+          "name": "TÓPICOS AVANÇADOS EM SI 6"
+        }
       ]
     },
     {
@@ -153,7 +593,53 @@
           "name": "INGLES PARA COMPUTACAO"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF995",
+          "name": "SEMINÁRIO EM SI 1"
+        },
+        {
+          "code": "IF997",
+          "name": "TÓPICOS AVANÇADOS EM SI 1"
+        },
+        {
+          "code": "IF998",
+          "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF1004",
+          "name": "SEMINÁRIO EM SI 3"
+        },
+        {
+          "code": "IF1005",
+          "name": "SEMINÁRIO EM SI 4"
+        },
+        {
+          "code": "IF1006",
+          "name": "TÓPICOS AVANÇADOS EM SI 3"
+        },
+        {
+          "code": "IF1007",
+          "name": "TÓPICOS AVANÇADOS EM SI 4"
+        },
+        {
+          "code": "IF1012",
+          "name": "SEMINÁRIO EM SI 5"
+        },
+        {
+          "code": "IF1013",
+          "name": "SEMINÁRIO EM SI 6"
+        },
+        {
+          "code": "IF1014",
+          "name": "TÓPICOS AVANÇADOS EM SI 5"
+        },
+        {
+          "code": "IF1015",
+          "name": "TÓPICOS AVANÇADOS EM SI 6"
+        }
+      ]
     },
     {
       "name": "LÓGICA PARA COMPUTAÇÃO",
@@ -162,7 +648,7 @@
       "hours": 60,
       "credits": 4,
       "isObligatory": true,
-      "semester": 3,
+      "semester": 2,
       "equivalences": [
         {
           "code": "IF673",
@@ -173,6 +659,56 @@
         {
           "code": "IF967",
           "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF995",
+          "name": "SEMINÁRIO EM SI 1"
+        },
+        {
+          "code": "IF997",
+          "name": "TÓPICOS AVANÇADOS EM SI 1"
+        },
+        {
+          "code": "IF998",
+          "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF1004",
+          "name": "SEMINÁRIO EM SI 3"
+        },
+        {
+          "code": "IF1005",
+          "name": "SEMINÁRIO EM SI 4"
+        },
+        {
+          "code": "IF1006",
+          "name": "TÓPICOS AVANÇADOS EM SI 3"
+        },
+        {
+          "code": "IF1007",
+          "name": "TÓPICOS AVANÇADOS EM SI 4"
+        },
+        {
+          "code": "IF1017",
+          "name": "INTELIGÊNCIA ARTIFICIAL"
+        },
+        {
+          "code": "IF1012",
+          "name": "SEMINÁRIO EM SI 5"
+        },
+        {
+          "code": "IF1013",
+          "name": "SEMINÁRIO EM SI 6"
+        },
+        {
+          "code": "IF1014",
+          "name": "TÓPICOS AVANÇADOS EM SI 5"
+        },
+        {
+          "code": "IF1015",
+          "name": "TÓPICOS AVANÇADOS EM SI 6"
         }
       ]
     },
@@ -189,6 +725,24 @@
         {
           "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF978",
+          "name": "GESTÃO DE PROCESSOS DE NEGÓCIO"
+        },
+        {
+          "code": "AD435",
+          "name": "GESTÃO DE PESSOAS E EQUIPES"
+        },
+        {
+          "code": "AD432",
+          "name": "ESTRATÉGIA E PLANEJAMENTO"
+        },
+        {
+          "code": "AD433",
+          "name": "MARKETING EMPRESARIAL"
         }
       ]
     },
@@ -211,6 +765,16 @@
           "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         }
+      ],
+      "dependents": [
+        {
+          "code": "EC453",
+          "name": "ECONOMIA DAS EMPRESAS"
+        },
+        {
+          "code": "EP100",
+          "name": "GESTÃO DA PRODUÇÃO"
+        }
       ]
     },
     {
@@ -223,7 +787,7 @@
       "semester": 3,
       "equivalences": [
         {
-          "code": "IF674 ",
+          "code": "IF674",
           "name": "INFRA-ESTRUTURA DE HARDWARE"
         },
         {
@@ -236,6 +800,68 @@
           "code": "IF969",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF978",
+          "name": "GESTÃO DE PROCESSOS DE NEGÓCIO"
+        },
+        {
+          "code": "IF980",
+          "name": "SISTEMAS DE GESTÃO EMPRESARIAL"
+        },
+        {
+          "code": "IF983",
+          "name": "SISTEMAS DE APOIO À DECISÃO"
+        },
+        {
+          "code": "IF995",
+          "name": "SEMINÁRIO EM SI 1"
+        },
+        {
+          "code": "IF997",
+          "name": "TÓPICOS AVANÇADOS EM SI 1"
+        },
+        {
+          "code": "IF998",
+          "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF987",
+          "name": "AUDITORIA E SEGURANÇA DE SISTEMAS DE INFORMAÇÃO"
+        },
+        {
+          "code": "IF1004",
+          "name": "SEMINÁRIO EM SI 3"
+        },
+        {
+          "code": "IF1005",
+          "name": "SEMINÁRIO EM SI 4"
+        },
+        {
+          "code": "IF1006",
+          "name": "TÓPICOS AVANÇADOS EM SI 3"
+        },
+        {
+          "code": "IF1007",
+          "name": "TÓPICOS AVANÇADOS EM SI 4"
+        },
+        {
+          "code": "IF1012",
+          "name": "SEMINÁRIO EM SI 5"
+        },
+        {
+          "code": "IF1013",
+          "name": "SEMINÁRIO EM SI 6"
+        },
+        {
+          "code": "IF1014",
+          "name": "TÓPICOS AVANÇADOS EM SI 5"
+        },
+        {
+          "code": "IF1015",
+          "name": "TÓPICOS AVANÇADOS EM SI 6"
+        }
       ]
     },
     {
@@ -245,7 +871,7 @@
       "hours": 60,
       "credits": 3,
       "isObligatory": true,
-      "semester": 4,
+      "semester": 3,
       "equivalences": [
         {
           "code": "IF678",
@@ -256,6 +882,12 @@
         {
           "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF987",
+          "name": "AUDITORIA E SEGURANÇA DE SISTEMAS DE INFORMAÇÃO"
         }
       ]
     },
@@ -275,12 +907,42 @@
       ],
       "prerequisites": [
         {
-          "code": "IF966 ",
+          "code": "IF966",
           "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         },
         {
           "code": "IF969",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF982",
+          "name": "GESTÃO DA INFORMAÇÃO E DO CONHECIMENTO"
+        },
+        {
+          "code": "IF983",
+          "name": "SISTEMAS DE APOIO À DECISÃO"
+        },
+        {
+          "code": "IF991",
+          "name": "ADMINISTRAÇÃO DE BANCO DE DADOS"
+        },
+        {
+          "code": "IF992",
+          "name": "PROGRAMAÇÃO 2"
+        },
+        {
+          "code": "IF985",
+          "name": "PROJETO DE SISTEMA DE INFORMAÇÃO"
+        },
+        {
+          "code": "IF1002",
+          "name": "AVALIAÇÃO DE DESEMPENHO DE SISTEMAS"
+        },
+        {
+          "code": "IF1008",
+          "name": "ENGENHARIA DE REQUISITOS"
         }
       ]
     },
@@ -300,12 +962,42 @@
       ],
       "prerequisites": [
         {
-          "code": "IF966 ",
+          "code": "IF966",
           "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         },
         {
           "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF992",
+          "name": "PROGRAMAÇÃO 2"
+        },
+        {
+          "code": "IF985",
+          "name": "PROJETO DE SISTEMA DE INFORMAÇÃO"
+        },
+        {
+          "code": "IF1000",
+          "name": "INTERAÇÃO HUMANO-COMPUTADOR"
+        },
+        {
+          "code": "IF993",
+          "name": "PROCESSOS DE SOFTWARE"
+        },
+        {
+          "code": "IF994",
+          "name": "QUALIDADE DE SOFTWARE E DA INFORMAÇÃO"
+        },
+        {
+          "code": "IF1008",
+          "name": "ENGENHARIA DE REQUISITOS"
+        },
+        {
+          "code": "IF1009",
+          "name": "TESTE DE VALIDAÇÃO DE SOFTWARE"
         }
       ]
     },
@@ -320,12 +1012,30 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD193 ",
+          "code": "AD193",
           "name": "COMPORTAMENTO ORGANIZACIONAL"
         },
         {
           "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "EP100",
+          "name": "GESTÃO DA PRODUÇÃO"
+        },
+        {
+          "code": "IF999",
+          "name": "GESTÃO DE PROCESSOS DE TI"
+        },
+        {
+          "code": "AD434",
+          "name": "PENSAMENTO SISTÊMICO"
+        },
+        {
+          "code": "EP101",
+          "name": "LOGÍSTICA"
         }
       ]
     },
@@ -348,6 +1058,20 @@
           "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF985",
+          "name": "PROJETO DE SISTEMA DE INFORMAÇÃO"
+        },
+        {
+          "code": "IF1003",
+          "name": "INOVAÇÃO EM SI"
+        },
+        {
+          "code": "IF1019",
+          "name": "GESTÃO DE PORTIFÓLIO DE PROJETOS"
+        }
       ]
     },
     {
@@ -357,12 +1081,38 @@
       "hours": 60,
       "credits": 3,
       "isObligatory": true,
-      "semester": 5,
+      "semester": 4,
       "equivalences": [],
       "prerequisites": [
         {
           "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF982",
+          "name": "GESTÃO DA INFORMAÇÃO E DO CONHECIMENTO"
+        },
+        {
+          "code": "IF999",
+          "name": "GESTÃO DE PROCESSOS DE TI"
+        },
+        {
+          "code": "IF1002",
+          "name": "AVALIAÇÃO DE DESEMPENHO DE SISTEMAS"
+        },
+        {
+          "code": "IF1008",
+          "name": "ENGENHARIA DE REQUISITOS"
+        },
+        {
+          "code": "IF1003",
+          "name": "INOVAÇÃO EM SI"
+        },
+        {
+          "code": "EP101",
+          "name": "LOGÍSTICA"
         }
       ]
     },
@@ -375,7 +1125,13 @@
       "isObligatory": true,
       "semester": 5,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF989",
+          "name": "TENDÊNCIAS E DESAFIOS EM SISTEMAS DE INFORMAÇÃO"
+        }
+      ]
     },
     {
       "name": "GESTÃO DA INFORMAÇÃO E DO CONHECIMENTO",
@@ -388,12 +1144,18 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF976 ",
+          "code": "IF976",
           "name": "BANCO DE DADOS"
         },
         {
           "code": "IF980",
           "name": "SISTEMAS DE GESTÃO EMPRESARIAL"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF994",
+          "name": "QUALIDADE DE SOFTWARE E DA INFORMAÇÃO"
         }
       ]
     },
@@ -408,18 +1170,19 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF973 ",
+          "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
         },
         {
           "code": "IF976",
           "name": "BANCO DE DADOS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "ADMINISTRAÇÃO DE BANCO DE DADOS",
@@ -435,7 +1198,8 @@
           "code": "IF976",
           "name": "BANCO DE DADOS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "ECONOMIA DAS EMPRESAS",
@@ -451,7 +1215,8 @@
           "code": "CT503",
           "name": "CONTABILIDADE DE CUSTOS E GERENCIAL"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "GESTÃO DA PRODUÇÃO",
@@ -464,14 +1229,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "CT503 ",
+          "code": "CT503",
           "name": "CONTABILIDADE DE CUSTOS E GERENCIAL"
         },
         {
           "code": "IF978",
           "name": "GESTÃO DE PROCESSOS DE NEGÓCIO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PROGRAMAÇÃO 2",
@@ -480,16 +1246,26 @@
       "hours": 60,
       "credits": 3,
       "isObligatory": false,
-      "semester": 6,
+      "semester": 5,
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF976 ",
+          "code": "IF976",
           "name": "BANCO DE DADOS"
         },
         {
           "code": "IF977",
           "name": "ENGENHARIA DE SOFTWARE"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF1001",
+          "name": "PROGRAMAÇÃO 3"
+        },
+        {
+          "code": "IF1017",
+          "name": "INTELIGÊNCIA ARTIFICIAL"
         }
       ]
     },
@@ -502,7 +1278,13 @@
       "isObligatory": true,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF1010",
+          "name": "ESTAGIO NÃO-OBRIGATÓRIO"
+        }
+      ]
     },
     {
       "name": "PROJETO DE SISTEMA DE INFORMAÇÃO",
@@ -515,16 +1297,22 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF976 ",
+          "code": "IF976",
           "name": "BANCO DE DADOS"
         },
         {
-          "code": "IF977 ",
+          "code": "IF977",
           "name": "ENGENHARIA DE SOFTWARE"
         },
         {
           "code": "IF979",
           "name": "PLANEJAMENTO E GERENCIAMENTO DE PROJETOS"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF988",
+          "name": "EMPREENDIMENTOS EM INFORMÁTICA"
         }
       ]
     },
@@ -537,7 +1325,8 @@
       "isObligatory": true,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "GESTÃO DE PESSOAS E EQUIPES",
@@ -553,7 +1342,8 @@
           "code": "AD193",
           "name": "COMPORTAMENTO ORGANIZACIONAL"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "GESTÃO DE PROCESSOS DE TI",
@@ -566,14 +1356,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF978 ",
+          "code": "IF978",
           "name": "GESTÃO DE PROCESSOS DE NEGÓCIO"
         },
         {
           "code": "IF980",
           "name": "SISTEMAS DE GESTÃO EMPRESARIAL"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "INTERAÇÃO HUMANO-COMPUTADOR",
@@ -589,6 +1380,12 @@
           "code": "IF977",
           "name": "ENGENHARIA DE SOFTWARE"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF1018",
+          "name": "SISTEMAS MULTIMÍDIA"
+        }
       ]
     },
     {
@@ -600,7 +1397,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "PROCESSOS DE SOFTWARE",
@@ -616,7 +1414,8 @@
           "code": "IF977",
           "name": "ENGENHARIA DE SOFTWARE"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PROGRAMAÇÃO 3",
@@ -632,6 +1431,12 @@
           "code": "IF992",
           "name": "PROGRAMAÇÃO 2"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF1018",
+          "name": "SISTEMAS MULTIMÍDIA"
+        }
       ]
     },
     {
@@ -645,14 +1450,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF977 ",
+          "code": "IF977",
           "name": "ENGENHARIA DE SOFTWARE"
         },
         {
           "code": "IF982",
           "name": "GESTÃO DA INFORMAÇÃO E DO CONHECIMENTO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SEMINÁRIO EM SI 1",
@@ -665,50 +1471,51 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD291 ",
+          "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
         },
         {
-          "code": "AD431 ",
+          "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
         },
         {
-          "code": "IF966 ",
+          "code": "IF966",
           "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "IF967 ",
+          "code": "IF967",
           "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF968 ",
+          "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
         },
         {
-          "code": "IF969 ",
+          "code": "IF969",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF972 ",
+          "code": "IF972",
           "name": "LÓGICA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF973 ",
+          "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "LE732 ",
+          "code": "LE732",
           "name": "INGLÊS PARA COMPUTAÇÃO"
         },
         {
           "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SEMINÁRIO EM SI 2",
@@ -721,14 +1528,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD291 ",
+          "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
         },
         {
-          "code": "AD431 ",
+          "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TÓPICOS AVANÇADOS EM SI 1",
@@ -741,50 +1549,51 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD291 ",
+          "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
         },
         {
-          "code": "AD431 ",
+          "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
         },
         {
-          "code": "IF966 ",
+          "code": "IF966",
           "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "IF967 ",
+          "code": "IF967",
           "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF968 ",
+          "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
         },
         {
-          "code": "IF969 ",
+          "code": "IF969",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF972 ",
+          "code": "IF972",
           "name": "LÓGICA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF973 ",
+          "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "LE732 ",
+          "code": "LE732",
           "name": "INGLÊS PARA COMPUTAÇÃO"
         },
         {
           "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TÓPICOS AVANÇADOS EM SI 2",
@@ -793,54 +1602,55 @@
       "hours": 60,
       "credits": 4,
       "isObligatory": false,
-      "semester": 7,
+      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD291 ",
+          "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
         },
         {
-          "code": "AD431 ",
+          "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
         },
         {
-          "code": "IF966 ",
+          "code": "IF966",
           "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "IF967 ",
+          "code": "IF967",
           "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF968 ",
+          "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
         },
         {
-          "code": "IF969 ",
+          "code": "IF969",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF972 ",
+          "code": "IF972",
           "name": "LÓGICA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF973 ",
+          "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "LE732 ",
+          "code": "LE732",
           "name": "INGLÊS PARA COMPUTAÇÃO"
         },
         {
           "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "AUDITORIA E SEGURANÇA DE SISTEMAS DE INFORMAÇÃO",
@@ -853,16 +1663,22 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF973 ",
+          "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "IF974 ",
+          "code": "IF974",
           "name": "ORGANIZAÇÃO DE COMPUTADORES E SISTEMAS OPERACIONAIS"
         },
         {
           "code": "IF975",
           "name": "REDES DE COMPUTADORES"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF1011",
+          "name": "ADMINISTRAÇÃO DE SISTEMAS"
         }
       ]
     },
@@ -880,6 +1696,16 @@
           "code": "AD193",
           "name": "COMPORTAMENTO ORGANIZACIONAL"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF988",
+          "name": "EMPREENDIMENTOS EM INFORMÁTICA"
+        },
+        {
+          "code": "IF1019",
+          "name": "GESTÃO DE PORTIFÓLIO DE PROJETOS"
+        }
       ]
     },
     {
@@ -893,18 +1719,19 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF976 ",
+          "code": "IF976",
           "name": "BANCO DE DADOS"
         },
         {
           "code": "IF980",
           "name": "SISTEMAS DE GESTÃO EMPRESARIAL"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "ENGENHARIA DE REQUISITOS",
@@ -917,18 +1744,19 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF976 ",
+          "code": "IF976",
           "name": "BANCO DE DADOS"
         },
         {
-          "code": "IF977 ",
+          "code": "IF977",
           "name": "ENGENHARIA DE SOFTWARE"
         },
         {
           "code": "IF980",
           "name": "SISTEMAS DE GESTÃO EMPRESARIAL"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "INOVAÇÃO EM SI",
@@ -941,14 +1769,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF979 ",
+          "code": "IF979",
           "name": "PLANEJAMENTO E GERENCIAMENTO DE PROJETOS"
         },
         {
           "code": "IF980",
           "name": "SISTEMAS DE GESTÃO EMPRESARIAL"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "MARKETING EMPRESARIAL",
@@ -964,7 +1793,8 @@
           "code": "AD193",
           "name": "COMPORTAMENTO ORGANIZACIONAL"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PENSAMENTO SISTÊMICO",
@@ -980,7 +1810,8 @@
           "code": "IF978",
           "name": "GESTÃO DE PROCESSOS DE NEGÓCIO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SEMINÁRIO EM SI 3",
@@ -993,50 +1824,51 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD291 ",
+          "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
         },
         {
-          "code": "AD431 ",
+          "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
         },
         {
-          "code": "IF966 ",
+          "code": "IF966",
           "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "IF967 ",
+          "code": "IF967",
           "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF968 ",
+          "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
         },
         {
-          "code": "IF969 ",
+          "code": "IF969",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF972 ",
+          "code": "IF972",
           "name": "LÓGICA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF973 ",
+          "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "LE732 ",
+          "code": "LE732",
           "name": "INGLÊS PARA COMPUTAÇÃO"
         },
         {
           "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SEMINÁRIO EM SI 4",
@@ -1049,50 +1881,51 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD291 ",
+          "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
         },
         {
-          "code": "AD431 ",
+          "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
         },
         {
-          "code": "IF966 ",
+          "code": "IF966",
           "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "IF967 ",
+          "code": "IF967",
           "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF968 ",
+          "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
         },
         {
-          "code": "IF969 ",
+          "code": "IF969",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF972 ",
+          "code": "IF972",
           "name": "LÓGICA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF973 ",
+          "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "LE732 ",
+          "code": "LE732",
           "name": "INGLÊS PARA COMPUTAÇÃO"
         },
         {
           "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TESTE DE VALIDAÇÃO DE SOFTWARE",
@@ -1108,7 +1941,8 @@
           "code": "IF977",
           "name": "ENGENHARIA DE SOFTWARE"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TÓPICOS AVANÇADOS EM SI 3",
@@ -1121,50 +1955,51 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD291 ",
+          "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
         },
         {
-          "code": "AD431 ",
+          "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
         },
         {
-          "code": "IF966 ",
+          "code": "IF966",
           "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "IF967 ",
+          "code": "IF967",
           "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF968 ",
+          "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
         },
         {
-          "code": "IF969 ",
+          "code": "IF969",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF972 ",
+          "code": "IF972",
           "name": "LÓGICA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF973 ",
+          "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "LE732 ",
+          "code": "LE732",
           "name": "INGLÊS PARA COMPUTAÇÃO"
         },
         {
           "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TÓPICOS AVANÇADOS EM SI 4",
@@ -1173,54 +2008,55 @@
       "hours": 60,
       "credits": 4,
       "isObligatory": false,
-      "semester": 8,
+      "semester": 7,
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD291 ",
+          "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
         },
         {
-          "code": "AD431 ",
+          "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
         },
         {
-          "code": "IF966 ",
+          "code": "IF966",
           "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "IF967 ",
+          "code": "IF967",
           "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF968 ",
+          "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
         },
         {
-          "code": "IF969 ",
+          "code": "IF969",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF972 ",
+          "code": "IF972",
           "name": "LÓGICA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF973 ",
+          "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "LE732 ",
+          "code": "LE732",
           "name": "INGLÊS PARA COMPUTAÇÃO"
         },
         {
           "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "EMPREENDIMENTOS EM INFORMÁTICA",
@@ -1233,14 +2069,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD432 ",
+          "code": "AD432",
           "name": "ESTRATÉGIA E PLANEJAMENTO"
         },
         {
           "code": "IF985",
           "name": "PROJETO DE SISTEMA DE INFORMAÇÃO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TENDÊNCIAS E DESAFIOS EM SISTEMAS DE INFORMAÇÃO",
@@ -1256,7 +2093,8 @@
           "code": "CO691",
           "name": "COMUNICAÇÃO TÉCNICA E CIENTÍFICA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "ADMINISTRAÇÃO DE SISTEMAS",
@@ -1272,7 +2110,8 @@
           "code": "IF987",
           "name": "AUDITORIA E SEGURANÇA DE SISTEMAS DE INFORMAÇÃO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "DIREITO E ÉTICA EM INFORMÁTICA",
@@ -1283,7 +2122,8 @@
       "isObligatory": false,
       "semester": 8,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "INTELIGÊNCIA ARTIFICIAL",
@@ -1296,18 +2136,19 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF972 ",
+          "code": "IF972",
           "name": "LÓGICA PARA COMPUTAÇÃO"
         },
         {
           "code": "IF992",
           "name": "PROGRAMAÇÃO 2"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "LOGÍSTICA",
@@ -1320,14 +2161,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF978 ",
+          "code": "IF978",
           "name": "GESTÃO DE PROCESSOS DE NEGÓCIO"
         },
         {
           "code": "IF980",
           "name": "SISTEMAS DE GESTÃO EMPRESARIAL"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SEMINÁRIO EM SI 5",
@@ -1340,50 +2182,51 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD291 ",
+          "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
         },
         {
-          "code": "AD431 ",
+          "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
         },
         {
-          "code": "IF966 ",
+          "code": "IF966",
           "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "IF967 ",
+          "code": "IF967",
           "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF968 ",
+          "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
         },
         {
-          "code": "IF969 ",
+          "code": "IF969",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF972 ",
+          "code": "IF972",
           "name": "LÓGICA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF973 ",
+          "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "LE732 ",
+          "code": "LE732",
           "name": "INGLÊS PARA COMPUTAÇÃO"
         },
         {
           "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SEMINÁRIO EM SI 6",
@@ -1396,50 +2239,51 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD291 ",
+          "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
         },
         {
-          "code": "AD431 ",
+          "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
         },
         {
-          "code": "IF966 ",
+          "code": "IF966",
           "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "IF967 ",
+          "code": "IF967",
           "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF968 ",
+          "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
         },
         {
-          "code": "IF969 ",
+          "code": "IF969",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF972 ",
+          "code": "IF972",
           "name": "LÓGICA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF973 ",
+          "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "LE732 ",
+          "code": "LE732",
           "name": "INGLÊS PARA COMPUTAÇÃO"
         },
         {
           "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SISTEMAS MULTIMÍDIA",
@@ -1452,14 +2296,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF1000 ",
+          "code": "IF1000",
           "name": "INTERAÇÃO HUMANO-COMPUTADOR"
         },
         {
           "code": "IF1001",
           "name": "PROGRAMAÇÃO 3"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TÓPICOS AVANÇADOS EM SI 5",
@@ -1472,50 +2317,51 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD291 ",
+          "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
         },
         {
-          "code": "AD431 ",
+          "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
         },
         {
-          "code": "IF966 ",
+          "code": "IF966",
           "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "IF967 ",
+          "code": "IF967",
           "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF968 ",
+          "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
         },
         {
-          "code": "IF969 ",
+          "code": "IF969",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF972 ",
+          "code": "IF972",
           "name": "LÓGICA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF973 ",
+          "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "LE732 ",
+          "code": "LE732",
           "name": "INGLÊS PARA COMPUTAÇÃO"
         },
         {
           "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TÓPICOS AVANÇADOS EM SI 6",
@@ -1528,50 +2374,51 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD291 ",
+          "code": "AD291",
           "name": "ANÁLISE DAS ORGANIZACOES"
         },
         {
-          "code": "AD431 ",
+          "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
         },
         {
-          "code": "IF966 ",
+          "code": "IF966",
           "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "IF967 ",
+          "code": "IF967",
           "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF968 ",
+          "code": "IF968",
           "name": "PROGRAMAÇÃO 1"
         },
         {
-          "code": "IF969 ",
+          "code": "IF969",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
-          "code": "IF971 ",
+          "code": "IF971",
           "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF972 ",
+          "code": "IF972",
           "name": "LÓGICA PARA COMPUTAÇÃO"
         },
         {
-          "code": "IF973 ",
+          "code": "IF973",
           "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
         },
         {
-          "code": "LE732 ",
+          "code": "LE732",
           "name": "INGLÊS PARA COMPUTAÇÃO"
         },
         {
           "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "ESTAGIO NÃO-OBRIGATÓRIO",
@@ -1587,7 +2434,8 @@
           "code": "IF984",
           "name": "ESTÁGIO SUPERVISIONADO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "GESTÃO DE PORTIFÓLIO DE PROJETOS",
@@ -1600,14 +2448,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "AD432 ",
+          "code": "AD432",
           "name": "ESTRATÉGIA E PLANEJAMENTO"
         },
         {
           "code": "IF979",
           "name": "PLANEJAMENTO E GERENCIAMENTO DE PROJETOS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "RELAÇÕES RACIAIS",
@@ -1618,7 +2467,8 @@
       "isObligatory": false,
       "semester": 8,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     }
   ]
 }

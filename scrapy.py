@@ -42,7 +42,7 @@ def get_equivalences(string: str) -> list:
         if len(discipline_splitted) != 2: continue
         code, name = discipline_splitted
         equivalence_list.append({
-            "code": code,
+            "code": code.strip(),
             "name": name
         })
     return equivalence_list
@@ -153,6 +153,7 @@ def pdf_to_json(pdf_path: str, output_json: str):
     document = fitz.open(pdf_path)
 
     current_semester = 0
+    new_semester = 0
     disciplines = []
     semesters = 0
 
@@ -175,7 +176,11 @@ def pdf_to_json(pdf_path: str, output_json: str):
             if not continue_flag:
                 is_equivalence, is_prerequisite, ementa, disc_equivalences = infos
             elif "PERÍODO" in string:
-                current_semester = get_semester(string)
+                if len(disciplines) > 0 and disc_cod != disciplines[-1]["code"]:
+                    new_semester = get_semester(string)
+                else:
+                    current_semester = get_semester(string)
+                    new_semester = current_semester
                 semesters = max(current_semester, semesters)
             elif is_title:
                 splitted = string.split("\n") 
@@ -203,6 +208,7 @@ def pdf_to_json(pdf_path: str, output_json: str):
                     ementa = ""
                     disc_equivalences = []
                     disc_prerequisites = []
+                    current_semester = new_semester
                 
                 (name, _type, _, _, total, credits) = string.split("\n")
                 disc_cod, disc_name = name.split("- ")
@@ -320,7 +326,7 @@ def pdf_to_json_2(pdf_path: str, output_json: str):
                    semesters, disciplines)
 
 if __name__ == "__main__":
-    if sys.argv[1] in ['cc', 'si']:
+    if sys.argv[1].lower() in ['cc', 'si']:
         pdf_to_json(sys.argv[2], sys.argv[3])
-    elif sys.argv[1] == 'ec':
+    elif sys.argv[1].lower() == 'ec':
         pdf_to_json_2(sys.argv[2], sys.argv[3])
