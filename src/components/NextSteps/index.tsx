@@ -26,7 +26,7 @@ const NextSteps = (): React.ReactElement => {
       <List spacing={3}>
         <ListItem>
           <ListIcon as={MdTimelapse} color="green.500" />
-          Opção de salvar o seu histórico localmente.
+          Capturar e utilizar co-requisitos e equivalências
         </ListItem>
         <ListItem>
           <ListIcon as={MdTimelapse} color="green.500" />
