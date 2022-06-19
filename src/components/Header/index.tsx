@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import {
   Stack,
@@ -27,19 +28,21 @@ const Header = (): React.ReactElement => {
       justify="space-between"
       flexWrap="wrap"
     >
-      <Stack direction="row" align="center">
-        <Image
-          boxSize="100px"
-          src={Logo}
-          alt="Imagem de um pavão representando a logo do Visual Curriculum"
-        />
-        <Stack direction="column" textAlign="left">
-          <Heading as="h2" fontSize={['3xl', '4xl']}>
-            Visual Curriculum
-          </Heading>
-          <Text>Uma nova forma de visualizar a sua grade curricular!</Text>
+      <Link to="/">
+        <Stack direction="row" align="center">
+          <Image
+            boxSize="100px"
+            src={Logo}
+            alt="Imagem de um pavão representando a logo do Visual Curriculum"
+          />
+          <Stack direction="column" textAlign="left">
+            <Heading as="h2" fontSize={['3xl', '4xl']}>
+              Visual Curriculum
+            </Heading>
+            <Text>Uma nova forma de visualizar a sua grade curricular!</Text>
+          </Stack>
         </Stack>
-      </Stack>
+      </Link>
       <Stack direction="row" flexWrap="wrap" align="center" spacing={[0, 0, 4]}>
         <Button
           marginY="2"

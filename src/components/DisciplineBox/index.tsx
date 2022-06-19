@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-
 import {
   useColorMode,
   Box,
@@ -15,7 +14,7 @@ import {
   Flex,
 } from '@chakra-ui/react';
 import { AiOutlineLock } from 'react-icons/ai';
-import { DisciplineType } from '../../models/Curriculum';
+import { DisciplineBoxProps } from '../../models/Curriculum';
 
 const badgeSemesterColor = (semester: number) => {
   switch (semester) {
@@ -44,68 +43,57 @@ const badgeSemesterColor = (semester: number) => {
   }
 };
 
-type OnClickTypes = {
-  isActive: boolean;
-  id: string;
-  isObligatory: boolean;
-  hours: number;
-  prerequisites: string[];
-};
-
-type DisciplineBoxProps = {
-  id: string;
-  onClick: (params: OnClickTypes) => void;
-} & DisciplineType;
-
 const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
   const {
-    id,
     onClick,
+    id,
     name,
-    prerequisites,
-    semester,
     hours,
     credits,
+    isActive,
+    semester,
     isObligatory,
+    prerequisites,
   } = props;
-  const initalPrerequisiteState = prerequisites.length > 0 ? true : false;
-  const { colorMode } = useColorMode();
-  const [isActive, setIsActive] = useState(false);
   const [bgColor, setBgColor] = useState('white');
   const [bgColorDark, setBgColorDark] = useState('');
   const [popover, setPopover] = useState({ bgColor: '', color: '' });
 
+  const { colorMode } = useColorMode();
+
   const handleClick = () => {
-    if (isActive === true) {
+    onClick({
+      isActive: !isActive,
+      isObligatory,
+      hours,
+      id,
+    });
+  };
+
+  useEffect(() => {
+    if (isActive !== true) {
       setBgColor('white');
       setBgColorDark('gray.800');
     } else {
       setBgColor('green.200');
       setBgColorDark('green.500');
     }
-
-    onClick({ isActive: !isActive, id, isObligatory, hours, prerequisites });
-    setIsActive(!isActive);
-  };
-
-  useEffect(() => {
     setPopover({
       bgColor: colorMode === 'light' ? 'white' : 'gray.800',
       color: colorMode === 'light' ? 'gray.500' : 'gray.400',
     });
-  }, [colorMode]);
+  }, [colorMode, isActive]);
 
   return (
     <Box
       id={id}
       as="button"
-      disabled={initalPrerequisiteState}
       onClick={handleClick}
       bgColor={colorMode === 'light' ? bgColor : bgColorDark}
       borderRadius="lg"
       borderWidth="1px"
       m="3"
-      maxW="sm"
+      maxW="300px"
       minW="245px"
       overflow="hidden"
     >
@@ -154,7 +142,9 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
                     <PopoverBody>
                       <UnorderedList>
                         {prerequisites.map((prerequisite) => (
-                          <ListItem key={prerequisite}>{prerequisite}</ListItem>
+                          <ListItem key={prerequisite.code}>
+                            {prerequisite.name}
+                          </ListItem>
                         ))}
                       </UnorderedList>
                     </PopoverBody>
