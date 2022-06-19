@@ -1,179 +1,63 @@
-import React, { useEffect, useState } from 'react';
-import { Box, SimpleGrid, Grid } from '@chakra-ui/react';
-import Header from '../../components/Header';
-import Navigator from '../../components/Navigator';
-import DisciplineBox from '../../components/DisciplineBox';
-import StatsContainer from '../../components/StatsContainer';
-import NextSteps from '../../components/NextSteps';
-import Footer from '../../components/Footer';
-import localForage from 'localforage';
-import setAcademicHours from '../../utils/setAcademicHours';
-import {
-  CurriculumType,
-  DisciplineType,
-  Itime,
-  OnClickTypes,
-} from '../../models/Curriculum';
-import disciplineData from '../../utils/requestDisciplines';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Box, Text, Stack, Heading } from '@chakra-ui/react';
 
-localForage.config({
-  name: 'cv',
-  description: 'save changes',
-  storeName: 'disciplines',
-});
+import Header from '../../components/Header';
 
 function Home(): React.ReactElement {
-  const [curriculum, setCurriculum] = useState<
-    CurriculumType | Record<string, never>
-  >({});
-  const [academicTotalDone, setAcademicTotalDone] = useState(0);
-  const [academicObligatoryDone, setAcademicObligatoryDone] = useState(0);
-  const [academicElectiveDone, setAcademicElectiveDone] = useState(0);
-
-  const setters = {
-    setAcademicObligatoryDone,
-    setAcademicElectiveDone,
-    setAcademicTotalDone,
-  };
-
-  const handleClick = (props: OnClickTypes): boolean => {
-    const { isActive, isObligatory, hours, id, setDisabled } = props;
-    const newData = curriculum;
-    const discipline = newData.disciplines.find((el) => el.code === id);
-    if (discipline) {
-      if (discipline.prerequisites.length) {
-        const requisiteSize = discipline.prerequisites.length;
-        let length = 0;
-        discipline.prerequisites.forEach((disciplineID) => {
-          const element = newData.disciplines.find(
-            (el) => disciplineID.code === el.code
-          );
-          if (element?.isActive) length++;
-        });
-        if (length === requisiteSize) {
-          setAcademicHours(setters, isActive, isObligatory, hours);
-          setDisabled(false);
-          discipline.isActive = isActive;
-          setCurriculum(newData);
-          return false;
-        } else {
-          setDisabled(true);
-          return true;
-        }
-      } else {
-        setAcademicHours(setters, isActive, isObligatory, hours);
-        discipline.isActive = isActive;
-        setCurriculum(newData);
-        return false;
-      }
-    }
-    return true;
-  };
-
-  useEffect(() => {
-    async function loadData() {
-      const data: CurriculumType = await disciplineData;
-
-      const tempo: Itime | null = await localForage.getItem('hours');
-      if (tempo !== null) {
-        setAcademicTotalDone(tempo.total);
-        setAcademicElectiveDone(tempo.eletiva);
-        setAcademicObligatoryDone(tempo.obrigatoria);
-      }
-      const disciplines: [DisciplineType] | null = await localForage.getItem(
-        'disciplines'
-      );
-
-      if (disciplines !== null) {
-        disciplines.map((el) => {
-          el.isActive = el.isActive ?? false;
-          return el;
-        });
-        data.disciplines = disciplines;
-      }
-      setCurriculum(data);
-    }
-    loadData();
-  }, []);
-
-  useEffect(() => {
-    if (!academicTotalDone) return;
-    localForage.setItem('hours', {
-      total: academicTotalDone,
-      eletiva: academicElectiveDone,
-      obrigatoria: academicObligatoryDone,
-    });
-    localForage.setItem('disciplines', curriculum.disciplines);
-  }, [
-    academicObligatoryDone,
-    academicElectiveDone,
-    academicTotalDone,
-    curriculum.disciplines,
-  ]);
-
-  const arrayOfSemesters = Array.from(
-    { length: curriculum?.semesters },
-    (_, i) => i + 1
-  );
   return (
     <Box m="5">
       <Header />
-      <Navigator />
-      <Box w="100%" maxWidth="1700px" maxH="60vh" overflow="scroll">
-        {arrayOfSemesters.map((semester) => (
-          <Grid
-            maxW="1600px"
-            key={`rows-${semester}`}
-            templateColumns="repeat(5, 1fr)"
-            gap={1}
+      <Heading as="h2" size="lg" marginY="2">
+        Escolha o curso
+      </Heading>
+      <Stack>
+        <Link to={`/UFPE/engenhariaDaComputacao`}>
+          <Box
+            m="3"
+            p="3"
+            maxW="md"
+            minW="100px"
+            minH="100px"
+            borderWidth="1px"
+            borderRadius="lg"
+            overflow="hidden"
+            textAlign="center"
           >
-            {curriculum?.disciplines
-              .filter((item) => item.semester === semester)
-              .filter((item) => item.isObligatory)
-              .map((item) => (
-                <DisciplineBox
-                  key={item.name}
-                  id={item.code}
-                  onClick={handleClick}
-                  {...item}
-                />
-              ))}
-          </Grid>
-        ))}
-        <hr style={{ maxWidth: 'calc(100% - 10px)' }} />
-        {arrayOfSemesters.map((semester) => (
-          <Grid
-            maxW="1600px"
-            key={`rows-${semester}`}
-            templateColumns="repeat(5, 1fr)"
-            gap={1}
+            <Text> UFPE - Engenharia da computação </Text>
+          </Box>
+        </Link>
+        <Link to={`/UFPE/cienciaDaComputacao`}>
+          <Box
+            m="3"
+            p="3"
+            maxW="md"
+            minW="100px"
+            minH="100px"
+            borderWidth="1px"
+            borderRadius="lg"
+            overflow="hidden"
+            textAlign="center"
           >
-            {curriculum?.disciplines
-              .filter((item) => item.semester === semester)
-              .filter((item) => !item.isObligatory)
-              .map((item) => (
-                <DisciplineBox
-                  key={item.name}
-                  id={item.code}
-                  onClick={handleClick}
-                  {...item}
-                />
-              ))}
-          </Grid>
-        ))}
-      </Box>
-      <SimpleGrid columns={[1, 2]} spacing="5">
-        <StatsContainer
-          academicTotalDone={academicTotalDone}
-          academicObligatoryDone={academicObligatoryDone}
-          academicElectiveDone={academicElectiveDone}
-          totalHours={curriculum.totalHours}
-          totalHoursObligatory={curriculum.totalHoursObligatory}
-          totalHoursElective={curriculum.totalHoursElective}
-        />
-        <NextSteps />
-      </SimpleGrid>
-      <Footer />
+            <Text> UFPE - Ciência da computação </Text>
+          </Box>
+        </Link>
+        <Link to={`/UFPE/sistemasDeInformacao`}>
+          <Box
+            m="3"
+            p="3"
+            maxW="md"
+            minW="100px"
+            minH="100px"
+            borderWidth="1px"
+            borderRadius="lg"
+            overflow="hidden"
+            textAlign="center"
+          >
+            <Text> UFPE - Sistemas de informação </Text>
+          </Box>
+        </Link>
+      </Stack>
     </Box>
   );
 }

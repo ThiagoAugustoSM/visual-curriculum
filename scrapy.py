@@ -31,16 +31,6 @@ def get_hours(string: str) -> int:
 def get_semester(string: str) -> int:
     return int(re.findall("[0-9]+", string)[0])
 
-def get_discipline_infos(string: str) -> "tuple[str]":
-    (name, _type, _, _, total, credits) = string.split("\n")
-    disc_cod, disc_name = name.split("- ")
-    disc_credits = int(float(credits))
-    disc_type = _type == "OBRIG"
-    disc_hours = int(total)
-    
-    return (disc_cod, disc_name, disc_type, 
-            disc_hours, disc_credits)
-
 def get_equivalences(string: str) -> list:
     equivalence_list = []
     if "NÃO" in string:
@@ -52,7 +42,7 @@ def get_equivalences(string: str) -> list:
         if len(discipline_splitted) != 2: continue
         code, name = discipline_splitted
         equivalence_list.append({
-            "code": code,
+            "code": code.strip(),
             "name": name
         })
     return equivalence_list
@@ -134,21 +124,36 @@ def save_json_file(output_path: str, university_name: str, course_name: str,
         }, file, ensure_ascii=False, indent=2)
 
 def get_dependents_value(discipline_list: list) -> list:
+    dependents = {}
 
     for discipline in discipline_list:
-        for item in discipline['prerequisites']:
-            for x in discipline_list:
-                if x['code'] == item['code']:
-                    x['dependents'].append({
-                        'code': discipline['code'],
-                        'name': discipline['name']
-                        })
+        for requisite in discipline['prerequisites']:
+            code = requisite['code']
+            if code not in dependents:
+                dependents[code] = []
+            dependents[code].append({
+                'code': discipline['code'],
+                'name': discipline['name']
+            })
+
+    for discipline in discipline_list:
+        discipline['dependents'] = []
+        code = discipline['code']
+        if code in dependents:
+            discipline['dependents'] = dependents[code]
+        
     return discipline_list
 
 def pdf_to_json(pdf_path: str, output_json: str):
+    """
+    Scraps the PDF file getting the information and
+    writing it to a JSON file. This version was made
+    to Computer Engineering course.
+    """
     document = fitz.open(pdf_path)
 
     current_semester = 0
+    new_semester = 0
     disciplines = []
     semesters = 0
 
@@ -171,7 +176,11 @@ def pdf_to_json(pdf_path: str, output_json: str):
             if not continue_flag:
                 is_equivalence, is_prerequisite, ementa, disc_equivalences = infos
             elif "PERÍODO" in string:
-                current_semester = get_semester(string)
+                if len(disciplines) > 0 and disc_cod != disciplines[-1]["code"]:
+                    new_semester = get_semester(string)
+                else:
+                    current_semester = get_semester(string)
+                    new_semester = current_semester
                 semesters = max(current_semester, semesters)
             elif is_title:
                 splitted = string.split("\n") 
@@ -199,11 +208,13 @@ def pdf_to_json(pdf_path: str, output_json: str):
                     ementa = ""
                     disc_equivalences = []
                     disc_prerequisites = []
+                    current_semester = new_semester
                 
                 (name, _type, _, _, total, credits) = string.split("\n")
                 disc_cod, disc_name = name.split("- ")
                 disc_credits = int(float(credits))
                 disc_type = "OBRIG" in _type
+                disc_cod = disc_cod.strip()
                 disc_hours = int(total)
             else:
                 (is_equivalence, is_prerequisite, 
@@ -231,11 +242,6 @@ def pdf_to_json(pdf_path: str, output_json: str):
                    semesters, disciplines)
 
 def pdf_to_json_2(pdf_path: str, output_json: str):
-    """
-    Scraps the PDF file getting the information and
-    writing it to a JSON file. This version was made
-    to Computer Engineering course.
-    """
     document = fitz.open(pdf_path)
 
     disciplines = []
@@ -292,6 +298,7 @@ def pdf_to_json_2(pdf_path: str, output_json: str):
                 disc_cod, disc_name = name.split("- ")
                 disc_credits = int(float(credits))
                 disc_type = "OBRIG" in _type
+                disc_cod = disc_cod.strip()
                 disc_hours = int(total)
                 semester = int(period)
                 semesters = max(semester, semesters)
@@ -314,13 +321,12 @@ def pdf_to_json_2(pdf_path: str, output_json: str):
         "dependents": [],
     })
     get_dependents_value(disciplines)
-    print(disciplines)   
     save_json_file(output_json, university_name, course_name,
                    total_hours, elective_hours, obligatory_hours,
                    semesters, disciplines)
 
 if __name__ == "__main__":
-    if sys.argv[1] in ['cc', 'si']:
+    if sys.argv[1].lower() in ['cc', 'si']:
         pdf_to_json(sys.argv[2], sys.argv[3])
-    elif sys.argv[1] == 'ec':
+    elif sys.argv[1].lower() == 'ec':
         pdf_to_json_2(sys.argv[2], sys.argv[3])

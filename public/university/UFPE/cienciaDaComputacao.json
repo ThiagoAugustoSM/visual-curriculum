@@ -1,7 +1,7 @@
 {
   "university": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
   "course": "CIÊNCIA DA COMPUTAÇÃO - CIN",
-  "semesters": 9,
+  "semesters": 6,
   "totalHours": 3495,
   "totalHoursElective": 1140,
   "totalHoursObligatory": 2355,
@@ -20,7 +20,37 @@
           "name": "ALGEBRA LINEAR 1"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF680",
+          "name": "PROCESSAMENTO GRAFICO"
+        },
+        {
+          "code": "IF763",
+          "name": "ALGEBRA LINEAR AVANC. COMPUTACAO"
+        },
+        {
+          "code": "IF764",
+          "name": "CALCULO AVANCADO PARA COMPUTACAO"
+        },
+        {
+          "code": "IF109",
+          "name": "METODOS NUMERICOS"
+        },
+        {
+          "code": "IF797",
+          "name": "OTIMIZACAO"
+        },
+        {
+          "code": "IF753",
+          "name": "PROCESSAMENTO DE SINAIS"
+        },
+        {
+          "code": "IF777",
+          "name": "TOP.AVANC. MATEMAT. COMPUTACIONAL"
+        }
+      ]
     },
     {
       "name": "CALCULO DIFERENCIAL E INTEGRAL 1",
@@ -36,7 +66,25 @@
           "name": "CALCULO PARA COMPUTACAO"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "ET586",
+          "name": "ESTATIST PROBABILIDADE COMPUTACAO"
+        },
+        {
+          "code": "IF680",
+          "name": "PROCESSAMENTO GRAFICO"
+        },
+        {
+          "code": "IF764",
+          "name": "CALCULO AVANCADO PARA COMPUTACAO"
+        },
+        {
+          "code": "IF753",
+          "name": "PROCESSAMENTO DE SINAIS"
+        }
+      ]
     },
     {
       "name": "INTRODUCAO A COMPUTACAO",
@@ -68,7 +116,17 @@
           "name": "INTRODUCAO AO COMPUTADOR 1"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF690",
+          "name": "HISTORIA E FUTURO DA COMPUTACAO"
+        },
+        {
+          "code": "IF676",
+          "name": "METODOL EXPRESSAO TEC-CIENTIFICA"
+        }
+      ]
     },
     {
       "name": "INTRODUCAO A PROGRAMACAO",
@@ -80,7 +138,7 @@
       "semester": 1,
       "equivalences": [
         {
-          "code": "IF097 ",
+          "code": "IF097",
           "name": "LINGUAGENS DE PROGRAMACAO 1"
         },
         {
@@ -88,7 +146,37 @@
           "name": "LINGUAGENS DE PROGRAMACAO 3"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF672",
+          "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
+        },
+        {
+          "code": "IF678",
+          "name": "INFRA-ESTRUTURA DE COMUNICACAO"
+        },
+        {
+          "code": "IF674",
+          "name": "INFRA-ESTRUTURA DE HARDWARE"
+        },
+        {
+          "code": "IF677",
+          "name": "INFRA-ESTRUTURA DE SOFTWARE"
+        },
+        {
+          "code": "IF681",
+          "name": "INTERFACES USUARIO-MAQUINA"
+        },
+        {
+          "code": "IF687",
+          "name": "INTRODUÇÃO A MULTIMIDIA"
+        },
+        {
+          "code": "IF683",
+          "name": "PROJETO DE DESENVOLVIMENTO"
+        }
+      ]
     },
     {
       "name": "MATEMAT DISCRETA P/COMPUTACAO",
@@ -97,14 +185,20 @@
       "hours": 75,
       "credits": 5,
       "isObligatory": true,
-      "semester": 2,
+      "semester": 1,
       "equivalences": [
         {
           "code": "IF240",
           "name": "ALGEBRA APLICADA A COMPUTACAO"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF673",
+          "name": "LOGICA PARA COMPUTACAO"
+        }
+      ]
     },
     {
       "name": "ALGORITMOS E ESTRUTURAS DE DADOS",
@@ -124,6 +218,40 @@
         {
           "code": "IF669",
           "name": "INTRODUCAO A PROGRAMACAO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF682",
+          "name": "ENGENHARIA SOFTWARE E SISTEMAS"
+        },
+        {
+          "code": "IF685",
+          "name": "GERENCIAMENTO DADOS E INFORMACAO"
+        },
+        {
+          "code": "IF689",
+          "name": "INFORMATICA TEORICA"
+        },
+        {
+          "code": "IF684",
+          "name": "SISTEMAS INTELIGENTES"
+        },
+        {
+          "code": "IF804",
+          "name": "COMPARACAO ANALISE SEQUENCIAS DNA"
+        },
+        {
+          "code": "IF109",
+          "name": "METODOS NUMERICOS"
+        },
+        {
+          "code": "IF768",
+          "name": "TEORIA DE GRAFOS"
+        },
+        {
+          "code": "IF775",
+          "name": "TOPICOS AVANCADOS EM ALGORITMOS"
         }
       ]
     },
@@ -146,6 +274,16 @@
           "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF797",
+          "name": "OTIMIZACAO"
+        },
+        {
+          "code": "IF746",
+          "name": "PROC.SIMUL.ESTOCAST.COMPUTACAO"
+        }
       ]
     },
     {
@@ -162,7 +300,8 @@
           "name": "FISICA GERAL 3"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "LOGICA PARA COMPUTACAO",
@@ -183,6 +322,24 @@
           "code": "IF670",
           "name": "MATEMAT DISCRETA P/COMPUTACAO"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF682",
+          "name": "ENGENHARIA SOFTWARE E SISTEMAS"
+        },
+        {
+          "code": "IF689",
+          "name": "INFORMATICA TEORICA"
+        },
+        {
+          "code": "IF684",
+          "name": "SISTEMAS INTELIGENTES"
+        },
+        {
+          "code": "IF773",
+          "name": "LOGICAS NAO CLASSICAS"
+        }
       ]
     },
     {
@@ -192,14 +349,20 @@
       "hours": 75,
       "credits": 4,
       "isObligatory": true,
-      "semester": 3,
+      "semester": 2,
       "equivalences": [
         {
           "code": "IF111",
           "name": "CIRCUITOS DIGITAIS"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF674",
+          "name": "INFRA-ESTRUTURA DE HARDWARE"
+        }
+      ]
     },
     {
       "name": "INFORMATICA E SOCIEDADE",
@@ -210,7 +373,8 @@
       "isObligatory": true,
       "semester": 3,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "INFRA-ESTRUTURA DE COMUNICACAO",
@@ -235,6 +399,28 @@
           "code": "IF669",
           "name": "INTRODUCAO A PROGRAMACAO"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF741",
+          "name": "GERENCIAMENTO DE REDES"
+        },
+        {
+          "code": "IF712",
+          "name": "PROGRAMACAO PARA INTERNET"
+        },
+        {
+          "code": "IF738",
+          "name": "REDES DE COMPUTADORES"
+        },
+        {
+          "code": "IF748",
+          "name": "SEMINARIO REDES SIST.DISTRIBUIDOS"
+        },
+        {
+          "code": "IF740",
+          "name": "SISTEMAS DE COMUNICACAO"
+        }
       ]
     },
     {
@@ -253,12 +439,50 @@
       ],
       "prerequisites": [
         {
-          "code": "IF669 ",
+          "code": "IF669",
           "name": "INTRODUCAO A PROGRAMACAO"
         },
         {
           "code": "IF675",
           "name": "SISTEMAS DIGITAIS"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF728",
+          "name": "ENGENHARIA DE SISTEMAS EMBUTIDOS"
+        },
+        {
+          "code": "IF709",
+          "name": "IMPLEMENTACAO SIST. OPERACIONAIS"
+        },
+        {
+          "code": "IF726",
+          "name": "ORGANIZ. TECNOLOGIA COMPUTADORES"
+        },
+        {
+          "code": "IF725",
+          "name": "PROJETO DE CPU"
+        },
+        {
+          "code": "IF729",
+          "name": "PROTOTIP. DE CIRCUITOS INTEGRADOS"
+        },
+        {
+          "code": "IF736",
+          "name": "SEMIN.ARQUIT. SISTEMAS EMBUTIDOS"
+        },
+        {
+          "code": "IF737",
+          "name": "TOP.AVANC. EM SISTEMAS EMBUTIDOS"
+        },
+        {
+          "code": "IF735",
+          "name": "TOP.AVANC.ARQUIT.DE COMPUTADORES"
+        },
+        {
+          "code": "IF809",
+          "name": "TOP.AVANC.ROBOT.AUTOM.INTELIGENTE"
         }
       ]
     },
@@ -281,6 +505,40 @@
           "code": "IF669",
           "name": "INTRODUCAO A PROGRAMACAO"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF744",
+          "name": "ADM. DE SISTEMAS HETEROGENEOS"
+        },
+        {
+          "code": "IF694",
+          "name": "BANCO DE DADOS DISTRIB. E MOVEIS"
+        },
+        {
+          "code": "IF709",
+          "name": "IMPLEMENTACAO SIST. OPERACIONAIS"
+        },
+        {
+          "code": "IF711",
+          "name": "PROGRAM. CONCORRENTE DISTRIBUIDA"
+        },
+        {
+          "code": "IF730",
+          "name": "SISTEMA DE TEMPO REAL"
+        },
+        {
+          "code": "IF745",
+          "name": "SISTEMAS MULTIMIDIA DISTRIBUIDOS"
+        },
+        {
+          "code": "IF801",
+          "name": "TECNOLOGIAS EDUCACIONAIS"
+        },
+        {
+          "code": "IF749",
+          "name": "TOPICOS AVANC.SIST.DISTRIBUIDOS"
+        }
       ]
     },
     {
@@ -290,14 +548,15 @@
       "hours": 75,
       "credits": 4,
       "isObligatory": true,
-      "semester": 4,
+      "semester": 3,
       "equivalences": [
         {
           "code": "LE028",
           "name": "INGLES INSTRUMENTAL 1"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "ENGENHARIA SOFTWARE E SISTEMAS",
@@ -315,12 +574,34 @@
       ],
       "prerequisites": [
         {
-          "code": "IF672 ",
+          "code": "IF672",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
           "code": "IF673",
           "name": "LOGICA PARA COMPUTACAO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF718",
+          "name": "ANALISE E PROJETOS DE SISTEMAS"
+        },
+        {
+          "code": "IF716",
+          "name": "ESPECIF.REQUIS.VALIDACAO SISTEMAS"
+        },
+        {
+          "code": "IF717",
+          "name": "PLANEJ. GERENCIAMENTO DE PROJETOS"
+        },
+        {
+          "code": "IF720",
+          "name": "QUALIDADE DE SOFTWARE"
+        },
+        {
+          "code": "IF721",
+          "name": "SISTEMAS CRITICOS"
         }
       ]
     },
@@ -343,6 +624,48 @@
           "code": "IF672",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF699",
+          "name": "APRENDIZAGEM DE MAQUINA"
+        },
+        {
+          "code": "IF695",
+          "name": "BANCO DE DADOS AVANÇADOS"
+        },
+        {
+          "code": "IF694",
+          "name": "BANCO DE DADOS DISTRIB. E MOVEIS"
+        },
+        {
+          "code": "IF696",
+          "name": "INTEG. DADOS WEB E WAREHOUSE"
+        },
+        {
+          "code": "IF799",
+          "name": "PROG.DECLARATIVA B.D.INTELIGENTES"
+        },
+        {
+          "code": "IF692",
+          "name": "PROJETO DE BANCO DE DADOS"
+        },
+        {
+          "code": "IF962",
+          "name": "RECUPERAÇÃO DE INFORMAÇÃO"
+        },
+        {
+          "code": "IF698",
+          "name": "SEMIN. GERENC. DADOS E INFORMACAO"
+        },
+        {
+          "code": "IF693",
+          "name": "SIST.GERENC. DE BANCO DE DADOS"
+        },
+        {
+          "code": "IF714",
+          "name": "SISTEMAS DE INFORMACAO"
+        }
       ]
     },
     {
@@ -361,12 +684,42 @@
       ],
       "prerequisites": [
         {
-          "code": "IF672 ",
+          "code": "IF672",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
           "code": "IF673",
           "name": "LOGICA PARA COMPUTACAO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF774",
+          "name": "COMPLEXIDADE DESCRITIVA"
+        },
+        {
+          "code": "IF772",
+          "name": "LAMBDA CALCULO TEORIA TIPOS"
+        },
+        {
+          "code": "IF778",
+          "name": "SEMINARIO EM INFORMATICA TEORICA"
+        },
+        {
+          "code": "IF771",
+          "name": "TEORIA DA PROVA"
+        },
+        {
+          "code": "IF769",
+          "name": "TEORIA DA RECURSAO"
+        },
+        {
+          "code": "IF770",
+          "name": "TEORIA DOS MODELOS"
+        },
+        {
+          "code": "IF776",
+          "name": "TOPICOS AVANCADOS INF. TEORICA"
         }
       ]
     },
@@ -384,6 +737,24 @@
           "code": "IF669",
           "name": "INTRODUCAO A PROGRAMACAO"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF758",
+          "name": "INTERFACES ADAPT. SISTEMAS MOVEIS"
+        },
+        {
+          "code": "IF865",
+          "name": "INTERFACES GRÁFICAS"
+        },
+        {
+          "code": "IF712",
+          "name": "PROGRAMACAO PARA INTERNET"
+        },
+        {
+          "code": "IF755",
+          "name": "REALIDADE VIRTUAL"
+        }
       ]
     },
     {
@@ -397,12 +768,26 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "MA026 ",
+          "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         },
         {
           "code": "MA531",
           "name": "ALGEBRA VET LINEAR P/COMPUTACAO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF750",
+          "name": "COMPUTACAO GRAFICA"
+        },
+        {
+          "code": "IF865",
+          "name": "INTERFACES GRÁFICAS"
+        },
+        {
+          "code": "IF793",
+          "name": "PROJETO IMPLEMENTACAO DE JOGOS 2D"
         }
       ]
     },
@@ -413,7 +798,7 @@
       "hours": 75,
       "credits": 4,
       "isObligatory": true,
-      "semester": 5,
+      "semester": 4,
       "equivalences": [
         {
           "code": "IF126",
@@ -422,12 +807,42 @@
       ],
       "prerequisites": [
         {
-          "code": "IF672 ",
+          "code": "IF672",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
           "code": "IF673",
           "name": "LOGICA PARA COMPUTACAO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF752",
+          "name": "ANALISE IMAG. VISAO COMPUTACIONAL"
+        },
+        {
+          "code": "IF758",
+          "name": "INTERFACES ADAPT. SISTEMAS MOVEIS"
+        },
+        {
+          "code": "IF797",
+          "name": "OTIMIZACAO"
+        },
+        {
+          "code": "IF799",
+          "name": "PROG.DECLARATIVA B.D.INTELIGENTES"
+        },
+        {
+          "code": "IF793",
+          "name": "PROJETO IMPLEMENTACAO DE JOGOS 2D"
+        },
+        {
+          "code": "IF962",
+          "name": "RECUPERAÇÃO DE INFORMAÇÃO"
+        },
+        {
+          "code": "IF809",
+          "name": "TOP.AVANC.ROBOT.AUTOM.INTELIGENTE"
         }
       ]
     },
@@ -445,7 +860,8 @@
           "code": "IF668",
           "name": "INTRODUCAO A COMPUTACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "INTRODUÇÃO A MULTIMIDIA",
@@ -466,6 +882,24 @@
           "code": "IF669",
           "name": "INTRODUCAO A PROGRAMACAO"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF756",
+          "name": "AUTORIA MULTIMIDIA"
+        },
+        {
+          "code": "IF695",
+          "name": "BANCO DE DADOS AVANÇADOS"
+        },
+        {
+          "code": "IF793",
+          "name": "PROJETO IMPLEMENTACAO DE JOGOS 2D"
+        },
+        {
+          "code": "IF755",
+          "name": "REALIDADE VIRTUAL"
+        }
       ]
     },
     {
@@ -482,6 +916,12 @@
           "code": "IF668",
           "name": "INTRODUCAO A COMPUTACAO"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF756",
+          "name": "AUTORIA MULTIMIDIA"
+        }
       ]
     },
     {
@@ -493,7 +933,37 @@
       "isObligatory": true,
       "semester": 5,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF710",
+          "name": "PROGRAMACAO COM COMPONENTES"
+        },
+        {
+          "code": "IF708",
+          "name": "PROGRAMACAO FUNCIONAL"
+        },
+        {
+          "code": "IF712",
+          "name": "PROGRAMACAO PARA INTERNET"
+        },
+        {
+          "code": "IF734",
+          "name": "PROJETO DE COMPILADORES"
+        },
+        {
+          "code": "IF723",
+          "name": "SEM.ENG. SOFT LING. COMPUTACIONAL"
+        },
+        {
+          "code": "IF722",
+          "name": "TOPICOS AVANCADOS ENG. SOFTWARE"
+        },
+        {
+          "code": "IF724",
+          "name": "TOPICOS AVAN½.LING.COMPUTACIONAIS"
+        }
+      ]
     },
     {
       "name": "PROJETO DE DESENVOLVIMENTO",
@@ -509,7 +979,8 @@
           "code": "IF669",
           "name": "INTRODUCAO A PROGRAMACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TEO.IMPLEMEN.LING. COMPUTACIONAIS",
@@ -518,7 +989,7 @@
       "hours": 75,
       "credits": 4,
       "isObligatory": true,
-      "semester": 6,
+      "semester": 5,
       "equivalences": [
         {
           "code": "IF120",
@@ -529,7 +1000,17 @@
           "name": "COMPILADORES"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF712",
+          "name": "PROGRAMACAO PARA INTERNET"
+        },
+        {
+          "code": "IF713",
+          "name": "SEMANTICA LINGUAGENS PROGRAMACAO"
+        }
+      ]
     },
     {
       "name": "ADM. DE SISTEMAS HETEROGENEOS",
@@ -545,7 +1026,8 @@
           "code": "IF677",
           "name": "INFRA-ESTRUTURA DE SOFTWARE"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "AGENTES AUTONOMOS",
@@ -561,7 +1043,8 @@
           "name": "INTELIGENCIA ARTIFICIAL SIMBOLICA"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "ALGEBRA LINEAR AVANC. COMPUTACAO",
@@ -577,6 +1060,12 @@
           "code": "MA531",
           "name": "ALGEBRA VET LINEAR P/COMPUTACAO"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF765",
+          "name": "ANALISE NUMERICA"
+        }
       ]
     },
     {
@@ -588,7 +1077,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "AMBIENTES PROJETOS SIST.EMBUTIDOS",
@@ -604,7 +1094,13 @@
           "name": "AUTOMACAO DE PROJETO VLSI"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF732",
+          "name": "PROJETOS DE SISTEMAS EMBUTIDOS"
+        }
+      ]
     },
     {
       "name": "ANALISE E PROJETOS DE SISTEMAS",
@@ -625,6 +1121,12 @@
           "code": "IF682",
           "name": "ENGENHARIA SOFTWARE E SISTEMAS"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF719",
+          "name": "DESENVOLVIMENTO DE SISTEMAS"
+        }
       ]
     },
     {
@@ -643,14 +1145,15 @@
       ],
       "prerequisites": [
         {
-          "code": "IF684 ",
+          "code": "IF684",
           "name": "SISTEMAS INTELIGENTES"
         },
         {
           "code": "IF751",
           "name": "PROCESSAMENTO LINEAR DE IMAGENS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "ANALISE NUMERICA",
@@ -668,14 +1171,15 @@
       ],
       "prerequisites": [
         {
-          "code": "IF763 ",
+          "code": "IF763",
           "name": "ALGEBRA LINEAR AVANC. COMPUTACAO"
         },
         {
           "code": "IF764",
           "name": "CALCULO AVANCADO PARA COMPUTACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "APRENDIZAGEM DE MAQUINA",
@@ -691,7 +1195,8 @@
           "code": "IF685",
           "name": "GERENCIAMENTO DADOS E INFORMACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "AUTOMACAO INTELIGENTE",
@@ -702,7 +1207,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "AUTORIA MULTIMIDIA",
@@ -715,14 +1221,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF676 ",
+          "code": "IF676",
           "name": "METODOL EXPRESSAO TEC-CIENTIFICA"
         },
         {
           "code": "IF687",
           "name": "INTRODUÇÃO A MULTIMIDIA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "AVALIACAO DESEMPENHO DE SISTEMAS",
@@ -743,7 +1250,8 @@
           "code": "IF746",
           "name": "PROC.SIMUL.ESTOCAST.COMPUTACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "BANCO DE DADOS AVANÇADOS",
@@ -761,14 +1269,15 @@
       ],
       "prerequisites": [
         {
-          "code": "IF685 ",
+          "code": "IF685",
           "name": "GERENCIAMENTO DADOS E INFORMACAO"
         },
         {
           "code": "IF687",
           "name": "INTRODUÇÃO A MULTIMIDIA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "BANCO DE DADOS DISTRIB. E MOVEIS",
@@ -786,14 +1295,15 @@
       ],
       "prerequisites": [
         {
-          "code": "IF677 ",
+          "code": "IF677",
           "name": "INFRA-ESTRUTURA DE SOFTWARE"
         },
         {
           "code": "IF685",
           "name": "GERENCIAMENTO DADOS E INFORMACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "CALCULO AVANCADO PARA COMPUTACAO",
@@ -806,12 +1316,18 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "MA026 ",
+          "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         },
         {
           "code": "MA531",
           "name": "ALGEBRA VET LINEAR P/COMPUTACAO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF765",
+          "name": "ANALISE NUMERICA"
         }
       ]
     },
@@ -834,7 +1350,8 @@
           "code": "IF721",
           "name": "SISTEMAS CRITICOS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "COMERCIO ELETRONICO",
@@ -845,7 +1362,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "COMPARACAO ANALISE SEQUENCIAS DNA",
@@ -860,6 +1378,12 @@
         {
           "code": "IF672",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF805",
+          "name": "PROJETO EM BIO INFORMATICA"
         }
       ]
     },
@@ -877,7 +1401,8 @@
           "code": "IF689",
           "name": "INFORMATICA TEORICA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "COMPUTACAO GRAFICA",
@@ -898,6 +1423,12 @@
           "code": "IF680",
           "name": "PROCESSAMENTO GRAFICO"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF802",
+          "name": "CONVERGENCIA DIGITAL"
+        }
       ]
     },
     {
@@ -914,7 +1445,13 @@
           "name": "COMPUTACAO MUSICAL"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF802",
+          "name": "CONVERGENCIA DIGITAL"
+        }
+      ]
     },
     {
       "name": "COMUNICAÇÃO SEM FIO",
@@ -930,7 +1467,8 @@
           "code": "IF740",
           "name": "SISTEMAS DE COMUNICACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "CONTABILIDADE FINANC. E GERENCIAL",
@@ -946,7 +1484,8 @@
           "name": "NOCOES DE ADM. P/ INFORMATICA"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "CONTROLE E MANIPULACAO",
@@ -957,7 +1496,13 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF798",
+          "name": "ROBOTICA"
+        }
+      ]
     },
     {
       "name": "CONVERGENCIA DIGITAL",
@@ -970,18 +1515,19 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF745 ",
+          "code": "IF745",
           "name": "SISTEMAS MULTIMIDIA DISTRIBUIDOS"
         },
         {
-          "code": "IF750 ",
+          "code": "IF750",
           "name": "COMPUTACAO GRAFICA"
         },
         {
           "code": "IF754",
           "name": "COMPUTACAO MUSICAL PROCESSAM.SOM"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "DESENVOLVIMENTO DE SISTEMAS",
@@ -999,18 +1545,19 @@
       ],
       "prerequisites": [
         {
-          "code": "IF716 ",
+          "code": "IF716",
           "name": "ESPECIF.REQUIS.VALIDACAO SISTEMAS"
         },
         {
-          "code": "IF717 ",
+          "code": "IF717",
           "name": "PLANEJ. GERENCIAMENTO DE PROJETOS"
         },
         {
           "code": "IF718",
           "name": "ANALISE E PROJETOS DE SISTEMAS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "ECONOMIA PARA EMPREENDEDOR",
@@ -1021,7 +1568,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "EMPREENDIMENTOS EM INFORMATICA",
@@ -1037,7 +1585,8 @@
           "name": "EMPREENDIMENTOS EM INFORMATICA"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "ENG.CONHEC.SISTEMAS ESPECIALISTAS",
@@ -1053,7 +1602,8 @@
           "name": "PROCESSAMENTO DO CONHECIMENTO"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "ENGENHARIA DE SISTEMAS EMBUTIDOS",
@@ -1069,6 +1619,16 @@
           "code": "IF674",
           "name": "INFRA-ESTRUTURA DE HARDWARE"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF732",
+          "name": "PROJETOS DE SISTEMAS EMBUTIDOS"
+        },
+        {
+          "code": "IF798",
+          "name": "ROBOTICA"
+        }
       ]
     },
     {
@@ -1080,7 +1640,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "ESPECIF.REQUIS.VALIDACAO SISTEMAS",
@@ -1101,6 +1662,12 @@
           "code": "IF682",
           "name": "ENGENHARIA SOFTWARE E SISTEMAS"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF719",
+          "name": "DESENVOLVIMENTO DE SISTEMAS"
+        }
       ]
     },
     {
@@ -1112,7 +1679,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "FISICA GERAL 2",
@@ -1123,7 +1691,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "GEOMETRIA ANALITICA 1",
@@ -1134,7 +1703,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "GERENCIAMENTO DE REDES",
@@ -1155,7 +1725,8 @@
           "code": "IF678",
           "name": "INFRA-ESTRUTURA DE COMUNICACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "GESTAO DE NEGOCIOS",
@@ -1166,7 +1737,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "IMPLEMENTACAO SIST. OPERACIONAIS",
@@ -1184,36 +1756,39 @@
       ],
       "prerequisites": [
         {
-          "code": "IF674 ",
+          "code": "IF674",
           "name": "INFRA-ESTRUTURA DE HARDWARE"
         },
         {
           "code": "IF677",
           "name": "INFRA-ESTRUTURA DE SOFTWARE"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "INICIACAO CIENTIFICA 1",
       "code": "IF788",
-      "ementa": "",
+      "ementa": "DESENVOLVIMENTO DE ATIVIDADE DE INICIAÇÃO CIENTIFICA EM UMA ÁREA DA CIÊNCIA DA COMPUTAÇÃO PELO PERÍODO MÍNIMO DE 1 ANO SOB A SUPERVISÃO DE UM PROFESSOR DO CENTRO DE INFORMÁTICA. OS PLANOS DE INICIAÇÃO DEVEM SER JULGADOS PELO COLEGIADO DA GRADUAÇÃO NAS 4 PRIMEIRAS SEMANAS DO SEMESTRE LETIVO E O RELATÓRIO FINAL DEVERÁ SER APROVADO PRO BANCA EXAMINADORA.",
       "hours": 75,
       "credits": 3,
       "isObligatory": false,
-      "semester": 1,
+      "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "INICIACAO CIENTIFICA 2",
       "code": "IF789",
-      "ementa": "",
+      "ementa": "DESENVOLVIMENTO DE ATIVIDADE DE INICIAÇÃO CIENTIFICA EM UMA ÁREA DA CIÊNCIA DA COMPUTAÇÃO PELO PERÍODO MÍNIMO DE 2 ANOS SOB A SUPERVISÃO DE UM PROFESSOR DO CENTRO DE INFORMÁTICA. OS PLANOS DE INICIAÇÃO DEVEM SER JULGADOS PELO COLEGIADO DA GRADUAÇÃO NAS 4 PRIMEIRAS SEMANAS DO SEMESTRE LETIVO E O RELATÓRIO FINAL DEVERÁ SER APROVADO PRO BANCA EXAMINADORA.",
       "hours": 75,
       "credits": 3,
       "isObligatory": false,
-      "semester": 2,
+      "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "INTEG. DADOS WEB E WAREHOUSE",
@@ -1222,7 +1797,7 @@
       "hours": 75,
       "credits": 4,
       "isObligatory": false,
-      "semester": 2,
+      "semester": 6,
       "equivalences": [
         {
           "code": "IF564",
@@ -1234,7 +1809,8 @@
           "code": "IF685",
           "name": "GERENCIAMENTO DADOS E INFORMACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "INTERFACES ADAPT. SISTEMAS MOVEIS",
@@ -1243,18 +1819,19 @@
       "hours": 75,
       "credits": 4,
       "isObligatory": false,
-      "semester": 2,
+      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF681 ",
+          "code": "IF681",
           "name": "INTERFACES USUARIO-MAQUINA"
         },
         {
           "code": "IF684",
           "name": "SISTEMAS INTELIGENTES"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "INTERFACES GRÁFICAS",
@@ -1272,14 +1849,15 @@
       ],
       "prerequisites": [
         {
-          "code": "IF680 ",
+          "code": "IF680",
           "name": "PROCESSAMENTO GRAFICO"
         },
         {
           "code": "IF681",
           "name": "INTERFACES USUARIO-MAQUINA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "INTRODUCAO A BIOLOGIA MOLECULAR",
@@ -1295,7 +1873,17 @@
           "name": "TEORIA DOS MODELOS"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF805",
+          "name": "PROJETO EM BIO INFORMATICA"
+        },
+        {
+          "code": "IF806",
+          "name": "TOPICOS AVANC.EM BIO INFORMATICA"
+        }
+      ]
     },
     {
       "name": "JOGOS AVANCADOS",
@@ -1306,7 +1894,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "LAMBDA CALCULO TEORIA TIPOS",
@@ -1322,7 +1911,8 @@
           "code": "IF689",
           "name": "INFORMATICA TEORICA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "LOGICAS NAO CLASSICAS",
@@ -1338,7 +1928,8 @@
           "code": "IF673",
           "name": "LOGICA PARA COMPUTACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "METODOS NUMERICOS",
@@ -1351,14 +1942,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF672 ",
+          "code": "IF672",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         },
         {
           "code": "MA531",
           "name": "ALGEBRA VET LINEAR P/COMPUTACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "MINERACAO DA WEB",
@@ -1369,7 +1961,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "NEGOCIOS ON LINE",
@@ -1380,7 +1973,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "NOVA ECONOMIA E NOVA SOCIEDADE",
@@ -1396,7 +1990,8 @@
           "name": "ECONOMIA"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "ORGANIZ. TECNOLOGIA COMPUTADORES",
@@ -1412,6 +2007,12 @@
           "code": "IF674",
           "name": "INFRA-ESTRUTURA DE HARDWARE"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF727",
+          "name": "PROCESSADORES APLICAC. ESPECIFICA"
+        }
       ]
     },
     {
@@ -1425,18 +2026,19 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "ET586 ",
+          "code": "ET586",
           "name": "ESTATIST PROBABILIDADE COMPUTACAO"
         },
         {
-          "code": "IF684 ",
+          "code": "IF684",
           "name": "SISTEMAS INTELIGENTES"
         },
         {
           "code": "MA531",
           "name": "ALGEBRA VET LINEAR P/COMPUTACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PERCEP. COMPUTAC.E RECONH. PADRAO",
@@ -1447,7 +2049,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "PLANEJ. GERENCIAMENTO DE PROJETOS",
@@ -1468,6 +2071,12 @@
           "code": "IF682",
           "name": "ENGENHARIA SOFTWARE E SISTEMAS"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF719",
+          "name": "DESENVOLVIMENTO DE SISTEMAS"
+        }
       ]
     },
     {
@@ -1484,6 +2093,16 @@
           "code": "ET586",
           "name": "ESTATIST PROBABILIDADE COMPUTACAO"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF742",
+          "name": "AVALIACAO DESEMPENHO DE SISTEMAS"
+        },
+        {
+          "code": "IF743",
+          "name": "SEGURANCA DE SISTEMAS"
+        }
       ]
     },
     {
@@ -1497,18 +2116,19 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF725 ",
+          "code": "IF725",
           "name": "PROJETO DE CPU"
         },
         {
-          "code": "IF726 ",
+          "code": "IF726",
           "name": "ORGANIZ. TECNOLOGIA COMPUTADORES"
         },
         {
           "code": "IF734",
           "name": "PROJETO DE COMPILADORES"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PROCESSAMENTO CADEIA CARACTERES",
@@ -1519,7 +2139,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "PROCESSAMENTO DE SINAIS",
@@ -1532,12 +2153,18 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "MA026 ",
+          "code": "MA026",
           "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         },
         {
           "code": "MA531",
           "name": "ALGEBRA VET LINEAR P/COMPUTACAO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF759",
+          "name": "PROCESSAMENTO DE VOZ"
         }
       ]
     },
@@ -1552,14 +2179,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF704 ",
+          "code": "IF704",
           "name": "PROCESSAMENTO LINGUAGEM NATURAL"
         },
         {
           "code": "IF753",
           "name": "PROCESSAMENTO DE SINAIS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PROCESSAMENTO LINEAR DE IMAGENS",
@@ -1570,7 +2198,13 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF752",
+          "name": "ANALISE IMAG. VISAO COMPUTACIONAL"
+        }
+      ]
     },
     {
       "name": "PROCESSAMENTO LINGUAGEM NATURAL",
@@ -1586,7 +2220,13 @@
           "name": "PROCESSAMENTO DE LING NATURAL"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF759",
+          "name": "PROCESSAMENTO DE VOZ"
+        }
+      ]
     },
     {
       "name": "PROFICIENCIA EM INGLES 1",
@@ -1597,7 +2237,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "PROFICIENCIA EM INGLES 2",
@@ -1608,7 +2249,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "PROFICIENCIA EM INGLES 3",
@@ -1619,7 +2261,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "PROG.DECLARATIVA B.D.INTELIGENTES",
@@ -1637,14 +2280,15 @@
       ],
       "prerequisites": [
         {
-          "code": "IF684 ",
+          "code": "IF684",
           "name": "SISTEMAS INTELIGENTES"
         },
         {
           "code": "IF685",
           "name": "GERENCIAMENTO DADOS E INFORMACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PROGRAM. CONCORRENTE DISTRIBUIDA",
@@ -1665,7 +2309,8 @@
           "code": "IF677",
           "name": "INFRA-ESTRUTURA DE SOFTWARE"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PROGRAMACAO COM COMPONENTES",
@@ -1681,7 +2326,8 @@
           "code": "IF686",
           "name": "PARADIGMAS LING.COMPUTACIONAIS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PROGRAMACAO FUNCIONAL",
@@ -1702,7 +2348,8 @@
           "code": "IF686",
           "name": "PARADIGMAS LING.COMPUTACIONAIS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PROGRAMACAO PARA INTERNET",
@@ -1715,22 +2362,23 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF678 ",
+          "code": "IF678",
           "name": "INFRA-ESTRUTURA DE COMUNICACAO"
         },
         {
-          "code": "IF681 ",
+          "code": "IF681",
           "name": "INTERFACES USUARIO-MAQUINA"
         },
         {
-          "code": "IF686 ",
+          "code": "IF686",
           "name": "PARADIGMAS LING.COMPUTACIONAIS"
         },
         {
           "code": "IF688",
           "name": "TEO.IMPLEMEN.LING. COMPUTACIONAIS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PROJETO DE BANCO DE DADOS",
@@ -1751,7 +2399,8 @@
           "code": "IF685",
           "name": "GERENCIAMENTO DADOS E INFORMACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PROJETO DE COMPILADORES",
@@ -1771,6 +2420,12 @@
         {
           "code": "IF686",
           "name": "PARADIGMAS LING.COMPUTACIONAIS"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF727",
+          "name": "PROCESSADORES APLICAC. ESPECIFICA"
         }
       ]
     },
@@ -1793,29 +2448,37 @@
           "code": "IF674",
           "name": "INFRA-ESTRUTURA DE HARDWARE"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF727",
+          "name": "PROCESSADORES APLICAC. ESPECIFICA"
+        }
       ]
     },
     {
       "name": "PROJETO DE MONITORIA 1",
       "code": "IF790",
-      "ementa": "",
+      "ementa": "DESEMPENHO DE ATIVIDADES DE MONITORIA EM DISCIPLINAS PELO PERÍODO MÍNIMO DE 1 ANO SOB A SUPERVISÃO DE UM PROFESSOR DO CENTRO DE INFORMÁTICA. O PLANO DE ATIVIDADES DEVERÁ SER APROVADO PELO COLEGIADO DA GRADUAÇÃO E O RELATÓRIO DEVERÁ SER AVALIADO PELO DOCENTE DO CENTRO.",
       "hours": 45,
       "credits": 2,
       "isObligatory": false,
-      "semester": 1,
+      "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "PROJETO DE MONITORIA 2",
       "code": "IF791",
-      "ementa": "",
+      "ementa": "DESENVOLVIMENTO DE ATIVIDADE DE INICIAÇÃO CIENTIFICA EM UMA ÁREA DA CIÊNCIA DA COMPUTAÇÃO PELO PERÍODO MÍNIMO DE 2 ANOS SOB A SUPERVISÃO DE UM PROFESSOR DO CENTRO DE INFORMÁTICA. OS PLANOS DE INICIAÇÃO DEVEM SER JULGADOS PELO COLEGIADO DA GRADUAÇÃO NAS 4 PRIMEIRAS SEMANAS DO SEMESTRE LETIVO E O RELATÓRIO FINAL DEVERÁ SER APROVADO PRO BANCA EXAMINADORA.",
       "hours": 45,
       "credits": 2,
       "isObligatory": false,
-      "semester": 2,
+      "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "PROJETO EM BIO INFORMATICA",
@@ -1824,18 +2487,19 @@
       "hours": 75,
       "credits": 4,
       "isObligatory": false,
-      "semester": 2,
+      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF803 ",
+          "code": "IF803",
           "name": "INTRODUCAO A BIOLOGIA MOLECULAR"
         },
         {
           "code": "IF804",
           "name": "COMPARACAO ANALISE SEQUENCIAS DNA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PROJETO IMPLEMENTACAO DE JOGOS 2D",
@@ -1844,7 +2508,7 @@
       "hours": 75,
       "credits": 4,
       "isObligatory": false,
-      "semester": 2,
+      "semester": 6,
       "equivalences": [
         {
           "code": "IF667",
@@ -1853,18 +2517,19 @@
       ],
       "prerequisites": [
         {
-          "code": "IF680 ",
+          "code": "IF680",
           "name": "PROCESSAMENTO GRAFICO"
         },
         {
-          "code": "IF684 ",
+          "code": "IF684",
           "name": "SISTEMAS INTELIGENTES"
         },
         {
           "code": "IF687",
           "name": "INTRODUÇÃO A MULTIMIDIA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PROJETOS DE SISTEMAS EMBUTIDOS",
@@ -1873,26 +2538,27 @@
       "hours": 75,
       "credits": 4,
       "isObligatory": false,
-      "semester": 2,
+      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF728 ",
+          "code": "IF728",
           "name": "ENGENHARIA DE SISTEMAS EMBUTIDOS"
         },
         {
-          "code": "IF729 ",
+          "code": "IF729",
           "name": "PROTOTIP. DE CIRCUITOS INTEGRADOS"
         },
         {
-          "code": "IF730 ",
+          "code": "IF730",
           "name": "SISTEMA DE TEMPO REAL"
         },
         {
           "code": "IF731",
           "name": "AMBIENTES PROJETOS SIST.EMBUTIDOS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "PROTOTIP. DE CIRCUITOS INTEGRADOS",
@@ -1901,7 +2567,7 @@
       "hours": 75,
       "credits": 4,
       "isObligatory": false,
-      "semester": 2,
+      "semester": 6,
       "equivalences": [
         {
           "code": "IF132",
@@ -1912,6 +2578,12 @@
         {
           "code": "IF674",
           "name": "INFRA-ESTRUTURA DE HARDWARE"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF732",
+          "name": "PROJETOS DE SISTEMAS EMBUTIDOS"
         }
       ]
     },
@@ -1934,7 +2606,8 @@
           "code": "IF682",
           "name": "ENGENHARIA SOFTWARE E SISTEMAS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "REALIDADE VIRTUAL",
@@ -1947,14 +2620,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF681 ",
+          "code": "IF681",
           "name": "INTERFACES USUARIO-MAQUINA"
         },
         {
           "code": "IF687",
           "name": "INTRODUÇÃO A MULTIMIDIA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "RECUPERAÇÃO DE INFORMAÇÃO",
@@ -1967,14 +2641,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF684 ",
+          "code": "IF684",
           "name": "SISTEMAS INTELIGENTES"
         },
         {
           "code": "IF685",
           "name": "GERENCIAMENTO DADOS E INFORMACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "REDES DE COMPUTADORES",
@@ -1999,6 +2674,12 @@
           "code": "IF678",
           "name": "INFRA-ESTRUTURA DE COMUNICACAO"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF747",
+          "name": "TOP. AVANC. REDES DE COMPUTADORES"
+        }
       ]
     },
     {
@@ -2015,7 +2696,8 @@
           "name": "REDES NEURAIS"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "ROBOTICA",
@@ -2028,14 +2710,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF728 ",
+          "code": "IF728",
           "name": "ENGENHARIA DE SISTEMAS EMBUTIDOS"
         },
         {
           "code": "IF835",
           "name": "CONTROLE E MANIPULACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SEGURANCA DE SISTEMAS",
@@ -2051,7 +2734,8 @@
           "code": "IF746",
           "name": "PROC.SIMUL.ESTOCAST.COMPUTACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SEM.ENG. SOFT LING. COMPUTACIONAL",
@@ -2067,7 +2751,8 @@
           "code": "IF686",
           "name": "PARADIGMAS LING.COMPUTACIONAIS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SEMANTICA LINGUAGENS PROGRAMACAO",
@@ -2088,7 +2773,8 @@
           "code": "IF688",
           "name": "TEO.IMPLEMEN.LING. COMPUTACIONAIS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SEMIN. EM INTELIGENCIA ARTIFICIAL",
@@ -2099,7 +2785,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "SEMIN. GERENC. DADOS E INFORMACAO",
@@ -2115,7 +2802,8 @@
           "code": "IF685",
           "name": "GERENCIAMENTO DADOS E INFORMACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SEMIN.ARQUIT. SISTEMAS EMBUTIDOS",
@@ -2131,7 +2819,8 @@
           "code": "IF674",
           "name": "INFRA-ESTRUTURA DE HARDWARE"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SEMINARIO EM INFORMATICA TEORICA",
@@ -2147,7 +2836,8 @@
           "code": "IF689",
           "name": "INFORMATICA TEORICA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SEMINARIO EM MIDIAS E INTERFACES",
@@ -2158,7 +2848,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "SEMINARIO REDES SIST.DISTRIBUIDOS",
@@ -2174,7 +2865,8 @@
           "code": "IF678",
           "name": "INFRA-ESTRUTURA DE COMUNICACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SIST.GERENC. DE BANCO DE DADOS",
@@ -2195,7 +2887,8 @@
           "code": "IF685",
           "name": "GERENCIAMENTO DADOS E INFORMACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SISTEMA DE TEMPO REAL",
@@ -2210,6 +2903,12 @@
         {
           "code": "IF677",
           "name": "INFRA-ESTRUTURA DE SOFTWARE"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF732",
+          "name": "PROJETOS DE SISTEMAS EMBUTIDOS"
         }
       ]
     },
@@ -2232,6 +2931,12 @@
           "code": "IF682",
           "name": "ENGENHARIA SOFTWARE E SISTEMAS"
         }
+      ],
+      "dependents": [
+        {
+          "code": "IF715",
+          "name": "CALCULO DE PROGRAMAS"
+        }
       ]
     },
     {
@@ -2247,6 +2952,12 @@
         {
           "code": "IF678",
           "name": "INFRA-ESTRUTURA DE COMUNICACAO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF739",
+          "name": "COMUNICAÇÃO SEM FIO"
         }
       ]
     },
@@ -2269,7 +2980,8 @@
           "code": "IF685",
           "name": "GERENCIAMENTO DADOS E INFORMACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "SISTEMAS MULTIMIDIA DISTRIBUIDOS",
@@ -2287,8 +2999,14 @@
       ],
       "prerequisites": [
         {
-          "code": "IF677 ",
+          "code": "IF677",
           "name": "INFRA-ESTRUTURA DE SOFTWARE"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF802",
+          "name": "CONVERGENCIA DIGITAL"
         }
       ]
     },
@@ -2301,7 +3019,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "TECNOLOGIAS EDUCACIONAIS",
@@ -2317,7 +3036,8 @@
           "code": "IF677",
           "name": "INFRA-ESTRUTURA DE SOFTWARE"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TEORIA DA PROVA",
@@ -2338,7 +3058,8 @@
           "code": "IF689",
           "name": "INFORMATICA TEORICA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TEORIA DA RECURSAO",
@@ -2354,7 +3075,8 @@
           "code": "IF689",
           "name": "INFORMATICA TEORICA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TEORIA DE GRAFOS",
@@ -2375,7 +3097,8 @@
           "code": "IF672",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TEORIA DOS MODELOS",
@@ -2396,7 +3119,8 @@
           "code": "IF689",
           "name": "INFORMATICA TEORICA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TOP. AVANC. REDES DE COMPUTADORES",
@@ -2412,7 +3136,8 @@
           "code": "IF738",
           "name": "REDES DE COMPUTADORES"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TOP. AVANC.SIST.SUP.DECIS.MIN.WEB",
@@ -2423,7 +3148,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "TOP.AVANC. EM SISTEMAS EMBUTIDOS",
@@ -2439,7 +3165,8 @@
           "code": "IF674",
           "name": "INFRA-ESTRUTURA DE HARDWARE"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TOP.AVANC. MATEMAT. COMPUTACIONAL",
@@ -2455,7 +3182,8 @@
           "code": "MA531",
           "name": "ALGEBRA VET LINEAR P/COMPUTACAO"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TOP.AVANC.ADMINIST.SIST.SEGURANCA",
@@ -2466,7 +3194,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "TOP.AVANC.ARQUIT.DE COMPUTADORES",
@@ -2487,7 +3216,8 @@
           "code": "IF674",
           "name": "INFRA-ESTRUTURA DE HARDWARE"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TOP.AVANC.EM NEGÓCIOS ONLINE E EMPREENDIMENTOS",
@@ -2498,7 +3228,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "TOP.AVANC.ENTRETENIMENTO DIGITAL",
@@ -2509,7 +3240,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "TOP.AVANC.GERENC.DADOS INFORMACAO",
@@ -2520,7 +3252,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "TOP.AVANC.ROBOT.AUTOM.INTELIGENTE",
@@ -2533,14 +3266,15 @@
       "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF674 ",
+          "code": "IF674",
           "name": "INFRA-ESTRUTURA DE HARDWARE"
         },
         {
           "code": "IF684",
           "name": "SISTEMAS INTELIGENTES"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TOPICOS AVANC.EM BIO INFORMATICA",
@@ -2556,7 +3290,8 @@
           "code": "IF803",
           "name": "INTRODUCAO A BIOLOGIA MOLECULAR"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TOPICOS AVANC.INTELEG.ARTIFICIAL",
@@ -2567,7 +3302,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "TOPICOS AVANC.SIST.DISTRIBUIDOS",
@@ -2583,7 +3319,8 @@
           "code": "IF677",
           "name": "INFRA-ESTRUTURA DE SOFTWARE"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TOPICOS AVANC.TECNOLOGIA ENSINO",
@@ -2594,7 +3331,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "TOPICOS AVANCADOS EM ALGORITMOS",
@@ -2610,7 +3348,8 @@
           "code": "IF672",
           "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TOPICOS AVANCADOS EM INTERFACE",
@@ -2621,7 +3360,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "TOPICOS AVANCADOS EM MIDIAS",
@@ -2632,7 +3372,8 @@
       "isObligatory": false,
       "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "TOPICOS AVANCADOS ENG. SOFTWARE",
@@ -2648,7 +3389,8 @@
           "code": "IF686",
           "name": "PARADIGMAS LING.COMPUTACIONAIS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TOPICOS AVANCADOS INF. TEORICA",
@@ -2669,7 +3411,8 @@
           "code": "IF689",
           "name": "INFORMATICA TEORICA"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TOPICOS AVAN½.LING.COMPUTACIONAIS",
@@ -2685,7 +3428,8 @@
           "code": "IF686",
           "name": "PARADIGMAS LING.COMPUTACIONAIS"
         }
-      ]
+      ],
+      "dependents": []
     },
     {
       "name": "TRANSDUTORES",
@@ -2694,9 +3438,10 @@
       "hours": 75,
       "credits": 4,
       "isObligatory": false,
-      "semester": 9,
+      "semester": 6,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "ESTAGIO 1",
@@ -2707,7 +3452,8 @@
       "isObligatory": true,
       "semester": 9,
       "equivalences": [],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     },
     {
       "name": "TRABALHO DE GRADUAÇÃO",
@@ -2755,7 +3501,8 @@
           "name": "TRABALHO DE GRADUACAO EM CV"
         }
       ],
-      "prerequisites": []
+      "prerequisites": [],
+      "dependents": []
     }
   ]
 }
