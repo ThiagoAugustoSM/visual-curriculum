@@ -22,7 +22,7 @@ const StatsContainer = ({
 }: StatsContainerProps): React.ReactElement => {
   return (
     <Stack>
-      <Heading as="h2" size="lg" marginY="2">
+      <Heading as="h3" size="lg" marginY="1">
         Aproveitamento Acadêmico
       </Heading>
       <Flex flexWrap="wrap" w="100%">
