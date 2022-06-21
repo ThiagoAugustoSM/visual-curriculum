@@ -1,5 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { Box, SimpleGrid, Grid } from '@chakra-ui/react';
+import {
+  Box,
+  SimpleGrid,
+  Grid,
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+} from '@chakra-ui/react';
 import Header from '../../components/Header';
 import Navigator from '../../components/Navigator';
 import DisciplineBox from '../../components/DisciplineBox';
@@ -81,7 +89,8 @@ export default function CurriculumPage(): React.ReactElement {
         if (
           ((isToFill && !activeDisciplines.has(prerequisite.code)) ||
             (!isToFill && activeDisciplines.has(prerequisite.code))) &&
-          !disciplinesToModify.has(prerequisite.code)
+          !disciplinesToModify.has(prerequisite.code) &&
+          disciplineQueue.indexOf(prerequisite.code) === -1
         ) {
           disciplineQueue.push(prerequisite.code);
         }
@@ -182,14 +191,9 @@ export default function CurriculumPage(): React.ReactElement {
     <Box m="5">
       <Header />
       <Navigator />
-      <Box w="100%" maxWidth="1700px" maxH="60vh" overflow="scroll">
+      <Box w="100%" flexWrap="wrap">
         {Array.from(obligatory.entries()).map(([semester, disciplines]) => (
-          <Grid
-            maxW="1600px"
-            key={`rows-${semester}`}
-            templateColumns="repeat(5, 1fr)"
-            gap={1}
-          >
+          <Grid key={`rows-${semester}`} display="flex" flexWrap="wrap">
             {disciplines.map((item) => (
               <DisciplineBox
                 key={item.name}
@@ -203,12 +207,7 @@ export default function CurriculumPage(): React.ReactElement {
         ))}
         <hr style={{ maxWidth: 'calc(100% - 10px)' }} />
         {Array.from(electives.entries()).map(([semester, disciplines]) => (
-          <Grid
-            maxW="1600px"
-            key={`rows-${semester}`}
-            templateColumns="repeat(5, 1fr)"
-            gap={1}
-          >
+          <Grid key={`rows-${semester}`} display="flex" flexWrap="wrap">
             {disciplines.map((item) => (
               <DisciplineBox
                 key={item.name}
@@ -221,18 +220,43 @@ export default function CurriculumPage(): React.ReactElement {
           </Grid>
         ))}
       </Box>
-      <SimpleGrid columns={[1, 2]} spacing="5">
-        <StatsContainer
-          academicTotalDone={academicTotalDone}
-          academicObligatoryDone={academicObligatoryDone}
-          academicElectiveDone={academicElectiveDone}
-          totalHours={curriculum.totalHours}
-          totalHoursObligatory={curriculum.totalHoursObligatory}
-          totalHoursElective={curriculum.totalHoursElective}
-        />
-        <NextSteps />
-      </SimpleGrid>
-      <Footer />
+      <Accordion
+        allowToggle
+        width="100%"
+        position="fixed"
+        bottom="0"
+        bg="var(--chakra-colors-chakra-body-bg)"
+        left="0"
+        boxShadow="0px -2px 5px #ccc"
+      >
+        <AccordionItem>
+          {({ isExpanded }) => (
+            <>
+              <AccordionButton>
+                {isExpanded ? (
+                  <Box margin="auto">Esconder</Box>
+                ) : (
+                  <Box margin="auto">Mostrar</Box>
+                )}
+              </AccordionButton>
+              <AccordionPanel>
+                <SimpleGrid columns={[1, 2]} spacing="5">
+                  <StatsContainer
+                    academicTotalDone={academicTotalDone}
+                    academicObligatoryDone={academicObligatoryDone}
+                    academicElectiveDone={academicElectiveDone}
+                    totalHours={curriculum.totalHours}
+                    totalHoursObligatory={curriculum.totalHoursObligatory}
+                    totalHoursElective={curriculum.totalHoursElective}
+                  />
+                  <NextSteps />
+                </SimpleGrid>
+                <Footer />
+              </AccordionPanel>
+            </>
+          )}
+        </AccordionItem>
+      </Accordion>
     </Box>
   );
 }

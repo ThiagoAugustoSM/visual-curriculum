@@ -93,9 +93,8 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
       borderRadius="lg"
       borderWidth="1px"
       m="3"
-      maxW="300px"
-      minW="245px"
       overflow="hidden"
+      width="300px"
     >
       <Box p="4">
         <Flex alignItems="center">

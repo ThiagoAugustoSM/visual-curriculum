@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 const Footer = (): React.ReactElement => {
   return (
-    <Stack align="center" mt="5">
+    <Stack align="center" mt="1">
       <Text>
         Feito com{' '}
         <span role="img" aria-label="hearth">
