@@ -8,17 +8,17 @@ Checkout the [project demo](https://thiagoaugustosm.github.io/visual-curriculum/
 
 ## 📝 Project specs
 
-**Tech Stack**: React, Typescript, [Chakra UI](https://chakra-ui.com/)
+**Tech Stack**: React, Typescript, [Chakra UI](https://chakra-ui.com/), localForage
 
 **Features**
 - Track academic progress
 - Ligh/Dark Mode
-
+- Save your history (academic progress) locally
 
 ## 🎯 Roadmap
 
-- __Feature__: Option to save your history locally (LocalStorage).
 - __Feature__: Enable the creation of new curriculum and Universities (React Router).
+- __Feature__: Capture and utilize co-requisites and equivalences.
 
 
 ## ✨ Contributing
@@ -34,8 +34,7 @@ If the feature is already on the roadmap go ahead and [create a pull request](ht
 
 Clone the project
 
-```bash
-git clone https://github.com/ThiagoAugustoSM/visual-curriculum.git
+```bash git clone https://github.com/ThiagoAugustoSM/visual-curriculum.git
 ```
 
 Go to the project directory
