@@ -13,7 +13,7 @@ import { MdTimelapse } from 'react-icons/md';
 const NextSteps = (): React.ReactElement => {
   return (
     <Stack>
-      <Heading as="h2" size="lg" marginY="2">
+      <Heading as="h2" size="md" marginY="1">
         Sobre o Projeto
       </Heading>
       <Text>
@@ -23,7 +23,7 @@ const NextSteps = (): React.ReactElement => {
         atualizadas a este site. O projeto ainda está em desenvolvimento, abaixo
         estão as próximas funcionalidades:
       </Text>
-      <List spacing={3}>
+      <List spacing={1}>
         <ListItem>
           <ListIcon as={MdTimelapse} color="green.500" />
           Capturar e utilizar co-requisitos e equivalências
