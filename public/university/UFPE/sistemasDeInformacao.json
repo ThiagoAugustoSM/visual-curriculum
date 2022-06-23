@@ -11,9 +11,9 @@
       "code": "AD431",
       "ementa": "FUNDAMENTOS TEÓRICOS. DESIGN ORGANIZACIONAL - ESTRUTURA ORGANIZACIONAIS E PROCESSOS ORGANIZACIONAIS. RACIONALIDADE GERENCIAL. NOVAS TENDÊNCIAS EM ADMINISTRAÇÃO. REDES ORGANIZACIONAIS. INOVAÇÃO ORGANIZACIONAL.",
       "hours": 60,
+      "semester": 1,
       "credits": 4,
       "isObligatory": true,
-      "semester": 1,
       "equivalences": [
         {
           "code": "AD001",
@@ -81,9 +81,9 @@
       "code": "MA026",
       "ementa": "LIMITES E CONTINUIDADE DE FUNÇÕES. DERIVADAS. APLICAÇÕES DA DERIVADA. TEOREMA DE ROLLE, TEOREMA DO VALOR MÉDIO E TEOREMA DO VALOR MÉDIO GENERALIZADO. INTEGRAIS DEFINIDAS. INTEGRAIS INDEFINIDAS. TÉCNICAS DE INTEGRAÇÃO.",
       "hours": 60,
+      "semester": 1,
       "credits": 4,
       "isObligatory": true,
-      "semester": 1,
       "equivalences": [],
       "prerequisites": [],
       "dependents": [
@@ -102,6 +102,10 @@
         {
           "code": "IF998",
           "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF996",
+          "name": "SEMINÁRIO EM SI 2"
         },
         {
           "code": "IF1004",
@@ -142,9 +146,9 @@
       "code": "IF966",
       "ementa": "CONCEITOS BÁSICOS. EVOLUÇÃO HISTÓRICA. INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO. INTRODUÇÃO AS TECNOLOGIAS DE INFORMAÇÃO E COMUNICAÇÃO. EMPRESAS DIGITAIS. QUESTÕES ÉTICAS E SOCIAIS. O MERCADO.",
       "hours": 60,
+      "semester": 1,
       "credits": 4,
       "isObligatory": true,
-      "semester": 1,
       "equivalences": [
         {
           "code": "IF714",
@@ -153,6 +157,10 @@
       ],
       "prerequisites": [],
       "dependents": [
+        {
+          "code": "IF973",
+          "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
+        },
         {
           "code": "IF976",
           "name": "BANCO DE DADOS"
@@ -172,6 +180,10 @@
         {
           "code": "IF998",
           "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF996",
+          "name": "SEMINÁRIO EM SI 2"
         },
         {
           "code": "IF1004",
@@ -212,9 +224,9 @@
       "code": "IF967",
       "ementa": "INTRODUÇÃO; INDUÇÃO E RECURSÃO; TEORIA DOS CONJUNTOS; ÁLGEBRA DISCRETA; TEORIA DOS NÚMEROS; COMBINATÓRIA; FUNÇÕES GERADORAS.",
       "hours": 60,
+      "semester": 1,
       "credits": 4,
       "isObligatory": true,
-      "semester": 1,
       "equivalences": [
         {
           "code": "IF670",
@@ -238,6 +250,10 @@
         {
           "code": "IF998",
           "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF996",
+          "name": "SEMINÁRIO EM SI 2"
         },
         {
           "code": "IF1004",
@@ -278,9 +294,9 @@
       "code": "IF968",
       "ementa": "CONCEITOS BÁSICOS DE ALGORITMOS; CONCEITOS BÁSICOS DE LINGUAGENS DE PROGRAMAÇÃO; CONCEITOS BÁSICOS DE PROGRAMAÇÃO ORIENTADA A OBJETOS E QUALIDADE DE SOFTWARE; AMBIENTE PROGRAMAÇÃO; ESTRUTURAS DE CONTROLE E ESTRUTURA DE DADOS COMPOSTAS; ARQUIVOS; CONCEITOS BÁSICOS DE ESTRUTURAS DE DADOS; PROJETO DE IMPLEMENTAÇÃO.",
       "hours": 60,
+      "semester": 1,
       "credits": 3,
       "isObligatory": true,
-      "semester": 1,
       "equivalences": [
         {
           "code": "IF669",
@@ -312,6 +328,10 @@
         {
           "code": "IF998",
           "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF996",
+          "name": "SEMINÁRIO EM SI 2"
         },
         {
           "code": "IF1004",
@@ -352,9 +372,9 @@
       "code": "IF969",
       "ementa": "CONCEITOS BÁSICOS DE ALGORITMOS; ALGORITMOS E ESTRUTURAS DE DADOS DINÂMICAS BÁSICAS; TÉCNICAS DE CONSTRUÇÃO DE ALGORITMOS; CONCEITOS DE COMPLEXIDADE DE ALGORITMO.",
       "hours": 60,
+      "semester": 2,
       "credits": 4,
       "isObligatory": true,
-      "semester": 2,
       "equivalences": [
         {
           "code": "IF672",
@@ -369,8 +389,8 @@
       ],
       "dependents": [
         {
-          "code": "IF973",
-          "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
+          "code": "IF974",
+          "name": "ORGANIZAÇÃO DE COMPUTADORES E SISTEMAS OPERACIONAIS"
         },
         {
           "code": "IF976",
@@ -387,6 +407,10 @@
         {
           "code": "IF998",
           "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF996",
+          "name": "SEMINÁRIO EM SI 2"
         },
         {
           "code": "IF1004",
@@ -427,9 +451,9 @@
       "code": "AD291",
       "ementa": "ENTENDIMENTO DA COMPOSIÇÃO ORGANIZACIONAL; A CONCEITUAÇÃO DA ORGANIZAÇÃO COMO ENTIDADE SOCIAL; CONFIGURAÇÕES ORGANIZACIONAIS.",
       "hours": 60,
+      "semester": 2,
       "credits": 4,
       "isObligatory": true,
-      "semester": 2,
       "equivalences": [],
       "prerequisites": [
         {
@@ -501,9 +525,9 @@
       "code": "IF971",
       "ementa": "ESTATÍSTICA DESCRITIVA; PROBABILIDADE; ESTATÍSTICA INFERENCIAL. EVENTOS. EXPERIMENTOS ALEATÓRIOS. TEORIA DA AMOSTRAGEM.",
       "hours": 60,
+      "semester": 2,
       "credits": 4,
       "isObligatory": true,
-      "semester": 2,
       "equivalences": [
         {
           "code": "ET586",
@@ -540,6 +564,10 @@
         {
           "code": "IF1002",
           "name": "AVALIAÇÃO DE DESEMPENHO DE SISTEMAS"
+        },
+        {
+          "code": "IF996",
+          "name": "SEMINÁRIO EM SI 2"
         },
         {
           "code": "IF1004",
@@ -584,9 +612,9 @@
       "code": "LE732",
       "ementa": "VOCABULÁRIO E EXPRESSÕES IDIOMÁTICAS INGLESAS EM CIÊNCIAS DA COMPUTAÇÃO E TECNOLOGIA DA INFORMAÇÃO; INTERPRETAÇÃO DE TEXTOS TÉCNICO-CIENTÍFICOS EM INGLÊS; COMPREENSÃO DE APRESENTAÇÕES ORAIS TÉCNICO-CIENTÍFICOS EM INGLÊS; ESTILÍSTICA DA REDAÇÃO DE DOCUMENTOS TÉCNICO-CIENTÍFICOS EM INGLÊS; ESTILÍSTICA DE SEMINÁRIOS ORAIS TÉCNICO-CIENTÍFICOS EM INGLÊS.",
       "hours": 60,
+      "semester": 2,
       "credits": 4,
       "isObligatory": true,
-      "semester": 2,
       "equivalences": [
         {
           "code": "LE530",
@@ -606,6 +634,10 @@
         {
           "code": "IF998",
           "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF996",
+          "name": "SEMINÁRIO EM SI 2"
         },
         {
           "code": "IF1004",
@@ -646,9 +678,9 @@
       "code": "IF972",
       "ementa": "INTRODUÇÃO; LÓGICA PROPOSICIONAL; LÓGICA DOS PREDICADOS; APLICAÇÕES PRÁTICAS PARA COMPUTAÇÃO; TÓPICOS AVANÇADOS: LÓGICAS NÃO CLÁSSICAS.",
       "hours": 60,
+      "semester": 2,
       "credits": 4,
       "isObligatory": true,
-      "semester": 2,
       "equivalences": [
         {
           "code": "IF673",
@@ -673,6 +705,10 @@
         {
           "code": "IF998",
           "name": "TÓPICOS AVANÇADOS EM SI 2"
+        },
+        {
+          "code": "IF996",
+          "name": "SEMINÁRIO EM SI 2"
         },
         {
           "code": "IF1004",
@@ -717,9 +753,9 @@
       "code": "AD193",
       "ementa": "O PAPEL DA DISCIPLINA COMPORTAMENTO ORGANIZACIONAL NA ADMINISTRAÇÃO MODERNA. ADMINISTRAÇÃO DAS ORGANIZAÇÕES E EFICÁCIA ORGANIZACIONAL. CARACTERÍSTICAS INDIVIDUAIS E COMPORTAMENTO. MOTIVAÇÃO. COMPORTAMENTO E DESEMPENHO. OS GRUPOS NAS ORGANIZAÇÕES. LIDERANÇA. ABORDAGENS COMPORTAMENTAIS DE TRAÇO E DE PERSONALIDADE. ABORDAGEM CONTINGENCIAL. ABORDAGEM CAMINHO-METAS, E NOVAS TENDÊNCIAS DA PRÁTICA E PESQUISA EM LIDERANÇA. TÓPICOS ESPECIAIS EM COMPORTAMENTO ORGANIZACIONAL.",
       "hours": 60,
+      "semester": 3,
       "credits": 4,
       "isObligatory": true,
-      "semester": 3,
       "equivalences": [],
       "prerequisites": [
         {
@@ -751,9 +787,9 @@
       "code": "CT503",
       "ementa": "FUNDAMENTOS DE CONTABILIDADE DE CUSTOS E GERENCIAL. MÉTODOS DE CUSTEIO PARA AVALIAÇÃO DE ESTOQUES E MENSURAÇÃO DO LUCRO E PARA O PROCESSO DE TOMADA DE DECISÃO. INFORMAÇÕES PARA TOMADA DE DECISÃO. MENSURAÇÃO DE CUSTOS RELEVANTES PARA A TOMADA DE DECISÃO. CUSTOS PARA CONTROLE. CONTABILIDADE POR RESPONSABILIDADE.",
       "hours": 60,
+      "semester": 3,
       "credits": 4,
       "isObligatory": true,
-      "semester": 3,
       "equivalences": [
         {
           "code": "CT221",
@@ -780,25 +816,16 @@
     {
       "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO",
       "code": "IF973",
-      "ementa": "ESTUDO DE CONCEITOS DE ARQUITETURA, DA ORGANIZAÇÃO DE COMPUTADORES E DOS SISTEMAS DE GERENCIAMENTO DE RECURSOS DE UM SISTEMA DE COMPUTAÇÃO.",
+      "ementa": "O PAPEL ESTRATÉGICO DOS SISTEMAS DE INFORMAÇÃO NAS ORGANIZAÇÕES. VALORAÇÃO E GESTÃO DE MUDANÇAS. DESENVOLVIMENTO. AQUISIÇÃO. GESTÃO. SISTEMAS DE INFORMAÇÃO NAS ORGANIZAÇÕES.",
       "hours": 60,
+      "semester": 3,
       "credits": 4,
       "isObligatory": true,
-      "semester": 3,
-      "equivalences": [
-        {
-          "code": "IF674",
-          "name": "INFRA-ESTRUTURA DE HARDWARE"
-        },
-        {
-          "code": "IF677",
-          "name": "INFRA-ESTRUTURA DE SOFTWARE"
-        }
-      ],
+      "equivalences": [],
       "prerequisites": [
         {
-          "code": "IF969",
-          "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
+          "code": "IF966",
+          "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
         }
       ],
       "dependents": [
@@ -829,6 +856,10 @@
         {
           "code": "IF987",
           "name": "AUDITORIA E SEGURANÇA DE SISTEMAS DE INFORMAÇÃO"
+        },
+        {
+          "code": "IF996",
+          "name": "SEMINÁRIO EM SI 2"
         },
         {
           "code": "IF1004",
@@ -865,13 +896,44 @@
       ]
     },
     {
+      "name": "ORGANIZAÇÃO DE COMPUTADORES E SISTEMAS OPERACIONAIS",
+      "code": "IF974",
+      "ementa": "ESTUDO DE CONCEITOS DE ARQUITETURA, DA ORGANIZAÇÃO DE COMPUTADORES E DOS SISTEMAS DE GERENCIAMENTO DE RECURSOS DE UM SISTEMA DE COMPUTAÇÃO.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IF674",
+          "name": "INFRA-ESTRUTURA DE HARDWARE"
+        },
+        {
+          "code": "IF677",
+          "name": "INFRA-ESTRUTURA DE SOFTWARE"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "IF969",
+          "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IF987",
+          "name": "AUDITORIA E SEGURANÇA DE SISTEMAS DE INFORMAÇÃO"
+        }
+      ]
+    },
+    {
       "name": "REDES DE COMPUTADORES",
       "code": "IF975",
       "ementa": "REDES DE COMPUTADORES. TOPOLOGIAS. PROTOCOLOS. MODELO DE REFERÊNCIA OSI. TCP/IP. OUTRAS IMPLEMENTAÇÕES.",
       "hours": 60,
+      "semester": 3,
       "credits": 3,
       "isObligatory": true,
-      "semester": 3,
       "equivalences": [
         {
           "code": "IF678",
@@ -896,9 +958,9 @@
       "code": "IF976",
       "ementa": "CONCEITOS BÁSICOS SOBRE SGBD. PROJETO CONCEITUAL DE BANCO DE DADOS. MODELO RELACIONAL. PROJETO LÓGICO DE BANCO DE DADOS. FUNDAMENTOS DE SQL E PL CONECTIVIDADE COM BANCO DE DADOS. NOÇÕES DE XML E DE BANCO DE DADOS SEMI-ESTRUTURADOS. PROJETO PRÁTICO.",
       "hours": 60,
+      "semester": 4,
       "credits": 3,
       "isObligatory": true,
-      "semester": 4,
       "equivalences": [
         {
           "code": "IF685",
@@ -951,9 +1013,9 @@
       "code": "IF977",
       "ementa": "DEFINIÇÃO E OBJETIVOS DA ENGENHARIA DE SOFTWARE; ATIVIDADES DA ENGENHARIA DE SOFTWARE; RECURSOS DA ENGENHARIA DE SOFTWARE; PLANEJAMENTO DO PROJETO E LEVANTAMENTO DE ESTIMATIVAS; GERENCIAMENTO DO PROJETO; ESPECIFICAÇÃO DE REQUISITOS ; ANÁLISE E PROJETO; IMPLEMENTAÇÃO; DEPURAÇÃO E TESTES; CONTROLE DE QUALIDADE E INSPEÇÃO.",
       "hours": 60,
+      "semester": 4,
       "credits": 4,
       "isObligatory": true,
-      "semester": 4,
       "equivalences": [
         {
           "code": "IF682",
@@ -1006,9 +1068,9 @@
       "code": "IF978",
       "ementa": "CONTEXTUALIZAÇÃO DE PROCESSOS NAS ORGANIZAÇÕES. - NOÇÕES BÁSICAS DE PROCESSOS E MODELAGEM ORGANIZACIONAL. EVOLUÇÃO DA GESTÃO ORGANIZACIONAL. MELHORIA DE PROCESSOS E REENGENHARIA ORGANIZACIONAL. CICLO DE VIDA DA GESTÃO DE PROCESSOS DE NEGÓCIO. NOTAÇÕES E FERRAMENTAS PARA MODELAGEM DE PROCESSOS DE NEGÓCIO. ANÁLISE E MODELOS ORIENTADOS A PROCESSOS. RELAÇÃO ENTRE BPM E SOLUÇÕES TECNOLÓGICAS (ERP, ECM, CRM). SISTEMAS PARA GESTÃO DE PROCESSO DE NEGÓCIOS (BPMS). AVALIAÇÃO DE FERRAMENTAS BPMS. MELHORIA CONTÍNUA DOS PROCESSOS DE NEGÓCIO. GERENCIAMENTO DA MUDANÇA EM BPM.",
       "hours": 60,
+      "semester": 4,
       "credits": 4,
       "isObligatory": true,
-      "semester": 4,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1044,9 +1106,9 @@
       "code": "IF979",
       "ementa": "DEFINIÇÃO; POR QUE GERÊNCIA DE PROJETOS? CICLO DE VIDA DE PROJETOS; PECULIARIDADES DO PROJETO DE SOFTWARE; OBJETIVOS GERAIS DO GERENCIAMENTO DE PROJETOS; EQUIPE DE PROJETO; O PAPEL DO GERENTE; ESTRUTURA ORGANIZACIONAL VOLTADA A PROJETOS. PLANEJAMENTO ESTRATÉGICO: SELEÇÃO DE PROJETOS; PLANO DE NEGÓCIOS. PLANEJAMENTO TÉCNICO: CICLO DE VIDA E PROCESSOS DE DESENVOLVIMENTO DE SOFTWARE (REVISÃO); TIPOS E MÉTODOS DE PLANEJAMENTO; ANÁLISE DE RISCOS; ESTIMATIVAS: CUSTO; TEMPO; RECURSOS; TAMANHO E COMPLEXIDADE.",
       "hours": 60,
+      "semester": 4,
       "credits": 4,
       "isObligatory": true,
-      "semester": 4,
       "equivalences": [
         {
           "code": "IF717",
@@ -1079,9 +1141,9 @@
       "code": "IF980",
       "ementa": "CONTEXTO HISTÓRICO E CONCEITOS BÁSICOS. ÁREAS FUNCIONAIS E PROCESSOS ORGANIZACIONAIS. PLANEJAMENTO, SELEÇÃO, CUSTOMIZAÇÃO E MANUTENÇÃO DE MÓDULOS/SUBSISTEMAS. MELHORAMENTO DE PROCESSOS ORGANIZACIONAIS. ESTUDO DE CASOS. FERRAMENTAS DE GESTÃO EMPRESARIAL.",
       "hours": 60,
+      "semester": 4,
       "credits": 3,
       "isObligatory": true,
-      "semester": 4,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1121,15 +1183,15 @@
       "code": "CO691",
       "ementa": "COMUNICAÇÃO: CONCEITOS, FUNÇÕES, TIPOS E APLICAÇÕES. COMUNICAÇÕES ADMINISTRATIVAS. REUNIÕES E EVENTOS. COMUNICAÇÃO EM EQUIPES. TIPOS DE DISCUSSÃO EM GRUPO. PODER, COMUNICAÇÃO E IMAGEM NAS ORGANIZAÇÕES. REDAÇÃO TÉCNICA. APRESENTAÇÕES EFETIVAS. FUNDAMENTOS DA COMUNICAÇÃO PARA CONVERSAÇÃO E APRESENTAÇÃO EM PÚBLICO. TÉCNICAS E ESTRATÉGIAS DE COMUNICAÇÃO ORAL. PLANEJAMENTO E ELABORAÇÃO DE REUNIÕES E SEMINÁRIOS. A COMUNICAÇÃO NOS TRABALHOS DE GRUPO. SOLUÇÕES DE PROBLEMAS DE COMUNICAÇÃO EMPRESARIAL/INSTITUCIONAL. REDAÇÃO EMPRESARIAL/INSTITUCIONAL: MEMORANDO; #CURRICULUM VITAE#; MEMENTO; RELATÓRIO. EMPREGO DA NORMA CULTA EM TRABALHOS TÉCNICOS.",
       "hours": 60,
+      "semester": 5,
       "credits": 4,
       "isObligatory": true,
-      "semester": 5,
       "equivalences": [],
       "prerequisites": [],
       "dependents": [
         {
-          "code": "IF989",
-          "name": "TENDÊNCIAS E DESAFIOS EM SISTEMAS DE INFORMAÇÃO"
+          "code": "IF990",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO EM SISTEMAS DE INFORMAÇÃO"
         }
       ]
     },
@@ -1138,9 +1200,9 @@
       "code": "IF982",
       "ementa": "A SOCIEDADE DA INFORMAÇÃO E DO CONHECIMENTO; CONCEITOS BÁSICOS DE TEORIA DA INFORMAÇÃO; CONCEITOS BÁSICOS DE SEGURANÇA DA INFORMAÇÃO; A ORGANIZAÇÃO DO CONHECIMENTO; TRABALHADOR DO CONHECIMENTO; A GESTÃO DO CONHECIMENTO NAS ORGANIZAÇÕES.",
       "hours": 60,
+      "semester": 5,
       "credits": 4,
       "isObligatory": true,
-      "semester": 5,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1164,9 +1226,9 @@
       "code": "IF983",
       "ementa": "TEORIA DA DECISÃO. FUNDAMENTOS DE DECISÃO MULTICRITÉRIO. FUNDAMENTOS DE TEORIA DOS JOGOS. FUNDAMENTOS DE TEORIA DA UTILIDADE. PROCESSO DECISÓRIO. SISTEMAS DE APOIO À DECISÃO. ESTUDOS DE CASO.",
       "hours": 60,
+      "semester": 5,
       "credits": 3,
       "isObligatory": true,
-      "semester": 5,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1189,9 +1251,9 @@
       "code": "IF991",
       "ementa": "ADMINISTRAÇÃO DE DADOS. FUNDAMENTOS SOBRE ARMAZENAMENTO DE DADOS, INDEXAÇÃO E PROCESSAMENTO/OTIMIZAÇÃO DE CONSULTA. NOÇÕES DE PROCESSAMENTO DE TRANSAÇÕES, CONCORRÊNCIA E RECUPERAÇÃO. CONCEITOS PRÁTICOS SOBRE ADMINISTRAÇÃO DE UM SGBD.",
       "hours": 60,
+      "semester": 5,
       "credits": 3,
       "isObligatory": false,
-      "semester": 5,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1206,9 +1268,9 @@
       "code": "EC453",
       "ementa": "INTRODUÇÃO À MICROECONOMIA: PRODUTO, OFERTA, PREÇO, MERCADORIAS, PRODUÇÃO E CUSTOS INTRODUÇÃO À MACROECONOMIA: PRODUTOS, MEDIÇÃO, CONTAS NACIONAIS, MOEDAS, INFLAÇÃO, DISTRIBUIÇÃO DE RENDA E TEORIA DO DESENVOLVIMENTO ECONÔMICO.",
       "hours": 60,
+      "semester": 5,
       "credits": 4,
       "isObligatory": false,
-      "semester": 5,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1223,9 +1285,9 @@
       "code": "EP100",
       "ementa": "INTRODUÇÃO À GESTÃO DA PRODUÇÃO; CONCEITOS FUNDAMENTAIS DA GESTÃO DA PRODUÇÃO; ESTRATÉGIA OPERACIONAL E COMPETITIVIDADE; CONCEPÇÃO PARA A PRODUÇÃO; PLANEJAMENTO DE OPERAÇÕES; MELHORIA DE PRODUTOS E SERVIÇOS.",
       "hours": 60,
+      "semester": 5,
       "credits": 4,
       "isObligatory": false,
-      "semester": 5,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1244,9 +1306,9 @@
       "code": "IF992",
       "ementa": "CONCEITOS AVANÇADOS DA TECNOLOGIA DE SOFTWARE ORIENTADO A OBJETOS INCLUINDO LINGUAGENS, ANÁLISE, ARQUITETURAS, DESENVOLVIMENTO, REFINAMENTO, PADRÕES, APLICAÇÕES E SISTEMAS ORIENTADOS A OBJETOS.",
       "hours": 60,
+      "semester": 5,
       "credits": 3,
       "isObligatory": false,
-      "semester": 5,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1274,9 +1336,9 @@
       "code": "IF984",
       "ementa": "DESENVOLVIMENTO DE ESTUDO, APLICAÇÃO OU ATIVIDADE EM UMA DAS ÁREAS DE SISTEMAS DE INFORMAÇÃO.",
       "hours": 300,
+      "semester": 6,
       "credits": 10,
       "isObligatory": true,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": [
@@ -1291,9 +1353,9 @@
       "code": "IF985",
       "ementa": "DESENVOLVIMENTO DE UM PROJETO DE SISTEMA DE INFORMAÇÃO USANDO CONCEITO APRENDIDOS ANTERIORMENTE. PROJETOS MULTIDISCIPLINARES DEVEM SER ESTIMULADOS BEM COMO O TRABALHO EM EQUIPE, PROCURANDO CONSTRUIR UM AMBIENTE DE DESENVOLVIMENTO QUE SEJA O MAIS PRÓXIMO DO AMBIENTE REAL QUE O FUTURO PROFISSIONAL ENCONTRARÁ. DEVE-SE ESTIMULAR A FORMAÇÃO DE EQUIPES COM NO MÍNIMO OITO ALUNOS.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": true,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1313,6 +1375,10 @@
         {
           "code": "IF988",
           "name": "EMPREENDIMENTOS EM INFORMÁTICA"
+        },
+        {
+          "code": "IF989",
+          "name": "TENDÊNCIAS E DESAFIOS EM SISTEMAS DE INFORMAÇÃO"
         }
       ]
     },
@@ -1321,9 +1387,9 @@
       "code": "IF986",
       "ementa": "TEM COMO OBJETIVO MONTAR PROJETOS DE INVESTIMENTO EM SI E AVALIAR SUA VIABILIDADE ECONÔMICO-FINANCEIRA, COM CÁLCULO DE RETORNO DO INVESTIMENTO E OUTROS INDICADORES RELEVANTES PARA TOMADA DE DECISÃO DE INVESTIMENTO. 1 INTRODUÇÃO, MOTIVAÇÃO E CONTEXTUALIZAÇÃO. 2 MATEMÁTICA FINANCEIRA. 3 CRITERIOS DE AVALIACAO ECONOMICA DAS ALTERNATIVAS DE INVESTIMENTO. 4 ESTUDO COMPARATIVO DOS PRINCIPAIS MÉTODOS DE ANALISE ECONÔMICA E FINANCEIRA: TIR, VPL, PAY-BACK SIMPLES, PAY-BACK DESCONTADO ETC. 5 BUSINESS CASE. 6 ESTUDOS DE CASOS. 7 ANÁLISE DE RISCOS E INCERTEZAS.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": true,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1333,9 +1399,9 @@
       "code": "AD435",
       "ementa": "FUNDAMENTOS DO DESENVOLVIMENTO DE EQUIPES. FATORES HUMANOS. MOTIVAÇÃO DE EQUIPES. NOÇÕES DE LIDERANÇA. DINÂMICA DE EQUIPES.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1350,9 +1416,9 @@
       "code": "IF999",
       "ementa": "A FUNÇÃO SI/TI. ALINHAMENTO ESTRATÉGICO DA TI. O IMPACTO DOS SI/TI NA ESTRUTURA E NOS PROCESSOS ORGANIZACIONAIS. VALORAÇÃO (ECONOMIA) DOS SI. PLANEJAMENTO DOS SI/TI. GERENCIANDO A FUNÇÃO SI/TI. FINANCIANDO E AVALIANDO O DESEMPENHO DOS INVESTIMENTOS E DA OPERAÇÃO DE SI/TI. AQUISIÇÃO DE RECURSOS E CAPACIDADES DE TI: AQUISIÇÃO DE INFRAESTRUTURA. GERENCIAMENTO DE RISCO DE TI/SI. GOVERNANÇA DE TI. COBIT. ITIL. ESTUDO DE CASOS DE IMPLEMENTAÇÃO DO COBIT E ITIL. APOIANDO A GESTÃO DA TECNOLOGIA DA INFORMAÇÃO COM COBIT E ITIL.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1371,9 +1437,9 @@
       "code": "IF1000",
       "ementa": "FUNDAMENTOS DA INTERAÇÃO HUMANO-COMPUTADOR. NOÇÕES DO DESIGN DE INTERAÇÃO. DESIGN CENTRADO NO USUÁRIO. FATORES HUMANOS. PRINCÍPIOS DE USABILIDADE.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1393,9 +1459,9 @@
       "code": "LE716",
       "ementa": "REFLEXÃO SOBRE OS ASPECTOS HISTÓRICOS DA INCLUSÃO DAS PESSOAS SURDAS NA SOCIEDADE EM GERAL E NA ESCOLA; A LIBRAS COMO LÍNGUA DE COMUNICAÇÃO SOCIAL EM CONTEXTO DE COMUNICAÇÃO ENTRE PESSOAS SURDAS E COMO SEGUNDA LÍNGUA. ESTRUTURA LINGUÍSTICA E GRAMATICAL DE LIBRAS. ESPECIFICIDADES DA ESCRITA DO ALUNO SURDO. NA PRODUÇÃO DE TEXTO EM LÍNGUA PORTUGUESA. O INTÉRPRETE E A INTERPRETAÇÃO COMO FATOR DE INCLUSÃO E ACESSO EDUCACIONAL PARA OS ALUNOS SURDOS OU COM BAIXA AUDIÇÃO.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1405,9 +1471,9 @@
       "code": "IF993",
       "ementa": "FUNDAMENTOS DO CICLO DE VIDA DE PROCESSOS DE SOFTWARE. NOÇÕES DE AMBIENTE DE ENGENHARIA DE SOFTWARE ORIENTADO A PROCESSOS. MODELOS DE PROCESSOS DE SOFTWARE. QUALIDADE DE PROCESSOS DE SOFTWARE.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1422,9 +1488,9 @@
       "code": "IF1001",
       "ementa": "PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS; PROGRAMAÇÃO PARA A WEB; PROJETO PRÁTICO.",
       "hours": 60,
+      "semester": 6,
       "credits": 3,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1444,9 +1510,9 @@
       "code": "IF994",
       "ementa": "QUALIDADE DO PRODUTO E DO PROCESSO DE SOFTWARE E DE INFORMAÇÃO; TÉCNICAS, MODELOS E PADRÕES PARA A GARANTIA E CONTROLE DA QUALIDADE DE SOFTWARE E INFORMAÇÃO. MÉTRICAS PARA A AVALIAÇÃO DA QUALIDADE DO SOFTWARE E INFORMAÇÃO.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1465,9 +1531,9 @@
       "code": "IF995",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE ENGENHARIA DE SOFTWARE E LINGUAGENS. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO EM SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1522,9 +1588,9 @@
       "code": "IF996",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE ENGENHARIA DE SOFTWARE E LINGUAGENS. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO EM SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1534,6 +1600,42 @@
         {
           "code": "AD431",
           "name": "ADMINISTRAÇÃO CONTEMPORÂNEA"
+        },
+        {
+          "code": "IF966",
+          "name": "INTRODUÇÃO AOS SISTEMAS DE INFORMAÇÃO"
+        },
+        {
+          "code": "IF967",
+          "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
+        },
+        {
+          "code": "IF968",
+          "name": "PROGRAMAÇÃO 1"
+        },
+        {
+          "code": "IF969",
+          "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
+        },
+        {
+          "code": "IF971",
+          "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
+        },
+        {
+          "code": "IF972",
+          "name": "LÓGICA PARA COMPUTAÇÃO"
+        },
+        {
+          "code": "IF973",
+          "name": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO"
+        },
+        {
+          "code": "LE732",
+          "name": "INGLÊS PARA COMPUTAÇÃO"
+        },
+        {
+          "code": "MA026",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
         }
       ],
       "dependents": []
@@ -1543,9 +1645,9 @@
       "code": "IF997",
       "ementa": "ESTUDO DE TÓPICOS EM SI NÃO ABORDADOS NAS DEMAIS DISCIPLINAS E RELEVANTES PARA COMPLEMENTAR A FORMAÇÃO GERAL DO ALUNO.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1600,9 +1702,9 @@
       "code": "IF998",
       "ementa": "ESTUDO DE TÓPICOS EM SI NÃO ABORDADOS NAS DEMAIS DISCIPLINAS E RELEVANTES PARA COMPLEMENTAR A FORMAÇÃO GERAL DO ALUNO.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1657,9 +1759,9 @@
       "code": "IF987",
       "ementa": "FUNDAMENTOS DE SEGURANÇA PARA SISTEMAS DE INFORMAÇÃO. PROTEÇÃO DA INFORMAÇÃO. GESTÃO DE VULNERABILIDADE EM SISTEMAS DE INFORMAÇÃO. NOÇÕES DE AUDITORIA DE SISTEMAS DE INFORMAÇÃO.",
       "hours": 60,
+      "semester": 7,
       "credits": 4,
       "isObligatory": true,
-      "semester": 7,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1687,9 +1789,9 @@
       "code": "AD432",
       "ementa": "MODELOS CONCEITUAIS DE ESTRATÉGIA EMPRESARIAL. ANÁLISE DO AMBIENTE EXTERNO. ESTRUTURA INDUSTRIAL E FONTES DE DADOS PARA ANÁLISE INDUSTRIAL. ANÁLISE DE COMPETIDORES. SISTEMA DE INTELIGÊNCIA SOBRE CONCORRENTES. ANÁLISE DE PORFÓLIO. AVALIAÇÃO DOS RECURSOS COMPETITIVOS. DEFINIÇÃO DE OBJETIVOS E METAS DE AÇÃO EMPRESARIAL. ESTRATÉGIAS CORPORATIVAS, EMPRESARIAIS E FUNCIONAIS. SUA IMPLEMENTAÇÃO E AVALIAÇÃO. MÉTODOS E TÉCNICAS PARA PLANEJAMENTO ESTRATÉGICO.",
       "hours": 60,
+      "semester": 7,
       "credits": 4,
       "isObligatory": true,
-      "semester": 7,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1713,9 +1815,9 @@
       "code": "IF1002",
       "ementa": "CONCEITOS BÁSICOS DE MÉTODOS QUANTITATIVOS E TÉCNICAS DE OTIMIZAÇÃO DE RECURSOS. MÉTODOS ANALÍTICOS: CADEIAS DE MARKOV, REDES DE FILAS DE ESPERA E OUTROS MÉTODOS ESTOCÁSTICOS. SIMULAÇÃO DISCRETA DE SISTEMAS.",
       "hours": 60,
+      "semester": 7,
       "credits": 4,
       "isObligatory": false,
-      "semester": 7,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1738,9 +1840,9 @@
       "code": "IF1008",
       "ementa": "FUNDAMENTOS DO PROCESSO DE ENGENHARIA DE REQUISITOS. MODELOS DE CICLO DE VIDA PROCESSO DE ENGENHARIA DE REQUISITOS. ATIVIDADES DO PROCESSO DE ENGENHARIA DE REQUISITOS.",
       "hours": 60,
+      "semester": 7,
       "credits": 4,
       "isObligatory": false,
-      "semester": 7,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1763,9 +1865,9 @@
       "code": "IF1003",
       "ementa": "CIÊNCIA, TECNOLOGIA E INOVAÇÃO. INOVAÇÃO EM UM MUNDO GLOBALIZADO. VALORAÇÃO DAS TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO. NOVAS TECNOLOGIAS E TENDÊNCIAS TECNOLÓGICAS. ESTRATÉGIAS DE INOVAÇÃO. ORGANIZAÇÕES INOVADORAS. O PROCESSO DE INOVAÇÃO TECNOLÓGICA. POLÍTICAS E AGÊNCIAS DE FINANCIAMENTO. MARCAS E PATENTES. ESTUDO DE CASOS.",
       "hours": 60,
+      "semester": 7,
       "credits": 4,
       "isObligatory": false,
-      "semester": 7,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1784,9 +1886,9 @@
       "code": "AD433",
       "ementa": "FUNDAMENTOS DE MARKETING. PLANEJAMENTO ESTRATÉGICO EM MARKETING. COMPORTAMENTO DO CONSUMIDOR. GERENCIAMENTO DA COMUNICAÇÃO INTEGRADA DE MARKETING. MARKETING DE SERVIÇOS.",
       "hours": 60,
+      "semester": 7,
       "credits": 4,
       "isObligatory": false,
-      "semester": 7,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1801,9 +1903,9 @@
       "code": "AD434",
       "ementa": "SISTEMAS. HISTÓRIA DO PENSAMENTO SISTÊMICO. PRINCÍPIOS DO PENSAMENTO SISTÊMICO. TEORIA GERAL DE SISTEMAS. DINÂMICA DE SISTEMAS. ESTRUTURAS E LINGUAGENS. APLICAÇÕES DO PENSAMENTO SISTÊMICO. SISTEMAS COMPLEXOS. APRENDIZAGEM ORGANIZACIONAL. CIBERNÉTICA.",
       "hours": 60,
+      "semester": 7,
       "credits": 4,
       "isObligatory": false,
-      "semester": 7,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1818,9 +1920,9 @@
       "code": "IF1004",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE ENGENHARIA DE SOFTWARE E LINGUAGENS. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO EM SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 60,
+      "semester": 7,
       "credits": 4,
       "isObligatory": false,
-      "semester": 7,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1875,9 +1977,9 @@
       "code": "IF1005",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE ENGENHARIA DE SOFTWARE E LINGUAGENS. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO EM SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 60,
+      "semester": 7,
       "credits": 4,
       "isObligatory": false,
-      "semester": 7,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1932,9 +2034,9 @@
       "code": "IF1009",
       "ementa": "MOTIVAÇÃO; TÉCNICAS DE TESE E VALIDAÇÃO DE SISTEMAS; FERRAMENTAS DE TESTE E VALIDAÇÃO DE SISTEMAS; ESTUDO DE CASO; PROJETO.",
       "hours": 60,
+      "semester": 7,
       "credits": 4,
       "isObligatory": false,
-      "semester": 7,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1949,9 +2051,9 @@
       "code": "IF1006",
       "ementa": "ESTUDO DE TÓPICOS EM SI NÃO ABORDADOS NAS DEMAIS DISCIPLINAS E RELEVANTES PARA COMPLEMENTAR A FORMAÇÃO GERAL DO ALUNO.",
       "hours": 60,
+      "semester": 7,
       "credits": 4,
       "isObligatory": false,
-      "semester": 7,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2006,9 +2108,9 @@
       "code": "IF1007",
       "ementa": "ESTUDO DE TÓPICOS EM SI NÃO ABORDADOS NAS DEMAIS DISCIPLINAS E RELEVANTES PARA COMPLEMENTAR A FORMAÇÃO GERAL DO ALUNO.",
       "hours": 60,
+      "semester": 7,
       "credits": 4,
       "isObligatory": false,
-      "semester": 7,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2063,9 +2165,9 @@
       "code": "IF988",
       "ementa": "PERFIL E CARACTERÍSTICAS DO EMPREENDEDOR. O PLANO DE NEGÓCIOS. CRIATIVIDADE. IDÉIAS DE NEGÓCIOS. ESTUDO DE VIABILIDADE DE UM NEGÓCIO. NEGOCIAÇÃO. CONCEITOS BÁSICOS DE LEGISLAÇÃO EMPRESARIAL. CONCEITOS BÁSICOS DE LEGISLAÇÃO DE SOFTWARE. DESENVOLVIMENTO DE UM PRODUTO/SERVIÇO. ANÁLISE DE MERCADO. MARKETING. ANÁLISE FINANCEIRA. VENDAS E DISTRIBUIÇÃO. RISCOS E OPORTUNIDADES. A VISÃO E EXPERIÊNCIAS DE EMPREENDEDORES REAIS.",
       "hours": 60,
+      "semester": 8,
       "credits": 4,
       "isObligatory": true,
-      "semester": 8,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2082,11 +2184,28 @@
     {
       "name": "TENDÊNCIAS E DESAFIOS EM SISTEMAS DE INFORMAÇÃO",
       "code": "IF989",
-      "ementa": "DESENVOLVIMENTO DE ESTUDO OU APLICAÇÃO EM UMA DAS ÁREAS DE SISTEMAS DE INFORMAÇÃO.",
+      "ementa": "GRANDES IDÉIAS E METÁFORAS EM COMPUTAÇÃO, TENDÊNCIAS TECNOLÓGICAS E DAS ORGANIZAÇÕES, NOVOS PARADIGMAS DE PENSAR, FAZER E APLICAR COMPUTAÇÃO NAS ORGANIZAÇÕES.",
       "hours": 60,
+      "semester": 8,
       "credits": 4,
       "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "IF985",
+          "name": "PROJETO DE SISTEMA DE INFORMAÇÃO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TRABALHO DE CONCLUSÃO DE CURSO EM SISTEMAS DE INFORMAÇÃO",
+      "code": "IF990",
+      "ementa": "DESENVOLVIMENTO DE ESTUDO OU APLICAÇÃO EM UMA DAS ÁREAS DE SISTEMAS DE INFORMAÇÃO.",
+      "hours": 150,
       "semester": 8,
+      "credits": 7,
+      "isObligatory": true,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2101,9 +2220,9 @@
       "code": "IF1011",
       "ementa": "PRINCIPAIS CONCEITOS SOBRE GERENCIAMENTO E CONFIGURAÇÃO DE SERVIÇOS ESSENCIAIS DO SISTEMA; AUTOMATIZANDO TAREFAS. ESTRATÉGIAS E TECNOLOGIAS PARA REALIZAÇÃO DE BACKUP E RESTAURAÇÃO; ATUALIZAÇÃO E MANUTENÇÃO DE SOFTWARE. ANÁLISE DE CARGA DO SISTEMA. MECANISMOS E PROCEDIMENTOS DE SEGURANÇA. ACORDO DE NÍVEL DE SERVIÇOS. CONTINUIDADE. CENTRO DE DADOS. FERRAMENTAS.",
       "hours": 60,
+      "semester": 8,
       "credits": 3,
       "isObligatory": false,
-      "semester": 8,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2118,9 +2237,9 @@
       "code": "PG515",
       "ementa": "FUNDAMENTOS DE DIREITO PARA INFORMÁTICA. LEGISLAÇÃO E PRIVACIDADE DE SISTEMAS DE INFORMAÇÃO. ÉTICA E ATUAÇÃO DO PROFISSIONAL DE INFORMÁTICA.",
       "hours": 60,
+      "semester": 8,
       "credits": 4,
       "isObligatory": false,
-      "semester": 8,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -2130,9 +2249,9 @@
       "code": "IF1017",
       "ementa": "CONCEITOS BÁSICOS; RACIOCÍNIO E REPRESENTAÇÃO DO CONHECIMENTO; APRENDIZAGEM DE MÁQUINA; SISTEMAS ESPECIALISTAS E GERENCIAMENTO DE CONHECIMENTO EM ORGANIZAÇÕES; DESCOBERTA AUTOMÁTICA DE CONHECIMENTO; TÉCNICAS MINERAÇÃO DE DADOS.",
       "hours": 60,
+      "semester": 8,
       "credits": 4,
       "isObligatory": false,
-      "semester": 8,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2155,9 +2274,9 @@
       "code": "EP101",
       "ementa": "LOGÍSTICA E CADEIA DE SUPRIMENTOS; SERVIÇOS AO CLIENTE; SISTEMAS DE INFORMAÇÃO E TECNOLOGIAS PARA LOGÍSTICA; FORNECEDORES; INVENTÁRIO; GERENCIAMENTO DE MATÉRIAS; TRANSPORTE; ARMAZENAMENTO; MANIPULAÇÃO E EMPACOTAMENTO DE MATERIAIS; ORGANIZAÇÃO EFETIVA PARA LOGÍSTICA; DESEMPENHO LOGÍSTICO FINANCEIRO; ESTRATÉGIA LOGÍSTICA.",
       "hours": 60,
+      "semester": 8,
       "credits": 4,
       "isObligatory": false,
-      "semester": 8,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2176,9 +2295,9 @@
       "code": "IF1012",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE ENGENHARIA DE SOFTWARE E LINGUAGENS. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO EM SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 60,
+      "semester": 8,
       "credits": 4,
       "isObligatory": false,
-      "semester": 8,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2233,9 +2352,9 @@
       "code": "IF1013",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE ENGENHARIA DE SOFTWARE E LINGUAGENS. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO EM SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 60,
+      "semester": 8,
       "credits": 4,
       "isObligatory": false,
-      "semester": 8,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2290,9 +2409,9 @@
       "code": "IF1018",
       "ementa": "CONCEITOS BÁSICOS; FUNDAMENTOS DE MULTIMÍDIA, REALIDADE VIRTUAL E REALIDADE AUMENTADA. SOM NO COMPUTADOR; ANIMAÇÃO E VÍDEO NO COMPUTADOR; ELEMENTOS DE REALIDADE VIRTUAL; INTEGRAÇÃO DE MÍDIAS. CODIFICAÇÃO DE VÍDEO E SOM.",
       "hours": 60,
+      "semester": 8,
       "credits": 4,
       "isObligatory": false,
-      "semester": 8,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2311,9 +2430,9 @@
       "code": "IF1014",
       "ementa": "ESTUDO DE TÓPICOS EM SI NÃO ABORDADOS NAS DEMAIS DISCIPLINAS E RELEVANTES PARA COMPLEMENTAR A FORMAÇÃO GERAL DO ALUNO.",
       "hours": 60,
+      "semester": 8,
       "credits": 4,
       "isObligatory": false,
-      "semester": 8,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2368,9 +2487,9 @@
       "code": "IF1015",
       "ementa": "ESTUDO DE TÓPICOS EM SI NÃO ABORDADOS NAS DEMAIS DISCIPLINAS E RELEVANTES PARA COMPLEMENTAR A FORMAÇÃO GERAL DO ALUNO.",
       "hours": 60,
+      "semester": 8,
       "credits": 4,
       "isObligatory": false,
-      "semester": 8,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2425,9 +2544,9 @@
       "code": "IF1010",
       "ementa": "DESENVOLVIMENTO DE ESTUDO, APLICAÇÃO OU ATIVIDADE EM UMA DAS ÁREAS DE SISTEMAS DE INFORMAÇÃO.",
       "hours": 150,
+      "semester": 0,
       "credits": 5,
       "isObligatory": false,
-      "semester": 8,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2442,9 +2561,9 @@
       "code": "IF1019",
       "ementa": "OBJETIVOS DE APRENDIZAGEM: CONHECER O CONTEXTO DE APLICAÇÃO E OS BENEFÍCIOS DA GESTÃO DE PORTFÓLIO DE PROJETOS; CONHECER OS PRINCIPAIS PROCESSOS PARA GESTÃO DE PORTFÓLIO; CONHECER OS ASPECTOS DA IMPLEMENTAÇÃO DA GESTÃO DE PORTFÓLIO EM UMA ORGANIZAÇÃO; UTILIZAR AS PRINCIPAIS TÉCNICAS E FERRAMENTAS PARA A IDENTIFICAÇÃO, CATEGORIZAÇÃO, AVALIAÇÃO, PRIORIZAÇÃO, BALANCEAMENTO E AUTORIZAÇÃO DE PROJETOS; IDENTIFICAR MÉTRICAS E PROCESSOS DE MONITORAMENTO DE PORTFÓLIO QUE PODEM SER IMPLANTADOS EM UMA ORGANIZAÇÃO. INTRODUÇÃO. PROCESSOS PARA GESTÃO DE PORTFÓLIO DE PROJETOS. FERRAMENTAS PARA GESTÃO DE PORTFÓLIO DE PROJETOS. IMPLEMENTANDO A GESTÃO DE PORTFÓLIO DE PROJETOS. ESTUDO DE CASOS. TÓPICOS AVANÇADOS.",
       "hours": 60,
+      "semester": 0,
       "credits": 4,
       "isObligatory": false,
-      "semester": 8,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2463,9 +2582,9 @@
       "code": "IN816",
       "ementa": "ANALISAR AS CONDIÇÕES SÓCIO-HISTÓRICAS BEM COMO AS FORMAÇÕES DISCURSIVAS QUE TÊM POSICIONADO A POPULAÇÃO NEGRA EM CONDIÇÕES DE SUBALTERNIDADE EM RELAÇÃO À BRANCA NO CONTEXTO INTERNACIONAL E BRASILEIRO.",
       "hours": 60,
+      "semester": 0,
       "credits": 4,
       "isObligatory": false,
-      "semester": 8,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
