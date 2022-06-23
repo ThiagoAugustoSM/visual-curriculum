@@ -34,7 +34,8 @@ If the feature is already on the roadmap go ahead and [create a pull request](ht
 
 Clone the project
 
-```bash git clone https://github.com/ThiagoAugustoSM/visual-curriculum.git
+```bash
+git clone https://github.com/ThiagoAugustoSM/visual-curriculum.git
 ```
 
 Go to the project directory
