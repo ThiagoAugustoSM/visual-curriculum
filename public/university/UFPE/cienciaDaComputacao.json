@@ -11,9 +11,9 @@
       "code": "MA531",
       "ementa": "",
       "hours": 75,
+      "semester": 1,
       "credits": 5,
       "isObligatory": true,
-      "semester": 1,
       "equivalences": [
         {
           "code": "MA046",
@@ -57,9 +57,9 @@
       "code": "MA026",
       "ementa": "LIMITES E CONTINUIDADE DE FUNÇÕES. DERIVADAS. APLICAÇÕES DA DERIVADA. TEOREMA DE ROLLE, TEOREMA DO VALOR MÉDIO E TEOREMA DO VALOR MÉDIO GENERALIZADO. INTEGRAIS DEFINIDAS. INTEGRAIS INDEFINIDAS. TÉCNICAS DE INTEGRAÇÃO.",
       "hours": 60,
+      "semester": 1,
       "credits": 4,
       "isObligatory": true,
-      "semester": 1,
       "equivalences": [
         {
           "code": "MA530",
@@ -91,9 +91,9 @@
       "code": "IF668",
       "ementa": "O QUE É A INTERNET?",
       "hours": 45,
+      "semester": 1,
       "credits": 2,
       "isObligatory": true,
-      "semester": 1,
       "equivalences": [
         {
           "code": "IF095",
@@ -133,9 +133,9 @@
       "code": "IF669",
       "ementa": "CONCEITOS BÁSICOS DE LINGUAGENS DE PROGRAMAÇÃO; CONCEITOS BÁSICOS DE PROGRAMAÇÃO ORIENTADA A OBJETOS E QUALIDADE DE SOFTWARE; ESTRUTURAS DE CONTROLE E ESTRUTURA DE DADOS COMPOSTAS; AMBIENTE DE PROGRAMAÇÃO; CONCEITOS BÁSICOS DE PROGRAMAÇÃO IMPERATIVA; PADRÕES E ARQUITETURAS DE SOFTWARE CONVENCIONAIS; ESTILO DE PROGRAMAÇÃO; PROJETO DE IMPLEMENTAÇÃO.",
       "hours": 120,
+      "semester": 1,
       "credits": 6,
       "isObligatory": true,
-      "semester": 1,
       "equivalences": [
         {
           "code": "IF097",
@@ -183,9 +183,9 @@
       "code": "IF670",
       "ementa": "INTRODUÇÃO; INDUÇÃO E RECURSÃO; TEORIA DOS CONJUNTOS; ÁLGEBRA DISCRETA; TEORIA DOS NÚMEROS; COMBINATÓRIA; FUNÇÕES GERADORAS.",
       "hours": 75,
+      "semester": 1,
       "credits": 5,
       "isObligatory": true,
-      "semester": 1,
       "equivalences": [
         {
           "code": "IF240",
@@ -205,9 +205,9 @@
       "code": "IF672",
       "ementa": "INTRODUÇÃO À ANÁLISE DE ALGORITMOS; ELEMENTOS DE ESTRUTURAS DE DADOS; ALGORITMOS DE BUSCA; ALGORITMOS GEOMÉTRICOS; NOÇÕES DE BUSCAS POR EXAUSTÃO E PROBLEMA NP COMPLETOS; E APLICAÇÕES.",
       "hours": 75,
+      "semester": 2,
       "credits": 5,
       "isObligatory": true,
-      "semester": 2,
       "equivalences": [
         {
           "code": "IF096",
@@ -260,9 +260,9 @@
       "code": "ET586",
       "ementa": "ESTATÍSTICA DESCRITIVA; PROBABILIDADE; ESTATÍSTICA INFERENCIAL.",
       "hours": 75,
+      "semester": 2,
       "credits": 5,
       "isObligatory": true,
-      "semester": 2,
       "equivalences": [
         {
           "code": "ET317",
@@ -291,9 +291,9 @@
       "code": "FI582",
       "ementa": "REVISÃO DE MECÂNICA; ELETRICIDADE; ELETROMAGNETISMO; OSCILAÇÕES; ONDAS; CONCEITOS DE TERMODINÂMICA.",
       "hours": 75,
+      "semester": 2,
       "credits": 5,
       "isObligatory": true,
-      "semester": 2,
       "equivalences": [
         {
           "code": "FI108",
@@ -308,9 +308,9 @@
       "code": "IF673",
       "ementa": "INTRODUÇÃO; LÓGICA PROPOSICIONAL; LÓGICA DOS PREDICADOS; APLICAÇÕES PRÁTICAS PARA COMPUTAÇÃO; TÓPICOS AVANÇADOS: LÓGICAS NÃO CLÁSSICAS.",
       "hours": 75,
+      "semester": 2,
       "credits": 5,
       "isObligatory": true,
-      "semester": 2,
       "equivalences": [
         {
           "code": "IF312",
@@ -347,9 +347,9 @@
       "code": "IF675",
       "ementa": "ÁLGEBRA BOOLEANA; VHDL; CIRCUITOS COMBINACIONAIS; CIRCUITOS SEQÜENCIAIS.",
       "hours": 75,
+      "semester": 2,
       "credits": 4,
       "isObligatory": true,
-      "semester": 2,
       "equivalences": [
         {
           "code": "IF111",
@@ -369,9 +369,9 @@
       "code": "IF679",
       "ementa": "CONCEITOS GERAIS BÁSICOS DE SOCIOLOGIA; IMPACTO SOCIAL DE NOVAS TECNOLOGIAS NA HISTÓRIA; MUDANÇAS SOCIOLÓGICAS DISPARADAS PELA INFORMÁTICA; PERCEPÇÕES E EXPECTATIVAS DO PÚBLICO SOBRE ESSAS MUDANÇAS; CONCEITOS GERAIS BÁSICOS DE ÉTICA E DIREITO; CIBERCRIMES; PROPRIEDADE INTELECTUAL E PIRATARIA; INTRUSÃO E VIROSAS; PRIVACIDADE E CIDADANIA; RESPONSABILIDADE LEGAL E SEGURANÇA; ESTUDOS DE CASOS.",
       "hours": 75,
+      "semester": 3,
       "credits": 5,
       "isObligatory": true,
-      "semester": 3,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -381,9 +381,9 @@
       "code": "IF678",
       "ementa": "INTRODUÇÃO E PRINCIPAIS CONCEITOS. APLICAÇÕES EM REDES DE COMPUTADORES. APLICAÇÕES CLIENTE SERVIDOR. SERVIÇOS WEB. WIRELESS APLICATION PROTOCOL-WAP. PROTOCOLOS DE APLICAÇÃO. SEGURANÇA EM REDES. COMÉRCIO ELETRÔNICO. GERENCIAMENTO DE REDES. TECNOLOGIA DE BACKBONE. REDES TCP/IP. INTERNET 2. NÍVEL DE REDES EM ATM. TECNOLOGIA DE BACKBONE. FRAME RELAY. NÍVEL DE TRANSPORTE. TRANSMISSÃO DE DADOS. NÍVEL DE ENLACE. PROJETOS SOBRE PROTOCOLOS DE ENLACE E REDE. REDES DE ACESSO. INTRODUÇÃO. REDES DE COMPUTADORES. WAP. PROTOCOLOS DE APLICAÇÃO.SEGURANÇA. COMÉRCIO ELETRÔNICO. GERENCIAMENTO DE REDES. BACKBONE. INTERNET 2. REDES ATM. PROJETO DE REDES. REDES DE ACESSO. COMUNICAÇÃO SEM FIO. SISTEMAS CELULARES.",
       "hours": 75,
+      "semester": 3,
       "credits": 5,
       "isObligatory": true,
-      "semester": 3,
       "equivalences": [
         {
           "code": "IF122",
@@ -428,9 +428,9 @@
       "code": "IF674",
       "ementa": "INTRODUÇÃO À PROGRAMAÇÃO; SISTEMAS DIGITAIS.",
       "hours": 75,
+      "semester": 3,
       "credits": 4,
       "isObligatory": true,
-      "semester": 3,
       "equivalences": [
         {
           "code": "IF118",
@@ -491,9 +491,9 @@
       "code": "IF677",
       "ementa": "INTRODUÇÃO. ESTRUTURA DE UM SISTEMA OPERACIONAL. PROCESSOS CONCORRENTES. ESCALONAMENTO. GERENCIAMENTO DE MEMÓRIA. MEMÓRIA VIRTUAL. GERENCIAMENTO DE DISCO. SISTEMAS DE ARQUIVO. PROTEÇÃO E SEGURANÇA. SISTEMAS DISTRIBUÍDOS. ESTUDOS DE CASOS.",
       "hours": 75,
+      "semester": 3,
       "credits": 4,
       "isObligatory": true,
-      "semester": 3,
       "equivalences": [
         {
           "code": "IF117",
@@ -546,9 +546,9 @@
       "code": "LE530",
       "ementa": "VOCABULÁRIO E EXPRESSÕES IDIOMÁTICAS INGLESAS EM CIÊNCIAS DA COMPUTAÇÃO E TECNOLOGIA DA INFORMAÇÃO; INTERPRETAÇÃO DE TEXTO TÉCNICO-CIENTÍFICOS EM INGLÊS; COMPREENSÃO DE APRESENTAÇÕES ORAIS TÉCNICO-CIENTÍFICOS EM INGLÊS; ESTILÍSTICA DA REDAÇÃO DE DOCUMENTOS TÉCNICO-CIENTÍFICOS EM INGLÊS; ESTILÍSTICA DE SEMINÁRIOS ORAIS TÉCNICO-CIENTÍFICOS EM INGLÊS.",
       "hours": 75,
+      "semester": 3,
       "credits": 4,
       "isObligatory": true,
-      "semester": 3,
       "equivalences": [
         {
           "code": "LE028",
@@ -563,9 +563,9 @@
       "code": "IF682",
       "ementa": "DEFINIÇÃO E OBJETIVOS DA ENGENHARIA DE SOFTWARE; ATIVIDADES DA ENGENHARIA DE SOFTWARE; RECURSOS DA ENGENHARIA DE SOFTWARE; PLANEJAMENTO DO PROJETO E LEVANTAMENTO DE ESTIMATIVAS; GERENCIAMENTO DO PROJETO; ESPECIFICAÇÕES DE REQUISITOS; ANÁLISE E PROJETO; IMPLEMENTAÇÃO; DEPURAÇÃO E TESTES; CONTROLE DE QUALIDADE E INSPEÇÃO.",
       "hours": 75,
+      "semester": 4,
       "credits": 4,
       "isObligatory": true,
-      "semester": 4,
       "equivalences": [
         {
           "code": "IF570",
@@ -610,9 +610,9 @@
       "code": "IF685",
       "ementa": "ALGORITMOS E ESTRUTURAS DE DADOS.",
       "hours": 75,
+      "semester": 4,
       "credits": 4,
       "isObligatory": true,
-      "semester": 4,
       "equivalences": [
         {
           "code": "IF559",
@@ -673,9 +673,9 @@
       "code": "IF689",
       "ementa": "INTRODUÇÃO; ANÁLISE DE ALGORITMOS; COMPLEXIDADE COMPUTACIONAL; COMPUTABILIDADE.",
       "hours": 75,
+      "semester": 4,
       "credits": 5,
       "isObligatory": true,
-      "semester": 4,
       "equivalences": [
         {
           "code": "IF525",
@@ -728,9 +728,9 @@
       "code": "IF681",
       "ementa": "INTRODUÇÃO À PROGRAMAÇÃO.",
       "hours": 45,
+      "semester": 4,
       "credits": 2,
       "isObligatory": true,
-      "semester": 4,
       "equivalences": [],
       "prerequisites": [
         {
@@ -762,9 +762,9 @@
       "code": "IF680",
       "ementa": "INTRODUÇÃO À GRÁFICOS NO COMPUTADOR. INTERFACES DE ENTRADA E DE SAÍDA. PRIMITIVAS GRÁFICAS. IMAGENS NO COMPUTADOR.",
       "hours": 45,
+      "semester": 4,
       "credits": 2,
       "isObligatory": true,
-      "semester": 4,
       "equivalences": [],
       "prerequisites": [
         {
@@ -796,9 +796,9 @@
       "code": "IF684",
       "ementa": "INTRODUÇÃO; BUSCA; RACIOCÍNIO E REPRESENTAÇÃO DO CONHECIMENTO; SISTEMAS MULTIAGENTES; APRENDIZAGEM DE MÁQUINA; TÓPICOS AVANÇADOS.",
       "hours": 75,
+      "semester": 4,
       "credits": 4,
       "isObligatory": true,
-      "semester": 4,
       "equivalences": [
         {
           "code": "IF126",
@@ -851,9 +851,9 @@
       "code": "IF690",
       "ementa": "GRANDES IDÉIAS E METÁFORA EM COMPUTAÇÃO; TENDÊNCIAS TECNOLÓGICAS; NOVOS PARADIGMAS DE PENSAR, FAZER E APLICAR COMPUTAÇÃO.",
       "hours": 45,
+      "semester": 5,
       "credits": 3,
       "isObligatory": true,
-      "semester": 5,
       "equivalences": [],
       "prerequisites": [
         {
@@ -868,9 +868,9 @@
       "code": "IF687",
       "ementa": "SOM NO COMPUTADOR; ANIMAÇÃO E VÍDEO NO COMPUTADOR; ELEMENTOS DE REALIDADE VIRTUAL; INTEGRAÇÃO DE MÍDIAS.",
       "hours": 45,
+      "semester": 5,
       "credits": 2,
       "isObligatory": true,
-      "semester": 5,
       "equivalences": [
         {
           "code": "IF849",
@@ -907,9 +907,9 @@
       "code": "IF676",
       "ementa": "PRINCÍPIOS FILOSÓFICOS E EPISTEMOLOGIA DAS CIÊNCIAS PESQUISA CIENTIFICA. PESQUISA BIBLIOGRÁFICA. AVALIAÇÃO EMPÍRICA. INTERPRETAÇÃO. ESTRUTURA. REDAÇÃO DOCUMENTOS TÉCNICOS E CIENTÍFICOS. APRESENTAÇÃO DE SEMINÁRIOS.",
       "hours": 75,
+      "semester": 5,
       "credits": 5,
       "isObligatory": true,
-      "semester": 5,
       "equivalences": [],
       "prerequisites": [
         {
@@ -929,9 +929,9 @@
       "code": "IF686",
       "ementa": "INTRODUÇÃO; CONCEITOS GERAIS DE LINGUAGEM DE PROGRAMAÇÃO; PROGRAMAÇÃO DECLARATIVA; PROGRAMAÇÃO MULTI PARADIGMAS; LINGUAGENS DE COMANDOS, SCRIPTING E MARK-UP.",
       "hours": 75,
+      "semester": 5,
       "credits": 4,
       "isObligatory": true,
-      "semester": 5,
       "equivalences": [],
       "prerequisites": [],
       "dependents": [
@@ -970,9 +970,9 @@
       "code": "IF683",
       "ementa": "DESENVOLVIMENTO DE UM SISTEMA DE COMPUTAÇÃO USANDO CONCEITO APRENDIDOS ANTERIORMENTE. SISTEMAS UTIDISCIPLINARES DEVEM SER ESTIMULADOS BEM COMO O TRABALHO EM EQUIPE.",
       "hours": 75,
+      "semester": 5,
       "credits": 3,
       "isObligatory": true,
-      "semester": 5,
       "equivalences": [],
       "prerequisites": [
         {
@@ -987,9 +987,9 @@
       "code": "IF688",
       "ementa": "LÓGICA PARA COMPUTAÇÃO, ALGORITMOS E ESTRUTURAS DE DADOS; INFRA-ESTRUTURA DE HARDWARE; INFRA-ESTRUTURA DE SOFTWARE;",
       "hours": 75,
+      "semester": 5,
       "credits": 4,
       "isObligatory": true,
-      "semester": 5,
       "equivalences": [
         {
           "code": "IF120",
@@ -1017,9 +1017,9 @@
       "code": "IF744",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1034,9 +1034,9 @@
       "code": "IF703",
       "ementa": "PLANEJAMENTO E NAVEGAÇÃO; MODELOS DE AGENTES; COMUNICAÇÃO; SISTEMAS MULTIAGENTES; METODOLOGIA E FERRAMENTAS DE IMPLEMENTAÇÃO; APLICAÇÕES.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF138",
@@ -1051,9 +1051,9 @@
       "code": "IF763",
       "ementa": "SISTEMAS DE EQUAÇÕES; ESPAÇO EUCLIDIANO NO RN; TRANSFORMAÇÕES LINEARES; AUTOVALORES E AUTOVETORES; EXERCÍCIOS ESCOLARES;",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1073,9 +1073,9 @@
       "code": "IF766",
       "ementa": "INTRODUÇÃO; ABORDAGENS COMBINATÓRIAS; MÉTODO DE ARREDONDAMENTO; MÉTODO PRIMA-DUAL; CLASSES DE COMPLEXIDADE EM APROXIMAÇÃO.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1085,9 +1085,9 @@
       "code": "IF731",
       "ementa": "MODELOS DE ESPECIFICAÇÃO DE SISTEMAS EMBUTIDOS; TÉCNICAS DE PARTICIONAMENTO DE SISTEMAS; TÉCNICAS DE ESTIMATIVAS; TÉCNICAS PARA GERAÇÃO DE INTERFACES; TÉCNICAS PARA SÍNTESE DE SOFTWARE; TÉCNICAS DE CO-SIMULAÇÃO; PROTOTIPAÇÃO DE SISTEMAS.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF135",
@@ -1107,9 +1107,9 @@
       "code": "IF718",
       "ementa": "IMPORTÂNCIA, CONTEXTO, E OBJETIVOS DAS ATIVIDADES DE ANÁLISE E PROJETO, DISTINÇÃO ENTRE ANÁLISE E PROJETO; ANÁLISE E PROJETO DE SISTEMAS ORIENTADOS A OBJETOS; TÉCNICAS E FERRAMENTAS EFETIVAS PARA ENGENHARIA DIRETA E REVERSA; ATIVIDADES DE ANÁLISE E PROJETO DE UM PROCESSO ESPECÍFICO; ANÁLISE E PROJETO DE UM SISTEMA SIMPLES; ARQUITETURA DE SOFTWARE; EXEMPLOS E UTILIZAÇÃO DE VÁRIOS PADRÕES DE ARQUITETURA, ANÁLISE E PROJETO; OUTRAS LINGUAGENS, TÉCNICAS, E FERRAMENTAS PARA ANÁLISE, PROJETO, E DESCRIÇÃO DE ARQUITETURAS.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF125",
@@ -1134,9 +1134,9 @@
       "code": "IF752",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF143",
@@ -1160,9 +1160,9 @@
       "code": "IF765",
       "ementa": "ELEMENTOS DE ANÁLISE FUNCIONAL; SOLUÇÃO NUMÉRICA DE EQUAÇÕES NÃO-LINEARES; MATRIZES E SISTEMAS DE EQUAÇÕES LINEARES; TEORIA DA APROXIMAÇÃO; SOLUÇÃO NUMÉRICA DE EQUAÇÕES DIFERENCIAIS.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF127",
@@ -1186,9 +1186,9 @@
       "code": "IF699",
       "ementa": "INTRODUÇÃO; AM (APRENDIZAGEM DE MÁQUINA) SUPERVISIONADA SIMBÓLICA; AM SUPERVISIONADA ESTOCASTICA; AM SUPERVISIONADA CONEXIONISTA; AM NÃO SUPERVISIONADA; AM POR REFORÇO; LIMITES TEÓRICOS; ANÁLISE DE COMPONENTES PRINCIPAIS (PCA), ICA ; PROJETO.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1203,9 +1203,9 @@
       "code": "IF705",
       "ementa": "INTRODUÇÃO; SISTEMAS FUZZY; SISTEMAS NEURAIS; SISTEMAS NEURO-FUZZY; ESTUDO DE CASO; SISTEMAS EVOLUCIONISTAS: ALGORITMOS GENÉTICOS; PROGRAMAÇÃO GENÉTICA; APLICAÇÕES DE ALGORITMOS GENÉTICOS; MÉTODOS HÍDRICOS DE COMPUTAÇÃO EVOLUCIONISTA E NEURAL; MÉTODOS ALTERNATIVAS DE OTIMIZAÇÃO; ESTUDOS DE CASOS DA COMPUTAÇÃO EVOLUCIONISTA E NEURAL; OUTRAS TÉCNICAS: RACIOCÍNIO BASEADO EM CASOS, APRENDIZAGEM POR REFORÇO, ETC. PROJETO.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1215,9 +1215,9 @@
       "code": "IF756",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1236,9 +1236,9 @@
       "code": "IF742",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF121",
@@ -1258,9 +1258,9 @@
       "code": "IF695",
       "ementa": "INTRODUÇÃO. BD TEMPORAIS. BD ESPACIAIS. SISTEMAS DE INFORMAÇÕES GEOGRÁFICAS. BD MULTIMÍDIA. OUTROS BD AVANÇADOS. PROJETO",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF558",
@@ -1284,9 +1284,9 @@
       "code": "IF694",
       "ementa": "ABORDAGEM TOP-DOWN; ABORDAGEM BOTTOM-UP; BD HOMOGÊNEO X HETEROGÊNEO; BD FEDERADOS X MULTI-BANCO DE DADOS; MÉTODOS; TÉCNICAS: FRAGMENTAÇÃO, REPLICAÇÃO E ALOCAÇÃO.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF558",
@@ -1310,9 +1310,9 @@
       "code": "IF764",
       "ementa": "FUNÇÕES TRIGONOMÉTRICAS; NÚMEROS COMPLEXOS; FUNÇÕES E DERIVADAS DE VÁRIAS VARIÁVEIS; INTEGRAIS MÚLTIPLAS; SISTEMAS DE COORDENADAS; SISTEMAS DE EQUAÇÕES DIFERENCIAIS.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1336,9 +1336,9 @@
       "code": "IF715",
       "ementa": "CORRETUDE DE PROGRAMAS (CORRETUDE PARCIAL X CORRETUDE TOTAL). USO DE ASSERÇÕES PARA DOCUMENTAR E DERIVAR PROGRAMAS (LÓGICA DE HOARE). WEAKEST PRECONDITION COMO UM MECANISMO DE DEFINIR A SEMÂNTICA DE UMA LINGUAGEM DE PROGRAMAÇÃO. DERIVAÇÃO DE PROGRAMAS BASEADO EM WEAKEST PRECONDITION.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF112",
@@ -1358,9 +1358,9 @@
       "code": "IF792",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1370,9 +1370,9 @@
       "code": "IF804",
       "ementa": "COMPARAÇÃO DE SEQÜÊNCIAS; MONTAGEM DE FRAGMENTOS; MAPAS FÍSICOS; ÁRVORES FILOGENÉTICAS; REARRANJO DE GENOMAS; PREDIÇÃO DE ESTRUTURA MOLECULAR.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1392,9 +1392,9 @@
       "code": "IF774",
       "ementa": "NOÇÕES DE LÓGICA: ESTRUTURAS, ORDENAÇÃO, CONSULTAS DE PRIMEIRA ORDEM; NOÇÕES DE COMPLEXIDADE: REDUÇÕES, CLASSES DE COMPLECIDADE, PROBLEMAS COMPLETOS; REDUÇÕES DE PRIMEIRA ORDEM; DEFINIÇÕES INDUTIVAS; PARALELISMO; JOGOS DE EHRENFEUCHT-FRAISSE; TEOREMA DE FAGIN; FECHO TRANSITIVO; UNIFORMIDADE E PRÉ-COMPUTAÇÃO; O PAPEL DA ORDENAÇÃO; LEMA DE HASTAD; APLICAÇÕES: LINGUAGENS DE CONSULTA, SQL, DATALOG.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1409,9 +1409,9 @@
       "code": "IF750",
       "ementa": "ALGORITMOS E TRANSFORMAÇÕES GEOMÉTRICAS EM 2D, PRIMITIVAS GRÁFICAS EM 2D, NOÇÕES BÁSICAS DE REPRESENTAÇÃO E VISUALIZAÇÃO EM 3D, ARQUITETURA DOS PROCESSADORES E PERIFÉRICOS GRÁFICOS, INTERFACES GRÁFICAS: TÉCNICAS DE INTERAÇÃO, PROJETO DE DIÁLOGO, INTERFACE DO USUÁRIO.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF124",
@@ -1436,9 +1436,9 @@
       "code": "IF754",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF666",
@@ -1458,9 +1458,9 @@
       "code": "IF739",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1475,9 +1475,9 @@
       "code": "IF784",
       "ementa": "NOÇÕES E TIPOS DE CONTABILIDADE. FUNCIONAMENTO DO PROCESSO CONTÁBIL. VARIAÇÕES DA SITUAÇÃO LÍQUIDA. OPERAÇÕES COM MERCADORIA. BALANÇOS. CONTROLE DE CUSTOS. ADMINISTRAÇÃO FINANCEIRA. A ESTRUTURA DA CONTABILIDADE PARA GESTÃO ADMINISTRATIVA. USO DA .",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "AD300",
@@ -1492,9 +1492,9 @@
       "code": "IF835",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": [
@@ -1509,9 +1509,9 @@
       "code": "IF802",
       "ementa": "HISTÓRICA DA CONVERGÊNCIA DIGITAL; ASPECTOS TECNOLÓGICOS; ASPECTOS ECONÔMICOS; ASPECTOS SOCIAIS; APLICAÇÕES.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1534,9 +1534,9 @@
       "code": "IF719",
       "ementa": "ESPECIFICAÇÃO DE REQUISITOS E VALIDAÇÃO DE SISTEMAS; PLANEJAMENTO E GERENCIAMENTO DE PROJETOS; ANÁLISE E PROJETO DE SISTEMA.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF140",
@@ -1564,9 +1564,9 @@
       "code": "IF780",
       "ementa": "PRECIFICAÇÃO, CUSTO E PRODUÇÃO. TEORIA DA UTILIDADE. OFERTA E PROCURA. COMPETIÇÃO. COMPORTAMENTO DE MERCADOS COMPETITIVOS E NÃO COMPETITIVOS. FONTES E USOS DE PODER DE MERCADO. TEORIA DOS JOGOS E ESTRATÉGIA COMPETITIVA. LEI ANTI-TRUSTES.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1576,9 +1576,9 @@
       "code": "IF781",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF275",
@@ -1593,9 +1593,9 @@
       "code": "IF701",
       "ementa": "ENGENHARIA DO CONHECIMENTO; SISTEMAS ESPECIALISTAS; TÓPICOS AVANÇADOS EM RACIOCÍNIO E REPRESENTAÇÃO DE CONHECIMENTO; PROJETO.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF131",
@@ -1610,9 +1610,9 @@
       "code": "IF728",
       "ementa": "METODOLOGIAS DE PROJETO DE SISTEMAS EMBUTIDOS; IMPLEMENTAÇÃO DE SISTEMAS EMBUTIDOS; FERRAMENTAS DE APOIO AO DESENVOLVIMENTO DE S.E.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1636,9 +1636,9 @@
       "code": "IF800",
       "ementa": "INTRODUÇÃO E TEORIAS DA EDUCAÇÃO; COMPUTADOR E REPRESENTAÇÃO DOS CONTEÚDOS; COMPUTADOR E SISTEMA DIDÁTICO; COMPUTADOR E SUJEITO; AVALIAÇÃO DE SOFTWARES EDUCACIONAIS; ORGANIZAÇÃO DO DESENVOLVIMENTO; DISTRIBUIÇÃO E CAPACITAÇÃO DE PROFESSORES.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1648,9 +1648,9 @@
       "code": "IF716",
       "ementa": "MOTIVAÇÃO; TÉCNICAS DE ESPECIFICAÇÃO DE REQUISITOS; FERRAMENTAS DE ESPECIFICAÇÃO DE REQUISITOS; TÉCNICAS DE VALIDADE DE SISTEMAS; FERRAMENTAS DE VALIDAÇÃO DE SISTEMAS; ESTUDO DE CASOS; PROJETO.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF119",
@@ -1675,9 +1675,9 @@
       "code": "FI006",
       "ementa": "MOVIMENTO EM UMA DIMENSÃO; VETORES; MOVIMENTO EM UM PLANO; DINÂMICA DA PARTÍCULA; TRABALHO E ENERGIA; CONSERVAÇÃO DA ENERGIA; CONSERVAÇÃO DO MOMENTUM LINEAR; CHOQUES; CINEMÁTICA DA ROTAÇÃO; DINÂMICA DA ROTAÇÃO.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1687,9 +1687,9 @@
       "code": "FI007",
       "ementa": "GRAVITAÇÃO; FLUÍDOS; MOVIMENTO OSCILATÓRIO; ONDAS; SUPERPOSIÇÃO E INTERFERÊNCIA DE ONDAS HARMÔNICAS; TERMOLOGIA; LEIS DA TERMODINÂMICA; TEORIA CINÉTICA DOS GASES; EXPANSÃO TÉRMICA.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1699,9 +1699,9 @@
       "code": "MA036",
       "ementa": "SISTEMAS DE COORDENADAS NO PLANO. A RETA, A CIRCUNFERÊNCIA, AS CÔNICAS. CÁLCULO VETORIAL. COORDENADAS NO ESPAÇO . RETAS E PLANOS. MUDANÇA DE COORDENADAS (ROTAÇÃO E TRANSLAÇÃO). RELAÇÃO ENTRE RETAS E PLANOS.",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1711,9 +1711,9 @@
       "code": "IF741",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF145",
@@ -1733,9 +1733,9 @@
       "code": "IF783",
       "ementa": "A ORGANIZAÇÃO DO FUTURO E SUAS CARACTERÍSTICAS. GERENCIANDO E LIDERANDO A ORGANIZAÇÃO. NEGOCIAÇÃO. COMUNICAÇÃO. A FUNÇÃO RECURSOS HUMANOS. CRIAÇÃO E MANUTENÇÃO DE ESTRUTURAS, RECOMPENSAS, CARREIRAS E CULTURAS DA EMPRESA. ALIANÇAS APRENDIZAGEM E GESTÃO DE MUDANÇAS PARA MANTER O DESEMPENHO GLOBAL. PLANEJAMENTO ESTRATÉGICO. QUALIDADE TOTAL. SISTEMA DE INFORMAÇÕES GERENCIAIS. VISÃO E INTERAÇÃO COM O MERCADO. CONQUISTA E MANUTENÇÃO DE CLIENTES. VENDAS: PROCESSO E VALIDAÇÃO; VISÃO DE BENS E SERVIÇOS. SUPRIMENTO DE MATERIAIS. LOGÍSTICA E PROCESSO PRODUTIVO. ADMINISTRAÇÃO DE SERVIÇOS. O DOMÍNIO DA TECNOLOGIA. TECNOLOGIA E VANTAGEM COMPETITIVA. GESTÃO E INOVAÇÕES TECNOLÓGICAS; NOÇÕES DE LEGISLAÇÃO TRABALHISTA, COMERCIAL E FISCAL. TIPOS DE SOCIEDADES. PROPRIEDADE INDUSTRIAL. PATENTES E DIREITOS.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1745,9 +1745,9 @@
       "code": "IF709",
       "ementa": "ORGANIZAÇÃO DE UM SISTEMA OPERACIONAL; PROJETO DE UM SISTEMA OPERACIONAL; TECNOLOGIA UTILIZADA PARA IMPLEMENTAÇÃO DE SISTEMAS OPERACIONAIS; PROJETO.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF578",
@@ -1771,9 +1771,9 @@
       "code": "IF788",
       "ementa": "DESENVOLVIMENTO DE ATIVIDADE DE INICIAÇÃO CIENTIFICA EM UMA ÁREA DA CIÊNCIA DA COMPUTAÇÃO PELO PERÍODO MÍNIMO DE 1 ANO SOB A SUPERVISÃO DE UM PROFESSOR DO CENTRO DE INFORMÁTICA. OS PLANOS DE INICIAÇÃO DEVEM SER JULGADOS PELO COLEGIADO DA GRADUAÇÃO NAS 4 PRIMEIRAS SEMANAS DO SEMESTRE LETIVO E O RELATÓRIO FINAL DEVERÁ SER APROVADO PRO BANCA EXAMINADORA.",
       "hours": 75,
+      "semester": 6,
       "credits": 3,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1783,9 +1783,9 @@
       "code": "IF789",
       "ementa": "DESENVOLVIMENTO DE ATIVIDADE DE INICIAÇÃO CIENTIFICA EM UMA ÁREA DA CIÊNCIA DA COMPUTAÇÃO PELO PERÍODO MÍNIMO DE 2 ANOS SOB A SUPERVISÃO DE UM PROFESSOR DO CENTRO DE INFORMÁTICA. OS PLANOS DE INICIAÇÃO DEVEM SER JULGADOS PELO COLEGIADO DA GRADUAÇÃO NAS 4 PRIMEIRAS SEMANAS DO SEMESTRE LETIVO E O RELATÓRIO FINAL DEVERÁ SER APROVADO PRO BANCA EXAMINADORA.",
       "hours": 75,
+      "semester": 6,
       "credits": 3,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1795,9 +1795,9 @@
       "code": "IF696",
       "ementa": "INTRODUÇÃO; BD TEMPORAIS; BD ESPECIAIS; SISTEMAS DE INFORMAÇÕES GEOGRÁFICAS; BD MULTIDIMENSIONAIS 12H (16H)",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF564",
@@ -1817,9 +1817,9 @@
       "code": "IF758",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1838,9 +1838,9 @@
       "code": "IF865",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF134",
@@ -1864,9 +1864,9 @@
       "code": "IF803",
       "ementa": "INTRODUÇÃO À BIOLOGIA COMPUTACIONAL; INTRODUÇÃO À BIOLOGIA CELULAR; DNA VS. PROTEÍNAS; PROCESSOS DE ANÁLISE DE DNA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF130",
@@ -1890,9 +1890,9 @@
       "code": "IF794",
       "ementa": "PROJETOS DE JOGOS 3D; MOTORES 3D; FERRAMENTAS GRÁFICAS 3D; MODELAGEM FÍSICA; DESENVOLVIMENTO DE JOGOS, VÍDEO; TÓPICOS AVANÇADOS.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1902,9 +1902,9 @@
       "code": "IF772",
       "ementa": "CONVERSÃO; REDUÇÃO; MODELOS; LAMBDA-CÁLCULO CLÁSSICO; COMBINATORS; ÁRVORES DE BOHM; TEOREMAS FUNDAMENTAIS; REDUÇÃO FORTEMENTE EQUIVALENTES ESTRATÉGICAS DE REDUÇÃO; CONSTRUÇÃO DE MODELOS; ATRIBUIÇÃO DE TIPOS A TERMOS; O ALGORITMO DO TIPO PRINCIPAL; ATRIBUIÇÃO DE TIPOS COM IGUALDADE; CORRESPONDÊNCIA COM A IMPLICAÇÃO; CONTAGEM DOS ELEMENTOS DE UM TIPO.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1919,9 +1919,9 @@
       "code": "IF773",
       "ementa": "LÓGICA MODAL PROPORCIONAL; MODELOS DE KRIPKE; LÓGICA TEMPORAL; LÓGICA DINÂMICA; LÓGICA DINÂMICA DE PRIMEIRA ORDEM; APLICAÇÕES: LÓGICA DE PROGRAMAS.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1936,9 +1936,9 @@
       "code": "IF109",
       "ementa": "",
       "hours": 60,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -1957,9 +1957,9 @@
       "code": "IF796",
       "ementa": "INTRODUÇÃO; MINERAÇÃO DO CONTEÚDO DA WEB; MINERAÇÃO DA ESTRUTURA DA WEB; MINERAÇÃO DE DADOS DE ACESSO À WEB; PROVA; PROJETO.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1969,9 +1969,9 @@
       "code": "IF782",
       "ementa": "POLÍTICAS E ESTRATÉGICAS DE NEGÓCIO; MODELOS DE NEGÓCIO; IMPLEMENTAÇÕES COMPUTACIONAIS DOS MODELOS; TÓPICOS AVANÇADOS;",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -1981,9 +1981,9 @@
       "code": "IF779",
       "ementa": "EVOLUÇÃO ECONÔMICA E SOCIAL; CARACTERÍSTICAS DA NOVA ECONOMIA E DA NOVA SOCIEDADE (NOVOS PADÕES, NOVAS REGRAS, NOVAS NORMAS, NOVAS ESCOLHAS, NOVAS AÇÕES); IMPACTO DAS NOVAS TECNOLOGIAS; BRASIL NESTE NOVO CONTEXTO.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "EC200",
@@ -1998,9 +1998,9 @@
       "code": "IF726",
       "ementa": "INTRODUÇÃO; FAMÍLIAS DE PROCESSADORES E COMPUTADORES; BARRAMENTOS; TECNOLOGIA DE MEMÓRIA; DEVICE DRIVERS; PERIFÉRICOS COMUNS.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2020,9 +2020,9 @@
       "code": "IF797",
       "ementa": "INTRODUÇÃO; MODELAGEM MATEMÁTICA; MODELAGEM HEURÍSTICA; MODELAGEM PROBABILÍSTICA; PROJETO.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2045,9 +2045,9 @@
       "code": "IF700",
       "ementa": "INTRODUÇÃO; CAPTURAÇÃO E PRÉ-PROCESSAMENTO DE SINAL; RP: MÉTODOS ESTATÍSTICOS; RP: MÉTODOS NEURAIS; RECONHECIMENTO DE IMAGENS; RP DINÂMICOS # VOZ: MÉTODOS ESTATÍSTICOS E NEURAIS; RECONHECIMENTO DE VOZ; PROJETO.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -2057,9 +2057,9 @@
       "code": "IF717",
       "ementa": "DEFINIÇÃO; POR QUE GERÊNCIA DE PROJETOS? CICLO DE VIDA DE PROJETOS; PECULIARIDADE DO PROJETO DE SOFTWARE; OBJETIVOS GERAIS DO GERENCIAMENTO DE PROJETOS; EQUIPE DE PROJETO; O PAPEL DO GERENTE; ESTRUTURA ORGANIZACIONAL VOLTADA A PROJETOS; PLANEJAMENTO ESTRATÉGICO: SELEÇÃO DE PROJETOS; PLANO DE NEGÓCIOS; PLANEJAMENTO TÉCNICO: CICLO DE VIDA E PROCESSOS DE DESENVOLVIMENTO DE SOFTWARE (REVISÃO); TIPOS E MÉTODOS DE PLANEJAMENTO; ANÁLISE DE RISCOS; ESTIMATIVAS: CUSTOS; RECURSOS; TAMANHO E COMPLEXIDADE.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF136",
@@ -2084,9 +2084,9 @@
       "code": "IF746",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2110,9 +2110,9 @@
       "code": "IF727",
       "ementa": "INTRODUÇÃO; MODELOS DE ARQUITETURAS; DESENVOLVIMENTO DE SOFTWARE PARA SISTEMAS EMBUTIDOS; TECNOLOGIAS DE COMPILAÇÃO; PROJETO DE UM ASIP; GERAÇÃO DO COMPILADOR.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2135,9 +2135,9 @@
       "code": "IF767",
       "ementa": "ALGORITMOS BÁSICOS; ÁRVORE DE SUFIXOS; GRAFOS DE SUB-PALAVRAS; ABORDAGEM COM AUTÔMATOS; SIMETRIAS DE REPETIÇÕES; COMPRESSÃO DE TEXTO; CASAMENTO APROXIMADO.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -2147,9 +2147,9 @@
       "code": "IF753",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2173,9 +2173,9 @@
       "code": "IF759",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2194,9 +2194,9 @@
       "code": "IF751",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": [
@@ -2211,9 +2211,9 @@
       "code": "IF704",
       "ementa": "PROCESSAMENTO SINTÁTICO; INTERPRETAÇÃO SEMÂNTICA; PROCESSAMENTO DE DISCURSO; APLICAÇÕES.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF144",
@@ -2233,9 +2233,9 @@
       "code": "IF785",
       "ementa": "REALIZAÇÃO DE TESTE DE PROFICIÊNCIA EM INGLÊS CONSIDERANDO CAPACIDADE DE ESCRITA, LEITURA E CONVERSAÇÃO EM NÍVEL BÁSICO.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -2245,9 +2245,9 @@
       "code": "IF786",
       "ementa": "REALIZAÇÃO DE TESTE DE PROFICIÊNCIA EM INGLÊS CONSIDERANDO CAPACIDADE DE ESCRITA, LEITURA E CONVERSAÇÃO EM INTERMEDIÁRIO.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -2257,9 +2257,9 @@
       "code": "IF787",
       "ementa": "REALIZAÇÃO DE TESTE DE PROFICIÊNCIA EM INGLÊS CONSIDERANDO CAPACIDADE DE ESCRITA, LEITURA E CONVERSAÇÃO EM AVANÇADO.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -2269,9 +2269,9 @@
       "code": "IF799",
       "ementa": "INTRODUÇÃO; PROGRAMAÇÃO EM LÓGICA; PROGRAMAÇÃO POR RESTRIÇÕES; BD INTELIGENTES; INTEGRAÇÃO DE PARADIGMAS DECLARATIVOS; PROGRAMAÇÃO DECLARATIVA DE GRAMÁTICAS; PROJETO.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF278",
@@ -2295,9 +2295,9 @@
       "code": "IF711",
       "ementa": "CONCEITOS BÁSICOS DE PROGRAMAÇÃO CONCORRENTE; PROGRAMAÇÃO BASEADA EM VARIÁVEIS COMPARTILHADAS; PROCESSOS E SINCRONIZAÇÃO, SEMÁFOROS, MONITORES; PROGRAMAÇÃO BASEADA EM TROCA DE MENSAGENS; CHAMADA REMOTA DE PROCEDIMENTOS; ESTUDOS DE CASOS;",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF113",
@@ -2317,9 +2317,9 @@
       "code": "IF710",
       "ementa": "DEFINIÇÃO DE COMPONENTES; DESENVOLVIMENTO BASEADO EM COMPONENTES; MODELAGEM ORIENTADA A COMPONENTES; COMPOSIÇÃO DE COMPONENTES; PADRÕES DE IMPLEMENTAÇÃO DE COMPONENTES; FRAMEWORKS DE COMPONENTES; DESENVOLVIMENTO E USO DE COMPONENTES; PROJETOS.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2334,9 +2334,9 @@
       "code": "IF708",
       "ementa": "EXPRESSÕES, VALORES, FUNÇÕES E TIPOS; PROGRAMAÇÃO COM LISTAS; POLIMORFISMO E FUNÇÕES DE ALTA ORDEM; AVALIAÇÃO DE EXPRESSÕES (ESTRITA E PREGUIÇOSA); PROGRAMAÇÃO COM TIPOS ALGÉBRICOS; MÓDULOS E TIPOS ABSTRATOS DE DADOS; INDUÇÃO, INVARIANTES E PROVAS DE PROPRIEDADES.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF098",
@@ -2356,9 +2356,9 @@
       "code": "IF712",
       "ementa": "DESENVOLVIMENTO DE INTERFACES GRÁFICAS PARA A INTERNET; DESENVOLVIMENTO DE SERVIÇOS E SISTEMAS DE INFORMAÇÃO PARA A INTERNET; SEGURANÇA E DESEMPENHO DE SISTEMAS PARA A INTERNET; INTEGRAÇÃO DE SISTEMAS BASEADOS NA INTERNET.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2385,9 +2385,9 @@
       "code": "IF692",
       "ementa": "PROJETO E APLICAÇÕES EM BANCO DE DADOS.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF129",
@@ -2407,9 +2407,9 @@
       "code": "IF734",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS DE COMPILAÇÃO DE LINGUAGENS IMPERATIVAS, FUNCIONAIS OU LÓGICAS; PROJETO E IMPLEMENTAÇÃO DE UM COMPILADOR.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF293",
@@ -2434,9 +2434,9 @@
       "code": "IF725",
       "ementa": "INTRODUÇÃO; CONCEITOS BÁSICOS DE ARQUITETURA; PROJETO DE UMA CPU; EXECUÇÕES; PIPELINE; RESOLVENDO EXCEÇÕES COM PIPELINE.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF115",
@@ -2461,9 +2461,9 @@
       "code": "IF790",
       "ementa": "DESEMPENHO DE ATIVIDADES DE MONITORIA EM DISCIPLINAS PELO PERÍODO MÍNIMO DE 1 ANO SOB A SUPERVISÃO DE UM PROFESSOR DO CENTRO DE INFORMÁTICA. O PLANO DE ATIVIDADES DEVERÁ SER APROVADO PELO COLEGIADO DA GRADUAÇÃO E O RELATÓRIO DEVERÁ SER AVALIADO PELO DOCENTE DO CENTRO.",
       "hours": 45,
+      "semester": 6,
       "credits": 2,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -2473,9 +2473,9 @@
       "code": "IF791",
       "ementa": "DESENVOLVIMENTO DE ATIVIDADE DE INICIAÇÃO CIENTIFICA EM UMA ÁREA DA CIÊNCIA DA COMPUTAÇÃO PELO PERÍODO MÍNIMO DE 2 ANOS SOB A SUPERVISÃO DE UM PROFESSOR DO CENTRO DE INFORMÁTICA. OS PLANOS DE INICIAÇÃO DEVEM SER JULGADOS PELO COLEGIADO DA GRADUAÇÃO NAS 4 PRIMEIRAS SEMANAS DO SEMESTRE LETIVO E O RELATÓRIO FINAL DEVERÁ SER APROVADO PRO BANCA EXAMINADORA.",
       "hours": 45,
+      "semester": 6,
       "credits": 2,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -2485,9 +2485,9 @@
       "code": "IF805",
       "ementa": "DEFINIÇÃO DE UM PROBLEMA ESPECIFICO EM BIO-INFORMÁTICA; ESTUDO DA BIBLIOGRAFIA RELACIONADA EM ARTIGOS RECENTES; DESENVOLVIMENTO DE UMA SOLUÇÃO COMPUTACIONAL EFICIENTES PARA O PROBLEMA, COM INTERFACE AMIGÁVEL AO USUÁRIO.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2506,9 +2506,9 @@
       "code": "IF793",
       "ementa": "HISTÓRICO PROJETO DE JOGOS: CRITÉRIOS E GUIAS; ARQUITETURAS; FERRAMENTAS GRÁFICAS BÁSICAS; FERRAMENTAS PARA SOM, CONEXÃO E ENTRADA DE DADOS JOGOS EMBARCADOS; AGENTES PARA JOGOS.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF667",
@@ -2536,9 +2536,9 @@
       "code": "IF732",
       "ementa": "INTRODUÇÃO (4HS) ; PROTOTIPAÇÃO DE HARDWARE (FPGAS, ASICS) (12HS); PROTOTIPAÇÃO DE SOFTWARE (10HS); CO-SIMULAÇÃO DE HARDWARE E SOFTWARE (12HS); TESTES (12HS); PROJETO DE UM SISTEMA EMBUTIDO (22HS).",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2565,9 +2565,9 @@
       "code": "IF729",
       "ementa": "FERRAMENTAS DE CAD (COMPUTER AIDED-DESIGN); METODOLOGIAS DE PROJETOS; TECNOLOGIA PARA IMPLEMENTAÇÃO DE CIRCUITOS DE ALTA INTEGRAÇÃO; ESTILOS DE PROJETOS PARA IMPLEMENTAÇÃO DE CIRCUITOS INTEGRADOS; PROJETO E IMPLEMENTAÇÃO DE CIRCUITOS INTEGRADOS USANDO FERRAMENTAS DE CAD; LABORATÓRIO/PROJETO DE UM ESTUDO DE CASO.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF132",
@@ -2592,9 +2592,9 @@
       "code": "IF720",
       "ementa": "QUALIDADE DO PRODUTO E DO PROCESSO DE SOFTWARE.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF137",
@@ -2614,9 +2614,9 @@
       "code": "IF755",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2635,9 +2635,9 @@
       "code": "IF962",
       "ementa": "MODELOS DE RECUPERAÇÃO DE INFORMAÇÃO CLÁSSICOS E AVANÇADOS - REPRESENTAÇÃO DE DOCUMENTOS - INDEXAÇÃO E BUSCA DE DOCUMENTOS - CRIAÇÃO E CONSULTA A BASES DE DOCUMENTOS - TÓPICOS AVANÇADOS.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2656,9 +2656,9 @@
       "code": "IF738",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF123",
@@ -2687,9 +2687,9 @@
       "code": "IF702",
       "ementa": "REDES BIOLÓGICAS; MODELOS DE NEURÔNIOS; ARQUITETURA E APRENDIZADO NAS REDES NEURAIS; APLICAÇÕES.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF139",
@@ -2704,9 +2704,9 @@
       "code": "IF798",
       "ementa": "SENSORES, ATUADORES E ARQUITETURAS DEROBÔS; ROBÔS MANIPULADORES E MÓVEIS; LINGUAGENS E AMBIENTES DE PROGRAMAÇÃO; APLICAÇÕES.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2725,9 +2725,9 @@
       "code": "IF743",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2742,9 +2742,9 @@
       "code": "IF723",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE ENGENHARIA DE SOFTWARE E LINGUAGENS. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO EM SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 45,
+      "semester": 6,
       "credits": 3,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2759,9 +2759,9 @@
       "code": "IF713",
       "ementa": "SINTAXE; SEMÂNTICA ESTÁTICA E DINÂMICA; TÉCNICAS DE DEFINIÇÃO FORMAL DE SEMÂNTICA; ASPECTOS RELACIONADOS A ORIENTAÇÃO A OBJETOS; SEMÂNTICA FORMAL DE LINGUAGENS ORIENTADAS A OBJETOS.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF137",
@@ -2781,9 +2781,9 @@
       "code": "IF707",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ARES DE SISTEMAS INTELIGENTES. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO DE SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 45,
+      "semester": 6,
       "credits": 3,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -2793,9 +2793,9 @@
       "code": "IF698",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE GERENCIAMENTO DE DADOS E",
       "hours": 45,
+      "semester": 6,
       "credits": 3,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2810,9 +2810,9 @@
       "code": "IF736",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE ARQUITETURA E SISTEMAS EMBUTIDOS. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO EM SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 45,
+      "semester": 6,
       "credits": 3,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2827,9 +2827,9 @@
       "code": "IF778",
       "ementa": "PARTICIPAÇÃO E APRESENTAÇÃO EM SEMINÁRIOS SOBRE TEMAS ESPECÍFICOS DA ÁREA DE INFORMÁTICA TEÓRICA. ESTA DISCIPLINA VISA DISSEMINAR A PARTICIPAÇÃO DE ALUNOS DE GRADUAÇÃO EM SEMINÁRIOS DE PESQUISA DE MODO A ESTABELECER UM CONTATO ENTRE ALUNOS DE GRADUAÇÃO E DE PÓS-GRADUAÇÃO.",
       "hours": 45,
+      "semester": 6,
       "credits": 3,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2844,9 +2844,9 @@
       "code": "IF761",
       "ementa": "",
       "hours": 45,
+      "semester": 6,
       "credits": 3,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -2856,9 +2856,9 @@
       "code": "IF748",
       "ementa": "",
       "hours": 45,
+      "semester": 6,
       "credits": 3,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2873,9 +2873,9 @@
       "code": "IF693",
       "ementa": "ESTRUTURAS DE ARMAZENAMENTO; ARQUITETURAS DE SGBD; PROCESSAMENTO E OTIMIZAÇÃO DE CONSULTAS; PROCESSAMENTO DE TRANSAÇÕES; CONTROLE DE CONCORRÊNCIA; TÉCNICAS DE RECUPERAÇÃO; SEGURANÇA E AUTORIZAÇÃO; PROVA; EXERCÍCIOS.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF562",
@@ -2895,9 +2895,9 @@
       "code": "IF730",
       "ementa": "SISTEMAS DE TEMPO REAL; PROCESSOS DE TEMPO REAL; INTERAÇÕES ENTRE PROCESSOS; TEMPO DE EXECUÇÃO; ESCALONAMENTO DE PROCESSOS; GARANTIA DE ESCALONAMENTO; KERNELS E SISTEMAS OPERACIONAIS DE TEMPO REAL; INTRODUÇÃO A TOLERÂNCIA A FALHAS; DISPOSITIVOS PARA AUMENTAR ROBUSTEZ DE SIST. EMBARCADOS.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2917,9 +2917,9 @@
       "code": "IF721",
       "ementa": "ESPECIFICAÇÃO VERSUS IMPLEMENTAÇÃO, SISTEMAS SEQÜENCIAIS VERSUS SISTEMAS CONCORRENTES E DISTRIBUÍDOS, CONCEITOS BÁSICOS; FERRAMENTA E LINGUAGEM DE ESPECIFICAÇÃO DOS ASPECTOS DE CONCORRÊNCIA E DISTRIBUIÇÃO; FERRAMENTA E LINGUAGEM DE ESPECIFICAÇÃO DOS ASPECTOS SEQÜENCIAIS; COMBINANDO AS LINGUAGENS DE ESPECIFICAÇÃO DOS ASPECTOS SEQÜENCIAIS COM A DOS ASPECTOS DE CONCORRÊNCIA E DISTRIBUIÇÃO.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF116",
@@ -2944,9 +2944,9 @@
       "code": "IF740",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -2966,9 +2966,9 @@
       "code": "IF714",
       "ementa": "INTRODUÇÃO; TIPOS DE SISTEMAS; TÉCNICAS DE PLANEJAMENTO E ADMINISTRAÇÃO; CONCEITOS DE QUALIDADE E GERÊNCIA.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF660",
@@ -2988,9 +2988,9 @@
       "code": "IF745",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF662",
@@ -3015,9 +3015,9 @@
       "code": "IF795",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -3027,9 +3027,9 @@
       "code": "IF801",
       "ementa": "FUNDAMENTOS DE PSICOLOGIA E DIDÁTICA; SISTEMA DE AUTORIA; ENSINO A DISTANCIA; SISTEMAS COLABORATIVOS E DISTRIBUÍDOS; ESTUDO DE CASO: EEB-BASED EDUCAÇÃO.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -3044,9 +3044,9 @@
       "code": "IF771",
       "ementa": "DEDUÇÃO NATURAL. CÁLCULO DE SEQÜENTES. INTERPRETAÇÃO DE CURRY-HOWARD. TEOREMA DE NORMALIZAÇÃO. ELIMINAÇÃO DO CORTE. LÓGICAS NÃO-CLÁSSICAS.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF142",
@@ -3066,9 +3066,9 @@
       "code": "IF769",
       "ementa": "RECURSIVIDADE E COMPUTABILIDADE; SISTEMAS DE EQUAÇÕES; SISTEMAS FORMAIS DA ARITMÉTICA; MAQUINAS DE TURING; TESE DE CHURCH; FUNÇÕES RECURSIVAS PARCIAIS; FUNCIONAIS; ÍNDICES; O PROBLEMA DE POST; HIERARQUIAS E REDUTIBILIDADES FRACAS; GRAUS DE TURING.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -3083,9 +3083,9 @@
       "code": "IF768",
       "ementa": "GRAFOS, SUBGRAFOS E GRAFOS ORIENTADOS; FLORESTAS E ÁRVORES; BUSCA EM GRAFOS, CONECTIVIDADE E CORTES; ÁRVORE GERADORA, DISTÂNCIAS, FLUXO EM REDE E EMPARELHAMENTOS; PROBLEMAS INTRATÁVEIS.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF128",
@@ -3105,9 +3105,9 @@
       "code": "IF770",
       "ementa": "ESTRUTURAS RELACIONAIS; UM SISTEMA FORMAL PARA O CÁLCULO DE 1A. ORDEM; COMPLETUDE DO CÁLCULO DE 1A. ORDEM; TEORIA E MODELOS PARA O CÁLCULO DE 1A. ORDEM (EXEMPLOS).",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF130",
@@ -3127,9 +3127,9 @@
       "code": "IF747",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -3144,9 +3144,9 @@
       "code": "IF807",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM NA ARES MULTIDISCIPLINAR DE SUPORTE A DECISÃO E MINERAÇÃO NA WEB PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -3156,9 +3156,9 @@
       "code": "IF737",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM SISTEMAS EMBUTIDOS PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -3173,9 +3173,9 @@
       "code": "IF777",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM MATEMÁTICA COMPUTACIONAL PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -3190,9 +3190,9 @@
       "code": "IF811",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM ARES MULTIDISCIPLINAR DE ADMINISTRAÇÃO DE SISTEMAS E SEGURANÇA PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -3202,9 +3202,9 @@
       "code": "IF735",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF141",
@@ -3224,9 +3224,9 @@
       "code": "IF810",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -3236,9 +3236,9 @@
       "code": "IF812",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM ÁREA MULTIDISCIPLINAR DE ENTRETIMENTO DIGITAL PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ARES DE PESQUISA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -3248,9 +3248,9 @@
       "code": "IF697",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADDAS EM GERENCIAMENTO DE DADOS E DE INFORMAÇÕES PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ARES DE PESQUISA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -3260,9 +3260,9 @@
       "code": "IF809",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM NA ARES MULTIDISCIPLINAR DE EMPREENDIMENTOS E NEGÓCIOS ON-LINE PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -3281,9 +3281,9 @@
       "code": "IF806",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM ÁREA MULTIDISCIPLINAR DE BIO-INFORMÁTICA PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -3298,9 +3298,9 @@
       "code": "IF706",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM INTELIGÊNCIA ARTIFICIAL PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -3310,9 +3310,9 @@
       "code": "IF749",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -3327,9 +3327,9 @@
       "code": "IF808",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -3339,9 +3339,9 @@
       "code": "IF775",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM ALGORITMOS PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -3356,9 +3356,9 @@
       "code": "IF762",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -3368,9 +3368,9 @@
       "code": "IF760",
       "ementa": "",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -3380,9 +3380,9 @@
       "code": "IF722",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM ENGENHARIA DE SOFTWARE PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -3397,9 +3397,9 @@
       "code": "IF776",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM INFORMÁTICA TEÓRICA PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [
         {
           "code": "IF140",
@@ -3419,9 +3419,9 @@
       "code": "IF724",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇADAS EM LINGUAGENS COMPUTACIONAIS PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ÁREA DE PESQUISA.",
       "hours": 75,
+      "semester": 6,
       "credits": 5,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [
         {
@@ -3436,9 +3436,9 @@
       "code": "IF733",
       "ementa": "INTRODUÇÃO; AMOSTRAGEM; TÉCNICAS E DISPOSITIVOS DE CONVERSÃO MECÂNICA; TÉCNICAS E DISPOSITIVOS DE CONVERSÃO LUMINOSA; TÉCNICAS E DISPOSITIVOS DE CONVERSÃO SONORA; OUTROS DISPOSITIVOS; SISTEMAS DE AQUISIÇÃO DE DADOS; APLICAÇÕES DE TRANSDUTORES; PROJETO DE CURSO.",
       "hours": 75,
+      "semester": 6,
       "credits": 4,
       "isObligatory": false,
-      "semester": 6,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -3448,9 +3448,9 @@
       "code": "IF421",
       "ementa": "OPORTUNIDADE DO ALUNO INTERAGIR COM O MERCADO DE TRABALHO SENDO SUPERVISIONADO POR UM PROFESSOR DESIGNADO PELO DEPARTAMENTO DE INFORMÁTICA.",
       "hours": 300,
+      "semester": 9,
       "credits": 10,
       "isObligatory": true,
-      "semester": 9,
       "equivalences": [],
       "prerequisites": [],
       "dependents": []
@@ -3460,9 +3460,9 @@
       "code": "IF691",
       "ementa": "ESTUDO DE TÉCNICAS AVANÇDAS EM ENGENHARIA DE SOFTWARE PERMITINDO AO ALUNO CONHECER O ESTADO DA ARTE NESTA ARES DE PESQUISA.",
       "hours": 150,
+      "semester": 9,
       "credits": 7,
       "isObligatory": true,
-      "semester": 9,
       "equivalences": [
         {
           "code": "IF146",

@@ -1,0 +1,1622 @@
+{
+  "university": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+  "course": "ADMINISTRAÇÃO",
+  "semesters": 9,
+  "totalHours": 3000,
+  "totalHoursElective": 360,
+  "totalHoursObligatory": 2640,
+  "disciplines": [
+    {
+      "name": "FUNDAMENTOS DE SOCIOLOGIA",
+      "code": "CS004",
+      "ementa": "A SOCIOLOGIA E OUTRAS CIÊNCIAS. MODELOS DE ANÁLISE SOCIOLÓGICA. O SOCIAL E A SOCIEDADE. CONCEITOS SOCIOLÓGICOS BÁSICOS.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUCAO A ADMINISTRACAO",
+      "code": "AD001",
+      "ementa": "ANTECEDENTES HISTÓRICOS DA ADMINISTRAÇÃO. PROCESSO ADMINISTRATIVO. PLANEJAMENTO E CONTROLE ESTRATÉGICOS. DIREÇÃO. ÁREAS FUNCIONAIS E AMBIENTES ORGANIZACIONAIS. NOVAS TENDÊNCIAS EM ADMINISTRAÇÃO. ÉTICA NA ADMINISTRAÇÃO.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD203",
+          "name": "INTRODUCAO A ADMINISTRACAO 3"
+        },
+        {
+          "code": "AD216",
+          "name": "INTRODUCAO A ADMINISTRACAO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "OBRIGAÇÕES EMPRESARIAIS",
+      "code": "AD417",
+      "ementa": "CONCEITO DE PESSOAS FÍSICA E JURÍDICA, CAPACIDADE CIVIL, DISTINÇÃO ENTRE DIREITO PÚBLICO E PRIVADO. RESPONSIBILIDADE CIVIL FRENTE AO DIREITO DE EMPRESA. FORMAÇÃO DOS CONTRATOS NO NOVO CÓDIGO CIVIL, SUJEITOS, OBJETO E FINALIDADE. OBRIGAÇÕES, CONCEITO E TIPOS. TÍTULOS DE CRÉDITO. CONCEITO E TIPOS. NOVA LEI DE FALÊNCIA, CONCEITOS BÁSICOS E LIMITES LEGAIS. ESTRUTURA DO PODER JUDICIÁRIO E LEGISLATIVO BRASILEIRO. ATRIBUIÇÕES E COMPETÊNCIAS RESTRITIVAS AOS PODERES EXECUTIVO, LEGISLATIVO E JUDICIÁRIO BRASILEIRO.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG100",
+          "name": "FUND DE DIREITO P/ ADMINISTRADOR"
+        },
+        {
+          "code": "PG200",
+          "name": "DIREITO (PUBLICO E PRIVADO)"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AD113",
+          "name": "ADMINISTRACAO TRIBUTARIA"
+        },
+        {
+          "code": "AD114",
+          "name": "RELACOES TRABALHISTAS"
+        }
+      ]
+    },
+    {
+      "name": "PSICOLOGIA 1",
+      "code": "PS001",
+      "ementa": "INICIAÇÃO À PSICOLOGIA, ABORDANDO OS PROBLEMAS DE MODO ÚTIL A PROFISSIONAIS DIFERENTES. CONCEITOS DE PSICOLOGIA. COMO TRABALHA O PSICÓLOGO. ASPECTOS BÁSICOS DO COMPORTAMENTO INDIVIDUAL. DIFERENÇAS INDIVIDUAIS E CONQUISTA DOS PADRÕES ADULTOS DE COMPORTAMENTO.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AD193",
+          "name": "COMPORTAMENTO ORGANIZACIONAL"
+        },
+        {
+          "code": "AD424",
+          "name": "GESTÃO DE PESSOAS 1"
+        }
+      ]
+    },
+    {
+      "name": "ÉTICA E FILOSOFIA PARA O ADMINISTRADOR",
+      "code": "AD416",
+      "ementa": "CONHECIMENTO. FILOSOFIA CONTEMPORÂNEA. CIÊNCIA E MÉTODO CIENTÍFICO. POLÍTICA. ÉTICA E MORAL. TEORIAS ÉTICAS. CÓDIGO DE ÉTICA PROFISSIONAL DO ADMINISTRADOR.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD005",
+          "name": "FUND DE FILOSOFIA PARA O ADMINISTRADOR"
+        },
+        {
+          "code": "AD295",
+          "name": "ETICA PROFISSIONAL E DA EMPRESA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AD192",
+          "name": "METODOLOGIA DA PESQUISA EM ADMINISTRAÇÃO"
+        }
+      ]
+    },
+    {
+      "name": "ADMINISTRACAO TRIBUTARIA",
+      "code": "AD113",
+      "ementa": "TRIBUTOS: CONCEITO E CLASSIFICAÇÃO. OBRIGATORIEDADE, ISENÇÃO E IMUNIDADE. FATO GERADOR. SISTEMA TRIBUTÁRIO NACIONAL. ESTUDO DOS IMPOSTOS QUE AFETAM AS EMPRESAS. PROCESSOS PENAIS DECORRENTES DA LEGISLAÇÃO TRIBUTÁRIA.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE219",
+          "name": "DIREITO TRIBUTARIO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AD417",
+          "name": "OBRIGAÇÕES EMPRESARIAIS"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "COMUNICACAO EMPRESARIAL",
+      "code": "AD278",
+      "ementa": "COMUNICAÇÃO: CONCEITOS, FUNÇÕES, TIPOS E APLICAÇÕES. COMUNICAÇÕES ADMINISTRATIVAS. REUNIÕES E EVENTOS. COMUNICAÇÃO GRUPAL. TIPOS DE DISCUSSÃO EM GRUPO. PODER, COMUNICAÇÃO E IMAGEM NAS ORGANIZAÇÕES.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ECONOMIA DAS EMPRESAS",
+      "code": "EC217",
+      "ementa": "INTRODUÇÃO A MICROECONOMIA: PRODUTO, OFERTA, PREÇO, MERCADORIAS, PRODUÇÃO E CUSTOS. INTRODUÇÃO À MACROECONOMIA: PRODUTOS, MEDIÇÃO, CONTAS NACIONAIS, MOEDAS, INFLAÇÃO, DISTRIBUIÇÃO DE RENDA E TEORIA DO DESENVOLVIMENTO ECONÔMICO.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EC001",
+          "name": "ECONOMIA 1"
+        },
+        {
+          "code": "EC452",
+          "name": "ECONOMIA DAS EMPRESAS"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "EC360",
+          "name": "ECONOMIA BRASILEIRA"
+        }
+      ]
+    },
+    {
+      "name": "TECNOLOGIA DA INFORMAÇÃO",
+      "code": "AD787",
+      "ementa": "INTRODUÇÃO. ARQUITETURA BÁSICA DE UM COMPUTADOR. CONCEITOS BÁSICOS DE COMPUTAÇÃO. INFORMATIZAÇÃO NAS EMPRESAS. ALGORITMOS ESTRUTURADOS. PRÁTICA DE PROGRAMAÇÃO.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD230",
+          "name": "NOCOES BASICAS DE COMPUTACAO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TEORIA GERAL DA ADMINISTRAÇÃO",
+      "code": "AD418",
+      "ementa": "OS FUNDAMENTOS TEÓRICOS DA ADMINISTRAÇÃO. AS BASES DA ORGANIZAÇÃO BUROCRÁTICA. TEORIA ESTRUTURAL E SISTÊMICA. TEORIA DA CONTINGÊNCIA. ABORDAGENS CONTEMPORÂNEAS: CULTURA E PODER NAS ORGANIZAÇÕES; APRENDIZAGEM ORGANIZACIONAL E ABORDAGENS AMBIENTAIS.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD190",
+          "name": "TEORIA GERAL DA ADMINIST.1A"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AD291",
+          "name": "ANÁLISE DAS ORGANIZACOES"
+        }
+      ]
+    },
+    {
+      "name": "ADMINISTRAÇÃO PÚBLICA",
+      "code": "AD419",
+      "ementa": "ESTRUTURA DO PODER PÚBLICO BRASILEIRO. O GOVERNO COMO PALCO DE PROJETOS POLÍTICOS. ASPECTOS INSTITUCIONAIS. A TIPICIDADE DAS ORGANIZAÇÕES PÚBLICAS. RAÍZES E EVOLUÇÃO HISTÓRICA DA CULTURA E DAS ESTRUTURAS DA BUROCACIA PÚBLICA NO BRASIL. OS PARADGMAS DA ADMINISTRAÇÃO PÚBLICA. FUNÇÕES TÍPICAS DE GOVERNO. A \"REFORMA\" ADMINISTRATIVA BRASILEIRA. BUROCRACIA E O \"CRESCIMENTO\" DO GOVERNO. A DICOTOMIA ENTRE \"POLÍTICA\" E \"ADMINISTRAÇÃO\". ÉTICA DA ADMINISTRAÇÃO PÚBLICA.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD209",
+          "name": "INTROD A ADM PUBLICA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ANÁLISE DAS ORGANIZACOES",
+      "code": "AD291",
+      "ementa": "ENTENDIMENTO DA COMPOSIÇÃO ORGANIZACIONAL; A CONCEITUAÇÃO DA ORGANIZAÇÃO COMO ENTIDADE SOCIAL; CONFIGURAÇÕES ORGANIZACIONAIS.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD194",
+          "name": "MACROANALISE DAS ORGANIZACOES"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AD418",
+          "name": "TEORIA GERAL DA ADMINISTRAÇÃO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "CONTABILIDADE GERAL A",
+      "code": "CT458",
+      "ementa": "CONCEITOS BÁSICOS DE CONTABILIDADE; OBJETIVOS E FUNÇÕES; FORMAÇÃO E VARIAÇÃO PATRIMONIAL; PLANO DE CONTAS E ESCRITURAÇÃO; LIVROS DE CONTABILIDADE E LANÇAMENTOS; PRINCÍPIOS FUNDAMENTAIS DE CONTABILIDADE; APURAÇÃO DO BALANCETE DE VERIFICAÇÃO; APURAÇÃO DO RESULTADO DO EXERCÍCIO; EXTRAÇÃO DO BALANÇO PATRIMONIAL E DEMONSTRAÇÃO DE RESULTADO DO EXERCÍCIO.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CT220",
+          "name": "CONTABILIDADE GERAL E DE CUSTOS"
+        },
+        {
+          "code": "CT343",
+          "name": "CONTABILIDADE INTRODUTORIA 1"
+        },
+        {
+          "code": "CT462",
+          "name": "CONTABILIDADE GERAL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "CT221",
+          "name": "CONTABILIDADE GERENCIAL"
+        }
+      ]
+    },
+    {
+      "name": "ECONOMIA BRASILEIRA",
+      "code": "EC360",
+      "ementa": "VISÃO HISTÓRICA DA FORMAÇÃO E CARACTERÍSTICAS DA ECONOMIA BRASILEIRA CONTEMPORÂNEA. ANÁLISE DA SITUAÇÃO ATUAL DA ECONOMIA BRASILEIRA E SUAS PERSPECTIVAS PARA AS EMPRESAS.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "EC217",
+          "name": "ECONOMIA DAS EMPRESAS"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTATISTICA APLIC A ADMINISTRACAO",
+      "code": "AD400",
+      "ementa": "SÉRIES ESTATÍSTICAS. DISTRIBUIÇÃO DE FREQÜÊNCIAS. MEDIDAS DE POSIÇÃO. MEDIDAS DE VARIABILIDADE. NOÇÕES BÁSICAS DE PROBABILIDADES. PRINCIPAIS TIPOS DE AMOSTRAS. NOÇÕES DE ESTIMAÇÃO PONTUAL E INTERVALAR. TESTES DE HIPÓTESES PARAMÉTRICOS.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "ET213",
+          "name": "ESTATISTICA 10"
+        },
+        {
+          "code": "ET312",
+          "name": "LOGICA APLICADA A COMPUTACAO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AD412",
+          "name": "PESQUISA OPERACIONAL"
+        }
+      ]
+    },
+    {
+      "name": "ADM. DE POLITICAS PUBLICAS",
+      "code": "AD196",
+      "ementa": "POLÍTICAS PÚBLICAS: TIPOLOGIA, FONTES DE INTERESSE E MÉTODOS DE AGENDAMENTO E ANÁLISE. TIPOS DE PLANEJAMENTO. PLANOS GOVERNAMENTAIS. RELAÇÃO DO GOVERNO \"PROFISSIONAL\" E O FORNECIMENTO DE SERVIÇOS. OPÇÕES PARA FORNECIMENTO DE SERVIÇOS PÚBLICOS. SUPLEMENTAÇÃO. ELABORAÇÃO DE DESENHOS PARA AVALIAÇÃO DO IMPACTO DE POLÍTICAS PÚBLICAS.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ADMINISTRAÇÃO NO CONTEXTO BRASILEIRO",
+      "code": "AD420",
+      "ementa": "O PENSAMENTO ADMINISTRATIVO BRASILEIRO: REVISITANDO OS CLÁSSICOS. ADMINISTRAÇÃO E O CONTEXTO BRASILEIRO. A CRÍTICA IDEOLÓGICA DA TEORIA ADMINISTRATIVA. CULTURA BRASILEIRA E ORGANIZAÇÕES. O ESTILO BRASILEIRO DE ADMINISTRAR. A ADMINISTRAÇÃO BRASILEIRA E AS RELAÇÕES LOCAL E GLOBAL.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD191",
+          "name": "TEORIA GERAL DA ADMINISTRAÇÃO 2A"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CONTABILIDADE GERENCIAL",
+      "code": "CT221",
+      "ementa": "A ESTRUTURA DA CONTABILIDADE PARA GESTÃO ADMINISTRATIVA. USO DAS INFORMAÇÕES CONTÁBEIS NO CONTROLE GERENCIAL E NO PROCESSO DECISÓRIO.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CT458",
+          "name": "CONTABILIDADE GERAL A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO À FINANÇAS",
+      "code": "AD421",
+      "ementa": "CÁLCULO FINANCEIRO: CONCEITOS BÁSICOS; JUROS SIMPLES E COMPOSTOS; DESCONTOS; FLUXOS DE CAIXA; COEFICIENTES DE FINANCIAMENTO; SISTEMAS DE AMORTIZAÇÃO DE EMPRÉSTIMOS E FINANCIAMENTOS; APLICAÇÕES DE MATEMÁTICA PARA MERCADOS FINANCEIROS; EMPRÉSTIMOS PARA CAPITAL DE GIRO, RECIPROCIDADE BANCÁRIA E TAXAS OVER, TÍTULOS DE RENDA FIXA E AVALIAÇÃO DE AÇÕES.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD414",
+          "name": "MATEMÁTICA DOS MERCADOS FINANCEIROS"
+        },
+        {
+          "code": "EC277",
+          "name": "MATEMATICA FINANCEIRA 2"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AD423",
+          "name": "FINANÇAS 1"
+        }
+      ]
+    },
+    {
+      "name": "RELACOES TRABALHISTAS",
+      "code": "AD114",
+      "ementa": "NATUREZA E CLASSIFICAÇÃO DO TRABALHO (AUTÔNOMO, TEMPORÁRIO, EVENTUAL, SUBORDINADO). CARGO DE CONFIANÇA. O CONTRATO DE TRABALHO: PARTES, SUCESSÃO DE EMPREGADORES, FORMALIZAÇÃO, DURAÇÃO, SUSPENSÃO, INTERRUPÇÃO, RESCISÃO. AVISO PRÉVIO, FGTS, \"JUSTA CAUSA\". NORMAS, SANÇÕES DISCIPLINARES E ABUSO DO PODER DO EMPREGADOR. O TRABALHO DA MULHER E DO MENOR. A RECLAMAÇÃO TRABALHISTA. ORGANIZAÇÃO DA JUSTIÇA DO TRABALHO. CONVENÇÃO COLETIVA DE TRABALHO. O DISSÍDIO COLETIVO. JULGAMENTO DE DISSÍDIOS E GREVES. SALÁRIO: REMUNERAÇÃO, SALÁRIO, SALÁRIO MÍNIMO, SALÁRIO-FAMÍLIA, SALÁRIO PROFISSIONAL, PAGAMENTOS, VENCIMENTOS, ADICIONAIS DE SALÁRIO, INCORPORAÇÃO E NÃO INCORPORAÇÃO. LEGISLAÇÃO SINDICAL.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE220",
+          "name": "LEGISLACAO SOCIAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AD417",
+          "name": "OBRIGAÇÕES EMPRESARIAIS"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "COMPORTAMENTO ORGANIZACIONAL",
+      "code": "AD193",
+      "ementa": "O PAPEL DA DISCIPLINA COMPORTAMENTO ORGANIZACIONAL NA ADMINISTRAÇÃO MODERNA. ADMINISTRAÇÃO DAS ORGANIZAÇÕES E EFICÁCIA ORGANIZACIONAL. CARACTERÍSTICAS INDIVIDUAIS E COMPORTAMENTO. MOTIVAÇÃO. COMPORTAMENTO E DESEMPENHO. OS GRUPOS NAS ORGANIZAÇÕES. LIDERANÇA. ABORDAGENS COMPORTAMENTAIS DE TRAÇO E DE PERSONALIDADE. ABORDAGEM CONTINGENCIAL. ABORDAGEM CAMINHO-METAS, E NOVAS TENDÊNCIAS DA PRÁTICA E PESQUISA EM LIDERANÇA. TÓPICOS ESPECIAIS EM COMPORTAMENTO ORGANIZACIONAL.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PS001",
+          "name": "PSICOLOGIA 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "FINANÇAS 1",
+      "code": "AD423",
+      "ementa": "AMBIENTE FINANCEIRO. CONCEITOS BÁSICOS EM FINANÇAS DAS EMPRESAS. CUSTO DE CAPITAL. ESTRUTURA DO CAPITAL E DIVIDENDOS. ADMINISTRAÇÃO DO ATIVO PERMANENTE E INVESTIMENTO DE CAPITAL. FONTES DE FINANCIAMENTO DE LONGO PRAZO",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD197",
+          "name": "ADM. FINANCEIRA 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AD421",
+          "name": "INTRODUÇÃO À FINANÇAS"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "AD425",
+          "name": "FINANÇAS 2"
+        },
+        {
+          "code": "AD370",
+          "name": "ANALISE E ESTRATEGIA DE INVESTIMENTO"
+        },
+        {
+          "code": "AD368",
+          "name": "MERCADO FINANCEIRO"
+        },
+        {
+          "code": "AD369",
+          "name": "ORCAMENTO EMPRESARIAL"
+        },
+        {
+          "code": "AD371",
+          "name": "TOPICOS ESPECIAIS EM FINANCAS"
+        }
+      ]
+    },
+    {
+      "name": "GESTÃO E INOVAÇÃO TECNOLÓGICA",
+      "code": "AD422",
+      "ementa": "O CAMPO DOS ESTUDOS SOCIAIS E GERENCIAIS DA CIÊNCIA E DA TECNOLOGIA; A GESTÃO DA INOVAÇÃO E O ESTADO NECESSÁRIO; DIFERENÇA ENTRE CIÊNCIA E TECNOLOGIA; VALORES SOCIAIS E ATIVIDADES CIENTÍFICAS; CIÊNCIA E IDEOLOGIA; INOVAÇÃO TECNOLÓGICA E SOCIEDADE; GLOBALIZAÇÃO E C&T&I; ATORES INSTITUCIONAIS E POLÍTICAS DE C&T&I; PATENTES; CENÁRIOS TECNOLÓGICOS; CULTURA CIENTÍFICA E TECNOLÓGICA; POLÍTICAS DE INCLUSÃO.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD304",
+          "name": "INOVACAO ORGANIZACIONAL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PESQUISA OPERACIONAL",
+      "code": "AD412",
+      "ementa": "",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "ET230",
+          "name": "PESQUISA OPERACIONAL"
+        },
+        {
+          "code": "MI239",
+          "name": "PESQUISA OPERACIONAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AD400",
+          "name": "ESTATISTICA APLIC A ADMINISTRACAO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PROCESSO DECISÓRIO",
+      "code": "AD430",
+      "ementa": "A DIMENSÃO ORGANIZACIONAL DA DECISÃO. OS ASPECTOS GOGNITIVOS E PSICOLÓGICOS DA DECISÃO. TEORIA DA DECISÃO: CONCEITOS, MODELOS, MÉTODOS E TÉCNICAS. RACIONALIDADE. CRIATIVIDADE. NEGOCIAÇÃO. TIPOLOGIA E NÍVEIS DE DECISÃO. AMBIGUIDADES E INCERTEZAS. TEORIA DOS JOGOS. ESTRATÉGIAS DE DECISÃO. SUPORTE COMPUTACIONAL.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD260",
+          "name": "PROCESSO DECISORIO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ADM. DE MARKETING 1",
+      "code": "AD301",
+      "ementa": "A NATUREZA DO MARKETING. O AMBIENTE DE MARKETING. COMPOSTO DE MARKETING (MARKETING-MIX). PESQUISA DE MARKETING E O SISTEMA DE INFORMAÇÃO DE MARKETING. COMPORTAMENTO DO CONSUMIDOR. DESCRIÇÃO E SEGMENTAÇÃO DE MERCADO.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD332",
+          "name": "MARKETING"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AD302",
+          "name": "ADM. DE MARKETING 2"
+        },
+        {
+          "code": "AD372",
+          "name": "ADM. DE VENDAS"
+        },
+        {
+          "code": "AD373",
+          "name": "MARKETING DE SERVICOS"
+        },
+        {
+          "code": "AD375",
+          "name": "MARKETING INTERNACIONAL"
+        },
+        {
+          "code": "AD376",
+          "name": "MARKETING TURISTICO"
+        },
+        {
+          "code": "AD377",
+          "name": "PESQUISA MERCADOLOGICA"
+        },
+        {
+          "code": "AD378",
+          "name": "TOPICOS ESPECIAIS EM MARKETING"
+        }
+      ]
+    },
+    {
+      "name": "ADM. DE OPERACOES",
+      "code": "AD280",
+      "ementa": "A FUNÇÃO PRODUÇÃO: CONCEITOS, FATORES, INTER-RELACIONAMENTOS. DIAGNÓSTICO E PROGRAMAÇÃO DA PRODUÇÃO. LOCALIZAÇÃO. ARRANJO FÍSICO INDUSTRIAL. PRODUTIVIDADE. AUTOMAÇÃO.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AD299",
+          "name": "ADM. DA QUALIDADE"
+        },
+        {
+          "code": "AD428",
+          "name": "ADMINISTRAÇÃO ESTRATÉGICA"
+        },
+        {
+          "code": "AD429",
+          "name": "LOGÍSTICA EMPRESARIAL"
+        },
+        {
+          "code": "AD309",
+          "name": "CONDICOES DE TRAB E MEIO AMBIENTE"
+        },
+        {
+          "code": "AD235",
+          "name": "PLANEJ E CONT DA PRODUCAO 2"
+        },
+        {
+          "code": "AD366",
+          "name": "POLITICA E GESTAO EM CIENC.E TECNOLOGIA"
+        },
+        {
+          "code": "AD364",
+          "name": "TECNICAS AVANCADAS DE MANUFATURA"
+        },
+        {
+          "code": "AD367",
+          "name": "TOPICOS ESPECIAIS EM ADM DE OPER."
+        }
+      ]
+    },
+    {
+      "name": "FINANÇAS 2",
+      "code": "AD425",
+      "ementa": "ANÁLISE FINANCEIRA E CONTÁBIL DAS EMPRESAS; PLANEJAMENTO FINANCEIRO; ADMINISTRAÇÃO DE CAPITAL DE GIRO; CAIXA E TÍTULOS NEGOCIÁVEIS; ADMINISTRAÇÃO DE CONTAS A RECEBER; GESTÃO DO RISCO FINANCEIRO DAS EMPRESAS; ADMINISTRAÇÃO FINANCEIRA INTERNACIONAL.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD198",
+          "name": "ADM. FINANCEIRA 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AD423",
+          "name": "FINANÇAS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "GESTÃO DE PESSOAS 1",
+      "code": "AD424",
+      "ementa": "EVOLUÇÃO E ESTÁGIO ATUAL DA GESTÃO DE PESSOAS E RECURSOS HUMANOS NO BRASIL. DESFIOS COMPETITIVOS NA ÁREA DE GESTÃO DE PESSSOAS E AS ORGANIZAÇÕES. GESTÃO DE PESSOAS E A CULTURA BRASILEIRA. PERFIL DO PROFISSIONAL DE GESTÃO DE PESSOAS. RELAÇÕES ENTRE A LEGISLAÇÃO TRABALHISTA E A GESTÃO DE PESSOAS. PLANEJAMENTO DE CARGOS E CARREIRAS. RECRUTAMENTO E SELEÇÃO DE PESSOAS.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD297",
+          "name": "ADM. DE RECURSOS HUMANOS 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PS001",
+          "name": "PSICOLOGIA 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "AD426",
+          "name": "GESTÃO DE PESSOAS 2"
+        },
+        {
+          "code": "AD236",
+          "name": "ADM DE CARGOS E SALARIOS"
+        },
+        {
+          "code": "AD361",
+          "name": "AVALIACAO DE DESEMPENHO"
+        },
+        {
+          "code": "AD362",
+          "name": "PLANEJAMENTO DE RECURSOS HUMANOS"
+        },
+        {
+          "code": "AD360",
+          "name": "RECRUTAMENTO E SELECAO DE PESSOAL"
+        },
+        {
+          "code": "AD359",
+          "name": "RELACOES SINDICAIS"
+        },
+        {
+          "code": "AD363",
+          "name": "TOPICOS ESPECIAIS EM RH"
+        },
+        {
+          "code": "AD358",
+          "name": "TREINAMENTO E DESENV. DE RH"
+        }
+      ]
+    },
+    {
+      "name": "METODOLOGIA DA PESQUISA EM ADMINISTRAÇÃO",
+      "code": "AD192",
+      "ementa": "MÉTODOS DE ESTUDO E PRODUÇÃO INTELECTUAL, INCLUSIVE REFERÊNCIAS DE FONTES BIBLIOGRÁFICAS. ESTRATÉGIAS E MÉTODOS DA PESQUISA EM ADMINISTRAÇÃO. PRÁTICA DE ELEMENTOS DA PESQUISA EMPÍRICA.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD790",
+          "name": "METODOLOGIA DE PESQUISA"
+        },
+        {
+          "code": "CT397",
+          "name": "METOD CIENT APLIC A CONTABILIDADE"
+        },
+        {
+          "code": "CT463",
+          "name": "METODOLOGIA CIENTÍFICA APLICADA ÀS CIÊNCIAS CONTÁBEIS"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AD416",
+          "name": "ÉTICA E FILOSOFIA PARA O ADMINISTRADOR"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ADM. DA QUALIDADE",
+      "code": "AD299",
+      "ementa": "HISTÓRICO. CONCEITOS. ORGANIZAÇÃO PARA QUALIDADE. PROGRAMAS DE MELHORIA DA QUALIDADE. CONTROLE ESTATÍSTICO DA QUALIDADE. INSPEÇÃO POR AMOSTRAGEM. NORMAS TÉCNICAS.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD280",
+          "name": "ADM. DE OPERACOES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ADM. DE MARKETING 2",
+      "code": "AD302",
+      "ementa": "PLANEJAMENTO ESTRATÉGICO EM MARKETING. O PLANO DE MARKETING. ESTRATÉGIAS DE MARKETING. ANÁLISE DA CONCORRÊNCIA. MARKETING SOCIAL E ÉTICA NO MARKETING. MARKETING INTERNACIONAL.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD301",
+          "name": "ADM. DE MARKETING 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "GESTÃO DE PESSOAS 2",
+      "code": "AD426",
+      "ementa": "GESTÃO DE PESSOAS E PLANEJAMENTO ESTRATÉGICO. REMUNERAÇÃO ESTRATÉGICA. DESENVOLVIEMENTO DE PESSOAS E EDUCAÇÃO CORPORATIVA. GERENCIAMENTO DO DESEMPENHO. LIDERANÇA E GESTÃO DE PESSOAS. QUALIDADE DE VIDA NO TRABALHO. RESPONSABILIDADE SOCIAL DA GESTÃO DE PESSOAS. TENDÊNCIAS DA GESTÃO DE PESSOAS.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD298",
+          "name": "ADM. DE RECURSOS HUMANOS 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AD424",
+          "name": "GESTÃO DE PESSOAS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "GOVERNANÇA E RSAE",
+      "code": "AD427",
+      "ementa": "(RESPONSABILIDADE SÓCIOAMBIENTAL DAS EMPRESAS) GOVERNANÇA CORPORATIVA. SUSTENTABILIDADE EMPRESARIAL. RESPONSABILIDADE SÓCIOAMBIENTAL DAS EMPRESAS. INDICADORES E MONITORIAMENTO. GESTÃO ESTRATÉGICA DE RSAE. CERTIFICAÇÃO SOCIAL E AMBIENTAL. CONSUMO CONSCIENTE. PERFIL DO CONSUMIDOR RESPONSÁVEL.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "ADMT0021",
+          "name": "ÉTICA E RESPONSABILIDADE SOCIAL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SISTEMAS DE INFORMACOES",
+      "code": "AD290",
+      "ementa": "VISÃO GERAL DE SISTEMAS DE INFORMAÇÃO. NOÇÕES DA TEORIA DA INFORMAÇÃO. RELACIONAMENTO COM A TEORIA GERAL DOS SISTEMAS. RELACIONAMENTO COM A TEORIA GERAL DA ADMINISTRAÇÃO. USO DE RECURSOS COMPUTACIONAIS NO DESENVOLVIMENTO DE SISTEMAS.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "ADMT0024",
+          "name": "SISTEMAS DE INFORMAÇÕES GERENCIAIS"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AD391",
+          "name": "ADM. DA TECNOLOGIA DA INFORMACAO"
+        },
+        {
+          "code": "AD389",
+          "name": "ANALISE ESTRUTURADA DE SISTEMAS"
+        },
+        {
+          "code": "AD390",
+          "name": "GESTAO DA INFORMACAO"
+        },
+        {
+          "code": "AD388",
+          "name": "SISTEMAS DE INFORMACOES GERENC."
+        },
+        {
+          "code": "AD392",
+          "name": "TOPICOS ESPECIAIS EM ADM DA INFOR"
+        }
+      ]
+    },
+    {
+      "name": "ADMINISTRAÇÃO ESTRATÉGICA",
+      "code": "AD428",
+      "ementa": "ADMINISTRAÇÃO ESTRATÉGICA: MODELOS CONCEITUAIS, ANÁLISE DO AMBIENTE EXTERNO E ANÁLISE DO AMBIENTE INTERNO: RECURSOS, CAPACIDADES E COMPETÊNCIAS. ESTRATÉGIAS FUNCIONAIS DE NEGÓCIOS E CORPORATIVAS. VANTAGEM COMPETITIVA. IMPLEMENTAÇÃO DE ESTRATÉGIAS. ESTRATÉGIA E EMPREENDEDORISMO. ESTRATÉGIA INTERNACIONAL.",
+      "hours": 60,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD289",
+          "name": "ESTRATEGIA EMPRESARIAL"
+        },
+        {
+          "code": "ADMT0027",
+          "name": "ADMINISTRAÇÃO ESTRATÉGICA"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AD280",
+          "name": "ADM. DE OPERACOES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "LOGÍSTICA EMPRESARIAL",
+      "code": "AD429",
+      "ementa": "LOGÍSTICA: HISTÓRICO, CONCEITOS BÁSICOS. LOGÍSTICA INTEGRADA E A CADEIA DE SUPRIMENTOS. CONCEITOS, ESTRUTURAS E FUNÇÕES DA ADMINISTRAÇÃO DE MATERIAL. O PROCESSO DE COMPRAS. GESTÃO DE FORNECEDORES. GESTÃO DE ESTOQUES. ARMAZENAGEM E MOVIMENTAÇÃO DE MATERIAIS. SERVIÇO LOGÍSTICO: CARACTERÍSTICAS E CUSTOS. PROJETOS DE REDES DE ARMAZENAGEM. LOGÍSTICA E TECNOLOGIA. EMBALAGEM: TRANSPORTES.",
+      "hours": 60,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD365",
+          "name": "LOGISTICA EMPRESARIAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AD280",
+          "name": "ADM. DE OPERACOES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTAGIO CURRICULAR SUPERVISIONADO",
+      "code": "AD306",
+      "ementa": "ESTUDO DE SITUAÇÃO-PROBLEMA EM UMA ORGANIZAÇÃO PÚBLICA OU PRIVADA DE CARÁTER ADMINISTRATIVO, COM A ELABORAÇÃO DE UM RELATÓRIO FINAL COM ANÁLISE DA SITUAÇÃO E PROPOSTA DE SOLUÇÃO.",
+      "hours": 300,
+      "semester": 9,
+      "credits": 10,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "GESTÃO DE PROJETOS E SERVIÇOS",
+      "code": "AD413",
+      "ementa": "",
+      "hours": 60,
+      "semester": 9,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IF717",
+          "name": "PLANEJ. GERENCIAMENTO DE PROJETOS"
+        },
+        {
+          "code": "IF979",
+          "name": "PLANEJAMENTO E GERENCIAMENTO DE PROJETOS"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SEMINARIO DE ATUALIZACAO EM ADM.",
+      "code": "AD307",
+      "ementa": "ASSUNTOS CONTEMPORÂNEOS RELACIONADOS À ADMINISTRAÇÃO.",
+      "hours": 60,
+      "semester": 9,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ADM DE CARGOS E SALARIOS",
+      "code": "AD236",
+      "ementa": "A IMPORTÂNCIA E OS OBJETIVOS DO SISTEMA DE ADMINISTRAÇÃO DE CARGOS E SALÁRIOS. O PLANO DE CARGOS E SALÁRIOS. O PLANEJAMENTO DE CARGOS. A ANÁLISE DE CARGOS. A AVALIAÇÃO DE CARGOS. PESQUISA SALARIAL. A ESTRUTURA SALARIAL. PLANEJAMENTO DE CARREIRAS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD424",
+          "name": "GESTÃO DE PESSOAS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ADM. BANCARIA",
+      "code": "AD355",
+      "ementa": "CARACTERÍSTICAS E PECULIARIDADES E PROBLEMAS DA GESTÃO EM INSTITUIÇÕES FINANCEIRAS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ADM. DA TECNOLOGIA DA INFORMACAO",
+      "code": "AD391",
+      "ementa": "CONCEITOS BÁSICOS, PESQUISA E DESENVOLVIMENTO EM HARDWARE E SOFTWARE. INOVAÇÃO E DIFUSÃO TECNOLÓGICA EM HARDWARE E SOFTWARE. POLÍTICAS GOVERNAMENTAIS. QUALIDADE EM TECNOLOGIA DA INFORMAÇÃO. CUSTOS DE SUBSTITUIÇÃO. HIGH-TEC E SEU RELACIONAMENTO COM A TECNOLOGIA DA INFORMAÇÃO. GESTÃO DE AMBIENTES TECNOLÓGICOS. TENDÊNCIAS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD290",
+          "name": "SISTEMAS DE INFORMACOES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ADM. DE EMPRESAS RURAIS",
+      "code": "AD353",
+      "ementa": "CARACTERÍSTICAS E PECULIARIDADES E PROBLEMAS DA GESTÃO EM EMPRESAS RURAIS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ADM. DE PEQUENAS EMPRESAS",
+      "code": "AD354",
+      "ementa": "CARACTERÍSTICAS, PECULIARIDADES E PROBLEMAS DA GESTÃO EM PEQUENAS EMPRESAS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ADM. DE VENDAS",
+      "code": "AD372",
+      "ementa": "A FUNÇÃO DE VENDAS NO SISTEMA DE MARKETING. O PLANEJAMENTO DAS VENDAS. ESTRATÉGIAS DE VENDAS. CONTROLE DE VENDAS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD301",
+          "name": "ADM. DE MARKETING 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ADM. DO TURISMO",
+      "code": "AD352",
+      "ementa": "CARACTERÍSTICAS, PECULIARIDADES E PROBLEMAS DA GESTÃO EM EMPRESAS DE TURISMO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ADM. HOTELARIA",
+      "code": "AD351",
+      "ementa": "CARACTERÍSTICAS, PECULIARIDADES E PROBLEMAS DA GESTÃO EM EMPRESAS HOTELEIRAS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ADM. IMOBILIARIA",
+      "code": "AD350",
+      "ementa": "CARACTERÍSTICAS, PECULIARIDADES E PROBLEMAS DA GESTÃO EM EMPRESAS IMOBILIÁRIAS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ADMINISTRACAO HOSPITALAR",
+      "code": "AD240",
+      "ementa": "CARACTERÍSTICAS, PECULIARIDADES E PROBLEMAS DA GESTÃO EM EMPRESAS HOSPITALARES.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ANALISE ADMINISTRATIVA",
+      "code": "AD380",
+      "ementa": "COMPREENSÃO DAS TÉCNICAS DE ANÁLISE ADMINISTRATIVA APLICADAS NAS ORGANIZAÇÕES, UMA ABORDAGEM PRATICA DA RACIONALIZAÇÃO E SIMPLIFICAÇÃO DAS AÇÕES ORGANIZACIONAIS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ANALISE E ESTRATEGIA DE INVESTIMENTO",
+      "code": "AD370",
+      "ementa": "CONCEITOS BÁSICOS NA ANÁLISE DE INVESTIMENTOS. ANÁLISE DE INVESTIMENTOS EM CONTEXTOS DE CERTEZA. ANÁLISE DE INVESTIMENTOS EM CONTEXTO DE INCERTEZA E DE RISCO. ANÁLISE DE CARTEIRAS DE INVESTIMENTOS. ANÁLISE CUSTO-BENEFÍCIO. BAIXA E REPOSIÇÃO DE EQUIPAMENTOS. DECISÕES DE COMPRA OU ARRENDAMENTO. ANÁLISE DE INVESTIMENTO EM CONTEXTO INFLACIONÁRIO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD423",
+          "name": "FINANÇAS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ANALISE ESTRUTURADA DE SISTEMAS",
+      "code": "AD389",
+      "ementa": "CONCEITOS BÁSICOS. FERRAMENTAS DE ANÁLISE. PROJETO LÓGICO. PROJETO FÍSICO. INTERFACES DO SISTEMA. GERADORES DE APLICATIVOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD290",
+          "name": "SISTEMAS DE INFORMACOES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "AVALIACAO DE DESEMPENHO",
+      "code": "AD361",
+      "ementa": "O QUE É AVALIAÇÃO DE DESEMPENHO. A RESPONSABILIDADE PELA AVALIAÇÃO DE DESEMPENHO. MÉTODOS DE PESQUISA DE CAMPO. MÉTODO DE AUTO-AVALIAÇÃO. AVALIAÇÃO DE DESEMPENHO POR OBJETIVOS. SISTEMA INTEGRADO DE AVALIAÇÃO DE DESEMPENHO. A ENTREVISTA DE AVALIAÇÃO DE DESEMPENHO. ETAPAS PARA IMPLANTAÇÃO DO SISTEMA DE AVALIAÇÃO DE DESEMPENHO. PROBLEMAS PARA A INTRODUÇÃO DO SISTEMA DE AVALIAÇÃO DE DESEMPENHO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD424",
+          "name": "GESTÃO DE PESSOAS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "CONDICOES DE TRAB E MEIO AMBIENTE",
+      "code": "AD309",
+      "ementa": "",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD280",
+          "name": "ADM. DE OPERACOES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "CULTURA ORGANIZACIONAL",
+      "code": "AD386",
+      "ementa": "DISCUTIR QUESTÕES PRÁTICAS E TEÓRICAS RELATIVAS À TOTALIDADE DO COMPLEXO ORGANIZACIONAL, SEM EXCLUSÃO DE NENHUMA DAS METÁFORAS (MECÂNICA, ORGÂNICA OU SIMBÓLICA), QUE PODEM SER UTILIZADAS PARA A SUA INTERPRETAÇÃO, ENFATIZANDO OS ASPECTOS RELACIONADOS À CULTURA E AO DESEMPENHO EMPRESARIAL.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO ADMINISTRATIVO",
+      "code": "PE200",
+      "ementa": "O CONCEITO DE DIREITO ADMINISTRATIVO E A TRADIÇÃO BRASILEIRA. ATOS ADMINISTRATIVOS. CONTRATOS ADMINISTRATIVOS. PECULIARIDADES DO PROCESSO DE LICITAÇÃO. DO SERVIÇO PÚBLICO: PRINCÍPIOS CONSTITUCIONAIS; ENTES DA ADMINISTRAÇÃO DESCENTRALIZADA; MODALIDADES DE EXECUÇÃO DOS SERVIÇOS PÚBLICOS (DIRETA, CONCESSÕES E PERMISSÕES). REGIME DOS SERVIDORES PÚBLICOS CIVIS: NORMAS CONSTITUCIONAIS (COMUNS A TODOS OS PODERES NOS TRÊS NÍVEIS DE GOVERNO); O REGIME JURÍDICO E O PLANO DE CARREIRA DOS SERVIDORES FEDERAIS (PRINCÍPIOS E PRINCIPAIS NORMAS); A QUESTÃO DA ISONOMIA DE REMUNERAÇÃO ENTRE OS TRÊS PODERES; PECULIARIDADES DO REGIME JURÍDICO E PLANO DE CARREIRA DOS SERVIDORES DO ESTADO DE PERNAMBUCO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ESTRUTURA E RELACOES GOVERNAMENTAIS",
+      "code": "AD356",
+      "ementa": "ORGANIZAÇÃO E ESTRUTURA ADMINISTRATIVA DO PODER EXECUTIVO FEDERAL E DO ESTADO DE PERNAMBUCO (DISPOSITIVOS CONSTITUCIONAIS E DE LEGISLAÇÃO COMPLEMENTAR). ORGANIZAÇÃO E ESTRUTURA ADMINISTRATIVA BÁSICA DE MUNICÍPIOS. MATRIZ DE RELAÇÕES INTERGOVERNAMENTAIS: DISTRIBUIÇÃO CONSTITUCIONAL DE FUNÇÕES E COMPETÊNCIAS ENTRE OS GOVERNOS FEDERAL, ESTADUAL E MUNICIPAL (VISÃO DE CONJUNTO); MECANISMOS MAIS COMUNS NAS RELAÇÕES POLÍTICAS; FLUXOS FINANCEIROS PERMANENTES ENTRE OS NÍVEIS DE GOVERNO (TRANSFERÊNCIAS LEGAIS); FLUXOS FINANCEIROS EVENTUAIS (PROGRAMAS E PROJETOS); COOPERAÇÃO ENTRE NÍVEIS DE GOVERNO EM FUNÇÕES PERMANENTES E AÇÕES ESPECIAIS. A ATUAL TENDÊNCIA À DESCENTRALIZAÇÃO POLÍTICA E ADMINISTRATIVA NO BRASIL.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FINANCAS E ORCAMENTOS PUBLICOS",
+      "code": "CT226",
+      "ementa": "AS FINANÇAS PÚBLICAS NO SISTEMA ECONÔMICO. ASPECTOS DA ATIVIDADE FINANCEIRA DO ESTADO: RECEITA PÚBLICA, CRÉDITO PÚBLICO, ORÇAMENTO E DESPESA PÚBLICA. ESTUDO DOS ORÇAMENTOS PÚBLICOS: ANÁLISE DO MODELO ORÇAMENTÁRIO EM VIGOR NO BRASIL; CLASSIFICAÇÃO DA RECEITA E DA DESPESA; PROCEDIMENTOS DE ELABORAÇÃO E PROCESSAMENTO LESGISLATIVO DOS PLANOS PLURIANUAIS, DIRETRIZES ORÇAMENTÁRIAS E ORÇAMENTO ANUAIS; EXECUÇÃO E CONTROLE DO ORÇAMENTO; REGISTRO DE CRÉDITOS E DOTAÇÕES, PROGRAMAÇÃO FINANCEIRA, PROCEDIMENTOS DE REALIZAÇÃO DA RECEITA, ESTÁGIOS DA DESPESA, MECANISMOS RETIFICADOS DO ORÇAMENTO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "GESTAO DA INFORMACAO",
+      "code": "AD390",
+      "ementa": "INTRODUÇÃO. PLANEJAMENTO DE SISTEMAS DE INFORMAÇÃO. CICLO DE VIDA DE UM SISTEMA. ASPECTOS CULTURAIS E SOCIAIS. ASPECTOS RELEVANTES A ADMINISTRAR. CONCEITOS ADICIONAIS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD290",
+          "name": "SISTEMAS DE INFORMACOES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO A LIBRAS",
+      "code": "LE716",
+      "ementa": "REFLEXÃO SOBRE OS ASPECTOS HISTÓRICOS DA INCLUSÃO DAS PESSOAS SURDAS NA SOCIEDADE EM GERAL E NA ESCOLA; A LIBRAS COMO LÍNGUA DE COMUNICAÇÃO SOCIAL EM CONTEXTO DE COMUNICAÇÃO ENTRE PESSOAS SURDAS E COMO SEGUNDA LÍNGUA. ESTRUTURA LINGUÍSTICA E GRAMATICAL DE LIBRAS. ESPECIFICIDADES DA ESCRITA DO ALUNO SURDO. NA PRODUÇÃO DE TEXTO EM LÍNGUA PORTUGUESA. O INTÉRPRETE E A INTERPRETAÇÃO COMO FATOR DE INCLUSÃO E ACESSO EDUCACIONAL PARA OS ALUNOS SURDOS OU COM BAIXA AUDIÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "MARKETING DE SERVICOS",
+      "code": "AD373",
+      "ementa": "NOÇÕES DE MARKETING NA ÁREA DE SERVIÇOS; O COMPORTAMENTO DO COMPRADOR DE SERVIÇOS; ESTRATÉGIA DE MARKETING DE SERVIÇOS; PRINCÍPIOS DE QUALIDADE EM SERVIÇOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD301",
+          "name": "ADM. DE MARKETING 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "MARKETING INTERNACIONAL",
+      "code": "AD375",
+      "ementa": "INTRODUÇÃO AO COMÉRCIO INTERNACIONAL. MERCADOS DE EXPORTAÇÃO. COMPRA-VENDA INTERNACIONAL. EMBALAGENS, TRANSPORTES E SEGUROS DE MERCADORIAS. AÇÕES GOVERNAMENTAIS NA REGULAMENTAÇÃO DO COMÉRCIO EXTERIOR. ALFÂNDEGA E TERRITÓRIOS ADUANEIROS. FORMAS DE PAGAMENTO INTERNACIONAL.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD301",
+          "name": "ADM. DE MARKETING 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "MARKETING TURISTICO",
+      "code": "AD376",
+      "ementa": "O MARKETING NA ATIVIDADE TURÍSTICA, IMPORTÂNCIA E PROCEDIMENTOS BÁSICOS. O PAPEL DE CADA UM DOS AGENTES INTERATUANTES NO PROCESSO DE COMERCIALIZAÇÃO DO PRODUTO TURÍSTICO. ESTUDOS DE CASOS E SITUAÇÕES REAIS DA APLICAÇÃO DO MARKETING TURÍSTICO. A FORMULAÇÃO DE PLANOS DE MARKETING TURÍSTICO. A IMPORTÂNCIA DO MARKETING E O PROCESSO DE PESQUISA. DETERMINAÇÃO DO MÉTODO DE PESQUISA DE MARKETING. PROJETO DA AMOSTRA. COLETA E PROCEDIMENTOS DE DADOS. ANÁLISE E INTERPRETAÇÃO DOS DADOS. COMUNICAÇÃO DOS RESULTADOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD301",
+          "name": "ADM. DE MARKETING 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "MERCADO FINANCEIRO",
+      "code": "AD368",
+      "ementa": "INTERMEDIAÇÃO FINANCEIRA. O SISTEMA FINANCEIRO NACIONAL. O MERCADO BRASILEIRO DE CAPITAIS. INVESTIMENTOS EM AÇÕES. A EMPRESA E O MERCADO DE AÇÕES. MERCADOS FUTUROS E DE OPÇÕES. TEORIA E MODELOS EM MERCADOS FINANCEIROS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD423",
+          "name": "FINANÇAS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "NOVOS NEGOCIOS",
+      "code": "AD224",
+      "ementa": "A DECISÃO PESSOAL DE EMPREENDER E A ATIVIDADE EMPREENDEDORA. NECESSIDADE DO MERCADO, IDENTIFICAÇÃO DE OPORTUNIDADES. A AFINIDADE DO EMPREENDEDOR COM A NATUREZA ESPECÍFICA DA ATIVIDADE OU PRODUTO. PLANO GERAL PARA IMPLEMENTAÇÃO DE UM NOVO NEGÓCIO. ANÁLISE DOS RECURSOS (MATÉRIA PRIMA, EQUIPAMENTO, RECURSOS HUMANOS, CAPITAL) A MOBILIZAR. LOCALIZAR. LOCALIZAÇÃO E PROJETO FÍSICO. APOIOS INSTITUCIONAIS DISPONÍVEIS. ASPECTOS E FORMALIDADES LEGAIS NA CONSTITUIÇÃO DA EMPRESA. # FECHANDO# O PLANEJAMENTO ESTRATÉGICO DO NEGÓCIO. (ESTA DISCIPLINA PRETENDE SER UMA INICIAÇÃO PRÁTICA DO ALUNO E EMPREENDIMENTO SEU # JÁ REALIDADE OU PERSPECTIVA # OU DE QUE PARTICIPARÁ, DONDE SEU CARÁTER ELETIVO. AO FINAL DA DISCIPLINA O ESTUDANTE TERÁ ELABORADO UM PROJETO REAL DE IMPLANTAÇÃO DE UM NEGÓCIO. O NÚMERO DE ALUNOS POR TURMA ESTARÁ LIMITADO A QUINZE, A FIM DE POSSIBILITAR O ACOMPANHAMENTO INDIVIDUAL DO PROJETO PELO PROFESSOR).",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ORCAMENTO EMPRESARIAL",
+      "code": "AD369",
+      "ementa": "SISTEMA ORÇAMENTÁRIO: CONCEITO E IMPLANTAÇÃO. ORÇAMENTO DE LUCROS. ORÇAMENTO DA PRODUÇÃO. ORÇAMENTO DE VENDAS. ORÇAMENTO DE CAIXA. CONTROLE ORÇAMENTÁRIO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD423",
+          "name": "FINANÇAS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PESQUISA MERCADOLOGICA",
+      "code": "AD377",
+      "ementa": "A IMPORTÂNCIA DO MARKETING E PROCESSO DE PESQUISA. DETERMINAÇÃO DO MÉTODO DE PESQUISA DE MARKETING. PROJETO DA MOSTRA. COLETA E PROCEDIMENTOS DE DADOS. ANÁLISE E INTERPRETAÇÃO DOS DADOS. COMUNICAÇÃO DOS RESULTADOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD301",
+          "name": "ADM. DE MARKETING 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PLANEJ E CONT DA PRODUCAO 2",
+      "code": "AD235",
+      "ementa": "ABORDA AS TÉCNICAS DE PLANEJAMENTO E CONTROLE DA PRODUÇÃO COM ÊNFASE EM SISTEMAS DE INFORMAÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD280",
+          "name": "ADM. DE OPERACOES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PLANEJAMENTO DE RECURSOS HUMANOS",
+      "code": "AD362",
+      "ementa": "O QUE É PLANEJAMENTO DE RECURSOS HUMANOS. COMPONENTES BÁSICOS DO PLANEJAMENTO DE RH. PLANO DE SUCESSÃO. PLANEJAMENTO EMPRESARIAL. PLANEJAMENTO ESTRATÉGICO DE RECURSOS HUMANOS. A IMPLANTAÇÃO DO PROCESSO DE PLANEJAMENTO DE RH. DIFICULDADES ASSOCIADAS AO PLANEJAMENTO DE RECURSOS HUMANOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD424",
+          "name": "GESTÃO DE PESSOAS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "POLITICA E GESTAO EM CIENC.E TECNOLOGIA",
+      "code": "AD366",
+      "ementa": "O ESTUDO DAS POLÍTICAS E DE GESTÃO EM CIÊNCIA. TECNOLOGIA E INOVAÇÃO NA SOCIEDADE E SUA INTERNALIZAÇÃO NA ESTRATÉGIA DAS ORGANIZAÇÕES DE PESQUISA E EMPRESARIAIS COMO ELEMENTOS ATIVOS DO PROCESSO ADMINISTRATIVO E DE GERENCIAMENTO, DE MODO A INDUZIR UMA CULTURA ORGANIZACIONAL FAVORÁVEL À MOBILIZAÇÃO E À APLICAÇÃO SISTEMÁTICA DO CONHECIMENTO CIENTÍFICO À PRODUÇÃO ECONÔMICA E AO BEM-ESTAR SOCIAL, IDENTIFICANDO E COORDENANDO A MELHOR EXPLORAÇÃO DAS OPORTUNIDADES INOVADORAS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD280",
+          "name": "ADM. DE OPERACOES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "RECRUTAMENTO E SELECAO DE PESSOAL",
+      "code": "AD360",
+      "ementa": "O SISTEMA DE SUPRIMENTO DE RECURSOS HUMANOS. ANÁLISE DE CARGOS COMO INSTRUMENTO DO SISTEMA DE SUPRIMENTO. RECRUTAMENTO DE RECURSOS HUMANOS. RECRUTAMENTO INTERNO. RECRUTAMENTO EXTERNO. RECRUTAMENTO MISTO. SELEÇÃO DE RECURSOS HUMANOS. TÉCNICAS DE SELEÇÃO. A ENTREVISTA DE SELEÇÃO. A AVALIAÇÃO E CONTROLE DOS RESULTADOS DO PROCESSO SELETIVO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD424",
+          "name": "GESTÃO DE PESSOAS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "RELACOES ESTADO-EMPRESA",
+      "code": "AD379",
+      "ementa": "INTERFACES DA EMPRESA COM O ESTADO, ESPECIALMENTE ÓRGÃOS EXECUTIVOS, NO PAPEL DE COMPRADORES DE BENS E SERVIÇOS, FORNECEDORES DE INSUMOS E BENS DE INFRA-ESTRUTURA, E COMO REGULADORES LEGAIS DA ATIVIDADE EMPRESARIAL. ASPECTOS OPERACIONAIS E INSTITUCIONAIS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "RELACOES SINDICAIS",
+      "code": "AD359",
+      "ementa": "O SINDICATO. A ORGANIZAÇÃO SINDICAL NO MUNDO. A HISTÓRIA DO SINDICALISMO NO BRASIL. PROBLEMAS ATUAIS DE RELAÇÕES TRABALHISTAS NO BRASIL. OS OBJETIVOS DA NEGOCIAÇÃO. O PROCESSO DA NEGOCIAÇÃO COLETIVA. A GREVE. TÉCNICAS DE NEGOCIAÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD424",
+          "name": "GESTÃO DE PESSOAS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "RELAÇÕES RACIAIS",
+      "code": "IN816",
+      "ementa": "ANALISAR AS CONDIÇÕES SÓCIO-HISTÓRICAS BEM COMO AS FORMAÇÕES DISCURSIVAS QUE TÊM POSICIONADO A POPULAÇÃO NEGRA EM CONDIÇÕES DE SUBALTERNIDADE EM RELAÇÃO À BRANCA NO CONTEXTO INTERNACIONAL E BRASILEIRO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SISTEMAS DE INFORMACOES GERENC.",
+      "code": "AD388",
+      "ementa": "INTRODUÇÃO. HIERARQUIZAÇÃO DE SISTEMAS DE INFORMAÇÃO. AMBIENTE DE DESENVOLVIMENTO DE SISTEMAS. PROJETO E IMPLANTAÇÃO DE SISTEMAS DE INFORMAÇÕES GERENCIAL. CONCEITOS ADICIONAIS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD290",
+          "name": "SISTEMAS DE INFORMACOES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TECNICAS AVANCADAS DE MANUFATURA",
+      "code": "AD364",
+      "ementa": "ABORDAGEM ATUALIZADA DAS PRINCIPAIS TÉCNICAS DE MANUFATURA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD280",
+          "name": "ADM. DE OPERACOES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TOPICOS ESPECIAIS EM ADM DA INFOR",
+      "code": "AD392",
+      "ementa": "ASSUNTOS CONTEMPORÂNEOS VINCULADOS À ADMINISTRAÇÃO DA INFORMAÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD290",
+          "name": "SISTEMAS DE INFORMACOES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TOPICOS ESPECIAIS EM ADM DE OPER.",
+      "code": "AD367",
+      "ementa": "ASSUNTOS CONTEMPORÂNEOS VINCULADOS AO SISTEMA DE PRODUÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD280",
+          "name": "ADM. DE OPERACOES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TOPICOS ESPECIAIS EM ADM. PUBLICA",
+      "code": "AD357",
+      "ementa": "ASSUNTOS CONTEMPORÂNEOS VINCULADOS À ADMINISTRAÇÃO PÚBLICA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TOPICOS ESPECIAIS EM FINANCAS",
+      "code": "AD371",
+      "ementa": "ABORDAGEM CONTEMPORÂNEA VINCULADA À ADMINISTRAÇÃO FINANCEIRA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD423",
+          "name": "FINANÇAS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TOPICOS ESPECIAIS EM MARKETING",
+      "code": "AD378",
+      "ementa": "ABORDAGEM CONTEMPORÂNEA VINCULADA À ADMINISTRAÇÃO DE MARKETING",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD301",
+          "name": "ADM. DE MARKETING 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TOPICOS ESPECIAIS EM ORGANIZACOES",
+      "code": "AD387",
+      "ementa": "",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TOPICOS ESPECIAIS EM RH",
+      "code": "AD363",
+      "ementa": "ABORDAGEM CONTEMPORÂNEA EM RECURSOS HUMANOS E TENDÊNCIAS FUTURAS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD424",
+          "name": "GESTÃO DE PESSOAS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TREINAMENTO E DESENV. DE RH",
+      "code": "AD358",
+      "ementa": "A ATIVIDADE DE TREINAMENTO E DESENVOLVIMENTO DE PESSOAL E A REALIDADE VIGENTE NOS EMPRESAS BRASILEIRAS. O SUBSISTEMA DE TREINAMENTO/DESENVOLVIMENTO DE PESSOAL E SUA IMPORTÂNCIA NO CONTEXTO DO SISTEMA DE RECURSOS HUMANOS. TREINAMENTO INTRODUTÓRIO. RECURSOS INSTRUCIONAIS EM TREINAMENTO. DESENVOLVIMENTO GERENCIAL. PROCESSO DE APRENDIZAGEM. PRÁTICAS A SEREM OBSERVADAS EM UM TREINAMENTO. CULTURA ORGANIZACIONAL E SUA IMPORTÂNCIA SOBRE O PROFISSIONAL DE TREINAMENTO E DESENVOLVIMENTO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AD424",
+          "name": "GESTÃO DE PESSOAS 1"
+        }
+      ],
+      "dependents": []
+    }
+  ]
+}

@@ -1,0 +1,1084 @@
+{
+  "university": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+  "course": "MEDICINA",
+  "semesters": 8,
+  "totalHours": 8400,
+  "totalHoursElective": 180,
+  "totalHoursObligatory": 8220,
+  "disciplines": [
+    {
+      "name": "ESTRUTURA ORGANIZAÇÃO E FUNCIONAMENTO DA CÉLULA",
+      "code": "IN513",
+      "ementa": "APROFUNDAR O CONHECIMENTO E DAR SIGNIFICADO AO FUNCIONAMENTO DA CÉLULA A PARTIR DO ESTUDO DE SUAS BASES MOLECULARES, ESTRUTURAIS E FUNCIONAIS.",
+      "hours": 135,
+      "semester": 1,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HE014",
+          "name": "HISTOLOGIA E EMBRIOLOGIA GERAL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "MEDICINA ÉTICA E RELAÇÕES HUMANAS",
+      "code": "IN511",
+      "ementa": "ESTIMULAR UMA REFLEXÃO ACERCA DE ASPECTOS PSICOLÓGICOS RELATIVOS À FORMAÇÃO MÉDICA RESALTANDO A VOCAÇÃO ASPECTOS ÉTICOS DA PROFISSÃO E O PAPEL DESEMPENHADO PELO MÉDICO DA COMPREENSÃO DO DESENVOLVIMENTO EMOCIONAL DO INDIVÍDUO NAS SUAS DIVERSAS ETAPAS BUSCANDO UMA INTEGRAÇÃO AO CONTEÚDO DAS DISCIPLINAS BÁSICAS QUE AS QUAIS ABORDA A FORMAÇÃO DO INDIVÍDUO DO PONTO DE VISTA BIOLÓGICO.",
+      "hours": 45,
+      "semester": 1,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "NP312",
+          "name": "MEDICINA,ETICA E RELACOES HUMANAS"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SAUDE E SOCIEDADE",
+      "code": "IN512",
+      "ementa": "O PROCESSO SAÚDE-DOENÇA E SEUS MODELOS EXPLICATIVOS. IDENTIFICAÇÃO E ANÁLISE DE PROBLEMAS DE SAÚDE COLETIVA E DAS ESTRATÉGIAS DE ATENÇÃO À SAÚDE.",
+      "hours": 75,
+      "semester": 1,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SISTEMA LOCOMOTOR",
+      "code": "IN514",
+      "ementa": "FORMAÇÃO E ESTRUTURA MORFOFUNCIONAL E CARACTERÍSTICAS FÍSICO QUÍMICAS DO SISTEMA OSTEOMUSCULAR. LOCOMOÇÃO. FUNÇÕES BIOLÓGOCAS DO SISTEMA LOCOMOTOR E SUA INTERAÇÃO CLÍNICO LABORATORIAL.",
+      "hours": 120,
+      "semester": 1,
+      "credits": 5,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "FF019",
+          "name": "FISIOLOGIA 10"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SISTEMA NERVOSO E SENTIDOS ESPECIAIS",
+      "code": "IN515",
+      "ementa": "OPORTUNIZAR O CONHECIMENTO QUANTO AS BASES MOLECULARES, ESTRUTURAIS E MORFOFUNCIONAIS DO SISTEMA NERVOSO E SENTIDOS ESPECIAIS E SUA FUNÇÃO NA INTEGRAÇÃO DOS DIFERENTES SISTEMAS E DO INDIVÍDUO COM MEIO AMBIENTE.",
+      "hours": 195,
+      "semester": 1,
+      "credits": 8,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AN003",
+          "name": "ANATOMIA 3"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CONSTRUÇÃO E PRODUÇÃO DO CONHECIMENTO",
+      "code": "IN521",
+      "ementa": "INTRODUZIR O ALUNO NO PROCESSO DE PRODUÇÃO DO CONHECIMENTO, ASSIM COMO INSTRUMENTALIZAR PARA ANÁLISE CRÍTICA DA LITERATURA CIENTÍFICA NA ÁREA DA SAÚDE.",
+      "hours": 75,
+      "semester": 2,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "MF415",
+          "name": "INICIAÇÃO À PESQUISA CIENTÍFICA"
+        }
+      ]
+    },
+    {
+      "name": "FUNDAMENTOS DA PRÁTICA MÉDICA",
+      "code": "IN522",
+      "ementa": "ATENDIMENTO BÁSICO NAS SITUAÇÕES DE URGÊNCIA / EMERGÊNCIA EM DIFERENTES CENÁRIOS DE PRÁTICA.",
+      "hours": 45,
+      "semester": 2,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SISTEMA CÁRDIO - RESPIRATÓRIO",
+      "code": "IN523",
+      "ementa": "ENTENDER AS BASES MOLECULARES, ESTRUTURAIS, MORFOFUNCIONAIS E DESENVOLVIMENTO EMBRIOLÓGICO DO SISTEMA CARDIO - RESPIRATÓRIO E SEU PAPEL COMO SISTEMAS DE COORDENAÇÃO E INTEGRAÇÃO DO CORPO E NOS MECANISMOS HOMEOSTÁTICOS.",
+      "hours": 150,
+      "semester": 2,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AN004",
+          "name": "ANATOMIA 4"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SISTEMA DIGESTIVO",
+      "code": "IN524",
+      "ementa": "ESTUDO DAS BASES MOLECULARES ESTRUTURAIS, MORFOFUNCIONAIS E DESENVOLVIMENTO EMBRIOLÓGICO DO SISTEMA DIGESTIVO, QUE GARANTEM SEU PAPEL FUNDAMENTAL DE FORNECER NUTRIENTES, ÁGUA E ELETRÓLITROS AO ORGANISMO.",
+      "hours": 105,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "BQ007",
+          "name": "BIOQUIMICA MEDICA"
+        },
+        {
+          "code": "BQ008",
+          "name": "BIOQUIMICA 7"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SISTEMA URINÁRIO",
+      "code": "IN525",
+      "ementa": "ENTENDER AS BASES MOLECULARES ESTRUTURAIS, MORFOFUNCIONAIS E DESENVOLVIMENTO EMBRIOLÓGICO DO SISTEMA URINÁRIO E SEU PAPEL NA REGULAÇÃO DO VOLUME E COMPOSIÇÃO DOS LÍQUIDOS CORPORAIS E SUA FUNÇÃO INTEGRADORA ATRAVÉS DA SECREÇÃO DE HORMÔNIOS.",
+      "hours": 90,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "FF018",
+          "name": "FISIOLOGIA 13"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SISTEMAS ENDÓCRINO E REPRODUTOR",
+      "code": "IN526",
+      "ementa": "ENTENDER AS BASES MOLECULARES ESTRUTURAIS, MORFOFUNCIONAIS E DESENVOLVIMENTO EMBRIOLÓGICO DO SISTEMA ENDÓCRINO E REPRODUTOR. COMPREENDER O PAPEL INTEGRADOR DO SISTEMA ENDÓCRINO, JUNTAMENTE CO O SISTEMA NERVOSO E SEU PPEL NA REGULAÇÃO DO CRESCIMENTO, MATURAÇÃO, REPRODUÇÃO, SENESCÊNCIA E COMPORTAMENTO E O PAPEL DO SISTEMA REPRODUTOR NA MANUTENÇÃO DA VIDA, BEM ESTAR E SOBREVIVÊNCIA DA ESPÉCIE.",
+      "hours": 105,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HE015",
+          "name": "HISTOLOGIA E EMBRIOLOGIA ESPECIAL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BASES DA FARMACOLOGIA",
+      "code": "IN700",
+      "ementa": "",
+      "hours": 90,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN535",
+          "name": "BASES DA FARMACOLOGIA E DOS ANESTÉSICOS"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DA ATENÇÃO BÁSICA DE SAÚDE 1",
+      "code": "IN532",
+      "ementa": "",
+      "hours": 75,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "MF206",
+          "name": "PUERICULTURA E NEONATOLOGIA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO À SAÚDE COLETIVA",
+      "code": "IN632",
+      "ementa": "",
+      "hours": 60,
+      "semester": 3,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN534",
+          "name": "INTRODUÇÃO A MEDICINA SOCIAL"
+        },
+        {
+          "code": "MS214",
+          "name": "SERVICOS DE SAUDE"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "MECANISMOS DE AGRESSÃO E DEFESA",
+      "code": "IN631",
+      "ementa": "",
+      "hours": 255,
+      "semester": 3,
+      "credits": 11,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN533",
+          "name": "MECANISMOS DE AGRESSÃO E DEFESA"
+        },
+        {
+          "code": "MT202",
+          "name": "MICROBIOLOGIA E IMUNOLOGIA 2"
+        },
+        {
+          "code": "MT215",
+          "name": "PARASITOLOGIA"
+        },
+        {
+          "code": "PA209",
+          "name": "PATOLOGIA GERAL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "MEDICINA SOCIEDADE E ÉTICA",
+      "code": "IN531",
+      "ementa": "PROMOVER UMA APROXIMAÇÃO DOS ESTUDANTES DO CURSO MÉDICO DA UFPE, A PARTIR DE SEMINÁRIOS, CICLO DE FILMES E CICLO DE LEITURAS, COM UM CONJUNTO DE TEMAS OU PROBLEMAS RELATIVOS À PRÁTICA MÉDICA NOS CONTEXTOS SOCIAL, ECONÔMICO, CULTURAL, POLÍTICO E ÉTICO, PROCURANDO DESPERTAR QUESTIONAMENTOS E MUDANÇAS DE ATITUDE NO SENTIDO DE VISLUMBRAR O OBJETIVO DA MEDICINA, O CORPO HUMANO, EM TODA AS SUAS DIMENSÕES.",
+      "hours": 45,
+      "semester": 3,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "A ÉTICA E A LEGALIDADE DA PRÁTICA MÉDICA",
+      "code": "IN541",
+      "ementa": "ESTUDA E ANALISE OS ASPECTOS ÉTICOS E AS NORMATIZAÇÕES QUE REGULAMENTAM O EXERCÍCIO DA MEDICINA NO TERRITÓRIO BRASILEIRO. DEFINE O COMPORTAMENTO IDEAL DO MÉDICO, PROCURANDO ADEQUÁ - LO À LEI ORDINÁRIA E AS EXIGÊNCIAS MORAIS DETERMINADAS PELA TRADIÇÃO DA PRÁTICA MÉDICA. BUSCA ORIENTAR OS ESTUDANTES SOBRE OS DIREITOS E DEVERES MORAIS E LEGAIS DO MÉDICO NO DESEMPENHO COTIDIANO DAS SUAS ATIVIDADES PROFISSIONAIS, APRESENTANDO E DISCUTINDO SUAS OBRIGAÇÕES PARA COM O DOENTE, OS COLEGAS E A SOCIEDADE EM GERAL.",
+      "hours": 45,
+      "semester": 4,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "DESENVOLVIMENTO PESSOAL E PROFISSINAL I",
+      "code": "IN545",
+      "ementa": "NOÇÕES GERAIS SOBRE O COMPORTAMENTO HUMANO, FUNCIONAMENTO MENTAL E AS RELAÇÕES HUMANAS EM GERAL, ESPECIALMENTE A RELAÇÃO MÉDICO - PACIENTE. IDENTIFICAÇÃO DOS PROCESSOS MENTAIS ENVOLVIDOS NAS RELAÇÕES HUMANAS, ESPECIALMENTE A RELAÇÃO MÉDICO - PACIENTE. A UTILIZAÇÃO DE UMA ADEQUADA MÉDICO - PACIENTE COM FINALIDADE TERAPÊUTICA. CONHECIMENTO SOBRE AS DISTORÇÕES DA ADEQUADA RELAÇÃO MÉDICO - PACIENTE.",
+      "hours": 45,
+      "semester": 4,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "NP214",
+          "name": "PSICOLOGIA MEDICA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DA ATENÇÃO BÁSICA DE SAÚDE 2",
+      "code": "IN546",
+      "ementa": "",
+      "hours": 75,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO À CLÍNICA E TÉCNICA CIRÚRGICAS",
+      "code": "IN544",
+      "ementa": "PRINCÍPIOS E FUNDAMENTOS DO ATENDIMENTO EM CIRURGIA GERAL. AMBIENTE CIRÚRGICO, ASSEPSIA E ANTI - SEPSIA. BASES DO DIAGNÓSTICO E DO TRATAMENTO CIRÚRGICO AMBULATÓRIAL. PRÉ PER E PÓS OPERATÓRIO EM CIRURGIA GERAL. CONTROLE DO PACIENTE CIRÚRGICO E INFECÇÃO EM CIRURGIA.",
+      "hours": 120,
+      "semester": 4,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "MC254",
+          "name": "BASES DA ACUPUNTURA"
+        }
+      ]
+    },
+    {
+      "name": "INTRODUÇÃO À CLÍNICA MÉDICA",
+      "code": "IN542",
+      "ementa": "ANAMNESE, EXAME FÍSICO E DADOS EPIDEMIOLÓGICOS PARA O DIAGNÓSTICO DIFERENCIAL DE PORTADORES DE FEBRE E PROCESSOS INFLAMATÓRIOS. FISISOPATOLOGIA DA FEBRE. EXAMES E MÁTODOS COMPLEMENTARES NO DIAGNÓSTICO DAS DOENÇAS INFECCIOSAS. SEMIOLOGIA DAS DOENÇAS INFECCIOSAS. DOENÇAS VIRAIS, ACTERIANAS, POR ESPIROQUETÍDEOS: LEPTOSPIROSE E SÍFILIS, POR FUNGOS E PARASITOS. PREVENÇÃO DAS DOENÇAS INFECCIOSAS E PARASITÁRIAS. CONDUTA DIAGNÓSTICA E TERAPÊUTICA NAS DOENÇAS INFECCIOSAS PREVALENTES.",
+      "hours": 225,
+      "semester": 4,
+      "credits": 10,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "RADIOLOGIA E IMAGENOLOGIA",
+      "code": "IN543",
+      "ementa": "RADIAÇÕES E SUAS APLICAÇÕES NA MEDICINA.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "MC241",
+          "name": "MET COMPLEMENTARES DIAGNOSTICO 2"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ASSISTÊNCIA A CRIANÇA",
+      "code": "IN551",
+      "ementa": "ESTUDO DAS PATOLOGIAS DA CRIANÇA E DO RECÉM - NASCIDO NORMAL E PATOLÓGICO. ESTUDO DO CRESCIMENTO E DESENVOLVIMENTO. PREVENÇÃO DOS AGRAVOS FÍSICOS, PSÍQUICAS DA CRIANÇA.",
+      "hours": 135,
+      "semester": 5,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ASSISTÊNCIA AO ADOLESCENTE",
+      "code": "IN552",
+      "ementa": "ESTUDO DA PUBERDADE (CRESCIMENTO E DESENVOLVIMENTO) E DAS PATOLOGIAS DO ADOLESCENTE. PREVENÇÃO E TRATAMENTO DOS AGRAVOS FÍSICOS, PSÍQUICOS E SOCIAIS.",
+      "hours": 75,
+      "semester": 5,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ASSISTÊNCIA À MULHER",
+      "code": "IN651",
+      "ementa": "",
+      "hours": 150,
+      "semester": 5,
+      "credits": 7,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN553",
+          "name": "ASSISTÊNCIA A MULHER"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ASSISTÊNCIA À SAÚDE DO ADULTO E DO IDOSO I",
+      "code": "IN652",
+      "ementa": "",
+      "hours": 90,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN554",
+          "name": "ASSISTÊNCIA A SAÚDE DO ADULTO E DO IDOSO I"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DA ATENÇÃO DE MÉDIA COMPLEXIDADE À SAUDE I",
+      "code": "IN652",
+      "ementa": "REPRESENTAÇÃO DA RELAÇÃO MÉDICO - PACIENTE. A ASSIMETRIA NAS RELAÇÕES MÉDICO - PACIENTE: TIMIDEZ, IMPOTÊNCIA, LIMITAÇÕES, ARROGÂNCIA, \"USO DO PACIENTE COMO INSTRUMENTO DE APRENDIZADO\". DA FALA À ESCUTA. IDENTIFICAÇÃO, TRANSFERÊNCIA, CONTRATRANSFERÊNCIA. CONHECENDO A TERMINOLOGIA MÉDICA E POPULAR. CONSTRUÇÃO DA FICHA DE IDENTIFICAÇÃO. EVOLUÇÃO DAS PRÁTICAS MÉDICAS. CAPACITAR QUANTO À TOMADA DOS SINAIS VITAIS. AÇÕES PREVENTIVAS BÁSICAS: HIDRATAÇÃO ORAL, VACINAÇÃO, INCENTIVO AO ALEITAMENTO MATERNO E CONDUTAS EM IRA, CRESCIMENTO E DESENVOLVIMENTO DA CRIANÇA. PRIMEIROS SOSORROS: HEMORRAGIA E CHOQUE; FRATURAS; URGÊNCIAS CLÍNICAS E AMBIENTAIS; REANIMAÇÃO CÁRDIO RESPIRATÓRIA EM CONDIÇÕES DE AMBIENTE EXTRA - HOSPITALAR.",
+      "hours": 90,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PLANEJAMENTO E GESTÃO DO SERVIÇO DE SAÚDE",
+      "code": "IN653",
+      "ementa": "",
+      "hours": 45,
+      "semester": 5,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN556",
+          "name": "GESTÃO DO SIST DOS SERVIÇOS E DO PROCESSO DE TRAB. EM SAÚDE"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ASSISTÊNCIA À SAÚDE DO ADULTO E DO IDOSO II",
+      "code": "IN589",
+      "ementa": "",
+      "hours": 165,
+      "semester": 6,
+      "credits": 7,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN562",
+          "name": "ASSISTÊNCIA À SAÚDE DO ADULTO E DO IDOSO II"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ASSISTÊNCIA À SAÚDE DO ADULTO E DO IDOSO III",
+      "code": "IN563",
+      "ementa": "DOR ABDOMONAL AGUDA E CRÔNICA: CARACTERIZAÇÃO, FISIOPATOLOGIA E CLASSIFICAÇÃO. ICTÉRIAS: CARACTERIZAÇÃO, FISIOPATOLOGIAE CLASSIFICAÇÃO. DIARRÉIA: CARACTERIZAÇÃO, FISIOPATOLOGIA E PRINCIPAIS PATOLOGIAS ENVOLVIDAS. EXAMES COMPLEMENTARES QUE AUXILIAM NO DIAGNÓSTICO DESSAS MANIFESTAÇÕES. CONDUTAS TERAPÊUTICAS FRENTE AO MANEJO E ESTABILIDADE HEMODINÂMICA. MEDIDAS PREVENTIVAS E TRATAMENTO.",
+      "hours": 195,
+      "semester": 6,
+      "credits": 9,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "DESENVOLVIMENTO PESSOAL E PROFISSIONAL II",
+      "code": "IN565",
+      "ementa": "",
+      "hours": 45,
+      "semester": 6,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ASSISTÊNCIA À SAÚDE DO ADULTO E DO IDOSO IV",
+      "code": "IN590",
+      "ementa": "",
+      "hours": 150,
+      "semester": 7,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN571",
+          "name": "ASSISTÊNCIA À SAÚDE DO ADULTO E DO IDOSO IV"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ASSISTÊNCIA À SAÚDE DO ADULTO E DO IDOSO V",
+      "code": "IN672",
+      "ementa": "",
+      "hours": 210,
+      "semester": 7,
+      "credits": 9,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN573",
+          "name": "ASSISTÊNCIA À SAÚDE DO ADULTO E DO IDOSO V"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "DESENVOLVIMENTO PESSOAL E PROFISSIONAL III",
+      "code": "IN575",
+      "ementa": "A COMPETÊNCIA PARA O ATENDIMENTOEM CLÍNICA E CIRURGIA. ENSAIO PARA A AUTONOMIA.",
+      "hours": 45,
+      "semester": 7,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DA ATENÇÃO DE ALTA COMPLEXIDADE À SAÚDE I",
+      "code": "IN574",
+      "ementa": "ARTICULAÇÃO ENTRE OS CONTEÚDOS APRENDIDOS E SUA REPRESENTAÇÃO ATRAVÉS DOS MODELOS ASSISTENCIAIS, REFLETIDOS NA CARACTERIZAÇÃO DA REDE DE SERVIÇOS DE SAÚDE, NO ÂMBITO DO TERCEIRO NÍVEL DE ATENÇÃO E DA REDE COMPLEMENTAR DE SERVIÇOS, COM VISTAS À CONSOLIDAÇÃO DA MUDANÇA DE PARADIGMA.",
+      "hours": 75,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO À EPIDEMIOLOGIA",
+      "code": "IN671",
+      "ementa": "",
+      "hours": 45,
+      "semester": 7,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN572",
+          "name": "VIGILÂNCIA A SAÚDE"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "A ÉTICA E A DEONTOLOGIA MÉDICA APLICADA",
+      "code": "IN661",
+      "ementa": "",
+      "hours": 60,
+      "semester": 8,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN561",
+          "name": "A ÉTICA E A DEONTOLOGIA MÉDICA APLICADA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ASSISTÊNCIA ESPECIALIZADA À SAÚDE",
+      "code": "IN581",
+      "ementa": "ESTUDO DAS AFECÇÕES CLÍNICAS E CIRÚRGICAS DO OLHO, DO OUVIDO, DO NARIZ E DA GARGANTA. ASPECTOS FÍSICO - PATOLÓGICOS, DIAGNÓSTICO E TRATAMENTO CLÍNICO E CIRÚRGICO. BASES DA ANESTESIOLOGIA E DA CIRURGIA.",
+      "hours": 180,
+      "semester": 8,
+      "credits": 8,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ASSISTÊNCIA À SAÚDE DO ADULTO E DO IDOSO VI",
+      "code": "IN681",
+      "ementa": "NEUROANATOMIA FUNCIONAL APLICADA NA IDENTIFICAÇÃO DAS PRINCIPAIS SÍNDROMES NEUROLÓGICAS E DOS ÓRGÃOS DOS SENTIDOS. BASES PARA IDENTIFICAÇÃO DOS DIAGNÓSTICOS SINDÔMICOS, TOPOGRÁFICOS, ETIOLÓGICO E NOSOLÓGICO EM NEUROLOGIA. CAUSAS, ASPECTOS CLÍNICOS, EVOLUÇÃO E TERAPIA DAS DESORDENS QUE SE MANIFESTAM ATRAVÉS DA DIMINUIÇÃO OU PERDA DE FUNÇÕES. MEDIDAS DE PREVENÇÃO E REABILITAÇÃO.",
+      "hours": 165,
+      "semester": 8,
+      "credits": 7,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ASSISTÊNCIA À SAÚDE DO ADULTO E DO IDOSO VII",
+      "code": "IN682",
+      "ementa": "NOÇÕES SOBRE A ETIOLOGIA, PATOGÊNESE E DIAGNÓSTICO DAS DOENÇAS INFECCIOSAS E PARASITÁRIAS. ASPECTOS FARMACOLÓGICOS E ANÁTOMO-PATOLÓGICO DAS DOENÇAS INFECCIOSAS E PARASITÁRIAS.",
+      "hours": 90,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DA ATENÇÃO DE ALTA COMPLEXIDADE À SAÚDE II",
+      "code": "IN583",
+      "ementa": "REPRESENTAÇÃO DA ASSISTÊNCIA PRESTADA PELO SUS E A SUA RELAÇÃO COM REPRESENTAÇÃO DOS MODELOS ASSISTENCIAIS, REFLETIDOS NA CARACTERIZAÇÃO DA REDE DE SERVIÇOS DE SAÚDE, NO ÂMBITO DO TERCEIRO NÍVEL DE ATENÇÃO E DA REDE COMPLEMENTAR DE SERVIÇOS, COM VISTAS À CONSOLIDAÇÃO DA MUDANÇA DE PARADIGMA.",
+      "hours": 75,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CLÍNICA MÉDICA 1",
+      "code": "INT0031",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CLÍNICA MÉDICA 2",
+      "code": "INT0032",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CLÍNICA MÉDICA 2",
+      "code": "INT0032",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CLÍNICA MÉDICA 1",
+      "code": "INT0031",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PEDIATRIA 1",
+      "code": "INT0034",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PEDIATRIA 2",
+      "code": "INT0035",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PEDIATRIA 2",
+      "code": "INT0035",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PEDIATRIA 1",
+      "code": "INT0034",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "GINECOLOGIA",
+      "code": "INT0037",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "OBSTETRÍCIA",
+      "code": "INT0038",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "OBSTETRÍCIA",
+      "code": "INT0038",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "GINECOLOGIA",
+      "code": "INT0037",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SAÚDE COLETIVA 1",
+      "code": "INT0040",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SAÚDE COLETIVA 2",
+      "code": "INT0041",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SAÚDE COLETIVA 2",
+      "code": "INT0041",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SAÚDE COLETIVA 1",
+      "code": "INT0040",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CIRURGIA GERAL 1",
+      "code": "INT0043",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CIRURGIA GERAL 2",
+      "code": "INT0044",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CIRURGIA GERAL 2",
+      "code": "INT0044",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CIRURGIA GERAL 1",
+      "code": "INT0043",
+      "ementa": "",
+      "hours": 384,
+      "semester": 8,
+      "credits": 14,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ALERGIA E IMUNOLOGIA CLÍNICA",
+      "code": "MF414",
+      "ementa": "FORNECER UMA COMPREENSÃO DAS BASES IMUNOLÓGICAS E POSSIBILITAR O DIAGNÓSTICO E O TRATAMENTO DAS DOENÇAS ALÉRGICAS, DAS IMUNODEFICIÊNCIAS E DAS DOENÇAS DE AUTO IMUNIDADE.",
+      "hours": 75,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ATENDIMENTO AOS MENORES DE CINCO ANOS-ATENÇÃO PRIMÁRIA",
+      "code": "AT269",
+      "ementa": "AVALIAR AS CRIANÇAS MENORES DE CINCO ANOS, DIVIDINDO-AS EM DOIS GRUPOS DISTINTOS: DE UMA SEMANA A - DE DOIS MESES E DOIS MESES A - DE CINCO ANOS, DE ACORDO COM AS CARACTERÍSTICAS ANÁTOMO FISIOLÓGICAS À CADA FAIXA ETÁRIA, IDENTIFICANDO OS SINAIS GERAIS DE PERIGO, SINAIS E SINTOMAS QUE ESTÃO RELACIONADOS COM AS CAUSAS DE ÓBITOS MAIS FREQUENTES NOS MENORES DE CINCO ANOS, ENFATIZANDO A IMPORTÂNCIA DA PREVENÇÃO E DA IDENTIFICAÇÃO PRECOCE DOS SINAIS DE GRAVIDADE.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BASES DA ACUPUNTURA",
+      "code": "MC254",
+      "ementa": "PRINCÍPIOS BÁSICOS DA CIRURGIA REPARADORA E ESTÉTICA, PRIVILÉGIANDO OS ASPECTOS ÉTICOS E HUMANÍSTICOS DA RELAÇÃO MÉDICO-PACIENTE NO ÂMBITO DA ESPECIALIDADE.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "IN544",
+          "name": "INTRODUÇÃO À CLÍNICA E TÉCNICA CIRÚRGICAS"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "BASES DO TRATAMENTO DA DOR",
+      "code": "MC261",
+      "ementa": "ESTUDO DAS BASES DO TRATAMENTO DA DOR. INFORMAÇÕES CONSISTENTES SOBRE A IMPORTÂNCIA DO CONHECIMENTO ACERCA DO TRATAMENTO DA DOR, BEM COMO DOS PRINCIPAIS ASPECTOS TEÓRICOS E PRÁTICOS RELACIONADOS À CLÍNICA DA DOS NO CONTEXTO ATUAL",
+      "hours": 90,
+      "semester": 0,
+      "credits": 5,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BIOLOGIA CELULAR DO CANCER",
+      "code": "AT268",
+      "ementa": "DAR CONHECIMENTO DA BIOLOGIA CELULAR DA CÉLILA TUMORAL, ENFATIZANDO O CICLO CELULAR E REGULAÇÃO DO CRESCIMENTO. ESTUDOS DOS ONCOGÊNESES E SUA RELAÇÃO COM O SURGIMENTO DOS TUMORES, SINALIZAÇÃO DA CÉLULA TUMORAL, ANGIOGÊNESE, METÁSTESE E NOVOS ALVOS PARA A TERAPIA DO CÂNCER.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BIOQUÍMICA DO CÂNCER",
+      "code": "BQ317",
+      "ementa": "ABORDAR OS CONCEITOS BIOQUÍMICOS DO CÂNCER, DESTACANDO CARCINOGÊNESE, METÁSTASE, PRINCIPAIS MARCADORES MOLECULARES E CELULARES DO CÂNCER. TÉCNICAS BÁSICAS DE BIOLOGIA MOLECULAR E HISTOPATOLOGIA NO DIAGNÓSTICO. DISCUTIR A CONEXÃO ENTRE TEORIA, PESQUISA BÁSICA E APLICADA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CIRURGIA DO TRAUMA",
+      "code": "CR247",
+      "ementa": "",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CIRURGIA PEDIÁTRICA",
+      "code": "CR267",
+      "ementa": "FISIOPATOLOGIA DO RECÉM-NASCIDO CIRÚRGICO; FISIOPATOLOGIA DO TRAUMA EM PEDIATRIA; ATENDIMENTO INICIAL A CONDIÇÕES CIRÚRGICAS NEONATAIS E RECONHECIMENTO DAS PATOLOGIAS MAIS FREQUENTES EM CIRURGIA PEDIÁTRICA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DE GENÉTICA HUMANA",
+      "code": "GN324",
+      "ementa": "PRINCÍPIOS TEÓRICOS DA GENÉTICA HUMANA, PRINCIPALMENTE VOLTADA À ÁREA MÉDICA, INCLUINDO METODOLOGIAS MODERNAS COMO O USO DE MARCADORES MOLECULARES, SEQUÊNCIAS DE DNA E/OU PROTEÍNAS, ASSOCIADOS OU NÃO A SINTOMAS, CARACTERES FENOTÍPICOS E FISIOLÓGICOS. DESDOBRAMENTOS, VANTAGENS, DESVANTAGENS E LIMITAÇÕES DOS PROCEDIMENTOS EXISTENTES. A PARTE PRÁTICA VISARÁ UMA INTRODUÇÃO À BIOINFORMÁTICA -ANÁLISE GENOMAS E PROTEOMAS COM FERRAMENTAS COMPUTACIONAIS.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INICIAÇÃO À PESQUISA CIENTÍFICA",
+      "code": "MF415",
+      "ementa": "INICIALIZAR O ALUNO DA GRADUAÇÃO NA PESQUISA CIENTÍFICA A PARTIR DA ELABORAÇÃO DE UM PROJETO DE PESQUISA. DESENVOLVER UM PROBLEMA DE PESQUISA A PARTIR DE UM QUESTIONAMENTO DA PRÁTICA CLÍNICA, SUBSIDIADO PELA LITERATURA CIENTÍFICA NA ÁREA DE SAÚDE. APLICAR O MÉTODO CIENTÍFICO PARA PREVISÃO DA COLETA E DA ANÁLISE DE DADOS. TREINAR AS NOÇÕES DO PROGRAMA DE ESTATÍSTICA EPI-INFO, VERSÃO 6.04, PARA A ELABORAÇÃO DE UM BANCO DE DADOS E A ANÁLISE ESTATÍSTICA BÁSICA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "IN521",
+          "name": "CONSTRUÇÃO E PRODUÇÃO DO CONHECIMENTO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUCAO A INFORMATICA EM SAUDE",
+      "code": "MC200",
+      "ementa": "",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO A LIBRAS",
+      "code": "LE716",
+      "ementa": "REFLEXÃO SOBRE OS ASPECTOS HISTÓRICOS DA INCLUSÃO DAS PESSOAS SURDAS NA SOCIEDADE EM GERAL E NA ESCOLA; A LIBRAS COMO LÍNGUA DE COMUNICAÇÃO SOCIAL EM CONTEXTO DE COMUNICAÇÃO ENTRE PESSOAS SURDAS E COMO SEGUNDA LÍNGUA. ESTRUTURA LINGUÍSTICA E GRAMATICAL DE LIBRAS. ESPECIFICIDADES DA ESCRITA DO ALUNO SURDO. NA PRODUÇÃO DE TEXTO EM LÍNGUA PORTUGUESA. O INTÉRPRETE E A INTERPRETAÇÃO COMO FATOR DE INCLUSÃO E ACESSO EDUCACIONAL PARA OS ALUNOS SURDOS OU COM BAIXA AUDIÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO Á HOMEOPATIA",
+      "code": "MF253",
+      "ementa": "",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "MEDICINA DO ESPORTE E DO EXERCÍCIO",
+      "code": "CR263",
+      "ementa": "A DISCIPLINA SE PROPÕE A FACILITAR O APRENDIZADO DOS ASSUNTOS BÁSICOS DA MEDICINA DO ESPORTE PARA OS ALUNOS DO CURSO DE GRADUAÇÃO EM MEDICINA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TECNOLOGIA DA INFORMAÇÃO APLICADA AO DIAGNÓSTICO E À DECISÃO TERAPÊUTICA",
+      "code": "IN726",
+      "ementa": "ABORDAGEM RESUMIDA DE CONCEITOS E APLICAÇÕES DA INFORMÁTICA NA MEDICINA, E PARTICULARMENTE, NOS PROCESSOS DE DIAGNÓSTICO E TRATAMENTO. ASPECTOS ENVOLVIDOS NO PROCESSO DE TOMADA DE DECISÕES EM MEDICINA (CONHECIMENTO E RACIOCÍNIO), PRONTUÁRIOS E SISTEMAS DE APOIO À DECISÃO COMO FERRAMENTAS DE APOIO AO DIAGNÓSTICO E TRATAMENTO. FUNDAMENTOS PARA O DESENVOLVIMENTO DE PRONTUÁRIOS ELETRÔNICOS E SISTEMAS DE APOIO À DECISÃO EM MEDICINA. CLASSIFICAÇÃO E CODIFICAÇÃO DO CONHECIMENTO MÉDICO.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "VIGILÂNCIA EM SAÚDE AMBIENTAL E DO TRABALHADOR",
+      "code": "MS419",
+      "ementa": "APRESENTA-SE OS ASPECTOS HISTÓRICOS E METODOLÓGICOS DO CAMPOS DA VICILÂNCIA EM SAÚDE NO BRASIL. A APLICAÇÃO DOS ESTUDOS EPIDEMIOLÓGICOS APLICADOS À SAÚDE DO TRABALHADOR E AMBIENTAL. AS VIGILÂNCIAS DO CAMPO DA SAÚDE AMBIENTAL E DO TRABALHADOR NO SISTEMA ÚNICO DE SAÚDE, SEUS SUBSISTEMAS E PROGRAMAS.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    }
+  ]
+}

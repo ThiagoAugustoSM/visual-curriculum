@@ -1,0 +1,1229 @@
+{
+  "university": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+  "course": "CIÊNCIAS BIOLÓGICAS- ÊNFASE C. AMBIENTAIS",
+  "semesters": 8,
+  "totalHours": 3330,
+  "totalHoursElective": 510,
+  "totalHoursObligatory": 2820,
+  "disciplines": [
+    {
+      "name": "ANALISE GEOMORFOLOGICA",
+      "code": "CG617",
+      "ementa": "GEOMORFOLOGIA: CONCEITOS BÁSICOS, OBJETO DE ESTUDO E DIVISÃO. A GEOMORFOLOGIA E A ANÁLISE AMBIENTAL. RELAÇÕES DA GEOMORFOLOGIA COM AS GEOCIÊNCIAS. FATORES EXPLICATIVOS DO RELEVO TERRESTRE. COMPARTIMENTAÇÃO DO RELEVO TERRESTRE. RELEVO E AÇÕES ANTRÓPICAS. DINÂMICA ATUAL DO RELEVO TERRESTRE.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BIOLOGIA ANIMAL I",
+      "code": "ZO340",
+      "ementa": "CLASSIFICAÇÃO, MORFOLOGIA, FISIOLOGIA E FILOGENIA DOS METAZOÁRIOS BASAIS (PORIFERA, CNIDARIA E CTENOPHORA), ASSIM COMO, DE DIFERENTES FILOS DE ANIMAIS BILATÉRIOS: ACELOMADOS (PLATYHELMINTHES, NEMERTINEA), PSEUDOCELOMADOS (ROTÍFERA, ACANTHOCEPHALA, NEMATODA, GASTROTRICHA, NEMATOMORPHA, KINORHYNCHA, LORICIFERA, PRIAPULIDA), CELOMADOS (SIPUNCULA, ECHIURA, ANNELIDA, MOLLUSCA).",
+      "hours": 75,
+      "semester": 1,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "ZO341",
+          "name": "BIOLOGIA ANIMAL II"
+        },
+        {
+          "code": "ZO375",
+          "name": "BIOLOGIA ANIMAL 3"
+        },
+        {
+          "code": "ZO333",
+          "name": "AMBIENTES CORALINOS"
+        }
+      ]
+    },
+    {
+      "name": "BIOLOGIA CELULAR",
+      "code": "HE231",
+      "ementa": "ESTUDO DA CÉLULA EUCARIÓTICA SOB O PONTO DE VISTA MORFO-FUNCIONAL. ESTUDO DAS PRINCIPAIS TÉCNICAS GERAIS E ESPECIAIS APLICADAS À BIOLOGIA CELULAR. INTRODUÇÃO DA INFORMÁTICA NO ESTUDO DA BIOLOGIA CELULAR.",
+      "hours": 45,
+      "semester": 1,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "GN320",
+          "name": "FUNDAMENTOS DA GENÉTICA"
+        }
+      ]
+    },
+    {
+      "name": "BIOMOLÉCULAS",
+      "code": "BQ310",
+      "ementa": "ESTUDAR A ESTRUTURA DOS ÁCIDOS NUCLÉICOS, AMINOÁCIDOS, PROTEÍNAS, CARBOIDRATOS, LIPÍDIOS E VITAMINAS; SABER AS FUNÇÕES, A LOCALIZAÇÃO CELULAR E AS PRINCIPAIS PROPRIEDADES FISICO-QUÍMICAS DAS BIOMOLÉCULAS E ENTENDER OS MECANISMOS DE CATÁLISE ENZIMÁTICA E DA TRANSDUÇÃO DE SINAIS QUE OCORREM NAS CÉLULAS.",
+      "hours": 45,
+      "semester": 1,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "BQ001",
+          "name": "BIOQUIMICA 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "GN320",
+          "name": "FUNDAMENTOS DA GENÉTICA"
+        }
+      ]
+    },
+    {
+      "name": "INTRODUCAO AS CIENCIAS AMBIENTAIS",
+      "code": "BO340",
+      "ementa": "A DISCIPLINA VERSARÁ SOBRE A CONSERVAÇÃO DA DIVERSIDADE BIOLÓGICA, NA ESFERA DA DUALIDADE ENTRE CONSERVAÇÃO E DESENVOLVIMENTO E ABORDARÁ ELEMENTOS ACERCA DOS EFEITOS DAS ATIVIDADES HUMANAS SOBRE AS POPULAÇÕES, COMUNIDADES E ECOSSISTEMAS, BEM COMO SOBRE AS ABORDAGENS PARA PREVENIR E/OU ATENUAR OS IMPACTOS DESSAS AÇÕES ANTRÓPICAS. ALÉM DISSO, TRATARÁ DO PAPEL DO BIÓLOGO AMBIENTAL FRENTE ÀS QUESTÕES AMBIENTAIS ATUAIS.",
+      "hours": 30,
+      "semester": 1,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SISTEMAS BIOLÓGICOS",
+      "code": "ML338",
+      "ementa": "ESTA DISCIPLINA VISA FORNECER AO ALUNO UMA VISÃO GERAL DOS NÍVEIS HIERÁRQUICO EM BIOLOGIA, NOÇÕES DE CIBERNÉTICA, HOMEOSTASIA E TEORIA DA FORMAÇÃO, CAPACITANDO-O A PERCEBER OS SISTEMAS BIOLÓGICOS DE FORMA INTEGRADA.",
+      "hours": 45,
+      "semester": 1,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN438",
+          "name": "SISTEMAS BIOLOGICOS"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IN821",
+          "name": "ESTÁGIO SUPERVISIONADO"
+        }
+      ]
+    },
+    {
+      "name": "SISTEMATICA E EVOLUCAO",
+      "code": "BO339",
+      "ementa": "ESTUDO DA ORIGEM E EVOLUÇÃO DOS ORGANISMOS. DIVERSIDADE BIOLÓGICA. TAXONOMIA E CLASSIFICAÇÃO. FILOGENIA. MÉTODOS DE CLASSIFICAÇÃO.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ANALISE CLIMATICA",
+      "code": "CG618",
+      "ementa": "CLIMATOLOGIA: CONCEITOS FUNDAMENTAIS. CLIMATOLOGIA E METEOROLOGIA.. ESCALAS GEOGRÁFICAS DO CLIMA. ELEMENTOS E FATORES DO CLIMA. RELAÇÕES TERRA-SOL. CIRCULAÇÃO ATMOSFÉRICA GERAL E SECUNDÁRIA. TIPOLOGIA CLIMÁTICA. CONDIÇÕES CLIMÁTICAS DO NORDESTE BRASILEIRO. ALTERAÇÕES E MUDANÇAS CLIMÁTICAS GLOBAIS.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ANATOMIA ANIMAL COMPARADA",
+      "code": "ZO350",
+      "ementa": "A DISCIPLINA VISA FORNECER AOS ALUNOS UM CONHECIMENTO BÁSICO SOBRE OS DIVERSOS SISTEMAS ORGÂNICOS DOS VERTEBRADOS, REALIZANDO UM ESTUDO COMPARATIVO ENTRE AS CLASSES DE MAMÍFEROS, AVES, RÉPTEIS, ANFÍBIOS E PEIXES QUE INTEGRAM O MEIO AMBIENTE.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AN212",
+          "name": "ANATOMIA ANIMAL COMPARADA"
+        },
+        {
+          "code": "ZO349",
+          "name": "ANATOMIA COMPARADA"
+        },
+        {
+          "code": "ZO368",
+          "name": "ANATOMIA COMPARADA ANIMAL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BIOLOGIA ANIMAL II",
+      "code": "ZO341",
+      "ementa": "BIOLOGIA DAS MAIS IMPORTANTES ORDENS DE VERTEBRADOS; DIAGNOSE; CLASSIFICAÇÃO; DISTRIBUIÇÃO; HISTÓRIA NATURAL ECOLOGIA; CONSERVAÇÃO.",
+      "hours": 75,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "ZO340",
+          "name": "BIOLOGIA ANIMAL I"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "ZO375",
+          "name": "BIOLOGIA ANIMAL 3"
+        }
+      ]
+    },
+    {
+      "name": "BIOTRANSFORMACOES",
+      "code": "BQ211",
+      "ementa": "CONSIDERAÇÕES GERAIS SOBRE A MATÉRIA E ENERGIA NOS SISTEMAS BIOLÓGICOS E SUAS INTERAÇÕES COM O MEIO AMBIENTE: NUTRIÇÃO E METABOLISMO; BIOENERGÉTICA; GLICÓLISE; CICLO DO CITRATO; FOSFORILAÇÃO OXIDATIVA; VIA DAS PENTOSES; GLICONEOGÊNESE; FOTOSSÍNTESE; METABOLISMO LIPÍDICO E DOS AMINOÁCIDOS; HORMÔNIOS NOS VERTEBRADOS; HORMÔNIOS VEGETAIS; INTEGRAÇÃO/REGULAÇÃO METABÓLICA; CICLO DO NITROGÊNIO; QUIMIOLITOTROFISMO E RESPIRAÇÃO ANAERÓBICA; NODULAÇÃO DE LEGUMINOSAS; COMPARTIMENTAÇÃO INTRACELULAR; BIOQUÍMICA COMPARADA.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IN821",
+          "name": "ESTÁGIO SUPERVISIONADO"
+        }
+      ]
+    },
+    {
+      "name": "ESTRUTURA VEGETAL",
+      "code": "BO341",
+      "ementa": "CARACTERIZAÇÃO DAS ESTRUTURAS REPRODUTIVAS E VEGETATIVAS DAS PLANTAS, ENFOCANDO ASPECTOS ONTOGENÉTICOS COM UMA ABORDAGEM EVOLUTIVA.",
+      "hours": 75,
+      "semester": 2,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "BO245",
+          "name": "FITOMORFOLOGIA"
+        },
+        {
+          "code": "BO247",
+          "name": "FITOMORFOLOGIA L"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "MICROBIOLOGIA",
+      "code": "ML205",
+      "ementa": "FUNGOS, BACTÉRIAS E VÍRUS: CLASSIFICAÇÃO, REPRODUÇÃO E IMPORTÂNCIA. TÉCNICAS PARA O ESTUDO DE BACTÉRIAS, FUNGOS E VÍRUS.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "MT207",
+          "name": "MICROBIOLOGIA E IMUNOLOGIA 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "ML316",
+          "name": "FUNGOS DE INTERESSE ECONÔMICO E ECOLÓGICO"
+        },
+        {
+          "code": "ML315",
+          "name": "FUNGOS LIQUENIZADOS"
+        }
+      ]
+    },
+    {
+      "name": "BIOLOGIA ANIMAL 3",
+      "code": "ZO375",
+      "ementa": "CLASSIFICAÇÃO, FILOGENIA, ORGANIZAÇÃO, BIOGEOGRAFIA, ETOLOGIA, FISIOLOGIA E ESTRATÉGIAS ADAPTATIVAS MORFO-FUNCIONAIS DOS TETRAPODA [AMPHIBIA, TESTUDINES, LEPIDOSAURIA, ARCHOSAURIA (EXCETO AVES), AVES E MAMMALIA], COMPARATIVAMENTE.",
+      "hours": 75,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "ZO340",
+          "name": "BIOLOGIA ANIMAL I"
+        },
+        {
+          "code": "ZO341",
+          "name": "BIOLOGIA ANIMAL II"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "BIOLOGIA DE FUNGOS E LIQUENS",
+      "code": "ML314",
+      "ementa": "ESTA DISCIPLINA VISA FORNECER DADOS E INFORMAÇÕES PARA O CONHECIMENTO DOS FUNGOS E LIQUENS. MORFOLOGIA, TAXONOMIA E QUÍMICA DE LIQUENS. ECOLOGIA DE FUNGOS E LIQUENS. FUNGOS NA AGRICULTURA. FUNGOS NA INDÚSTRIA. FUNGOS COMO AGENTES DE CONTROLE BIOLÓGICO. FUNGOS AQUÁTICOS. FUNGOS PRODUTORES DE ALIMENTOS. COGUMELOS COMESTÍVEIS, VENENOSOS E ALUCINO GÊNICOS. FUNGOS COMO SIMBIONTES DE PLANTAS (ENDÓFITOS E MICORRIZOS). MEDICAMENTOS ADVINDOS DE FUNGOS E PROSPECÇÃO DA MICO BIOTA.",
+      "hours": 75,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BIOLOGIA VEGETAL I",
+      "code": "BO337",
+      "ementa": "ESTUDO DOS PRINCIPAIS CARACTERÍSTICAS MORFOLÓGICAS, ESTRUTURAIS E REPRODUTIVAS DOS ORGANISMOS PROCARIOTAS E EUCARIOTAS FOTOSSINTETIZANTES, AVASCULARES E VASCULARES SEM SEMENTES. TRANSIÇÃO AMBIENTE AQUÁTICO-TERRESTRE. DISTRIBUIÇÃO GEOGRÁFICA DOS GRUPOS BIOLÓGICOS, REPRESENTATIVIDADE NO BRASIL, COM ÊNFASE À REGIÃO NORDESTE. ECOLOGIA E IMPORTÂNCIA ECOLÓGICA E ECONÔMICA DOS GRUPOS.",
+      "hours": 75,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "BO249",
+          "name": "BOTANICA CRIPTOGAMICA"
+        },
+        {
+          "code": "BO334",
+          "name": "SISTEMATICA DOS CRIPTOGAMOS"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "BO338",
+          "name": "BIOLOGIA VEGETAL II"
+        }
+      ]
+    },
+    {
+      "name": "ECOFISIOLOGIA VEGETAL",
+      "code": "BO342",
+      "ementa": "CARACTERIZAÇÃO DOS AMBIENTES DAS PLANTAS, TIPOS DE SOLO E CLIMA, BALANÇO DE CARBONO NAS PLANTAS, UTILIZAÇÃO DOS ELEMENTOS MINERAIS E RELAÇÕES HÍDRICAS. A INFLUÊNCIA DO AMBIENTE SOBRE O CRESCIMENTO E DESENVOLVIMENTO E AS ADAPTAÇÕES DAS PLANTAS SOB ESTRESSE. ECOFISIOLOGIA DA REGENERAÇÃO E SUCESSÃO FLORESTAL.",
+      "hours": 75,
+      "semester": 3,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "BO246",
+          "name": "FITOFISIOLOGIA"
+        },
+        {
+          "code": "BO248",
+          "name": "FISIOLOGIA VEGETAL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DA GENÉTICA",
+      "code": "GN320",
+      "ementa": "PRINCIPAIS MECANISMOS GENÉTICOS RESPONSÁVEIS PELA GERAÇÃO DA DIVERSIDADE BIOLÓGICA E COMO FATORES AMBIENTAIS PODEM ATUAR SOBRE A BIODIVERSIDADE. A ESTRUTURA E A ORGANIZAÇÃO DA INFORMAÇÃO GENÉTICA E SEUS MECANISMOS DE SEGREGAÇÃO SERÃO DISCUTIDOS COMO BASE DO PROCESSO ADAPTATIVO E COMO PRINCÍPIOS PARA MANUTENÇÃO E RECUPERAÇÃO DA BIODIVERSIDADE.",
+      "hours": 45,
+      "semester": 3,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "BQ310",
+          "name": "BIOMOLÉCULAS"
+        },
+        {
+          "code": "HE231",
+          "name": "BIOLOGIA CELULAR"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "METODOLOGIA CIENTIFICA",
+      "code": "ZO339",
+      "ementa": "FORNECE AO GRADUANDO UMA VISÃO GLOBAL, OBJETIVA E FILOSÓFICA DA METODOLOGIA CIENTÍFICA. ORIENTA OS ALUNOS EM INVESTIGAÇÕES ESPECÍFICAS VOLTADAS PARA CIÊNCIAS AMBIENTAIS. CAPACITA OS ALUNOS PARA A ELABORAÇÃO DE PROJETOS, REDAÇÃO E ANÁLISE CRÍTICA DE PUBLICAÇÕES.",
+      "hours": 45,
+      "semester": 3,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "ZO224",
+          "name": "MET. DE INVESTIGACAO CIENTIFICA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IN821",
+          "name": "ESTÁGIO SUPERVISIONADO"
+        }
+      ]
+    },
+    {
+      "name": "ANALISE DE DADOS I",
+      "code": "ZO342",
+      "ementa": "A DISCIPLINA APRESENTA AS NOÇÕES BÁSICAS DE ESTATÍSTICA, INCLUINDO A DESCRIÇÃO DOS DADOS (TIPOS DE DADOS, MEDIDAS, TABELAS E GRÁFICOS). NOÇÕES DE PROBABILIDADES E DISTRIBUIÇÃO NORMAL. TESTES DE HIPÓTESES, ANÁLISES UNI BI E MULTIFATORIAIS",
+      "hours": 45,
+      "semester": 4,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "BR009",
+          "name": "BIOESTATISTICA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "ZO343",
+          "name": "ANALISE DE DADOS II"
+        },
+        {
+          "code": "IN821",
+          "name": "ESTÁGIO SUPERVISIONADO"
+        }
+      ]
+    },
+    {
+      "name": "BIOLOGIA VEGETAL II",
+      "code": "BO338",
+      "ementa": "ESTUDO DA CLASSIFICAÇÃO, CARACTERIZAÇÃO MORFOLÓGICA E DIVERSIDADE DAS PLANTAS COM SEMENTES, INCLUINDO CONSIDERAÇÕES SOBRE O HABITAT, DISTRIBUIÇÃO GEOGRÁFICA E IMPORTÂNCIA ECOLÓGICA.",
+      "hours": 75,
+      "semester": 4,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "BO237",
+          "name": "SISTEMATICA DOS FANEROGAMOS"
+        },
+        {
+          "code": "BO250",
+          "name": "BOTANICA FANEROGAMICA"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "BO337",
+          "name": "BIOLOGIA VEGETAL I"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "BO348",
+          "name": "DIVERSIDADE DAS PLANTAS COM FLORES"
+        },
+        {
+          "code": "BO349",
+          "name": "PAISAGISMO NATURAL"
+        }
+      ]
+    },
+    {
+      "name": "ECOLOGIA GERAL 1",
+      "code": "BO346",
+      "ementa": "APRESENTAR E DISCUTIR OS CONCEITOS DE ECOLOGIA DE POPULAÇÕES, COMUNIDADES E ECOSSISTEMAS FORNECENDO SUBSÍDIOS PARA O DISCENTE ENTENDER OS PROCESSOS ECOLÓGICOS DO PONTO DE VISTA EVOLUTIVO.",
+      "hours": 75,
+      "semester": 4,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "ZO344",
+          "name": "ECOLOGIA GERAL I"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "ZO345",
+          "name": "ECOLOGIA GERAL II"
+        },
+        {
+          "code": "ZO377",
+          "name": "POLUIÇÃO QUÍMICA AMBIENTAL"
+        },
+        {
+          "code": "IN821",
+          "name": "ESTÁGIO SUPERVISIONADO"
+        }
+      ]
+    },
+    {
+      "name": "FISIOLOGIA ANIMAL COMPARADA",
+      "code": "FF240",
+      "ementa": "ESTA DISCIPLINA VISA FORNECER CONHECIMENTOS TEÓRICOS-PRÁTICOS DE FISIOLOGIA GERAL COM UMA ABORDAGEM COMPARATIVA DESDE OS INVERTEBRADOS ATÉ O HOMEM.",
+      "hours": 90,
+      "semester": 4,
+      "credits": 5,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "GENETICA DE POPULACOES",
+      "code": "GN238",
+      "ementa": "A GENÉTICA CONSTITUI A BASE PARA A COMPREENSÃO DO PROCESSO EVOLUTIVO E DA DIVERSIDADE ATUAL DOS SERES VIVOS. POR ISTO É FUNDAMENTAL A QUALQUER PROFISSIONAL QUE ESTEJA ENVOLVIDO COM O MANEJO DE GRUPOS DE ORGANISMOS. PODERÁ DESCREVER E, ATÉ MESMO CONSTRUIR E COMPARAR, POPULAÇÕES E GRUPOS DE INDIVÍDUOS. NESTA DISCIPLINA O PROFISSIONAL DE CIÊNCIA BIOLÓGICAS MODALIDADE CIÊNCIAS AMBIENTAIS TERÁ A OPORTUNIDADE DE COMPREENDER E MENSURAR A BIODIVERSIDADE DE MODO ÚTIL,SEJA EM MONITORAMENTOS, NA CONSTRUÇÃO DE BANCOS DE GERMOPLASMA, OU ANÁLISE DE PROCEDIMENTOS QUE ENVOLVAM ALTERAÇÕES AMBIENTAIS.",
+      "hours": 45,
+      "semester": 4,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ÉTICA NA BIOLOGIA",
+      "code": "ML333",
+      "ementa": "ABORDAGEM HISTÓRICA DA ÉTICA NA CIÊNCIA; ÉTICA NO ENSINO E NA PESQUISA DAS CIÊNCIAS BIOLÓGICAS; BIOÉTICA E MEIO AMBIENTE.",
+      "hours": 45,
+      "semester": 4,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "ML324",
+          "name": "BIOÉTICA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ADMINISTRACAO",
+      "code": "AD200",
+      "ementa": "ORGANIZAÇÃO. ESTRUTURA ADMINISTRATIVA. ADMINISTRAÇÃO DE PESSOAL; DE MATERIAL; FINANCEIRA E CONTABILIDADE; MERCADOLÓGICA E DA PRODUÇÃO.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD001",
+          "name": "INTRODUCAO A ADMINISTRACAO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ANALISE DE DADOS II",
+      "code": "ZO343",
+      "ementa": "CORRELAÇÃO E REGRESSÃO SIMPLES E MÚLTIPLA; INTRODUÇÃO ÀS ANÁLISES MULTIVARIADAS.",
+      "hours": 45,
+      "semester": 5,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "ZO342",
+          "name": "ANALISE DE DADOS I"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO AMBIENTAL",
+      "code": "PE325",
+      "ementa": "NOÇÕES PRELIMINARES: TUTELA JURÍDICA DO MEIO AMBIENTE; DIREITO AMBIENTAL BRASILEIRO: CONSTITUIÇÃO FEDERAL E MEIO AMBIENTE; O DIREITO AO MEIO AMBIENTE EQUILIBRADO E DANO AMBIENTAL; POLUIÇÃO; DANO ECOLÓGICO; REPARAÇÃO AO DANO ECOLÓGICO; ADMINISTRAÇÃO AMBIENTAL: SISTEMA E POLÍTICA NACIONAL DO MEIO AMBIENTE; PROTEÇÃO DA NATUREZA E DO PATRIMÔNIO AMBIENTAL; REMÉDIOS PROCESSUAIS PARA PROTEÇÃO DO MEIO AMBIENTE; PROTEÇÃO INTERNACIONAL DO MEIO AMBIENTE",
+      "hours": 45,
+      "semester": 5,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ECOLOGIA GERAL II",
+      "code": "ZO345",
+      "ementa": "NOÇÕES DE BIOGEOGRAFIA. ESTUDO DA CONSERVAÇÃO E MONITORAMENTO DA DIVERSIDADE BIOLÓGICA.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "BO346",
+          "name": "ECOLOGIA GERAL 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "ZO378",
+          "name": "BIOLOGIA DA CONSERVAÇÃO"
+        },
+        {
+          "code": "ZO376",
+          "name": "ECOLOGIA DE ÁGUAS CONTINENTAIS"
+        }
+      ]
+    },
+    {
+      "name": "ECONOMIA APLICADA A CIÊNCIAS AMBIENTAIS",
+      "code": "BR261",
+      "ementa": "NESTA DISCIPLINA SERÃO ABORDADOS ASPECTOS TEÓRICOS RELACIONADOS AO MEIO AMBIENTE E DESENVOLVIMENTO ECONÔMICO; SERÃO DISCUTIDOS ASPECTOS RELACIONADOS A CONSTRUÇÃO DO DESENVOLVIMENTO SUSTENTÁVEL E A IDENTIFICAÇÃO DE MECANISMOS QUE PERMITAM CONCILIAR A CONSERVAÇÃO OU AMPLIAÇÃO DA DIVERSIDADE BIOLÓGICA E A CRIAÇÃO DE EMPRESAS E EMPREGOS; ENFOQUES ¿NEOCLÁSSICO¿ E DA ¿ECONOMIA ECOLÓGICA¿ SOBRE O MEIO AMBIENTE, DESTACANDO SEUS LIMITES E DEFICÊNCIAS; ASPECTOS METODOLÓGICOS DA VALORAÇÃO ECONÔMICA AMBIENTAL; TRATA DA EVOLUÇÃO DA POLÍTICA GLOBAL DO CLIMA, FOCANDO EM PARTICULAR OS INSTRUMENTOS ECONÔMICOS DE FLEXIBILIZAÇÃO A CONSERVAÇÃO DE MUDANÇA CLIMÁTICA; ABORDA A QUESTÃO ENERGÉTICA SOB O PONTO DE VISTA DOS PADRÕES DE CONSUMO, NO CONTEXTO DE MUDANÇAS AMBIENTAIS GLOBAIS; A RELAÇÃO DA ECONOMIA COM UMA AGRICULTURA CONDUZIDA DE MODO SUSTENTÁVEL; ABORDA A ECONOMIA DOS RECURSOS HÍDRICOS, COMO FOCO EM INSTRUMENTO DE GESTÃO.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EC001",
+          "name": "ECONOMIA 1"
+        },
+        {
+          "code": "EC217",
+          "name": "ECONOMIA DAS EMPRESAS"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "EDUCACAO NO MUNDO ATUAL",
+      "code": "SF431",
+      "ementa": "ABORDA OS PRINCIPAIS DESAFIOS POSTOS PARA OS PROCESSOS EDUCATIVOS CONTEMPORÂNEOS, TENDO EM VISTA: O PADRÃO DAS TRANSFORMAÇÕES TECNOLÓGICAS, O DESENVOLVIMENTO, AS QUESTÕES DO MEIO AMBIENTE, O PAPEL DO CONHECIMENTO E OS REQUERIMENTOS DE FORMAÇÃO E DE SOCIABILIDADE.",
+      "hours": 45,
+      "semester": 5,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "POPULACAO E AMBIENTE",
+      "code": "CG619",
+      "ementa": "IMPORTÂNCIA DO ESTUDO DA POPULAÇÃO. POPULAÇÃO MUNDIAL E CRESCIMENTO. DISTRIBUIÇÃO ESPACIAL DA POPULAÇÃO. ESTRUTURA DA POPULAÇÃO. POPULAÇÃO E DESENVOLVIMENTO. EVOLUÇÃO HISTÓRICA DA POPULAÇÃO HUMANA E IMPACTOS DA OCUPAÇÃO. CIVILIZAÇÃO URBANO-INDUSTRIAL E DEGRADAÇÃO AMBIENTAL.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BIOLOGIA DA CONSERVAÇÃO",
+      "code": "ZO378",
+      "ementa": "PROVER BASES TEÓRICAS E PRÁTICAS PARA O ESTUDO CIENTÍFICO DA BIODIVERSIDADE DO PLANETA, SEU STATUS DE CONSERVAÇÃO, AMEAÇAS E PERSPECTIVAS, COM O OBJETIVO DA PROTEÇÃO DE ESPÉCIES, SEUS HABITATS E ECOSSISTEMAS.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "ZO367",
+          "name": "BIOLOGIA DA CONSERVAÇÃO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "ZO345",
+          "name": "ECOLOGIA GERAL II"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ECOLOGIA DE ÁGUAS CONTINENTAIS",
+      "code": "ZO376",
+      "ementa": "A DISCIPLINA VISA FORNECER SUBSÍDIO PARA QUE O ALUNO COMPREENDA A IMPORTÂNCIA DOS ECOSSISTEMAS AQUÁTICOS INTERIORES, SUA CONSERVAÇÃO, MANUTENÇÃO E RECUPERAÇÃO DESTES SISTEMAS.",
+      "hours": 45,
+      "semester": 6,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "ZO345",
+          "name": "ECOLOGIA GERAL II"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "GEOPROCESSAMENTO",
+      "code": "CA419",
+      "ementa": "CONCEITO CARTOGRAFIA. SISTEMA DE CARTOGRAFIA. SISTEMA DE PROJEÇÃO CARTOGRÁFICA. SISTEMAS DE COORDENADAS. PROJETO CARTOGRÁFICO. ESTRUTURA DE DADOS ESPACIAIS. CARTOGRAFIA TEMÁTICA DIGITAL. ERROS, PRECISÃO ACURACIDADE. GEODÉSIA. TOPOGRAFIA. FOTOGRAMETRIA. SENSORIAMENTO REMOTO. MODELOS DE DADOS. SISTEMAS DE GERENCIADORES DE BANCOS DE DADOS. PROJETOS DE SISTEMAS DE GEOINFORMAÇÃO. TÉCNICAS DE MODELAGEM CARTOGRÁFICA. GEOCODIFICAÇÃO DE SISTEMAS DE GEOINFORMAÇÃO. METODOLOGIAS DE ANÁLISES ESPACIAIS. MÉTODO E PROCESSOS PARA EXIBIÇÃO DE RESULTADOS.",
+      "hours": 75,
+      "semester": 6,
+      "credits": 5,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "MEIO AMBIENTE E SOCIEDADE",
+      "code": "CS518",
+      "ementa": "NATUREZA E SOCIEDADE: OS PROCESSOS SIMBÓLICOS E MATERIAIS DE APROPRIAÇÃO DA NATUREZA. CULTURA, TRABALHO E NATUREZA. A NATUREZA ENQUANTO CATEGORIA CIENTÍFICA DAS HUMANIDADES, ESPECIALMENTE DAS CIÊNCIAS SOCIAIS (COM ÊNFASE NA SOCIOLOGIA). A POLITIZAÇÃO DA NATUREZA, OS CONFLITOS SOCIOAMBIENTAIS E OS PODERES PÚBLICOS. NATUREZA E A QUESTÃO DA DISCIPLINARIDADE, INTERDISCIPLINARIDADE E MULTIDISCIPLINARIDADE. TESES E ANTÍTESES SOBRE A NOÇÃO DE DESENVOLVIMENTO SUSTENTÁVEL, CRISE AMBIENTAL E GESTÃO DOS RECURSOS NATURAIS. CLASSES SOCIAIS, DESIGUALDADES, MODO DE VIDA E NATUREZA. CAPITALISMO, GLOBALIZAÇÃO E ECOLOGIA.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "POLUIÇÃO QUÍMICA AMBIENTAL",
+      "code": "ZO377",
+      "ementa": "CONCEITOS DA POLUIÇÃO DE ORIGEM ANTROPOGÊNICA NOS DIFERENTES ECOSSISTEMAS COM ÊNFASE NA INTEGRAÇÃO QUÍMICA E BIOLÓGICA PARA ANÁLISE DE RISCO ECOLÓGICO. SERÃO DISCUTIDAS AS FONTES E CARACTERÍSTICAS DOS PRINCIPAIS CONTAMINANTES QUÍMICOS QUE DETERMINAM A SUA DISTRIBUIÇÃO NO AMBIENTE. TAMBÉM SERÃO ABOSDADOS OS EFEITOS BIOLÓGICOS ATRAVÉS DE BIOMARCADORES E BIOINDICADORES ECOTOXICOLÓGICOS.",
+      "hours": 45,
+      "semester": 6,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "BO346",
+          "name": "ECOLOGIA GERAL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "POLÍTICA E GESTÃO DO MEIO-AMBIENTE",
+      "code": "BO377",
+      "ementa": "HISTÓRICO DAS RELAÇÕES HUMANAS E O MEIO-AMBIENTE. EDUCAÇÃO PARA SUSTENTABILIDADE. CONSUMO SUSTENTÁVEL. IMPACTOS AMBIENTAIS E LICENCIAMENTO. GESTÃO DE EMPRESAS. GESTÃO DE UNIDADES DE CONSERVAÇÃO. GESTÃO NAS CIDADES. GESTÃO DOS RECURSOS HÍDRICOS E COSTEIROS. GESTÃO DA PAISAGEM. POLÍTICAS AMBIENTAIS NACIONAIS E INTERNACIONAIS.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EP070",
+          "name": "POLITICA E GESTAO AMBIENTAL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ECOLOGIA DE SISTEMAS MARINHOS",
+      "code": "OC412",
+      "ementa": "PRINCIPAIS FATORES QUE REGEM O AMBIENTE COSTEIRO/MARINHO; CONCEITOS E CARACTERÍSTICAS DOS PRINCIPAIS AMBIENTES COSTEIROS (ESTUÁRIO, MANGUEZAL, PRADO DE FANERÓGAMAS, RECIFES, PRAIAS E COSTÃO ROCHOSO) E MARINHOS (ILHAS E MONTES SUBMARINOS, RESSURGÊNCIA E MAR PROFUNDO); RELAÇÕES ECOLÓGICAS NOS SISTEMAS MARINHOS; VULNERABILIDADE DOS AMBIENTES MARINHOS; ESTRATÉGIAS DE CONSERVAÇÃO.",
+      "hours": 45,
+      "semester": 7,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ESTÁGIO SUPERVISIONADO",
+      "code": "IN821",
+      "ementa": "FORMULAÇÃO DO PROJETO E APRESENTAÇÃO DE RESULTADOS PRELIMINARES.",
+      "hours": 180,
+      "semester": 7,
+      "credits": 9,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN439",
+          "name": "ESTAGIO SUPERVISIONADO I"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "BO346",
+          "name": "ECOLOGIA GERAL 1"
+        },
+        {
+          "code": "BQ211",
+          "name": "BIOTRANSFORMACOES"
+        },
+        {
+          "code": "ML338",
+          "name": "SISTEMAS BIOLÓGICOS"
+        },
+        {
+          "code": "ZO339",
+          "name": "METODOLOGIA CIENTIFICA"
+        },
+        {
+          "code": "ZO342",
+          "name": "ANALISE DE DADOS I"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "IN820",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO"
+        }
+      ]
+    },
+    {
+      "name": "TRABALHO DE CONCLUSÃO DE CURSO",
+      "code": "IN820",
+      "ementa": "DESENVOLVIMENTO DE PESQUISA, REDAÇÃO E APRESENTAÇÃO DO TRABALHO DE CONCLUSÃO DE CURSO(TCC).",
+      "hours": 360,
+      "semester": 8,
+      "credits": 18,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "IN821",
+          "name": "ESTÁGIO SUPERVISIONADO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "AGROECOLOGIA E MANEJO DA DIVERSIDADE MICROBIANA DO SOLO",
+      "code": "ML339",
+      "ementa": "PROBLEMAS DA AGRICULTURA CONVENCIONAL SOB OS ASPECTOS ECOLÓGICOS, ECONÔMICOS E SOCIAIS. AGROECOLOGIA: CONCEITOS E PRINCÍPIOS. A TRANSIÇÃO AGROECOLÓGICA. AGRICULTURA DE BASE ECOLÓGICA. A IMPORTÂNCIA DA MATÉRIA ORGÂNICA NO SOLO. FORMAS DE MANEJO VISANDO O AUMENTO DA BIODIVERSIDADE DO SOLO E RELAÇÕES PLANTA - MICRO - ORGANISMOS. RELAÇÕES DA FAMÍLIAS AGRICULTORAS COM A NATUREZA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "AMBIENTES CORALINOS",
+      "code": "ZO333",
+      "ementa": "AMBIENTE CORALINOS: CARACTERÍSTICAS, USOS E IMPACTOS ASSOCIADOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "ZO340",
+          "name": "BIOLOGIA ANIMAL I"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ANÁLISE DA BIODIVERSIDADE",
+      "code": "ZO394",
+      "ementa": "MÉTODOS DE ANÁLISE PARA ESTUDOS DE DIVERSIDADE, INCLUINDO ANÁLISES UNI E BIVARIADAS.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "APLICAÇÕES TECNOLÓGICAS DE BIOMOLÉCULAS",
+      "code": "BQ324",
+      "ementa": "FORNECER AO ALUNO CONHECIMENTO DOS FUNDAMENTOS BIOQUÍMICOS DE PROCESSOS BIOTECNOLÓGICOS. PROPORCIONAR AO ALUNO UMA VISÃO DO EMPREGO DE BIOMOLÉCULAS EM TECNOLOGIAS MODERNAS E DE GRANDE RELEVÂNCIA ATUAL. PROMOVER UMA DISCUSSÃO ATUALIZADA E CRÍTICA DAS PERSPECTIVAS MUNDIAIS NA ERA DA BIOTECNOLOGIA DO PONTO DE VISTA SÓCIO-ECONÔMICO-AMBIENTAL.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "AQUICULTURA ORGÂNICA",
+      "code": "ZO392",
+      "ementa": "PROJETOS DE AQUICULUTURA ORGÂNICA. CULTIVOS DE ORGANISMOS AQUÁTICOS, COM ÊNFASE NAS ESPÉCIES NATIVAS. SITUAÇÃO ATUAL DA AQUICULTURA ORGÂNICA NO BRASIL. IMPACTOS E BENEFÍCIOS. MANEJO. DESPESCAS, COMERCIALIZAÇÃO E BENEFICIAMENTO.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ARTRÓPODES - SAÚDE E AMBIENTE URBANO",
+      "code": "ZO358",
+      "ementa": "CONHECIMENTO SOBRE A INTER-RELAÇÃO ENTRE AS ALTERAÇÕES AMBIENTAIS E DIFERENTES ASPECTOS DA SAÚDE PÚBLICA COMO PROLIFERAÇÃO DE VETORES E AUMENTO DE DOENÇAS VEICULADAS POR ARTRÓPODES.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BIODEGRADAÇÃO",
+      "code": "AT271",
+      "ementa": "CONHECIMENTOS BÁSICOS DE BIODEGRADAÇÃO, ASPECTOS: MICROBIOLÓGICO, QUÍMICO, AMBIENTAL E TECNOLÓGICO.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BIOFISICA AMBIENTAL",
+      "code": "BR246",
+      "ementa": "COMPONENTES CLIMÁTICOS DA BIOSFERA; CONDICIONANTES FÍSICOS AMBIENTAIS: TEMPERATURA, RADIAÇÕES; AQUECIMENTO GLOBAL: EFEITO ESTUFA; PERTURBAÇÕES DE ECOSSISTEMAS POLUENTES FÍSICOS E FÍSICO-QUÍMICOS; MECANISMOS FÍSICOS DE DESPOLUIÇÃO AMBIENTAL; MEDIDAS DE PREVENÇÃO: NORMAS DE SEGURANÇA; IMPACTO AMBIENTAL ESTRUTURAS PRODUTIVAS DO PONTO DE VISTA FÍSICO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BIOGEOGRAFIA HISTÓRICA",
+      "code": "BO385",
+      "ementa": "CONCEITO DE ÁREAS DE ENDEMISMO E BIOGEOGRÁFICA DE VICARIÂNCIA, MÉTODOS E APLICAÇÕES DE PAN-BIOGEOGRAFIA, ANÁLISE DE PACIMÔNIA DE ENDEMICIDADE, BIOGEOGRAFIA CLADÍSTICA, DATAÇÃO E FILOGEOGRAFIA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BIOLOGIA DA REPRODUÇÃO ANIMAL",
+      "code": "BQ323",
+      "ementa": "O OBJETIVO É AUMENTAR A COMPREENÇÃO DO FUNCIONAMENTO REPRODUTIVO DE AVES E MAMÍFEROS, VISUALIZAR A APLICAÇÃO DO CONHECIMENTO BÁSICO NAS FUTURAS ÁREAS DE ATUAÇÃO DOS ALUNOS COMO POR EXEMPLO NA ÁREA DE CONSERVAÇÃO DE RECURSOS GENÉTICOS, REPRODUÇÃO ASSISTIDA, MONITORAMENTO E MANEJO DE ANIMAIS EM DIFERENTES AMBIENTES. TAMBÉM, ESTA DISCIPLINA OPORTUNIZA APLICAÇÃO EM ATIVIDADES DE PESQUISA, ENSINO E EXTENSÃO. TÓPICOS ESPECIAIS RELACIONADOS À EFEITO AMBIENTAIS SOBRE A EFICIÊNCIA REPRODUTIVA DAS ESPÉCIES TAMBÉM FAZEM PARTE DO PROGRAMA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BIOLOGIA EVOLUTIVA",
+      "code": "ZO355",
+      "ementa": "CONCEITOS BÁSICOS DA BIOLOGIA EVOLUTIVA; OS PRINCIPAIS EVENTOS DA HISTÓRIA DA VIDA E OS PADRÕES E PROCESSOS OBSERVADOS NA NATUREZA; OS PRINCIPAIS TÓPICOS RELACIONADOS AO ESTUDO DA EVOLUÇÃO, PROCESSOS DE FORMAÇÃO E EVOLUÇÃO DA DIVERSIDADE BIOLÓGICA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BIOQUÍMICA E TECNOLOGIA AMBIENTAL",
+      "code": "BQ325",
+      "ementa": "FORNECER AO ALUNO O CONHECIMENTO DOS FUNDAMENTOS BIOQUÍMICOS DE PROCESSOS BIOTECNOLÓGICOS LIGADOS À TECNOLOGIA AMBIENTAL (EX.: BIORREMEDIAÇÃO, BIODEGRADAÇÃO, TRATAMENTO DE EFLUENTES E ÁGUAS RESIDUÁRIAS, PROCESSOS DE CONVERSÃO DE BIOMASSA EM ENERGIA ETC.). PROPORCIONAR AO ALUNO UMA VISÃO DAS TECNOLOGIAS AMBIENTAIS MAIS MODERNAS E RELEVANTES. PROMOVER UMA DISCUSSÃO ATUALIZADA E CRÍTICA DAS PERSPECTIVAS MUNDIAIS NA ERA DA BIOTECNOLOGIA DO PONTO DE VISTA SÓCIO-ECONÕMICO-AMBIENTAL.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CNIDARIA E MEIO AMBIENTE",
+      "code": "ZO386",
+      "ementa": "CNIDÁRIOS E SUA IMPORTÂNCIA NO MEIO AMBIENTE COMO: BIOINDICADORES DE HIDROCARBURETOS, EXCESSO DE SEDIMENTOS, MUDANÇAS CLIMÁTICAS, ENTRE OUTROS, ALÉM DE SUA CONTRIBUIÇÃO MÉDICO-FARMACOLÓGICA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CONSULTORIA - RELATÓRIOS AMBIENTAIS",
+      "code": "ZO352",
+      "ementa": "REALIZAÇÃO DE CONSULTORIAS, VERIFICAÇÃO DO AMBIENTE; ELABORAÇÃO DE RELATÓRIOS AMBIENTAIS; MEDIDAS MITIGADORAS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "DIVERSIDADE DAS PLANTAS COM FLORES",
+      "code": "BO348",
+      "ementa": "ESTUDO DA DIVERSIDADE DAS MAGNOLIOPHYTHA (PLANTAS COM FLORES), CARACTERIZAÇÃO MORFOLÓGICA E RECONHECIMENTO DE FAMÍLIAS E GÊNEROS REPRESENTATIVOS DA FLORA REGIONAL; ELEBORAÇÃO DE CHAVES DE IDENTIFICAÇÃO E DESCRIÇÕES.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "BO338",
+          "name": "BIOLOGIA VEGETAL II"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ECOLOGIA DE PRAIA",
+      "code": "ZO334",
+      "ementa": "DEFINIÇÃO DE PRAIA; INTRODUÇÃO AO AMBIENTE DE PRAIA COMO ECOSSISTEMA; CARACTERÍSTICAS FÍSICO-QUIMICAS, SEDIMENTOLÓGICAS E MORFODINÂMICAS DE AMBIENTES DE PRAIA; CARACTERIZAÇÃO E ESTRUTURA DAS COMUNIDADES BIOLÓGICAS EM PRAIAS ARENOSAS; ZONACAO E MIGRAÇÕES: ADAPTAÇÕES AO AMBIENTE DE PRAIA; INTRODUÇÃO ÀS TÉCNICAS DE ESTUDO DE PRAIAS ARENOSAS.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ECOLOGIA NÚMERICA",
+      "code": "ZO393",
+      "ementa": "DIMENSIONAMENTO AMOSTRAL; COEFICIENTES DE ASSOCIAÇÃO; MÉTODOS DE ORDENAÇÃO; ANÁLISE DISCRIMINANTE MÚLTIPLA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ECOPEDAGOGIA",
+      "code": "BO351",
+      "ementa": "AS FASES DO DESENVOLVIMENTO HUMANO. O EDUCADOR E SUA AUTO-EDUCAÇÃO. A EDUCAÇÃO PARA A CIDADANIA PLANETÁRIA. CULTURA DA SUSTENTABILIDADE. ECOPEDAGOGIA E EDUCAÇÃO AMBIENTAL. CORRENTES PEDAGÓGICAS SUSTENTÁVEIS E SOLIDÁRIAS. A PRESERVAÇÃO DO MEIO AMBIENTE A MELHORA DA QUALIDADE DE VIDA. CONSTRUÇÃO DE NOVOS PARADIGMAS NA EDUCAÇÃO. ECOPSICOLOGIA. TRANSDICIPLINARIEDADE.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "EVOLUCAO DAS PAISAGENS",
+      "code": "CG620",
+      "ementa": "CONCEITOS DE PAISAGEM UNIDADES DE PAISAGEM E GEOSSISTEMAS. ANALISE MORFOESTRUTURAL E MORFOCLIMÁTICA DE PAISAGENS. RELAÇÕES CLIMA-SOLO-PLANTA NA ANÁLISE INTEGRADA DE PAISAGENS. IMPACTOS AMBIENTAIS ADVINDOS DA OCUPAÇÃO HUMANA DAS PAISAGENS. DINÂMICA ATUAL DE PAISAGENS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FERRAMENTAS MOLECULARES APLICADAS ÀS CIÊNCIAS AMBIENTAIS",
+      "code": "AT290",
+      "ementa": "A DISCIPLINA PROPÕE REVISAR OS CONCEITOS BÁSICOS DE BIOLOGIA MOLECULAR E INTRODUZIR A APLICAÇÃO DE SUAS FERRAMENTAS NAS DIVERSAS ANÁLISES DO MEIO AMBIENTE.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DE ECOTOXICOLOGIA",
+      "code": "ZO354",
+      "ementa": "INTRODUZIR OS CONCEITOS BÁSICOS DE TOXICOLOGIA NO CONTEXTO AMBIENTAL, COM ABORDAGEM DAS BASES BIOLÓGICAS DE DIFERENTES TIPOS DE BIOMARCADORES E BIOINDICADORES UTILIZADOS EM ECOTOXICOLOGIA,ENFOCANDO SUAS APLICAÇÕES E LIMITAÇÕES.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DE SOLOS APLICADO AS CIÊNCIAS",
+      "code": "BR264",
+      "ementa": "NESTA DISCIPLINA SERÃO ABORDADOS ASPECTOS RELACIONADOS AOS PRINCÍPIOS BÁSICOS E CONCEITOS DO SOLO, VISANDO ENTENDE-LO COMO PARTE DOS SISTEMAS NATURAIS QUE COMPÕEM O AMBIENTE GLOBAL E A IMPORTÂNCIA DO SEU MANEJO ADEQUADO PARA A QUALIDADE AMBIENTAL. SERÃO DISCUTIDOS OS PRINCIPAIS FUNDAMENTOS DA CIÊNCIA DO SOLO, ENFATIZANDO OS FATORES DE FORMAÇÃO DO SOLO, CLASSES GERAIS DE SOLO DO BRASIL, AS PRINCIPAIS PROPRIEDADES FÍSICAS E QUÍMICAS DOS SOLOS TROPICAIS E SEUS IMPACTOS NA PRODUTIVIDADE VEGETAL; SERÁ TRATADO O SOLO COMO ECOSSISTEMA, ABORDANDO A BIOLOGIA DO SOLO, FERTILIDADE DO SOLO E SUA RELAÇÃO COM O MANEJO SUSTENTÁVEL DE FLORESTAS E DE UMA AGRICULTURA GERADORA DE MENOS IMPACTOS AMBIENTAIS. ALÉM DISSO, SERÃO ABORDADOS ASPECTOS RELACIONADOS AO SOLO COMO MEIO DE DESCARTE DE RESÍDUOS E SUA CONSEQUENTE POLUIÇÃO POR RESÍDUOS INDUSTRIAIS E AGRÍCOLAS.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNGOS DE INTERESSE ECONÔMICO E ECOLÓGICO",
+      "code": "ML316",
+      "ementa": "FUNGOS SAPRÓBIOS E PARASITAS BENÉFICOS E MALÉFICOS PARA OS DEMAIS SERES VIVOS E O AMBIENTE; FUNGOS SIMBIONTES E COMENSAIS E IMPORTÂNCIA DOS FUNGOS PARA OS SERES HUMANOS.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "ML205",
+          "name": "MICROBIOLOGIA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "FUNGOS LIQUENIZADOS",
+      "code": "ML315",
+      "ementa": "CARACTERES TAXONÔMICOS, SISTEMÁTICA E CLASSIFICAÇÃO DOS FUNGOS LIQUENIZADOS; CARACTERIZAÇÃO DO FOTOBIONTE E SUA RELAÇÃO COM O MICOBIONTE; TÉCNICAS DE COLETA, CONSERVAÇÃO E HERBORIZAÇÃO; ECOLOGIA E DISTRIBUIÇÃO; BIOINDICAÇÃO E BIOMONITORAMENTO DA QUALIDADE DE AR; USO DE LÍQUENS NA ALIMENTAÇÃO, COMO CORANTES E NA PERFUMARIA; COMPOSTOS LIQUÊNICOS PRIMÁRIOS E SECUNDÁRIOS; ATIVIDADES ANTIBACTERIANA E ANTITUMORAL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "ML205",
+          "name": "MICROBIOLOGIA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "GEOMORFOLOGIA DE AMBIENTES UMIDOS SEMI-ARIDOS",
+      "code": "CG621",
+      "ementa": "NOÇÕES SOBRE SISTEMAS E DOMÍNIOS MORFOCLIMATICOS. OS AMBIENTES TROPICAIS ÚMIDOS: CARACTERÍSTICAS E MORFOGÊNESE DO RELEVO TERRESTRE. PROBLEMAS AMBIENTAIS DAS ÁREAS TROPICAIS ÚMIDAS. OS AMBIENTES SECOS, CARACTERÍSTICAS E MORFOGÊNESE DO RELEVO TERRESTRE. UNIDADE GEOAMBIENTAIS DO SEMI ÁRIDO NORDESTINO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTOLOGIA COMPARADA",
+      "code": "HE233",
+      "ementa": "ESTUDO COMPARATIVO DA MORFOLOGIA E HISTOFISIOLOGIA DOS SISTEMAS NAS DIFERENTES CLASSES DE VERTEBRADOS. PREPARAÇÃO DE MATERIAL BIOLÓGICO PARA OBSERVAÇÃO EM MICROSCOPIA DE LUZ.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO A LIBRAS",
+      "code": "LE716",
+      "ementa": "REFLEXÃO SOBRE OS ASPECTOS HISTÓRICOS DA INCLUSÃO DAS PESSOAS SURDAS NA SOCIEDADE EM GERAL E NA ESCOLA; A LIBRAS COMO LÍNGUA DE COMUNICAÇÃO SOCIAL EM CONTEXTO DE COMUNICAÇÃO ENTRE PESSOAS SURDAS E COMO SEGUNDA LÍNGUA. ESTRUTURA LINGUÍSTICA E GRAMATICAL DE LIBRAS. ESPECIFICIDADES DA ESCRITA DO ALUNO SURDO. NA PRODUÇÃO DE TEXTO EM LÍNGUA PORTUGUESA. O INTÉRPRETE E A INTERPRETAÇÃO COMO FATOR DE INCLUSÃO E ACESSO EDUCACIONAL PARA OS ALUNOS SURDOS OU COM BAIXA AUDIÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO À LÓGICA: MODOS DE PENSAR NA CIÊNCIA",
+      "code": "BO384",
+      "ementa": "DISCUTIR E ARGUMENTAR NO DEBATE CIENTÍFICO; CONHECER DE LÓGICA; SABER AVALIAR UM ARGUMENTO VÁLIDO OU INVÁLIDO, CORRETO OU INCORRETO, SEGUNDO AS LEIS DO PENSAMENTO.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "MANEJO E CONSERVAÇÃO DE SOLOS",
+      "code": "BR268",
+      "ementa": "O MANEJO E A CONSERVAÇÃO DE SOLOS NO BRASIL. FUNDAMENTOS BÁSICOS PARA O MANEJO E A CONSEVAÇÃO DO SOLO E ÁGUA E PRESERVAÇÃO AMBIENTAL. CONCEITOS DE HIDROLOGIA APLICADA À CONSERVAÇÃO DE SOLOS E MEIO AMBIENTE. EROSÃO DO SOLO. DEGRADAÇÃO E RECUPERAÇÃO DA PRODUTIVIDADE DO SOLO. MANEJO DE SOLOS TROPICAIS. CONTROLE DA EROSÃO.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "MONITORAMENTO AMBIENTES AQUATICOS",
+      "code": "OC413",
+      "ementa": "CAPACITAR O ALUNO PARA PROCEDER O MONITORAMENTO DOS AMBIENTES AQUÁTICOS, ATRAVÉS DE DIVERSOS PARÂMETROS FÍSICO-QUIMICOS DE ANÁLISE, COMO TAMBÉM A ANÁLISE DE TRAÇOS EM TECIDO BIOLÓGICO E EM SEDIMENTOS PRESENTES NO REFERIDO AMBIENTE.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PAISAGISMO NATURAL",
+      "code": "BO349",
+      "ementa": "ESTUDO DE ESPÉCIES NATIVAS ORNAMENTAIS PARA A ELABORAÇÃO DE PROJETOS DE JARDINS QUE TENTAM RECRIAR A PAISAGEM NATURAL.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "BO338",
+          "name": "BIOLOGIA VEGETAL II"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "SISTEMÁTICA E BINOMIA DE INSETOS",
+      "code": "ZO356",
+      "ementa": "CONHECIMENTO DOS PRINCIPAIS GRUPOS DAS ORDENS DE INSETOS HOLOMETÁBOLOS, COM ÊNFASE EM COMPORTAMENTO, MORFOLOGIA EXTERNA E INTERNA, IDENTIFICAÇÃO E MÉTODOS DE COLETA, CRIAÇÃO E PRESERVAÇÃO.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TEMAS EM ECOLOGIA",
+      "code": "BO347",
+      "ementa": "APRESENTAR E DISCUTIR TEMAS RELEVANTES E ESSENCIAIS PARA A FORMAÇÃO DE PROFISSIONAIS EM ECOLOGIA DE MANEIRA A PERMITIR TREINAMENTO DIDÁTICO, SISTEMATIZAÇÃO DO CONHECIMENTO E AUTONOMIA INTELECTUAL, FAVORECENDO A RELAÇÃO CONHECIMENTO-PESQUISA-ENSINO.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "UNIDADES DE CONSERVAÇÃO",
+      "code": "ZO353",
+      "ementa": "UNIDADES DE CONSERVAÇÃO E SEUS ASPECTOS LEGAIS, PROTEÇÃO, USO SUSTENTÁVEL, O EXERCÍCIO DA PROFISSÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    }
+  ]
+}

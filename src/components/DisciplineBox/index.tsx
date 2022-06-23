@@ -12,6 +12,10 @@ import {
   UnorderedList,
   ListItem,
   Flex,
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
 } from '@chakra-ui/react';
 import { AiOutlineLock } from 'react-icons/ai';
 import { DisciplineBoxProps } from '../../models/Curriculum';
@@ -49,6 +53,7 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
     id,
     name,
     hours,
+    ementa,
     credits,
     isActive,
     semester,
@@ -88,15 +93,18 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
     <Box
       id={id}
       as="button"
-      onClick={handleClick}
       bgColor={colorMode === 'light' ? bgColor : bgColorDark}
       borderRadius="lg"
       borderWidth="1px"
       m="3"
       overflow="hidden"
       width="300px"
+      display={'flex'}
+      alignItems={'center'}
+      flexDirection={'column'}
+      justifyContent={'space-between'}
     >
-      <Box p="4">
+      <Box p="4" onClick={handleClick}>
         <Flex alignItems="center">
           <Badge
             borderRadius="full"
@@ -154,31 +162,46 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
           )}
         </Flex>
 
-        <Box
-          overflow="hidden"
-          as="h4"
-          fontWeight="semibold"
-          mt="1"
-          whiteSpace="nowrap"
-          textOverflow="ellipsis"
-        >
-          {name}
+        <Box mt="1" as="h4" fontWeight="semibold" whiteSpace="pre-wrap">
+          {id} - {name}
         </Box>
 
-        <Box>
-          {hours}
-          <Box as="span" color="gray.600" fontSize="sm">
-            HRs
+        <Flex gap={2} justifyContent={'center'}>
+          <Box>
+            {hours}
+            <Box as="span" color="gray.600" fontSize="sm">
+              HRs
+            </Box>
           </Box>
-        </Box>
-
-        <Box>
-          {credits}
-          <Box as="span" color="gray.600" fontSize="sm" ml="1">
-            crédito(s)
+          <Box>
+            {credits}
+            <Box as="span" color="gray.600" fontSize="sm" ml="1">
+              crédito(s)
+            </Box>
           </Box>
-        </Box>
+        </Flex>
       </Box>
+      <Accordion
+        allowToggle
+        width="100%"
+        bg="var(--chakra-colors-chakra-body-bg)"
+        boxShadow="0px -2px 5px #eee"
+      >
+        <AccordionItem>
+          {({ isExpanded }) => (
+            <>
+              <AccordionButton>
+                {isExpanded ? (
+                  <Box margin="auto">Esconder Ementa</Box>
+                ) : (
+                  <Box margin="auto">Mostrar Ementa</Box>
+                )}
+              </AccordionButton>
+              <AccordionPanel>{ementa}</AccordionPanel>
+            </>
+          )}
+        </AccordionItem>
+      </Accordion>
     </Box>
   );
 };

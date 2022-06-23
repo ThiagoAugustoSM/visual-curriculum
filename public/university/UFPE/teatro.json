@@ -1,0 +1,873 @@
+{
+  "university": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+  "course": "TEATRO",
+  "semesters": 8,
+  "totalHours": 2940,
+  "totalHoursElective": 540,
+  "totalHoursObligatory": 2400,
+  "disciplines": [
+    {
+      "name": "CONSCIÊNCIA CORPORAL E EXPRESSÃO ARTÍSTICA",
+      "code": "AR539",
+      "ementa": "VIVÊNCIA DE ESTRATÉGIAS DE IMPROVISAÇÃO COM BASE EM NOÇÕES COMO DANÇA CRAITIVA, DANÇA LIVRE, DANÇA EXPRESSIVA, DANÇA ESPONTÃNEA E JOGOS CORPORAIS. ESTUDO DOS DIFERENTES SEGMENTOS DO APARELHO LOCOMOTOR A PARTIR DE AÇÕES FUNDAMENTAIS. DESENVOLVIMENTO DAS HABILIDADES TÉCNICO-INTERPRETATIVAS, PROMOVENDO UMA CONSCIÊNCIA ESPACIAL E CORPORAL E UM APERFEIÇOAMENTO NA VARIEDADE DINÂMICA E NA EXPRESSÃO ARTÍSTICA.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR421",
+          "name": "EXPRESSAO CORPORAL 1A"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DA ARTE-EDUCAÇÃO",
+      "code": "AR570",
+      "ementa": "ESTUDO DAS IDÉIAS QUE CONTRIBUÍRAM PARA A ELABORAÇÃO DO CONCEITO DE ARTE-EDUCAÇÃO E PARA A SUA CONSOLIDAÇÃO COMO ATIVIDADE PROFISSIONAL NO MUNDO CONTEMPORÂNEO.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR015",
+          "name": "FUNDAMENTOS DA ARTE-EDUCACAO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DA EDUCAÇÃO",
+      "code": "SF451",
+      "ementa": "INTRODUÇÃO À ANÁLISE E DISCUSSÃO DO FENÔMENO EDUCATUVO, CONSIDERANDO AS RELAÇÕES ENTRE EDUCAÇÃO E SOCIEDADE A PARTIR DE UMA REFLEXÃO TEÓRICA, INSTRUMENTANDO O ALUNO PARA A COMPREENSÃO DE SUA FORMAÇÃO E PRÁTICA COMO EDUCADOR E PARA O ENFRENTAMENTO TEÓRICO-PRÁTICO DAS PRINCIPAIS QUESTÕES RELATIVAS À EDUCAÇÃO BRASILEIRA NUMA PERSPECTIVA CRITICA E TRANSFORMADORA.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DA LINGUAGEM TEATRAL",
+      "code": "AR579",
+      "ementa": "ESTUDO DOS ELEMENTOS EXPRESSIVOS QUE CONSTITUEM A LINGUAGEM TEATRAL, SUAS CARACTERÍSTICAS E CONTRIBUIÇÕES ESTÉTICAS À ARTE DO TEATRO.",
+      "hours": 30,
+      "semester": 1,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR400",
+          "name": "INTRODUCAO AO TEATRO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DA PEDAGOGIA DO TEATRO",
+      "code": "AR577",
+      "ementa": "DISCIPLINA DE INTEGRAÇÃO ENTRE OS PÓLOS TEATRO E PEDAGOGIA. INVESTIGAÇÃO SOBRE A TEORIA E A PRÁTICA DA LINGUAGEM ARTÍSTICA DO TEATRO. BASES EPISTEMOLÓGICAS DA PEDAGOGIA DO TEATRO. IDENTIFICAÇÃO DOS CAMPOS DE TRABALHO.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "METODOLOGIAS DO ESTUDO E DA PESQUISA EM ARTES",
+      "code": "AR540",
+      "ementa": "INTRODUÇÃO AOS MÉTODOS E PROCEDIMENTOS DE PESQUISA ACADÊMICA E DAS ESPECIFICIDADES DA PESQUISA EM ARTE: ABORDAGENS TEÓRICAS E TEÓRICO-PRÁTICAS. A SUBJETIVAÇÃO NO PROCESSO DE PESQUISA. PESQUISA DE CAMPO.",
+      "hours": 30,
+      "semester": 1,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "BI030",
+          "name": "METODOLOGIA DO ESTUDO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "DIDÁTICA",
+      "code": "TE707",
+      "ementa": "FUNDAMENTOS EPISTEMOLÓGICOS, SOCIOCULTURAIS, PSICOLÓGICOS E ÉTICO-POLÍTICOS DA PRÁTICA PEDAGÓGICA DOCENTE E A SUA VINCULAÇÃO COM A PRÁTICA SOCIAL MAIS AMPLA; ORGANIZAÇÃO DO TRABALHO PEDAGÓGICO DOCENTE CENTRADO NO PROCESSO DE ENSINO-APRENDIZAGEM, NA INVESTIGAÇÃO, NOS SUJEITOS DA PRÁTICA, E NA RELAÇÃO COM UM DADO PROJETO EDUCATIVO E UMA DETERMINADA REALIDADE CONCRETA.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS PSICOLÓGICOS DA EDUCAÇÃO",
+      "code": "PO492",
+      "ementa": "ESTUDO DE TEORIAS PSICOLÓGICAS SOBRE O DESENVOLVIMENTO SÓCIO-AFETIVO E COGNITIVO E OS PROCESSOS DE ENSINO E DE APRENDIZAGEM NA INFÂNCIA, ADOLESCÊNCIA E VIDA ADULTA.PROBLEMATIZAÇÃO SOBRE AS RELAÇÕES ENTRE PSICOLOGIA E EDUCAÇÃO.",
+      "hours": 90,
+      "semester": 2,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DO TEATRO MUNDIAL",
+      "code": "AR578",
+      "ementa": "ESTUDO DA HISTÓRIA DO TEATRO MUNDIAL, DA ANTIGUIDADE AOS DIAS DE HOJE, SALIENTANDO AS GRANDES LINHAS FILOSÓFICAS E ESTÉTICAS QUE PERMEARAM A CRIAÇÃO TEATRAL, BEM COMO AS CONTRIBUIÇÕES DADAS PELOS",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTERPRETAÇÃO 1",
+      "code": "AR607",
+      "ementa": "ESTUDO PRÁTICO INTRODUTÓRIO DA INTERPRETAÇÃO TEATRAL REALISTA QUE UTILIZA O SISTEMA DE CONSTANTIN STANISLAVSKI COMO BASE TEÓRICO-METODOLÓGICA.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR481",
+          "name": "INTERPRETACAO 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AR608",
+          "name": "INTERPRETAÇÃO 2"
+        }
+      ]
+    },
+    {
+      "name": "VOZ E MOVIMENTO 1",
+      "code": "AR561",
+      "ementa": "IMPLEMENTAR UMA TÉCNICA RESPIRATÓRIA DE APOIO Á PRODUÇÃO DE ALTAS INTENSIDADES VOCAIS E EXERCITAR A COORDENAÇÃO FONO-RESPIRATÓRIA, POTENCIALIZANDO: O RECONHECIMENTO DOS ASPECTOS MATERIAIS DA VOZ; CONHECIMENTOS BÁSICOS SOBRE PRODUÇÃO E EMISSÃO VOCAL; A CONSCIENTIZAÇÃO DO ESQUEMA E DA IMAGEM CORPORAL E VOCAL; A COORDENAÇÃO FONO-RESPIRÁTORIA EM MOVIMENTO E IDENTIFICAÇÃO DE MOVIMENTO INTRINSECO AO TEXTO.",
+      "hours": 30,
+      "semester": 2,
+      "credits": 1,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR373",
+          "name": "TECNICA VOCAL 3-A"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AR564",
+          "name": "VOZ E MOVIMENTO 2"
+        }
+      ]
+    },
+    {
+      "name": "ELEMENTOS VISUAIS DO ESPETÁCULO 1",
+      "code": "AR581",
+      "ementa": "ESTUDO TEÓRICO-PRÁTICO INTRODUTÓRIO SOBRE OS ELEMENTOS VISUAIS PARA ESPETÁCULOS DE ARTES CÊNICAS, TIDOS COMO ESSENCIAIS NA CRIAÇÃO E EXECUÇÃO DE PROJETOS TÉCNICO-ARTÍSTICOS, ATRAVÉS DE UMA ABORDAGEM INTERDISCIPLINAR E INTERSEMIÓTICA FOCADA SOBRE A CENOGRAFIA E A ILUMINAÇÃO.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR321",
+          "name": "CENOGRAFIA 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AR591",
+          "name": "LABORATÓRIO DA ENCENAÇÃO"
+        },
+        {
+          "code": "AR598",
+          "name": "MONTAGEM PEDAGÓGICA"
+        }
+      ]
+    },
+    {
+      "name": "GESTÃO EDUCACIONAL E GESTÃO ESCOLAR",
+      "code": "AP492",
+      "ementa": "DISCUSSÃO E ANÁLISE DAS CONCEPÇÕES DE ORGANIZAÇÃO E GESTÃO ESCOLAR, NUMA COMPREENSÃO MAIS GERAL DA CULTURA ORGANIZACIONAL NO QUE SE REFERE AO CONJUNTO DE FATORES SOCIAIS, CULTURAIS E PSICOLÓGICOS QUE INFLUENCIAM OS MODOS DE AGIR DA ORGANIZAÇÃO COMO UM TODO E DO COMPORTAMENTO DAS PESSOAS EM PARTICULAR.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTERPRETAÇÃO 2",
+      "code": "AR608",
+      "ementa": "DISCIPLINA TEÓRICO-PRÁTICA DEDICADA AO ESTUDO DA INTERPRETAÇÃO TEATRAL FUNDADA NOS CONCEITOS DE TEATRO ÉPICO, POR INTERMÉDIO DA LEITURA DE TEXTOS TEÓRICOS E FICCIONAIS QUE SUBSIDIEM OS LABORATÓRIOS PRÁTICOS.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR482",
+          "name": "INTERPRETACAO 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AR607",
+          "name": "INTERPRETAÇÃO 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "AR609",
+          "name": "INTERPRETAÇÃO 3"
+        }
+      ]
+    },
+    {
+      "name": "METODOLOGIA DO ENSINO DE TEATRO 1",
+      "code": "AR580",
+      "ementa": "FUNDAMENTOS TEÓRICO-METODOLÓGICOS DO PROCESSO ENSINO-APRENDIZAGEM DO TEATRO NA EDUCAÇÃO. BASES EPISTEMOLÓGICAS DO TEATRO NA EDUCAÇÃO: AS ABORDAGENS, OS ENFOQUES E OS PROCEDIMENTOS METODOLÓGICOS. ORGANIZAÇÃO DO TRABALHO PEDAGÓGICO E A CONSTRUÇÃO DO CONHECIMENTO DO TEATRO NA EDUCAÇÃO.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AR582",
+          "name": "METODOLOGIA DO ENSINO DE TEATRO 2"
+        }
+      ]
+    },
+    {
+      "name": "POLÍTICAS EDUCACIONAIS- ORGANIZAÇÃO E FUNCIONAMENTO DA ESCOLA BÁSICA",
+      "code": "AP493",
+      "ementa": "ESTUDO CRÍTICO DO SISTEMA EDUCACIONAL BRASILEIRO E SEUS DETERMINANTES HISTÓRICO-POLÍTICO E SOCIAIS.PRINCÍPIOS, OBJETIVOS E CARACTERÍSTICAS DA EDUCAÇÃO BÁSICA E SUAS MODALIDADES, PROBLEMATIZADA COMO DIREITO FUNDAMENTAL DA PESSOA HUMANA ENQUNATO LELMENTO DE REFLEXÃO E INTERVENÇÃO NO CONTEXTO DA FORMAÇÃO DOCENTE.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AP203",
+          "name": "ESTRUT E FUNC DO ENSINO 3"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "VOZ E MOVIMENTO 2",
+      "code": "AR564",
+      "ementa": "EXERCITAR A COORDENAÇÃO FONO-RESPIRATÓRIA EM MOVIMENTO E DETECTAR O MOVIMENTO INTRÍNSECO AO TEXTO.",
+      "hours": 30,
+      "semester": 3,
+      "credits": 1,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR374",
+          "name": "TECNICA VOCAL 4-A"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AR561",
+          "name": "VOZ E MOVIMENTO 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "AR584",
+          "name": "VOZ E MOVIMENTO 3"
+        }
+      ]
+    },
+    {
+      "name": "ELEMENTOS VISUAIS DO ESPETÁCULO 2",
+      "code": "AR583",
+      "ementa": "ESTUDO TEÓRICO-PRÁTICO INTRODUTÓRIO SOBRE OS ELEMENTOS VISUAIS PARA ESPETÁCULOS DE ARTES CÊNICAS, TIDOS COMO ESSENCIAIS NA CRIAÇÃO E EXECUÇÃO DE PROJETOS TÉCNICO-ARTÍSTICOS, ATRAVÉS DE UMA ABORDAGEM INTERDISCIPLINAR E INTERSEMIÓTICA FOCADA SOBRE O FIGURINO E A MAQUIAGEM TEATRAL.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR323",
+          "name": "INDUMENTARIA"
+        },
+        {
+          "code": "AR324",
+          "name": "MAQUILAGEM"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AR591",
+          "name": "LABORATÓRIO DA ENCENAÇÃO"
+        },
+        {
+          "code": "AR598",
+          "name": "MONTAGEM PEDAGÓGICA"
+        }
+      ]
+    },
+    {
+      "name": "INTERPRETAÇÃO 3",
+      "code": "AR609",
+      "ementa": "DISCIPLINA TEÓRICO-PRÁTICA ESTRUTURADA EM LABORATÓRIOS PSICOFÍSICOS E EXPERIMENTOS DE INTERPRETAÇÃO QUE SE FUNDAMENTAM NUMA REVISÃO DOS MODOS DE ABORDAR O TRABALHO DO ATOR: DAS VISÕES DE ANTONIN ARTAUD ÀS TENDÊNCIAS CONTEMPORÂNEAS.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR483",
+          "name": "INTERPRETACAO 3"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AR608",
+          "name": "INTERPRETAÇÃO 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "METODOLOGIA DO ENSINO DE TEATRO 2",
+      "code": "AR582",
+      "ementa": "ESTUDO DOS FUNDAMENTOS TEÓRICOS METODOLÓGICOS DO TEATRO NA EDUCAÇÃO, EM TURMAS DE EDUCAÇÃO INFANTIL E ENSINO FUNDAMENTAL NOS 1º, 2º, 3º E 4º CICLOS.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AR580",
+          "name": "METODOLOGIA DO ENSINO DE TEATRO 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "AR586",
+          "name": "ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DE TEATRO 1"
+        },
+        {
+          "code": "AR585",
+          "name": "METODOLOGIA DO ENSINO DE TEATRO 3"
+        }
+      ]
+    },
+    {
+      "name": "PROCESSOS CULTURAIS NO BRASIL",
+      "code": "AR563",
+      "ementa": "",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "VOZ E MOVIMENTO 3",
+      "code": "AR584",
+      "ementa": "ESTUDO EXPLORATÓRIO E CONSIDERAÇÕES SOBRE AS ESFERAS DA DIMENSÃO ACÚSTICA DA CENA COMO INSTÂNCIAS DE CONFIGURAÇÃO DE SENTIDO.",
+      "hours": 30,
+      "semester": 4,
+      "credits": 1,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AR564",
+          "name": "VOZ E MOVIMENTO 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "AVALIAÇÃO DA APRENDIZAGEM",
+      "code": "PO493",
+      "ementa": "ESTUDO DA AVALIAÇÃO DA APRENDIZAGEM ENQUANTO OBJETO DE REFLEXÃO DO CAMPO DA AVALIAÇÃO EDUCAIONAL. A CONSTITUIÇÃO DE SEU CAMPO CONCEITUAL E PRAXIOLÓGICO, OS DIFERENTES ATRIBUTOS E MODOS DE CONCEBER E PRATICAR A AVALIAÇÃO DAS APRENDIZAGENS DOS ALUNOS.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DE TEATRO 1",
+      "code": "AR586",
+      "ementa": "ESTÁGIO SUPERVISIONADO DE OBSERVAÇÃO DA PRÁXIS PEDAGÓGICA DO TEATRO NA EDUCAÇÃO EM TURMAS DE EDUCAÇÃO INFANTIL E ENSINO FUNDAMENTAL NOS 1º, 2º, 3º E 4º CICLOS.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "TE658",
+          "name": "PRAT DE ENS DE ARTES CENICAS 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AR582",
+          "name": "METODOLOGIA DO ENSINO DE TEATRO 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "AR589",
+          "name": "ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DE TEATRO 2"
+        }
+      ]
+    },
+    {
+      "name": "METODOLOGIA DO ENSINO DE TEATRO 3",
+      "code": "AR585",
+      "ementa": "ESTUDO DOS FUNDAMENTOS TEÓRICOS METODOLÓGICOS DO TEATRO NA EDUCAÇÃO EM TURMAS DE ENSINO MÉDIO E EDUCAÇÃO DE JOVENS E ADULTOS.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AR582",
+          "name": "METODOLOGIA DO ENSINO DE TEATRO 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "AR588",
+          "name": "METODOLOGIA DO ENSINO DE TEATRO 4"
+        },
+        {
+          "code": "AR593",
+          "name": "ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DE TEATRO 3"
+        }
+      ]
+    },
+    {
+      "name": "TEATROS DE FORMAS ANIMADAS",
+      "code": "AR587",
+      "ementa": "ABORDAGEM DAS TÉCNICAS E DA EVOLUÇÃO DO TEATRO DE ANIMAÇÃO NO BRASIL E NO MUNDO. PRÁTICA DE CONFECÇÃO, MANIPULAÇÃO E ENCENAÇÃO COM BONECOS, MÁSCARAS E OBJETOS.",
+      "hours": 120,
+      "semester": 5,
+      "credits": 5,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR488",
+          "name": "TECNICAS DE TEATRO 1"
+        },
+        {
+          "code": "AR489",
+          "name": "TECNICAS DE TEATRO 2"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DE TEATRO 2",
+      "code": "AR589",
+      "ementa": "ESTÁGIO SUPERVISIONADO DE REGÊNCIA EM TEATRO NA EDUCAÇÃO EM TURMAS DE EDUCAÇÃO INFANTIL E ENSINO FUNDAMENTAL NOS 1º, 2º, 3º E 4º CICLOS.",
+      "hours": 120,
+      "semester": 6,
+      "credits": 5,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "TE658",
+          "name": "PRAT DE ENS DE ARTES CENICAS 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AR586",
+          "name": "ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DE TEATRO 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "LABORATÓRIO DA ENCENAÇÃO",
+      "code": "AR591",
+      "ementa": "PRÁTICA EXPLORATÓRIA DO PROCESSO DE ENCENAÇÃO, A PARTIR DE PROJETO DE MONTAGEM, COM CONCEPÇÃO E DIREÇÃO INDIVIDUAL OU COLETIVA DOS DISCENTES. MONTAGEM E APRESENTAÇÃO DE PEÇA DE CURTA DURAÇÃO. DISCIPLINA COM PERFIL EXTENSIONISTA, VINCULADA A PROJETOS DE EXTENSÃO A SEREM PROPOSTOS SEMESTRALMENTE.",
+      "hours": 120,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR485",
+          "name": "ENCENACAO 1-A"
+        },
+        {
+          "code": "AR487",
+          "name": "ENCENACAO 2-A"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AR581",
+          "name": "ELEMENTOS VISUAIS DO ESPETÁCULO 1"
+        },
+        {
+          "code": "AR583",
+          "name": "ELEMENTOS VISUAIS DO ESPETÁCULO 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "METODOLOGIA DA ENCENAÇÃO",
+      "code": "AR590",
+      "ementa": "ABORDAGEM DO SIGNIFICADO DO ENCENADOR A PARTIR DO SEU APARECIMENTO E OS DESLOCAMENTOS DO SEU PAPEL. OS PRINCIPAIS ENCENADORES E SUAS POÉTICAS. ESTUDO DAS ETAPAS DO PROCESSO DE MONTAGEM DE UM ESPETÁCULO. ELABORAÇÃO DE PROJETO DE MONTAGEM PARA UM TEXTO TEATRAL COM FOCO NOS ELEMENTOS DA LINGUAGEM CÊNICA.",
+      "hours": 30,
+      "semester": 6,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR222",
+          "name": "OFICINA DE CENICA"
+        },
+        {
+          "code": "AR480",
+          "name": "METODOLOGIA DA ENCENACAO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AR598",
+          "name": "MONTAGEM PEDAGÓGICA"
+        }
+      ]
+    },
+    {
+      "name": "METODOLOGIA DO ENSINO DE TEATRO 4",
+      "code": "AR588",
+      "ementa": "ESTUDO DOS FUNDAMENTOS TEÓRICOS METODOLÓGICOS DO TEATRO NA EDUCAÇÃO EM ESPAÇOS PEDAGÓGICOS NÃO FORMAIS OU EXPERIÊNCIAS PEDAGÓGICAS EQUIVALENTES, DIRECIONADAS À PROPOSIÇÃO DE DESENVOLVIMENTO SOCIAL, FORMAÇÃO, CAPACITAÇÃO, GESTÃO E AÇÃO CULTURAL.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AR585",
+          "name": "METODOLOGIA DO ENSINO DE TEATRO 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "AR592",
+          "name": "METODOLOGIA DO ENSINO DE TEATRO 5"
+        }
+      ]
+    },
+    {
+      "name": "ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DE TEATRO 3",
+      "code": "AR593",
+      "ementa": "ESTÁGIO SUPERVISIONADO DE OBSERVAÇÃO EM TEATRO NA EDUCAÇÃO EM TURMAS DE ENSINO MÉDIO; EDUCAÇÃO DE JOVENS E ADULTOS; ESPAÇOS PEDAGÓGICOS NÃO FORMAIS; EDUCAÇÃO ESPECIAL; TERCEIRA IDADE E/OU CONTEXTOS EMPRESARIAIS, TERAPÊUTICOS E DE SAÚDE.",
+      "hours": 120,
+      "semester": 7,
+      "credits": 5,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AR585",
+          "name": "METODOLOGIA DO ENSINO DE TEATRO 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "AR596",
+          "name": "ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DE TEATRO 4"
+        }
+      ]
+    },
+    {
+      "name": "GESTÃO E AÇÃO CULTURAL 1",
+      "code": "AR595",
+      "ementa": "ESTUDO TEÓRICO-PRÁTICO INSTRUMENTALIZANTE PARA A PREPARAÇÃO E PROMOÇÃO DE PROPOSIÇÕES, CONVENCIONAIS OU NÃO, DE INTERCÂMBIO CULTURAL E ARTÍSTICO, ENTRE COMUNIDADES E INSTITUIÇÕES, TENDO EM VISTA O MERCADO DE TRABALHO BRASILEIRO E A COERÊNCIA COM PRINCÍPIOS SOCIAIS, ÉTICOS E ESTÉTICOS DO TEATRO COMO LINGUAGEM ARTÍSTICA. FUNDAMENTAÇÃO PARA ELABORAÇÃO E GESTÃO DE PROJETO CULTURAL A PARTIR DE EXPERIMENTOS VINCULADOS AO LABORATÓRIO DE ARTES CÊNICAS-LAC.",
+      "hours": 30,
+      "semester": 7,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AR289",
+          "name": "ANIMACAO CULTURAL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AR600",
+          "name": "GESTÃO E AÇÃO CULTURAL 2"
+        }
+      ]
+    },
+    {
+      "name": "INTRODUÇÃO A LIBRAS",
+      "code": "LE716",
+      "ementa": "REFLEXÃO SOBRE OS ASPECTOS HISTÓRICOS DA INCLUSÃO DAS PESSOAS SURDAS NA SOCIEDADE EM GERAL E NA ESCOLA; A LIBRAS COMO LÍNGUA DE COMUNICAÇÃO SOCIAL EM CONTEXTO DE COMUNICAÇÃO ENTRE PESSOAS SURDAS E COMO SEGUNDA LÍNGUA. ESTRUTURA LINGUÍSTICA E GRAMATICAL DE LIBRAS. ESPECIFICIDADES DA ESCRITA DO ALUNO SURDO. NA PRODUÇÃO DE TEXTO EM LÍNGUA PORTUGUESA. O INTÉRPRETE E A INTERPRETAÇÃO COMO FATOR DE INCLUSÃO E ACESSO EDUCACIONAL PARA OS ALUNOS SURDOS OU COM BAIXA AUDIÇÃO.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "METODOLOGIA DO ENSINO DE TEATRO 5",
+      "code": "AR592",
+      "ementa": "ESTUDO DOS FUNDAMENTOS TEÓRICOS METODOLÓGICOS DO TEATRO NA EDUCAÇÃO EM ESPAÇOS PEDAGÓGICOS NÃO FORMAIS OU EXPERIÊNCIAS PEDAGÓGICAS EQUIVALENTES, DIRECIONADAS ÀS PECULIARIDADES DA EDUCAÇÃO ESPECIAL, TERCEIRA IDADE E/OU CONTEXTOS EMPRESARIAIS, TERAPÊUTICO E DE SAÚDE.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AR588",
+          "name": "METODOLOGIA DO ENSINO DE TEATRO 4"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TRABALHO DE CONCLUSÃO DE CURSO EM ENSINO DE TEATRO 1",
+      "code": "AR594",
+      "ementa": "DESENVOLVIMENTO DE PROJETO DE CONCLUSÃO DE CURSO, AMPARADO NOS CONHECIMENTOS ADQUIRIDOS E NAS EXPERIÊNCIAS VIVENCIADAS AO LONGO DO PERCURSO FORMATIVO, SOB DEVIDA ORIENTAÇÃO DOCENTE. PODE SER RESULTANTE DE INVESTIGAÇÃO TEÓRICA SOBRE TEMÁTICA PERTINENTE AO UNIVERSO DO TEATRO-EDUCAÇÃO; REFLEXÃO CRÍTICA SOBRE PROCEDIMENTOS, EXPERIMENTAÇÕES METODOLÓGICAS, PRODUÇÃO DE MATERIAL OU INSTRUMENTAL DIDÁTICO, INICIATIVAS DE PRODUÇÃO E GESTÃO CULTURAL, ATRELADOS OU NÃO AOS ESTÁGIOS CURRICULARES SUPERVISIONADOS E ÀS DISCIPLINAS DE METODOLOGIA DO ENSINO DE TEATRO, DESDE QUE EVIDENCIEM O CARÁTER ARTÍSTICO-PEDAGÓGICO DO OBJETO ESCOLHIDO PARA ESTUDO. PODE SER ENCAMINHADO COMO MONOGRAFIA, ENSAIO CRÍTICO-ANALÍTICO, SÉRIE DE ARTIGOS, MEMORIAL OU OUTRAS FORMAS DE APRESENTAÇÃO DE TRABALHO ACADÊMICO ACEITAS PELO COLEGIADO DO CURSO.",
+      "hours": 30,
+      "semester": 7,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AR597",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO EM ENSINO DE TEATRO 2"
+        }
+      ]
+    },
+    {
+      "name": "ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DE TEATRO 4",
+      "code": "AR596",
+      "ementa": "ESTÁGIO SUPERVISIONADO DE REGÊNCIA EM TEATRO NA EDUCAÇÃO EM TURMAS DE ENSINO MÉDIO; EDUCAÇÃO DE JOVENS E ADULTOS; ESPAÇOS PEDAGÓGICOS NÃO FORMAIS DE ENSINO; EDUCAÇÃO ESPECIAL; TERCEIRA IDADE E/OU CONTEXTOS EMPRESARIAIS, TERAPÊUTICOS E DE SAÚDE.",
+      "hours": 120,
+      "semester": 8,
+      "credits": 5,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AR593",
+          "name": "ESTÁGIO CURRICULAR SUPERVISIONADO EM ENSINO DE TEATRO 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "MONTAGEM PEDAGÓGICA",
+      "code": "AR598",
+      "ementa": "DISCIPLINA TEÓRICO-PRÁTICA DEDICADA AO ESTUDO DO TEATRO COMO PRÁTICA EDUCATIVA E À REALIZAÇÃO DE ESPETÁCULO TEATRAL DE CARÁTER PEDAGÓGICO, PARA PÚBLICOS DE DIFERENTES FAIXAS ETÁRIAS, COM ÊNFASE NAS FAIXAS ETÁRIAS EM PROCESSO DE FORMAÇÃO E DIRIGIDAS A INSTITUIÇÕES ESCOLARES, CENTROS SOCIAIS E CULTURAIS, ORGANIZAÇÕES NÃO-GOVERNAMENTAIS E PROGRAMAS EDUCACIONAIS, SOB DIREÇÃO DO DOCENTE DA DISCIPLINA. A DISCIPLINA APRESENTA PERFIL EXTENSIONISTA, VINCULADA A PROJETOS DE EXTENSÃO A SEREM PROPOSTOS SEMESTRALMENTE.",
+      "hours": 120,
+      "semester": 8,
+      "credits": 5,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AR581",
+          "name": "ELEMENTOS VISUAIS DO ESPETÁCULO 1"
+        },
+        {
+          "code": "AR583",
+          "name": "ELEMENTOS VISUAIS DO ESPETÁCULO 2"
+        },
+        {
+          "code": "AR590",
+          "name": "METODOLOGIA DA ENCENAÇÃO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TRABALHO DE CONCLUSÃO DE CURSO EM ENSINO DE TEATRO 2",
+      "code": "AR597",
+      "ementa": "DESENVOLVIMENTO DE PROJETO DE CONCLUSÃO DE CURSO, AMPARADO NOS CONHECIMENTOS ADQUIRIDOS E NAS EXPERIÊNCIAS VIVENCIADAS AO LONGO DO PERCURSO FORMATIVO, SOB DEVIDA ORIENTAÇÃO DOCENTE. PODE SER RESULTANTE DE INVESTIGAÇÃO TEÓRICA SOBRE TEMÁTICA PERTINENTE AO UNIVERSO DO TEATRO-EDUCAÇÃO; REFLEXÃO CRÍTICA SOBRE PROCEDIMENTOS, EXPERIMENTAÇÕES METODOLÓGICAS, PRODUÇÃO DE MATERIAL OU INSTRUMENTAL DIDÁTICO, INICIATIVAS DE PRODUÇÃO E GESTÃO CULTURAL, ATRELADOS OU NÃO AOS ESTÁGIOS CURRICULARES SUPERVISIONADOS E ÀS DISCIPLINAS DE METODOLOGIA DO ENSINO DE TEATRO, DESDE QUE EVIDENCIEM O CARÁTER ARTÍSTICO-PEDAGÓGICO DO OBJETO ESCOLHIDO PARA ESTUDO. PODE SER ENCAMINHADO COMO MONOGRAFIA, ENSAIO CRÍTICO-ANALÍTICO, SÉRIE DE ARTIGOS, MEMORIAL OU OUTRAS FORMAS DE APRESENTAÇÃO DE TRABALHO ACADÊMICO ACEITAS PELO COLEGIADO DO CURSO",
+      "hours": 30,
+      "semester": 8,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AR594",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO EM ENSINO DE TEATRO 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTÉTICA",
+      "code": "AR610",
+      "ementa": "DISCIPLINA DEDICADA À COMPREENSÃO DA OBRA DE ARTE COMO PRODUTO ESTÉTICO, À RELAÇÃO ENTRE POÉTICA E ESTÉTICA, E SUA APLICAÇÃO NA ARTE EDUCAÇÃO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "GESTÃO E AÇÃO CULTURAL 2",
+      "code": "AR600",
+      "ementa": "REALIZAÇÃO DE PROJETO CULTURAL A PARTIR DE PROPOSTA ELABORADA EM GESTÃO E AÇÃO CULTURAL 1, TENDO POR BASE EXPERIMENTOS VINCULADOS AO LABORATÓRIO DE ARTES CÊNICAS-LAC. A DISCIPLINA APRESENTA PERFIL EXTENSIONISTA, VINCULADA A PROJETOS DE EXTENSÃO A SEREM PROPOSTOS SEMESTRALMENTE.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AR595",
+          "name": "GESTÃO E AÇÃO CULTURAL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DO TEATRO DE BONECOS",
+      "code": "AR599",
+      "ementa": "DISCIPLINA VOLTADA PARA O ESTUDO HISTÓRICO DO TEATRO DE BONECOS, DAS ORIGENS À CONTEMPORANEIDADE, COM ÊNFASE NA TRADIÇÃO E NA MODERNIDADE DE DIFERENTES CULTURAS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "LITERATURA DRAMÁTICA OCIDENTAL",
+      "code": "AR601",
+      "ementa": "ESTUDO DA LITERATURA DRAMÁTICA OCIDENTAL, DA ANTIGUIDADE AOS DIAS DE HOJE, A PARTIR DA ANÁLISE DE TEXTOS REPRESENTATIVOS DOS PRINCIPAIS PERÍODOS, MOVIMENTOS ESTÉTICOS E TENDÊNCIAS QUE TÊM MARCADO ESTA EVOLUÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SONOPLASTIA",
+      "code": "AR602",
+      "ementa": "ESTUDO INTRODUTÓRIO SOBRE SONOPLASTIA PARA AS ARTES CÊNICAS ATRAVÉS DE ABORDAGEM HISTÓRICA, CONCEITUAL, TÉCNICA E ESTÉTICA PERTINENTE AO TRABALHO DO SONOPLASTA, DO TÉCNICO E DO OPERADOR DE SOM.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TEATRO EM PERNAMBUCO",
+      "code": "AR603",
+      "ementa": "ESTUDO DA HISTÓRIA DO TEATRO EM PERNAMBUCO, COM ÊNFASE NO TEATRO MODERNO E CONTEMPORÂNEO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TEATRO NO BRASIL",
+      "code": "AR604",
+      "ementa": "ESTUDO DO TEATRO NO BRASIL, DO PERÍODO COLONIAL À CONTEMPORANEIDADE, FOCALIZANDO SEUS PRINCIPAIS CRIADORES E AS CORRENTES ESTÉTICAS QUE TÊM NORTEADO A SUA EVOLUÇÃO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "AR406",
+          "name": "HISTORIA DO TEATRO BRASILEIRO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TEATRO PARA A INFÂNCIA E A JUVENTURDE",
+      "code": "AR605",
+      "ementa": "DISCIPLINA TEÓRICO-PRÁTICA VOLTADA PARA A INVESTIGAÇÃO SOBRE A LINGUAGEM NO TEATRO PARA A INFÂNCIA E JUVENTUDE, ENVOLVENDO O ESTUDO DAS TÉCNICAS DE CONSTRUÇÃO E ELABORAÇÃO DO TEXTO TEATRAL DESTINADO A ESSE PÚBLICO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "AR325",
+          "name": "OFICINA DE DRAMATURGIA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS EM TEATRO",
+      "code": "AR606",
+      "ementa": "ESTUDO DOS PROCEDIMENTOS PARA A MATERIALIZAÇÃO DO ESPETÁCULO ABRANGENDO CUSTOS, OPERACIONALIZAÇÃO DA ENCENAÇÃO E ESTRUTURA DE APOIO DAS LEIS DE INCENTIVO E DE DIREITO AUTORAL VIGENTES. NOÇÕES DAS BASES ÉTICAS DA PROFISSÃO TEATRAL, DA LEGISLAÇÃO QUE REGULAMENTA E NORTEIA AS ATIVIDADES NO CAMPO DAS ARTES CÊNICAS, E DOS MODELOS DE PRODUÇÃO TEATRAL VIGENTES NO PAÍS. ESTUDO TEÓRICO-PRÁTICO DA PRODUÇÃO E ADMINISTRAÇÃO DO ESPAÇO TEATRAL, COM ENFOQUE NO LABORATÓRIO DE ARTES CÊNICAS-LAC.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    }
+  ]
+}
