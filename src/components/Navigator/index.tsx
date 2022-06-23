@@ -27,7 +27,7 @@ const Navigator = (): React.ReactElement => {
   return (
     <Breadcrumb size="20" m="3" separator="/">
       <BreadcrumbItem>
-        <BreadcrumbLink href="/">{university}</BreadcrumbLink>
+        <BreadcrumbLink href="/visual-curriculum/">{university}</BreadcrumbLink>
       </BreadcrumbItem>
       <BreadcrumbItem>
         <BreadcrumbLink href="#" isCurrentPage>
