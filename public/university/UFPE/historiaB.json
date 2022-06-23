@@ -1,0 +1,927 @@
+{
+  "university": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+  "course": "HISTÓRIA - BACHARELADO",
+  "semesters": 8,
+  "totalHours": 2430,
+  "totalHoursElective": 900,
+  "totalHoursObligatory": 1530,
+  "disciplines": [
+    {
+      "name": "HISTÓRIA DO BRASIL COLÔNIA",
+      "code": "HI547",
+      "ementa": "A DISCIPLINA ABORDA A INSERÇÃO DO BRASIL NO MUNDO OCIDENTAL SOB A ÉGIDE DO ANTIGO REGIME, OBSERVANDO OS INSTRUMENTOS E MEIOS DE COLONIZAÇÃO QUE DEFINIRAM O PERFIL E AS RELAÇÕES SOCIAIS NO BRASIL NO PERÍODO COLONIAL. TEM POR BASE O CONHECIMENTO HISTORIOGRÁFICO PRODUZIDO SOBRE ESSA TEMÁTICA.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI245",
+          "name": "HISTORIA DO BRASIL 5"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DOS IMPÉRIOS PORTUGUÊS E ESPANHOL",
+      "code": "HI552",
+      "ementa": "A DISCIPLINA HISTÓRIA DOS IMPÉRIOS PORTUGUÊS E ESPANHOL PROPÕE UMA REFLEXÃO SOBRE O PERÍODO DAS NAVEGAÇÕES MARÍTIMAS E EXPANSÃO DOS REINOS IBÉRICOS, ASSIM COMO, PRETENDE ENFOCAR QUESTÕES HISTÓRICO-GEOGRÁFICAS AMPLIANDO O OLHAR CARTOGRÁFICO SOBRE AS REGIÕES DA PENÍNSULA IBÉRICA, EUROPA OCIDENTAL, AMÉRICA, ÁFRICA E ÁSIA. NA EUROPA OCIDENTAL, A FUSÃO DE ELEMENTOS ORIUNDOS DE DIVERSAS CULTURAS ANTIGAS PERMITIU A ECLOSÃO DE UMA NOVA CIVILIZAÇÃO COMBINANDO A HERANÇA GRECO-ROMANA COM APORTES DOS POVOS DITOS #BÁRBAROS#, REALIZADA NUM CONTEXTO DE DIFUSÃO DO CRISTIANISMO COMO RELIGIÃO HEGEMÔNICA. ESTADOS NACIONAIS FORMAM-SE PROMOVENDO A PRIMEIRA FASE DA EXPANSÃO IBÉRICA COM BASE NA NAVEGAÇÃO E APROFUNDAMENTO DOS CONHECIMENTOS CIENTÍFICOS MEDIEVAIS. A COSTA DA ÁFRICA, AMÉRICA E PARTES DA ÁSIA E DA OCEANIA PASSAM A SER O FOCO DE NOVOS MERCADOS E BASES DE EXPLORAÇÃO DE NOVAS RIQUEZAS NATURAIS. NOVOS ESPAÇOS E CULTURAS PASSAM TAMBÉM A TROCAR CONHECIMENTOS. CIVILIZAÇÕES ANTIGAS COLOCAM-SE COM NOVOS OBJETOS E FORMAS DE RELACIONAMENTO OPORTUNIZARAM MOMENTOS DE ENCANTAMENTO, DISPUTAS, GUERRAS E MORTES OS QUAIS, JUNTOS OU SEPARADAMENTE INFLUENCIARAM RECIPROCAMENTE EM ASPECTOS TÃO DIVERSOS QUANTO AS CONCEPÇÕES DA ORGANIZAÇÃO DA SOCIEDADE, O PAPEL DO ESTADO, IDÉIAS RELIGIOSAS E CIENTÍFICAS/CULTURAIS. NA ÁSIA, CIVILIZAÇÕES COMO A CHINESA, ATINGIRAM UM AUGE DE COMPETÊNCIA PRODUTIVA, POLÍTICA E DE REFINAMENTO CULTURAL. TRABALHOS DE VÁRIAS ESCOLAS HISTÓRICAS PERMITEM EVIDENCIAR, NESTES DIVERSOS ESPAÇOS, OS RESPECTIVOS PONTOS DE VISTA DOS ATORES HISTÓRICOS, SEJAM ELES COLONIZADORES, OU NÃO. A DISCIPLINA HISTÓRIA DOS IMPÉRIOS PORTUGUÊS E ESPANHOL TRAZ, PORTANTO, COMO DEBATE TEXTOS E INTERPRETAÇÕES DA HISTORIOGRAFIA NUMA PERSPECTIVA INTERDISCIPLINAR.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI257",
+          "name": "CIVILIZACAO IBERICA 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA E INTERDISCIPLINARIDADE - FILOSOFIA",
+      "code": "FL526",
+      "ementa": "DISCIPLINA DIRECIONADA PARA A PROBLEMATIZAÇÃO DA RELAÇÃO ENTRE HISTÓRIA E FILOSOFIA. NESTE SENTIDO, EMBORA NÃO DEIXE DE CONSTAR ENTRE SEUS OBJETIVOS A DISCUSSÃO SOBRE AS ESPECIFICIDADES DAS REFERIDAS ÁREA, A PRINCIPAL ORIENTAÇÃO DA DISCIPLINA DEVE SER A DE DESTACAR O QUANTO CADA VEZ MAIS É NECESSÁRIO O ESTREITAMENTO DA PRODUÇÃO HISTÓRICA COM A DA FILOSOFIA, ATRAVÉS DO ESTUDO DE AUTORES COMO FOUCAULT E ADORNO, ENTRE OUTROS.",
+      "hours": 30,
+      "semester": 1,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "FL203",
+          "name": "INTRODUCAO A FILOSOFIA 2"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA E INTERDISCIPLINARIDADE - GEOGRAFIA",
+      "code": "CG663",
+      "ementa": "DISCIPLINA DIRECIONADA PARA A PROBLEMATIZAÇÃO DA RELAÇÃO ENTRE HISTÓRIA E GEOGRAFIA. NESTE SENTIDO, EMBORA NÃO DEIXE DE CONSTAR ENTRE SEUS OBJETIVOS A DISCUSSÃO SOBRE AS ESPECIFICIDADES DAS REFERIDAS ÁREA, A PRINCIPAL ORIENTAÇÃO DA DISCIPLINA DEVE SER A DE DESTACAR O QUANTO CADA VEZ MAIS É NECESSÁRIO O ESTREITAMENTO DA PRODUÇÃO HISTÓRICA COM A DA GEOGRAFIA, ATRAVÉS DO ESTUDO DE AUTORES COMO MILTON SANTOS E AZIZ NACIB AB# SABER, ENTRE OUTROS.",
+      "hours": 30,
+      "semester": 1,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CG242",
+          "name": "GEOGRAFIA HUMANA DO BRASIL 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "METODOLOGIA E PRODUÇÃO DE TEXTOS",
+      "code": "HI539",
+      "ementa": "METODOLOGIAS DA HISTÓRIA E SUAS PRODUÇÕES ESPECÍFICAS. HISTÓRIA: SOBRE A MULTIPLICIDADE DE TEMAS E NOVAS ABORDAGENS TEÓRICAS E METODOLÓGICAS. HISTÓRIA: TEXTOS LITERÁRIOS E JORNALÍSTICOS. ARTIGOS, MONOGRAFIAS, DISSERTAÇÕES, TESES E ENSAIOS EM HISTÓRIA # FORMAS DE ELABORAÇÃO.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI475",
+          "name": "INICIACAO A PESQUISA HISTORICA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PRÉ-HISTÓRIA",
+      "code": "AG008",
+      "ementa": "A DISCIPLINA É UMA INTRODUÇÃO AO ESTUDO DA HISTÓRIA DAS SOCIEDADES PALEOLÍTICAS E NEOLÍTICAS, COM ÊNFASE NA HISTÓRIA DOS POVOS AMERÍNDIOS. COMO INTRODUÇÃO, OS CONCEITOS BÁSICOS SOBRE PRÉ-HISTÓRIA E ARQUEOLOGIA, ASSIM COMO UMA RÁPIDA ANALISE SOBRE A EVOLUÇÃO BIOLÓGICA DO HOMEM, SERÃO CONTEMPLADOS. A DISCIPLINA SE OCUPARÁ AINDA DAS TEORIAS SOBRE O POVOAMENTO A PARTIR DA ÁFRICA, E SOBRE O POVOAMENTO DAS AMÉRICAS, ASSIM COMO DA OCUPAÇÃO PRÉ-HISTÓRICA DO BRASIL E DAS CARACTERÍSTICAS DAS POPULAÇÕES INDÍGENAS BRASILEIRAS ATÉ OS PRIMEIROS CONTATOS EURO-AMERICANOS.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI223",
+          "name": "PRE-HISTORIA 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTORIOGRAFIA",
+      "code": "HI540",
+      "ementa": "A DISCIPLINA DESENVOLVERÁ ESTUDOS DE HISTÓRIA E HISTORIOGRAFIA, PRIVILEGIANDO AS RELAÇÕES ENTRE AS DIFERENTES ABORDAGENS TEÓRICAS E METODOLÓGICAS DE AUTORES/OBRAS QUE PRODUZIRAM IMPACTOS NA PRODUÇÃO HISTORIOGRÁFICA OCIDENTAL, ASSINALANDO OS DESLOCAMENTOS TEÓRICOS PERCORRIDOS E/OU OS CAMINHOS METODOLÓGICOS COMPARTILHADOS, COMPREENDENDO, NESTE ÂMBITO, AS REFLEXÕES CRÍTICAS ACERCA DOS USOS DAS FONTES DOCUMENTAIS. AS NOVAS PERSPECTIVAS HISTORIOGRÁFICAS NO TERRITÓRIO DA HISTÓRIA POLÍTICA, DA HISTÓRIA SOCIAL, DA HISTÓRIA CULTURAL, DA HISTÓRIA INTELECTUAL E DA HISTÓRIA ECONÔMICA MARCAM OS ESTUDOS CONTEMPORÂNEOS DA DISCIPLINA.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA ANTIGA",
+      "code": "HI541",
+      "ementa": "O FENÔMENO CIVILIZAÇÃO: FATORES E INSTITUIÇÕES BÁSICAS. GÊNESE, EXPANSÃO, CRISE E DECADÊNCIA DAS CIVILIZAÇÕES DO MÉDIO ORIENTE, GRÉCIA E ROMA. INFLUÊNCIAS RECÍPROCAS E SUA IMPORTÂNCIA NA EVOLUÇÃO E COMPREENSÃO DA HISTÓRIA MUNDIAL.",
+      "hours": 90,
+      "semester": 2,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI332",
+          "name": "HISTORIA ANTIGA 1"
+        },
+        {
+          "code": "HI333",
+          "name": "HISTORIA ANTIGA 2"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DA ÁFRICA",
+      "code": "HI551",
+      "ementa": "HISTÓRIA DA ÁFRICA: QUESTÕES TEÓRICAS E METODOLÓGICAS. A ÁFRICA ANTES DOS COLONIZADORES EUROPEUS: SOCIEDADE, CULTURA, POLÍTICA E RELIGIOSIDADE. A COLONIZAÇÃO EUROPÉIA: TRÁFICO, ESCRAVIDÃO MODERNA E RESISTÊNCIAS. O PROCESSO DE DESCOLONIZAÇÃO E A FORMAÇÃO DO ESTADO-NAÇÃO EM ÁFRICA.",
+      "hours": 90,
+      "semester": 2,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DO BRASIL IMPÉRIO",
+      "code": "HI548",
+      "ementa": "ESTA DISCIPLINA ANALISA OS FUNDAMENTOS DA FORMAÇÃO E CONSOLIDAÇÃO DO ESTADO NACIONAL E ESTUDA FATOS HISTÓRICOS MAIS RELEVANTES: DESDE A INDEPENDÊNCIA ATÉ O PERÍODO DE TRANSIÇÃO DA MONARQUIA À REPÚBLICA. OS ESTUDOS SE ARTICULAM EM NÍVEIS: POLÍTICO-JURÍDICO, SÓCIO-ECONÔMICO E CULTURAL. POSSIBILITA AOS ESTUDANTES A COMPREENSÃO DAS BASES QUE ALICERÇARAM O ESTADO NACIONAL, O LONGO CAMINHO NA CONSTRUÇÃO DA CIDADANIA, INSTRUMENTALIZANDO-OS A ESTUDOS POSTERIORES SOBRE A REPÚBLICA.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI246",
+          "name": "HISTORIA DO BRASIL 6"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA MEDIEVAL",
+      "code": "HI542",
+      "ementa": "A DISCIPLINA HISTÓRIA MEDIEVAL INCITA À REFLEXÃO SOBRE A PERIODIZAÇÃO E O ÂMBITO GEOGRÁFICO ALARGADO A REGIÕES NÃO-EUROPÉIAS. NA EUROPA OCIDENTAL, A FUSÃO DE ELEMENTOS ORIUNDOS DE DIVERSAS CULTURAS ANTIGAS PERMITE A ECLOSÃO DE UMA NOVA CIVILIZAÇÃO COMBINANDO A HERANÇA GRECO-ROMANA COM APORTES DOS POVOS DITOS #BÁRBAROS# REALIZADA NUM CONTEXTO DE DIFUSÃO DO CRISTIANISMO COMO RELIGIÃO HEGEMÔNICA. NA VISÃO EVOLUCIONISTA DA HISTÓRIA, A ÉPOCA FEUDAL CONSTITUI \"UM DOS PILARES DO TEMPO\". ELA PROMOVE TAMBÉM A PRIMEIRA FASE DA EXPANSÃO EUROPÉIA. A CIVILIZAÇÃO NÓRDICA, DE DIMENSÃO TRICONTINENTAL, PARTICIPOU DO ESTABELECIMENTO DE REINOS TÃO IMPORTANTES QUANTO A RÚSSIA OU A INGLATERRA. NO ORIENTE PRÓXIMO E NO NORTE DA ÁFRICA, AS CIVILIZAÇÕES BIZANTINA E PERSA, E POSTERIORMENTE ISLÂMICA SE ENFRENTAM E INFLUENCIAM EM ASPECTOS TÃO DIVERSOS QUANTO AS CONCEPÇÕES DA ORGANIZAÇÃO DA SOCIEDADE, O PAPEL DO ESTADO, IDÉIAS RELIGIOSAS E CIENTÍFICAS/CULTURAIS. NA ÁSIA, CIVILIZAÇÕES COMO A CHINESA, ATINGEM UM AUGE DE REFINAMENTO. TRABALHOS DE VÁRIAS ESCOLAS HISTÓRICAS PERMITEM EVIDENCIAR OS RESPECTIVOS PONTOS DE VISTA DOS DIVERSOS ATORES HISTÓRICOS, SEJAM ELES OU NÃO OS 'HERÓIS' PROPOSTOS PELA HISTORIOGRAFIA TRADICIONAL, NUMA PERSPECTIVA INTERDISCIPLINAR.",
+      "hours": 90,
+      "semester": 3,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI281",
+          "name": "HISTORIA MEDIEVAL 1"
+        },
+        {
+          "code": "HI282",
+          "name": "HISTORIA MEDIEVAL 2"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TEORIA DA HISTÓRIA I",
+      "code": "HI538",
+      "ementa": "A DISCIPLINA DESENVOLVE ESTUDOS QUE REFLETEM ACERCA DA PRODUÇÃO DO CONHECIMENTO HISTÓRICO. O CENTRO DAS ANÁLISES PRIVILEGIA AS QUESTÕES DE ORDEM TEÓRICA E METODOLÓGICA QUE PROBLEMATIZAM O CONCEITO DE TEMPO, ESPAÇO, VERDADE E NARRATIVA. NOS TÓPICOS A SEREM ESTUDADOS, DESTACAM-SE AS RELAÇÕES ENTRE AS DIFERENTES ABORDAGENS TEÓRICAS E METODOLÓGICAS QUE SE TORNARAM # E SÃO # REFERÊNCIAS IMPORTANTES PARA A PRODUÇÃO HISTORIOGRÁFICA OCIDENTAL (O LEGADO DA PRODUÇÃO INTELECTUAL), ASSINALANDO OS DESLOCAMENTOS TEÓRICOS PERCORRIDOS E/OU OS CAMINHOS METODOLÓGICOS COMPARTILHADOS. A DISCIPLINA DIALOGA COM OUTRAS ÁREAS DO CONHECIMENTO, REALIZANDO INTERCÂMBIOS NECESSÁRIOS PARA UM PENSAR-FAZER HISTÓRIA, AMPLIANDO AS POSSIBILIDADES DO CONHECIMENTO HISTÓRICO.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI401",
+          "name": "TEORIA DA HISTORIA 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "HI402",
+          "name": "TEORIA DA HISTORIA 2"
+        }
+      ]
+    },
+    {
+      "name": "HISTÓRIA DA AMÉRICA - DA COLÔNIA À INDEPENDÊNCIA",
+      "code": "HI545",
+      "ementa": "ESTA DISCIPLINA É UMA INTRODUÇÃO AO ESTUDO DA HISTÓRIA DAS AMÉRICAS, DESDE 1492 ATÉ O INÍCIO DO SÉCULO XIX. A HISTÓRIA DA CONQUISTA E DA COLONIZAÇÃO, A ANÁLISE DAS ESTRUTURAS SOCIAIS, ECONÔMICAS E POLÍTICAS, MOLDADAS A PARTIR DO (DÊS)ENCONTRO ENTRE AS AMÉRICAS, A EUROPA E A ÁFRICA. SUBSÍDIOS PARA A COMPREENSÃO DO PROCESSO DE EMANCIPAÇÃO DAS COLÔNIAS ESPANHOLAS, CONSIDERANDO-SE AS RELAÇÕES HISTÓRICAS DA HERANÇA COLONIAL.",
+      "hours": 90,
+      "semester": 4,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI355",
+          "name": "HISTORIA DA AMERICA 5"
+        },
+        {
+          "code": "HI356",
+          "name": "HISTORIA DA AMERICA 6"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA MODERNA",
+      "code": "HI543",
+      "ementa": "A DISCIPLINA HISTÓRIA MODERNA DEVE TER COMO OBJETIVO OFERECER UMA VISÃO GERAL DOS MOVIMENTOS OCORRIDOS NA EUROPA E, FORA DELA, COM ELA RELACIONADOS, DO SÉCULO XV AO SÉCULO XVIII, DE MANEIRA A AUXILIAR O ESTUDANTE A COMPREENDER O DINAMISMO DO MUNDO MODERNO, RELACIONANDO CIÊNCIA, RELIGIÃO E ARTE ÀS NOVAS FORMAS DE ORGANIZAÇÃO SÓCIO-POLÍTICAS E ECONÔMICAS DO PERÍODO.",
+      "hours": 90,
+      "semester": 4,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI291",
+          "name": "HISTORIA MODERNA 1"
+        },
+        {
+          "code": "HI292",
+          "name": "HISTORIA MODERNA 2"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TEORIA DA HISTORIA 2",
+      "code": "HI402",
+      "ementa": "INTRODUZIR OS ALUNOS NO CONHECIMENTO DAS FONTES DO RACIONALISMO CRÍTICO, BEM COMO NO PENSAMENTO DOS #PÓS-MODERNOS#. APRESENTAR ALTERNATIVAS À CRISE DA MODERNIDADE.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "HI538",
+          "name": "TEORIA DA HISTÓRIA I"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA CONTEMPORÂNEA",
+      "code": "HI544",
+      "ementa": "DISCIPLINA DIRECIONADA PARA A COMPREENSÃO E PROBLEMATIZAÇÃO, DE FORMA ANALÍTICA, DOS REGIMES POLÍTICOS E DAS PRÁTICAS SÓCIO-ECONÔMICAS E CULTURAIS QUE MARCARAM O MUNDO CONTEMPORÂNEO, DESDE FINAIS DO SÉCULO XVIII ATÉ O TÉRMINO DO SÉCULO XX.",
+      "hours": 90,
+      "semester": 5,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI346",
+          "name": "HISTORIA CONTEMPORANEA 1"
+        },
+        {
+          "code": "HI347",
+          "name": "HISTORIA CONTEMPORANEA 2"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DA AMÉRICA - DA FORMAÇÃO DO ESTADO NACIONAL AO SÉCULO XX",
+      "code": "HI546",
+      "ementa": "FORMAÇÃO E CONSOLIDAÇÃO DO ESTADO NACIONAL NA AMÉRICA HISPÂNICA. NOVAS TENDÊNCIAS ECONÔMICAS, POLÍTICAS E SÓCIAS(1900 -1930). A GRANDE DEPRESSÃO NAS AMÉRICAS. O ESTADO POPULISTA. AMÉRICA LATINA E A CONJUNTURA ECONÔMICA/POLÍTICA PÓS SEGUNDA GUERRA. REGIMES AUTORITÁRIOS. REVOLUÇÕES NA AMÉRICA LATINA. GLOBALIZAÇÃO E NEO-LIBERALISMO. O NEO-POPULISMO E OS NOVOS MOVIMENTOS INDÍGENAS NA AMÉRICA LATINA.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI358",
+          "name": "HISTORIA DA AMERICA 7"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DO BRASIL REPÚBLICA",
+      "code": "HI549",
+      "ementa": "OBJETIVA-SE PROPORCIONAR UMA ANÁLISE DA HISTÓRIA DO BRASIL DURANTE O PERÍODO REPUBLICANO SOB O PRISMA DA CONSTRUÇÃO DA CIDADANIA, BEM COMO O MODO COMO O TEMA TEM SIDO DESENVOLVIDO NA HISTORIOGRAFIA.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI247",
+          "name": "HISTORIA DO BRASIL 7"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DE PERNAMBUCO",
+      "code": "HI550",
+      "ementa": "ESTA CADEIRA PROCURARÁ PROBLEMATIZAR A HISTÓRIA DE PERNAMBUCO, PELO ESTUDO DA SUA FORMAÇÃO POLÍTICA, SÓCIO-ECONÔMICA E CULTURAL, DESDE A SUA FUNDAÇÃO COMO CAPITANIA ATÉ O ADVENTO DO ESTADO NOVO (SÉC. XX).",
+      "hours": 90,
+      "semester": 6,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI248",
+          "name": "HISTORIA DE PERNAMBUCO 1"
+        },
+        {
+          "code": "HI250",
+          "name": "HISTORIA DE PERNAMBUCO 2"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PALEOGRAFIA E DIPLOMÁTICA",
+      "code": "HI577",
+      "ementa": "NO CURSO DA DISCIPLINA, NA SUA FACE TEÓRICA, O BACHARELANDO DE HISTÓRIA DEVERÁ IDENTIFICAR OS PROCESSOS E OS CONTEXTOS HISTÓRICOS NOS QUAIS AS ESCRITAS SE DESENVOLVERAM, NOTADAMENTE ÀQUELAS DERIVADAS DAS ALFABÉTICAS GRECO-LATINAS. NA PARTE PRÁTICA, DEVERÁ DECODIFICAR, ANALISAR E INTERPRETAR MANUSCRITOS LUSO BRASILEIROS PRODUZIDOS DURANTE O PERÍODO COLONIAL, ASSIM COMO TRANSCREVÊ-LOS, OBSERVANDO PARA TANTO AS REGRAS NACIONAIS E INTERNACIONAIS EM VIGOR.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HI212",
+          "name": "PALEOGRAFIA 2"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TRABALHO DE CONCLUSÃO CURSO I - METODOLOGIA E FONTES DA PESQUISA",
+      "code": "HI578",
+      "ementa": "A DISCIPLINA PROPÕE UM ESTUDO DOS MÉTODOS E TÉCNICAS DA PESQUISA HISTÓRICA, EXPLORANDO OS ÂMBITOS HISTORIOGRÁFICOS E DE FONTES DE VÁRIOS TIPOS.",
+      "hours": 45,
+      "semester": 6,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "HI579",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO II - PROJETO DE PESQUISA HISTÓRIA"
+        }
+      ]
+    },
+    {
+      "name": "TRABALHO DE CONCLUSÃO DE CURSO II - PROJETO DE PESQUISA HISTÓRIA",
+      "code": "HI579",
+      "ementa": "ELABORAÇÃO DA ESTRUTURA DO PROJETO DE PESQUISA CONSIDERANDO OS MÉTODOS E AS TÉCNICAS DA HISTÓRIA.",
+      "hours": 45,
+      "semester": 7,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "HI578",
+          "name": "TRABALHO DE CONCLUSÃO CURSO I - METODOLOGIA E FONTES DA PESQUISA"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "HI580",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO III - REDAÇÃO DO TEXTO DO TCC"
+        }
+      ]
+    },
+    {
+      "name": "TRABALHO DE CONCLUSÃO DE CURSO III - REDAÇÃO DO TEXTO DO TCC",
+      "code": "HI580",
+      "ementa": "REDAÇÃO DO TEXTO DO TRABALHO DE CONCLUSÃO DO CURSO CONSIDERANDO OS MÉTODOS E AS TÉCNICAS DA HISTÓRIA.",
+      "hours": 90,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "HI579",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO II - PROJETO DE PESQUISA HISTÓRIA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "A FORMAÇÃO DO ESTADO ABSOLUTISTA",
+      "code": "HI494",
+      "ementa": "ANALISAR COMO OCORREU A PASSAGEM DAS MONARQUIAS NACIONAIS PARA OS ESTADOS ABSOLUTITAS, CONSIDERANDO A EVOLUÇÃO DO PENSAMENTO POLÍTICO E SOCIAL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "A IDADE MODERNA E O PROCESSO CIVILIZATÓRIO",
+      "code": "HI495",
+      "ementa": "ESTUDO DA IDADE MODERNA COMO SENDO O LOCUS DO ESTABELECIMENTO DE REGRAS DE CONVIVÊNCIA SOCIAL, COM A ADOÇÃO DE FORMAS BURGUESAS DE RELACIONAMENTO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "A REFORMA CATÓLICA E AS COLÔNIAS EUROPÉIAS NAS AMÉRICAS",
+      "code": "HI496",
+      "ementa": "AS RELAÇÕES ENTRE AS ORIENTAÇÕES TRIDENTINAS E A FORMAÇÃO DOS POVOS AMERICANOS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ABOLIÇÃO DA ESCRAVATURA NAS AMÉRICAS E UMA VISÃO COMPARADA - OS EUA/CUBA/BRASIL",
+      "code": "HI570",
+      "ementa": "ESCRAVIDÃO NAS AMÉRICAS. AS ORIGENS E ATUAÇÃO DOS MOVIMENTOS ABOLICIONISTAS. A SITUAÇÃO DOS LIBERTOS NO PERÍODO PÓS-ABOLICIONISTA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "AS LUTAS PELA HEGEMONIA NO MUNDO MODERNO",
+      "code": "HI498",
+      "ementa": "A CRISE DOS DIVERSOS MERCANTILISMOS, TOMANDO COMO PONTO DE REFERÊNCIA ALGUNS MOMENTOS DE CONFRONTO ENTRE AS POTÊNCIAS, COMO LEPANTO, O FIM DA INVENCÍVEL ARMADA, OS ASTOS DE NAVEGAÇÃO A GUERRA DOS TRINTA ANOS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CIDADANIA NO BRASIL IMPÉRIO",
+      "code": "HI564",
+      "ementa": "ESTADO DO SISTEMA ELEITORAL E DAS ELEIÇÕES NO IMPÉRIO, COM ÊNFASE NA HISTÓRIA DAS ELEIÇÕES DE PERNAMBUCO NO SEGUNDO REINADO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DA LÍNGUA BRASILEIRA DE SINAIS - LIBRAS",
+      "code": "PO494",
+      "ementa": "REFLEXÃO SOBRE OS ASPECTOS HISTÓRICOS DA INCLUSÃO DAS PESSOAS SURDAS NA SOCIEDADE EM GERAL E NA ESCOLA; A LIBRAS COMO LÍNGUA DE COMUNICAÇÃO SOCIAL EM CONTEXTO DE COMUNICAÇÃO ENTRE PESSOAS SURDAS E COMO SEGUNDA LÍNGUA. ESTRUTURA LINGÜÍSTICA E GRAMATICAL DA LIBRAS. ESPECIFICIDADES DA ESCRITA DO ALUNO SURDO, NA PRODUÇÃO DE TEXTO EM LÍNGUA PORTUGUESA. O INTÉRPRETE E A INTERPRETAÇÃO COMO FATOR DE INCLUSÃO E ACESSO EDUCACIONAL PARA OS ALUNOS SURDOS OU COM BAIXA AUDIÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTORIA DA CULTURA",
+      "code": "HI277",
+      "ementa": "AS PRINCIPAIS CARACTERÍSTICAS DA \"NOVA HISTÓRIA CULTURAL\", DISCUTINDO SUAS RELAÇÕES EM OUTRAS LINGUAGENS E CIÊNCIAS HUMANAS. PRINCIPAIS CATEGORIAS DE ANÁLISE DA \"NOVA HISTÓRIA CULTURAL\" TAIS COMO: COTIDIANO, MENTALIDADE, IDIOMA, SINAIS IMAGINÁVEIS, DISCUTINDO AS DIVERSAS ACEPÇÕES EM QUE SE EMPREGAM ESSES TERMOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTORIOGRAFIA CONTEMPORÂNEA - MICRO-HISTÓRIA E BIOGRAFIAS",
+      "code": "HI566",
+      "ementa": "OBJETIVA-SE PERCORRER OS PRINCIPAIS DEBATES HISTORIOGRÁFICOS A PARTIR DA DÉCADA DE 1970 E A EMERGÊNCIA DOS DEBATES SOBRE A PÓS-MODERNIDADE. NESSE CONTEXTO, DISCUTIR A PRÁTICA HISTORIOGRÁFICA DA MICRO-HISTÓRIA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "HI271",
+          "name": "HISTORIOG BRASILE CONTEMPORANEA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA CULTURAL",
+      "code": "HI555",
+      "ementa": "ANALISAR OS PRINCIPAIS DEBATES TEÓRICOS PROPOSTOS PELA HISTÓRIA CULTURAL E A RELAÇÃO COM OUTRAS DISCIPLINAS DAS CIÊNCIAS SOCIAIS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DA ARTE",
+      "code": "HI523",
+      "ementa": "ESTUDO DOS VÁRIOS ESTILOS DA ARTE E SUA CONTEXTUALIZAÇÃO GEOGRÁFICA, HISTÓRIA E CULTURAL. CONHECER AOS ALUNOS A METODOLOGIA E AS PROBLEMÁTICAS ESPECÍFICAS DA HISTÓRIA DA ARTE. AQUISIÇÃO DE INSTRUMENTOS CONCEITUAIS E TÉCNICOS PARA A SUA UTILIZAÇÃO NO CAMPO DA MUSEOLOGIA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DA CONTRA - REFORMA",
+      "code": "HI587",
+      "ementa": "ANTECEDENTES HISTÓRICOS: A AFIRMAÇÃO DA IGREJA CATÓLICA NO OCIDENTE; O DIREITO CANÔNICO; A MONARQUI PAPAL; A CRISE DO SÉCULO XVI: A REFORMA PROTESTANTE E FIM DA UNIDADE RELIGIOSA NO OCIDENTE; A REFORMA CATÓLICA; A INQUISIÇÃO NA IDADE MODERNA; A IGREJA NO CONTINENTE.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DA ESCRAVIDÃO AFRICANA NAS AMÉRICAS",
+      "code": "HI554",
+      "ementa": "O OBJETIVO DESTA CADEIRA É APROFUNDAR O ESTUDO DA HISTÓRIA DA ESCRAVIDÃO AFRICANA NAS AMÉRICAS, DESDE DE SUA IMPLANTAÇÃO ATÉ SUA SUPERAÇÃO NO SÉCULO XIX, PASSANDO PELA ANÁLISE DO COMÉRCIO ATLÂNTICO DE ESCRAVOS, DENTRO DE UMA PERSPECTIVA COMPARADA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DA FAMÍLIA NO BRASIL COLÔNIA",
+      "code": "HI557",
+      "ementa": "COM BASE NA HISTORIOGRAFIA, ANALISAR O PROCESSO DE FORMAÇÃO DA FAMÍLIA NO BRASIL E SUA IMPORTÂNCIA NAS RELAÇÕES SOCIAIS DO PERÍODO COLONIAL.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DA GUERRA FRIA",
+      "code": "HI567",
+      "ementa": "A SEGUNDA METADE DO SÉCULO XX FOI MARCADA PELA POLARIZAÇÃO E DISPUTA PELA HEGEMONIA MUNDIAL ENTRE OS ESTADOS UNIDOS E A UNIÃO SOVIÉTICA, DUAS GRANDES SUPERPOTÊNCIAS ANTAGÔNICAS EM SEUS SISTEMAS SÓCIO-ECONÔMICOS E POLÍTICO, E EM SUAS IDEOLOGIAS. A HISTÓRIA DESSE CONFLITO QUE JAMAIS CHEGOU A EVOLUIR PARA O EMBATE MILITAR, EM DECORRÊNCIA DO DESENVOLVIMENTO DA TECNOLOGIA DA GUERRA NUCLEAR, SERÁ O OBJETO DE ESTUDO DESSA DISCIPLINA.      ",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DO AÇUCAR",
+      "code": "HI505",
+      "ementa": "ACOMPANHAR A EXPANÇÃO DO CULTIVO DA CANA-DE-AÇUCAR E DA FABRICAÇÃO DE AÇUCAR NA AMÉRICA, EVOCANDO DIVERSOS CONTEXTOS GEOGRÁFICOS E HISTÓRICOS E ATORES SOCIAIS ENVOLVIDOS A EXEMPLO DO NORDESTE DO BRASIL.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DO CORPO",
+      "code": "HI556",
+      "ementa": "NOS ANOS 80 DO SÉCULO XX, UMA CORRENTE CADA VEZ MAIOR DE HISTORIADORES SE DEBRUÇARAM SOBRE O ESTUDO DA HISTÓRIA DO CORPO, INFLUENCIADOS PELA HISTÓRIA DA MEDICINA E UTILIZANDO A SOCIOLOGIA E A ANTROPOLOGIA COMO CIÊNCIAS AUXILIARES. EM SEUS ESCRITOS, PERCEBEMOS UMA MAIOR COMPREENSÃO DA CORPOREIDADE HUMANA NÃO APENAS COMO FENÔMENO BIOLÓGICO, MAS TAMBÉM ECONÔMICO, SOCIAL, CULTURAL E AS REPRESENTAÇÕES MENTAIS DAS QUAIS ELE É, AO MESMO TEMPO, PRODUTO E AGENTE. DESSA FORMA, O ESTUDO DO CORPO SE APRESENTA COMO UM IMENSO CAMPO DE PESQUISA PARA OS HISTORIADORES",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DO PENSAMENTO OCIDENTAL A RESPEITO DA RELAÇÃO HOMEM/NATUREZA",
+      "code": "HI559",
+      "ementa": "A DISCIPLINA PROPÕE UMA ABORDAGEM DAS RELAÇÕES ENTRE O SER HUMANO E SEU MEIO QUE ESTÃO NO CERNE DA PREOCUPAÇÃO ECOLÓGICA, EXPLORANDO A CONSTRUÇÃO HISTÓRICA DOS CONCEITOS QUE PRESIDEM À QUESTÃO AMBIENTAL NO OCIDENTE, BEM COMO O IMPACTO DESSES CONCEITOS SOBRE AS RELAÇÕES SOCIAIS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DO RENASCIMENTO",
+      "code": "HI586",
+      "ementa": "A DISCIPLINA VISA PROPORCIONAR AO ALUNO UM CONHECIMENTO AMPLO DA HISTORIOGRAFIA SOBRE O RENASCIMENTO, ASSIM COMO APROFUNDAR OS SEUS CONHECIMENTOS SOBRE ALGUNS ASPECTOS ESPECÍFICOS DA CULTURA DO RENASCIMENTO ITALIANO E EUROPEU.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DOS TRABALHADORES SOB O CAPITALISMO",
+      "code": "HI521",
+      "ementa": "EXAMINA A HISTÓRIA DAS RELAÇÕES DE TRABALHO NO OCIDENTE, NO CAMPO E NA CIDADE, EVIDENCIANDO OS DIFERENTES REGIMES DE TRABALHO, O ESTATUTO JURÍDICO DA MÃO-DE-OBRA, BEM COMO O DESENVOLVIMENTO DE SUAS ENTIDADES DE CLASSE. SERÃO ADOTADAS TRANSVERSALIDADES COMO RAÇA, O GENERO E A IDADE.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA E HISTORIOGRAFIA DA GUERRA DO PARAGUAI",
+      "code": "HI561",
+      "ementa": "ESTA DISCIPLINA TRATA DAS PRINCIPAIS VERSÕES SOBRE A GUERRA DA TRÍPLICE ALIANÇA FORNECENDO OS ELEMENTOS FUNDAMENTAIS PARA A COMPREENSÃO DO CONFLITO QUE INTERFERIU NO CURSO DA HISTÓRIA DA REGIÃO DO PRATA, NA AMÉRICA DO SUL, DURANTE A SEGUNDA METADE DO SÉCULO XIX. A DISCUSSÃO SOBRE A PRODUÇÃO HISTORIOGRÁFICA E O ESTUDO DA HISTÓRIA DO PARAGUAI VISANDO ENVOLVER O ALUNO COM OS TEMAS RELACIONADOS À REALIDADE DA HISTÓRIA SUL-AMERICANA SÃO ALGUNS DOS OBJETIVOS DESTE CURSO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA INTELECTUAL E ARTÍSTICA DA IDADE MODERNA",
+      "code": "HI558",
+      "ementa": "O CURSO PRETENDE ANALISAR A EVOLUÇÃO DAS ARTES NO PERÍODO, DESDE O CLÁSSICO RENASCENTISTA AO ROCOCÓ DO SÉCULO XVIII, ANALISANDO AS CONDIÇÕES SÓCIO ECONÔMICAS QUE PERMITIRAM TAL EVOLUÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA INTELECTUAL E ARTÍSTICA DA IDADE MÉDIA",
+      "code": "HI563",
+      "ementa": "ACOMPANHANDO GEORGES DUBY, PROCURA-SE ENTENDER O PERÍODO MEDIEVAL OCIDENTAL A PARTIR DE SUAS MANIFESTAÇÕES INTELECTUAIS E ARTÍSTICAS EM TODAS AS DIMENSÕES E MANIFESTAÇÕES, DESTACANDO NÃO APENAS AS PRÓPRIAS REALIZAÇÕES COMO O CONTEXTO SOCIO-ECONÔMICO E IDEOLÓGICO DE SEU SURGIMENTO E AS FORÇAS SOCIAIS QUE COMBINARAM-SE PARA CRIAR-LAS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO À HISTÓRIA AMBIENTAL AMERICANA",
+      "code": "HI560",
+      "ementa": "INTRODUÇÃO AOS CONCEITOS E À HISTORIOGRAFIA REFERENTE AO TEMA, E INTRODUÇÃO AO ESTUDO DAS QUESTÕES AMBIENTAIS DO CONTINENTE AMERICANO. AS RELAÇÕES ENTRE AS MUDANÇAS GEO-CLIMÁTICAS PERTINENTES À DINÂMICA DA HISTÓRIA NATURAL E A INTERVENÇÃO ANTRÓPICA ENCONTRAM DIFERENTES EXPRESSÕES AO LONGO DA HISTÓRIA AMERICANA. A ANÁLISE DE DIVERSAS POSIÇÕES POLÍTICO-IDEOLÓGICAS SOBRE AS QUESTÕES AMBIENTAIS, CONSTRUÍDAS HISTORICAMENTE COMO REFLEXO DE DIFERENTES INTERESSES, BUSCA FORNECER UM EMBASAMENTO HISTÓRICO PARA UMA REFLEXÃO MAIS ABRANGENTE SOBRE OS PROBLEMAS AMBIENTAIS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO À HISTÓRIA DA CHINA CONTEMPORÂNEA",
+      "code": "HI508",
+      "ementa": "DIMENSÃO DAS TRANSFORMAÇÕES REALIZADAS E OCORRIDAS NA CHINA, ESPECIALMENTE NOS DOIS ÚLTIMOS SÉCULOS, DE MANEIRA QUE SEJA POSSÍVEL UMA COMPREENSÃO DE COMO ELA PODE MANTER A SUA CULTURA ENQUANTO DIALOGA COM TRADIÇÕES EXTERNAS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO À HISTÓRIA DO PROGRESSO",
+      "code": "HI574",
+      "ementa": "O ESTUDO DOS EFEITOS CUMULATIVOS DA TECNOLOGIA E DOS SEUS REFLEXOS SOBRE O AMBIENTE, CONSIDERARÁ O PROCESSO QUE PERMITIU O ATUAL DESENVOLVIMENTO TECNOLÓGICO, DESDE SUA GÊNESE A PARTIR DOS PRIMEIROS UTENSÍLIOS DE PEDRA LASCADA. O ESTUDO DESSE PROCESSO ESTÁ ORIENTADO TAMBÉM PARA A IDÉIA DE QUE A TECNOLOGIA, ALÉM DE TER PRODUZIDO EM NÓS RADICAIS MUDANÇAS BIOLÓGICAS, SEGUIU PRODUZINDO MUDANÇAS COMPORTAMENTAIS QUE SE PROCESSAM ATÉ HOJE. TAIS MUDANÇAS, POR SUA VEZ, CONTINUAM AFETANDO RADICALMENTE AS RELAÇÕES DO HOMEM COM O SEU MEIO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "LIMITES DOMINAÇÃO - MECANISM DA RESIST INDIGENA NAS AMÉRICAS",
+      "code": "HI509",
+      "ementa": "COMPREENSÃO DO IMPACTO DA CONQUISTA E DA COLONIZAÇÃO EUROPÉIA SOBRE AS SOCIEDADES NATIVAS DA AMÉRICA, NUMA ABORDAGEM QUE CONSIDERA AS DIFERENTES FACES DA RESISTÊNCIA INDÍGENA FRENTE ÀS FORMAS DE COERÇÃO DO COLONIZADOR. TEM COMO PRINCIPAL ESPAÇO HISTÓRICO O PERÍODO QUE ABRANGE OS SÉCULOS XV AO XIX, MAS TAMBÉM FAZ UMA REFLEXÃO SOBRE A SITUAÇÃO DOS POVOS \"INDIGENAS\" REMANECENTES.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "METODOLOGIA DA HISTÓRIA ORAL",
+      "code": "HI583",
+      "ementa": "HISTÓRIA E TEMPO PRESENTE; MEMÓRIA E ORALIDADE; MEMÓRIA COLETIVA E MEMÓRIAL INDIVIDUAL; MEMÓRIA E IDENTIDADE; HISTÓRIA ORAL, ÉTICA E PRODUÇÃO DE DOCUMENTOS; HISTÓRIA DE VIDA E ORGANIZAÇÃO DE ENTREVISTAS; FORMAÇÃO DE ACERVOS DE HISTÓRIA ORAL; HISTÓRIA ORAL E ENSINO DE HISTÓRIA.",
+      "hours": 90,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "O ATLÂNTICO E A ÁFRICA E O NOVO MUNDO",
+      "code": "HI573",
+      "ementa": "ANALISAR A INSERÇÃO DAS SOCIEDADES AFRICANAS NO MUNDO ATLÂNTICO SOB A PERSPECTIVA DO COMÉRCIO DE ESCRAVOS; OS PROCESSOS DE INTEGRAÇÃO DOS AFRICANOS TRAZIDOS COMO ESCRAVOS PARA A AMÉRICA NAS SOCIEDADES COLONIAIS QUE SE FORMAVAM NO NOVO MUNDO. O IMPACTO POLÍTICO E CULTURAL NO CONTINENTE AMERICANO, DA DIÁSPORA AFRICANA DOS SÉCULOS XVI AO XVIII.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PARA LER MINTZ",
+      "code": "HI562",
+      "ementa": "O AÇÚCAR TEM UM PAPEL ESTRUTURADOR NA CONSTITUIÇÃO DO MUNDO DITO GLOBALIZADO. SIDNEY W. MINTZ TRABALHOU ESTA TEMÁTICA EM VÁRIAS DIMENSÕES: RELAÇÕES DE TRABALHO, MERCADOS LOCAIS, BRECHA CAMPONESA, USO DO AÇÚCAR NA ÉPOCA MODERNA E CONTEMPORÂNEA, FUSÕES CULTURAIS RESULTANTES DOS GRANDES MOVIMENTOS DEMOGRÁFICOS QUE ACOMPANHARAM A EXPANSÃO AÇUCAREIRA ETC. A DISCIPLINA SE PROPÕE VALORIZAR O PAPEL DA TRANSDISCIPLINARIDADE QUE ELE PRATICA EM VIRTUOSE, ARTICULANDO DE FORMA INÉDITA E ESCLARECEDORA CAPITALISMO, ESCRAVIDÃO, CULINÁRIA E CORTESIA, PSICOLOGIA SOCIAL, GEOPOLÍTICA, DEFINIÇÕES DA CULTURA E HISTÓRIA ECONÔMICA, ENTRE OUTRAS. SEU PENSAMENTO ALIA O RIGOR NO TRATAMENTO DE ABRANGENTE DOCUMENTAÇÃO À INOVAÇÃO EM TERMOS CONCEITUAIS PARA ALCANÇAR UM MELHOR ENTENDIMENTO DESSA MODERNIDADE SECULAR.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "REFORMAS RELIGIOSAS NO SÉCULO XVI",
+      "code": "HI511",
+      "ementa": "AS CONDIÇÕES CULTURAIS E RELIGIOSAS QUE FAVORECERAM A DIVISÃO DA CRISTANDADE EUROPÉIA E SUA DIFUSÃO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "REVOLUÇÃO BURGUESA NA INGLATERRA",
+      "code": "HI512",
+      "ementa": "ABORDAR AS TRANSFORMAÇÕES ECONÔMICAS, POLÍTICAS E SOCIOCULTURAIS NA INGLATERRA DOS SÉCULOS XVI E XVII, QUE LEVARAM À SUPERAÇÃO DO ABSOLUTISMO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "REVOLUÇÕES NA AMÉRICA LATINA CONTEMPORÂNEA",
+      "code": "HI569",
+      "ementa": "OS CONCEITOS DE REVOLUÇÃO. A REVOLUÇÃO GUATEMALTECA, A REVOLUÇÃO CUBANA. A INFLUÊNCIA DA REVOLUÇÃO CUBANA NA AMÉRICA CENTRAL.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS DE HISTÓRIA E CULTURA EM SOCIEDADES AFRICANAS - MENTALIDADE/RELIGIOSIDADE/IDENT.",
+      "code": "HI565",
+      "ementa": "CONCEITOS E CONSTRUÇÃO HISTORIOGRÁFICA DA ÁFRICA. COSMOVISÃO AFRICANA: O TEMPO DOS AFRICANOS. AS RELIGIÕES EM ÁFRICA: ORGANIZAÇÕES POLÍTICO-RELIGIOSAS. VISÕES DA ÁFRICA. AS ARTES DURANTE A DOMINAÇÃO COLONIAL. RESISTÊNCIAS E MOVIMENTOS DE LIBERTAÇÃO E O LEGADO DA COLONIZAÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DA HISTÓRIA DE PERNAMBUCO",
+      "code": "HI585",
+      "ementa": "A DISCIPLINA TEM COMO OBJETIVO FORNECER AO ALUNO SUBSÍDIOS PARA UMA REFLEXÃO SOBRE A HISTÓRIA DE PERNAMBUCO DURANTE OS SÉCULOS XIX E XX.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DA HISTÓRIA DO NORDESTE BRASILEIRO",
+      "code": "HI584",
+      "ementa": "ESTUDO DA PRODUÇÃO HISTORIOGRÁFICA SOBRE O NORDESTE E/OU DA FORMAÇÃO HISTÓRICA DESTA REGIÃO BRASILEIRA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE ESTUDOS PALEOGRÁFICOS",
+      "code": "HI576",
+      "ementa": "A DISCIPLINA SE DESENVOLVERÁ EM AULAS TEÓRICAS E PRÁTICAS, NAS QUAIS SERÃO TRABALHADOS OS FUNDAMENTOS BÁSICOS DE PALEOGRAFIA E DIPLOMÁTICA E DA ADMINISTRAÇÃO NO BRASIL COLÔNIA A PARTIR DA LEITURA, TRANSCRIÇÃO E ANÁLISE DE TEXTOS MANUSCRITOS PRODUZIDOS PELO CONSELHO ULTRAMARINO, SECRETARIAS DO REINO E DEMAIS ÓRGÃOS QUE COMPUNHAM A ESTRUTURA CORPORATIVA DE PODER DA COROA PORTUGUESA, AO NÍVEL CENTRAL E LOCAL DA CAPITANIA DE PERNAMBUCO, ENTRE OS SÉCULOS XVII E XIX.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE HISTÓRIA CONTEMPORÂNEA",
+      "code": "HI571",
+      "ementa": "DISCIPLINA DIRECIONADA PARA O ESTUDO DE TEMÁTICAS POLÍTICAS E SOCIAIS NO CAMPO DA HISTÓRIA CONTEMPORÂNEA, CABENDO AOS PROFESSORES ENCARREGADOS DE MINISTRÁ-LAS A DEFINIÇÃO DO CONTUDO ESPECIFICO A SER TRATADO NO PROGRAMA ESPECIFICAR O ASSUNTO SELECIONADO PARA O SEMESTRE. ENTRE OS TEMAS A SEREM EXPLORADOS DESÇAMOS ALGUNS: NAZISMO E FASCISMO, HISTORIOGRAFIA DA REVOLUÇÃO FRANCESA, REVOLUÇÕES DE 1848, NACIONALISMO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "HI237",
+          "name": "PROBL DA HIST CONTEPORANEA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE HISTÓRIA DO SÉCULO XX E XXI",
+      "code": "HI572",
+      "ementa": "DISCIPLINA DIRECIONADA PARA O ESTUDO DE TEMÁTICAS POLÍTICAS, ECONÔMICAS OU CULTURAIS NO CAMPO DA HISTÓRIA DO SÉCULO XX , CABENDO AOS PROFESSORES ENCARREGADOS DE MINISTRÁ-LAS A DEFINIÇÃO DO CONTUDO ESPECIFICO A SER TRATADO NO PROGRAMA ESPECIFICAR O ASSUNTO SELECIONADO PARA O SEMESTRE. ENTRE OS TEMAS A SEREM EXPLORADOS DESÇAMOS ALGUNS: ORDEM MUNDIAL NO PÓS-GUERRA FRIA, O CAPITALISMO ENTRE 1950-2000, MOVIMENTOS NACIONALISTA NO SÉCULO XX, MOVIMENTOS SOCIAIS E GLOBALIZAÇÃO, FUNDAMENTALISMO RELIGIOSO E IDENTIDADE CULTURAL NO MUNDO PÓS-GUERRA FRIA, MOVIMENTO E PENSAMENTO AMBIENTALISTA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS EM HISTÓRIA DA AMÉRICA LATINA",
+      "code": "HI575",
+      "ementa": "DISCIPLINA DIRECIONADA PARA O ESTUDO DE TEMÁTICAS POLÍTICAS, ECONÔMICAS OU CULTURAIS NO CAMPO DA HISTÓRIA DA AMÉRICA LATINA, CABENDO AOS PROFESSORES ENCARREGADOS DE MINISTRÁ-LAS A DEFINIÇÃO DO CONTUDO ESPECIFICO A SER TRATADO NO PROGRAMA E ESPECIFICAR O ASSUNTO SELECIONADO PARA O SEMESTRE. ENTRE OS TEMAS A SEREM EXPLORADOS DESTACAMOS ALGUNS: HISTÓRIA DO MÉXICO INDÍGENA, HISTÓRIA DO MÉXICO DOS SÉCULOS XIX E XX, HISTÓRIA DOS ESTADOS LATINO-AMERICANOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "UMA HISTÓRIA CONTEMPORÂNEA DOS ESTADOS UNIDOS",
+      "code": "HI568",
+      "ementa": "O CAPITALISMO INDUSTRIAL E A TRANSFORMAÇÃO DA SOCIEDADE. A BUSCA DE MERCADOS E O NOVO EXPANSIONISMO DOS EUA. GUERRAS CULTURAIS. O DESAFIO DA CIDADE E MOVIMENTOS REFORMISTAS. O CAPITALISMO DA #NOVA ERA#. A GRANDE DEPRESSÃO E O NEW DEAL. O IMPACTO DA SEGUNDA GUERRA MUNDIAL NA SOCIEDADE NORTE-AMERICANA. OS EUA E A GUERRA FRIA. A SOCIEDADE NORTE-AMERICANA EM CRISE.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    }
+  ]
+}

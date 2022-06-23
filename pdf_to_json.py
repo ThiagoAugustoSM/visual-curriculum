@@ -6,8 +6,10 @@ def get_block_info(block: tuple) -> tuple:
     is_title = block[0] == HEADER_FONT_SIZE
     try:
         if is_title:
-            float(block[4].strip().split("\n")[-1])
-            is_title = True
+            is_title = False
+            credits = block[4].strip().split("\n")[-1]
+            if "." in credits and float(credits):
+                is_title = True
     except: 
         is_title = False
     return is_title, block[4]
@@ -29,6 +31,7 @@ def get_hours(string: str) -> int:
     return list(number)
 
 def get_semester(string: str) -> int:
+    if "SEM PERIODIZAÇÃO" == string: return 0
     return int(re.findall("[0-9]+", string)[0])
 
 def get_equivalences(string: str) -> list:
@@ -39,11 +42,12 @@ def get_equivalences(string: str) -> list:
     splitted_string = string.strip().split("\n")
     for discipline in splitted_string:
         discipline_splitted = discipline.split("- ")
-        if len(discipline_splitted) != 2: continue
-        code, name = discipline_splitted
+        disc_cod = discipline_splitted[0].strip()
+        disc_name = "- ".join(discipline_splitted[1:])
+        if disc_name == "": continue
         equivalence_list.append({
-            "code": code.strip(),
-            "name": name
+            "code": disc_cod,
+            "name": disc_name,
         })
     return equivalence_list
 
@@ -52,24 +56,40 @@ def general_course_infos(document) -> "tuple[str, str, int, int, int]":
     elective_hours = 0
     university_name = ""
     obligatory_hours = 0
+    
+    search_hours = False
+    search_curso = False
+    hour_list = []
 
     last_page = document.pageCount - 1
     course_name = document.name
 
     for string in get_page_text(document, last_page):
         string = string.upper().strip()
-        if "PLENA" in string:
-            total_hours = get_hours(string)[0]
-        elif "CURSO:" in string:
+        if search_curso and "CURSO:" in string:
             course_name = string.replace("CURSO: ", "")
+            search_curso = False
         elif "UNIVERSIDADE" in string:
             university_name = string
-        elif "ELETIVOS" in string and "OBRIGATÓRIOS" in string:
+            search_curso = True
+        elif search_hours:
             try:
-                obligatory_hours, elective_hours = get_hours(string)
-            except:
-                print("[WARNING] Could not get elective and obligatory hours")
-    return university_name, course_name, total_hours, elective_hours, obligatory_hours
+                hour_list.extend(get_hours(string))
+            except: pass
+        elif "OBSERVAÇÃO PERFIL:" in string:
+            search_hours = True
+            try:
+                hour_list.extend(get_hours(string))
+            except: pass
+    hour_list = sorted(hour_list, reverse = True)
+    if len(hour_list) > 0:
+        total_hours = hour_list[0]
+    if len(hour_list) > 1:
+        obligatory_hours = hour_list[1]
+    elective_hours = total_hours - obligatory_hours
+    
+    return (university_name, course_name, total_hours, 
+            elective_hours, obligatory_hours)
 
 def get_equivalence_and_prereq_controls(string: str, 
         is_equivalence: bool, is_prerequisite: bool,
@@ -94,19 +114,22 @@ def get_equivalence_and_prereq_controls(string: str,
 
 def get_equivalence_and_prereq_values(string: str, 
         is_equivalence: bool, is_prerequisite: bool,
-        disc_prerequisites: list, disc_equivalences: list
-    ) -> "tuple[bool, bool, list, list]":
+        is_coreq: bool, disc_prerequisites: list,
+        disc_equivalences: list
+    ) -> "tuple[bool, bool, bool, list, list]":
     if is_equivalence:
         disc_equivalences = get_equivalences(string)
         is_equivalence = False
     elif is_prerequisite:
         splitted_string = string.split("CO-REQUISITO:")
         if len(splitted_string) == 2:
-            pre_req, _ = splitted_string
+            pre_req, co_req = splitted_string
+            if "NÃO" not in co_req:
+                is_coreq = True
         else: pre_req = splitted_string[0]
         disc_prerequisites = get_equivalences(pre_req)
         is_prerequisite = False
-    return (is_equivalence, is_prerequisite,
+    return (is_equivalence, is_prerequisite, is_coreq,
             disc_prerequisites, disc_equivalences)
 
 def save_json_file(output_path: str, university_name: str, course_name: str,
@@ -144,23 +167,42 @@ def get_dependents_value(discipline_list: list) -> list:
         
     return discipline_list
 
-def ufpe_cin_pdf_to_json(pdf_path: str, output_json: str):
+def append_discipline(disciplines: list, disc_name: str, disc_cod: str,
+    ementa: str, disc_hours: int, semester: int, disc_credits: int,
+    disc_type: bool, disc_equivalences: list, disc_prerequisites: list
+    ) -> "tuple[list, str, list, list]":
+    disciplines.append({
+        "name": disc_name,
+        "code": disc_cod,
+        "ementa": ementa,
+        "hours": disc_hours,
+        "semester": semester,
+        "credits": disc_credits,
+        "isObligatory": disc_type,
+        "equivalences": disc_equivalences,
+        "prerequisites": disc_prerequisites,
+        "dependents": [],
+    })
+    ementa = ""
+    disc_equivalences = []
+    disc_prerequisites = []
+    return (disciplines, ementa, 
+            disc_equivalences, 
+            disc_prerequisites)
+
+def ufpe_pdf_to_json(document):
     """
     Scraps the PDF file getting the information and
     writing it to a JSON file. This version was made
     to Computer Engineering/Information system courses.
     """
-    document = fitz.open(pdf_path)
-
     current_semester = 0
     new_semester = 0
     disciplines = []
     semesters = 0
 
-    (university_name, course_name, 
-    total_hours, elective_hours, 
-    obligatory_hours) = general_course_infos(document)
-
+    is_coreq = False
+    missing_infos = False
     is_equivalence = False
     disc_equivalences = []
     is_prerequisite = False
@@ -175,13 +217,15 @@ def ufpe_cin_pdf_to_json(pdf_path: str, output_json: str):
                 is_equivalence, is_prerequisite, ementa, disc_equivalences)
             if not continue_flag:
                 is_equivalence, is_prerequisite, ementa, disc_equivalences = infos
-            elif "PERÍODO" in string:
+                is_coreq = False
+            elif "PERÍODO" in string or "SEM PERIODIZAÇÃO" in string:
                 if len(disciplines) > 0 and disc_cod != disciplines[-1]["code"]:
                     new_semester = get_semester(string)
                 else:
                     current_semester = get_semester(string)
                     new_semester = current_semester
                 semesters = max(current_semester, semesters)
+                is_coreq = False
             elif is_title:
                 splitted = string.split("\n") 
                 string = "\n".join(splitted[-6:])
@@ -193,71 +237,71 @@ def ufpe_cin_pdf_to_json(pdf_path: str, output_json: str):
                         } for each in splitted[:-6]]
                     is_equivalence = False
                 if disc_cod != "":
-                    disciplines.append({
-                        "name": disc_name,
-                        "code": disc_cod,
-                        "ementa": ementa,
-                        "hours": disc_hours,
-                        "credits": disc_credits,
-                        "isObligatory": disc_type,
-                        "semester": current_semester,
-                        "equivalences": disc_equivalences,
-                        "prerequisites": disc_prerequisites,
-                        "dependents": [],
-                    })
-                    ementa = ""
-                    disc_equivalences = []
-                    disc_prerequisites = []
+                    (disciplines, ementa, disc_equivalences, 
+                    disc_prerequisites) = append_discipline(disciplines,
+                        disc_name, disc_cod, ementa, disc_hours, 
+                        current_semester, disc_credits, disc_type, 
+                        disc_equivalences, disc_prerequisites)
                     current_semester = new_semester
                 
                 (name, _type, _, _, total, credits) = string.split("\n")
-                disc_cod, disc_name = name.split("- ")
+                name = name.split("- ")
+                disc_cod = name[0].strip()
+                disc_name = "- ".join(name[1:])
                 disc_credits = int(float(credits))
                 disc_type = "OBRIG" in _type
-                disc_cod = disc_cod.strip()
                 disc_hours = int(total)
+                is_coreq = False
+            elif re.match("\w+\d+-", string) and (
+                "CO-REQUISITO" not in string and
+                "EQUIVALÊNCIA" not in string and
+                "PRÉ-REQUISITO" not in string and
+                not is_equivalence and not is_coreq
+                and not is_prerequisite):
+                (disciplines, ementa, disc_equivalences, 
+                disc_prerequisites) = append_discipline(disciplines,
+                    disc_name, disc_cod, ementa, disc_hours, 
+                    current_semester, disc_credits, disc_type, 
+                    disc_equivalences, disc_prerequisites)
+                current_semester = new_semester
+                name = string.split("- ")
+                disc_cod = name[0].strip()
+                disc_name = "- ".join(name[1:]).replace("\n", " ")
+                missing_infos = True
+            elif missing_infos:
+                (_type, _, _, total, credits) = string.split("\n")
+                disc_credits = int(float(credits))
+                disc_type = "OBRIG" in _type
+                disc_hours = int(total)
+                missing_infos = False
+                is_coreq = False
             else:
-                (is_equivalence, is_prerequisite, 
+                is_coreq = False
+                (is_equivalence, is_prerequisite, is_coreq,
                 disc_prerequisites, disc_equivalences
                 ) = get_equivalence_and_prereq_values(string,
-                    is_equivalence, is_prerequisite, 
+                    is_equivalence, is_prerequisite, is_coreq,
                     disc_prerequisites, disc_equivalences)
 
-    disciplines.append({
-        "name": disc_name,
-        "code": disc_cod,
-        "ementa": ementa,
-        "hours": disc_hours,
-        "credits": disc_credits,
-        "isObligatory": disc_type,
-        "semester": current_semester,
-        "equivalences": disc_equivalences,
-        "prerequisites": disc_prerequisites,
-        "dependents": [],
-    })
+    (disciplines, _, _, _) = append_discipline(disciplines,
+            disc_name, disc_cod, ementa, disc_hours, 
+            current_semester, disc_credits, disc_type, 
+            disc_equivalences, disc_prerequisites)
     
-    get_dependents_value(disciplines)
-    save_json_file(output_json, university_name, course_name,
-                   total_hours, elective_hours, obligatory_hours,
-                   semesters, disciplines)
+    return semesters, disciplines
 
-def ufpe_ec_pdf_to_json(pdf_path: str, output_json: str):
+def ufpe_ec_pdf_to_json(document):
     """
     Scraps the PDF file getting the information and
     writing it to a JSON file. This version was made
     to Computer Engineering course.
     """
-    document = fitz.open(pdf_path)
-
     added_disciplines = set()
     disciplines = []
     semesters = 0
     semester = 0
 
-    (university_name, course_name, 
-    total_hours, elective_hours, 
-    obligatory_hours) = general_course_infos(document)
-
+    co_req = False
     is_equivalence = False
     disc_equivalences = []
     is_prerequisite = False
@@ -283,22 +327,12 @@ def ufpe_ec_pdf_to_json(pdf_path: str, output_json: str):
                         } for each in splitted[:-7]]
                     is_equivalence = False
                 if disc_cod != "" and disc_cod not in added_disciplines:
-                    disciplines.append({
-                        "name": disc_name,
-                        "code": disc_cod,
-                        "ementa": ementa,
-                        "hours": disc_hours,
-                        "semester": semester,
-                        "credits": disc_credits,
-                        "isObligatory": disc_type,
-                        "equivalences": disc_equivalences,
-                        "prerequisites": disc_prerequisites,
-                        "dependents": [],
-                    })
+                    (disciplines, ementa, disc_equivalences, 
+                    disc_prerequisites) = append_discipline(disciplines,
+                        disc_name, disc_cod, ementa, disc_hours, semester, 
+                        disc_credits, disc_type, disc_equivalences, 
+                        disc_prerequisites)
                     added_disciplines.add(disc_cod)
-                    ementa = ""
-                    disc_equivalences = []
-                    disc_prerequisites = []
                 
                 (name, _type, period, 
                 _, _, total, credits) = string.split("\n")
@@ -310,35 +344,37 @@ def ufpe_ec_pdf_to_json(pdf_path: str, output_json: str):
                 semester = int(period)
                 semesters = max(semester, semesters)
             else:
-                (is_equivalence, is_prerequisite, 
+                (is_equivalence, is_prerequisite, co_req,
                 disc_prerequisites, disc_equivalences
                 ) = get_equivalence_and_prereq_values(string,
-                    is_equivalence, is_prerequisite, 
+                    is_equivalence, is_prerequisite, co_req,
                     disc_prerequisites, disc_equivalences)
     if disc_cod not in added_disciplines:
-        disciplines.append({
-            "name": disc_name,
-            "code": disc_cod,
-            "ementa": ementa,
-            "hours": disc_hours,
-            "semester": semester,
-            "credits": disc_credits,
-            "isObligatory": disc_type,
-            "equivalences": disc_equivalences,
-            "prerequisites": disc_prerequisites,
-            "dependents": [],
-        })
-    get_dependents_value(disciplines)
-    save_json_file(output_json, university_name, course_name,
-                   total_hours, elective_hours, obligatory_hours,
-                   semesters, disciplines)
+        (disciplines, _, _, _) = append_discipline(disciplines,
+            disc_name, disc_cod, ementa, disc_hours, semester, 
+            disc_credits, disc_type, disc_equivalences, 
+            disc_prerequisites)
+
+    return semesters, disciplines
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 4:
         print("Usage: python3 pdf_to_json.py <course_type> <pdf_path> <output_json>")
         print("course_type: ec for Computer Engineering and cc or si for Computer Science or Information systems")
     else:
-        if sys.argv[1].lower() in ['cc', 'si']:
-            ufpe_cin_pdf_to_json(sys.argv[2], sys.argv[3])
-        elif sys.argv[1].lower() == 'ec':
-            ufpe_ec_pdf_to_json(sys.argv[2], sys.argv[3])
+        document = fitz.open(sys.argv[2])
+
+        (university_name, course_name, 
+        total_hours, elective_hours, 
+        obligatory_hours) = general_course_infos(document)
+
+        if sys.argv[1].lower() == 'ec':
+            semesters, disciplines = ufpe_ec_pdf_to_json(document)
+        else:
+            semesters, disciplines = ufpe_pdf_to_json(document)
+
+        get_dependents_value(disciplines)
+        save_json_file(sys.argv[3], university_name, course_name,
+                    total_hours, elective_hours, obligatory_hours,
+                    semesters, disciplines)

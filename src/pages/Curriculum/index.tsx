@@ -191,7 +191,7 @@ export default function CurriculumPage(): React.ReactElement {
     <Box m="5">
       <Header />
       <Navigator />
-      <Box w="100%" flexWrap="wrap">
+      <Box w="100%" flexWrap="wrap" mb={12}>
         {Array.from(obligatory.entries()).map(([semester, disciplines]) => (
           <Grid key={`rows-${semester}`} display="flex" flexWrap="wrap">
             {disciplines.map((item) => (
@@ -227,7 +227,7 @@ export default function CurriculumPage(): React.ReactElement {
         bottom="0"
         bg="var(--chakra-colors-chakra-body-bg)"
         left="0"
-        boxShadow="0px -2px 5px #ccc"
+        boxShadow="0px -2px 5px #eee"
       >
         <AccordionItem>
           {({ isExpanded }) => (

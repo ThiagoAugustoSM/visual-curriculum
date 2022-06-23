@@ -7,6 +7,7 @@ export type DisciplineType = {
   name: string;
   code: string;
   hours: number;
+  ementa: string;
   credits: number;
   semester: number;
   isActive?: boolean;

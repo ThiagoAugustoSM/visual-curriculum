@@ -1,0 +1,1307 @@
+{
+  "university": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+  "course": "ENFERMAGEM",
+  "semesters": 10,
+  "totalHours": 4500,
+  "totalHoursElective": 0,
+  "totalHoursObligatory": 4500,
+  "disciplines": [
+    {
+      "name": "PROCESSO DE TRABALHO EM ENFERMAGEM",
+      "code": "EF540",
+      "ementa": "ELEMENTOS BÁSICOS DA EVOLUÇÃO HISTÓRICO-SOCIAL E POLÍTICA DO PROCESSO DE TRABALHO EM SAÚDE. ESTUDOS INVESTIGATIVOS SOBRE HISTÓRIA, LEGISLAÇÃO E APORTES TEÓRICOS DO PROCESSO DE TRABALHO DA ENFERMAGEM. CONSIDERAÇÕES ÉTICAS NO PROCESSO DE TRABALHO DO ENFERMEIRO.",
+      "hours": 120,
+      "semester": 1,
+      "credits": 7,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF201",
+          "name": "INTRODUCAO A ENFERMAGEM 1"
+        },
+        {
+          "code": "EF230",
+          "name": "EXERCICIO DA ENFERMAGEM 1A"
+        },
+        {
+          "code": "EF230",
+          "name": "EXERCICIO DA ENFERMAGEM 1A"
+        },
+        {
+          "code": "EF232",
+          "name": "EXERCICIO DE ENFERMAGEM 2"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PSICOLOGIA APLICADA À ENFERMAGEM",
+      "code": "PS577",
+      "ementa": "INTRODUÇÃO A PSICOLOGIA, PRINCIPAIS CONCEITOS E ESCOLAS, APLICAÇÕES PRÁTICAS, MÉTODOS DE INVESTIGAÇÃO, PERSONALIDADE E CONTEXTO SOCIAL, DETERMINANTES DO COMPORTAMENTO E SEUS PROCESSOS BÁSICOS. APLICAÇÕES DOS CONCEITOS DA PSICOLOGIA À PRÁTICA DO ENFERMEIRO.",
+      "hours": 45,
+      "semester": 1,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PS001",
+          "name": "PSICOLOGIA 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "SOCIOLOGIA APLICADA À SAÚDE",
+      "code": "CS661",
+      "ementa": "O PROCESSO SAÚDE/DOENÇA. A DETERMINAÇÃO SOCIAL E HISTÓRICA DO PROCESSO. A SAÚDE NO BRASIL.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CS004",
+          "name": "FUNDAMENTOS DE SOCIOLOGIA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS DE BIOLOGIA CELULAR E HISTOLOGIA",
+      "code": "HE247",
+      "ementa": "ANÁLISE DA COMPOSIÇÃO QUÍMICA DAS ESTRUTURAS E ULTRA-ESTRUTURAS CELULARES. ESTUDO DA FISIOLOGIA DAS ORGANELAS CELULARES E RELAÇÃO COM DETERMINADAS ALTERAÇÕES DE CARÁTER PATOLÓGICO. NÚCLEO INTERFÁSICO E EM DIVISÃO E CONTROLE DO CICLO CELULAR. ESTUDO DOS ASPECTOS CELULARES, ESTRUTURAIS, MORFOLÓGICOS E FUNCIONAIS DOS PRINCIPAIS TIPOS DE TECIDOS.",
+      "hours": 90,
+      "semester": 1,
+      "credits": 5,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HE011",
+          "name": "HISTOLOGIA"
+        },
+        {
+          "code": "HE017",
+          "name": "CITOLOGIA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "FF256",
+          "name": "FISIOLOGIA PARA ENFERMAGEM I"
+        },
+        {
+          "code": "MT200",
+          "name": "MICROBIOLOGIA E IMUNOLOGIA"
+        },
+        {
+          "code": "BQ318",
+          "name": "BIOQUÍMICA DE MACROMOLÉCULAS"
+        }
+      ]
+    },
+    {
+      "name": "VIVÊNCIAS DE EDUCAÇÃO NA SAÚDE DO TRABALHADOR",
+      "code": "EF541",
+      "ementa": "VIVÊNCIAS QUE PROPORCIONAM A OBSERVAÇÃO E ANÁLISE DA REALIDADE SÓCIO-ECONÔMICO E CULTURAL DE GRUPOS SOCIAIS, INSERIDOS NO MUNDO DO TRABALHO, COMPREENDENDO O PAPEL DO ENFERMEIRO NO DIAGNÓSTICO E PLANEJAMENTO DE AÇÕES EDUCATIVAS ARTICULADAS COM AS DEMANDAS E AS DIMENSÕES ENVOLVIDAS NA SAÚDE DA COMUNIDADE.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF241",
+          "name": "DIDATICA APLICADA A ENFERMAGEM"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "EF543",
+          "name": "VIVÊNCIAS DE EDUCAÇÃO EM SAÚDE"
+        }
+      ]
+    },
+    {
+      "name": "ÉTICA DO CUIDADO",
+      "code": "FL524",
+      "ementa": "TRATA-SE DAS BASES ÉTICO-FILOSÓFICAS DO CUIDADO VOLTADAS AO PROCESSO SAÚDE-DOENÇA. PARA TANTO, FAZ-SE NECESSÁRIA A INVESTIGAÇÃO DA ORIGEM, CONCEPÇÕES E MODOS DA EXISTÊNCIA HUMANA E DO CUIDADO SOB OLHAR DE UMA ANTROPOLOGIA FILOSÓFICA.",
+      "hours": 45,
+      "semester": 1,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF232",
+          "name": "EXERCICIO DE ENFERMAGEM 2"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ANATOMIA PARA ENFERMAGEM I",
+      "code": "AN230",
+      "ementa": "ESTUDO TEÓRICO-PRÁTICO DOS ASPECTOS ANATÔMICOS DO CORPO HUMANO, ABRANGENDO AS ESTRUTURAS DOS SISTEMAS: LOCOMOTOR, NERVOSO, CIRCULATÓRIO E RESPIRATÓRIO, COM FOCO NAS GENERALIDADES DOS DIVERSOS ÓRGÃOS QUE CONSTITUEM ESSES SISTEMAS ORGÂNICOS.",
+      "hours": 45,
+      "semester": 2,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AN001",
+          "name": "ANATOMIA 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "AN231",
+          "name": "ANATOMIA PARA ENFERMAGEM II"
+        }
+      ]
+    },
+    {
+      "name": "BIOQUÍMICA DE MACROMOLÉCULAS",
+      "code": "BQ318",
+      "ementa": "A DISCIPLINA DE BIOQUÍMICA BÁSICA DEVE PERMITIR AO ALUNO UM RACIOCÍNIO LÓGICO VOLTADO A COMPREENSÃO DA ESTRUTURA, FUNÇÃO E MECANISMO DE AÇÃO DAS PRINCIPAIS MACROMOLÉCULAS DO CORPO HUMANO, ALÉM DE FAVORECER O DESENVOLVIMENTO DE HABILIDADE MANUAL A PARTIR DAS AULAS PRÁTICAS A SEREM MINISTRADAS EM LABORATÓRIO. A CORREÇÃO DAS TEMÁTICAS ABORDADAS EM SALA DE AULA E ASPECTOS DA ÁREA DE SAÚDE SERÁ POSSIBILITADA ATRAVÉS DE DISCUSSÃO DE ARTIGOS SOBRE OS TEMAS ABORDADOS.",
+      "hours": 45,
+      "semester": 2,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "BQ001",
+          "name": "BIOQUIMICA 1"
+        },
+        {
+          "code": "BQ313",
+          "name": "BIOQUÍMICA"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "HE247",
+          "name": "TÓPICOS DE BIOLOGIA CELULAR E HISTOLOGIA"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "FF257",
+          "name": "FISIOLOGIA PARA ENFERMAGEM II"
+        },
+        {
+          "code": "NU571",
+          "name": "FUNDAMENTOS DA NUTRIÇÃO"
+        },
+        {
+          "code": "FF258",
+          "name": "INTRODUÇÃO A FARMACOLOGIA"
+        },
+        {
+          "code": "BQ319",
+          "name": "BIOQUÍMICA METABÓLICA"
+        }
+      ]
+    },
+    {
+      "name": "ENFERMAGEM EM SITUAÇÕES DE URGÊNCIA NA COMUNIDADE",
+      "code": "EF542",
+      "ementa": "ABRANGÊNCIA E REGULAMENTAÇÃO DO ATENDIMENTO PRÉ-HOSPITALAR (FIXO E MÓVEL) E A ATUAÇÃO DO ENFERMEIRO.",
+      "hours": 45,
+      "semester": 2,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FISICA E BIOFISICA",
+      "code": "BR011",
+      "ementa": "PROPRIEDADES FÍSICO-QUÍMICAS DA ÁGUA E SOLUÇÕES; MÉTODOS BIOFÍSICOS DE ANÁLISE; BIOFÍSICA CELULAR E MOLECULAR; PROCESSAMENTO DE INFORMAÇÕES DO SISTEMA NERVOSO; RADIOATIVIDADE: PROPRIEDADES, CARACTERISTICAS E APLICAÇÕES.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FISIOLOGIA PARA ENFERMAGEM I",
+      "code": "FF256",
+      "ementa": "COMPREENDER O FUNCIONAMENTO DOS SISTEMAS NERVOSO, MUSCULAR, CARDIO-VASCULAR E RESPIRATÓRIO QUE COMPÕEM O CORPO HUMANO E COMO ELES OPERAM ISOLADOS E INTEGRADOS NA ATIVIDADE HUMANA.",
+      "hours": 45,
+      "semester": 2,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "FF001",
+          "name": "FISIOLOGIA"
+        },
+        {
+          "code": "FF249",
+          "name": "FISIOLOGIA HUMANA 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "HE247",
+          "name": "TÓPICOS DE BIOLOGIA CELULAR E HISTOLOGIA"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "FF257",
+          "name": "FISIOLOGIA PARA ENFERMAGEM II"
+        }
+      ]
+    },
+    {
+      "name": "METODOLOGIA DA PESQUISA I",
+      "code": "EF544",
+      "ementa": "ESTUDOS DOS FUNDAMENTOS TEÓRICO-METODOLÓGICAS QUE DIRECIONAM A PESQUISA EM ENFERMAGEM. A LEITURA PRODUTIVA COMO BASE PARA A PESQUISA. ELEMENTOS DEFINIDORES DO PROCESSO DE INVESTIGAÇÃO CIENTÍFICA. PRINCIPAIS PROCEDIMENTOS E TÉCNICAS DE PESQUISA. AS QUESTÕES ÉTICAS E LEGAIS DA PESQUISA COM SERES HUMANOS. DESENVOLVE O PROJETO DE TRABALHO CIENTÍFICO EM TORNO DE QUESTÕES DA PRÁTICA PROFISSIONAL.",
+      "hours": 30,
+      "semester": 2,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF242",
+          "name": "METODOL CIENTIF EM ENFERMAGEM"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "EF557",
+          "name": "METODOLOGIA DA PESQUISA II"
+        }
+      ]
+    },
+    {
+      "name": "MICROBIOLOGIA E IMUNOLOGIA",
+      "code": "MT200",
+      "ementa": "ESTUDO DOS MICROORGANISMOS SOB OS ASPECTOS MORFOLÓGICOS E FUNCIONAIS E SUAS RELAÇÕES PARASITO-HOSPEDEIRO. A FORMAÇÃO DE ANTICORPOS E REAÇÕES ANTÍGENO-ANTICORPO.",
+      "hours": 45,
+      "semester": 2,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "HE247",
+          "name": "TÓPICOS DE BIOLOGIA CELULAR E HISTOLOGIA"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "MT210",
+          "name": "PARASITOLOGIA"
+        }
+      ]
+    },
+    {
+      "name": "ORGANIZAÇÃO DO SISTEMA DE SAÚDE NO BRASIL",
+      "code": "MS418",
+      "ementa": "PROCESSO SAÚDE-DOENÇA E SES FATORES DETERMINANTES. MODELOS EXPLICATIVOS. INDICADORES DE SAÚDE MAIS UTILIZADOS NO CAMPO DA SAÚDE COLETIVA. O CENÁRIO EPIDEMIOLÓGICO E DEMOGRÁICO DA POPULAÇÃO BRASILEIRA. O SISTEMA ÚNICO DE SAÚDE - SUS: PRINCÍPIOS E DIRETRIZES. MODELOS DE ATENÇÃO À SAÚDE. MUNICIPALIZAÇÃO E FINANCIAMENTO DA SAÚDE. PARTICIPAÇÃO E CONTROLE SOCIAL NO SUS. PROGRAMA DE AGENTES COMINITÁRIOS DE SAÚDE E PROGRAMA DE SAÚDE DA FAMÍLIA: ANTECEDENTES, OBJETIVOS, E ORGANIZAÇÃO DA ATENÇÃO À SAÚDE DA POPULAÇÃO.",
+      "hours": 45,
+      "semester": 2,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "MS203",
+          "name": "SANEAMENTO E SAUDE DA COMUNIDADE"
+        },
+        {
+          "code": "MS208",
+          "name": "SAUDE DA COMUNIDADE"
+        },
+        {
+          "code": "MS410",
+          "name": "PROGRAMACAO DE SAUDE"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "EF547",
+          "name": "ORGANIZAÇÃO DOS SERVIÇOS DE SAÚDE NA ATENÇÃO PRIMÁRIA"
+        }
+      ]
+    },
+    {
+      "name": "VIVÊNCIAS DE EDUCAÇÃO EM SAÚDE",
+      "code": "EF543",
+      "ementa": "PARTINDO DAS EXPERIÊNCIAS DA UNIDADE DE VIVÊNCIAS DE EDUCAÇÃO EM SAÚDE DO TRABALHADOR, BUSCA CONSTRUIR INTERVENÇÕES EDUCATIVAS PARA CENÁRIOS LOCAIS DA SAÚDE DO TRABALHADOR. SOCIALIZAÇÃO DE PRÁTICAS EDUCATIVAS FUNDAMENTADAS NAS CONCEPÇÕES, FASES, ELEMENTOS E ESTRATÉGIAS DE ENSINO APRENDIZAGEM PARA UM PLANEJAMENTO DE ENSINO ARTICULADO AS DEMANDAS E AS DIMENSÕES ENVOLVIDAS NA SAÚDE DA COMUNIDADE.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF241",
+          "name": "DIDATICA APLICADA A ENFERMAGEM"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF541",
+          "name": "VIVÊNCIAS DE EDUCAÇÃO NA SAÚDE DO TRABALHADOR"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "EF551",
+          "name": "PRÁTICAS DE EDUCAÇÃO PERMANENTE EM SAÚDE"
+        },
+        {
+          "code": "EF564",
+          "name": "VIVÊNCIAS DE EDUCAÇÃO NA SAÚDE DA MULHER E CRIANÇA E ADOLESCENTE"
+        }
+      ]
+    },
+    {
+      "name": "ANATOMIA PARA ENFERMAGEM II",
+      "code": "AN231",
+      "ementa": "ESTUDO TEÓRICO-PRÁTICO DOS ASPECTOS ANATÔMICOS DO CORPO HUMANO, ABRANGENDO AS ESTRUTURAS DOS SISTEMAS: DIGESTÓRIO, URINÁRIO E ENDÓCRINO, COM FOCO NAS GENERALIDADES DOS DIVERSOS ÓRGÃOS QUE CONSTITUEM ESSES SISTEMAS ORGÂNICOS.",
+      "hours": 45,
+      "semester": 3,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AN001",
+          "name": "ANATOMIA 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AN230",
+          "name": "ANATOMIA PARA ENFERMAGEM I"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "AN232",
+          "name": "ANATOMIA PARA ENFERMAGEM III"
+        }
+      ]
+    },
+    {
+      "name": "BIOESTATÍSTICA",
+      "code": "EF545",
+      "ementa": "INTRODUÇÃO AO ESTUDO DA ESTATÍSTICA APLICADA A SAÚDE. ORGANIZAÇÃO E APRESENTAÇÃO DE DADOS. ESTATÍSTICA DESCRITIVA. PROBABILIDADE E PROPRIEDADES EPIDEMIOLÓGICAS. COMPARAÇÃO DE MÉDIAS. MEDIDAS DE TENDÊNCIA CENTRAL E MEDIDAS DE DISPERSÃO. ESTUDO E APLICAÇÃO DA ESTATÍSTICA NA IDENTIFICAÇÃO DAS CONDIÇÕES DE MORBIMORTALIDADE NAS COMUNIDADES. CONSTRUÇÃO DE TABELAS E GRÁFICOS.",
+      "hours": 30,
+      "semester": 3,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF537",
+          "name": "BIOESTATÍSTICA E EPIDEMIOLOGIA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "EF557",
+          "name": "METODOLOGIA DA PESQUISA II"
+        }
+      ]
+    },
+    {
+      "name": "ENFERMAGEM NA SAÚDE DO ADULTO E DO IDOSO NA ATENÇÃO PRIMÁRIA I",
+      "code": "EF548",
+      "ementa": "ESTUDO (DO PROCESSO SAÚDE-DOENÇA) NAS NECESSIDADES HUMANAS DO ADULTO E DO IDOSO E SEUS DETERMINANTES, NO CONTEXTO SÓCIO-POLÍTICO, ECONÔMICO E CULTURAL. ABORDAGEM DA SISTEMATIZAÇÃO DA ASSISTÊNCIA DE ENFERMAGEM, DA SEMIOLOGIA E SEMIOTÉCNICA COMO PROCESSO DE TRABALHO NA PROMOÇÃO, PROTEÇÃO, RECUPERAÇÃO E REABILITAÇÃO DA SAÚDE NO CONTEXTO INDIVIDUAL, FAMILIAR E COMUNITÁRIO, ATRAVÉS DAS PRÁTICAS ASSISTENCIAIS, EDUCATIVAS E ADMINISTRATIVAS NA ATENÇÃO BÁSICA DE SAÚDE.",
+      "hours": 90,
+      "semester": 3,
+      "credits": 5,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF431",
+          "name": "ENFERMAGEM DE SAUDE PUBLICA 1"
+        },
+        {
+          "code": "EF537",
+          "name": "BIOESTATÍSTICA E EPIDEMIOLOGIA"
+        },
+        {
+          "code": "MS208",
+          "name": "SAUDE DA COMUNIDADE"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "EF549",
+          "name": "ENFERMAGEM NA SAÚDE DO ADULTO E DO IDOSO NA ATENÇÃO PRIMÁRIA II"
+        }
+      ]
+    },
+    {
+      "name": "FISIOLOGIA PARA ENFERMAGEM II",
+      "code": "FF257",
+      "ementa": "COMPREENDER O FUNCIONAMENTO DOS SISTEMAS DIGESTIVO, RENAL E ENDÓCRINO QUE COMPÕEM O CORPO HUMANO E COMO ELES OPERAM ISOLADOS E INTEGRADOS NA ATIVIDADE HUMANA.",
+      "hours": 45,
+      "semester": 3,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "FF001",
+          "name": "FISIOLOGIA"
+        },
+        {
+          "code": "FF249",
+          "name": "FISIOLOGIA HUMANA 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "BQ318",
+          "name": "BIOQUÍMICA DE MACROMOLÉCULAS"
+        },
+        {
+          "code": "FF256",
+          "name": "FISIOLOGIA PARA ENFERMAGEM I"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "EF553",
+          "name": "ENFERMAGEM NAS SITUAÇÕES CLÍNICAS E CIRÚRGICAS DO ADULTO E IDOSO"
+        },
+        {
+          "code": "FF260",
+          "name": "FISIOLOGIA PARA ENFERMAGEM III"
+        }
+      ]
+    },
+    {
+      "name": "FUNDAMENTOS DA NUTRIÇÃO",
+      "code": "NU571",
+      "ementa": "LEIS DA ALIMENTAÇÃO. PIRÂMIDE ALIMENTAR. FONTES ALIMENTARES DE MACRO E MICRONUTRIENTES. NUTRIÇÃO NORMAL NAS DIVERSAS FAIXAS ETÁRIAS E SITUAÇÕES FISIOLÓGICAS.",
+      "hours": 30,
+      "semester": 3,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "NU201",
+          "name": "NUTRICAO E DIETOTERAPIA"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "BQ318",
+          "name": "BIOQUÍMICA DE MACROMOLÉCULAS"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "NU572",
+          "name": "NUTRIÇÃO CLÍNICA"
+        }
+      ]
+    },
+    {
+      "name": "INTRODUÇÃO A FARMACOLOGIA",
+      "code": "FF258",
+      "ementa": "A DISCIPLINA INTRODUÇÃO À FARMACOLOGIA ABORDA OS PRINCÍPIOS BÁSICOS QUE FUNDAMENTAM A UTILIZAÇÃO DOS FÁRMACOS NA TERAPÊUTICA.",
+      "hours": 30,
+      "semester": 3,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "FF212",
+          "name": "FARMACOLOGIA 4"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "BQ318",
+          "name": "BIOQUÍMICA DE MACROMOLÉCULAS"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "FF259",
+          "name": "FARMACOLOGIA II"
+        }
+      ]
+    },
+    {
+      "name": "INTRODUÇÃO À ENFERMAGEM EM SAÚDE MENTAL",
+      "code": "EF546",
+      "ementa": "BASES CONCEITUAIS E HISTÓRICAS DO CAMPO DA SAÚDE MENTAL. EVOLUÇÃO HISTÓRICA DA SAÚDE MENTAL. DETERMINANTES BIOPSICOSSOCIAIS DO TRANSTORNO MENTAL. ATUAÇÃO DO ENFERMEIRO NO ÂMBITO DA SAÚDE MENTAL E PSIQUIATRIA. RELACIONAMENTO TERAPÊUTICO.",
+      "hours": 30,
+      "semester": 3,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF213",
+          "name": "ENFERMAGEM PSIQUIATRICA 1A"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "EF550",
+          "name": "ENFERMAGEM EM SAÚDE MENTAL NA ATENÇÃO PRIMÁRIA"
+        }
+      ]
+    },
+    {
+      "name": "ORGANIZAÇÃO DOS SERVIÇOS DE SAÚDE NA ATENÇÃO PRIMÁRIA",
+      "code": "EF547",
+      "ementa": "ANALISAR O CONCEITO DE ORGANIZAÇÃO DA ATENÇÃO PRIMÁRIA EM SAÚDE, ENFATIZANDO A ESTRUTURA ORGANIZACIONAL E O PROCESSO DE TRABALHO. DISCUTIR CONCEITOS BÁSICOS DE EPIDEMIOLOGIA.",
+      "hours": 45,
+      "semester": 3,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF437",
+          "name": "ADM DE SERVICOS DE SAUDE"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "MS418",
+          "name": "ORGANIZAÇÃO DO SISTEMA DE SAÚDE NO BRASIL"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "EF552",
+          "name": "ORGANIZAÇÃO DOS SISTEMAS DE SAÚDE NOS DIFERENTES NÍVEIS DE COMPLEXIDADE"
+        }
+      ]
+    },
+    {
+      "name": "PARASITOLOGIA",
+      "code": "MT210",
+      "ementa": "MECANISMO DE AÇÃO DOS PARASITOS DE DEFESA DO ORGANISMO. ASPECTOS BIOQUÍMICOS DAS ESPÉCIES PARASITÁRIAS. ANÁLISES DE BIOQUÍMICA DO SANGUE E QUADRO HEMATOLÓGICO DE PARASITOSES. SUMÁRIO DE QUADRO CLÍNICO ASSOCIADO AO COMPORTAMENTO DO PARASITO. SUMÁRIO DOS MECANISMOS TERAPÊUTICOS. MÉTODOS USADOS NA PROFILAXIA DAS PARASITOSES.",
+      "hours": 45,
+      "semester": 3,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "MT200",
+          "name": "MICROBIOLOGIA E IMUNOLOGIA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PROCESSOS PATOLOGICOS GERAIS",
+      "code": "PA210",
+      "ementa": "O ESTUDO DA ETIOPATOGENIA DOS DISTÚRBIOS LOCAIS DA CIRCULAÇÃO. A FISIOPATOLOGIA DO PROCESSO INFLAMATÓRIO INESPECÍFICO. ETIOPATOGENIA DAS INFLAMAÇÕES GRANULOMATOSAS (TUBERCULOSE, SÍFILIS, LEPRA, ESQUISTOSSOMOSE). DISTÚRBIOS DO CRESCIMENTO, DIFERENCIAÇÃO E REPRODUÇÃO CELULAR (MAL FORMAÇÃO CONGÊNITAS E ADQUIRIDAS. NEOPLASIAS).",
+      "hours": 45,
+      "semester": 3,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "EF549",
+          "name": "ENFERMAGEM NA SAÚDE DO ADULTO E DO IDOSO NA ATENÇÃO PRIMÁRIA II"
+        }
+      ]
+    },
+    {
+      "name": "BIOLOGIA DO DESENVOLVIMENTO HUMANO",
+      "code": "HE248",
+      "ementa": "ESTUDO DO DESENVOLVIMENTO ONTOGENÉTICO HUMANO. ESTUDO DAS MALFORMAÇÕES CONGÊNITAS OCORRIDAS DURANTE A ORGANOGÊNESE.",
+      "hours": 30,
+      "semester": 4,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "HE019",
+          "name": "EMBRIOLOGIA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "BIOQUÍMICA METABÓLICA",
+      "code": "BQ319",
+      "ementa": "A DISCIPLINA DE BIOQUÍMICA BÁSICA DEVE PERMITIR AO ALUNO UM RACIOCÍNIO LÓGICO VOLTADO À COMPREENSÃO DOS METABOLISMOS QUE ENVOLVEM AS PRINCIPAIS MACROMOLÉCULAS DO CORPO HUMANO. A CORREÇÃO DAS TEMÁTICAS ABORDADAS EM SALA DE AULA E ASPECTOS DA ÁREA DE SAÚDE SERÁ POSSIBILITADA ATRAVÉS DAS AULAS PRÁTICAS VOLTADAS À DISCUSSÃO DE CASOS SOBRE OS TEMAS ABORDADOS.",
+      "hours": 45,
+      "semester": 4,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "BQ001",
+          "name": "BIOQUIMICA 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "BQ318",
+          "name": "BIOQUÍMICA DE MACROMOLÉCULAS"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ENFERMAGEM EM SAÚDE MENTAL NA ATENÇÃO PRIMÁRIA",
+      "code": "EF550",
+      "ementa": "ATUAÇÃO DO ENFERMEIRO NA PROMOÇÃO DA SAÚDE MENTAL NO ÂMBITO DA ATENÇÃO BÁSICA À SAÚDE.",
+      "hours": 30,
+      "semester": 4,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF213",
+          "name": "ENFERMAGEM PSIQUIATRICA 1A"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF546",
+          "name": "INTRODUÇÃO À ENFERMAGEM EM SAÚDE MENTAL"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "EF555",
+          "name": "ENFERMAGEM NOS TRANSTORNOS MENTAIS I"
+        }
+      ]
+    },
+    {
+      "name": "ENFERMAGEM NA SAÚDE DO ADULTO E DO IDOSO NA ATENÇÃO PRIMÁRIA II",
+      "code": "EF549",
+      "ementa": "ESTUDO DOS PADRÕES DAS PRINCIPAIS DOENÇAS CRÔNICAS E TRANSMISSÍVEIS DE INTERESSE EM SAÚDE PÚBLICA, COMO CAUSA DE MORBI-MORTALIDADE NA PROBLEMÁTICA DE SAÚDE LOCAL. SISTEMATIZAÇÃO DA ASSISTÊNCIA DE ENFERMAGEM NAS POLÍTICAS DE SAÚDE PÚBLICA DE ATENÇÃO BÁSICA AO INDIVÍDUO, FAMÍLIA E COMUNIDADE.",
+      "hours": 210,
+      "semester": 4,
+      "credits": 11,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF219",
+          "name": "ENFERM EM DOENC TRANSMISSIVEIS 1"
+        },
+        {
+          "code": "EF431",
+          "name": "ENFERMAGEM DE SAUDE PUBLICA 1"
+        },
+        {
+          "code": "EF434",
+          "name": "ENFERMAGEM DE SAUDE PUBLICA 2A"
+        },
+        {
+          "code": "MS410",
+          "name": "PROGRAMACAO DE SAUDE"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF548",
+          "name": "ENFERMAGEM NA SAÚDE DO ADULTO E DO IDOSO NA ATENÇÃO PRIMÁRIA I"
+        },
+        {
+          "code": "PA210",
+          "name": "PROCESSOS PATOLOGICOS GERAIS"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "EF553",
+          "name": "ENFERMAGEM NAS SITUAÇÕES CLÍNICAS E CIRÚRGICAS DO ADULTO E IDOSO"
+        }
+      ]
+    },
+    {
+      "name": "GENETICA HUMANA 1",
+      "code": "GN215",
+      "ementa": "ESTA DISCIPLINA PRETENDE FORNECER INFORMAÇÕES MÍNIMAS NECESSÁRIAS AO CONHECIMENTO BÁSICO DA GENÉTICA, VOLTADO PARA O ALUNO DE GRADUAÇÃO. O CONTEÚDO PROGRAMÁTICO VISA DISCUTIR AS BASES MOLECULARES DA CIÊNCIA, TRATANDO DE MANEIRA SIMPLES DO MATERIAL GENÉTICO. DISCUTEM-SE TAMBÉM AS INTERAÇÕES GÊNICAS OBSERVADAS NA NATUREZA, ALÉM DAS MODIFICAÇÕES SOFRIDAS PELO MATERIAL BÁSICO. ALGUMAS NOÇÕES DO EFEITO QUE TAIS INTERAÇÕES APRESENTAM-SE A NÍVEL POPULACIONAL TAMBÉM SÃO ANALISADAS.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "NUTRIÇÃO CLÍNICA",
+      "code": "NU572",
+      "ementa": "FUNDAMENTOS DA DIETOTERAPIA. DIETAS HOSPITALARES. TERAPIA NUTRICIONAL ENTERAL E PARENTERAL. CUIDADO NUTRICIONAL NAS DIVERSAS DOENÇAS, NA CIRURGIA E NAS ALTERAÇÕES ASSOCIADAS À GESTAÇÃO.",
+      "hours": 30,
+      "semester": 4,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "NU201",
+          "name": "NUTRICAO E DIETOTERAPIA"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "NU571",
+          "name": "FUNDAMENTOS DA NUTRIÇÃO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PRÁTICAS DE EDUCAÇÃO PERMANENTE EM SAÚDE",
+      "code": "EF551",
+      "ementa": "REFERENCIAIS TEÓRICOS E PRÁTICOS PARA O DESENVOLVIMENTO DE COMPETÊNCIAS NO PLANEJAMENTO E IMPLEMENTAÇÃO DE ATIVIDADES DE EDUCAÇÃO CONTINUADA, EM SERVIÇOS DE SAÚDE FOCANDO O TRABALHO EM EQUIPE E O FORTALECIMENTO DA SISTEMATIZAÇÃO DA ASSISTÊNCIA DE ENFERMAGEM COMO ELEMENTO DE QUALIFICAÇÃO DAS AÇÕES MULTIPROFISSIONAIS.",
+      "hours": 30,
+      "semester": 4,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF241",
+          "name": "DIDATICA APLICADA A ENFERMAGEM"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF543",
+          "name": "VIVÊNCIAS DE EDUCAÇÃO EM SAÚDE"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ENFERMAGEM NAS SITUAÇÕES CLÍNICAS E CIRÚRGICAS DO ADULTO E IDOSO",
+      "code": "EF553",
+      "ementa": "ABORDA SITUAÇÕES QUE CARACTERIZAM AGRAVAOS À SAÚDE DO INDIVÍDUO COM NECESSIDADE DE INTERVENÇÕES CLÍNICAS E CIRÚRGICAS; ASSISTÊNCIA DE ENFERMAGEM NOS PERÍODOS PRÉ, TRANS E PÓS-OPERATÓRIO DAS CIRURGIAS DOS DIVERSOS SISTEMAS; PROCEDIMENTOS NO PREPARO DO PACIENTE PARA INTERVENÇÕES CIRÚRGICAS; IDENTIFICAÇÃO DAS POSSÍVEIS COMPLICAÇÕES PÓS-OPERATÓRIAS IMEDIATAS, MEDIATAS E TARDIAS.",
+      "hours": 285,
+      "semester": 5,
+      "credits": 13,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF310",
+          "name": "ENFERMAGEM MEDICA"
+        },
+        {
+          "code": "EF311",
+          "name": "ENFERMAGEM CIRURGICA 1"
+        },
+        {
+          "code": "EF312",
+          "name": "ENFERMAGEM CIRURGICA 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF549",
+          "name": "ENFERMAGEM NA SAÚDE DO ADULTO E DO IDOSO NA ATENÇÃO PRIMÁRIA II"
+        },
+        {
+          "code": "FF257",
+          "name": "FISIOLOGIA PARA ENFERMAGEM II"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "EF556",
+          "name": "ASSISTÊNCIA DE ENFERMAGEM AO PACIENTE CRÍTICO"
+        },
+        {
+          "code": "EF554",
+          "name": "ENFERMAGEM E CUIDADOS PALIATIVOS"
+        }
+      ]
+    },
+    {
+      "name": "FARMACOLOGIA II",
+      "code": "FF259",
+      "ementa": "A DISCIPLINA VISA DEMONSTRAR O EFEITO DOS FÁRMACOS SOBRE OS DIFERENTES SISTEMAS.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "FF212",
+          "name": "FARMACOLOGIA 4"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "FF258",
+          "name": "INTRODUÇÃO A FARMACOLOGIA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ORGANIZAÇÃO DOS SISTEMAS DE SAÚDE NOS DIFERENTES NÍVEIS DE COMPLEXIDADE",
+      "code": "EF552",
+      "ementa": "ESTUDO DAS RESPONSABILIDADES E FUNÇÕES DE UM GESTOR EM SERVIÇOS DE ENFERMAGEM EM HOSPITAIS. UTILIZAÇÃO DAS MODERNAS FERRAMENTAS DE GESTÃO: LIDERANÇA, TRABALHO EM EQUIPE, GESTÃO ESTRATÉGICA, DE PESSOAS E DE CUSTOS. ACREDITAÇÃO HOSPITALAR.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF244",
+          "name": "ADM APLICADA A ENFERMAGEM"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF547",
+          "name": "ORGANIZAÇÃO DOS SERVIÇOS DE SAÚDE NA ATENÇÃO PRIMÁRIA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ASSISTÊNCIA DE ENFERMAGEM AO PACIENTE CRÍTICO",
+      "code": "EF556",
+      "ementa": "COMPREENSÃO DA ESTRUTURA ORGANIZACIONAL DAS UNIDADES DE EMERGÊNCIA HOSPITALAR E TERAPIA INTENSIVA, BEM COMO, UMA VISÃO GLOBAL DAS SITUAÇÕES DE URGÊNCIA E EMERGÊNCIA, CONSTITUINDO A BASE PARA O ATENDIMENTO AO PACIENTE CRÍTICO, INCLUINDO A MONITORIZAÇÃO EM UTI, ASSISTÊNCIA DE ENFERMAGEM AO PACIENTE CRITICO, ASSISTÊNCIA FARMACOLÓGICA E A SISTEMATIZAÇÃO DA ASSISTÊNCIA DE ENFERMAGEM AO PACIENTE CRÍTICO.",
+      "hours": 75,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF311",
+          "name": "ENFERMAGEM CIRURGICA 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF553",
+          "name": "ENFERMAGEM NAS SITUAÇÕES CLÍNICAS E CIRÚRGICAS DO ADULTO E IDOSO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "EF560",
+          "name": "ENFERMAGEM NA SAÚDE DA MULHER EM SITUAÇÃO GINECO-OBSTÉTRICA NOS DIFER. NÍVEIS DE COMPLEX."
+        }
+      ]
+    },
+    {
+      "name": "ENFERMAGEM E CUIDADOS PALIATIVOS",
+      "code": "EF554",
+      "ementa": "BUSCA DESENVOLVER NO ALUNO ATITUDES E HABILIDADES PARA IDENTIFICAÇÃO DE PROBLEMAS DE ENFERMAGEM, COM FUNDAMENTAÇÕES CIENTÍFICAS, ÉTICAS, FILOSÓFICAS E HUMANÍSTICAS, NECESSÁRIAS AO CUIDADO DE ENFERMAGEM COM QUALIDADE AO CLIENTE SOB CUIDADOS PALIATIVOS, INCLUINDO PECULIARIDADES IMPOSTAS PELO TIPO DE TRATAMENTO, NO QUE SE REFERE A DEFINIÇÃO, IMPORTÂNCIA, INDICAÇÃO, CONTRA-INDICAÇÃO, COMPLICAÇÕES E CUIDADOS PRÉ, TRANS E PÓS PROCEDIMENTOS E NAS ÚLTIMAS HORAS DE VIDA.",
+      "hours": 30,
+      "semester": 6,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF203",
+          "name": "INTRODUCAO A ENFERMAGEM 2A"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF553",
+          "name": "ENFERMAGEM NAS SITUAÇÕES CLÍNICAS E CIRÚRGICAS DO ADULTO E IDOSO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ENFERMAGEM NOS TRANSTORNOS MENTAIS I",
+      "code": "EF555",
+      "ementa": "ASSISTÊNCIA DE ENFERMAGEM À PESSOA COM ALTERAÇÕES DE COMPORTAMENTO DECORRENTES DE TRANSTORNOS MENTAIS. URGÊNCIAS E EMERGÊNCIAS PSIQUIÁTRICAS.",
+      "hours": 120,
+      "semester": 6,
+      "credits": 5,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF212",
+          "name": "ENFERMAGEM PSIQUIATRICA 2 A"
+        },
+        {
+          "code": "EF213",
+          "name": "ENFERMAGEM PSIQUIATRICA 1A"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF550",
+          "name": "ENFERMAGEM EM SAÚDE MENTAL NA ATENÇÃO PRIMÁRIA"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "EF561",
+          "name": "ENFERMAGEM NOS TRANSTORNOS MENTAIS II"
+        }
+      ]
+    },
+    {
+      "name": "INFORMÁTICA APLICADA A ENFERMAGEM",
+      "code": "MC262",
+      "ementa": "CONCEITOS E APLICAÇÕES DA INFORMÁTICA EM SAÚDE E EM PARTICULAR DA ENFERMAGEM. HISTÓRICO DA INFORMÁTICA EM ENFERMAGEM. A INFORMAÇÃO EM ENFERMAGEM. CENÁRIOS DE APLICAÇÕES DAS TECNOLOGIAS DA INFORMAÇÃO E DAS COMUNICAÇÕES NA PESQUISA, ENSINO, E ASSISTÊNCIA (PRÁTICA CLÍNICA E ADMINISTRAÇÃO) EM ENFERMAGEM. FERRAMENTAS DE TI UTILIZADAS PARA ATUALIZAÇÃO E PRÁTICA DO PROFISSIONAL DE ENFERMAGEM, COM ÊNFASE NA UTILIZAÇÃO DA INTERNET, E DE SISTEMAS DE INFORMAÇÃO EM SAÚDE, TAIS COMO O PRONTUÁRIO ELETRÔNICO DO PACIENTE, SISTEMATIZAÇÃO DA ASSISTÊNCIA DE ENFERMAGEM, SISTEMAS DE APOIO À DECISÃO CLÍNICA, TELESSÁUDE, SIMULAÇÃO E PESQUISA CLÍNICA, ALÉM DE SISTEMAS DE CLASSIFICAÇÃO E TERMINOLOGIAS EM ENFERMAGEM.",
+      "hours": 45,
+      "semester": 6,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "METODOLOGIA DA PESQUISA II",
+      "code": "EF557",
+      "ementa": "DISCUTE PARADIGMAS DA CIÊNCIA NA ÁREA DA SAÚDE. ABORDA A PESQUISA COMO FORMA DE CONSTRUÇÃO DE CONHECIMENTO. INSTRUMENTALIZA OS PROJETOS DE PESQUISA, CONSIDERANDO AS LINHAS DE PESQUISA QUE CONFIGURAM O CURSO. DESENVOLVE OS CONTEÚDOS MEDIANTE BUSCA, REFLEXÃO, ANÁLISE E CRÍTICA, TENDO COMO EIXO ORIENTADOR À AÇÃO-REFLEXÃO-AÇÃO, EM MÚLTIPLOS CENÁRIOS DE ENSINOAPRENDIZAGEM DE ENFERMAGEM. ABRANGE ATIVIDADES DE LEITURA, DEBATE E PRODUÇÃO DE PROPOSIÇÕES, INDIVIDUAIS E EM GRUPO, FAVORECENDO A INDISSOCIABILIDADE ENTRE PESQUISA E ENSINO. DESENVOLVE O PROJETO DE TRABALHO CIENTÍFICO EM TORNO DE QUESTÕES DA PRÁTICA PROFISSIONAL.",
+      "hours": 30,
+      "semester": 6,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF242",
+          "name": "METODOL CIENTIF EM ENFERMAGEM"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF544",
+          "name": "METODOLOGIA DA PESQUISA I"
+        },
+        {
+          "code": "EF545",
+          "name": "BIOESTATÍSTICA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PRÁTICAS INTEGRATIVAS E COMPLEMENTARES",
+      "code": "EF558",
+      "ementa": "ABORDAGEM DAS PRÁTICAS INTEGRATIVAS E COMPLEMENTARES EM SAÚDE CONTEXTUALIZANDO SUA EVOLUÇÃO HISTÓRICA, A INSERÇÃO NA ENFERMAGEM E IMPLICAÇÕES NA SAÚDE INDIVIDUAL E COLETIVA.",
+      "hours": 45,
+      "semester": 6,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PSICOLOGIA DO DESENVOLVIMENTO 4",
+      "code": "PS214",
+      "ementa": "O DESENVOLVIMENTO PSICOLÓGICO DO RECÉM-NASCIDO À ADOLESCÊNCIA. A PSICOLOGIA DO DESENVOLVIMENTO APLICADA À ENFERMAGEM.",
+      "hours": 45,
+      "semester": 6,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "EF561",
+          "name": "ENFERMAGEM NOS TRANSTORNOS MENTAIS II"
+        }
+      ]
+    },
+    {
+      "name": "ANATOMIA PARA ENFERMAGEM III",
+      "code": "AN232",
+      "ementa": "ESTUDO TEÓRICO-PRÁTICO DOS ASPECTOS ANATÔMICOS DO CORPO HUMANO, ABRANGENDO AS ESTRUTURAS DOS SISTEMAS: DIGESTÓRIO, URINÁRIO E ENDÓCRINO, COM FOCO NAS GENERALIDADES DOS DIVERSOS ÓRGÃOS QUE CONSTITUEM ESSES SISTEMAS ORGÂNICOS.",
+      "hours": 15,
+      "semester": 7,
+      "credits": 1,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "AN231",
+          "name": "ANATOMIA PARA ENFERMAGEM II"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ENFERMAGEM NA SAÚDE DA MULHER EM SITUAÇÃO GINECO-OBSTÉTRICA NOS DIFER. NÍVEIS DE COMPLEX.",
+      "code": "EF560",
+      "ementa": "COMPREENSÃO DOS DETERMINANTES QUE INFLUENCIAM NO PROCESSO SAÚDE-DOENÇA NAS FASES DO CICLO EVOLUTIVO DA MULHER. INDICADORES EPIDEMIOLÓGICOS DE MORBIDADE E MORTALIDADE PARA O PLANEJAMENTO DO CUIDADO INTEGRAL EM SEXUALIDADE, REPRODUÇÃO, GINECOLOGIA E OBSTETRÍCIA. POLÍTICAS E ORGANIZAÇÕES DE PRATICAS LOCAIS VOLTADAS PARA AS NECESSIDADES E O DIREITO DA MULHER NA PREVENÇÃO DA VIOLÊNCIA E PROMOÇÃO DA SAÚDE. PLANEJAMENTO E EXECUÇÃO DOS CUIDADOS SISTEMATIZADOS DE ENFERMAGEM NAS SITUAÇÕES DE DIFERENTES NÍVEIS DE COMPLEXIDADE . URGÊNCIAS OBSTÉTRICAS. ASPECTOS ÉTICOS E LEGAIS DA ASSISTÊNCIA A SAÚDE DA MULHER NAS SITUAÇÕES DE RISCO.",
+      "hours": 120,
+      "semester": 7,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF321",
+          "name": "ENFERMAGEM MATERNO INFANTIL 1A"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF556",
+          "name": "ASSISTÊNCIA DE ENFERMAGEM AO PACIENTE CRÍTICO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "EF563",
+          "name": "ENFERMAGEM NA SAÚDE DO RECÉM-NASCIDO AO ADOLESC. EM SERVIÇ. DE MÉDIA E ALTA COMPLEXID"
+        }
+      ]
+    },
+    {
+      "name": "ENFERMAGEM NA SAÚDE DA MULHER NA ATENÇÃO BÁSICA",
+      "code": "EF559",
+      "ementa": "COMPREENSÃO DOS ASPECTOS SÓCIO-HISTÓRICO E CULTURAL RELACIONADOS AOS DETERMINANTES QUE INFLUENCIAM NO PROCESSO SAÚDE-DOENÇA NAS FASES DO CICLO EVOLUTIVO DA MULHER. INDICADORES EPIDEMIOLÓGICOS DE MORBIDADE E MORTALIDADE PARA O PLANEJAMENTO DO CUIDADO INTEGRAL EM SEXUALIDADE, REPRODUÇÃO, GINECOLOGIA E OBSTETRÍCIA. POLÍTICAS E ORGANIZAÇÕES DE PRATICAS LOCAIS VOLTADAS AS NECESSIDADES E AO DIREITO DA MULHER NA PREVENÇÃO DA VIOLÊNCIA E PROMOÇÃO DA SAÚDE. PLANEJAMENTO E EXECUÇÃO DOS CUIDADOS SISTEMATIZADOS DE ENFERMAGEM NA ATENÇÃO BÁSICA RELACIONADAS ÀS ÁREAS TÉCNICAS EM SEXUALIDADE, REPRODUÇÃO, GINECOLOGIA E OBSTETRÍCIA NA ATENÇÃO PRIMÁRIA (BAIXA COMPLEXIDADE). ASPECTOS ÉTICOS E LEGAIS DA ASSISTÊNCIA A SAÚDE DA MULHER.",
+      "hours": 240,
+      "semester": 7,
+      "credits": 11,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF321",
+          "name": "ENFERMAGEM MATERNO INFANTIL 1A"
+        },
+        {
+          "code": "EF434",
+          "name": "ENFERMAGEM DE SAUDE PUBLICA 2A"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "EF562",
+          "name": "ENFERMAGEM NA SAÚDE DA CRIANÇA - ADOLESCENTE E FAMÍLIA NA ATENÇÃO PRIMÁRIA"
+        }
+      ]
+    },
+    {
+      "name": "ENFERMAGEM NOS TRANSTORNOS MENTAIS II",
+      "code": "EF561",
+      "ementa": "SISTEMATIZAÇÃO DA ASSISTÊNCIA DE ENFERMAGEM EM SITUAÇÕES ESPECÍFICAS À SAÚDE MENTAL DA MULHER, DA CRIANÇA E DO ADOLESCENTE NO CONTEXTO FAMILIAR.",
+      "hours": 30,
+      "semester": 7,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF212",
+          "name": "ENFERMAGEM PSIQUIATRICA 2 A"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF555",
+          "name": "ENFERMAGEM NOS TRANSTORNOS MENTAIS I"
+        },
+        {
+          "code": "PS214",
+          "name": "PSICOLOGIA DO DESENVOLVIMENTO 4"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "FISIOLOGIA PARA ENFERMAGEM III",
+      "code": "FF260",
+      "ementa": "AS GÔNADAS E SEU HORMÔNIOS TÊM MECANISMOS REGULAÇÃO DA SECREÇÃO, ASSIM COMO INFLUENCIAM O FUNCIONAMENTO DO SISTEMA REPRODUTOR FEMININO E MASCULINO.",
+      "hours": 15,
+      "semester": 7,
+      "credits": 1,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "FF257",
+          "name": "FISIOLOGIA PARA ENFERMAGEM II"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ENFERMAGEM NA SAÚDE DA CRIANÇA - ADOLESCENTE E FAMÍLIA NA ATENÇÃO PRIMÁRIA",
+      "code": "EF562",
+      "ementa": "ESTUDO DA CRIANÇA, ADOLESCENTE E FAMÍLIA NO CONTEXTO SÓCIO- POLÍTICO E CULTURAL. SEMIOLOGIA, SEMIOTÉCNICA E SISTEMATIZAÇÃO DA ASSISTÊNCIA DE ENFERMAGEM NA PROMOÇÃO, PROTEÇÃO, RECUPERAÇÃO E REABILITAÇÃO DA CRIANÇA E ADOLESCENTE E FAMÍLIA NA ATENÇÃO PRIMÁRIA.",
+      "hours": 210,
+      "semester": 8,
+      "credits": 11,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF322",
+          "name": "ENFERMAGEM MATERNO INFANTIL 2A"
+        },
+        {
+          "code": "EF434",
+          "name": "ENFERMAGEM DE SAUDE PUBLICA 2A"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF559",
+          "name": "ENFERMAGEM NA SAÚDE DA MULHER NA ATENÇÃO BÁSICA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ENFERMAGEM NA SAÚDE DO RECÉM-NASCIDO AO ADOLESC. EM SERVIÇ. DE MÉDIA E ALTA COMPLEXID",
+      "code": "EF563",
+      "ementa": "ESTUDO DA CRIANÇA E DO ADOLESCENTE EXPOSTOS À SITUAÇÕES DE AGRAVOS À SAÚDE E SISTEMATIZAÇÃO DA ASSISTÊNCIA DE ENFERMAGEM NO CUIDADO AO RECÉM-NASCIDO, CRIANÇA E ADOLESCENTE EM UNIDADES HOSPITALARES.",
+      "hours": 180,
+      "semester": 8,
+      "credits": 9,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF322",
+          "name": "ENFERMAGEM MATERNO INFANTIL 2A"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EF560",
+          "name": "ENFERMAGEM NA SAÚDE DA MULHER EM SITUAÇÃO GINECO-OBSTÉTRICA NOS DIFER. NÍVEIS DE COMPLEX."
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "VIVÊNCIAS DE EDUCAÇÃO NA SAÚDE DA MULHER E CRIANÇA E ADOLESCENTE",
+      "code": "EF564",
+      "ementa": "UTILIZAÇÃO DAS EXPERIÊNCIAS ADQUIRIDAS NAS DISCIPLINAS ANTERIORES PARA A CONSTRUÇÃO E APLICAÇÃO DE INTERVENÇÕES EDUCATIVAS ESPECÍFICAS À MULHER, CRIANÇA E ADOLESCENTE, FUNDAMENTADAS NAS CONCEPÇÕES, FASES E ESTRATÉGIAS DE ENSINAGEM VOLTADAS PARA AS NECESSIDADES ESPECIFICAS DOS GRUPOS ENVOLVIDOS.",
+      "hours": 30,
+      "semester": 8,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "EF543",
+          "name": "VIVÊNCIAS DE EDUCAÇÃO EM SAÚDE"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTÁGIO CURRICULAR DE ENFERMAGEM NA ATENÇÃO PRIMÁRIA",
+      "code": "EF565",
+      "ementa": "ATIVIDADES PRÁTICAS DESENVOLVIDAS A PARTIR DA SISTEMATIZAÇÃO DA ASSISTÊNCIA DE ENFERMAGEM E DEMAIS REFERENCIAIS TEÓRICOS APLICADOS AO INDIVÍDUO, FAMÍLIA E COMUNIDADE. AÇÕES DE ENFERMAGEM NOS DIVERSOS CENÁRIOS DA ATENÇÃO BÁSICA E PROGRAMAS DE SAÚDE PÚBLICA.",
+      "hours": 450,
+      "semester": 9,
+      "credits": 15,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF460",
+          "name": "ESTAGIO CURRICULAR"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TRABALHO DE CONCLUSÃO DE CURSO I",
+      "code": "EF566",
+      "ementa": "CONSTRUÇÃO DO PROJETO DO TRABALHO DE CONCLUSÃO DE CURSO A PARTIR DO DIAGNÓSTICO SITUACIONAL DE UMA PRÁTICA ASSISTENCIAL INTRA-HOSPITALAR OU EXTRA-INTERNAÇÃO, OBEDECENDO ÀS ETAPAS DE UM TRABALHO CIENTÍFICO E OS ASPECTOS ÉTICOS DA PESQUISA EM SERES HUMANOS COM ACOMPANHAMENTO DE UM ORIENTADOR QUE SERÁ DESENVOLVIDO COMO TRABALHO MONOGRÁFICO NA DISCIPLINA DE TCC II.",
+      "hours": 30,
+      "semester": 9,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "EF568",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO II"
+        }
+      ]
+    },
+    {
+      "name": "ESTÁGIO CURRICULAR DE ENFERMAGEM NOS SERVIÇOS DE DIFERENTES NÍVEIS COMPLEXIDADE",
+      "code": "EF567",
+      "ementa": "ATIVIDADES PRÁTICAS DESENVOLVIDAS A PARTIR DA SISTEMATIZAÇÃO DA ASSISTÊNCIA DE ENFERMAGEM E DEMAIS REFERENCIAIS TEÓRICOS APLICADOS AO PACIENTE NAS DIVERSAS SITUAÇÕES CLÍNICAS E/OU CIRÚRGICAS E AFECÇÕES CRÔNICO-DEGENERATIVAS. AÇÕES DE ENFERMAGEM NO ÂMBITO ASSISTENCIAL, GERENCIAL E EDUCATIVO NOS DIVERSOS CENÁRIOS DA ASSISTÊNCIA NOS SERVIÇOS DE DIFERENTES NÍVEIS DE COMPLEXIDADE.",
+      "hours": 450,
+      "semester": 10,
+      "credits": 15,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "EF460",
+          "name": "ESTAGIO CURRICULAR"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TRABALHO DE CONCLUSÃO DE CURSO II",
+      "code": "EF568",
+      "ementa": "TRABALHO MONOGRÁFICO DENTRO DAS ÁREAS DE CONHECIMENTO E ATUAÇÃO DO ENFERMEIRO, COM ACOMPANHAMENTO DE UM ORIENTADOR.",
+      "hours": 30,
+      "semester": 10,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "EF566",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO I"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "A LOUCURA E O CINEMA",
+      "code": "EF539",
+      "ementa": "TRATA-SE DA DISCUSSÃO SOBRE AS PERCEPÇÕES, CONCEPÇÕES E CONCEITOS DE LOUCURA SOB O OLHAR DO CINEMA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DA LÍNGUA BRASILEIRA DE SINAIS - LIBRAS",
+      "code": "PO494",
+      "ementa": "REFLEXÃO SOBRE OS ASPECTOS HISTÓRICOS DA INCLUSÃO DAS PESSOAS SURDAS NA SOCIEDADE EM GERAL E NA ESCOLA; A LIBRAS COMO LÍNGUA DE COMUNICAÇÃO SOCIAL EM CONTEXTO DE COMUNICAÇÃO ENTRE PESSOAS SURDAS E COMO SEGUNDA LÍNGUA. ESTRUTURA LINGÜÍSTICA E GRAMATICAL DA LIBRAS. ESPECIFICIDADES DA ESCRITA DO ALUNO SURDO, NA PRODUÇÃO DE TEXTO EM LÍNGUA PORTUGUESA. O INTÉRPRETE E A INTERPRETAÇÃO COMO FATOR DE INCLUSÃO E ACESSO EDUCACIONAL PARA OS ALUNOS SURDOS OU COM BAIXA AUDIÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "METODOLOGIA DA PESQUISA QUALITATIVA EM SAÚDE",
+      "code": "EF538",
+      "ementa": "CONCEITOS FUNDAMENTAIS. MODALIDADES DE PESQUISA QUALITATIVA. ELEMENTOS BÁSICOS NA CONSTRUÇÃO DE UM PROJETO DE PESQUISA QUALITATIVA. PROJETOS DE INVESTIGAÇÃO QUALITATIVA: BASES, TENDÊNCIAS E PERSPECTIVAS METODOLÓGICAS. ESTRATÉGIAS DE COLETA E ANÁLISE DE DADOS.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    }
+  ]
+}
