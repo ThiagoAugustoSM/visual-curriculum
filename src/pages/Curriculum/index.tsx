@@ -191,7 +191,7 @@ export default function CurriculumPage(): React.ReactElement {
     <Box m="5">
       <Header />
       <Navigator />
-      <Box w="100%" flexWrap="wrap">
+      <Box w="100%" flexWrap="wrap" mb={2}>
         {Array.from(obligatory.entries()).map(([semester, disciplines]) => (
           <Grid key={`rows-${semester}`} display="flex" flexWrap="wrap">
             {disciplines.map((item) => (

@@ -1,0 +1,3963 @@
+{
+  "university": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+  "course": "ENGENHARIA CIVIL",
+  "semesters": 10,
+  "totalHours": 4065,
+  "totalHoursElective": 240,
+  "totalHoursObligatory": 3825,
+  "disciplines": [
+    {
+      "name": "CALCULO DIFERENCIAL E INTEGRAL 1",
+      "code": "MA026",
+      "ementa": "LIMITES E CONTINUIDADE DE FUNÇÕES. DERIVADAS. APLICAÇÕES DA DERIVADA. TEOREMA DE ROLLE, TEOREMA DO VALOR MÉDIO E TEOREMA DO VALOR MÉDIO GENERALIZADO. INTEGRAIS DEFINIDAS. INTEGRAIS INDEFINIDAS. TÉCNICAS DE INTEGRAÇÃO.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0080",
+          "name": "CÁLCULO DIFERENCIAL E INTEGRAL 1"
+        },
+        {
+          "code": "MA021",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
+        },
+        {
+          "code": "MATM0001",
+          "name": "CÁLCULO DIFERENCIAL E INTEGRAL 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "MA027",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 2"
+        },
+        {
+          "code": "QF002",
+          "name": "QUIMICA GERAL 2"
+        }
+      ]
+    },
+    {
+      "name": "FISICA GERAL 1",
+      "code": "FI006",
+      "ementa": "MOVIMENTO EM UMA DIMENSÃO; VETORES; MOVIMENTO EM UM PLANO; DINÂMICA DA PARTÍCULA; TRABALHO E ENERGIA; CONSERVAÇÃO DA ENERGIA; CONSERVAÇÃO DO MOMENTUM LINEAR; CHOQUES; CINEMÁTICA DA ROTAÇÃO; DINÂMICA DA ROTAÇÃO.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0089",
+          "name": "FÍSICA GERAL 1"
+        },
+        {
+          "code": "FI001",
+          "name": "FISICA GERAL 1"
+        },
+        {
+          "code": "FI011",
+          "name": "FISICA GERAL 11"
+        },
+        {
+          "code": "FISC0001",
+          "name": "FÍSICA GERAL 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "FI021",
+          "name": "FISICA EXPERIMENTAL 1"
+        },
+        {
+          "code": "FI007",
+          "name": "FISICA GERAL 2"
+        }
+      ]
+    },
+    {
+      "name": "GEOMETRIA ANALITICA 1",
+      "code": "MA036",
+      "ementa": "SISTEMAS DE COORDENADAS NO PLANO. A RETA, A CIRCUNFERÊNCIA, AS CÔNICAS. CÁLCULO VETORIAL. COORDENADAS NO ESPAÇO . RETAS E PLANOS. MUDANÇA DE COORDENADAS (ROTAÇÃO E TRANSLAÇÃO). RELAÇÃO ENTRE RETAS E PLANOS.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0081",
+          "name": "GEOMETRIA ANALÍTICA"
+        },
+        {
+          "code": "MA031",
+          "name": "GEOMETRIA ANALITICA"
+        },
+        {
+          "code": "MATM0002",
+          "name": "GEOMETRIA ANALÍTICA 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "MA046",
+          "name": "ALGEBRA LINEAR 1"
+        },
+        {
+          "code": "MA128",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 3"
+        }
+      ]
+    },
+    {
+      "name": "INTRODUÇÃO AO DESENHO",
+      "code": "EG407",
+      "ementa": "REPRESENTAÇÃO DAS FORMAS TRIDIMENSIONAIS MAIS USADAS NOS PRINCIPAIS SISTEMAS DE REPRESENTAÇÃO GRÁFICA",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0082",
+          "name": "INTRODUÇÃO AO DESENHO"
+        },
+        {
+          "code": "DPRJ0001",
+          "name": "INTRODUÇÃO AO DESENHO"
+        },
+        {
+          "code": "EG001",
+          "name": "INTRODUCAO AO DESENHO"
+        },
+        {
+          "code": "EG004",
+          "name": "INTRODUCAO AO DESENHO"
+        },
+        {
+          "code": "EG468",
+          "name": "GEOMETRIA GRÁFICA TRIDIMENSIONAL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "EG003",
+          "name": "GEOMETRIA DESCRITIVA 2"
+        }
+      ]
+    },
+    {
+      "name": "INTRODUÇÃO À ENGENHARIA",
+      "code": "IN701",
+      "ementa": "APRESENTAÇÃO DO CTG E DOS CURSOS DE ENGENHARIA. LEGISLAÇÃO ACADÊMICA NA UFPE. APRESENTAÇÃO DE CADA CURSO PARTICIPANTE DO PRIMEIRO ANO COMUM.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ALGEBRA LINEAR 1",
+      "code": "MA046",
+      "ementa": "MATRIZES E SISTEMAS LINEARES. NOÇÃO DE ESPAÇO VETORIAL; SUBESPAÇOS; BASES; DIMENSÃO. TRANSFORMAÇÕES LINEARES; OPERADORES; AUTOVALORES E AUTOVETORES; DIAGONALIZAÇÃO. PRODUTO ESCALAR. OPERADORES SIMÉTRICOS E ORTOGONAIS. APLICAÇÕES A QUÁDRICAS E A SISTEMAS DE EQUAÇÕES DIFERENCIAIS.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0085",
+          "name": "ÁLGEBRA LINEAR"
+        },
+        {
+          "code": "MA041",
+          "name": "ALGEBRA LINEAR 1"
+        },
+        {
+          "code": "MATM0003",
+          "name": "ÁLGEBRA LINEAR 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "MA036",
+          "name": "GEOMETRIA ANALITICA 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "MA129",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 4"
+        }
+      ]
+    },
+    {
+      "name": "CALCULO DIFERENCIAL E INTEGRAL 2",
+      "code": "MA027",
+      "ementa": "TÉCNICAS DE INTEGRAÇÃO. DIFERENCIABILIDADE EM DUAS VARIÁVEIS. INTEGRAÇÃO EM DUAS VARIÁVEIS.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "MA022",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 2"
+        },
+        {
+          "code": "MATM0004",
+          "name": "CÁLCULO DIFERENCIAL E INTEGRAL 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "MA026",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "MA128",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 3"
+        },
+        {
+          "code": "IF215",
+          "name": "CALCULO NUMERICO"
+        },
+        {
+          "code": "ET625",
+          "name": "ESTATÍSTICA 1"
+        }
+      ]
+    },
+    {
+      "name": "COMPUTACAO ELETRONICA",
+      "code": "IF165",
+      "ementa": "COMPUTADORES E COMPUTAÇÃO; PROGRAMAÇÃO E EXTENSÕES.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CCMP0001",
+          "name": "ALGORITMOS E PROGRAMAÇÃO DE COMPUTADORES"
+        },
+        {
+          "code": "CIVL0087",
+          "name": "ALGORITMOS E PROGRAMAÇÃO DE COMPUTADORES"
+        },
+        {
+          "code": "ET161",
+          "name": "COMPUTACAO ELETRONICA 1"
+        },
+        {
+          "code": "IF161",
+          "name": "COMPUTACAO ELETRONICA 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "IF215",
+          "name": "CALCULO NUMERICO"
+        },
+        {
+          "code": "CI230",
+          "name": "METOD COMPUTACIONAIS P/ ENG CIVIL"
+        }
+      ]
+    },
+    {
+      "name": "FISICA EXPERIMENTAL 1",
+      "code": "FI021",
+      "ementa": "CINEMÁTICA; ENERGIA MECÂNICA; COLISÕES; DINÂMICA DOS CORPOS RÍGIDOS; OSCILAÇÕES E ONDAS; HIDROSTÁTICA E TERMODINÂMICA.",
+      "hours": 45,
+      "semester": 2,
+      "credits": 1,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0100",
+          "name": "FÍSICA EXPERIMENTAL"
+        },
+        {
+          "code": "FI001",
+          "name": "FISICA GERAL 1"
+        },
+        {
+          "code": "FI002",
+          "name": "FISICA GERAL 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "FI006",
+          "name": "FISICA GERAL 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI203",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 2"
+        }
+      ]
+    },
+    {
+      "name": "FISICA GERAL 2",
+      "code": "FI007",
+      "ementa": "GRAVITAÇÃO; FLUÍDOS; MOVIMENTO OSCILATÓRIO; ONDAS; SUPERPOSIÇÃO E INTERFERÊNCIA DE ONDAS HARMÔNICAS; TERMOLOGIA; LEIS DA TERMODINÂMICA; TEORIA CINÉTICA DOS GASES; EXPANSÃO TÉRMICA.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0095",
+          "name": "FÍSICA GERAL 2"
+        },
+        {
+          "code": "FI002",
+          "name": "FISICA GERAL 2"
+        },
+        {
+          "code": "FI012",
+          "name": "FISICA GERAL 12"
+        },
+        {
+          "code": "FISC0002",
+          "name": "FÍSICA GERAL 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "FI006",
+          "name": "FISICA GERAL 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "FI108",
+          "name": "FISICA GERAL 3"
+        },
+        {
+          "code": "CI110",
+          "name": "FENOMENO DOS TRANSPORTES"
+        },
+        {
+          "code": "CI218",
+          "name": "RESISTENCIA DOS MATERIAIS 1A"
+        }
+      ]
+    },
+    {
+      "name": "QUIMICA GERAL 1",
+      "code": "QF001",
+      "ementa": "QUÍMICA, CIÊNCIA E SOCIEDADE, TEORIA ATÔMICA MODERNA, SÓLIDOS, LÍQUIDOS E GASES, ESTEQUIOMETRIA, LEIS DA TERMODINÂMICA, ENTROPIA, ENERGIA LIVRE, TERMOQUÍMICA, CONSTANTE DE EQUILÍBRIO, CONSTANTE DE SOLUBILIDADE, PROPRIEDADES PERIÓDICAS, ÁCIDOS, BASES, REAÇÕES COM TRANSFERÊNCIA DE CARGA, ELETROQUÍMICA, CINÉTICA QUÍMICA E CATÁLISE.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0083",
+          "name": "QUÍMICA GERAL 1"
+        },
+        {
+          "code": "QF011",
+          "name": "QUIMICA GERAL 11"
+        },
+        {
+          "code": "QI001",
+          "name": "QUIMICA GERAL 1"
+        },
+        {
+          "code": "QUIM0001",
+          "name": "QUÍMICA GERAL 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "GE520",
+          "name": "GEOLOGIA APLICADA 1A"
+        }
+      ]
+    },
+    {
+      "name": "CALCULO DIFERENCIAL E INTEGRAL 3",
+      "code": "MA128",
+      "ementa": "SÉRIES, FÓRMULA DE TAYLOR. MÁXIMOS E MÍNIMOS. INTEGRAIS TRIPLAS. INTEGRAIS DE LINHA E DE SUPERFÍCIE. TEOREMAS DE GREEN, GAUSS E STOKES.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0091",
+          "name": "CÁLCULO DIFERENCIAL E INTEGRAL 3"
+        },
+        {
+          "code": "MA121",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 3"
+        },
+        {
+          "code": "MATM0006",
+          "name": "CÁLCULO DIFERENCIAL E INTEGRAL 3"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "MA027",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 2"
+        },
+        {
+          "code": "MA036",
+          "name": "GEOMETRIA ANALITICA 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "MA129",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 4"
+        }
+      ]
+    },
+    {
+      "name": "CALCULO NUMERICO",
+      "code": "IF215",
+      "ementa": "NOÇÕES DE ARITMÉTICA DE MÁQUINA. ZEROS DE FUNÇÕES. SISTEMAS DE EQUAÇÕES LINEARES. AJUSTAMENTO. INTERPOLAÇÃO POLINOMINAL. INTEGRAÇÃO NUMÉRICA.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CA486",
+          "name": "MÉTODOS NUMÉRICOS APLICADOS"
+        },
+        {
+          "code": "CIVL0092",
+          "name": "CÁLCULO NUMÉRICO"
+        },
+        {
+          "code": "ET110",
+          "name": "CALCULO NUMERICO"
+        },
+        {
+          "code": "IF110",
+          "name": "CALCULO NUMERICO"
+        },
+        {
+          "code": "MATM0007",
+          "name": "CÁLCULO NUMÉRICO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "IF165",
+          "name": "COMPUTACAO ELETRONICA"
+        },
+        {
+          "code": "MA027",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI535",
+          "name": "INTRODUÇÃO À GEOESTATÍSTICA"
+        },
+        {
+          "code": "CI230",
+          "name": "METOD COMPUTACIONAIS P/ ENG CIVIL"
+        }
+      ]
+    },
+    {
+      "name": "ELEMENTOS DE SOCIOLOGIA",
+      "code": "CS005",
+      "ementa": "CONCEITOS BÁSICOS DE SOCIOLOGIA. INSTITUIÇÕES SOCIAIS. POPULAÇÃO E MIGRAÇÃO. DESENVOLVIMENTO E MUDANÇA SOCIAL.",
+      "hours": 30,
+      "semester": 3,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0093",
+          "name": "ELEMENTOS DE SOCIOLOGIA"
+        },
+        {
+          "code": "CS100",
+          "name": "SOCIOLOGIA E MEIO AMBIENTE"
+        },
+        {
+          "code": "SOCL0001",
+          "name": "ELEMENTOS DE SOCIOLOGIA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ESTATÍSTICA 1",
+      "code": "ET625",
+      "ementa": "PROBABILIDADE- CONCEITOS BÁSICOS, DEFINIÇÃO AXIOMÁTICA. PROBABILIDADE DA UNIÃO, PROBABILIDADE CONDICIONAL. VARIÁVEISALEATÓRIAS DISCRETAS E CONTÍNUAS. VALOR ESPERADO E VARIANCIA. PRINCIPAIS DISTRIBUIÇÕES DE PROBABILIDADE. INFERÊNCIA- DISTRIBUIÇÕES AMOSTRAIS, MÉTODOS DE ESTIMAÇÃO, PROPRIEDADES DO ESTIMADOR, INTERVALO DE CONFIANÇA E TESTES DE HIPÓTESE PARA A MÉDIA, PROPORÇÃO E A VARIÂNCIAPOPULACIONAL. ANÁLSE EXPLORATÓRIA DE DADOS- DISTRIBUIÇÃO DE FREQUÊNCIA. MEDIDAS DE CENTRALIDADE E DE DISPERSÃO. ASSIMETRIA E CURTOSE. BOX-PLOT.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0094",
+          "name": "ESTATÍSTICA"
+        },
+        {
+          "code": "ET100",
+          "name": "ESTATISTICA 1"
+        },
+        {
+          "code": "ET101",
+          "name": "ESTATISTICA 1"
+        },
+        {
+          "code": "PRBE0004",
+          "name": "ESTATÍSTICA 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "MA027",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI483",
+          "name": "GESTAO DAS INFRA-ESTRUTURAS"
+        },
+        {
+          "code": "CI364",
+          "name": "HIDROLOGIA APLICADA 1"
+        },
+        {
+          "code": "CI334",
+          "name": "ENGENHARIA DE AVALIAÇÕES"
+        },
+        {
+          "code": "CI535",
+          "name": "INTRODUÇÃO À GEOESTATÍSTICA"
+        },
+        {
+          "code": "CI476",
+          "name": "TOPICOS ESPECIAIS DE TRANSPORTES"
+        },
+        {
+          "code": "CI259",
+          "name": "TRANSPORTES URBANOS"
+        },
+        {
+          "code": "CI521",
+          "name": "TÓPICOS ESPECIAIS DE TRANSPORTES 2"
+        },
+        {
+          "code": "CI522",
+          "name": "TÓPICOS ESPECIAIS DE TRANSPORTES 3"
+        }
+      ]
+    },
+    {
+      "name": "FISICA GERAL 3",
+      "code": "FI108",
+      "ementa": "CAMPO ELÉTRICO; POTENCIAL ELÉTRICO; CAPACITORES E DIELÉTRICOS; CIRCUITOS ELÉTRICOS; CAMPO MAGNÉTICO; LEI DE AMPÉRE; INDUÇÃO ELETROMAGNÉTICO.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0099",
+          "name": "FÍSICA GERAL 3"
+        },
+        {
+          "code": "FI101",
+          "name": "FISICA GERAL 3"
+        },
+        {
+          "code": "FI113",
+          "name": "FISICA GERAL 13"
+        },
+        {
+          "code": "FI204",
+          "name": "FISICA L3"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "FI007",
+          "name": "FISICA GERAL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "EL429",
+          "name": "ELETROTÉCNICA GERAL"
+        },
+        {
+          "code": "CI514",
+          "name": "INSTALAÇÕES PREDIAIS 1"
+        }
+      ]
+    },
+    {
+      "name": "GEOMETRIA DESCRITIVA 2",
+      "code": "EG003",
+      "ementa": "SISTEMAS DE REPRESENTAÇÃO GRÁFICA QUE UTILIZAM PLANOS DE PROJEÇÃO ORTOGONAIS ENTRE SI. ESTUDO GRÁFICO DAS PRINCIPAIS SUPERFÍCIES GEOMÉTRICAS E DAS SUPERFÍCIES NÃO GEOMÉTRICAS (TOPOGRÁFICAS).",
+      "hours": 60,
+      "semester": 3,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0101",
+          "name": "GEOMETRIA DESCRITIVA"
+        },
+        {
+          "code": "EG302",
+          "name": "GEOMETRIA DESCRITIVA 2-A"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EG407",
+          "name": "INTRODUÇÃO AO DESENHO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "EG321",
+          "name": "DESENHO TECNICO 3"
+        }
+      ]
+    },
+    {
+      "name": "QUIMICA GERAL 2",
+      "code": "QF002",
+      "ementa": "ESTRUTURA ATÔMICA. ORIGENS DA TEORIA QUÂNTICA. O ÁTOMO DE BOHR. MECÂNICA QUÂNTICA. ESTRUTURA MOLECULAR. LIGAÇÃO COVALENTE. LIGAÇÃO IÔNICA. LIGAÇÃO METÁLICA. LIGAÇÕES INTERMOCULARES. TÓPICOS DE QUÍMICA. QUÍMICA ORGÂNICA. QUÍMICA NUCLEAR.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0103",
+          "name": "QUÍMICA GERAL 2"
+        },
+        {
+          "code": "QF012",
+          "name": "QUIMICA GERAL 12"
+        },
+        {
+          "code": "QI002",
+          "name": "QUIMICA GERAL 2"
+        },
+        {
+          "code": "QUIM0002",
+          "name": "QUÍMICA GERAL 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "MA026",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI302",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 1A"
+        },
+        {
+          "code": "CI533",
+          "name": "INTRODUÇÃO À ENGENHARIA DE PETRÓLEO"
+        },
+        {
+          "code": "CI534",
+          "name": "INTRODUÇÃO À ENGENHARIA DE RESERVATÓRIO"
+        }
+      ]
+    },
+    {
+      "name": "CALCULO DIFERENCIAL E INTEGRAL 4",
+      "code": "MA129",
+      "ementa": "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS DE 1A. ORDEM E APLICAÇÕES. EQUAÇÕES DIFERENCIAIS LINEARES DE 2A. ORDEM E APLICAÇÕES. TRANSFORMADA DE LAPLACE. SÉRIES DE FOURIER E APLICAÇÕES ÀS EQUAÇÕES DIFERENCIAIS PARCIAIS.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0098",
+          "name": "CÁLCULO DIFERENCIAL E INTEGRAL 4"
+        },
+        {
+          "code": "MA122",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 4"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "MA046",
+          "name": "ALGEBRA LINEAR 1"
+        },
+        {
+          "code": "MA128",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI219",
+          "name": "RESISTENCIA DOS MATERIAIS 2A"
+        }
+      ]
+    },
+    {
+      "name": "DESENHO TECNICO 3",
+      "code": "EG321",
+      "ementa": "DESENHO DE OBRAS DE CONSTRUÇÃO CIVIL. DESENHO DE INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS, SANITÁRIAS E TELEFÔNICAS. NORMAS.",
+      "hours": 45,
+      "semester": 4,
+      "credits": 1,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0105",
+          "name": "DESENHO TÉCNICO"
+        },
+        {
+          "code": "EG330",
+          "name": "DESENHO TECNICO 4A"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EG003",
+          "name": "GEOMETRIA DESCRITIVA 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI465",
+          "name": "ARQUITETURA E URBANISMO"
+        },
+        {
+          "code": "CI507",
+          "name": "TECNOLOGIA DA CONSTRUÇÃO CIVIL 1"
+        }
+      ]
+    },
+    {
+      "name": "ECOLOGIA APLIC A ENGENHARIA",
+      "code": "CI105",
+      "ementa": "CONCEITOS BÁSICOS DA ECOLOGIA: ECOSSISTEMA, HABITAT, NICHO ECOLÓGICO, FLUXOS DE MATÉRIA E ENERGIA, CICLOS BIOGEOQUIMICOS, POPULAÇÕES E COMUNIDADES. UTILIZAÇÃO DOS RECURSOS NATURAIS RENOVÁVEIS. POLUIÇÃO AQUÁTICA, ATMOSFÉRICA DO SOLO, VISUAL E SONORA. CONTROLE DAS POLUIÇÕES.",
+      "hours": 30,
+      "semester": 4,
+      "credits": 1,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI100",
+          "name": "ECOLOGIA E CONTROLE DA POLUICAO"
+        },
+        {
+          "code": "CIVL0088",
+          "name": "ECOLOGIA APLICADA À ENGENHARIA"
+        },
+        {
+          "code": "ECOL0001",
+          "name": "ECOLOGIA APLICADA À ENGENHARIA"
+        },
+        {
+          "code": "IN100",
+          "name": "ECOLOGIA E CONTROLE DA POLUICAO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "CI470",
+          "name": "SANEAMENTO AMBIENTAL"
+        },
+        {
+          "code": "CI479",
+          "name": "AVALIACAO DE IMPACTO AMBIENTAL"
+        },
+        {
+          "code": "CI477",
+          "name": "TOPICOS ESPECIAIS DE SANEAMENTO"
+        },
+        {
+          "code": "CI526",
+          "name": "TÓPICOS ESPECIAIS DE SANEAMENTO 2"
+        },
+        {
+          "code": "CI527",
+          "name": "TÓPICOS ESPECIAIS DE SANEAMENTO 3"
+        }
+      ]
+    },
+    {
+      "name": "FENOMENO DOS TRANSPORTES",
+      "code": "CI110",
+      "ementa": "PROPRIEDADES DOS FLUIDOS. ESTÁTICA DOS FLUIDOS. CINEMÁTICA DOS FLUIDOS. FLUIDOS PERFEITOS. EQUAÇÃO DE EULER, BERNOUILLI E DA ENERGIA. QUANTIDADE DE MOVIMENTO. FLUIDOS REAIS. ESCOAMENTO E TURBULÊNCIA. PERDAS DE CARGA. ESCOAMENTO EM CONDUTO. ANÁLISE DIMENSIONAL. TRANSFERÊNCIA DE CALOR E MASSA.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0002",
+          "name": "FENÔMENO DE TRANSPORTES"
+        },
+        {
+          "code": "ME261",
+          "name": "MECANICA DOS FLUIDOS 1"
+        },
+        {
+          "code": "ME262",
+          "name": "MECÂNICA DOS FLUIDOS 2"
+        },
+        {
+          "code": "ME265",
+          "name": "MECANICA DOS FLUIDOS 1A"
+        },
+        {
+          "code": "ME266",
+          "name": "MECANICA DOS FLUIDOS 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "FI007",
+          "name": "FISICA GERAL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI295",
+          "name": "HIDRAULICA GERAL"
+        },
+        {
+          "code": "CI364",
+          "name": "HIDROLOGIA APLICADA 1"
+        },
+        {
+          "code": "CI533",
+          "name": "INTRODUÇÃO À ENGENHARIA DE PETRÓLEO"
+        },
+        {
+          "code": "CI534",
+          "name": "INTRODUÇÃO À ENGENHARIA DE RESERVATÓRIO"
+        },
+        {
+          "code": "CI478",
+          "name": "TOPICOS ESPEC RECURSOS HIDRICOS"
+        },
+        {
+          "code": "CI528",
+          "name": "TÓPICOS ESPECIAIS DE RECURSOS HÍDRICOS 2"
+        },
+        {
+          "code": "CI529",
+          "name": "TÓPICOS ESPECIAIS EM RECURSOS HÍDRICOS 3"
+        }
+      ]
+    },
+    {
+      "name": "GEOLOGIA APLICADA 1A",
+      "code": "GE520",
+      "ementa": "",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0096",
+          "name": "GEOLOGIA APLICADA"
+        },
+        {
+          "code": "GEOC0001",
+          "name": "GEOLOGIA APLICADA 1A"
+        },
+        {
+          "code": "MI231",
+          "name": "GEOLOGIA APLICADA 1"
+        },
+        {
+          "code": "MI232",
+          "name": "GEOLOGIA APLICADA 2"
+        },
+        {
+          "code": "MI236",
+          "name": "GEOLOGIA APLICADA 1A"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "QF001",
+          "name": "QUIMICA GERAL 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI328",
+          "name": "MECANICA DOS SOLOS 1A"
+        },
+        {
+          "code": "CI475",
+          "name": "TOPICOS ESPECIAIS DE GEOTECNIA"
+        },
+        {
+          "code": "CI519",
+          "name": "TÓPICOS ESPECIAIS DE GEOTECNIA 2"
+        },
+        {
+          "code": "CI520",
+          "name": "TÓPICOS ESPECIAIS DE GEOTECNIA 3"
+        }
+      ]
+    },
+    {
+      "name": "GESTAO DAS INFRA-ESTRUTURAS",
+      "code": "CI483",
+      "ementa": "ABORDAGEM SISTÊMICA PARA ANALISAR A VIABILIDADE ECONÔMICA DE PROJETOS DE ENGENHARIA. ELA FORNECE OS CONCEITOS ECONÔMICOS ¿ ESTRUTURAS DE MERCADOS, SERVIÇOS PÚBLICOS E REGULAMENTAÇÃO ¿ PARA GERIR (PLANEJAR, PROJETAR, CONSTRUIR E MANTER) INFRA-ESTRUTURAS DE TRANSPORTES, ABASTECIMENTO D¿ÁGUA, SANEAMENTO AMBIENTAL, RESÍDUOS SÓLIDOS, COM VISTAS A PRODUZIR COM QUALIDADE E AO MENOR CUSTO.",
+      "hours": 45,
+      "semester": 4,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0005",
+          "name": "GESTÃO DAS INFRA-ESTRUTURAS"
+        },
+        {
+          "code": "EC203",
+          "name": "ECONOMIA 5"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "ET625",
+          "name": "ESTATÍSTICA 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI506",
+          "name": "ENGENHARIA ECONÔMICA"
+        }
+      ]
+    },
+    {
+      "name": "MATERIAIS DE CONSTRUCAO CIVIL 1A",
+      "code": "CI302",
+      "ementa": "PEDRAS NATURAIS DE CONSTRUÇÃO. MATERIAIS CERÂMICAS E REFRATÁRIOS. VIDROS. MATERIAIS METÁLICOS, FERROSOS E NÃO FERROSOS. MADEIRAS. ATIVIDADES DE LABORATÓRIO.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI202",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 1"
+        },
+        {
+          "code": "CIVL0003",
+          "name": "MATERIAIS DE CONSTRUÇÃO CIVIL 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "QF002",
+          "name": "QUIMICA GERAL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI203",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 2"
+        },
+        {
+          "code": "CI540",
+          "name": "AUDITORIA DE OBRAS"
+        },
+        {
+          "code": "CI473",
+          "name": "TOPICOS ESPECIAIS DE CONSTRUCAO"
+        },
+        {
+          "code": "CI515",
+          "name": "TÓPICOS ESPECIAIS DE CONSTRUÇÃO 2"
+        },
+        {
+          "code": "CI516",
+          "name": "TÓPICOS ESPECIAIS DE CONSTRUÇÃO 3"
+        }
+      ]
+    },
+    {
+      "name": "MECANICA GERAL 1",
+      "code": "CI106",
+      "ementa": "FORÇA .SISTEMA DE FORÇAS. EQUILÍBRIO DE CORPOS RÍGIDOS. FORÇAS DISTRIBUÍDAS. CENTRÓIDES E BARICENTROS (CENTRO DE GRAVIDADE). FORÇAS DISTRIBUÍDAS: MOMENTOS DE INÉRCIA, PRODUTOS DE INÉRCIA.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI101",
+          "name": "MECANICA GERAL 1"
+        },
+        {
+          "code": "CIVL0004",
+          "name": "MECÂNICA GERAL 1"
+        },
+        {
+          "code": "ME440",
+          "name": "ESTÁTICA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "CI218",
+          "name": "RESISTENCIA DOS MATERIAIS 1A"
+        },
+        {
+          "code": "CI474",
+          "name": "TOPICOS ESPECIAIS DE ESTRUTURAS 1"
+        },
+        {
+          "code": "CI490",
+          "name": "TÓPICOS ESPECIAIS DE ESTRUTURAS 2"
+        },
+        {
+          "code": "CI518",
+          "name": "TÓPICOS ESPECIAIS DE ESTRUTURAS 3"
+        }
+      ]
+    },
+    {
+      "name": "ARQUITETURA E URBANISMO",
+      "code": "CI465",
+      "ementa": "PROJETO ARQUITETÔNICO. CÓDIGO DE URBANISMO E DE OBRAS. PLANEJAMENTO URBANO. USO DO SOLO URBANO. ESTRUTURA URBANA.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI206",
+          "name": "ELEMENTOS DE ARQUITETURA"
+        },
+        {
+          "code": "CI301",
+          "name": "PLANEJAMENTO URBANO"
+        },
+        {
+          "code": "CIVL0113",
+          "name": "ARQUITETURA E URBANISMO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "EG321",
+          "name": "DESENHO TECNICO 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI334",
+          "name": "ENGENHARIA DE AVALIAÇÕES"
+        },
+        {
+          "code": "CI550",
+          "name": "SISTEMA DE GESTÃO DA QUALIDADE NA CONSTRUÇÃO CIVIL"
+        }
+      ]
+    },
+    {
+      "name": "ENGENHARIA ECONÔMICA",
+      "code": "CI506",
+      "ementa": "NOÇÕES BÁSICAS DE MATEMÁTICA FINANCEIRA. MÉTODOS DE AVALIAÇÃO DE INVESTIMENTOS. DEPRECIAÇÃO. FINANCIAMENTO DE PROJETOS.",
+      "hours": 30,
+      "semester": 5,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0109",
+          "name": "ENGENHARIA ECONÔMICA"
+        },
+        {
+          "code": "EC337",
+          "name": "ENGENHARIA ECONOMICA"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI483",
+          "name": "GESTAO DAS INFRA-ESTRUTURAS"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI500",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO 1"
+        },
+        {
+          "code": "CI537",
+          "name": "AVALIAÇÃO ECONÔMICA DE EMPREENDIMENTOS"
+        }
+      ]
+    },
+    {
+      "name": "HIDRAULICA GERAL",
+      "code": "CI295",
+      "ementa": "ORIFÍCIOS E VERTEDORES. CONDUTOS FORÇADOS. CONDUTOS LIVRES. FORÇAS DINÂMICAS EXERCIDAS PELOS LÍQUIDOS. MODELOS REDUZIDOS. HIDROMETRIA. ATIVIDADES DE LABORATÓRIO.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI291",
+          "name": "HIDRAULICA 1A"
+        },
+        {
+          "code": "CI294",
+          "name": "HIDRAULICA 1B"
+        },
+        {
+          "code": "CIVL0006",
+          "name": "HIDRÁULICA GERAL"
+        },
+        {
+          "code": "ME251",
+          "name": "HIDRAULICA 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI110",
+          "name": "FENOMENO DOS TRANSPORTES"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI470",
+          "name": "SANEAMENTO AMBIENTAL"
+        },
+        {
+          "code": "CI276",
+          "name": "ESTRADAS E TRANSPORTES 1A"
+        },
+        {
+          "code": "CI509",
+          "name": "ENGENHARIA DE RECURSOS HÍDRICOS"
+        },
+        {
+          "code": "CI359",
+          "name": "PORTOS E HIDROVIAS 1"
+        },
+        {
+          "code": "CI460",
+          "name": "DRENAGEM URBANA"
+        },
+        {
+          "code": "CI352",
+          "name": "ENGENHARIA DE IRRIGACAO"
+        }
+      ]
+    },
+    {
+      "name": "MATERIAIS DE CONSTRUCAO CIVIL 2",
+      "code": "CI203",
+      "ementa": "AGLOMERANTES HIDRÁULICOS E BETUMINOSOS. AGREGADOS. PASTAS. ARGAMASSAS. CONCRETOS. PRODUTOS AGLOMERADOS HIDRÁULICOS E BETUMINOSOS. MATERIAIS SINTÉTICOS TERMOPLÁSTICOS E TERMO-ESTÁVEIS. ATIVIDADES DE LABORATÓRIO.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0007",
+          "name": "MATERIAIS DE CONSTRUÇÃO CIVIL 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI302",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 1A"
+        },
+        {
+          "code": "FI021",
+          "name": "FISICA EXPERIMENTAL 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI505",
+          "name": "ENGENHARIA DE SEGURANÇA DO TRABALHO"
+        },
+        {
+          "code": "CI507",
+          "name": "TECNOLOGIA DA CONSTRUÇÃO CIVIL 1"
+        },
+        {
+          "code": "CI541",
+          "name": "DESEMPENHO DE EDIFICAÇÕES"
+        },
+        {
+          "code": "CI544",
+          "name": "SISTEMA DE GESTÃO DA QUALIDADE NA CONSTRUÇÃO CIVIL"
+        },
+        {
+          "code": "CI513",
+          "name": "ESTRUTURAS DE MADEIRA"
+        },
+        {
+          "code": "CI512",
+          "name": "ESTRUTURAS METÁLICAS 1"
+        },
+        {
+          "code": "CI209",
+          "name": "CONTROLE TECNOLOGICO"
+        },
+        {
+          "code": "CI489",
+          "name": "GESTÃO E TECNOLOGIA DE APROVEITAMENTO DE RESÍDUOS DA CONSTRUÇÃO CIVIL"
+        },
+        {
+          "code": "CI486",
+          "name": "TECNOLOGIA DE ARGAMASSAS"
+        },
+        {
+          "code": "CI485",
+          "name": "TECNOLOGIA DE DOSAGEM DE CONCRETO"
+        }
+      ]
+    },
+    {
+      "name": "MECANICA GERAL 2-A",
+      "code": "CI406",
+      "ementa": "CINEMÁTICA DO PONTO, CINEMÁTICA DO CORPO RÍGIDO, CINEMÁTICA DO MOVIMENTO RELATIVO. DINÂMICA DO CORPO RÍGIDO, EQUAÇÕES DO MOVIMENTO, PROPRIEDADES INERCIAIS, IMPULSÃO E QUANTIDADE DE MOVIMENTO, TEOREMA DE ENERGIA.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI102",
+          "name": "MECANICA GERAL 2"
+        },
+        {
+          "code": "CIVL0008",
+          "name": "MECÂNICA GERAL 2"
+        },
+        {
+          "code": "ME572",
+          "name": "DINÂMICA"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "RESISTENCIA DOS MATERIAIS 1A",
+      "code": "CI218",
+      "ementa": "CONCEITOS FUNDAMENTAIS: APOIOS, LIGAÇÕES, ESTATICIDADE, ESFORÇOS SECCIONAIS, CARGAS. ESTUDO DAS VIGAS ISOSTÁTICAS. ESTUDO DOS PÓRTICOS ISOSTÁTICOS. ESTUDO DAS TRELIÇAS ISOSTÁTICAS. CARGA E TENSÕES AXIAIS: TRAÇÃO, COMPRESSÃO, CISALHAMENTO. DEFORMAÇÃO AXIAL. ESTADO PLANO DE TENSÕES: TRANSFORMAÇÃO DE TENSÕES, CÍRCULO DE MOHR. TENSÕES DE FLEXÃO EM VIGAS. TENSÕES DE CISALHAMENTO EM VIGAS.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI211",
+          "name": "RESISTENCIA DOS MATERIAIS 1"
+        },
+        {
+          "code": "CIVL0009",
+          "name": "RESISTÊNCIA DOS MATERIAIS 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI106",
+          "name": "MECANICA GERAL 1"
+        },
+        {
+          "code": "FI007",
+          "name": "FISICA GERAL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI328",
+          "name": "MECANICA DOS SOLOS 1A"
+        },
+        {
+          "code": "CI219",
+          "name": "RESISTENCIA DOS MATERIAIS 2A"
+        }
+      ]
+    },
+    {
+      "name": "TOPOGRAFIA 9",
+      "code": "CA228",
+      "ementa": "A TOPOGRAFIA NO CONTEXTO DAS TÉCNICAS GEODÉSICAS DE MEDIÇÃO E MÉTODOS DE TRATAMENTO DE DADOS GRÁFICOS; MÉTODOS PLANIMÉTRICOS DE LEVANTAMENTO, LOCAÇÃO E CÁLCULO DE ÁREA. INSTRUMENTOS DE POSICIONAMENTO POLAR E SUA METROLOGIA. INSTRUMENTOS E MÉTODOS DE ORIENTAÇÃO. MÉTODOS DE TRANSFORMAÇÃO DE SISTEMAS DE COORDENADAS E SUAS APLICAÇÕES. INTRODUÇÃO AOS MÉTODOS DE NIVELAMENTO. POSICIONAMENTO TRIDIMENSIONAL. DESENHO TOPOGRÁFICO PLANIALTIMÉTRICO. ATIVIDADES DE CAMPO.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CA211",
+          "name": "TOPOGRAFIA 1"
+        },
+        {
+          "code": "CA213",
+          "name": "TOPOGRAFIA 3"
+        },
+        {
+          "code": "CIVL0104",
+          "name": "TOPOGRAFIA 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "CA229",
+          "name": "TOPOGRAFIA 10"
+        }
+      ]
+    },
+    {
+      "name": "ADMINISTRACAO",
+      "code": "AD201",
+      "ementa": "ADMINISTRAÇÃO E ORGANIZAÇÃO DE EMPRESAS. ADMINISTRAÇÃO FINANCEIRA. ADMINISTRAÇÃO DE PESSOAL. ADMINISTRAÇÃO DE SUPRIMENTO. CONTABILIDADE E BALANÇO.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD200",
+          "name": "ADMINISTRACAO"
+        },
+        {
+          "code": "AD214",
+          "name": "ADMINISTRACAO"
+        },
+        {
+          "code": "CIVL0108",
+          "name": "ADMINISTRAÇÃO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "CI510",
+          "name": "GERENCIAMENTO DE PROJETOS E OBRAS"
+        },
+        {
+          "code": "CI500",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO 1"
+        }
+      ]
+    },
+    {
+      "name": "ENGENHARIA DE SEGURANÇA DO TRABALHO",
+      "code": "CI505",
+      "ementa": "IDENTIFICAÇÃO DE PERIGOS, ACESSO E CONTROLE DOS RISCOS. PERCEPÇÃO DO RISCO. ASPECTOS LEGAIS: RESPONSABILIDADES. CUSTOS DO NÃO GERENCIAMENTO DOS RISCOS. TÉCNICAS DE IDENTIFICAÇÃO DE PERIGOS. CARACTERIZAÇÃO DOS RISCOS. SISTEMA DE GERENCIAMENTO DOS RISCOS, PRESCRITIVOS E BASEADOS NO DESEMPENHO. ENGENHARIA DE INCÊNDIO. PLANEJAMENTO DE EMERGÊNCIAS.",
+      "hours": 30,
+      "semester": 6,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI203",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI543",
+          "name": "INTRODUÇÃO À ENGENHARIA DE INCÊNDIO"
+        },
+        {
+          "code": "CI531",
+          "name": "EQUIPAMENTOS DE CONSTRUÇÃO CIVIL"
+        },
+        {
+          "code": "CI548",
+          "name": "INTRODUÇÃO À ENGENHARIA DE INCÊNDIO"
+        }
+      ]
+    },
+    {
+      "name": "HIDROLOGIA APLICADA 1",
+      "code": "CI364",
+      "ementa": "HIDROMETEOROLOGIA; A BACIA HIDROGRÁFICA; PRECIPITAÇÃO PLUVIOMÉTRICAS; EVAPORAÇÃO E TRANSPIRAÇÃO; INFILTRAÇÃO; FLUVIOMETRIA; HIDROLOGIA SUPERFICIAL; BALANÇO HIDROLÓGICO DE UMA BACIA HIDROGRÁFICA; REGULARIZAÇÃO DE VAZÕES; PROPAGAÇÃO DE DESCARGAS; HIDROLOGIA SUBTERRÂNEA.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI493",
+          "name": "HIDROLOGIA"
+        },
+        {
+          "code": "CIVL0011",
+          "name": "HIDROLOGIA APLICADA 1"
+        },
+        {
+          "code": "EN234",
+          "name": "HIDROLOGIA APLICADA A GERAÇÃO DE ENERGIA"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI110",
+          "name": "FENOMENO DOS TRANSPORTES"
+        },
+        {
+          "code": "ET625",
+          "name": "ESTATÍSTICA 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI509",
+          "name": "ENGENHARIA DE RECURSOS HÍDRICOS"
+        },
+        {
+          "code": "CI359",
+          "name": "PORTOS E HIDROVIAS 1"
+        },
+        {
+          "code": "CI460",
+          "name": "DRENAGEM URBANA"
+        },
+        {
+          "code": "CI352",
+          "name": "ENGENHARIA DE IRRIGACAO"
+        },
+        {
+          "code": "CI365",
+          "name": "HIDROLOGIA APLICADA 2"
+        },
+        {
+          "code": "CI276",
+          "name": "ESTRADAS E TRANSPORTES 1A"
+        }
+      ]
+    },
+    {
+      "name": "MECANICA DOS SOLOS 1A",
+      "code": "CI328",
+      "ementa": "ORIGEM E FORMAÇÃO DOS SOLOS; ÍNDICES FÍSICOS, CLASSIFICAÇÃO E ENSAIOS DE CARACTERIZAÇÃO; PROSPECÇÃO DO SUBSOLO; PRESSÕES NO SOLO; HIDRÁULICA DOS SOLOS; DEFORMAÇÃO DOS SOLOS; RESISTÊNCIA AO CISALHAMENTO DOS SOLOS.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI221",
+          "name": "MECANICA DOS SOLOS 1"
+        },
+        {
+          "code": "CIVL0010",
+          "name": "MECÂNICA DOS SOLOS 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI218",
+          "name": "RESISTENCIA DOS MATERIAIS 1A"
+        },
+        {
+          "code": "GE520",
+          "name": "GEOLOGIA APLICADA 1A"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI276",
+          "name": "ESTRADAS E TRANSPORTES 1A"
+        },
+        {
+          "code": "CI329",
+          "name": "MECANICA DOS SOLOS 2A"
+        },
+        {
+          "code": "CI229",
+          "name": "ENSAIOS DE SOLOS - INSTRUMENTACAO"
+        }
+      ]
+    },
+    {
+      "name": "RESISTENCIA DOS MATERIAIS 2A",
+      "code": "CI219",
+      "ementa": "FLEXÃO OBLÍQUA. FLEXÃO COMPOSTA. DEFLEXÃO DE VIGAS: LINHA ELÁSTICA, INTEGRAÇÃO DIRETA, MÉTODO DE MOHR. VIGAS ESTATICAMENTE INDETERMINADOS: MÉTODO DE SUPERPOSIÇÃO, EQUAÇÃO DOS 3 MOMENTOS. MÉTODOS DE ENERGIA: ENERGIA DE DEFORMAÇÃO, TRABALHOS VIRTUAIS, TEOREMAS DE CASTIGLIANO. LINHAS DE INFLUÊNCIA DE ESTRUTURAS ISOSTÁTICAS. TORÇÃO. FLAMBAGEM. TEORIA DE RUPTURA E ESCOAMENTO.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI212",
+          "name": "RESISTENCIA DOS MATERIAIS 2"
+        },
+        {
+          "code": "CIVL0012",
+          "name": "RESISTÊNCIA DOS MATERIAIS 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI218",
+          "name": "RESISTENCIA DOS MATERIAIS 1A"
+        },
+        {
+          "code": "MA129",
+          "name": "CALCULO DIFERENCIAL E INTEGRAL 4"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI233",
+          "name": "CONSTRUCAO DE CONCRETO 1A"
+        },
+        {
+          "code": "CI274",
+          "name": "ESTABILIDADE DAS CONSTRUCOES 1A"
+        },
+        {
+          "code": "CI536",
+          "name": "ALVENARIA"
+        },
+        {
+          "code": "CI209",
+          "name": "CONTROLE TECNOLOGICO"
+        }
+      ]
+    },
+    {
+      "name": "SANEAMENTO AMBIENTAL",
+      "code": "CI470",
+      "ementa": "IMPORTÂNCIA DA SAÚDE PÚBLICA; NOÇÕES DE MICROBIOLOGIA E DOENÇAS; HIGIENE DAS HABITAÇÕES; CARACTERÍSTICAS DAS ÁGUAS DE ABASTECIMENTO E ÁGUAS RESIDUÁRIAS; POLUIÇÃO DAS ÁGUAS; POLUIÇÃO DO SOLO E LIMPEZA URBANA; POLUIÇÃO ATMOSFÉRICA E SONORA.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI462",
+          "name": "SANEAMENTO 2"
+        },
+        {
+          "code": "CIVL0017",
+          "name": "SANEAMENTO AMBIENTAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI105",
+          "name": "ECOLOGIA APLIC A ENGENHARIA"
+        },
+        {
+          "code": "CI295",
+          "name": "HIDRAULICA GERAL"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI471",
+          "name": "SIST DE ABASTECIMENTO DE AGUA"
+        },
+        {
+          "code": "CI472",
+          "name": "SISTEMAS DE ESGOTOS SANITARIOS"
+        },
+        {
+          "code": "CI500",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO 1"
+        },
+        {
+          "code": "CI523",
+          "name": "PROJETO DE SANEAMENTO AMBIENTAL"
+        }
+      ]
+    },
+    {
+      "name": "TOPOGRAFIA 10",
+      "code": "CA229",
+      "ementa": "LEVANTAMENTOS ALTIMÉTRICOS, INSTRUMENTAÇÃO E METROLOGIA. LEVANTAMENTOS ESPECIAIS, INSTRUMENTAÇÃO E METROLOGIA. NOÇÕES DE FOTOGRAMETRIA E FOTOINTERPRETAÇÃO. NOÇÕES DE SISTEMAS DE INFORMAÇÕES. GEO-REFERENCIADAS. ATIVIDADES DE CAMPO.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CA212",
+          "name": "TOPOGRAFIA 2"
+        },
+        {
+          "code": "CA214",
+          "name": "TOPOGRAFIA 4"
+        },
+        {
+          "code": "CIVL0107",
+          "name": "TOPOGRAFIA 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CA228",
+          "name": "TOPOGRAFIA 9"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI507",
+          "name": "TECNOLOGIA DA CONSTRUÇÃO CIVIL 1"
+        },
+        {
+          "code": "CI461",
+          "name": "GEOPROCESSAMENTO APLIC ENG CIVIL"
+        }
+      ]
+    },
+    {
+      "name": "CONSTRUCAO DE CONCRETO 1A",
+      "code": "CI233",
+      "ementa": "DEFORMAÇÕES. TENSÕES. ADERÊNCIA. ELEMENTOS DE CONSTRUÇÃO. CARGAS. COMPRESSÃO. E TRAÇÃO. FLEXÃO SIMPLES E CISALHAMENTO.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI231",
+          "name": "CONSTRUCAO DE CONCRETO 1"
+        },
+        {
+          "code": "CIVL0013",
+          "name": "CONSTRUÇÃO DE CONCRETO 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI219",
+          "name": "RESISTENCIA DOS MATERIAIS 2A"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI236",
+          "name": "CONSTRUCAO DE CONCRETO 2A"
+        },
+        {
+          "code": "CI431",
+          "name": "FUNDACOES 1"
+        },
+        {
+          "code": "CI542",
+          "name": "ESTRUTURAS EM SITUAÇÃO DE INCÊNDIO"
+        },
+        {
+          "code": "CI500",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO 1"
+        },
+        {
+          "code": "CI517",
+          "name": "CONSTRUÇÕES EM CONCRETO PRÉ-MOLDADO"
+        },
+        {
+          "code": "CI546",
+          "name": "DESEMPENHO DE EDIFICAÇÕES"
+        },
+        {
+          "code": "CI547",
+          "name": "ESTRUTURAS EM SITUAÇÃO DE INCÊNDIO"
+        }
+      ]
+    },
+    {
+      "name": "ESTABILIDADE DAS CONSTRUCOES 1A",
+      "code": "CI274",
+      "ementa": "DEFORMAÇÃO EM ESTRUTURAS ISOSTÁTICAS. FATORES DE FORMA E CARGA. GENERALIDADES SOBRE HIPERSTATICIDADE. MÉTODO DOS DESLOCAMENTOS. PROCESSO DE ITERAÇÃO PARA RESOLUÇÃO DAS ESTRUTURAS.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI321",
+          "name": "TEORIA DAS ESTRUTURAS 1"
+        },
+        {
+          "code": "CI423",
+          "name": "ESTABILIDADE DAS CONSTRUCOES 3"
+        },
+        {
+          "code": "CIVL0014",
+          "name": "ESTABILIDADE DAS CONSTRUÇÕES 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI219",
+          "name": "RESISTENCIA DOS MATERIAIS 2A"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI275",
+          "name": "ESTABILIDADE DAS CONSTRUCOES 2A"
+        },
+        {
+          "code": "CI500",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO 1"
+        }
+      ]
+    },
+    {
+      "name": "ESTRADAS E TRANSPORTES 1A",
+      "code": "CI276",
+      "ementa": "INFRA-ESTRUTURA DE ESTRADAS DE RODAGEM, DE FERRO DE VIAS URBANAS E DE AEROPORTOS. CONCEPÇÃO E ESTUDOS DE TRAÇADOS. PROJETOS GEOMÉTRICOS, DE TERRAPLENAGEM E DE DRENAGEM.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI253",
+          "name": "ESTRADAS E TRANSPORTES"
+        },
+        {
+          "code": "CI353",
+          "name": "ESTRADAS E TRANSPORTES 3"
+        },
+        {
+          "code": "CIVL0015",
+          "name": "ESTRADAS E TRANSPORTES 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI295",
+          "name": "HIDRAULICA GERAL"
+        },
+        {
+          "code": "CI328",
+          "name": "MECANICA DOS SOLOS 1A"
+        },
+        {
+          "code": "CI364",
+          "name": "HIDROLOGIA APLICADA 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI277",
+          "name": "ESTRADAS E TRANSPORTES 2A"
+        },
+        {
+          "code": "CI500",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO 1"
+        },
+        {
+          "code": "CI209",
+          "name": "CONTROLE TECNOLOGICO"
+        },
+        {
+          "code": "CI254",
+          "name": "ENGENHARIA DE TRAFEGO"
+        },
+        {
+          "code": "CI256",
+          "name": "OPERACAO DE FERROVIAS"
+        },
+        {
+          "code": "CI450",
+          "name": "PROJETO DE ESTRADAS E TRANSPORTES"
+        }
+      ]
+    },
+    {
+      "name": "MECANICA DOS SOLOS 2A",
+      "code": "CI329",
+      "ementa": "EMPUXO DAS TERRAS; ESTRUTURAS DE CONTENÇÃO; REBAIXAMENTO DE NÍVEL D¿ÁGUA; ESTABILIDADE DE TALUDES NATURAIS E ARTIFICIAIS; SOLOS ESPECIAIS; ATERROS SOBRE SOLOS COMPRESSÍVEIS.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI222",
+          "name": "MECANICA DOS SOLOS 2"
+        },
+        {
+          "code": "CIVL0016",
+          "name": "MECÂNICA DOS SOLOS 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI328",
+          "name": "MECANICA DOS SOLOS 1A"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI431",
+          "name": "FUNDACOES 1"
+        },
+        {
+          "code": "CI500",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO 1"
+        },
+        {
+          "code": "CI487",
+          "name": "ESTRUTURAS DE CONTENÇÃO E OBRAS SUBTERRÂNEAS"
+        }
+      ]
+    },
+    {
+      "name": "SIST DE ABASTECIMENTO DE AGUA",
+      "code": "CI471",
+      "ementa": "IMPORTÂNCIA DOS SISTEMAS DE ABASTECIMENTO D´ÁGUA. ESTUDO DE POPULAÇÃO. MANANCIAIS DE SUPERFÍCIES E SUBTERRÂNEAS. ADUÇÃO POR GRAVIDADE E POR RECALQUE. TRATAMENTO D´ÁGUA CONVENCIONAL E SIMPLIFICADO. RESERVAÇÃO. DISTRIBUIÇÃO. ANÁLISE TÉCNICO-ECONÔMICO E FINANCEIRA DE SOLUÇÕES.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI264",
+          "name": "SISTEMA DE ABASTECIMENTO DE AGUA"
+        },
+        {
+          "code": "CI267",
+          "name": "TRATAMENTO DE AGUA"
+        },
+        {
+          "code": "CI463",
+          "name": "SANEAMENTO 3"
+        },
+        {
+          "code": "CIVL0024",
+          "name": "SISTEMAS DE ABASTECIMENTOS DE ÁGUA"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI470",
+          "name": "SANEAMENTO AMBIENTAL"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI509",
+          "name": "ENGENHARIA DE RECURSOS HÍDRICOS"
+        },
+        {
+          "code": "CI524",
+          "name": "PROJETO DE SISTEMAS DE ABASTECIMENTO DE ÁGUA"
+        },
+        {
+          "code": "CI503",
+          "name": "USO E REUSO DE ÁGUAS EM EDIFICAÇÕES"
+        }
+      ]
+    },
+    {
+      "name": "SISTEMAS DE ESGOTOS SANITARIOS",
+      "code": "CI472",
+      "ementa": "IMPORTÂNCIA DOS SISTEMAS DE ESGOTAMENTO SANITÁRIO. REDES COLETORAS CONVENCIONAIS E SIMPLIFICADAS. INTERCEPTORES E EMISSÁRIOS POR GRAVIDADE. ESTAÇÕES ELEVATÓRIAS E EMISSÁRIOS DE RECALQUE. TRATAMENTO CONVENCIONAL E SIMPLIFICADO DE ÁGUAS RESIDUÁRIAS. LANÇAMENTO SUBMARINO. REUTILIZAÇÃO DE EFLUENTES. ANÁLISE TÉCNICO-ECONÔMICO E FINANCEIRA DE SOLUÇÕES.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI265",
+          "name": "SISTEMA DE ESGOTOS"
+        },
+        {
+          "code": "CI268",
+          "name": "TRATAMENTO DE ESGOTOS"
+        },
+        {
+          "code": "CI464",
+          "name": "SANEAMENTO 4"
+        },
+        {
+          "code": "CIVL0030",
+          "name": "SISTEMAS DE ESGOTOS SANITÁRIOS"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI470",
+          "name": "SANEAMENTO AMBIENTAL"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI525",
+          "name": "PROJETO DE SISTEMAS DE ESGOTOS SANITÁRIOS"
+        },
+        {
+          "code": "CI503",
+          "name": "USO E REUSO DE ÁGUAS EM EDIFICAÇÕES"
+        }
+      ]
+    },
+    {
+      "name": "TECNOLOGIA DA CONSTRUÇÃO CIVIL 1",
+      "code": "CI507",
+      "ementa": "PROJETOS. EMPREENDIMENTOS CONSTRUTIVOS. LOCAÇÃO DE UMA OBRA. REGULARIZAÇÃO DO TERRENO. FUNDAÇÕES. CONCRETAGEM. ALVENARIAS.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI331",
+          "name": "CONSTRUCAO CIVIL 1"
+        },
+        {
+          "code": "CI333",
+          "name": "CONSTRUCAO CIVIL 1A"
+        },
+        {
+          "code": "CIVL0018",
+          "name": "CONSTRUÇÃO CIVIL 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CA229",
+          "name": "TOPOGRAFIA 10"
+        },
+        {
+          "code": "CI203",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 2"
+        },
+        {
+          "code": "EG321",
+          "name": "DESENHO TECNICO 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI510",
+          "name": "GERENCIAMENTO DE PROJETOS E OBRAS"
+        },
+        {
+          "code": "CI508",
+          "name": "TECNOLOGIA DA CONSTRUÇÃO CIVIL 2"
+        },
+        {
+          "code": "CI488",
+          "name": "PATOLOGIA DAS CONSTRUÇÕES EM CONCRETO ARMADO"
+        }
+      ]
+    },
+    {
+      "name": "DESEMPENHO DE EDIFICAÇÕES",
+      "code": "CI541",
+      "ementa": "ANÁLISE E CRÍTICA DOS REQUISITOS DOS USUÁRIOS PARA O EDIFÍCIO HABITACIONAL E SEUS SISTEMAS, QUANTO AO SEU COMPORTAMENTO EM USO: DESEMPENHO ESTRUTURAL, SEGURANÇA CONTRA INCÊNDIO, SEGURANÇA NO USO E OPERAÇÃO, ESTANQUEIDADE, DESEMPENHO TÉRMICO, DESEMPENHO ACÚSTICO, DESEMPENHO LUMÍNICO, DURABILIDADE E MANUTENIBILIDADE, SAÚDE, HIGIENE E QUALIDADE DO AR, FUNCIONALIDADE E ACESSIBILIDADE, CONFORTO TÁTIL E ANTROPODINÂMICO, ADEQUAÇÃO AMBIENTAL.",
+      "hours": 30,
+      "semester": 7,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI203",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "SISTEMA DE GESTÃO DA QUALIDADE NA CONSTRUÇÃO CIVIL",
+      "code": "CI544",
+      "ementa": "QUALIDADE; SISTEMA DE GESTÃO DA QUALIDADE; SISTEMA DE GESTÃO DA QUALIDADE PARA EMPRESAS DA CONSTRUÇÃO CIVIL COM BASE NA NBR ISO 9001:2015 E NO REFERENCIAL NORMATIVO DO SISTEMA DE AVALIAÇÃO DE CONFORMIDADE DE EMPRESAS DE SERVIÇOS E OBRAS DA CONSTRUÇÃO CIVIL (SIAC 2018) DO PROGRAMA BRASILEIRO DA QUALIDADE E PRODUTIVIDADE DO HABITAT - PBQP-H; NOÇÕES DE AUDITORIAS DE CERTIFICAÇÃO E MANUTENÇÃO DOS SISTEMAS DE GESTÃO DA QUALIDADE",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI203",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "CONSTRUCAO DE CONCRETO 2A",
+      "code": "CI236",
+      "ementa": "LAJES. FLEXÃO COMPOSTA. TORÇÃO. MARQUISES. ESCADAS. CAIXAS D¿ÁGUA. MUROS DE ARRIMO.",
+      "hours": 60,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI232",
+          "name": "CONSTRUCAO DE CONCRETO II"
+        },
+        {
+          "code": "CIVL0020",
+          "name": "CONSTRUÇÃO DE CONCRETO 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI233",
+          "name": "CONSTRUCAO DE CONCRETO 1A"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI511",
+          "name": "PONTES"
+        },
+        {
+          "code": "CI359",
+          "name": "PORTOS E HIDROVIAS 1"
+        },
+        {
+          "code": "CI326",
+          "name": "ANÁLISE EXPERIMENTAL DE ESTRUTURAS"
+        },
+        {
+          "code": "CI285",
+          "name": "CONCRETO PROTENDIDO"
+        },
+        {
+          "code": "CI237",
+          "name": "ESTRUTURAS ESPECIAIS 1"
+        },
+        {
+          "code": "CI488",
+          "name": "PATOLOGIA DAS CONSTRUÇÕES EM CONCRETO ARMADO"
+        },
+        {
+          "code": "CI341",
+          "name": "PROJETO ESTRUTURAL"
+        },
+        {
+          "name": "ESTRUTURAS ESPECIAIS 2",
+          "code": "CI239"
+        }
+      ]
+    },
+    {
+      "name": "ENGENHARIA DE RECURSOS HÍDRICOS",
+      "code": "CI509",
+      "ementa": "PLANEJAMENTO DE RECURSOS HÍDRICOS. APROVEITAMENTO DE BACIAS FLUVIAIS. USO DOS RECURSOS HÍDRICOS. REPERCUSSÃO DAS INTERVENÇÕES. CONTROLE DE CHEIAS. IRRIGAÇÃO. DRENAGEM. GERAÇÃO DE ENERGIA ELÉTRICA. NAVEGAÇÃO. CONTROLE DE QUALIDADE E POLUIÇÃO HÍDRICA. ÁGUA PARA USO DOMÉSTICO E INDUSTRIAL. ANÁLISE ECONÔMICA E FINANCEIRA DE PROJETOS HIDRÁULICOS. ANÁLISE DE SISTEMAS HÍDRICOS. ADMINISTRAÇÃO E LEGISLAÇÃO DE RECURSOS HÍDRICOS. GESTÃO DE RECURSOS HÍDRICOS.",
+      "hours": 60,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI265",
+          "name": "SISTEMA DE ESGOTOS"
+        },
+        {
+          "code": "CI268",
+          "name": "TRATAMENTO DE ESGOTOS"
+        },
+        {
+          "code": "CI369",
+          "name": "RECURSOS HIDRICOS"
+        },
+        {
+          "code": "CIVL0029",
+          "name": "RECURSOS HÍDRICOS"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI295",
+          "name": "HIDRAULICA GERAL"
+        },
+        {
+          "code": "CI364",
+          "name": "HIDROLOGIA APLICADA 1"
+        },
+        {
+          "code": "CI471",
+          "name": "SIST DE ABASTECIMENTO DE AGUA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTABILIDADE DAS CONSTRUCOES 2A",
+      "code": "CI275",
+      "ementa": "MÉTODO DOS ESFORÇOS. ESTRUTURAS SUBMETIDAS A EMPUXOS. VIGAS BALCÃO. GRELHA DE VIGAS.",
+      "hours": 60,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI322",
+          "name": "TEORIA DAS ESTRUTURAS 2"
+        },
+        {
+          "code": "CI424",
+          "name": "ESTABILIDADE DAS CONSTRUCOES 4"
+        },
+        {
+          "code": "CIVL0021",
+          "name": "ESTABILIDADE DAS CONSTRUÇÕES 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI274",
+          "name": "ESTABILIDADE DAS CONSTRUCOES 1A"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI237",
+          "name": "ESTRUTURAS ESPECIAIS 1"
+        },
+        {
+          "code": "CI341",
+          "name": "PROJETO ESTRUTURAL"
+        },
+        {
+          "name": "ESTRUTURAS ESPECIAIS 2",
+          "code": "CI239"
+        }
+      ]
+    },
+    {
+      "name": "ESTRADAS E TRANSPORTES 2A",
+      "code": "CI277",
+      "ementa": "SUPERESTRUTURA DE ESTRADAS DE RODAGEM, DE FERRO, DE VIAS URBANAS E DE AEROPORTOS. CONCEPÇÃO, ESTUDOS E PROJETOS. CONSTRUÇÃO E CONSERVAÇÃO DA INFRA E SUPERESTRUTURA.",
+      "hours": 60,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI252",
+          "name": "ESTRADAS E TRANSPORTES 2"
+        },
+        {
+          "code": "CI354",
+          "name": "ESTRADAS E TRANSPORTES 4"
+        },
+        {
+          "code": "CIVL0022",
+          "name": "ESTRADAS E TRANSPORTES 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI276",
+          "name": "ESTRADAS E TRANSPORTES 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "FUNDACOES 1",
+      "code": "CI431",
+      "ementa": "GENERALIDADES. FUNDAÇÕES SUPERFICIAIS. FUNDAÇÕES PROFUNDAS. TÓPICOS ESPECIAIS. DANOS E REFORÇO DE FUNDAÇÕES",
+      "hours": 60,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI223",
+          "name": "ENGENHARIA DE FUNDACOES"
+        },
+        {
+          "code": "CIVL0023",
+          "name": "FUNDAÇÕES 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI233",
+          "name": "CONSTRUCAO DE CONCRETO 1A"
+        },
+        {
+          "code": "CI329",
+          "name": "MECANICA DOS SOLOS 2A"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI511",
+          "name": "PONTES"
+        },
+        {
+          "code": "CI435",
+          "name": "BARRAGENS"
+        },
+        {
+          "code": "CI439",
+          "name": "PROJETO DE FUNDACAO"
+        }
+      ]
+    },
+    {
+      "name": "GERENCIAMENTO DE PROJETOS E OBRAS",
+      "code": "CI510",
+      "ementa": "PERT/CPM. PLANEJAMENTO E PROGRAMAÇÃO DE OBRAS. DIMENSIONAMENTO E OPERAÇÃO DE EQUIPAMENTOS. ORÇAMENTO E COMPOSIÇÃO DE PREÇOS. ORGANIZAÇÃO ADMINISTRATIVA. LAY-OUT. CONTROLE DE QUALIDADE. HIGIENE E SEGURANÇA DO TRABALHO.",
+      "hours": 45,
+      "semester": 8,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "AD232",
+          "name": "ORGANIZACAO DE OBRAS"
+        },
+        {
+          "code": "CI300",
+          "name": "SEGURANCA NO TRABALHO"
+        },
+        {
+          "code": "CI336",
+          "name": "EQUIPAMENTOS PARA CONSTRUCAO"
+        },
+        {
+          "code": "CI306",
+          "name": "ORGANIZACAO DE OBRAS 1"
+        },
+        {
+          "code": "CI307",
+          "name": "MATERIAIS E DETALHES TECNIC CONSTRUCÃO 3"
+        },
+        {
+          "code": "CI308",
+          "name": "ORGANIZACAO DE OBRAS 1"
+        },
+        {
+          "code": "CIVL0027",
+          "name": "ORGANIZAÇÃO DE OBRAS 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AD201",
+          "name": "ADMINISTRACAO"
+        },
+        {
+          "code": "CI507",
+          "name": "TECNOLOGIA DA CONSTRUÇÃO CIVIL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TECNOLOGIA DA CONSTRUÇÃO CIVIL 2",
+      "code": "CI508",
+      "ementa": "TIPOLOGIA DE EDIFÍCIOS. HABITAÇÃO MODERNA. CIRCULAÇÃO NOS EDIFÍCIOS. REVESTIMENTO. PAVIMENTAÇÕES. COBERTURAS. ESQUADRIAS. PINTURAS E ACABAMENTOS.",
+      "hours": 60,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI332",
+          "name": "CONSTRUCAO CIVIL 2"
+        },
+        {
+          "code": "CI337",
+          "name": "CONSTRUCAO CIVIL 2A"
+        },
+        {
+          "code": "CIVL0025",
+          "name": "CONSTRUÇÃO CIVIL 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI507",
+          "name": "TECNOLOGIA DA CONSTRUÇÃO CIVIL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTRUTURAS EM SITUAÇÃO DE INCÊNDIO",
+      "code": "CI542",
+      "ementa": "DINÂMICA DE INCÊNDIOS EM ESPAÇOS FECHADOS. FORMAS DE QUANTIFICAÇÃO DE INCÊNDIOS. NORMAS TÉCNICAS E LEGISLAÇÃO EM SEGURANÇA CONTRA INCÊNDIO. CARACTERÍSTICAS E PROPRIEDADES MECÂNICAS DOS MATERIAIS SOB ALTAS TEMPERATURAS. COMPORTAMENTO ESTRUTURAL EM SITUAÇÃO DE INCÊNDIO. ESTRUTURAS DE AÇO E CONCRETO EM SITUAÇÃO DE INCÊNDIO: MÉTODOS SIMPLIFICADOS, MÉTODOS EXPERIMENTAIS E MÉTODOS AVANÇADOS.",
+      "hours": 60,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI233",
+          "name": "CONSTRUCAO DE CONCRETO 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ECONOMIA DOS TRANSPORTES",
+      "code": "CI255",
+      "ementa": "OBJETIVOS NACIONAIS E POLÍTICOS DE TRANSPORTES. CARACTERÍSTICAS DAS INFRA-ESTRUTURAS DE TRANSPORTES. PROGRAMAÇÃO DOS INVESTIMENTOS SETORIAIS. PREÇO DE FINANCIAMENTO DOS INVESTIMENTOS. ANÁLISE DE PROJETO SETORIAIS. CRITÉRIOS DIVERSOS.",
+      "hours": 60,
+      "semester": 9,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI250",
+          "name": "ECONOMIA DOS TRANSPORTES"
+        },
+        {
+          "code": "CIVL0026",
+          "name": "ECONOMIA DOS TRANSPORTES"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "ELETROTÉCNICA GERAL",
+      "code": "EL429",
+      "ementa": "CIRCUITOS. TRANSFORMADORES. MEDIDAS ELÉTRICAS. MOTORES DE INDUÇÃO.",
+      "hours": 30,
+      "semester": 9,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0106",
+          "name": "ELETROTÉCNICA GERAL"
+        },
+        {
+          "code": "EL231",
+          "name": "ELETROTECNICA GERAL"
+        },
+        {
+          "code": "EL238",
+          "name": "ELETROTECNICA GERAL 1"
+        },
+        {
+          "code": "EL239",
+          "name": "ELETROTECNICA GERAL 1A"
+        },
+        {
+          "code": "EL243",
+          "name": "ELETROTECNICA GERAL 1A"
+        },
+        {
+          "code": "EL246",
+          "name": "ELETROTECNICA GERAL"
+        },
+        {
+          "code": "EL268",
+          "name": "ELETROTECNICA GERAL 1A"
+        },
+        {
+          "code": "EL321",
+          "name": "ELETROTECNICA GERAL 1B"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "FI108",
+          "name": "FISICA GERAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTRUTURAS DE MADEIRA",
+      "code": "CI513",
+      "ementa": "INTERPRETAÇÃO E APLICAÇÃO DA NORMA BRASILEIRA PARA DIMENSIONAMENTO DE ESTRUTURAS EM MADEIRA (NBR 7190): TRAÇÃO, COMPRESSÃO, FLEXÃO SIMPLES E COMPOSTA, CISALHAMENTO.",
+      "hours": 30,
+      "semester": 9,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI203",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTRUTURAS METÁLICAS 1",
+      "code": "CI512",
+      "ementa": "INTERPRETAÇÃO E APLICAÇÃO DA NORMA BRASILEIRA PARA DIMENSIONAMENTO DE ESTRUTURAS EM AÇO (NBR 8800):",
+      "hours": 45,
+      "semester": 9,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI203",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI310",
+          "name": "ESTRUTURAS METALICAS"
+        }
+      ]
+    },
+    {
+      "name": "INTRODUÇÃO À ENGENHARIA LEGAL",
+      "code": "CI504",
+      "ementa": "ASPECTOS HISTÓRICOS DA RESPONSABILIDADE CIVIL DO CONSTRUTOR E O SEU DISCIPLINAMENTO JURÍDICO NO CÓDIGO CIVIL E NO CÓDIGO DE DEFESA DO CONSUMIDOR. AS RESPONSABILIDADES DECORRENTES DA CONSTRUÇÃO CIVIL E O POSICIONAMENTO JURISDICIONAL SOBRE O TEMA, ANALISANDO ALGUNS ASPECTOS ESPECÍFICOS: PERFEIÇÃO DA OBRA, SOLIDEZ E SEGURANÇA, HABILIDADE ETC. O DISCIPLINAMENTO DA RESPONSABILIDADE CIVIL DO CONSTRUTOR EM OUTROS PAÍSES. ASPECTOS RELATIVOS À RESPONSABILIDADE ADMINISTRATIVA - COM ÊNVASE NO FUNCIONAMENTO DO SISTEMA CONFEA/CREA. ANÁLISE E DISCUSSÃO DE CASOS PRÁTICOS RELACIONADOS A ACIDENTES NA CONSTRUÇÃO CIVIL NACIONAL.",
+      "hours": 30,
+      "semester": 9,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PONTES",
+      "code": "CI511",
+      "ementa": "INTRODUÇÃO. ELEMENTOS DE PROJETOS. SOLICITAÇÃO NAS PONTES. VIGAMENTO PRINCIPAL E LONGARINAS. TRANSVERSINAS. PILARES. LAJES.",
+      "hours": 60,
+      "semester": 9,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI241",
+          "name": "PONTES 1"
+        },
+        {
+          "code": "CI243",
+          "name": "PONTES 1A"
+        },
+        {
+          "code": "CIVL0028",
+          "name": "PONTES 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI236",
+          "name": "CONSTRUCAO DE CONCRETO 2A"
+        },
+        {
+          "code": "CI431",
+          "name": "FUNDACOES 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TRABALHO DE CONCLUSÃO DE CURSO 1",
+      "code": "CI500",
+      "ementa": "APLICAÇÃO DOS CONCEITOS TRANSMITIDOS NAS DISCIPLINAS OBRIGATÓRIAS JÁ CURSADAS A UMA SITUAÇÃO POSSÍVEL DO AMBIENTE PROFISSIONAL, DEVENDO APRESENTAR COMPONENTES TEÓRICOS E PRÁTICOS DA ENGENHARIA CIVIL, PODENDO ESTAR ENQUADRADO DENTRO DOS SEGUINTES TÓPICOS: EXERCÍCIO PROFISSIONAL, ATIVIDADES DE PESQUISA(RELATÓRIOS), ARTIGOS CIENTÍFICOS OU ATIVIDADES DE EXTENSÃO(RELATÓRIOS). EM QUALQUER UM DOS CASOS, O TEMA DO TRABALHO DE CONCLUSÃO DE CURSO DEVERÁ APRESENTAR A RELAÇÃO APLICADA ENTRE TEORIA E PRÁTICA.",
+      "hours": 60,
+      "semester": 9,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0114",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO I"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "AD201",
+          "name": "ADMINISTRACAO"
+        },
+        {
+          "code": "CI233",
+          "name": "CONSTRUCAO DE CONCRETO 1A"
+        },
+        {
+          "code": "CI274",
+          "name": "ESTABILIDADE DAS CONSTRUCOES 1A"
+        },
+        {
+          "code": "CI276",
+          "name": "ESTRADAS E TRANSPORTES 1A"
+        },
+        {
+          "code": "CI329",
+          "name": "MECANICA DOS SOLOS 2A"
+        },
+        {
+          "code": "CI470",
+          "name": "SANEAMENTO AMBIENTAL"
+        },
+        {
+          "code": "CI506",
+          "name": "ENGENHARIA ECONÔMICA"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "CI501",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO 2"
+        }
+      ]
+    },
+    {
+      "name": "BARRAGENS",
+      "code": "CI435",
+      "ementa": "INTRODUÇÃO; CLASSIFICAÇÃO DOS SOLOS; PROSPECÇÃO; TIPOS FUNDAMENTAIS DE BARRAGENS; ESCOLHA DO LOCAL E DO TIPO DA BARRAGEM; REDE DE FLUXO DE BARRAGENS; EROSÃO INTERNA; VERIFICAÇÃO DE ESTABILIDADE; FUNDAÇÕES DE BARRAGENS; PORMENORES DO PROJETO; A CONSTRUÇÃO E SEU CONTROLE; ELABORAÇÃO DO PROJETO DE UMA BARRAGEM; ALGUNS ASPECTOS DE CONSTRUÇÃO; O CASO DE PEQUENAS BARRAGENS; OBSERVAÇÃO DO COMPORTAMENTO DE UMA BARRAGEM.",
+      "hours": 60,
+      "semester": 10,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI225",
+          "name": "ENGENHARIA DE BARRAGENS"
+        },
+        {
+          "code": "CI246",
+          "name": "ENGENHARIA DE BARRAGENS 1"
+        },
+        {
+          "code": "CIVL0034",
+          "name": "BARRAGENS"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI431",
+          "name": "FUNDACOES 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTAGIO SUPERVISIONADO 1",
+      "code": "CI484",
+      "ementa": "REALIZAÇÃO DE TRABALHO EM CONSTRUTORAS, INDÚSTRIAS, INSTITUIÇÕES PÚBLICAS E PRIVADAS, ESCRITÓRIOS TÉCNICOS, ETC. SUPERVISIONADOS PELA COORDENAÇÃO DO CURSO E CONDICIONADOS A APRESENTAÇÃO E APROVAÇÃO DE RELATÓRIO INDIVIDUAL.",
+      "hours": 180,
+      "semester": 10,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI381",
+          "name": "ESTAGIO SUPERVISIONADO 1"
+        },
+        {
+          "code": "CIVL0033",
+          "name": "ESTÁGIO SUPERVISIONADO 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INSTALAÇÕES PREDIAIS 1",
+      "code": "CI514",
+      "ementa": "INSTALAÇÕES PREDIAIS DE ÁGUA FRIA. INSTALAÇÕES PREDIAIS DE ÁGUA QUENTE. INSTALAÇÕES DE PREVENÇÃO E COMBATE A INCÊNDIO. INSTALAÇÕES PREDIAIS DE ESGOTOS SANITÁRIOS. INSTALAÇÕES PREDIAIS DE ÁGUAS PLUVIAIS. INSTALAÇÕES ELÉTRICAS. INSTALAÇÕES TELEFÔNICAS. NOÇÕES DE INSTALAÇÕES ESPECIAIS: AR CONDICIONADO, GÁS, PÁRA-RAIOS E LÓGICA.",
+      "hours": 90,
+      "semester": 10,
+      "credits": 6,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0032",
+          "name": "INSTALAÇÕES PREDIAIS"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "FI108",
+          "name": "FISICA GERAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PORTOS E HIDROVIAS 1",
+      "code": "CI359",
+      "ementa": "PORTO E ANCORADOURO. CONDIÇÕES FÍSICO-OPERACIONAIS A QUE DEVE SATISFAZER UM PORTO. ROTAS DE NAVEGAÇÃO. CARACTERÍSTICAS TECNOLÓGICAS DAS EMBARCAÇÕES. REGIMES DE EXPLORAÇÃO PORTUÁRIA. TARIFAS. COMÉRCIO DE LONGO CURSO E CABOTAGEM. OPERAÇÃO PORTUÁRIA.",
+      "hours": 60,
+      "semester": 10,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CI357",
+          "name": "PORTOS E HIDROVIAS"
+        },
+        {
+          "code": "CIVL0031",
+          "name": "PORTOS E HIDROVIAS 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI236",
+          "name": "CONSTRUCAO DE CONCRETO 2A"
+        },
+        {
+          "code": "CI295",
+          "name": "HIDRAULICA GERAL"
+        },
+        {
+          "code": "CI364",
+          "name": "HIDROLOGIA APLICADA 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TRABALHO DE CONCLUSÃO DE CURSO 2",
+      "code": "CI501",
+      "ementa": "APLICAÇÃO DOS CONCEITOS TRANSMITIDOS NAS DISCIPLINAS OBRIGATÓRIAS JÁ CURSADAS A UMA SITUAÇÃO POSSÍVEL DO AMBIENTE PROFISSIONAL, DEVENDO APRESENTAR COMPONENTES TEÓRICOS E PRÁTICOS DA ENGENHARIA CIVIL, PODENDO ESTAR ENQUADRADO DENTRO DOS SEGUINTES TÓPICOS: EXERCÍCIO PROFISSIONAL, ATIVIDADES DE PESQUISA(RELATÓRIOS), ARTIGOS CIENTÍFICOS OU ATIVIDADES DE EXTENSÃO(RELATÓRIOS). EM QUALQUER UM DOS CASOS, O TEMA DO TRABALHO DE CONCLUSÃO DE CURSO DEVERÁ APRESENTAR A RELAÇÃO APLICADA ENTRE TEORIA E PRÁTICA.",
+      "hours": 60,
+      "semester": 10,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CIVL0115",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO II"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI500",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO À ENGENHARIA DE INCÊNDIO",
+      "code": "CI543",
+      "ementa": "INCÊNDIOS: FORMAÇÃO E CAUSAS. CLASSES DE INCÊNDIO E AGENTES EXTINTORES. PREVENÇÃO E COMBATE A INCÊNDIOS: SISTEMAS E SEU DIMENSIONAMENTO. NORMAS E LEGISLAÇÃO APLICÁVEL. AVALIAÇÃO DE EDIFICAÇÕES FRENTE AO INCÊNDIO. PLANEJAMENTO PARA EMERGÊNCIAS: PÂNICO E EVACUAÇÃO. REGULARIZAÇÃO DE EMPREENDIMENTOS. ESTUDO DE CASOS.",
+      "hours": 60,
+      "semester": 10,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI505",
+          "name": "ENGENHARIA DE SEGURANÇA DO TRABALHO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ALVENARIA",
+      "code": "CI536",
+      "ementa": "CONHECIMENTOS ESPECÍFICOS NECESSÁRIOS AO PROJETO E À EXECUÇÃO DE ALVENARIA ESTRUTURAL E DE VEDAÇÃO EM BLOCOS CERÂMICOS, DE CIMENTO E DE GESSO, ABORDANDO: PROPRIEDADES DOS MATERIAIS CONSTITUINTES E DAS ALVENARIAS, AÇÕES E ESFORÇOS SOLICITANTES, ANÁLISE ESTRUTURAL, MÉTODOS DE DIMENSIONAMENTO DOS ELEMENTOS ESTRUTURAIS, TÉCNICAS DE EXECUÇÃO E RACIONALIZAÇÃO, DETALHES CONSTRUTIVOS, PROCEDIMENTO PARA CONTROLE TECNOLÓGICO, DE PRODUÇÃO E DE QUALIDADE, ANÁLISE EXPERIMENTAL, ENSAIOS LABORATORIAIS E DE CAMPO, BASEANDO-SE NAS NORMAS TÉCNICAS NACIONAIS. CONSIDERA-SE TAMBÉM A COMPATIBILIZAÇÃO ENTRE ARQUITETURA, ESTRUTURA E INSTALAÇÕES PREDIAIS DIVERSAS (HIDRÁULICA, ELÉTRICA, ETC).",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI219",
+          "name": "RESISTENCIA DOS MATERIAIS 2A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ANÁLISE EXPERIMENTAL DE ESTRUTURAS",
+      "code": "CI326",
+      "ementa": "PLANEJAMENTO DE UM PROGRAMA EXPERIMENTAL. INSTRUMENTO DE MEDIDA DE DESLOCAMENTOS. INSTRUMENTO DE MEDIDA DE DEFORMAÇÕES. INSTRUMENTAÇÃO DE ESTRUTURAS. PROVAS DE CARGA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0047",
+          "name": "ANÁLISE EXPERIMENTAL DE ESTRUTURAS"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI236",
+          "name": "CONSTRUCAO DE CONCRETO 2A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "AUDITORIA DE OBRAS",
+      "code": "CI540",
+      "ementa": "A DISCIPLINA FOI ESTRUTURADA PARA PROVER OS CONCEITOS BÁSICOS, PRINCÍPIOS, CONHECIMENTO DOS REQUISITOS E ESTRATÉGIAS QUE ENVOLVEM A REALIZAÇÃO DE UMA AUDITORIA DE OBRAS E SERVIÇOS DE ENGENHARIA",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI302",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "AUDITORIA DE OBRAS",
+      "code": "CI545",
+      "ementa": "A DISCIPLINA FOI ESTRUTURADA PARA PROVER OS CONCEITOS BÁSICOS, PRINCÍPIOS, CONHECIMENTO DOS REQUISITOS E ESTRATÉGIAS QUE ENVOLVEM A REALIZAÇÃO DE UMA AUDITORIA DE OBRAS E SERVIÇOS DE ENGENHARIA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "AVALIACAO DE IMPACTO AMBIENTAL",
+      "code": "CI479",
+      "ementa": "ABORDAGEM SISTÊMICA PARA AVALIAR IMPACTOS AMBIENTAIS DE EMPREENDIMENTOS POTENCIALMENTE POLUIDORES. ELA FORNECE OS CONCEITOS E PRINCÍPIOS BÁSICOS DE MEIO AMBIENTE, COM DETALHAMENTO DO PROCESSO DE LICENCIAMENTO AMBIENTAL E DE ELABORAÇÃO DE TERMOS DE REFERÊNCIA PARA ELABORAÇÃO DE ESTUDO DE IMPACTO AMBIENTAL ¿ EIA, CONFORME EXIGIDO POR LEGISLAÇÃO FEDERAL. SÃO APRESENTADAS METODOLOGIAS PARA REALIZAÇÃO DO EIA E MEDIDAS MITIGADORAS PARA MINIMIZAR OS IMPACTOS PRODUZIDOS, INCLUINDO CRITÉRIOS PARA MONITORAMENTO E ACOMPANHAMENTO DAS ATIVIDADES POLUIDORES, BUSCANDO-SE UMA MELHORIA DA QUALIDADE DE VIDA DA POPULAÇÃO E DO MEIO AMBIENTE ONDE A ATIVIDADE ESTEJA INSERIDA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0072",
+          "name": "AVALIAÇÃO DO IMPACTO AMBIENTAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI105",
+          "name": "ECOLOGIA APLIC A ENGENHARIA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "AVALIAÇÃO ECONÔMICA DE EMPREENDIMENTOS",
+      "code": "CI537",
+      "ementa": "CONCEITOS GERAIS. NORMAS DA ABNT. IDENTIFICAÇÃO DO EMPREENDIMENTO, RECEITAS, DESPESAS, ENCARGOS, RESULTADOS, MONTAGEM DO FLUXOS DE CAIXA, DEFINIÇÃO DA TAXA MÍNIMA DE ATRATIVIDADE, VALOR PRESENTE LÍQUIDO E TAXA INTERNA DE RETORNO, SIMULAÇÃO DE CENÁRIOS, TOMADA DE DECISÃO, ANÁLISE DE RISCOS E INCERTEZAS, ANÁLISE DE VIABILIDADE TÉCNICO-ECONÔMICA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI506",
+          "name": "ENGENHARIA ECONÔMICA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "CONCRETO PROTENDIDO",
+      "code": "CI285",
+      "ementa": "CONCEITO GERAL. DEFINIÇÃO DE PROTENSÃO. APLICAÇÃO. SISTEMAS DE PROTENSÃO. MATERIAIS (RETRAÇÃO, FLUÊNCIA E RELAXAÇÃO) PAREDES IMEDIATAS. TRAÇADO DOS CABOS. ALONGAMENTO. CÁLCULO DE TENSÕES. VERIFICAÇÃO NOS ESTADOS LIMITES ÚLTIMO E DE SERVIÇO. PERDAS DIFERIDAS. TENSÕES FINAIS. HIPERESTÁTICO DE PROTENSÃO.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0043",
+          "name": "CONCRETO PROTENDIDO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI236",
+          "name": "CONSTRUCAO DE CONCRETO 2A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "CONSTRUÇÕES EM CONCRETO PRÉ-MOLDADO",
+      "code": "CI517",
+      "ementa": "INTRODUÇÃO. PRODUÇÃO E PROJETO DE ESTRUTURAS DE CONCRETO PRÉ-MOLDADO. LIGAÇÕES. ESTRUTURAS DE UM PAVIMENTO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI233",
+          "name": "CONSTRUCAO DE CONCRETO 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "CONTROLE TECNOLOGICO",
+      "code": "CI209",
+      "ementa": "ENSAIOS EM LABORATÓRIOS DE MATERIAIS DE CONSTRUÇÃO. CONTROLE DE QUALIDADE. ESPECIFICAÇÕES. ENSAIOS E PROVAS NO LOCAL.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0035",
+          "name": "CONTROLE TECNOLÓGICO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI203",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 2"
+        },
+        {
+          "code": "CI219",
+          "name": "RESISTENCIA DOS MATERIAIS 2A"
+        },
+        {
+          "code": "CI276",
+          "name": "ESTRADAS E TRANSPORTES 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DESEMPENHO DE EDIFICAÇÕES",
+      "code": "CI546",
+      "ementa": "ANÁLISE E CRÍTICA DOS REQUISITOS DOS USUÁRIOS PARA O EDIFÍCIO HABITACIONAL E SEUS SISTEMAS, QUANTO AO SEU COMPORTAMENTO EM USO: DESEMPENHO ESTRUTURAL, SEGURANÇA CONTRA INCÊNDIO, SEGURANÇA NO USO E OPERAÇÃO, ESTANQUEIDADE, DESEMPENHO TÉRMICO, DESEMPENHO ACÚSTICO, DESEMPENHO LUMÍNICO, DURABILIDADE E MANUTENIBILIDADE, SAÚDE, HIGIENE E QUALIDADE DO AR, FUNCIONALIDADE E ACESSIBILIDADE, CONFORTO TÁTIL E ANTROPODINÂMICO, ADEQUAÇÃO AMBIENTAL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI233",
+          "name": "CONSTRUCAO DE CONCRETO 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DRENAGEM URBANA",
+      "code": "CI460",
+      "ementa": "ESTRUTURAS HIDRÁULICAS URBANAS. BACIAS DE DETENÇÃO. BACIAS E SUB-BACIAS URBANAS. DESENVOLVIMENTO DO CÁLCULO DA REDE PLUVIAL.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0067",
+          "name": "DRENAGEM URBANA"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI295",
+          "name": "HIDRAULICA GERAL"
+        },
+        {
+          "code": "CI364",
+          "name": "HIDROLOGIA APLICADA 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ENGENHARIA DE AVALIAÇÕES",
+      "code": "CI334",
+      "ementa": "CONCEITOS GERAIS. AVALIAÇÃO DE TERRENOS E CONSTRUÇÕES URBANAS, PROPRIEDADES RURAIS, DE JAZIDAS MINERAIS, EQUIPAMENTOS E INSTALAÇÕES INDUSTRIAIS. DEPRECIAÇÕES. ALUGUÉIS DE IMÓVEIS. PERÍCIAS DE ENGENHARIA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0036",
+          "name": "ENGENHARIA DA AVALIAÇÃO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI465",
+          "name": "ARQUITETURA E URBANISMO"
+        },
+        {
+          "code": "ET625",
+          "name": "ESTATÍSTICA 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ENGENHARIA DE IRRIGACAO",
+      "code": "CI352",
+      "ementa": "O PROJETO DE IRRIGAÇÃO; ASPECTOS DE ENGENHARIA, AGRONOMIA E ECONOMIA. ELEMENTOS BÁSICOS: PEDOLOGIA, TOPOGRAFIA, HIDROLOGIA, METEOROLOGIA. RELAÇÕES SOLO-ÁGUA-PLANTA. MÉTODOS DE IRRIGAÇÃO. DRENAGEM. ESTRUTURAS HIDRÁULICAS DE IRRIGAÇÃO. ELABORAÇÃO DE PROJETOS.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CI358",
+          "name": "ENGENHARIA DE IRRIGACAO"
+        },
+        {
+          "code": "CIVL0065",
+          "name": "ENGENHARIA DE IRRIGAÇÃO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI295",
+          "name": "HIDRAULICA GERAL"
+        },
+        {
+          "code": "CI364",
+          "name": "HIDROLOGIA APLICADA 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ENGENHARIA DE TRAFEGO",
+      "code": "CI254",
+      "ementa": "GENERALIDADES. OBJETIVOS E ATRIBUIÇÕES MÍNIMAS DA ENGENHARIA DE TRÁFEGO. CARACTERÍSTICAS DO TRÁFEGO. ESTUDO DOS VOLUMES. CONTAGENS DE TRÁFEGO, DE ROTINA E ESPECIAIS. ESTUDOS DE CAPACIDADE. NÍVEIS E VOLUMES DE SERVIÇOS. APLICAÇÕES ESPECIAIS AO TRÁFEGO URBANO.",
+      "hours": 75,
+      "semester": 0,
+      "credits": 5,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0057",
+          "name": "ENGENHARIA DE TRÁFEGO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI276",
+          "name": "ESTRADAS E TRANSPORTES 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ENSAIOS DE SOLOS - INSTRUMENTACAO",
+      "code": "CI229",
+      "ementa": "CARACTERIZAÇÃO E CLASSIFICAÇÃO DOS SOLOS. COMPRESSÃO SIMPLES. CISALHAMENTO DIRETO. ADENSAMENTO. PERMEABILIDADE. PALHETA DE LABORATÓRIO (VANE TEST). COMPRESSÃO TRIAXIAL. COMPACTAÇÃO. ÍNDICE DE SUPORTE CALIFÓRNIA (CBR). EQUIVALENTE AREIA. INSTRUMENTAÇÃO DE CAMPO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 1,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0051",
+          "name": "ENSAIOS DE SOLOS E INSTRUMENTAÇÃO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI328",
+          "name": "MECANICA DOS SOLOS 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "EQUIPAMENTOS DE CONSTRUÇÃO CIVIL",
+      "code": "CI531",
+      "ementa": "MÁQUINAS E EQUIPAMENTOS POR FASE DA OBRA. SELEÇÃO, DIMENSIONAMENTO, OPERAÇÃO SEGURA, MANUTENÇÃO. VIABILIDADE ECONÔMICA DO SEU EMPREGO. PLANO DE CARGAS. CANTEIRO DE OBRAS ¿ LOGÍSTICA INTERNA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI505",
+          "name": "ENGENHARIA DE SEGURANÇA DO TRABALHO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTRUTURAS DE CONTENÇÃO E OBRAS SUBTERRÂNEAS",
+      "code": "CI487",
+      "ementa": "",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI329",
+          "name": "MECANICA DOS SOLOS 2A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTRUTURAS EM SITUAÇÃO DE INCÊNDIO",
+      "code": "CI547",
+      "ementa": "DINÂMICA DE INCÊNDIOS EM ESPAÇOS FECHADOS. FORMAS DE QUANTIFICAÇÃO DE INCÊNDIOS. NORMAS TÉCNICAS E LEGISLAÇÃO EM SEGURANÇA CONTRA INCÊNDIO. CARACTERÍSTICAS E PROPRIEDADES MECÂNICAS DOS MATERIAIS SOB ALTAS TEMPERATURAS. COMPORTAMENTO ESTRUTURAL EM SITUAÇÃO DE INCÊNDIO. ESTRUTURAS DE AÇO E CONCRETO EM SITUAÇÃO DE INCÊNDIO: MÉTODOS SIMPLIFICADOS, MÉTODOS EXPERIMENTAIS E MÉTODOS AVANÇADOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI233",
+          "name": "CONSTRUCAO DE CONCRETO 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTRUTURAS ESPECIAIS 1",
+      "code": "CI237",
+      "ementa": "",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0041",
+          "name": "ESTRUTURAS ESPECIAIS 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI236",
+          "name": "CONSTRUCAO DE CONCRETO 2A"
+        },
+        {
+          "code": "CI275",
+          "name": "ESTABILIDADE DAS CONSTRUCOES 2A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTRUTURAS ESPECIAIS 2",
+      "code": "CI239",
+      "ementa": "PLACAS CIRCULARES E ANELARES. CASCAS. RESERVATÓRIOS CILÍNDRICOS( FORMAS SIMPLES E ASSOCIADAS). ESCADAS DE FORMAS ESPECIAIS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CI238",
+          "name": "ESTRUTURAS ESPECIAIS 2"
+        },
+        {
+          "code": "CIVL0042",
+          "name": "ESTRUTURAS ESPECIAIS 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI236",
+          "name": "CONSTRUCAO DE CONCRETO 2A"
+        },
+        {
+          "code": "CI275",
+          "name": "ESTABILIDADE DAS CONSTRUCOES 2A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ESTRUTURAS METALICAS",
+      "code": "CI310",
+      "ementa": "INTRODUÇÃO, PEÇAS TRACIONADAS, LIGAÇÕES, FADIGA, PEÇAS FLETIDAS, FLEXÃO COMPOSTA, ESTRUTURAS DE ALUMÍNIO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0049",
+          "name": "ESTRUTURAS METÁLICAS"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI512",
+          "name": "ESTRUTURAS METÁLICAS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DO TRANSPORTE AÉREO E AEROPORTOS",
+      "code": "CI551",
+      "ementa": "INTRODUÇÃO AO TRANSPORTE AÉREO E AEROPORTOS. CONFIGURAÇÃO DO AERÓDROMO. COMPRIMENTO E ORIENTAÇÃO DE PISTA. PROJETO GEOMÉTRICO DO AERÓDROMO. ZONAS DE PROTEÇÃO DO ESPAÇO AÉREO. CAPACIDADE DO AERÓDROMO (LADO AÉREO E TERRESTRE). TERMINAL DE PASSAGEIROS. NOÇÕES DE TRÁFEGO AÉREO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "GEOPROCESSAMENTO APLIC ENG CIVIL",
+      "code": "CI461",
+      "ementa": "INTRODUÇÃO. SISTEMA DE INFORMAÇÃO GEOGRÁFICAS. MODELOS DIGITAIS E TERRENO. PROCESSAMENTO DE IMAGENS. BANCO DE DADOS. ENTRADA E CONVERSÃO DE DADOS. APLICAÇÃO AO PLANEJAMENTO URBANO, MEIO AMBIENTE E RECURSOS HÍDRICOS, SANEAMENTO, TRANSPORTE E HABITAÇÃO.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0069",
+          "name": "GEOPROCESSAMENTO APLICADO À ENGENHARIA CIVIL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CA229",
+          "name": "TOPOGRAFIA 10"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "GESTÃO E TECNOLOGIA DE APROVEITAMENTO DE RESÍDUOS DA CONSTRUÇÃO CIVIL",
+      "code": "CI489",
+      "ementa": "TECNOLOGIA DE RECICLAGEM DE RESÍDUOS DE CONSTRUÇÃO CIVIL, DESDE SUA GERAÇÃO EM CANTEIRO-DE-OBRAS ATÉ SEU RETORNO COMO MATERIAL PARA A CONSTRUÇÃO CIVIL, INCLUINDO VISITA TÉCNICA EM USINA DE RECICLAGEM E AULAS PRÁTICAS SOBRE A APLICAÇÃO DO MATERIAL RECICLADO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI203",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "HIDROLOGIA APLICADA 2",
+      "code": "CI365",
+      "ementa": "O CICLO HIDROLÓGICO. BACIAS HIDROGRÁFICAS. CARACTERÍSTICAS FÍSICAS. CLIMAS. ESTUDO DO REGIME DOS CURSOS D¿ÁGUA. MEDIÇÃO DE VAZÕES. ESTIMATIVAS DAS VAZÕES DE ENCHENTES. HIDROLOGIA DAS REGIÕES SEMI-ÁRIDAS. HIDROGEOLOGIA. HIDRÁULICA DAS ÁGUAS SUBTERRÂNEAS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0066",
+          "name": "HIDROLOGIA APLICADA 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI364",
+          "name": "HIDROLOGIA APLICADA 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO A LIBRAS",
+      "code": "LE716",
+      "ementa": "REFLEXÃO SOBRE OS ASPECTOS HISTÓRICOS DA INCLUSÃO DAS PESSOAS SURDAS NA SOCIEDADE EM GERAL E NA ESCOLA; A LIBRAS COMO LÍNGUA DE COMUNICAÇÃO SOCIAL EM CONTEXTO DE COMUNICAÇÃO ENTRE PESSOAS SURDAS E COMO SEGUNDA LÍNGUA. ESTRUTURA LINGUÍSTICA E GRAMATICAL DE LIBRAS. ESPECIFICIDADES DA ESCRITA DO ALUNO SURDO. NA PRODUÇÃO DE TEXTO EM LÍNGUA PORTUGUESA. O INTÉRPRETE E A INTERPRETAÇÃO COMO FATOR DE INCLUSÃO E ACESSO EDUCACIONAL PARA OS ALUNOS SURDOS OU COM BAIXA AUDIÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO À ENGENHARIA DE INCÊNDIO",
+      "code": "CI548",
+      "ementa": "INCÊNDIOS: FORMAÇÃO E CAUSAS. CLASSES DE INCÊNDIO E AGENTES EXTINTORES. PREVENÇÃO E COMBATE A INCÊNDIOS: SISTEMAS E SEU DIMENSIONAMENTO. NORMAS E LEGISLAÇÃO APLICÁVEL. AVALIAÇÃO DE EDIFICAÇÕES FRENTE AO INCÊNDIO. PLANEJAMENTO PARA EMERGÊNCIAS: PÂNICO E EVACUAÇÃO. REGULARIZAÇÃO DE EMPREENDIMENTOS. ESTUDO DE CASOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI505",
+          "name": "ENGENHARIA DE SEGURANÇA DO TRABALHO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO À ENGENHARIA DE PETRÓLEO",
+      "code": "CI533",
+      "ementa": "INTRODUÇÃO ABRANGENTE À ENGENHARIA DE PETRÓLEO, PROPICIANDO O ENTENDIMENTO DOS PRINCIPAIS CONCEITOS TÉCNICOS E SUAS APLICAÇÕES, COM ABORDAGEM DE CONCEITOS BÁSICOS DAS FASES DE EXPLORAÇÃO, PRODUÇÃO E TRANSPORTE, ALÉM DE UMA INTRODUÇÃO AO PROCESSAMENTO PRIMÁRIO DE FLUIDOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI110",
+          "name": "FENOMENO DOS TRANSPORTES"
+        },
+        {
+          "code": "QF002",
+          "name": "QUIMICA GERAL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO À ENGENHARIA DE RESERVATÓRIO",
+      "code": "CI534",
+      "ementa": "INTRODUÇÃO ABRANGENTE À ENGENHARIA DE RESERVATÓRIOS DE PETRÓLEO. SÃO ESTUDADAS A CARACTERIZAÇÃO DAS JAZIDAS, AS PROPRIEDADES DAS ROCHAS E DOS FLUIDOS NELAS CONTIDOS, A MANEIRA COMO OS FLUIDOS SE COMPORTAM NO MEIO POROSO, OS MECANISMOS DE PRODUÇÃO, E SIMULAÇÃO NUMÉRICA DE RESERVATÓRIOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI110",
+          "name": "FENOMENO DOS TRANSPORTES"
+        },
+        {
+          "code": "QF002",
+          "name": "QUIMICA GERAL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO À GEOESTATÍSTICA",
+      "code": "CI535",
+      "ementa": "REVISÃO DE PROBABILIDADE E VARIÁVEIS ALEATÓRIAS. PRINCÍPIOS E BREVE HISTÓRICO DA GEOESTATÍSTICA. VARIÂNCIA E COVARIÂNCIA. ESTACIONARIDADE. REGIONALIZAÇÃO. VARIOGRAMAS. KRIGAGEM. MODELOS ESTOCÁSTICOS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "ET625",
+          "name": "ESTATÍSTICA 1"
+        },
+        {
+          "code": "IF215",
+          "name": "CALCULO NUMERICO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "INVESTIGAÇÃO E ANÁLISE DE ACIDENTES NA CONSTRUÇÃO CIVIL",
+      "code": "CI532",
+      "ementa": "RESPONSABILIDADES E REPERCUSSÕES DO ACIDENTE DE TRABALHO. EMISSÃO DA CAT. LEVANTAMENTO DE DADOS. ANÁLISE DE INFORMAÇÕES. DEFINIÇÃO DE MEDIDAS DE INTERVENÇÃO E CONTROLE. RELATÓRIO DE INVESTIGAÇÃO E PLANO DE AÇÃO. DOCUMENTAÇÃO TÉCNICA: PROJETOS, ESPECIFICAÇÕES E ART.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "METOD COMPUTACIONAIS P/ ENG CIVIL",
+      "code": "CI230",
+      "ementa": "ALGORITMOS COMPUTACIONAIS PARA RESOLUÇÃO DE SISTEMAS DE EQUAÇÕES LINEARES E NÃO-LINEARES. MATRIZ BANDA. SISTEMAS MAL CONDICIONADOS. INTEGRAÇÃO NUMÉRICA MÉTODO DAS DIFERENÇAS FINITAS ALGORITMOS COMPUTACIONAIS PARA INTERPOLAÇÃO E EXTRAPOLAÇÃO. PLANILHAS DE CÁLCULO. APLICAÇÕES A ESTATÍSTICA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "IF165",
+          "name": "COMPUTACAO ELETRONICA"
+        },
+        {
+          "code": "IF215",
+          "name": "CALCULO NUMERICO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "MODELAGEMDA INFORMAÇÃO PARA GERENCIAMENTO DA CONSTRUÇÃO",
+      "code": "CI539",
+      "ementa": "IMPORTÂNCIA DA TECNOLOGIA DA CONSTRUÇÃO CIVIL. 'BIM' DA FASE DE PRÉ-PROJETO A DASE DE MANUTENÇÃO DAS EDIFICAÇÕES. FERRAMENTAS 'BIM'. MODELAGEM DE EDIFICAÇÕES UTILIZANDO FERRAMENTAS 'BIM'.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI538",
+          "name": "SISTEMA DE GESTÃO INTEGRADA PARA CONSTRUÇÃO CIVIL"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "OPERACAO DE FERROVIAS",
+      "code": "CI256",
+      "ementa": "PÁTIOS E TERMINAIS. SINALIZAÇÃO. TRENS. DESEMPENHO DE TRENS. OPERAÇÃO.",
+      "hours": 75,
+      "semester": 0,
+      "credits": 5,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI276",
+          "name": "ESTRADAS E TRANSPORTES 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PATOLOGIA DAS CONSTRUÇÕES EM CONCRETO ARMADO",
+      "code": "CI488",
+      "ementa": "DISCUTIR OS FATORES E AS CAUSAS DAS PATOLOGIAS NAS ESTRUTURAS DE CONCRETO ARMADO COM ENFOQUE NAS PROPRIEDADES DOS MATERIAIS, PROCESSO CONSTRUTIVO, MANUTENÇÃO E PROPOSTAS PARA RECUPERAÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI236",
+          "name": "CONSTRUCAO DE CONCRETO 2A"
+        },
+        {
+          "code": "CI507",
+          "name": "TECNOLOGIA DA CONSTRUÇÃO CIVIL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PROJETO DE CONSTRUCAO CIVIL",
+      "code": "CI437",
+      "ementa": "PROJETO A NÍVEL PROFISSIONAL DE ORGANIZAÇÃO DA OBRA, INSTALAÇÕES E ACABAMENTO DE UM EDIFÍCIO, INCLUSIVE ORÇAMENTO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CI438",
+          "name": "PROJETO DE CONSTRUCAO CIVIL"
+        },
+        {
+          "code": "CIVL0037",
+          "name": "PROJETO DE CONSTRUÇÃO CIVIL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PROJETO DE ESTRADAS E TRANSPORTES",
+      "code": "CI450",
+      "ementa": "PROJETO DE UMA ESTRADA DE FERRO OU DE RODAGEM, DE INSTALAÇÕES PORTUÁRIAS, AEROPORTO, OU SISTEMA DE TRANSPORTES URBANOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0063",
+          "name": "PROJETO DE ESTRADAS E TRANSPORTES"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI276",
+          "name": "ESTRADAS E TRANSPORTES 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PROJETO DE FUNDACAO",
+      "code": "CI439",
+      "ementa": "PROJETO DE FUNDAÇÕES. PROJETO DE FUNDAÇÕES. PROJETO DE FUNDAÇÕES. TÓPICOS ESPECIAIS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0055",
+          "name": "PROJETO DE FUNDAÇÃO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI431",
+          "name": "FUNDACOES 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PROJETO DE SANEAMENTO AMBIENTAL",
+      "code": "CI523",
+      "ementa": "DIAGNOSTICO AMBIENTAL DE BACIA HIDROGRÁFICA. IDENTIFICAÇÃO E QUANTIFICAÇÃO DE FONTES POLUIDORAS. APLICAÇÃO DE IQA E MODELOS DE QUALIDADE DAS ÁGUAS. ATIVIDADE DE CAMPO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI470",
+          "name": "SANEAMENTO AMBIENTAL"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PROJETO DE SISTEMAS DE ABASTECIMENTO DE ÁGUA",
+      "code": "CI524",
+      "ementa": "PROJETO COMPLETO DE UM SISTEMA DE ABASTECIMENTO DE ÁGUA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI471",
+          "name": "SIST DE ABASTECIMENTO DE AGUA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PROJETO DE SISTEMAS DE ESGOTOS SANITÁRIOS",
+      "code": "CI525",
+      "ementa": "PROJETO COMPLETO DE UM SISTEMA DE ESGOTO SANITÁRIO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI472",
+          "name": "SISTEMAS DE ESGOTOS SANITARIOS"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PROJETO ESTRUTURAL",
+      "code": "CI341",
+      "ementa": "PROJETO COMPLETO DE UMA ESTRADA. ESTRUTURA DE UM EDIFÍCIO DE PELO MENOS SETE PAVIMENTOS.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CI340",
+          "name": "PROJETO ESTRUTURAL"
+        },
+        {
+          "code": "CIVL0048",
+          "name": "PROJETO ESTRUTURAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI236",
+          "name": "CONSTRUCAO DE CONCRETO 2A"
+        },
+        {
+          "code": "CI275",
+          "name": "ESTABILIDADE DAS CONSTRUCOES 2A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "SISTEMA DE GESTÃO DA QUALIDADE NA CONSTRUÇÃO CIVIL",
+      "code": "CI550",
+      "ementa": "IMPORTÂNCIA DA TECNOLOGIA DA CONSTRUÇÃO CIVIL. 'BIM' DA FASE DE PRÉ-PROJETO A FASE DE MANUTENÇÃO DAS EDIFICAÇÕES. FERRAMENTAS DE 'BIM'.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI465",
+          "name": "ARQUITETURA E URBANISMO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TECNOLOGIA DE ARGAMASSAS",
+      "code": "CI486",
+      "ementa": "",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0039",
+          "name": "TECNOLOGIA DE ARGAMASSAS"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI203",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TECNOLOGIA DE DOSAGEM DE CONCRETO",
+      "code": "CI485",
+      "ementa": "",
+      "hours": 60,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CIVL0038",
+          "name": "TECNOLOGIA DE DOSAGEM DE CONCRETO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "CI203",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TOPICOS ESPEC RECURSOS HIDRICOS",
+      "code": "CI478",
+      "ementa": "",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI110",
+          "name": "FENOMENO DOS TRANSPORTES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TOPICOS ESPECIAIS DE CONSTRUCAO",
+      "code": "CI473",
+      "ementa": "CARGAS NAS ESTRUTURAS (AÇÃO DO VENTO E EFEITO DE PONTE ROLANTE). ESTRUTURAS INDUSTRIAIS. FUNDAÇÕES SUPERFICIAIS ( DIMENSIONAMENTO DOS ELEMENTOS ESTRUTURAIS). ESTRUTURAS DE EDIFÍCIOS ELEVADOS (AÇÃO DE CARGAS LATERAIS - CONTRAVENTAMENTO). VIGA-PAREDE.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI302",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TOPICOS ESPECIAIS DE ESTRUTURAS 1",
+      "code": "CI474",
+      "ementa": "CONSIDERAÇÕES GEOLÓGICAS. PROPRIEDADES FÍSICAS DAS ROCHAS. INFLUÊNCIA DOS CONDICIONAMENTOS NATURAIS. TENSÕES E DEFORMAÇÕES. ELASTICIDADE DOS MACIÇOS ROCHOSOS. MODELOS GEOLÓGICOS. MECANISMOS DAS RUPTURAS. PROPRIEDADES E RESISTÊNCIA DAS ROCHAS. ENSAIOS ¿IN SITU¿E NO LABORATÓRIO. CLASSIFICAÇÃO GEOTECNOLÓGICA DAS ROCHAS. APLICAÇÕES DA MECÂNICA DAS ROCHAS NOS PROJETOS DE ENGENHARIA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI106",
+          "name": "MECANICA GERAL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TOPICOS ESPECIAIS DE GEOTECNIA",
+      "code": "CI475",
+      "ementa": "",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "GE520",
+          "name": "GEOLOGIA APLICADA 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TOPICOS ESPECIAIS DE SANEAMENTO",
+      "code": "CI477",
+      "ementa": "",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI105",
+          "name": "ECOLOGIA APLIC A ENGENHARIA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TOPICOS ESPECIAIS DE TRANSPORTES",
+      "code": "CI476",
+      "ementa": "",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "ET625",
+          "name": "ESTATÍSTICA 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TRANSPORTES URBANOS",
+      "code": "CI259",
+      "ementa": "SISTEMAS DE TRANSPORTES URBANOS. USO DO SOLO URBANO. PROJEÇÕES DE VARIÁVEIS E MODELOS MATEMÁTICOS. GERAÇÃO DE VIAGENS. VIAS EXCLUSIVAS PARA ÔNIBUS. PRÉ-METRÔ. METRÔ. ENGENHARIA DE TRÁFEGO EM ÁREA URBANA. PLANEJAMENTO DOS TRANSPORTES URBANOS.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "CI258",
+          "name": "PLANEJ DE TRANSP URBANOS"
+        },
+        {
+          "code": "CIVL0059",
+          "name": "TRANSPORTES URBANOS"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "ET625",
+          "name": "ESTATÍSTICA 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE CONSTRUÇÃO 2",
+      "code": "CI515",
+      "ementa": "EMENTA VARIÁVEL, DEPENDENDO DO TEMA A SER TRATADO. O PROGRAMA DO COMPONENTE CURRICULAR SERÁ DIVULGADO NO DECORRER DO PERÍODO LETIVO QUE ANTECEDE A OFERTA DA DISCIPLINA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI302",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE CONSTRUÇÃO 3",
+      "code": "CI516",
+      "ementa": "EMENTA VARIÁVEL, DEPENDENDO DO TEMA A SER TRATADO. O PROGRAMA DO COMPONENTE CURRICULAR SERÁ DIVULGADO NO DECORRER DO PERÍODO LETIVO QUE ANTECEDE A OFERTA DA DISCIPLINA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI302",
+          "name": "MATERIAIS DE CONSTRUCAO CIVIL 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE ENGENHARIA",
+      "code": "CI530",
+      "ementa": "EMENTA VARIÁVEL, DEPENDENDO DO TEMA A SER TRATADO. O PROGRAMA DO COMPONENTE CURRICULAR SERÁ DIVULGADO NO DECORRER DO PERÍODO LETIVO QUE ANTECEDE A OFERTA DA DISCIPLINA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE ESTRUTURAS 2",
+      "code": "CI490",
+      "ementa": "EMENTA LIVRE",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI106",
+          "name": "MECANICA GERAL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE ESTRUTURAS 3",
+      "code": "CI518",
+      "ementa": "EMENTA VARIÁVEL, DEPENDENDO DO TEMA A SER TRATADO. O PROGRAMA DO COMPONENTE CURRICULAR SERÁ DIVULGADO NO DECORRER DO PERÍODO LETIVO QUE ANTECEDE A OFERTA DA DISCIPLINA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI106",
+          "name": "MECANICA GERAL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE GEOTECNIA 2",
+      "code": "CI519",
+      "ementa": "EMENTA VARIÁVEL, DEPENDENDO DO TEMA A SER TRATADO. O PROGRAMA DO COMPONENTE CURRICULAR SERÁ DIVULGADO NO DECORRER DO PERÍODO LETIVO QUE ANTECEDE A OFERTA DA DISCIPLINA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "GE520",
+          "name": "GEOLOGIA APLICADA 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE GEOTECNIA 3",
+      "code": "CI520",
+      "ementa": "EMENTA VARIÁVEL, DEPENDENDO DO TEMA A SER TRATADO. O PROGRAMA DO COMPONENTE CURRICULAR SERÁ DIVULGADO NO DECORRER DO PERÍODO LETIVO QUE ANTECEDE A OFERTA DA DISCIPLINA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "GE520",
+          "name": "GEOLOGIA APLICADA 1A"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE RECURSOS HÍDRICOS 2",
+      "code": "CI528",
+      "ementa": "EMENTA VARIÁVEL, DEPENDENDO DO TEMA A SER TRATADO. O PROGRAMA DO COMPONENTE CURRICULAR SERÁ DIVULGADO NO DECORRER DO PERÍODO LETIVO QUE ANTECEDE A OFERTA DA DISCIPLINA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI110",
+          "name": "FENOMENO DOS TRANSPORTES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE SANEAMENTO 2",
+      "code": "CI526",
+      "ementa": "EMENTA VARIÁVEL, DEPENDENDO DO TEMA A SER TRATADO. O PROGRAMA DO COMPONENTE CURRICULAR SERÁ DIVULGADO NO DECORRER DO PERÍODO LETIVO QUE ANTECEDE A OFERTA DA DISCIPLINA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI105",
+          "name": "ECOLOGIA APLIC A ENGENHARIA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE SANEAMENTO 3",
+      "code": "CI527",
+      "ementa": "EMENTA VARIÁVEL, DEPENDENDO DO TEMA A SER TRATADO. O PROGRAMA DO COMPONENTE CURRICULAR SERÁ DIVULGADO NO DECORRER DO PERÍODO LETIVO QUE ANTECEDE A OFERTA DA DISCIPLINA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI105",
+          "name": "ECOLOGIA APLIC A ENGENHARIA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE TRANSPORTES 2",
+      "code": "CI521",
+      "ementa": "EMENTA VARIÁVEL, DEPENDENDO DO TEMA A SER TRATADO. O PROGRAMA DO COMPONENTE CURRICULAR SERÁ DIVULGADO NO DECORRER DO PERÍODO LETIVO QUE ANTECEDE A OFERTA DA DISCIPLINA.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "ET625",
+          "name": "ESTATÍSTICA 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS DE TRANSPORTES 3",
+      "code": "CI522",
+      "ementa": "EMENTA VARIÁVEL, DEPENDENDO DO TEMA A SER TRATADO. O PROGRAMA DO COMPONENTE CURRICULAR SERÁ DIVULGADO NO DECORRER DO PERÍODO LETIVO QUE ANTECEDE A OFERTA DA DISCIPLINA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "ET625",
+          "name": "ESTATÍSTICA 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ESPECIAIS EM RECURSOS HÍDRICOS 3",
+      "code": "CI529",
+      "ementa": "EMENTA VARIÁVEL, DEPENDENDO DO TEMA A SER TRATADO. O PROGRAMA DO COMPONENTE CURRICULAR SERÁ DIVULGADO NO DECORRER DO PERÍODO LETIVO QUE ANTECEDE A OFERTA DA DISCIPLINA.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI110",
+          "name": "FENOMENO DOS TRANSPORTES"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "USO E REUSO DE ÁGUAS EM EDIFICAÇÕES",
+      "code": "CI503",
+      "ementa": "CONCEITOS BÁSICOS. FONTES DE ABASTECIMENTO E USOS DE ÁGUA EM EDIFICAÇÕES. A QUALIDADE DAS ÁGUAS DE ABASTECIMENTO E DOS RESÍDUOS LÍQUIDOS GERADOS. AS INSTALAÇÕES HIDRO-SANITÁRIAS EM EDIFICAÇÕES. MÉTODOS E TÉCNICAS PARA TRATAMENTO DE: (I) ÁGUA PARA ABASTECIMENTO DE EDIFICAÇÕES; (II) RESÍDUOS LÍQUIDOS EM EDIFICAÇÕES. ANÁLISE DE FORMAS E TÉCNICAS DE ECONOMIA DE ÁGUAS E DAS POSSIBILIDADES DE REUSO EM EDIFICAÇÕES.",
+      "hours": 45,
+      "semester": 0,
+      "credits": 3,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "CI471",
+          "name": "SIST DE ABASTECIMENTO DE AGUA"
+        },
+        {
+          "code": "CI472",
+          "name": "SISTEMAS DE ESGOTOS SANITARIOS"
+        }
+      ],
+      "dependents": []
+    }
+  ]
+}

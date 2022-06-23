@@ -154,30 +154,24 @@ const DisciplineBox = (props: DisciplineBoxProps): React.ReactElement => {
           )}
         </Flex>
 
-        <Box
-          overflow="hidden"
-          as="h4"
-          fontWeight="semibold"
-          mt="1"
-          whiteSpace="nowrap"
-          textOverflow="ellipsis"
-        >
-          {name}
+        <Box mt="1" as="h4" fontWeight="semibold" whiteSpace="pre-wrap">
+          {id} - {name}
         </Box>
 
-        <Box>
-          {hours}
-          <Box as="span" color="gray.600" fontSize="sm">
-            HRs
+        <Flex gap={2} justifyContent={'center'}>
+          <Box>
+            {hours}
+            <Box as="span" color="gray.600" fontSize="sm">
+              HRs
+            </Box>
           </Box>
-        </Box>
-
-        <Box>
-          {credits}
-          <Box as="span" color="gray.600" fontSize="sm" ml="1">
-            crédito(s)
+          <Box>
+            {credits}
+            <Box as="span" color="gray.600" fontSize="sm" ml="1">
+              crédito(s)
+            </Box>
           </Box>
-        </Box>
+        </Flex>
       </Box>
     </Box>
   );

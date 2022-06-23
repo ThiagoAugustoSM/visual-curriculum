@@ -110,19 +110,22 @@ def get_equivalence_and_prereq_controls(string: str,
 
 def get_equivalence_and_prereq_values(string: str, 
         is_equivalence: bool, is_prerequisite: bool,
-        disc_prerequisites: list, disc_equivalences: list
-    ) -> "tuple[bool, bool, list, list]":
+        is_co_req: bool, disc_prerequisites: list,
+        disc_equivalences: list
+    ) -> "tuple[bool, bool, bool, list, list]":
     if is_equivalence:
         disc_equivalences = get_equivalences(string)
         is_equivalence = False
     elif is_prerequisite:
         splitted_string = string.split("CO-REQUISITO:")
         if len(splitted_string) == 2:
-            pre_req, _ = splitted_string
+            pre_req, co_req = splitted_string
+            if "NÃO" not in co_req:
+                is_co_req = True
         else: pre_req = splitted_string[0]
         disc_prerequisites = get_equivalences(pre_req)
         is_prerequisite = False
-    return (is_equivalence, is_prerequisite,
+    return (is_equivalence, is_prerequisite, is_co_req,
             disc_prerequisites, disc_equivalences)
 
 def save_json_file(output_path: str, university_name: str, course_name: str,
@@ -194,6 +197,7 @@ def ufpe_pdf_to_json(document):
     disciplines = []
     semesters = 0
 
+    is_co_req = False
     missing_infos = False
     is_equivalence = False
     disc_equivalences = []
@@ -245,7 +249,8 @@ def ufpe_pdf_to_json(document):
                 "CO-REQUISITO" not in string and
                 "EQUIVALÊNCIA" not in string and
                 "PRÉ-REQUISITO" not in string and
-                not is_equivalence and not is_prerequisite):
+                not is_equivalence and not is_co_req
+                and not is_prerequisite):
                 (disciplines, ementa, disc_equivalences, 
                 disc_prerequisites) = append_discipline(disciplines,
                     disc_name, disc_cod, ementa, disc_hours, 
@@ -263,10 +268,11 @@ def ufpe_pdf_to_json(document):
                 disc_hours = int(total)
                 missing_infos = False
             else:
-                (is_equivalence, is_prerequisite, 
+                is_co_req = False
+                (is_equivalence, is_prerequisite, is_co_req,
                 disc_prerequisites, disc_equivalences
                 ) = get_equivalence_and_prereq_values(string,
-                    is_equivalence, is_prerequisite, 
+                    is_equivalence, is_prerequisite, is_co_req,
                     disc_prerequisites, disc_equivalences)
 
     (disciplines, _, _, _) = append_discipline(disciplines,
@@ -287,6 +293,7 @@ def ufpe_ec_pdf_to_json(document):
     semesters = 0
     semester = 0
 
+    co_req = False
     is_equivalence = False
     disc_equivalences = []
     is_prerequisite = False
@@ -329,10 +336,10 @@ def ufpe_ec_pdf_to_json(document):
                 semester = int(period)
                 semesters = max(semester, semesters)
             else:
-                (is_equivalence, is_prerequisite, 
+                (is_equivalence, is_prerequisite, co_req,
                 disc_prerequisites, disc_equivalences
                 ) = get_equivalence_and_prereq_values(string,
-                    is_equivalence, is_prerequisite, 
+                    is_equivalence, is_prerequisite, co_req,
                     disc_prerequisites, disc_equivalences)
     if disc_cod not in added_disciplines:
         (disciplines, _, _, _) = append_discipline(disciplines,
