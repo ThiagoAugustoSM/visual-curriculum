@@ -1,0 +1,3787 @@
+{
+  "university": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+  "course": "DIREITO",
+  "semesters": 11,
+  "totalHours": 3900,
+  "totalHoursElective": 0,
+  "totalHoursObligatory": 3900,
+  "disciplines": [
+    {
+      "name": "ECONOMIA 1",
+      "code": "EC001",
+      "ementa": "ORIGEM E EVOLUÇÃO DAS CIÊNCIAS ECONÔMICAS: INTRODUÇÃO ÀS CIÊNCIAS ECONÔMICAS, ÀS DOUTRINAS ECONÔMICAS. INTRODUÇÃO A TEORIA ECONÔMICA: TEORIA DO VALOR-TRABALHO, MACROECONOMIA E MICROECONOMIA.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CS600",
+          "name": "SOCIOLOGIA ECONOMICA"
+        },
+        {
+          "code": "EC450",
+          "name": "ECONOMIA 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FILOSOFIA",
+      "code": "FL003",
+      "ementa": "INTRODUÇÃO GERAL À FILOSOFIA; NATUREZA DA FILOSOFIA; OS PRÉ-SOCRÁTICOS; SÓCRATES, PLATÃO E ARISTÓTELES; A FILOSOFIA E AS CIÊNCIAS PARTICULARES; AS GRANDES DIVISÕES DA FILOSOFIA: LÓGICA E ÉTICA.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "FL010",
+          "name": "INTRODUCAO A FILOSOFIA 1"
+        },
+        {
+          "code": "FL267",
+          "name": "FILOSOFIA SOCIAL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "FUNDAMENTOS DE SOCIOLOGIA",
+      "code": "CS004",
+      "ementa": "A SOCIOLOGIA E OUTRAS CIÊNCIAS. MODELOS DE ANÁLISE SOCIOLÓGICA. O SOCIAL E A SOCIEDADE. CONCEITOS SOCIOLÓGICOS BÁSICOS.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 1",
+      "code": "PR428",
+      "ementa": "ESTRUTURA E PRESSUPOSTOS METODOLÓGICOS DA DISCIPLINA. OS CONCEITOS JURÍDICOS FUNDAMENTAIS. NORMATIZAÇÃO DA VIDA SOCIAL E TEORIA DA NORMA. TEORIA DA NORMA JURÍDICA. O DIREITO DOGMATICAMENTE ORGANIZADO. O DIREITO COMO EXPRESSÃO SIMBÓLICA: A TEORIA DAS FONTES DO DIREITO. TEORIA DO ORDENAMENTO JURÍDICO. AS FONTES ESTATAIS DO DIREITO: A LEI. AS FONTES ESTATAIS DO DIREITO: A JURISPRUDÊNCIA.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR206",
+          "name": "INTRODUCAO ESTUDO DO DIREITO 1A"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "PR430",
+          "name": "DIREITO CIVIL 1"
+        },
+        {
+          "code": "PE464",
+          "name": "DIREITO PENAL 1"
+        },
+        {
+          "code": "PR429",
+          "name": "HISTÓRIA DO DIREITO"
+        },
+        {
+          "code": "PG518",
+          "name": "TEORIA DA CONSTITUIÇÃO"
+        },
+        {
+          "code": "PR436",
+          "name": "HERMENÊUTICA JURÍDICA"
+        },
+        {
+          "code": "PR437",
+          "name": "PESQUISA E DIREITO"
+        },
+        {
+          "code": "PR464",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 2"
+        }
+      ]
+    },
+    {
+      "name": "TEORIA POLÍTICA E DO ESTADO",
+      "code": "PG516",
+      "ementa": "A CIÊNCIA POLÍTICA E SEU ESTUDO; A TEORIA DO ESTADO; ESTADO E DIREITO; POLÍTICA, SOCIEDADE, GOVERNO E DEMOCRACIA.",
+      "hours": 60,
+      "semester": 1,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "CP002",
+          "name": "INTRODUÇÃO À CIÊNCIA POLÍTICA"
+        },
+        {
+          "code": "CP008",
+          "name": "INTRODUÇÃO À CIÊNCIA POLÍTICA"
+        },
+        {
+          "code": "CS011",
+          "name": "CIENCIA POLITICA"
+        },
+        {
+          "code": "FL518",
+          "name": "FILOSOFIA SOCIAL E POLÍTICA"
+        },
+        {
+          "code": "PG231",
+          "name": "CIENC POLITICA TEORIA DO ESTADO 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "PG549",
+          "name": "TEORIA POLÍTICA E DO ESTADO 2"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO CIVIL 1",
+      "code": "PR430",
+      "ementa": "ESTUDO, CRITICA E APLICAÇÃO DA TEORIA GERAL DO DIREITO CIVIL.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR245",
+          "name": "DIREITO CIVIL 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR428",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR431",
+          "name": "DIREITO CIVIL 2"
+        },
+        {
+          "code": "PR438",
+          "name": "DIREITO EMPRESARIAL 1"
+        },
+        {
+          "code": "PR455",
+          "name": "DIREITO ROMANO"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO PENAL 1",
+      "code": "PE464",
+      "ementa": "PROPEDÊUTICA PENAL. CONCEITUAÇÃO DA CIÊNCIA PENAL, SEU OBJETO E SEU MÉTODO. TEORIA DO CRIME. AÇÃO. TIPICIDADE. LICITUDE. CULPABILIDADE E PUNIBILIDADE. AMPLIAÇÃO DOS TIPOS PENAIS",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE291",
+          "name": "DIREITO PENAL 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR428",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PE465",
+          "name": "DIREITO PENAL 2"
+        },
+        {
+          "code": "PE467",
+          "name": "CRIMINOLOGIA"
+        }
+      ]
+    },
+    {
+      "name": "HISTÓRIA DO DIREITO",
+      "code": "PR429",
+      "ementa": "HISTÓRIA NO DIREITO NA ANTIGUIDADE. HISTÓRIA DO DIREITO NA IDADE MÉDIA. HISTÓRIA DO DIREITO MODERNO E CONTEMPORÂNEO.",
+      "hours": 30,
+      "semester": 2,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR428",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR474",
+          "name": "HISTÓRIA DO DIREITO PRIVADO MODERNO"
+        }
+      ]
+    },
+    {
+      "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 2",
+      "code": "PR464",
+      "ementa": "CONCEITO DE DIREITO E RELAÇÃO JURÍDICA. NORMA JURÍDICA E ORDENAMENTO JURÍDICO. GNOSEOLOGIA JURÍDICA. EPISTEMOLOGIA JURÍDICA. JUSNATURALISMO.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR207",
+          "name": "INTRODUCAO AO ESTUDO DIREITO 2A"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR428",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR436",
+          "name": "HERMENÊUTICA JURÍDICA"
+        },
+        {
+          "code": "PR432",
+          "name": "DIREITO CIVIL 3"
+        },
+        {
+          "code": "PR444",
+          "name": "FILOSOFIA DO DIREITO"
+        },
+        {
+          "code": "PR456",
+          "name": "DECISÃO JUDICIAL E SOCIEDADE"
+        },
+        {
+          "code": "PR461",
+          "name": "DIREITO E SOCIEDADE NA AMÉRICA LATINA"
+        },
+        {
+          "code": "PR449",
+          "name": "INOVAÇÃO, SOCIEDADE E DIREITO"
+        },
+        {
+          "code": "PR463",
+          "name": "LINGUAGEM E REDAÇÃO JURÍDICA"
+        },
+        {
+          "code": "PR462",
+          "name": "LÓGICA E DIREITO"
+        }
+      ]
+    },
+    {
+      "name": "TEORIA DA CONSTITUIÇÃO",
+      "code": "PG518",
+      "ementa": "DIREITO CONSTITUCIONAL E DIREITO DA CONSTITUIÇÃO. TEORIA DA CONSTITUIÇÃO. DA CONSTITUIÇÃO: SUPRALEGALIDADE E IMUTABILIDADE RELATIVA. PODER CONSTITUINTE E PODER DE REFORMA. HISTÓRIA CONSTITUCIONAL BRASILEIRA. SISTEMA CONSTITUCIONAL BRASILEIRO VIGENTE: PRINCIPAIS CARACTERÍSTICAS.",
+      "hours": 30,
+      "semester": 2,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG232",
+          "name": "DIREITO CONSTITUCIONAL 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR428",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PG524",
+          "name": "DIREITO CONSTITUCIONAL 1"
+        },
+        {
+          "code": "PG547",
+          "name": "CONSTITUCIONAL IV"
+        }
+      ]
+    },
+    {
+      "name": "TEORIA GERAL DO PROCESSO",
+      "code": "PG517",
+      "ementa": "INTRODUÇÃO À TEORIA GERAL DO PROCESSO. CONFLITOS E FORMAS DE SUA COMPOSIÇÃO. HISTÓRIA, CONTEÚDO E AUTONOMIA DO DIREITO PROCESSUAL. INSTRUMENTALIDADE DO PROCESSO, ACESSO À JUSTIÇA E EFETIVIDADE PROCESSUAL. NORMAS PROCESSUAIS: PRINCÍPIOS ORIENTADORES DO DIREITO PROCESSUAL, FONTES E ESPÉCIES DE REGRAS PROCESSUAIS. JURISDIÇÃO: CONCEITO, FORMAS DE MANIFESTAÇÃO, PRINCÍPIOS INERENTES À JURISDIÇÃO, JURISDIÇÃO CONTENCIOSA E JURISDIÇÃO VOLUNTÁRIA, COMPETÊNCIA. AÇÃO: CONCEITO, AÇÃO MATERIAL E AÇÃO PROCESSUAL, TEORIAS ACERCA DA NATUREZA DA AÇÃO. ELEMENTOS DA AÇÃO, CONDIÇÕES DA AÇÃO, CLASSIFICAÇÃO DAS AÇÕES. PROCESSO: CONCEITO, TEORIAS ACERCA DA NATUREZA DA RELAÇÃO PROCESSUAL, PROCESSO E PROCEDIMENTO E PRESSUPOSTOS PROCESSUAIS.",
+      "hours": 60,
+      "semester": 2,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG308",
+          "name": "DIREITO PROCESSUAL GERAL"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "PG519",
+          "name": "DIREITO PROCESSUAL CIVIL 1"
+        },
+        {
+          "code": "PG530",
+          "name": "DIREITO PROCESSUAL DO TRABALHO"
+        },
+        {
+          "code": "PG534",
+          "name": "HISTÓRIA DO DIREITO PROCESSUAL"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO CIVIL 2",
+      "code": "PR431",
+      "ementa": "ESTUDO, CRÍTICA E APLICAÇÃO DA TEORIA GERAL DAS OBRIGAÇÕES E DA TEORIA GERAL DOS CONTRATOS.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR212",
+          "name": "DIREITO CIVIL 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR430",
+          "name": "DIREITO CIVIL 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR432",
+          "name": "DIREITO CIVIL 3"
+        },
+        {
+          "code": "PR472",
+          "name": "DIREITO PRIVADO ROMANO"
+        },
+        {
+          "code": "PR452",
+          "name": "RESPONSABILIDADE CIVIL"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO CONSTITUCIONAL 1",
+      "code": "PG524",
+      "ementa": "DOS PRINCÍPIOS CONSTITUCIONAIS FUNDAMENTAIS. DOS DIREITOS E GARANTIAS FUNDAMENTAIS. DOS DIREITOS SOCIAIS. DA NACIONALIDADE. DOS DIREITOS POLÍTICOS. DOS PARTIDOS POLÍTICOS. ORGANIZAÇÃO DO ESTADO BRASILEIRO. A UNIÃO, OS ESTADOS-MEMBROS, OS MUNICÍPIOS, O DISTRITO FEDERAL, OS TERRITÓRIOS. ADMINISTRAÇÃO PÚBLICA. SERVIDORES PÚBLICOS.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG232",
+          "name": "DIREITO CONSTITUCIONAL 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG518",
+          "name": "TEORIA DA CONSTITUIÇÃO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PG525",
+          "name": "DIREITO CONSTITUCIONAL 2"
+        },
+        {
+          "code": "PE473",
+          "name": "DIREITO FINANCEIRO"
+        },
+        {
+          "code": "PE476",
+          "name": "SISTEMA CONSTITUCIONAL TRIBUTÁRIO"
+        },
+        {
+          "code": "PE477",
+          "name": "NORMAS GERAIS DE DIREITO TRIBUTÁRIO"
+        },
+        {
+          "code": "PG551",
+          "name": "DIREITO E GÊNERO"
+        },
+        {
+          "code": "PE483",
+          "name": "DIREITO TRIBUTÁRIO NA JURISPRUDÊNCIA"
+        },
+        {
+          "code": "PE482",
+          "name": "JUSTIÇA TRIBUTÁRIA"
+        },
+        {
+          "code": "PE481",
+          "name": "PLANEJAMENTO TRIBUTÁRIO"
+        },
+        {
+          "code": "PE480",
+          "name": "PROCESSO TRIBUTÁRIO"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO PENAL 2",
+      "code": "PE465",
+      "ementa": "TEORIA DA PENA. ESPÉCIES DE PENAS. COMINAÇÃO E APLICAÇÃO DAS PENAS. INCIDENTES NA EXECUÇÃO DAS PENAS. CRIMES CONTRA A PESSOA",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE232",
+          "name": "DIREITO PENAL 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE464",
+          "name": "DIREITO PENAL 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PE466",
+          "name": "DIREITO PENAL 3"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO PROCESSUAL CIVIL 1",
+      "code": "PG519",
+      "ementa": "COMPETÊNCIA. SUJEITOS PROCESSUAIS. LITISCONSÓRCIO. INTERVENÇÃO DE TERCEIROS. DESPESAS PROCESSUAIS E HONORÁRIOS DE SUCUMBÊNCIA. RESPONSABILIDADE PROCESSUAL. BOA FÉ PROCESSUAL. LITIGÂNCIA DE MÁ FÉ. FORMAÇÃO DO PROCESSO. DISTRIBUIÇÃO. ESTABILIZAÇÃO DA DEMANDA. COMUNICAÇÃO DOS ATOS. CITAÇÃO. INTIMAÇÃO. SUSPENSÃO DO PROCESSO.",
+      "hours": 60,
+      "semester": 3,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG309",
+          "name": "DIREITO PROCESSUAL CIVIL 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG517",
+          "name": "TEORIA GERAL DO PROCESSO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PG520",
+          "name": "DIREITO PROCESSUAL CIVIL 2"
+        },
+        {
+          "code": "PG534",
+          "name": "HISTÓRIA DO DIREITO PROCESSUAL"
+        }
+      ]
+    },
+    {
+      "name": "HERMENÊUTICA JURÍDICA",
+      "code": "PR436",
+      "ementa": "A HERMENÊUTICA JURÍDICA E A FORMAÇÃO DO PROFISSIONAL DO DIREITO. A FORMAÇÃO DOS CONFLITOS INTERPRETATIVOS. A SUPERAÇÃO DOS CONFLITOS INTERPRETATIVOS: A TRADIÇÃO DOS BROCARDOS INTERPRETATIVOS. OS MÉTODOS CLÁSSICOS DE INTERPRETAÇÃO. A METODOLOGIA PÓS-POSITIVISTA DA INTERPRETAÇÃO",
+      "hours": 60,
+      "semester": 3,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR428",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 1"
+        },
+        {
+          "code": "PR464",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR437",
+          "name": "PESQUISA E DIREITO"
+        },
+        {
+          "code": "AM131",
+          "name": "ANTROPOLOGIA JURÍDICA"
+        },
+        {
+          "code": "PS646",
+          "name": "PSICOLOGIA E DIREITO"
+        },
+        {
+          "code": "PR456",
+          "name": "DECISÃO JUDICIAL E SOCIEDADE"
+        },
+        {
+          "code": "PR467",
+          "name": "DIREITO DA FAMÍLIA APLICADO"
+        },
+        {
+          "code": "PR463",
+          "name": "LINGUAGEM E REDAÇÃO JURÍDICA"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO CIVIL 3",
+      "code": "PR432",
+      "ementa": "ESTUDO, CRÍTICA E APLICAÇÃO DA TEORIA GERAL DOS CONTRATOS E DOS CONTRATOS CIVIS EM ESPÉCIE.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR213",
+          "name": "DIREITO CIVIL 3"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR431",
+          "name": "DIREITO CIVIL 2"
+        },
+        {
+          "code": "PR464",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR433",
+          "name": "DIREITO CIVIL 4"
+        },
+        {
+          "code": "PR470",
+          "name": "DIREITO MARÍTIMO I"
+        },
+        {
+          "code": "PR479",
+          "name": "RESPONSABILIDADE CIVIL 2"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO CONSTITUCIONAL 2",
+      "code": "PG525",
+      "ementa": "O PODER LEGISLATIVO. TEORIA GERAL. PRERROGATIVAS E IMPEDIMENTOS PARLAMENTARES. O CONGRESSO NACIONAL: COMPOSIÇÃO E COMPETÊNCIAS. O SENADO FEDERAL: COMPOSIÇÃO E COMPETÊNCIAS. DA CÂMARA DOS DEPUTADOS: COMPOSIÇÃO E COMPETÊNCIA. PROCESSO LEGISLATIVO. DO PODER EXECUTIVO: COMPETÊNCIAS. DO PODER JUDICIÁRIO: COMPOSIÇÃO E PRERROGATIVAS. FUNÇÕES ESSENCIAIS À JUSTIÇA. DO CONTROLE DE CONSTITUCIONALIDADE. JURISDIÇÃO CONSTITUCIONAL.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG233",
+          "name": "DIREITO CONSTITUCIONAL 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG524",
+          "name": "DIREITO CONSTITUCIONAL 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        },
+        {
+          "code": "PE473",
+          "name": "DIREITO FINANCEIRO"
+        },
+        {
+          "code": "PE476",
+          "name": "SISTEMA CONSTITUCIONAL TRIBUTÁRIO"
+        },
+        {
+          "code": "PE477",
+          "name": "NORMAS GERAIS DE DIREITO TRIBUTÁRIO"
+        },
+        {
+          "code": "PR475",
+          "name": "POLÍTICA, JUDICIÁRIO E SOCIEDADE"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO EMPRESARIAL 1",
+      "code": "PR438",
+      "ementa": "TEORIA GERAL DA EMPRESA. INTRODUÇÃO AO DIREITO DE EMPRESA. HISTÓRIA DO COMÉRCIO E DO DIREITO EMPRESARIAL. EMPRESA E REGIME JURÍDICO DO EMPRESÁRIO. ESTABELECIMENTO EMPRESARIAL. ORGANIZAÇÃO DA ATIVIDADE EMPRESARIAL.",
+      "hours": 30,
+      "semester": 4,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR221",
+          "name": "DIREITO COMERCIAL 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR430",
+          "name": "DIREITO CIVIL 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR439",
+          "name": "DIREITO EMPRESARIAL 2"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO PENAL 3",
+      "code": "PE466",
+      "ementa": "CRIMES CONTRA O PATRIMÔNIO. CRIMES CONTRA A DIGNIDADE SEXUAL. CRIMES CONTRA A INCOLUMIDADE PÚBLICA. CRIMES CONTRA A PAZ PÚBLICA. CRIMES CONTRA A FÉ PÚBLICA. CRIMES CONTRA A ADMINISTRAÇÃO PÚBLICA",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE247",
+          "name": "DIREITO PENAL 3"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE465",
+          "name": "DIREITO PENAL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PE513",
+          "name": "DIREITO PENAL COMPLEMENTAR 2"
+        },
+        {
+          "code": "PE514",
+          "name": "POLÍTICA CRIMINAL"
+        },
+        {
+          "code": "PE499",
+          "name": "DIREITO PENAL COMPLEMENTAR 1"
+        },
+        {
+          "code": "PE498",
+          "name": "DIREITO PENAL ECONÔMICO"
+        },
+        {
+          "code": "PE500",
+          "name": "EXECUÇÃO PENAL"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO PROCESSUAL CIVIL 2",
+      "code": "PG520",
+      "ementa": "PETIÇÃO INICIAL. RESPOSTA DO RÉU. PROVIDÊNCIAS PRELIMINARES, JULGAMENTO CONFORME O ESTADO DO PROCESSO E SANEAMENTO. DIREITO PROBATÓRIO. AUDIÊNCIA DE INSTRUÇÃO E JULGAMENTO. SENTENÇA. COISA JULGADA. ANTECIPAÇÃO DA TUTELA. TEORIA DOS PRECEDENTES.",
+      "hours": 60,
+      "semester": 4,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG310",
+          "name": "DIREITO PROCESSUAL CIVIL 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG519",
+          "name": "DIREITO PROCESSUAL CIVIL 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PG521",
+          "name": "DIREITO PROCESSUAL CIVIL 3"
+        },
+        {
+          "code": "PG527",
+          "name": "DIREITO PROCESSUAL PENAL I"
+        },
+        {
+          "code": "PG536",
+          "name": "DIREITO PROCESSUAL ARBITRAL"
+        }
+      ]
+    },
+    {
+      "name": "PESQUISA E DIREITO",
+      "code": "PR437",
+      "ementa": "METODOLOGIA DA PESQUISA: ESTÉTICA, MÉTODOS E TÉCNICAS DE PESQUISA EM DIREITO. CONHECIMENTO CIENTÍFICO: DELIMITAÇÃO, ESPECIFICIDADE. O OBSERVADOR E A OBSERVAÇÃO. NORMAS DE APRESENTAÇÃO. REDAÇÃO CIENTÍFICA. PROJETO DE PESQUISA. ARTIGO.",
+      "hours": 30,
+      "semester": 4,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR428",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 1"
+        },
+        {
+          "code": "PR436",
+          "name": "HERMENÊUTICA JURÍDICA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ANTROPOLOGIA JURÍDICA",
+      "code": "AM131",
+      "ementa": "ESTUDO DA RELAÇÃO ENTRE O DIREITO E A ANTROPOLOGIA, ENFATIZANDO A DISCUSSÃO CLÁSSICA SOBRE A ¿ANTROPOLOGIA DO DIREITO¿, SOBRE A ¿ANTROPOLOGIA JURÍDICA¿, COMO VERTENTE MAIS RECENTE, E A CONSTRUÇÃO DE UM CAMPO DIALÓGICO ENTRE AS DUAS ÁREAS A PARTIR DA ATUAÇÃO DO PROFISSIONAL DO DIREITO EM RELAÇÃO ÀS DEMANDAS QUE ENVOLVEM CONHECIMENTOS ANTROPOLÓGICOS.",
+      "hours": 30,
+      "semester": 5,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR436",
+          "name": "HERMENÊUTICA JURÍDICA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "CRIMINOLOGIA",
+      "code": "PE467",
+      "ementa": "CRIMINOLOGIA. CONCEITO. CORRENTES TEÓRICAS. BIOANTROPOLOGIA CRIMINAL. PSICOLOGIA CRIMINAL. SOCIOLOGIA CRIMINAL.",
+      "hours": 30,
+      "semester": 5,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE432",
+          "name": "CRIMINOLOGIA"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE464",
+          "name": "DIREITO PENAL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO CIVIL 4",
+      "code": "PR433",
+      "ementa": "ESTUDO, CRÍTICA E APLICAÇÃO DO DIREITO DAS COISAS.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR233",
+          "name": "DIREITO CIVIL 4 (CONTRATOS)"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR432",
+          "name": "DIREITO CIVIL 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR434",
+          "name": "DIREITO CIVIL 5"
+        },
+        {
+          "code": "PE468",
+          "name": "TEORIA GERAL DO DIREITO DO TRABALHO"
+        },
+        {
+          "code": "PR457",
+          "name": "CONDOMÍNIO E INCORPORAÇÕES"
+        },
+        {
+          "code": "PR451",
+          "name": "DIREITO AGRÁRIO"
+        },
+        {
+          "code": "PR453",
+          "name": "DIREITO HABITACIONAL"
+        },
+        {
+          "code": "PR470",
+          "name": "DIREITO MARÍTIMO I"
+        },
+        {
+          "code": "PR459",
+          "name": "DIREITO NOTARIAL E REGISTRAL"
+        },
+        {
+          "code": "PR454",
+          "name": "DIREITO URBANÍSTICO"
+        },
+        {
+          "code": "PR458",
+          "name": "LOCAÇÃO IMOBILIÁRIA"
+        },
+        {
+          "code": "PR476",
+          "name": "PRÁTICA DE SOLUÇÃO DE CONFLITOS I - NEGOCIAÇÃO"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO CONSTITUCIONAL 3",
+      "code": "PG526",
+      "ementa": "DEFESA DO ESTADO E DAS INSTITUIÇÕES DEMOCRÁTICAS. TRIBUTAÇÃO E ORÇAMENTO. DA ORDEM ECONÔMICA. DA ORDEM SOCIAL. DAS DISPOSIÇÕES CONSTITUCIONAIS GERAIS. DAS DISPOSIÇÕES CONSTITUCIONAIS TRANSITÓRIAS. DAS EMENDAS CONSTITUCIONAIS.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG234",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG525",
+          "name": "DIREITO CONSTITUCIONAL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PE470",
+          "name": "DIREITO ADMINISTRATIVO 1"
+        },
+        {
+          "code": "PE471",
+          "name": "DIREITO INTERNACIONAL PÚBLICO"
+        },
+        {
+          "code": "PE474",
+          "name": "DIREITO INTERNACIONAL PRIVADO 1"
+        },
+        {
+          "code": "PG531",
+          "name": "DIREITOS HUMANOS 1"
+        },
+        {
+          "code": "PE478",
+          "name": "DIREITO AMBIENTAL"
+        },
+        {
+          "code": "PE477",
+          "name": "NORMAS GERAIS DE DIREITO TRIBUTÁRIO"
+        },
+        {
+          "code": "PG547",
+          "name": "CONSTITUCIONAL IV"
+        },
+        {
+          "code": "PG542",
+          "name": "DIREITO CONSTITUCIONAL COMPARADO"
+        },
+        {
+          "code": "PG546",
+          "name": "DIREITO CONSTITUCIONAL 5"
+        },
+        {
+          "code": "PG545",
+          "name": "DIREITO CONSTITUCIONAL ESTADUAL"
+        },
+        {
+          "code": "PG539",
+          "name": "DIREITO DA COMUNICAÇÃO E DA INFORMAÇÃO"
+        },
+        {
+          "code": "PG550",
+          "name": "DIREITO PÚBLICO ROMANO"
+        },
+        {
+          "code": "PG544",
+          "name": "DIREITOS HUMANOS 2"
+        },
+        {
+          "code": "PG541",
+          "name": "PROCESSO CONSTITUCIONAL BRASILEIRO"
+        },
+        {
+          "code": "PG543",
+          "name": "HISTÓRIA CONSTITUCIONAL BRASILEIRA"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO EMPRESARIAL 2",
+      "code": "PR439",
+      "ementa": "SOCIEDADES EMPRESÁRIAS. SOCIEDADE EMPRESÁRIA. SOCIEDADE LIMITADA ¿ CARACTERÍSTICAS GERAIS E CONTRATO SOCIAL. SOCIEDADE LIMITADA - ORGANIZAÇÃO E ADMINISTRAÇÃO. SOCIEDADE ANÔNIMA ¿ CARACTERÍSTICAS ESSENCIAIS. SOCIEDADE ANÔNIMA ¿ CONSTITUIÇÃO, ORGANIZAÇÃO E ADMINISTRAÇÃO. GRUPOS DE SOCIEDADES E OPERAÇÕES SOCIETÁRIAS. DESCONSIDERAÇÃO DA PERSONALIDADE JURÍDICA. MERCADO DE CAPITAIS E OPERAÇÕES DE BOLSA DE VALORES. DISSOLUÇÃO DA SOCIEDADE EMPRESÁRIA.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR222",
+          "name": "DIREITO COMERCIAL 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR438",
+          "name": "DIREITO EMPRESARIAL 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR442",
+          "name": "DIREITO DO CONSUMIDOR"
+        },
+        {
+          "code": "PR440",
+          "name": "DIREITO EMPRESARIAL 3"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO PROCESSUAL CIVIL 3",
+      "code": "PG521",
+      "ementa": "ASPECTOS GERAIS DA EXECUÇÃO. LIQUIDAÇÃO DE SENTENÇA. EXECUÇÃO DE TÍTULO JUDICIAL E EXTRAJUDICIAL. EXECUÇÃO CONTRA A FAZENDA PÚBLICA. EXECUÇÃO FISCAL. AÇÃO MONITÓRIA. EMBARGOS DE TERCEIROS.",
+      "hours": 60,
+      "semester": 5,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG311",
+          "name": "DIREITO PROCESSUAL CIVIL 3"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG520",
+          "name": "DIREITO PROCESSUAL CIVIL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PG522",
+          "name": "DIREITO PROCESSUAL CIVIL 4"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO CIVIL 5",
+      "code": "PR434",
+      "ementa": "ESTUDO, CRÍTICA E APLICAÇÃO DAS RELAÇÕES JURÍDICAS DE FAMÍLIA.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR234",
+          "name": "DIREITO CIVIL 5"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR433",
+          "name": "DIREITO CIVIL 4"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR435",
+          "name": "DIREITO CIVIL 6"
+        },
+        {
+          "code": "PR450",
+          "name": "DIREITO DA CRIANÇA E DO ADOLESCENTE"
+        },
+        {
+          "code": "PR467",
+          "name": "DIREITO DA FAMÍLIA APLICADO"
+        },
+        {
+          "code": "PR482",
+          "name": "DIREITO MÉDICO E DO PACIENTE"
+        },
+        {
+          "code": "PR477",
+          "name": "PRÁTICA DE SOLUÇÃO DE CONFLITOS II -MEDIAÇÃO"
+        },
+        {
+          "code": "PR446",
+          "name": "TUTELA JURÍDICA DOS VULNERÁVEIS"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO DO CONSUMIDOR",
+      "code": "PR442",
+      "ementa": "DIREITO DO CONSUMIDOR. FUNDAMENTOS. DA QUALIDADE DOS SERVIÇOS E PRODUTOS. DAS PRÁTICAS COMERCIAIS. DA PROTEÇÃO CONTRATUAL. DAS SANÇÕES ADMINISTRATIVAS E DOS CRIMES EM ESPÉCIE. A DEFESA DO CONSUMIDOR EM JUÍZO.",
+      "hours": 30,
+      "semester": 6,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR240",
+          "name": "DIREITO DO CONSUMIDOR"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR439",
+          "name": "DIREITO EMPRESARIAL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO EMPRESARIAL 3",
+      "code": "PR440",
+      "ementa": "CONTRATOS EMPRESARIAIS E TÍTULOS DE CRÉDITO. CONTRATOS EMPRESARIAIS. COMPRA E VENDA MERCANTIL. LOCAÇÃO E ARRENDAMENTO MERCANTIL. LOCAÇÃO DE IMÓVEL COMERCIAL E SHOPPING CENTER. CONTRATOS DE COLABORAÇÃO. CONTRATO DE SEGURO. CONTRATOS E TÍTULOS ELETRÔNICOS. MEIOS DE PAGAMENTO E TÍTULOS DE CRÉDITO. TÍTULOS DE CRÉDITO EM ESPÉCIE; PROTESTO E AÇÃO CAMBIAL.",
+      "hours": 30,
+      "semester": 6,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR223",
+          "name": "DIREITO COMERCIAL 3"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR439",
+          "name": "DIREITO EMPRESARIAL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR441",
+          "name": "DIREITO EMPRESARIAL 4"
+        },
+        {
+          "code": "PR465",
+          "name": "CONTRATOS EMPRESARIAIS ESPECIAIS"
+        },
+        {
+          "code": "PR466",
+          "name": "DIREITO BANCÁRIO"
+        },
+        {
+          "code": "PR468",
+          "name": "DIREITO DE MARCAS"
+        },
+        {
+          "code": "PR469",
+          "name": "DIREITO DE PATENTES"
+        },
+        {
+          "code": "PR470",
+          "name": "DIREITO MARÍTIMO I"
+        },
+        {
+          "code": "PR447",
+          "name": "PROPRIEDADE INTELECTUAL"
+        },
+        {
+          "code": "PR480",
+          "name": "TÓPICOS ATUAIS DE DIREITO EMPRESARIAL"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO PROCESSUAL CIVIL 4",
+      "code": "PG522",
+      "ementa": "TEORIA DOS RECURSOS. RECURSOS EM ESPÉCIE. REEXAME NECESSÁRIO. RECLAMAÇÃO. AÇÃO RESCISÓRIA. MANDADO DE SEGURANÇA CONTRA ATO JUDICIAL. INCIDENTES EM JULGAMENTO DE TRIBUNAL. PEDIDO DE SUSPENSÃO DE SEGURANÇA.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG312",
+          "name": "DIREITO PROCESSUAL CIVIL 4"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG521",
+          "name": "DIREITO PROCESSUAL CIVIL 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PG523",
+          "name": "DIREITO PROCESSUAL CIVIL 5"
+        },
+        {
+          "code": "INT0065",
+          "name": "ESTÁGIO SUPERVISIONADO 1"
+        },
+        {
+          "code": "PG537",
+          "name": "FAZENDA PÚBLICA EM JUÍZO"
+        },
+        {
+          "code": "PG538",
+          "name": "REGIME PROCESSUAL DAS CAUSAS REPETIDAS"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO PROCESSUAL PENAL I",
+      "code": "PG527",
+      "ementa": "CONCEITO, IMPORTÂNCIA, INSTRUMENTALIDADE. PAPEL DO ESTADO NA RESOLUÇÃO DOS CONFLITOS. ESTRUTURAÇÃO DO PROCESSO MODERNO. SISTEMAS PROCESSUAIS. REVITALIZAÇÃO DOS PRINCÍPIOS CONSTITUCIONAIS E INFRACONSTITUCIONAIS. INDIVÍDUO E ESTADO DIANTE DO DIREITO À LIBERDADE. PERSECUTIO CRIMINIS. POLÍCIA JUDICIÁRIA E MINISTÉRIO PÚBLICO. JURISDIÇÃO E COMPETÊNCIA.",
+      "hours": 60,
+      "semester": 6,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG235",
+          "name": "DIREITO PROCESSUAL PENAL 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG520",
+          "name": "DIREITO PROCESSUAL CIVIL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PG528",
+          "name": "DIREITO PROCESSUAL PENAL 2"
+        },
+        {
+          "code": "INT0065",
+          "name": "ESTÁGIO SUPERVISIONADO 1"
+        }
+      ]
+    },
+    {
+      "name": "PSICOLOGIA E DIREITO",
+      "code": "PS646",
+      "ementa": "O CAMPO DE SABER DA PSICOLOGIA EM INTERFACE COM O DIREITO. SUBJETIVIDADE, INSTITUIÇÕES E DIREITOS HUMANOS. DISPOSITIVOS DA CIÊNCIA PSICOLÓGICA DISPONÍVEIS PARA O TRABALHO NA ÁREA JURÍDICA. INTERDISCIPLINARIDADE NO CAMPO DE TRABALHO ENTRE PROFISSIONAIS DE PSICOLOGIA E DO DIREITO.",
+      "hours": 30,
+      "semester": 6,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR436",
+          "name": "HERMENÊUTICA JURÍDICA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TEORIA GERAL DO DIREITO DO TRABALHO",
+      "code": "PE468",
+      "ementa": "O DIREITO DO TRABALHO. NATUREZA JURÍDICA E AUTONOMIA DO DIREITO DO TRABALHO. FUNDAMENTOS HISTÓRICOS E EVOLUÇÃO DO DIREITO DO TRABALHO. O CONSTITUCIONALISMO SOCIAL. ESCORÇO HISTÓRICO DO DIREITO DO TRABALHO NO BRASIL. FONTES DO DIREITO DO TRABALHO. PRINCÍPIOS DO DIREITO DO TRABALHO. INTERPRETAÇÃO, INTEGRAÇÃO E APLICAÇÃO DO DIREITO DO TRABALHO. PRESCRIÇÃO E DECADÊNCIA NO DIREITO DO TRABALHO. FLEXIBILIZAÇÃO. TERCEIRIZAÇÃO. DIREITOS FUNDAMENTAIS, DIREITOS HUMANOS E DIREITO DO TRABALHO. EFETIVIDADE DO DIREITO DO TRABALHO.",
+      "hours": 30,
+      "semester": 6,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE227",
+          "name": "DIREITO DO TRABALHO 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR433",
+          "name": "DIREITO CIVIL 4"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PE505",
+          "name": "DIREITO SINDICAL E COLETIVO DO TRABALHO"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO ADMINISTRATIVO 1",
+      "code": "PE470",
+      "ementa": "CONCEITO E CARACTERÍSTICAS DO MODERNO DIREITO ADMINISTRATIVO E SEUS PARADIGMAS. REGIME CONSTITUCIONAL DA ADMINISTRAÇÃO PÚBLICA. REPARTIÇÃO DE COMPETÊNCIAS E PRINCÍPIOS DA ADMINISTRAÇÃO PÚBLICA. PESSOAS E ÓRGÃOS QUE COMPÕEM A ADMINISTRAÇÃO PÚBLICA. ATOS ADMINISTRATIVOS. SERVIÇOS PÚBLICOS. AGENTES PÚBLICOS.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE201",
+          "name": "DIREITO ADMINISTRATIVO 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PE472",
+          "name": "DIREITO ADMINISTRATIVO 2"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO CIVIL 6",
+      "code": "PR435",
+      "ementa": "ESTUDO, ANÁLISE CRÍTICA E APLICAÇÃO DO DIREITO DA SUCESSÃO HEREDITÁRIA.",
+      "hours": 30,
+      "semester": 7,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR246",
+          "name": "DIREITO CIVIL 6"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR434",
+          "name": "DIREITO CIVIL 5"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR448",
+          "name": "DIREITO CIBERNÉTICO"
+        },
+        {
+          "code": "PR459",
+          "name": "DIREITO NOTARIAL E REGISTRAL"
+        },
+        {
+          "code": "PR445",
+          "name": "DIREITO TESTAMENTÁRIO E PLANEJAMENTO SUCESSÓRIO"
+        },
+        {
+          "code": "PR478",
+          "name": "PRÁTICA DE SOLUÇÃO DE CONFLITOS III -ARBITRAGEM"
+        },
+        {
+          "code": "PR481",
+          "name": "TÓPICOS AVANÇADOS DE DIREITO CIVIL"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO EMPRESARIAL 4",
+      "code": "PR441",
+      "ementa": "DIREITO FALIMENTAR. A CRISE DA EMPRESA. HISTÓRIA DO DIREITO FALIMENTAR. REGIME COMUM DA RECUPERAÇÃO E DA FALÊNCIA. RECUPERAÇÃO JUDICIAL. RECUPERAÇÃO EXTRAJUDICIAL. INTERVENÇÃO E LIQUIDAÇÃO EXTRAJUDICIAL. FALÊNCIA DA EMPRESA. PROCESSO FALIMENTAR.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR224",
+          "name": "DIREITO COMERCIAL 4"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR440",
+          "name": "DIREITO EMPRESARIAL 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR480",
+          "name": "TÓPICOS ATUAIS DE DIREITO EMPRESARIAL"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO PROCESSUAL CIVIL 5",
+      "code": "PG523",
+      "ementa": "AÇÕES COLETIVAS. PROCESSO COLETIVO. JUIZADOS ESPECIAIS CÍVEIS.",
+      "hours": 30,
+      "semester": 7,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG313",
+          "name": "DIREITO PROCESSUAL CIVIL 5"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG522",
+          "name": "DIREITO PROCESSUAL CIVIL 4"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "INT0070",
+          "name": "PRÁTICA JURÍDICA CÍVEL"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO PROCESSUAL PENAL 2",
+      "code": "PG528",
+      "ementa": "MEDIDAS CAUTELARES SOBRE PESSOAS E SOBRE BENS. PRISÕES PROCESSUAIS PROVISÓRIAS, LIBERDADE PROVISÓRIA COM E SEM FIANÇA, HÁBEAS CORPUS E MANDADO DE SEGURANÇA. PROCEDIMENTOS, ORDINÁRIO, SUMÁRIO. JÚRI. PROCEDIMENTO SUMARÍSSIMO. JUIZADOS ESPECIAIS CRIMINAIS. NULIDADE E RECURSOS. REVISÃO PRO SOCIATE.",
+      "hours": 60,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG236",
+          "name": "DIREITO PROCESSUAL PENAL 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG527",
+          "name": "DIREITO PROCESSUAL PENAL I"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "INT0071",
+          "name": "PRÁTICA JURÍDICA PENAL"
+        },
+        {
+          "code": "PG548",
+          "name": "DIREITO PROCESSUAL PENAL MILITAR"
+        },
+        {
+          "code": "MS422",
+          "name": "MEDICINA LEGAL 1"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO SINDICAL E COLETIVO DO TRABALHO",
+      "code": "PE505",
+      "ementa": "HISTÓRIA DA ORGANIZAÇÃO OPERÁRIA E DOS MOVIMENTOS COLETIVOS REFORMISTAS E EMANCIPATÓRIOS. ORGANIZAÇÃO SINDICAL: CONCEITO, NATUREZA JURÍDICA, CLASSIFICAÇÃO, FINALIDADES. A ORGANIZAÇÃO SINDICAL NO CONTEXTO DO DIREITO INTERNACIONAL DO TRABALHO. ORGANIZAÇÃO SINDICAL BRASILEIRA: ESTRUTURA ORGANIZACIONAL. FASES ANARQUISTA, CORPORATIVISTA E PÓS-CONSTITUIÇÃO DE 1988. SISTEMAS DE REPRESENTAÇÃO EM NÍVEL DE EMPRESA. CO-GESTÃO E AUTO-GESTÃO. NEGOCIAÇÃO COLETIVA ENQUANTO PROCESSO NÃO ESTATAL DE FORMAÇÃO DA NORMA TRABALHISTA. AMBITOS DE VALIDADE MATERIAL, PESSOAL, ESPACIAL E TEMPORAL. NEGOCIAÇÃO COLETIVA E A EXPERIÊNCIA BRASILEIRA: OS ACORDOS, AS CONVENÇÕES E O CONTRATO COLETIVO DE TRABALHO. A GREVE NO DIREITO DO TRABALHO NA DOUTRINA DA OIT, UNIÃO EUROPEIA E NO BRASIL. O PROCESSO JURISDICIONAL DE FORMAÇÃO DA NORMA TRABALHISTA. O PODER NORMATIVO DA JUSTIÇA DO TRABALHO. O DIREITO SINDICAL OU COLETIVO DO TRABALHO NO CONTEXTO DAS TEORIAS DOS MOVIMENTOS SOCIAIS E DOS MOVIMENTOS SOCIAIS.",
+      "hours": 30,
+      "semester": 7,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE228",
+          "name": "DIREITO DO TRABALHO 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE468",
+          "name": "TEORIA GERAL DO DIREITO DO TRABALHO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PE469",
+          "name": "DIREITO INDIVIDUAL DO TRABALHO"
+        },
+        {
+          "code": "PG530",
+          "name": "DIREITO PROCESSUAL DO TRABALHO"
+        }
+      ]
+    },
+    {
+      "name": "ESTÁGIO SUPERVISIONADO 1",
+      "code": "INT0065",
+      "ementa": "ATIVIDADE A SER REALIZADA PELO DISCENTE EM INSTITUIÇÃO CONVENIADA COM A FACULDADE DE DIREITO DO RECIFE. O ESTÁGIO SE DESTINA AO CONTATO E APRENDIZADO DA PRÁTICA JURÍDICA, PODENDO SER REALIZADO EM ESCRITÓRIOS DE ADVOCACIA, DEFENSORIA PUBLICA ESTADUAL OU FEDERAL, PODER JUDICIÁRIO ESTADUAL OU FEDERAL E ÓRGÃOS DO MINISTÉRIO PÚBLICO, FEDERAL OU ESTADUAL.",
+      "hours": 120,
+      "semester": 7,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN232",
+          "name": "PRATICA JUDICIARIA"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG522",
+          "name": "DIREITO PROCESSUAL CIVIL 4"
+        },
+        {
+          "code": "PG527",
+          "name": "DIREITO PROCESSUAL PENAL I"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "INT0066",
+          "name": "ESTÁGIO SUPERVISIONADO 2"
+        }
+      ]
+    },
+    {
+      "name": "SOCIOLOGIA DO DIREITO",
+      "code": "PR443",
+      "ementa": "DIVULGAR O PENSAR SOCIOLOGICAMENTE O DIREITO. OS TEMAS A SEREM ABORDADOS SÃO: 1. VISÃO SOCIOLÓGICA DO DIREITO: PENSAR SOCIOLOGICAMENTE O DIREITO; O DIREITO NA TEORIA SOCIAL: DOS CLÁSSICOS À MODERNIDADE; ATORES DO DIREITO E A CONSTRUÇÃO SOCIAL DO DIREITO. A SOCIOLOGIA DO DIREITO NO ÂMBITO NACIONAL E INTERNACIONAL. TEORIAS SOCIOLÓGICAS DO DIREITO: DO PLURALISMO JURÍDICO, DIREITO LIVRE, DIREITO VIVO, DIREITO INFORMAL; DO REALISMO JURÍDICO, OLIVER HOLMES, HERBERT HART; CULTURALISMO; EPISTEMOLOGIA DO SUL; DECOLONIALIDADE. DIREITOS HUMANOS E MUDANÇA SOCIAL: DIREITO COM OBSTÁCULO E/OU INSTRUMENTO DE MUDANÇA SOCIAL; ESTADO, DIREITOS HUMANOS E SOCIEDADE MUNDIAL; MOVIMENTOS SOCIAIS E DIREITO. POLÍTICA PÚBLICA, DIREITO E SOCIEDADE: ACESSO À JUSTIÇA E QUESTÕES SOCIAIS; DESENVOLVIMENTO, DIREITO E SOCIEDADE. PROFISSÕES JURÍDICAS: ÉTICA E MORAL DAS PROFISSÕES JURÍDICAS; SOCIOLOGIA DA COMUNIDADE JURÍDICA.",
+      "hours": 30,
+      "semester": 7,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR427",
+          "name": "SOCIOLOGIA DO DIREITO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO ADMINISTRATIVO 2",
+      "code": "PE472",
+      "ementa": "LICITAÇÃO E NEGÓCIOS JURÍDICOS DA ADMINISTRAÇÃO PÚBLICA. O ESTADO E AS FORMAS DE INTERVENÇÃO NA PROPRIEDADE. O ESTADO E A ORDEM ECONÔMICA. RESPONSABILIDADE EXTRACONTRATUAL DO ESTADO. CONTROLE DOS ATOS E OMISSÕES DA ADMINISTRAÇÃO PÚBLICA.",
+      "hours": 60,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE202",
+          "name": "DIREITO ADMINISTRATIVO 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE470",
+          "name": "DIREITO ADMINISTRATIVO 1"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PE479",
+          "name": "FUNDAMENTOS DE SEGURIDADE SOCIAL"
+        },
+        {
+          "code": "PG547",
+          "name": "CONSTITUCIONAL IV"
+        },
+        {
+          "code": "PE484",
+          "name": "DIREITO ADMINISTRATIVO ECONÔMICO"
+        },
+        {
+          "code": "PG546",
+          "name": "DIREITO CONSTITUCIONAL 5"
+        },
+        {
+          "code": "PE485",
+          "name": "DIREITO PROCESSUAL ADMINISTRATIVO"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO FINANCEIRO",
+      "code": "PE473",
+      "ementa": "A FINANÇA PÚBLICA: ASPECTOS POLÍTICOS, ECONÔMICOS, ADMINISTRATIVOS E JURÍDICOS; RECEITA PÚBLICA; DESPESA PÚBLICA; ORÇAMENTO; CRÉDITO PÚBLICO.",
+      "hours": 30,
+      "semester": 8,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE292",
+          "name": "DIREITO FINANCEIRO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG524",
+          "name": "DIREITO CONSTITUCIONAL 1"
+        },
+        {
+          "code": "PG525",
+          "name": "DIREITO CONSTITUCIONAL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO INDIVIDUAL DO TRABALHO",
+      "code": "PE469",
+      "ementa": "RELAÇÃO DE TRABALHO E RELAÇÃO DE EMPREGO. REQUISITOS DE FORMAÇÃO. CONTRATO DE TRABALHO: NATUREZA JURÍDICA, ELEMENTOS ESSENCIAIS. SUJEITOS. SUCESSÃO TRABALHISTA. MODALIDADES DE CONTRATO DE TRABALHO. JORNADA DE TRABALHO. FÉRIAS. REMUNERAÇÃO E SALÁRIO. ALTERAÇÃO. SUSPENÇÃO E INTERRUPÇÃO. ESTABILIDADE. FUNDO DE GARANTIA DO TEMPO DE SERVIÇO. TERMINAÇÃO DO CONTRATO DE TRABALHO. HIGIENE E SEGURANÇA DO TRABALHO. TRABALHO DO MENOR E DA MULHER. ACIDENTE DE TRABALHO. RESPONSABILIDADE. DOENÇAS PROFISSIONAIS. TUTELAS ESPECÍFICAS. DIREITO DISCIPLINAR DO TRABALHO.",
+      "hours": 60,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE505",
+          "name": "DIREITO SINDICAL E COLETIVO DO TRABALHO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PE502",
+          "name": "DIREITO INTERNACIONAL DO TRABALHO E DIREITO INTERNO"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO INTERNACIONAL PÚBLICO",
+      "code": "PE471",
+      "ementa": "DEFINIÇÃO, CONCEITUAÇÃO E EVOLUÇÃO DO DIREITO INTERNACIONAL; A FORMAÇÃO DO DIREITO INTERNACIONAL; AS RELAÇÕES ENTRE O DIREITO INTERNO E INTERNACIONAL; PERSONALIDADE INTERNACIONAL; NACIONALIDADE E PROTEÇÃO AOS ESTRANGEIROS; RELAÇÕES DIPLOMÁTICAS E CONSULARES; A PESSOA HUMANA NO DIREITO INTERNACIONAL.",
+      "hours": 60,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE245",
+          "name": "DIREITO INTERNACIONAL PUBLICO 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PG531",
+          "name": "DIREITOS HUMANOS 1"
+        },
+        {
+          "code": "PE509",
+          "name": "DIREITO DAS ORGANIZAÇÕES INTERNACIONAIS"
+        },
+        {
+          "code": "PE511",
+          "name": "DIREITO DOS TRATADOS"
+        },
+        {
+          "code": "PE506",
+          "name": "DIREITO INTERNACIONAL DO MEIO AMBIENTE"
+        },
+        {
+          "code": "PE508",
+          "name": "DIREITO INTERNACIONAL DOS CONFLITOS ARMADOS"
+        },
+        {
+          "code": "PE507",
+          "name": "DIREITO INTERNACIONAL PENAL"
+        },
+        {
+          "code": "PE510",
+          "name": "JURISDICIDADE INTERNACIONAL"
+        },
+        {
+          "code": "PE488",
+          "name": "DIREITO DA UNIÃO EUROPEIA"
+        },
+        {
+          "code": "PE497",
+          "name": "DIREITO INTERNACIONAL DO MAR"
+        },
+        {
+          "code": "PE493",
+          "name": "DIREITO INTERNACIONAL ECONÔMICO"
+        }
+      ]
+    },
+    {
+      "name": "ESTÁGIO SUPERVISIONADO 2",
+      "code": "INT0066",
+      "ementa": "ATIVIDADE A SER REALIZADA PELO DISCENTE EM INSTITUIÇÃO CONVENIADA COM A FACULDADE DE DIREITO DO RECIFE. O ESTÁGIO SE DESTINA AO CONTATO E APRENDIZADO DA PRÁTICA JURÍDICA, PODENDO SER REALIZADO EM ESCRITÓRIOS DE ADVOCACIA, DEFENSORIA PUBLICA ESTADUAL OU FEDERAL, PODER JUDICIÁRIO ESTADUAL OU FEDERAL E ÓRGÃOS DO MINISTÉRIO PÚBLICO, FEDERAL OU ESTADUAL.",
+      "hours": 120,
+      "semester": 8,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN233",
+          "name": "CONCILIACAO,MEDIACAO E ARBITRAGEM"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "INT0065",
+          "name": "ESTÁGIO SUPERVISIONADO 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PROJETO DE TCC",
+      "code": "INT0067",
+      "ementa": "DESENVOLVIMENTO DO TCC (TRABALHO DE CONCLUSÃO DE CURSO) PELO DISCENTE SOB ORIENTAÇÃO DE UM DOCENTE DA FACULDADE DE DIREITO DO RECIFE. AO FINAL DO SEMESTRE O DISCENTE DEVERÁ DEPOSITAR, JUNTO AO DEPARTAMENTO A QUE ESTÁ VINCULADO O ORIENTADOR, VERSÃO ATUALIZADA DO TCC.",
+      "hours": 30,
+      "semester": 8,
+      "credits": 1,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR203",
+          "name": "ORIENTACAO MONOGRAFICA 1"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": [
+        {
+          "code": "INT0068",
+          "name": "TCC 1"
+        },
+        {
+          "code": "INT0069",
+          "name": "TCC 2"
+        }
+      ]
+    },
+    {
+      "name": "PRÁTICA JURÍDICA CÍVEL",
+      "code": "INT0070",
+      "ementa": "PRÁTICA CIVIL. ATUAÇÃO PRÁTICA DOS DIVERSOS OPERADORES JURÍDICOS. ANÁLISE DE CASOS CONCRETOS EM PROCESSOS REAIS. ELABORAÇÃO DE PEÇAS PROCESSUAIS E DECISÕES REFERENTES A CASOS REAIS E SIMULADOS. UTILIZAÇÃO ADEQUADA DA JURISPRUDÊNCIA E DA DOUTRINA NAS PEÇAS PROCESSUAIS. VISITAS GUIADAS A TRIBUNAIS. AÇÕES CONSTITUCIONAIS CÍVEIS.",
+      "hours": 60,
+      "semester": 8,
+      "credits": 3,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN231",
+          "name": "SIMULACAO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG523",
+          "name": "DIREITO PROCESSUAL CIVIL 5"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO INTERNACIONAL PRIVADO 1",
+      "code": "PE474",
+      "ementa": "O FENÔMENO DO FATO EXTRANACIONAL. CONFLITO DE LEIS: CONCEITO, DESENVOLVIMENTO HISTÓRICO E POLÊMICAS. APLICAÇÃO DO DIREITO ESTRANGEIRO, MÉTODO COLISIONAL, ELEMENTOS DE CONEXÃO E EXCLUDENTE DA APLICAÇÃO DO DIREITO ESTRANGEIRO. QUALIFICAÇÃO. PROVA DO DIREITO ESTRANGEIRO, PROVA ESTRANGEIRA, COOPERAÇÃO JUDICIÁRIA, COMPETÊNCIA INTERNACIONAL E HOMOLOGAÇÃO DE SENTENÇA ESTRANGEIRA. NACIONALIDADE DA PESSOA FÍSICA E DA PESSOA JURÍDICA. A CONDIÇÃO JURÍDICA DO ESTRANGEIRO: ENTRADA, DIREITOS E DEVERES PERMANÊNCIA, SAÍDA COMPULSÓRIA.",
+      "hours": 60,
+      "semester": 9,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE314",
+          "name": "DIREITO INTERNACIONAL PRIVADO 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PE475",
+          "name": "DIREITO INTERNACIONAL PRIVADO 2"
+        },
+        {
+          "code": "PG532",
+          "name": "ÉTICA E PROFISSÕES JURÍDICAS"
+        },
+        {
+          "code": "PE496",
+          "name": "DIREITO INTERNACIONAL PRIVADO 3"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO PROCESSUAL DO TRABALHO",
+      "code": "PG530",
+      "ementa": "SOLUÇÃO DE CONFLITOS TRABALHISTAS. DIREITO PROCESSUAL TRABALHISTA: GENERALIDADES. JUSTIÇA DO TRABALHO: ESTRUTURA E COMPETÊNCIA. MINISTÉRIO PÚBLICO DO TRABALHO. SUJEITOS PROCESSUAIS: JUIZ DO TRABALHO, PROCURADOR DO TRABALHO, PARTES PROCESSUAIS E INTERVENÇÃO DE TERCEIROS. ATOS, TERMOS, PRAZOS E NULIDADES PROCESSUAIS. PROCEDIMENTOS DO PROCESSO TRABALHISTA. FASES DO DISSÍDIO INDIVIDUAL: POSTULATÓRIA, RESPOSTA DO RECLAMADO, PROBATÓRIA E DECISÓRIA. DISSÍDIO COLETIVO: PROCEDIMENTO E SENTENÇA NORMATIVA. SISTEMA RECURSAL TRABALHISTA: PRESSUPOSTOS RECURSAIS, EFEITOS E RECURSOS EM ESPÉCIE. LIQUIDAÇÃO NO PROCESSO TRABALHISTA: FORMAS E PROCEDIMENTOS. EXECUÇÃO TRABALHISTA: TÍTULO EXECUTIVO, MODALIDADES DE EXECUÇÃO E PROCEDIMENTO EXECUTÓRIO. EMBARGOS À EXECUÇÃO. AÇÃO RESCISÓRIA E OUTRAS AÇÕES CÍVEIS ADMISSÍVEIS NO ÂMBITO DA JUSTIÇA DO TRABALHO.",
+      "hours": 60,
+      "semester": 9,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE505",
+          "name": "DIREITO SINDICAL E COLETIVO DO TRABALHO"
+        },
+        {
+          "code": "PG517",
+          "name": "TEORIA GERAL DO PROCESSO"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "INT0073",
+          "name": "PRÁTICA JURÍDICA TRABALHISTA"
+        }
+      ]
+    },
+    {
+      "name": "DIREITOS HUMANOS 1",
+      "code": "PG531",
+      "ementa": "EDUCAÇÃO, METODOLOGIA E DIREITOS HUMANOS. EMBATE JUSNATURALISTA E POSITIVISTA JURÍDICO SOBRE OS DIREITOS HUMANOS. ORGANIZAÇÕES INTERNACIONAIS E DIREITOS HUMANOS. ESTADO E DIREITOS HUMANOS. EFICÁCIA DOS DIREITOS HUMANOS. DEMOCRACIA E DIREITOS HUMANOS. VIOLÊNCIA, SOCIEDADE DISCIPLINAR E DIREITOS HUMANOS.",
+      "hours": 30,
+      "semester": 9,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG248",
+          "name": "DIREITOS HUMANOS"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE471",
+          "name": "DIREITO INTERNACIONAL PÚBLICO"
+        },
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PG544",
+          "name": "DIREITOS HUMANOS 2"
+        }
+      ]
+    },
+    {
+      "name": "PRÁTICA JURÍDICA PENAL",
+      "code": "INT0071",
+      "ementa": "PRÁTICA PENAL. ATUAÇÃO PRÁTICA DOS DIVERSOS OPERADORES JURÍDICOS. ANÁLISE DE CASOS CONCRETOS EM PROCESSOS REAIS. ELABORAÇÃO DE PEÇAS PROCESSUAIS E DECISÕES REFERENTES A CASOS REAIS E SIMULADOS. UTILIZAÇÃO ADEQUADA DA JURISPRUDÊNCIA E DA DOUTRINA NAS PEÇAS PROCESSUAIS. VISITAS GUIADAS A TRIBUNAIS. AÇÕES CONSTITUCIONAIS CÍVEIS.",
+      "hours": 30,
+      "semester": 9,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN231",
+          "name": "SIMULACAO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG528",
+          "name": "DIREITO PROCESSUAL PENAL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "SISTEMA CONSTITUCIONAL TRIBUTÁRIO",
+      "code": "PE476",
+      "ementa": "SISTEMA CONSTITUCIONAL TRIBUTÁRIO. REPARTIÇÃO DE RENDAS E REPARTIÇÃO DE RECEITAS. PODER DE TRIBUTAR. COMPETÊNCIA TRIBUTÁRIA. TITULARES. ESPÉCIES TRIBUTÁRIAS. LEI COMPLEMENTAR EM MATÉRIA TRIBUTÁRIA. LIMITAÇÕES CONSTITUCIONAIS AO PODER DE TRIBUTAR. PRINCÍPIOS CONSTITUCIONAIS TRIBUTÁRIOS. IMUNIDADES.",
+      "hours": 60,
+      "semester": 9,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE248",
+          "name": "DIREITO TRIBUTARIO 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG524",
+          "name": "DIREITO CONSTITUCIONAL 1"
+        },
+        {
+          "code": "PG525",
+          "name": "DIREITO CONSTITUCIONAL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TCC 1",
+      "code": "INT0068",
+      "ementa": "ESTA ATIVIDADE CURRICULAR DESTINA-SE AO DESENVOLVIMENTO DO TCC (TRABALHO DE CONCLUSÃO DE CURSO) A SER DESENVOLVIDO PELO DISCENTE SOB ORIENTAÇÃO DE UM DOCENTE DA FACULDADE DE DIREITO DO RECIFE. AO FINAL DO SEMESTRE O DISCENTE DEVERÁ DEPOSITAR, JUNTO AO DEPARTAMENTO A QUE ESTÁ VINCULADO O ORIENTADOR, VERSÃO ATUALIZADA DO TCC.",
+      "hours": 30,
+      "semester": 9,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR208",
+          "name": "ORIENTACAO MONOGRAFICA 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "INT0067",
+          "name": "PROJETO DE TCC"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "INT0072",
+          "name": "TCC 3"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO AMBIENTAL",
+      "code": "PE478",
+      "ementa": "NOÇÕES PRELIMINARES: TUTELA JURÍDICA DO MEIO AMBIENTE; DIREITO AMBIENTAL BRASILEIRO: CONSTITUIÇÃO FEDERAL E MEIO AMBIENTE; O DIREITO AO MEIO AMBIENTE EQUILIBRADO E DANO AMBIENTAL; POLUIÇÃO; DANO ECOLÓGICO; REPARAÇÃO AO DANO ECOLÓGICO; ADMINISTRAÇÃO AMBIENTAL: SISTEMA E POLÍTICA NACIONAL DO MEIO AMBIENTE; PROTEÇÃO DA NATUREZA E DO PATRIMÔNIO AMBIENTAL; REMÉDIOS PROCESSUAIS PARA PROTEÇÃO DO MEIO AMBIENTE; PROTEÇÃO INTERNACIONAL DO MEIO AMBIENTE.",
+      "hours": 30,
+      "semester": 10,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE325",
+          "name": "DIREITO AMBIENTAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO INTERNACIONAL PRIVADO 2",
+      "code": "PE475",
+      "ementa": "ESTUDO DA PARTE ESPECIAL DO DIREITO INTERNACIONAL PRIVADO, COM A SOLUÇÃO DE CONFLITOS DE LEIS NO ESPAÇO. ESTUDO DAS PRINCIPAIS QUESTÕES ENVOLVENDO DIREITO DE FAMÍLIA, DIREITO DAS SUCESSÕES E DIREITO DAS COISAS",
+      "hours": 30,
+      "semester": 10,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE474",
+          "name": "DIREITO INTERNACIONAL PRIVADO 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "FILOSOFIA DO DIREITO",
+      "code": "PR444",
+      "ementa": "CAMPO DE INVESTIGAÇÃO. AXIOLOGIA JURÍDICA FUNDAMENTAL: O PROBLEMA DA JUSTIÇA. DIREITO NATURAL CLÁSSICO E CONCEPÇÕES DERIVADAS. POSITIVISMO JURÍDICO. MONISMO E PLURALISMO NA FILOSOFIA DO DIREITO: A CONCEPÇÃO TRIDIMENSIONAL DO DIREITO. A TEORIA PURA DO DIREITO E A ERGOLOGIA JURÍDICA. INVESTIGAÇÃO JUSFILOSÓFICA E CIÊNCIA DOGMÁTICA DO DIREITO.  QUESTÃO FUNDAMENTAL DA DEMARCAÇÃO DO OBJETO DA CIÊNCIA DO DIREITO. LÓGICO DEÔNTICA E LÓGICA DIALÉTICA NO DIREITO. EPISTEMOLOGIA JURÍDICA.",
+      "hours": 60,
+      "semester": 10,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR205",
+          "name": "FILOSOFIA DO DIREITO 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR464",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR473",
+          "name": "FILOSOFIA DO DIREITO 2"
+        }
+      ]
+    },
+    {
+      "name": "FUNDAMENTOS DE SEGURIDADE SOCIAL",
+      "code": "PE479",
+      "ementa": "ANTECEDENTES HISTÓRICOS DA SEGURIDADE SOCIAL. SEGURIDADE SOCIAL, PREVIDÊNCIA SOCIAL E ASSISTÊNCIA SOCIAL. RELAÇÃO ENTRE SEGURIDADE SOCIAL, ECONOMIA E ESTADO. DIREITO DA SEGURIDADE SOCIAL. FONTES, INTEPRETAÇÃO E INTEGRAÇÃO DO DIREITO DA SEGURIDADE SOCIAL. REGIMES PREVIDENCIÁRIOS. DIREITO ADQUIRIDO EM MATÉRIA PREVIDENCIÁRIA. PRINCÍPIOS DA SEGURIDADE SOCIAL. O PAPEL DO FINANCIAMENTO NA CONSTITUIÇÃO DAS POLÍTICAS DE SEGURIDADE SOCIAL.",
+      "hours": 30,
+      "semester": 10,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE472",
+          "name": "DIREITO ADMINISTRATIVO 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "NORMAS GERAIS DE DIREITO TRIBUTÁRIO",
+      "code": "PE477",
+      "ementa": "AS NORMAS GERAIS DO DIREITO TRIBUTÁRIO: O CÓDIGO TRIBUTÁRIO NACIONAL; FATO GERADOR (HIPÓTESE DE INCIDÊNCIA) DO TRIBUTO; A RELAÇÃO OBRIGATÓRIA TRIBUTÁRIA; OBRIGAÇÃO TRIBUTÁRIA PRINCIPAL E ACESSÓRIA; LANÇAMENTO TRIBUTÁRIO; CAUSAS DE SUSPENSÃO, EXTINÇÃO E EXCLUSÃO DO CRÉDITO TRIBUTÁRIO. GARANTIAS E PRIVILÉGIOS DO CRÉDITO TRIBUTÁRIO. ADMINISTRAÇÃO TRIBUTÁRIA.",
+      "hours": 60,
+      "semester": 10,
+      "credits": 4,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PE249",
+          "name": "DIREITO TRIBUTARIO 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG524",
+          "name": "DIREITO CONSTITUCIONAL 1"
+        },
+        {
+          "code": "PG525",
+          "name": "DIREITO CONSTITUCIONAL 2"
+        },
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PG547",
+          "name": "CONSTITUCIONAL IV"
+        },
+        {
+          "code": "PE484",
+          "name": "DIREITO ADMINISTRATIVO ECONÔMICO"
+        },
+        {
+          "code": "PG546",
+          "name": "DIREITO CONSTITUCIONAL 5"
+        },
+        {
+          "code": "PE515",
+          "name": "DIREITO TRIBUTÁRIO INTERNACIONAL"
+        }
+      ]
+    },
+    {
+      "name": "PRÁTICA JURÍDICA TRABALHISTA",
+      "code": "INT0073",
+      "ementa": "PRÁTICA EM QUESTÕES TRABALHISTAS. ATUAÇÃO PRÁTICA DOS DIVERSOS OPERADORES JURÍDICOS. ANÁLISE DE CASOS CONCRETOS EM PROCESSOS REAIS. ELABORAÇÃO DE PEÇAS PROCESSUAIS E DECISÕES REFERENTES A CASOS REAIS E SIMULADOS. UTILIZAÇÃO ADEQUADA DA JURISPRUDÊNCIA E DA DOUTRINA NAS PEÇAS PROCESSUAIS. VISITAS GUIADAS A TRIBUNAIS. AÇÕES CONSTITUCIONAIS CÍVEIS.",
+      "hours": 30,
+      "semester": 10,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "IN231",
+          "name": "SIMULACAO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG530",
+          "name": "DIREITO PROCESSUAL DO TRABALHO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TCC 2",
+      "code": "INT0069",
+      "ementa": "ESTA ATIVIDADE CURRICULAR DESTINA-SE AO DESENVOLVIMENTO DO TCC (TRABALHO DE CONCLUSÃO DE CURSO) A SER DESENVOLVIDO PELO DISCENTE SOB ORIENTAÇÃO DE UM DOCENTE DA FACULDADE DE DIREITO DO RECIFE. AO FINAL DO SEMESTRE O DISCENTE DEVERÁ DEPOSITAR, JUNTO AO DEPARTAMENTO A QUE ESTÁ VINCULADO O ORIENTADOR, VERSÃO ATUALIZADA DO TCC.",
+      "hours": 30,
+      "semester": 10,
+      "credits": 1,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR209",
+          "name": "ORIENTACAO MONOGRAFICA 3"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "INT0067",
+          "name": "PROJETO DE TCC"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TCC 3",
+      "code": "INT0072",
+      "ementa": "ESTA ATIVIDADE CURRICULAR DESTINA-SE À APRESENTAÇÃO DO TCC (MONOGRAFIA OU DO TRABALHO DE EXTENSÃO REALIZADO), PERANTE COMISSÃO EXAMINADORA, COMPOSTA POR DOIS OU TRÊS AVALIADORES, SENDO O PRESIDENTE DA COMISSÃO O ORIENTADOR.",
+      "hours": 30,
+      "semester": 11,
+      "credits": 1,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PR235",
+          "name": "ORIENTACAO MONOGRAFICA 4"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "INT0068",
+          "name": "TCC 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "ÉTICA E PROFISSÕES JURÍDICAS",
+      "code": "PG532",
+      "ementa": "IDEIAS FUNDAMENTAIS SOBRE ÉTICA PROFISSIONAL DO JURISTA. EXERCÍCIO DA ADVOCACIA, DA MAGISTRATURA, DO MINISTÉRIO PÚBLICO, DA POLÍCIA JUDICIÁRIA E DO TABELIONATO E ESCRIVANIA.",
+      "hours": 30,
+      "semester": 11,
+      "credits": 2,
+      "isObligatory": true,
+      "equivalences": [
+        {
+          "code": "PG237",
+          "name": "ETICA E LEGISLACAO PROFISSIONAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE474",
+          "name": "DIREITO INTERNACIONAL PRIVADO 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO DAS ORGANIZAÇÕES INTERNACIONAIS",
+      "code": "PE509",
+      "ementa": "ANÁLISE DA ORIGEM E EVOLUÇÃO DAS ORGANIZAÇÕES INTERNACIONAIS; TEORIZAÇÃO DEFINITÓRIA E CONCEITUAL DAS ORGANIZAÇÕES INTERNACIONAIS; EXAME DOS MODELOS CLASSIFICATÓRIOS DAS ORGANIZAÇÕES INTERNACIONAIS; ALCANCE E EXTENSÃO DA ATUAÇÃO DOS ORGANISMOS INTERNACIONAIS.",
+      "hours": 30,
+      "semester": 11,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE471",
+          "name": "DIREITO INTERNACIONAL PÚBLICO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO DOS TRATADOS",
+      "code": "PE511",
+      "ementa": "ANÁLISE DOS TRATADOS INTERNACIONAIS A PARTIR DE SUAS ORIGENS E CARACTERÍSTICAS; EXAME QUANTO AO ALCANCE E EXTENSÃO DA COMPETÊNCIA DE SUJEITOS E PESSOAS JURÍDICAS QUANTO A VIGÊNCIA, OBSERVÂNCIA E EXTINÇÃO DOS TRATADOS; ESTUDO DA APLICABILIDADE DOS TRATADOS INTERNACIONAIS NOS SISTEMAS JURÍDICOS INTERNOS; ANÁLISE EM PERSPECTIVA DA ORGANICIDADE DOS TRATADOS.",
+      "hours": 30,
+      "semester": 11,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE471",
+          "name": "DIREITO INTERNACIONAL PÚBLICO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO INTERNACIONAL DO MEIO AMBIENTE",
+      "code": "PE506",
+      "ementa": "ANÁLISE DA ORIGEM E EVOLUÇÃO DO DIREITO INTERNACIONAL DO MEIO AMBIENTE; EXAME DAS FONTES DO DIREITO INTERNACIONAL DO MEIO AMBIENTE; ESTUDO DA PROTEÇÃO DOS RECURSOS VIVOS; ANÁLISE DA RESPONSABILIDADE INTERNACIONAL NA ESFERA AMBIENTAL.",
+      "hours": 30,
+      "semester": 11,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE287",
+          "name": "DIREITO AMBIENTAL INTERNACIONAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE471",
+          "name": "DIREITO INTERNACIONAL PÚBLICO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO INTERNACIONAL DOS CONFLITOS ARMADOS",
+      "code": "PE508",
+      "ementa": "NOÇÕES EPISTÊMICO JURÍDICA DE CONFLITOS ARMADOS E GUERRAS; PRESSUPOSTOS FACTUAIS E CARACTERIZAÇÃO DOS QUADROS BELIGERANTES; INTRODUÇÃO EPISTÊMICO E TÉCNICA AO DIREITO HUMANITÁRIO; DISTINÇÃO ENTRE DIREITOS INTERNACIONAL HUMANITÁRIO E DIREITOS HUMANOS E DOS REFUGIADOS; ANÁLISE DAS INTERVENÇÕES ARMADAS INTERNACIONAIS; NOÇÕES EPISTÊMICO JURÍDICA DE APATRÍADE, REFÚGIO E ASILO: ORIGEM, PRESSUPOSTOS E CONDIÇÕES LEGAIS DECORRENTES DE CONFLITOS ARMADOS; TIPOLOGIA DA NEUTRALIDADE.",
+      "hours": 30,
+      "semester": 11,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE471",
+          "name": "DIREITO INTERNACIONAL PÚBLICO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO INTERNACIONAL PENAL",
+      "code": "PE507",
+      "ementa": "CRIMINALIDADE INTERNACIONAL; INSTÂNCIAS JUDICIÁRIAS INTERNACIONAIS: ESTRUTURALIDADES, FUNCIONALIDADES, COMPETÊNCIAS E PRINCÍPIOS DE ORIENTAÇÃO OPERACIONAL; TIPOLOGIA DA CRIMINALIDADE JURÍDICA INTERNACIONAL; SANCIONABILIDADE E PENALIDADE JURÍDICA INTERNACIONAL.",
+      "hours": 30,
+      "semester": 11,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE284",
+          "name": "DIREITO PENAL INTERNACIONAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE471",
+          "name": "DIREITO INTERNACIONAL PÚBLICO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO PENAL COMPLEMENTAR 2",
+      "code": "PE513",
+      "ementa": "SISTEMA DA LEGISLAÇÃO ESPARSA EM MATÉRIA PENAL. TIPOS EM ESPÉCIE.",
+      "hours": 30,
+      "semester": 11,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE260",
+          "name": "DIREITO PENAL COMPLEMENTAR 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE466",
+          "name": "DIREITO PENAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "JURISDICIDADE INTERNACIONAL",
+      "code": "PE510",
+      "ementa": "INTRODUÇÃO EPISTÊMICA AO DIREITO INTERNACIONAL PÚBLICO. ALTERNATIVAS DE REFERÊNCIAS LEGAIS INTERNACIONAIS: FONTES E TÉCNICAS HERMENÊUTICAS. SUBJETIVIDADE E PERSONALIDADE JURÍDICA INTERNACIONAL. CONTROVÉRSIAS INTERNACIONAIS: MEIOS DE SOLUÇÃO PACÍFICA, SANÇÕES INTERNACIONAIS; JURISDICIDADE INTERNACIONAL PELOS PROCESSOS DE COOPERAÇÃO E INTEGRAÇÃO.",
+      "hours": 30,
+      "semester": 11,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE471",
+          "name": "DIREITO INTERNACIONAL PÚBLICO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "POLÍTICA CRIMINAL",
+      "code": "PE514",
+      "ementa": "POLÍTICA CRIMINAL NO MARCO GERAL DA CIÊNCIA PENAL. PRINCÍPIOS DA POLÍTICA CRIMINAL. MOVIMENTOS DE POLÍTICA CRIMINAL. POLÍTICA CRIMINAL: MODELOS DE ESTADO E MODELOS SOCIETÁRIOS. DETERMINAÇÃO DA CONDUTA PUNÍVEL. PERSECUÇÃO DO CRIME E EXECUÇÃO. PREVENÇÃO DO CRIME. SUPERAÇÃO DAS CONSEQUÊNCIAS DO CRIME",
+      "hours": 30,
+      "semester": 11,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE267",
+          "name": "POLITICA CRIMINAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE466",
+          "name": "DIREITO PENAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "CONCENTRAÇÃO EMPRESARIAL",
+      "code": "PR485",
+      "ementa": "APRESENTAR AS NOÇÕES ACERCA DA CARACTERIZAÇÃO DAS OPERAÇÕES DE CONCENTRAÇÃO EMPRESARIAL BEM COMO O CONTROLE PELOS ÓRGÃOS COMPETENTES.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CONDOMÍNIO E INCORPORAÇÕES",
+      "code": "PR457",
+      "ementa": "CONDOMÍNIO E INCORPORAÇÕES ¿ A DISCIPLINA SE PROPÕE A EXAMINAR OS INSTITUTOS DO CONDOMÍNIO EDILÍCIO E DA INCORPORAÇÃO IMOBILIÁRIA, ANALISANDO SUA TEORIA E REGULAMENTAÇÃO POSITIVA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR433",
+          "name": "DIREITO CIVIL 4"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "CONSTITUCIONAL IV",
+      "code": "PG547",
+      "ementa": "ANÁLISE DO PROCESSO CONSTITUCIONAL BRASILEIRO À LUZ DO DIREITO COMPARADO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PG239",
+          "name": "DIREITO CONSTITUCIONAL 4"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE472",
+          "name": "DIREITO ADMINISTRATIVO 2"
+        },
+        {
+          "code": "PE477",
+          "name": "NORMAS GERAIS DE DIREITO TRIBUTÁRIO"
+        },
+        {
+          "code": "PG518",
+          "name": "TEORIA DA CONSTITUIÇÃO"
+        },
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "CONTRATOS EMPRESARIAIS ESPECIAIS",
+      "code": "PR465",
+      "ementa": "O ESTUDO, ANÁLISE, CRÍTICA E APLICAÇÃO DE ALGUNS IMPORTANTES CONTRATOS NA ÁREA EMPRESARIAL E SUAS ESPECIFICIDADES.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR440",
+          "name": "DIREITO EMPRESARIAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "CONTRATOS INTERNACIONAIS DO COMÉRCIO 1",
+      "code": "PE494",
+      "ementa": "ESTUDO DA PARTE ESPECIAL DO DIREITO INTERNACIONAL PRIVADO CONCERNE AOS CONTRATOS INTERNACIONAIS DO COMÉRCIO. NEGÓCIO JURÍDICO INTERNACIONAL. DEFINIÇÃO DE CONTRATOS NA DIVERSIDADE LEGISLATIVA (COMMON LAW E PARTICULARIDADES DO CIVIL LAW). CONCEITO. CRITÉRIOS PARA DEFINIÇÃO DO QUE É UM CONTRATO INTERNACIONAL. INTRODUÇÃO A METODOLOGIA DO DEPEÇAGE.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CONTRATOS INTERNACIONAIS DO COMÉRCIO 2",
+      "code": "PE495",
+      "ementa": "ESTUDO DA PARTE ESPECIAL DO DIREITO INTERNACIONAL PRIVADO ENVOLVENDO OS NEGÓCIOS JURÍDICOS INTERNACIONAIS E SUA FORMA CONTRATUAL. INTRODUÇÃO AO SOFT LAW ESTUDO DOS ELEMENTOS COMPONENTES DOS CONTRATOS INTERNACIONAIS- AS CLÁUSULAS TÍPICAS. ANÁLISE DOS PRINCIPAIS DOCUMENTOS DE HARMONIZAÇÃO, UNIFICAÇÃO E UNIFORMIZAÇÃO DE CONTRATOS INTERNACIONAIS ANÁLISE DA RECEPTIVIDADE BRASILEIRA SOBRE OS CONTRATOS INTERNACIONAIS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "CRÍTICA DO DIREITO SUMULAR DO TRABALHO",
+      "code": "PE501",
+      "ementa": "INTRODUÇÃO. A TRIPARTIÇÃO DOS PODERES. A FUNÇÃO REVISORA DOS TRIBUNAIS. GLOBALIZAÇÃO, NEOLIBERALISMO E FLEXIBILIZAÇÃO. ATIVISMO JUDICIAL E O LIMITE DA ATUAÇÃO DOS JUÍZES. CRIAÇÃO DE SÚMULAS E A FUNÇÃO LEGIFERANTE. POSIÇÃO JURISPRUDENCIAL SUMULADA PELO TST. JURISPRUDÊNCIA SUMULADA DOS TRIBUNAIS REGIONAIS. ATIVISMO JUDICIAL E FLEXIBILIZAÇÃO. DIREITO SUMULADO E EFETIVIDADE DO DIREITO DO TRABALHO. CASUÍSTICA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "DECISÃO JUDICIAL E SOCIEDADE",
+      "code": "PR456",
+      "ementa": "A DECISÃO JUDICIAL ENVOLVE FATORES QUE NÃO OS LIMITADOS PELAS NORMAS JURÍDICAS ESTATAIS, PARA COMPREENSÃO DA EFICÁCIA DO DIREITO A DISCIPLINA ABORDARÁ TEMAS COMO: ATORES DA DECISÃO JUDICIAL; DECISÃO JURÍDICA E DECISÃO JUDICIAL; TEORIA DA DECISÃO APLICADA AO DIREITO; DISCURSO COMO ELEMENTO CONSTITUTIVO DO DIREITO; A FORMAÇÃO DE SENTIDO DO DIREITO POR MEIO DA DECISÃO JUDICIAL; FATORES PRESENTES NA TOMADA DE DECISÃO JUDICIAL; INFLUÊNCIA DE FATORES SOCIAIS NA DECISÃO JUDICIAL; MOVIMENTOS SOCIAIS E DECISÃO JUDICIAL; INFLUÊNCIA DE DECISÕES DE ORGANISMOS INTERNACIONAIS E SUPRANACIONAIS NOS DISCURSOS JURÍDICOS DE ÓRGÃO DO PODER JUDICIÁRIO NACIONAL. ESTUDO DE CASOS. SOCIOLOGIA DA CONSTITUIÇÃO. TRANSCONSTITUCIONALISMO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR436",
+          "name": "HERMENÊUTICA JURÍDICA"
+        },
+        {
+          "code": "PR464",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO CONSTITUCIONAL COMPARADO",
+      "code": "PG542",
+      "ementa": "A DISCIPLINA SE DESTINA AO ESTUDO DO DIREITO COMPARADO CONSIDERANDO SUA HISTÓRIA. ESTUDO DOS MÉTODOS DO DIREITO COMPARADO. SISTEMAS E FAMÍLIAS DE DIREITO. DIREITO CONSTITUCIONAL COMPARADO: ESPECIFICIDADES. JURISDIÇÃO CONSTITUCIONAL E DIREITO COMPARADO. GRANDES SISTEMAS DO CONSTITUCIONALISMO OCIDENTAL. FAMÍLIA CONSTITUCIONAL LUSÓFONA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO ADMINISTRATIVO ECONÔMICO",
+      "code": "PE484",
+      "ementa": "ESTUDO DOS TEMAS DE DIREITO ADMINISTRATIVO ECONÔMICO, TAIS COMO ESTADO, DIREITO E ECONOMIA; A ORDEM ECONÔMICA NA CONSTITUIÇÃO BRASILEIRA; FORMAS DE INTERVENÇÃO DO ESTADO NA ECONOMIA. O ESTADO EMPRESÁRIO. O ESTADO REGULADOR E O ESTADO INCENTIVADOR. CONCEITO DE REGULAÇÃO E CARACTERÍSTICAS. AS AGÊNCIAS REGULADORAS NA REALIDADE BRASILEIRA. O DIREITO DE CONCORRÊNCIA E O PAPEL DO CADE. A PROPRIEDADE NA CONSTITUIÇÃO DE 1988. FUNÇÃO SOCIAL DA PROPRIEDADE. FORMAS DE INTERVENÇÃO ESTATAL. SISTEMA FINANCEIRO NACIONAL. CARACTERÍSTICAS. ATUAÇÃO DO BACEN.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE324",
+          "name": "DIREITO ADMINISTRATIVO ECONOMICO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE472",
+          "name": "DIREITO ADMINISTRATIVO 2"
+        },
+        {
+          "code": "PE477",
+          "name": "NORMAS GERAIS DE DIREITO TRIBUTÁRIO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO AGRÁRIO",
+      "code": "PR451",
+      "ementa": "PRINCÍPIOS DO DIREITO AGRÁRIO. INSERÇÃO NO QUADRO GERAL DO DIREITO BRASILEIRO. REFORMA AGRÁRIA. ESTATUTO DA TERRA. FUNÇÃO SOCIOAMBIENTAL DA PROPRIEDADE. PROTEÇÃO DO TRABALHO RURAL. USO DA TERRA. CONCEITO E ESPÉCIES DE IMÓVEL RURAL. DA COLONIZAÇÃO NO BRASIL. DO INCRA. DO COOPERATIVISMO. DA TRIBUTAÇÃO RURAL. DO CRÉDITO RURAL. REGIME DE TERRAS NO BRASIL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PR424",
+          "name": "DIREITO AGRARIO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR433",
+          "name": "DIREITO CIVIL 4"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO BANCÁRIO",
+      "code": "PR466",
+      "ementa": "O ESTUDO, ANÁLISE, CRÍTICA E APLICAÇÃO DE ATUAIS RELACIONADOS A DIREITO BANCÁRIO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PR420",
+          "name": "DIREITO BANCARIO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR440",
+          "name": "DIREITO EMPRESARIAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO CIBERNÉTICO",
+      "code": "PR448",
+      "ementa": "INTRODUÇÃO AO DIREITO CIBERNÉTICO. COMPUTADORES, SISTEMAS E RECURSOS ELETRÔNICOS. INFORMÁTICA JURÍDICA. A INTERNET E RELAÇÕES JURÍDICAS NO CIBERESPAÇO. DOCUMENTO ELETRÔNICO. CONTRATOS ELETRÔNICOS E RELAÇÕES COMERCIAIS E DE CONSUMO NA INTERNET. ATOS ELETRÔNICOS NA ADMINISTRAÇÃO PÚBLICA. PROCESSO JUDICIAL ELETRÔNICO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PR231",
+          "name": "DIREITO DA INFORMATICA"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR435",
+          "name": "DIREITO CIVIL 6"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO CONSTITUCIONAL 5",
+      "code": "PG546",
+      "ementa": "ATUALIZAÇÃO E REVISÃO TEMÁTICA. EMENDAS RECENTES SOBRE A ORDEM ECONÔMICA E FINANCEIRA. EMENDAS RECENTES SOBRE A ORDEM SOCIAL. EMENDAS RECENTES SOBRE AS DISPOSIÇÕES GERAIS. EMENDAS RECENTES SOBRE AS DISPOSIÇÕES TRANSITÓRIAS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE472",
+          "name": "DIREITO ADMINISTRATIVO 2"
+        },
+        {
+          "code": "PE477",
+          "name": "NORMAS GERAIS DE DIREITO TRIBUTÁRIO"
+        },
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO CONSTITUCIONAL ESTADUAL",
+      "code": "PG545",
+      "ementa": "O PODER CONSTITUINTE DECORRENTE. AUTO-ORGANIZAÇÃO DO ESTADO-MEMBRO. PRINCÍPIOS CONSTITUCIONAIS APLICÁVEIS AOS ESTADOS. LIBERDADE E LIMITES DA CONSTITUIÇÃO ESTADUAL. A CONSTITUIÇÃO DO ESTADO DE PERNAMBUCO. A ORGANIZAÇÃO DO ESTADO. A ORGANIZAÇÃO DOS MUNICÍPIOS. AS REGIÕES. A ADMINISTRAÇÃO PÚBLICA. TRIBUTAÇÃO E ORÇAMENTO. A ORDEM ECONÔMICA. A ORDEM SOCIAL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PG241",
+          "name": "DIREITO CONSTITUCIONAL ESTADUAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO DA COMUNICAÇÃO E DA INFORMAÇÃO",
+      "code": "PG539",
+      "ementa": "COMUNICAÇÃO SOCIAL E CONSTITUIÇÃO; LIBERDADES E COMUNICAÇÃO; MONOPÓLIO E CONCENTRAÇÃO DA COMUNICAÇÃO; IMPRENSA E ATIVIDADE JORNALÍSTICA; DISCURSO DO ÓDIO; PROTEÇÃO DA INFÂNCIA E JUVENTUDE; DIREITO À INFORMAÇÃO PÚBLICA; DADOS PESSOAIS E DIREITO À INFORMAÇÃO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO DA CRIANÇA E DO ADOLESCENTE",
+      "code": "PR450",
+      "ementa": "INTRODUÇÃO AO TEMA E PERSPECTIVA TEÓRICA ADOTADA NO SISTEMA BRASILEIRO DE PROTEÇÃO (COMPARAÇÃO DE POSTURAS ENTRE A TEORIA DA SITUAÇÃO IRREGULAR E A TEORIA DA PROTEÇÃO INTEGRAL), DOS DIREITOS FUNDAMENTAIS, DO DIREITO À CONVIVÊNCIA FAMILIAR E COMUNITÁRIA, DO DIREITO À EDUCAÇÃO, À CULTURA, AO ESPORTE E AO LAZER, DO DIREITO À PROFISSIONALIZAÇÃO, DOS PRINCÍPIOS APLICÁVEIS, DA POLÍTICA DE ATENDIMENTO, ENTIDADES DE ATENDIMENTO E MEDIDAS ESPECÍFICAS DE PROTEÇÃO, DA PRÁTICA DO ATO INFRACIONAL, DIREITOS INDIVIDUAIS E GARANTIAS PROCESSUAIS, DAS MEDIAS SOCIOEDUCATIVAS, DA REMISSÃO, DAS MEDIDAS APLICÁVEIS AOS PAIS E RESPONSÁVEIS, DO CONSELHO TUTELAR, DO ACESSO À JUSTIÇA, ORGANIZAÇÃO DA JUSTIÇA DA INFÂNCIA E DA JUVENTUDE E PROCEDIMENTOS ESPECÍFICOS, DOS CRIMES E INFRAÇÕES ADMINISTRATIVAS E DISPOSIÇÕES FINAIS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PG301",
+          "name": "DIREITO DO MENOR"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR434",
+          "name": "DIREITO CIVIL 5"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO DA FAMÍLIA APLICADO",
+      "code": "PR467",
+      "ementa": "O ESTUDO, ANÁLISE, CRÍTICA E APLICAÇÃO DE ALGUNS IMPORTANTES INSTITUTOS NO DIREITO DE FAMÍLIA; E NA PERSPECTIVA DOS JULGADOS PELOS TRIBUNAIS SUPERIORES.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR434",
+          "name": "DIREITO CIVIL 5"
+        },
+        {
+          "code": "PR436",
+          "name": "HERMENÊUTICA JURÍDICA"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO DA INTEGRAÇÃO REGIONAL NA AMÉRICA LATINA 1",
+      "code": "PE489",
+      "ementa": "O PROCESSO DE INTEGRAÇÃO NA AMÉRICA LATINA. ANTECEDENTES DOS PROCESSOS DE INTEGRAÇÃO E ASSOCIAÇÕES INTERNACIONAIS NA AMÉRICA LATINA. O DIREITO DA INTEGRAÇÃO REGIONAL NA AMÉRICA LATINA. PRINCIPAIS ORGANIZAÇÕES DE INTEGRAÇÃO E SUAS ATRIBUIÇÕES.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO DA INTEGRAÇÃO REGIONAL NA AMÉRICA LATINA 2",
+      "code": "PE490",
+      "ementa": "O PROCESSO DE INTEGRAÇÃO MERCOSUL. OS ACORDOS ANTECEDENTES AO TRATADO DE ASSUNÇÃO. A FASE PROVISÓRIA E A FASE DEFINITIVA. AS FONTES DO DIREITO NO MERCOSUL. O SISTEMA DE SOLUÇÃO DE CONTROVÉRSIAS. OS PRINCIPAIS ACORDOS E AS NEGOCIAÇÕES COM OUTRAS ORGANIZAÇÕES INTERNACIONAIS DE INTEGRAÇÃO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO DA UNIÃO EUROPEIA",
+      "code": "PE488",
+      "ementa": "FORMAÇÃO E EVOLUÇÃO DAS COMUNIDADES; NATUREZA JURÍDICA DA COMUNIDADE; O ORDENAMENTO JURÍDICO COMUNITÁRIO; PRINCÍPIOS COMUNITÁRIOS; AS LIBERDADES FUNDAMENTAIS DE CIRCULAÇÃO: MERCADORIAS, PESSOAS, SERVIÇOS E CAPITAIS; POLÍTICA ECONÔMICA E MONETÁRIA COMUNITÁRIA; NACIONALISMO E COMUNITARISMO; JURISDIÇÃO COMUNITÁRIA; INTERPRETAÇÃO DAS NORMAS DE DIREITO COMUNITÁRIO; UNIÃO EUROPEIA; COMUNIDADES DOS POVOS DE LÍNGUA PORTUGUESA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE471",
+          "name": "DIREITO INTERNACIONAL PÚBLICO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO DE MARCAS",
+      "code": "PR468",
+      "ementa": "O ESTUDO, ANÁLISE, CRÍTICA E APLICAÇÃO DE ATUAIS RELACIONADOS A DIREITO DE MARCAS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR440",
+          "name": "DIREITO EMPRESARIAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO DE PATENTES",
+      "code": "PR469",
+      "ementa": "O ESTUDO, ANÁLISE, CRÍTICA E APLICAÇÃO DE ALGUNS IMPORTANTES TÓPICOS DE DIREITO DE PATENTES.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR440",
+          "name": "DIREITO EMPRESARIAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO DO COMÉRCIO INTERNACIONAL 1",
+      "code": "PE486",
+      "ementa": "A REGULAMENTAÇÃO DO COMÉRCIO INTERNACIONAL. EVOLUÇÃO DO MÉTODO DE NEGOCIAÇÃO DE LIBERALIZAÇÃO DO COMÉRCIO DO GATT À OMC. A SOLUÇÃO DE CONTROVÉRSIAS COMERCIAIS NO ÂMBITO DA OMC. ACORDO TRIPS E PROPRIEDADE INTELECTUAL. ACORDO GATS E SERVIÇOS. ACORDO TRIMS E INVESTIMENTOS. O DIREITO APLICÁVEL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO DO COMÉRCIO INTERNACIONAL 2",
+      "code": "PE487",
+      "ementa": "COMERCIO MARÍTIMO E DIREITO INTERNACIONAL PRIVADO CÂMARA DE COMERCIO INTERNACIONAL. INCOTERMS. REGIME JURÍDICO DOS CONTEINERS. SOLUÇÃO DE CONTROVÉRSIAS VIA ARBITRAGEM INTERNACIONAL",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO E GÊNERO",
+      "code": "PG551",
+      "ementa": "1. PRINCÍPIOS CONSTITUCIONAIS, EFETIVIDADE E A PROTEÇÃO DA MULHER. 2. TEORIAS FEMINISTAS. 3. DIREITOS SEXUAIS E REPRODUTIVOS COMO DIREITOS HUMANOS. 4. VIOLÊNCIA DE GÊNERO, VIOLÊNCIA OBSTÉTRICA E CULTURA DO ESTUPRO. 5. GÊNERO E DIREITO À CIDADE. 6. GÊNERO, POLÍTICAS PÚBLICAS E POLÍTICAS AFIRMATIVAS. 7. DEMANDAS DE GÊNERO E REGULAMENTAÇÃO DO ESTADO: FEMINICÍDIO, LEI MARIA DA PENHA, CRIMINALIZAÇÃO DA HOMO-LESBO-BI-TRANSFOBIA, REGULAMENTAÇÃO DO TRABALHO SEXUAL. 8. O RECONHECIMENTO DAS UNIÕES HOMOAFETIVAS PELO STF. 9. GÊNERO E COMPORTAMENTO DECISIONAL DOS TRIBUNAIS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG524",
+          "name": "DIREITO CONSTITUCIONAL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO E SOCIEDADE NA AMÉRICA LATINA",
+      "code": "PR461",
+      "ementa": "O CURSO ESTÁ VOLTADO AO ESTUDO DOS MOVIMENTOS SOCIAIS NA AMÉRICA LATINA E SUAS CONSEQUÊNCIAS PARA O DIREITO NACIONAL, INTERNACIONAL, ESPONTÂNEO E SUPRANACIONAL. INCLUSÃO E EXLCUSÃO NA SOCIEDADE LATINO AMERICANA. PLURALISMO JURÍDICO E AS FONTES ESTATAIS DO DIREITO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR464",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO HABITACIONAL",
+      "code": "PR453",
+      "ementa": "DIREITO DE PROPRIEDADE: FACULDADES INTEGRANTES. FUNÇÃO SOCIOAMBIENTAL DA PROPRIEDADE: ASPECTOS DO DIREITO FUNDAMENTAL À MORADIA. DIREITO FUNDAMENTAL À MORADIA: INSTRUMENTOS DE PROMOÇÃO INDIVIDUAL E COLETIVA. EVOLUÇÃO DA POLÍTICA HABITACIONAL BRASILEIRA. SISTEMA FINANCEIRO DE HABITAÇÃO ¿ SFH. SISTEMA FINANCEIRO IMOBILIÁRIO ¿ SFI. PROGRAMAS POPULARES DE HABITAÇÃO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR433",
+          "name": "DIREITO CIVIL 4"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO INTERNACIONAL DO MAR",
+      "code": "PE497",
+      "ementa": "ANÁLISE DA EVOLUÇÃO HISTÓRICA DA DISCIPLINA; ESTUDO DAS DIFERENTES ZONAS MARÍTIMAS CODIFICADAS PELA CONVENÇÃO DAS NAÇÕES UNIDAS SOBRE O DIREITO DO MAR. EXAME DAS PRINCIPAIS INSTITUIÇÕES DO DIREITO DO MAR. ANÁLISE DAS IMPLICAÇÕES CONCERNENTES AO APROVEITAMENTO DOS RECURSOS DO MAR.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE471",
+          "name": "DIREITO INTERNACIONAL PÚBLICO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO INTERNACIONAL DO TRABALHO E DIREITO INTERNO",
+      "code": "PE502",
+      "ementa": "ANTECEDENTES DO SURGIMENTO DO DIT E A IMPLANTAÇÃO DA OIT. A ESTRUTURA ORGANIZATIVA DA OIT. A ESTRUTURA NORMATIVA DA OIT. CONVENÇÕES FUNDAMENTAIS DA OIT E A AGENDA DO TRABALHO DECENTE. A INCORPORAÇÃO DAS NORMAS DA OIT AO DIREITO INTERNO. A APLICABILIDADE JUDICIAL DAS NORMAS INTERNACIONAIS DO TRABALHO. FONTES DO DIT EMANADAS DA ONU. FONTES DO DIT E DIREITO COMUNITÁRIO: UE E MERCOSUL. O SISTEMA INTERAMERICANO DE DIREITOS HUMANOS. O CONTROLE DE CONVENCIONALIDADE.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE272",
+          "name": "DIREITO INTERNACIONAL DO TRABALHO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE469",
+          "name": "DIREITO INDIVIDUAL DO TRABALHO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO INTERNACIONAL ECONÔMICO",
+      "code": "PE493",
+      "ementa": "ORIGENS E EVOLUÇÃO DO DIREITO INTERNACIONAL ECONÔMICO; ANÁLISE DAS PRINCIPAIS ORGANIZAÇÕES INTERNACIONAIS DE CARÁTER ECONÔMICO; IDENTIFICAÇÃO DO SURGIMENTO E IMPLICAÇÕES DO MULTILATERALISMO E REGIONALISMO; TRANSMUDAÇÕES JURÍDICO-NORMATIVAS ASSOCIADAS AO CRESCIMENTO E DESENVOLVIMENTO INTERNACIONAL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE282",
+          "name": "DIREITO ECONOMICO INTERNACIONAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE471",
+          "name": "DIREITO INTERNACIONAL PÚBLICO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO INTERNACIONAL PRIVADO 3",
+      "code": "PE496",
+      "ementa": "ESTUDO DA PARTE ESPECIAL DO DIREITO INTERNACIONAL PRIVADO. ESTUDO DA PERSONALIDADE JURÍDICA DAS PESSOAS JURÍDICAS NO DIREITO INTERNACIONAL PRIVADO. EMPRESAS INTERNACIONAIS, MULTINACIONAIS, TRANSNACIONAIS. JOINT VENTURES. OBRIGAÇÕES ENVOLVENDO PESSOAS JURÍDICAS. INVESTIMENTOS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE474",
+          "name": "DIREITO INTERNACIONAL PRIVADO 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO MARÍTIMO I",
+      "code": "PR470",
+      "ementa": "INTRODUÇÃO AO DIREITO MARÍTIMO. DIREITO MARÍTIMO E O DIREITO PORTUÁRIO. NAVIO E EMBARCAÇÃO. ELEMENTOS INDIVIDUALIZAÇÕES DA EMBARCAÇÃO. REQUISITOS DE SUSTENTABILIDADE. MEIO AMBIENTE E OBRIGAÇÕES MARÍTIMAS. PORTO DE REGISTRO. TRABALHADOR MARÍTIMO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR432",
+          "name": "DIREITO CIVIL 3"
+        },
+        {
+          "code": "PR433",
+          "name": "DIREITO CIVIL 4"
+        },
+        {
+          "code": "PR440",
+          "name": "DIREITO EMPRESARIAL 3"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "PR471",
+          "name": "DIREITO MARÍTIMO II"
+        }
+      ]
+    },
+    {
+      "name": "DIREITO MARÍTIMO II",
+      "code": "PR471",
+      "ementa": "INCIDENTES DA NAVEGAÇÃO. ACIDENTES E FATOS A NAVEGAÇÃO. PROCESSO MARÍTIMO. TRIBUNAL MARÍTIMO. COMPETÊNCIA E JURISDIÇÃO. INQUÉRITO ADMINISTRATIVO E OS MEIOS DE PROVA. EMBARCAÇÕES ESTRANGEIRAS. DOCUMENTOS PROBATÓRIOS. IRREGULARIDADES ADMINISTRATIVAS. RESPONSABILIDADES. CONTRATO DE TRANSPORTE DE CARGA E DE PASSAGEIRO. RESPONSABILIDADE CIVIL. REGULAÇÃO DO TRANSPORTE MARÍTIMO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR470",
+          "name": "DIREITO MARÍTIMO I"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO MÉDICO E DO PACIENTE",
+      "code": "PR482",
+      "ementa": "ESTUDO DA RELAÇÃO MÉDICO-PACIENTE E AS PRINCIPAIS CONSEQUENCIAS E EFEITOS NAS RELAÇÕES JURÍDICAS, EM ESPECIAL DIANTE DAS NOVAS SITUAÇÕES QUE SE APRESENTAM COM O AVANÇO BIO-TECNOLÓGICO. INICIA-SE COM O ESTUDO DA ÉTICA-MÉDICA, O QUE ENVOLVE A RELAÇÃO MÉDICO-PACIENTE, E OS PRINCÍPIOS BÁSICOS DA BIOÉTICA QUE SE REVELAM NO INÍCIO DA VIDA ATÉ A MORTE. ANÁLISE DA RESPONSABILIDADE CIVIL MÉDICA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR434",
+          "name": "DIREITO CIVIL 5"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO NOTARIAL E REGISTRAL",
+      "code": "PR459",
+      "ementa": "DIREITO NOTARIAL E REGISTRAL ¿ A DISCIPLINA SE PROPÕE A EXAMINAR OS RAMOS DO DIREITO QUE SERVEM À PREVENÇÃO DE CONFLITOS E À SEGURANÇA JURÍDICA NA VIA EXTRAJUDICIAL, ANALISANDO A TEORIA E REGULAMENTAÇÃO POSITIVA DO DIREITO NOTARIAL E DO DIREITO DOS REGISTROS PÚBLICOS, ABRANGENDO O REGISTRO DE IMÓVEIS, DE PESSOAS NATURAIS, DE PESSOAS JURÍDICAS E DE TÍTULOS E DOCUMENTOS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR433",
+          "name": "DIREITO CIVIL 4"
+        },
+        {
+          "code": "PR435",
+          "name": "DIREITO CIVIL 6"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO PENAL COMPLEMENTAR 1",
+      "code": "PE499",
+      "ementa": "SISTEMA DA LEGISLAÇÃO ESPARSA EM MATÉRIA PENAL. TIPOS EM ESPÉCIE.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE294",
+          "name": "DIREITO PENAL COMPLEMENTAR 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE466",
+          "name": "DIREITO PENAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO PENAL ECONÔMICO",
+      "code": "PE498",
+      "ementa": "CONCEITO, MÉTODO E BEM JURÍDICO DO DIREITO PENAL ECONÔMICO. TIPOS EM ESPÉCIE.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE261",
+          "name": "DIREITO PENAL ECONOMICO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE466",
+          "name": "DIREITO PENAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO PRIVADO ROMANO",
+      "code": "PR472",
+      "ementa": "NOÇÕES DE DIREITO PRIVADO ROMANO E SUAS INFLUÊNCIAS SOBRE AS CATEGORIAS DO DIREITO PRIVADO CONTEMPORÂNEO. PESSOAS. DIREITO DAS OBRIGAÇÕES (CONTRATOS). DIREITO DAS COISAS. DIREITO DE FAMÍLIA. DIREITO DAS SUCESSÕES.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PR243",
+          "name": "DIREITO PRIVADO ROMANO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR431",
+          "name": "DIREITO CIVIL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO PROCESSUAL ADMINISTRATIVO",
+      "code": "PE485",
+      "ementa": "A PROCESSUALIDADE NA ADMINSTRAÇÃO PÚBLICA. PRINCÍPIOS DO PROCESSO ADMINISTRATIVO. ASPECTOS GERAIS DA LEI DE PROCESSO ADMINISTRATIVO FEDERAL. O PROCESSO ADMINISTRATIVO DISCIPLINAR.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE472",
+          "name": "DIREITO ADMINISTRATIVO 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO PROCESSUAL ARBITRAL",
+      "code": "PG536",
+      "ementa": "BREVE REVISÃO HISTÓRICA DA COMPOSIÇÃO DE CONFLITOS. ACESSO À JUSTIÇA E CRISE DA JURISDIÇÃO ESTATAL: MEIOS ALTERNATIVOS DE RESOLUÇÃO DE LITÍGIOS. HETEROCOMPOSIÇÃO EXTRA-ESTATAL: ARBITRAGEM ¿ LEI Nº. 9.037/1996. PROCESSO E PROCEDIMENTO ARBITRAL. REQUISITOS DE ADMISSIBILIDADE DO JUÍZO ARBITRAL. CONVENÇÃO ARBITRAL: CLÁUSULA COMPROMISSÓRIA E COMPROMISSO ARBITRAL. EFEITOS DA CLÁUSULA COMPROMISSÓRIA E DO COMPROMISSO ARBITRAL. ÁRBITROS. FASES DE DESENVOLVIMENTO DO PROCEDIMENTO ARBITRAL. DECISÕES E SENTENÇA ARBITRAL. RECURSOS E MEIOS DE IMPUGNAÇÃO. EXECUÇÃO DA SENTENÇA ARBITRAL. TUTELA CAUTELAR ARBITRAL",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG520",
+          "name": "DIREITO PROCESSUAL CIVIL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO PROCESSUAL PENAL MILITAR",
+      "code": "PG548",
+      "ementa": "OBJETO DA DISCIPLINA. EVOLUÇÃO HISTÓRICA DO PROCESSO PENAL MILITAR. ESTUDO DE DIREITO COMPARADO. A JUSTIÇA MILITAR ¿ ESTRUTURA E ORGANIZAÇÃO EM TEMPO DE PAZ E DE GUERRA.SISTEMA ACUSATÓRIO. INVESTIGAÇÃO CRIMINAL. AÇÃO PENAL MILITAR: PRINCÍPIOS E REGRAS NUCLEARES. PROCEDIMENTOS ESPECIAIS E PROCEDIMENTOS ORDINÁRIOS. TEORIA DA PROVA NO PROCESSO PENAL MILITAR. MEDIDAS PREVENTIVAS E ASSECURATÓRIAS. TEORIA DAS NULIDADES. SISTEMA DO ESCABINATO. EXECUÇÃO DA SANÇÃO PENAL MILITAR E SEUS INCIDENTES.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PG244",
+          "name": "DIREITO PROCESSUAL PENAL MILITAR"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG528",
+          "name": "DIREITO PROCESSUAL PENAL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO PÚBLICO ROMANO",
+      "code": "PG550",
+      "ementa": "CONCEITO DE DIREITO EM ROMA. ¿STATUS LIBERTATIS¿ E ¿STATUS CIVITATIS¿. A CONSTITUIÇÃO POLÍTICA DA CIDADE. A REPÚBLICA. A MAGISTRATURA E O SENADO. JUS GENTIUM. A CONFEDERAÇÃO ITALIANA. O MUNICÍPIO. AS COLÔNIAS. A CONSTITUIÇÃO IMPERIAL. A ORGANIZAÇÃO DAS PROVÍNCIAS. OS FUNCIONÁRIOS IMPERIAIS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PG243",
+          "name": "DIREITO PUBLICO ROMANO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO ROMANO",
+      "code": "PR455",
+      "ementa": "ORGANIZAÇÃO DO DIREITO ROMANO. HISTÓRIA E FONTES DO DIREITO ROMANO. FORMAÇÃO E DESENVOLVIMENTO DO DIREITO ROMANO. EXPANSÃO DO DIREITO ROMANO E CAUSAS DO SEU DESENVOLVIMENTO. INFLUÊNCIA UNIVERSAL DO DIREITO ROMANO. INFLUÊNCIA DO DIREITO ROMANO SOBRE A LEGISLAÇÃO BRASILEIRA E A CODIFICAÇÃO DE INSTITUTOS CLÁSSICOS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR430",
+          "name": "DIREITO CIVIL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO SINDICAL E TEORIA SOCIAL CRÍTICA",
+      "code": "PE504",
+      "ementa": "A HISTÓRIA DA FORMAÇÃO OPERÁRIA, DO SINDICATO E DO SINDICALISMO NO CONTEXTO DOS MOVIMENTOS REFORMISTAS E EMANCIPATÓRIOS. OS FUNDAMENTOS JURÍDICOS DO SINDICATO E DO SINDICALISMO NA DOUTRINA CLÁSSICA. A NEGLIGÊNCIA DA DOUTRINA CLÁSSICA ACERCA DOS FUNDAMENTOS HISTÓRICOS E POLÍTICOS DO SINDICATO E DO SINDICALISMO. ¿TRABALHAR O MUNDO. OS CAMINHOS DO NOVO INTERNACIONALISMO OPERÁRIO.¿ AS LUTAS PERÁRIAS CONTEMPORÂNEAS NO CONTEXTO DAS TEORIAS DOS MOVIMENTOS SOCIAIS. RECONFIGURAÇÃO TEÓRICO-DOGMÁTICA DO SINDICATO E DO SINDICALISMO A PARTIR DA TEORIA SOCIAL CRÍTICA E DAS TEORIAS DOS MOVIMENTOS SOCIAIS. A NEGOCIAÇÃO COLETIVA E A GREVE. PARA ALÉM DA DOGMÁTICA JURÍDICA E A DOUTRINA DA OIT",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO TESTAMENTÁRIO E PLANEJAMENTO SUCESSÓRIO",
+      "code": "PR445",
+      "ementa": "DIREITO TESTAMENTÁRIO E PLANEJAMENTO SUCESSÓRIO ¿ A DISCIPLINA SE PROPÕE A EXAMINAR A INFLUÊNCIA DA AUTONOMIA PRIVADA SOBRE O FENÔMENO DA SUCESSÃO HEREDITÁRIA, ABRANGENDO A TEORIA DO DIREITO TESTAMENTÁRIO, AS MODALIDADES TESTAMENTÁRIAS E SUA DISCIPLINA, BEM COMO AS DEMAIS SOLUÇÕES SOCIETÁRIAS E NEGOCIAIS UTILIZADAS PARA A REGULAMENTAÇÃO VOLUNTÁRIA DA TRANSMISSÃO DA HERANÇA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR435",
+          "name": "DIREITO CIVIL 6"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO TRIBUTÁRIO INTERNACIONAL",
+      "code": "PE515",
+      "ementa": "A DISCIPLINA DIREITO TRIBUTÁRIO INTERNACIONAL VISA CONSTRUIR UMA BASE TEÓRICO-CONCEITUAL, EM RELAÇÃO AOS TEMAS INERENTES À TRIBUTAÇÃO NO CONTEXTO DA GLOBALIZAÇÃO ECONÔMICA INTERNACIONAL. NESSE CONTEXTO, O PROGRAMA DARÁ UMA AMPLA COBERTURA SOBRE OS FUNDAMENTOS TEÓRICOS E A APLICAÇÃO PRÁTICA DOS CONCEITOS DO DIREITO TRIBUTÁRIO INTERNACIONAL, COM ÊNFASE NOS TEMAS: SOBERANIA FISCAL DOS ESTADOS-NACIONAIS, TRATADOS TRIBUTÁRIOS INTERNACIONAIS, PREÇOS DE TRANSFERÊNCIA E PLANEJAMENTO TRIBUTÁRIO INTERNACIONAL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PE477",
+          "name": "NORMAS GERAIS DE DIREITO TRIBUTÁRIO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO TRIBUTÁRIO NA JURISPRUDÊNCIA",
+      "code": "PE483",
+      "ementa": "REALISMO JURÍDICA TRIBUTAÇÃO. A PERSPECTIVA REALISTA E SUA INFLUÊNCIA DO DIREITO TRIBUTÁRIO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG524",
+          "name": "DIREITO CONSTITUCIONAL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITO URBANÍSTICO",
+      "code": "PR454",
+      "ementa": "FUNDAMENTOS; REGIME JURÍDICO DA ATIVIDADE URBANÍSTICA; CONCEITO DE DIREITO URBANÍSTICO; NORMAS DE DIREITO URBANÍSTICO; O DIREITO URBANÍSTICO NA CONSTITUIÇÃO FEDERAL; DISCIPLINA URBANÍSTICA DA PROPRIEDADE URBANA; PLANEJAMENTO URBANÍSTICO; ORDENAÇÃO JURÍDICO-URBANÍSTICA DO SOLO; ORDENAÇÃO DE PAISAGEM URBANA; PROTEÇÃO AMBIENTAL; TURISMO; INTERVENÇÃO E CONTROLE URBANÍSTICO; INSTRUMENTOS DE CONTROLE REPRESSIVO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE254",
+          "name": "DIREITO URBANISTICO"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR433",
+          "name": "DIREITO CIVIL 4"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "DIREITOS HUMANOS 2",
+      "code": "PG544",
+      "ementa": "O ESTADO DE DIREITO. AS DECLARAÇÕES DE DIREITOS. O CULTO À LEI. O GENOCÍDIO. A ESCRAVIDÃO. A PENA DE MORTE. A TORTURA. DIREITO DAS MINORIAS. A TOLERÂNCIA. ÓRGÃOS E TRIBUNAIS DE DIREITOS HUMANOS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        },
+        {
+          "code": "PG531",
+          "name": "DIREITOS HUMANOS 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "EXECUÇÃO PENAL",
+      "code": "PE500",
+      "ementa": "SISTEMA DA EXECUÇÃO PENAL. APLICAÇÃO SISTEMÁTICA DA EXECUÇÃO PENAL E DAS NORMAS REFERENTES À PENA NO CÓDIGO PENAL. CRÍTICA JURISPRUDENCIAL À EXECUÇÃO PENAL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE322",
+          "name": "DIREITO DA EXECUCAO PENAL"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PE466",
+          "name": "DIREITO PENAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "FAZENDA PÚBLICA EM JUÍZO",
+      "code": "PG537",
+      "ementa": "CONCEITO DE FAZENDA PÚBLICA. PRERROGATIVAS DA FAZENDA PÚBLICA EM JUÍZO. DOS PRAZOS DA FAZENDA PÚBLICA. A PRESCRIÇÃO DAS PRETENSÕES FORMULADAS CONTRA A FAZENDA PÚBLICA. A FAZENDA PÚBLICA COMO RÉ. DESPESAS, HONORÁRIOS SUCUMBENCIAIS, DEPÓSITOS JUDICIAIS, CUSTAS, MULTAS E A FAZENDA PÚBLICA. DA INTERVENÇÃO ANÔMALA. DA DENUNCIAÇÃO À LIDE PELA FAZENDA PÚBLICA. DA TUTELA ANTECIPADA CONTRA A FAZENDA PÚBLICA. A FAZENDA PÚBLICA E A AÇÃO MONITÓRIA. A FAZENDA PÚBLICA NOS JUIZADOS ESPECIAIS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE472",
+          "name": "DIREITO ADMINISTRATIVO 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG522",
+          "name": "DIREITO PROCESSUAL CIVIL 4"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "FILOSOFIA DO DIREITO 2",
+      "code": "PR473",
+      "ementa": "O ESTUDO, ANÁLISE, CRÍTICA DE TEMAS FUNDAMENTAIS PARA A COMPREENSÃO DO DISSENSO ÉTICO NA CONTEMPORANEIDADE. PARTE DO PRESSUPOSTO DO ESGOTAMENTO DO PROJETO RACIONAL-INDIVIDUALISTA E DISCUTE ALTERNATIVAS PARA A CONSTRUÇÃO DE UMA FILOSOFIA DA DIFERENÇA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PR244",
+          "name": "FILOSOFIA DO DIREITO 2"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR444",
+          "name": "FILOSOFIA DO DIREITO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA CONSTITUCIONAL BRASILEIRA",
+      "code": "PG543",
+      "ementa": "HISTÓRIA DAS CONSTITUIÇÕES BRASILEIRAS. A FORMAÇÃO HISTÓRICA DO DIREITO CONSTITUCIONAL. TEMAS ATUAIS DO CONSTITUCIONALISMO. NEOCONSTITUCIONALISMO E DECISÃO JURÍDICA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DA ORGANIZAÇÃO OPERÁRIA BRASILEIRA",
+      "code": "PE503",
+      "ementa": "A DIALÉTICA DA COLONIZAÇÃO E O TRABALHO ESCRAVO NO BRASIL. O NAVIO NEGREIRO. MÁQUINAS E OPERÁRIOS NO SÉCULO XIX. ANARQUISTAS, IMIGRANTES E O MOVIMENTO OPEÁRIO BRASILEIRO ENTRE 1890 E 1920. DA REVOLUÇÃO DE 30 AO ESTADO NOVO. A ESTRUTURA SINDICAL DE RAIZ CORPORTIVA. A CONEXÃO IDEOLÓGICA DO CORPORATIVISMO ENTRE ORDEM POLÍTICA E ORDEM JURÍDICA O SINDICALISMO BRASILEIRO PÓS-CONSTITUINTE. O SINDICALISMO BRASILEIRO E O NOVO INTERNACIONALISMO OPERÁRIO. O SINDICALISMO BRASILEIRO E OS NOVOS MOVIMENTOS SOCIAIS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DO DIREITO PRIVADO MODERNO",
+      "code": "PR474",
+      "ementa": "ANTECEDENTES MEDIEVAIS DO DIREITO PRIVADO MODERNO. RECEPÇÃO DO DIREITO ROMANO NA ALEMANHA. ILUMINISMO E JUSRACIONALISMO. ESCOLA HISTÓRICA. ESCOLA DOS PANDECTISTAS. O PROCESSO DE CODIFICAÇÃO NA EUROPA NO SÉCULO XIX.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR429",
+          "name": "HISTÓRIA DO DIREITO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "HISTÓRIA DO DIREITO PROCESSUAL",
+      "code": "PG534",
+      "ementa": "PROCESSO CIVIL ROMANO. PROCESSO CIVIL MEDIEVAL. HISTÓRIA DO PROCESSO CIVIL PORTUGUÊS MEDIEVAL E MODERNO. INFLUÊNCIA DO PROCESSO ROMANO E DO PROCESSO CANÔNICO. HISTÓRIA DO PROCESSO CIVIL BRASILEIRO. AS ORDENAÇÕES DO REINO. O REGULAMENTO 737. OS CÓDIGOS ESTADUAIS. O CÓDIGO DE PROCESSO CIVIL 1939. O CÓDIGO DE PROCESSO CIVIL DE 1973 E AS REFORMAS LEGISLATIVAS. O NOVO CÓDIGO DE PROCESSO CIVIL E AS PERSPECTIVAS DO PROCESSO CIVIL CONTEMPORÂNEO",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG517",
+          "name": "TEORIA GERAL DO PROCESSO"
+        },
+        {
+          "code": "PG519",
+          "name": "DIREITO PROCESSUAL CIVIL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "INOVAÇÃO, SOCIEDADE E DIREITO",
+      "code": "PR449",
+      "ementa": "A DISCIPLINA ESTA VOLTADA AO DEBATE E PESQUISA DA DIMENSÃO JURÍDICA DA INOVAÇÃO COM ÊNFASE NA PROPRIEDADE INDUSTRIAL, O QUE ENVOLVE ABORDAR CONCEITOS, INSTITUTOS E ASPECTOS JURÍDICOS E SOCIOLÓGICOS DA INOVAÇÃO. SERÃO TRABALHOS OS ATORES DA INOVAÇÃO; A INOVAÇÃO COMO FATOR DE DESENVOLVIMENTO SOCIAL; TECNOLOGIA E MODERNIDADE; INOVAÇÃO TECNOLÓGICA E SOCIEDADE; CAMINHOS DA INOVAÇÃO; A PROTEÇÃO INTELECTUAL E A SOCIEDADE; INSTRUMENTOS JURÍDICOS DE PROTEÇÃO DA PROPRIEDADE INTELECTUAL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR464",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "INTRODUÇÃO A LIBRAS",
+      "code": "LE716",
+      "ementa": "REFLEXÃO SOBRE OS ASPECTOS HISTÓRICOS DA INCLUSÃO DAS PESSOAS SURDAS NA SOCIEDADE EM GERAL E NA ESCOLA; A LIBRAS COMO LÍNGUA DE COMUNICAÇÃO SOCIAL EM CONTEXTO DE COMUNICAÇÃO ENTRE PESSOAS SURDAS E COMO SEGUNDA LÍNGUA. ESTRUTURA LINGUÍSTICA E GRAMATICAL DE LIBRAS. ESPECIFICIDADES DA ESCRITA DO ALUNO SURDO. NA PRODUÇÃO DE TEXTO EM LÍNGUA PORTUGUESA. O INTÉRPRETE E A INTERPRETAÇÃO COMO FATOR DE INCLUSÃO E ACESSO EDUCACIONAL PARA OS ALUNOS SURDOS OU COM BAIXA AUDIÇÃO.",
+      "hours": 60,
+      "semester": 0,
+      "credits": 4,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "JUSTIÇA RESTAURATIVA",
+      "code": "PR484",
+      "ementa": "ELEMENTOS DA JUSTIÇA RESTAURATIVA. SOLUÇÕES DE CONFLITO E SOCIEDADE. JUSTIÇA RESTAURATIVA E SOCIAIS DE IMPLEMENTAÇÃO. CICLOS RESTAURATIVOS. JUSTIÇA RESTAURATIVA E PODER JUDICIÁRIO. JUSTIÇA RESTAURATIVA E CULTURA DE PAZ. JUSTIÇA RESTAURATIVA E COMUNIDADE. A JUSTIÇA RESTAURATIVA NO BRASIL E NO MUNDO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "JUSTIÇA TRIBUTÁRIA",
+      "code": "PE482",
+      "ementa": "TRIBUTAÇÃO E JUSTIÇA. O PRINCÍPIO DA ISONOMIA. O PRINCÍPIO DA CAPACIDADE ECONÔMICA. O PRINCÍPIO DA PROIBIÇÃO DO CONFISCO. A PROGRESSIVIDADE NA TRIBUTAÇÃO. O DEVER DE PAGAR IMPOSTOS. O IMPOSTO NEGATIVO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG524",
+          "name": "DIREITO CONSTITUCIONAL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "LINGUAGEM E REDAÇÃO JURÍDICA",
+      "code": "PR463",
+      "ementa": "ESTUDO DE FATORES LINGUÍSTICOS E EXTRALINGUÍSTICOS REFERENTES À PRODUÇÃO DE TEXTOS. CONHECIMENTO DA TÉCNICA DA NARRATIVA E DA ARGUMENTAÇÃO. LEITURA E INTERPRETAÇÃO DE TEXTOS JURÍDICOS. O ESTILO DO TEXTO JURÍDICO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR436",
+          "name": "HERMENÊUTICA JURÍDICA"
+        },
+        {
+          "code": "PR464",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "LOCAÇÃO IMOBILIÁRIA",
+      "code": "PR458",
+      "ementa": "LOCAÇÃO IMOBILIÁRIA ¿ A DISCIPLINA SE PROPÕE A EXAMINAR O RAMO DO DIREITO PRIVADO QUE SERVE À PROMOÇÃO DO DIREITO DE MORADIA POR MEIO DO CONTRATO DE LOCAÇÃO, ANALISANDO SUA TEORIA E REGULAMENTAÇÃO POSITIVA, FEITA POR MEIO DO MICROSSISTEMA LEGISLATIVO DA LEI DO INQUILINATO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR433",
+          "name": "DIREITO CIVIL 4"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "LÓGICA E DIREITO",
+      "code": "PR462",
+      "ementa": "INTRODUÇÃO À HISTÓRIA DA LÓGICA. CORRELAÇÕES ENTRE LÓGICA, RETÓRICA E RACIOCÍNIO DOS JURISTAS NA DECISÃO DE CASOS. TEORIA DA ARGUMENTAÇÃO. FALÁCIAS. LÓGICA FORMAL E TEORIA DO DIREITO. LÓGICA E INFORMÁTICA JURÍDICA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR464",
+          "name": "INTRODUÇÃO AO ESTUDO DO DIREITO 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "MEDIAÇÃO E CONCILIAÇÃO",
+      "code": "PG535",
+      "ementa": "MEIOS EXTRAJUDICIAIS OU ALTERNATIVOS DE SOLUC¿A¿O DE CONFLITOS. CONCILIAÇÃO. MEDIAC¿A¿O.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PG517",
+          "name": "TEORIA GERAL DO PROCESSO"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "MEDICINA LEGAL 1",
+      "code": "MS422",
+      "ementa": "AUMENTO DA CULTURA MÉDICO-LEGAL. A MEDICINA LEGAL. A PERÍCIA MÉDICO-LEGAL. A DOCUMENTAÇÃO MÉDICO-LEGAL. O AUTO DE CORPO DE DELITO. DEONTOLOGIA MÉDICA. IDENTIDADE E IDENTIFICAÇÃO. O SANGUE EM MEDICINA LEGAL. APLICAÇÕES FORENSES DO ESTUDO DO SANGUE. ACIDENTES DE TRABALHO. TRAUMATOLOGIA GERAL. TANATOLOGIA GERAL. CASAMENTO. SEXOLOGIA FORENSE ¿ CONJUNÇÃO CARNAL E ATOS LIBIDINOSOS. OBSTETRÍCIA FORENSE. TOXICOLOGIA FORENSE. PSICOPATOLOGIA FORENSE. PATOLOGIA MENTAL. ENERGIAS DE ORDEM FÍSICA ¿ QUÍMICA, BIOQUÍMICA, BIODINÂMICA E MISTA. ALCOOLISMO E EMBRIAGUEZ. DETERMINAÇÃO PERICIAL DA IDADE, EXAME DE VERIFICAÇÃO DA IDADE, IMPORTÂNCIA MÉDICA E JURÍDICA. CRIMINOLOGIA. CRIMINALÍSTICA. ACIDENTES DE TRÂNSITO. LESÕES MORTAIS. LEI 6.368/76 SOBRE ENTORPECENTES. TEMAS MÉDICO-LEGAIS. BIOÉTICA. BIODIREITO. BALÍSTICA FORENSE. LEGISLAÇÃO SOBRE ¿PERÍCIAS MÉDICAS¿. NOVA LEI ANTI-DROGAS. EXAME COMPLEMENTAR. TEMAS LIVRES DE MEDICINA FORENSE.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG528",
+          "name": "DIREITO PROCESSUAL PENAL 2"
+        }
+      ],
+      "dependents": [
+        {
+          "code": "MS423",
+          "name": "MEDICINA LEGAL 2"
+        }
+      ]
+    },
+    {
+      "name": "MEDICINA LEGAL 2",
+      "code": "MS423",
+      "ementa": "APROFUNDAMENTO DE TEMAS TRABALHADOS EM MEDICINA LEGAL 1, TAIS COMO CRIMINOLOGIA. CRIMINALÍSTICA. ACIDENTES DE TRÂNSITO. LESÕES MORTAIS. LEI 6.368/76 SOBRE ENTORPECENTES. TEMAS MÉDICO-LEGAIS. BIOÉTICA. BIODIREITO. BALÍSTICA FORENSE. LEGISLAÇÃO SOBRE ¿PERÍCIAS MÉDICAS¿. NOVA LEI ANTI-DROGAS. EXAME COMPLEMENTAR. TEMAS LIVRES DE MEDICINA FORENSE.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "MS422",
+          "name": "MEDICINA LEGAL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PLANEJAMENTO TRIBUTÁRIO",
+      "code": "PE481",
+      "ementa": "PLANEJAMENTO TRIBUTÁRIO. ELISÃO E EVASÃO FISCAIS. DIREITO TRIBUTÁRIO PENAL. DIREITO PENAL TRIBUTÁRIO. CRIMES CONTRA A ORDEM TRIBUTÁRIA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG524",
+          "name": "DIREITO CONSTITUCIONAL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "POLÍTICA, JUDICIÁRIO E SOCIEDADE",
+      "code": "PR475",
+      "ementa": "APRESENTAR, DE FORMA PANORÂMICA, OS PRINCIPAIS EIXOS TEÓRICOS E EMPÍRICOS DA CIÊNCIA POLÍTICA E SEUS DESDOBRAMENTOS ENTRE A POLÍTICA E O PODER JUDICIÁRIO NA AMÉRICA LATINA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG525",
+          "name": "DIREITO CONSTITUCIONAL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PROCESSO CONSTITUCIONAL",
+      "code": "PG540",
+      "ementa": "CONSTITUIÇÃO E PROCESSO. DIREITO PROCESSUAL CONSTITUCIONAL: O CONTROLE DE CONSTITUCIONALIDADE: UMA ANÁLISE COMPARADA DOS MODELOS BRASILEIRO E ESTRANGEIROS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "PROCESSO CONSTITUCIONAL BRASILEIRO",
+      "code": "PG541",
+      "ementa": "INSTITUTOS DE PROTEÇÃO JURÍDICA DA CONSTITUIÇÃO BRASILEIRA. DIREITO PROCESSUAL CONSTITUCIONAL BRASILEIRO: CONTROLE DE CONSTITUCIONALIDADE INTERNO. RELAÇÕES ENTRE A CONSTITUIÇÃO BRASILEIRA E AS LEIS ORDINÁRIAS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG526",
+          "name": "DIREITO CONSTITUCIONAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PROCESSO TRIBUTÁRIO",
+      "code": "PE480",
+      "ementa": "PROCESSO ADMINISTRATIVO TRIBUTÁRIO. PROCESSO JUDICIAL TRIBUTÁRIO. AÇÃO DECLARATÓRIA DE INEXISTÊNCIA DE CRÉDITO TRIBUTÁRIO. AÇÃO ANULATÓRIA DE CRÉDITO TRIBUTÁRIO. TUTELA ANTECIPADA. MANDADO DE SEGURANÇA EM MATÉRIA TRIBUTÁRIA. AÇÃO DE CONSIGNAÇÃO EM PAGAMENTO. AÇÃO DE REPETIÇÃO DE INDÉBITO. CAUTELAR FISCAL. EXECUÇÃO FISCAL, EMBARGOS EXCEÇÕES.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE250",
+          "name": "DIREITO TRIBUTARIO 3"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PG524",
+          "name": "DIREITO CONSTITUCIONAL 1"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PROPRIEDADE INTELECTUAL",
+      "code": "PR447",
+      "ementa": "ESTUDO DOS INSTITUTOS DO DIREITO DE PROPRIEDADE INTELECTUAL, BEM COMO DOS ORGANISMOS NACIONAIS E INTERNACIONAIS DE PROTEÇÃO DA PROPRIEDADE INTELECTUAL. DENTRE A LEGISLAÇÃO SERÃO EXPLORADAS: CONSTITUIÇÃO FEDERAL (ART. 5º - INCISOS XXVII C/C XXIX); LEI N.º 9279/96 (LEI DE PROPRIEDADE INDUSTRIAL); DECRETO N.º 4.830/2003 (LICENÇA COMPULSÓRIA); LEI NO. 10.973/2004 (LEI DE INOVAÇÃO); DECRETO NO 5.563/2005 (REGULA LEI DE INOVAÇÃO); INDICAÇÕES GEOGRÁFICAS (RES.INPI N.º 75/2000 C/C DECRETO N.º 4.062/2001); PROGRAMA DE COMPUTADOR (LEI N.º 9.609/1998 - LEI DO SOFTWARE); OBRAS CULTURAIS (LEI N.º 9.610/1998 C/C DECRETO N.º 2.894/1998 - DIREITOS AUTORAIS); CULTIVARES (LEI N.º 9.456/1997); ORGANISMOS GENETICAMENTE MODIFICADOS (LEI N.º 8.974/1995; DECRETO N.º 1.752/1995; MEDIDA PROVISÓRIA N.º 2.191-9/2001); BIODIVERSIDADE (DECRETO N.º 3945/2001); CIRCUITOS INTEGRADOS (PROJETO DE LEI N.º 1787); ; ACORDO SOBRE ASPECTOS DOS DIREITOS DA PROPRIEDADE INTELECTUAL RELACIONADO AO COMÉRCIO (TRIPS). QUANTO AO SISTEMA DE PROTEÇÃO DOS DIREITOS DE PROPRIEDADE INTELECTUAL SERÃO EXPLORADOS: O INSTITUTO NACIONAL DE PROPRIEDADE INTELECTUAL (INPI); A ORGANIZAÇÃO MUNDIAL DA PROPRIEDADE INDUSTRIAL (OMPI-WIPO); A ORGANIZAÇÃO MUNDIAL DO COMÉRCIO (OMC).",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR440",
+          "name": "DIREITO EMPRESARIAL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PRÁTICA DE SOLUÇÃO DE CONFLITOS I - NEGOCIAÇÃO",
+      "code": "PR476",
+      "ementa": "O ESTUDO, ANÁLISE, CRÍTICA E APLICAÇÃO DE TÉCNICAS DE NEGOCIAÇÃO, COM EMPREGO DE LINGUAGEM NÃO ADVERSARIAL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR433",
+          "name": "DIREITO CIVIL 4"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PRÁTICA DE SOLUÇÃO DE CONFLITOS II -MEDIAÇÃO",
+      "code": "PR477",
+      "ementa": "O ESTUDO, ANÁLISE, CRÍTICA E APLICAÇÃO DE TÉCNICAS DE MEDIAÇÃO DE CONTROVÉRSIAS, SEJA COM O EMPREGO DA MEDIAÇÃO FOCADA NO ACORDO OU DA MEDIAÇÃO FOCADA NA RELAÇÃO.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR434",
+          "name": "DIREITO CIVIL 5"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "PRÁTICA DE SOLUÇÃO DE CONFLITOS III -ARBITRAGEM",
+      "code": "PR478",
+      "ementa": "O ESTUDO, ANÁLISE, CRÍTICA E APLICAÇÃO DE TÉCNICAS DE ARBITRAGEM, ENTENDIDA ESTA COMO UMA VIA DE RESOLUÇÃO HETEROCOMPOSITIVA DE CONFLITOS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR435",
+          "name": "DIREITO CIVIL 6"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "REGIME PROCESSUAL DAS CAUSAS REPETIDAS",
+      "code": "PG538",
+      "ementa": "DEMANDAS INDIVIDUAIS, COLETIVAS E REPETITIVAS. A LITIGÂNCIA DE MASSA. O DEVIDO PROCESSO LEGAL DAS CAUSAS REPETITIVAS. INSTRUMENTOS PROCESSUAIS PARA O PROCESSAMENTO E JULGAMENTO DAS CAUSAS REPETITIVAS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG522",
+          "name": "DIREITO PROCESSUAL CIVIL 4"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "RESPONSABILIDADE CIVIL",
+      "code": "PR452",
+      "ementa": "FUNDAMENTOS E EVOLUÇÃO DO TEMA. ELEMENTOS CONSTITUTIVOS. ELEMENTOS EXCLUDENTES. CASOS DE RESPONSABILIDADE CIVIL. DO DANO E SUA LIQUIDAÇÃO. DA PREVENÇÃO NA RESPONSABILIDADE CIVIL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PR239",
+          "name": "RESPONSABILIDADE CIVIL 1"
+        }
+      ],
+      "prerequisites": [
+        {
+          "code": "PR431",
+          "name": "DIREITO CIVIL 2"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "RESPONSABILIDADE CIVIL 2",
+      "code": "PR479",
+      "ementa": "RESPONSABILIDADE CIVIL CONTRATUAL. NOÇÕES DE RESPONSABILIDADE CIVIL CONTRATUAL. RESPONSABILIDADE CIVIL PRÉ-CONTRATUAL. INEXECUÇÃO DO CONTRATO. RESPONSABILIDADE PÓS-CONTRATUAL. CASOS ESPECIAIS DE RESPONSABILIDADE CIVIL CONTRATUAL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR432",
+          "name": "DIREITO CIVIL 3"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TEORIA DAS RELAÇÕES INTERNACIONAIS 1",
+      "code": "PE491",
+      "ementa": "INTRODUÇÃO AO ESTUDO INTERDISCIPLINAR ENTRE DIREITO E RELAÇÕES INTERNACIONAIS. CORRELAÇÃO ENTRE O DESENVOLVIMENTO CONCEITUAL ENTRE DO DIREITO E DAS RELAÇÕES INTERNACIONAIS. HISTÓRIA DAS RELAÇÕES INTERNACIONAIS E PRINCIPAIS CONCEITOS EMPREGADOS",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [
+        {
+          "code": "PE289",
+          "name": "TEORIA RELACOES INTERNACIONAIS"
+        }
+      ],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TEORIA DAS RELAÇÕES INTERNACIONAIS 2",
+      "code": "PE492",
+      "ementa": "INTRODUÇÃO AS PREMISSAS TEÓRICAS E FILOSÓFICAS DOS PRINCIPAIS PENSAMENTOS NA COMPREENSÃO DAS RELAÇÕES INTERNACIONAIS. ANÁLISE DA METODOLOGIA FORMAL E A APLICAÇÃO DE TEORIA DOS JOGOS NOS ESTUDOS DAS RELAÇÕES INTERNACIONAIS. REALISMO. IDEALISMO. LIBERALISMO. NEOREALISMO. NEOLIBERALISMO. FUNCIONALISMO",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [],
+      "dependents": []
+    },
+    {
+      "name": "TEORIA POLÍTICA E DO ESTADO 2",
+      "code": "PG549",
+      "ementa": "A SOBERANIA NA ERA DA GLOBALIZAÇÃO. REGIMES POLÍTICOS: AUTOCRACIA, LIBERALISMO E DEMOCRACIA. DO ESTADO LIBERAL AO ESTADO SOCIAL DE DIREITO. A SEPARAÇÃO DE PODERES E HERMENÊUTICA JURÍDICA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PG516",
+          "name": "TEORIA POLÍTICA E DO ESTADO"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TUTELA JURÍDICA DOS VULNERÁVEIS",
+      "code": "PR446",
+      "ementa": "TUTELA JURÍDICA DOS VULNERÁVEIS ¿ A PARTIR DO RECONHECIMENTO DA EXISTÊNCIA DE GRUPOS DE SUJEITOS VULNERÁVEIS E QUE MERECERAM PROTEÇÃO JURÍDICA ESPECIAL, A DISCIPLINA VISA ARTICULAR CONHECIMENTOS DE TUTELA DAS CRIANÇAS, ADOLESCENTES, IDOSOS E DE PESSOAS COM DEFICIÊNCIA.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR434",
+          "name": "DIREITO CIVIL 5"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS ATUAIS DE DIREITO EMPRESARIAL",
+      "code": "PR480",
+      "ementa": "O ESTUDO, ANÁLISE, CRÍTICA E APLICAÇÃO DE ATUAIS RELACIONADOS A DIREITO EMPRESARIAL.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR440",
+          "name": "DIREITO EMPRESARIAL 3"
+        },
+        {
+          "code": "PR441",
+          "name": "DIREITO EMPRESARIAL 4"
+        }
+      ],
+      "dependents": []
+    },
+    {
+      "name": "TÓPICOS AVANÇADOS DE DIREITO CIVIL",
+      "code": "PR481",
+      "ementa": "ANÁLISE DE TEMAS ESPECÍFICOS DE DIREITO CIVIL QUE, POR SUA ATUALIDADE OU IMPOSSIBILIDADE DE EXAME MINUCIOSO DURANTE AS CADEIRAS DO CURSO REGULAR, PRECISEM SER EXPOSTOS E APROFUNDADOS.",
+      "hours": 30,
+      "semester": 0,
+      "credits": 2,
+      "isObligatory": false,
+      "equivalences": [],
+      "prerequisites": [
+        {
+          "code": "PR435",
+          "name": "DIREITO CIVIL 6"
+        }
+      ],
+      "dependents": []
+    }
+  ]
+}

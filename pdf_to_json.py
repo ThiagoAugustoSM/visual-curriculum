@@ -6,8 +6,10 @@ def get_block_info(block: tuple) -> tuple:
     is_title = block[0] == HEADER_FONT_SIZE
     try:
         if is_title:
-            float(block[4].strip().split("\n")[-1])
-            is_title = True
+            is_title = False
+            credits = block[4].strip().split("\n")[-1]
+            if "." in credits and float(credits):
+                is_title = True
     except: 
         is_title = False
     return is_title, block[4]
@@ -80,9 +82,11 @@ def general_course_infos(document) -> "tuple[str, str, int, int, int]":
                 hour_list.extend(get_hours(string))
             except: pass
     hour_list = sorted(hour_list, reverse = True)
-    total_hours = hour_list[0]
-    obligatory_hours = hour_list[1]
-    elective_hours = hour_list[0] - obligatory_hours
+    if len(hour_list) > 0:
+        total_hours = hour_list[0]
+    if len(hour_list) > 1:
+        obligatory_hours = hour_list[1]
+    elective_hours = total_hours - obligatory_hours
     
     return (university_name, course_name, total_hours, 
             elective_hours, obligatory_hours)
@@ -110,7 +114,7 @@ def get_equivalence_and_prereq_controls(string: str,
 
 def get_equivalence_and_prereq_values(string: str, 
         is_equivalence: bool, is_prerequisite: bool,
-        is_co_req: bool, disc_prerequisites: list,
+        is_coreq: bool, disc_prerequisites: list,
         disc_equivalences: list
     ) -> "tuple[bool, bool, bool, list, list]":
     if is_equivalence:
@@ -121,11 +125,11 @@ def get_equivalence_and_prereq_values(string: str,
         if len(splitted_string) == 2:
             pre_req, co_req = splitted_string
             if "NÃO" not in co_req:
-                is_co_req = True
+                is_coreq = True
         else: pre_req = splitted_string[0]
         disc_prerequisites = get_equivalences(pre_req)
         is_prerequisite = False
-    return (is_equivalence, is_prerequisite, is_co_req,
+    return (is_equivalence, is_prerequisite, is_coreq,
             disc_prerequisites, disc_equivalences)
 
 def save_json_file(output_path: str, university_name: str, course_name: str,
@@ -197,7 +201,7 @@ def ufpe_pdf_to_json(document):
     disciplines = []
     semesters = 0
 
-    is_co_req = False
+    is_coreq = False
     missing_infos = False
     is_equivalence = False
     disc_equivalences = []
@@ -213,6 +217,7 @@ def ufpe_pdf_to_json(document):
                 is_equivalence, is_prerequisite, ementa, disc_equivalences)
             if not continue_flag:
                 is_equivalence, is_prerequisite, ementa, disc_equivalences = infos
+                is_coreq = False
             elif "PERÍODO" in string or "SEM PERIODIZAÇÃO" in string:
                 if len(disciplines) > 0 and disc_cod != disciplines[-1]["code"]:
                     new_semester = get_semester(string)
@@ -220,6 +225,7 @@ def ufpe_pdf_to_json(document):
                     current_semester = get_semester(string)
                     new_semester = current_semester
                 semesters = max(current_semester, semesters)
+                is_coreq = False
             elif is_title:
                 splitted = string.split("\n") 
                 string = "\n".join(splitted[-6:])
@@ -245,11 +251,12 @@ def ufpe_pdf_to_json(document):
                 disc_credits = int(float(credits))
                 disc_type = "OBRIG" in _type
                 disc_hours = int(total)
+                is_coreq = False
             elif re.match("\w+\d+-", string) and (
                 "CO-REQUISITO" not in string and
                 "EQUIVALÊNCIA" not in string and
                 "PRÉ-REQUISITO" not in string and
-                not is_equivalence and not is_co_req
+                not is_equivalence and not is_coreq
                 and not is_prerequisite):
                 (disciplines, ementa, disc_equivalences, 
                 disc_prerequisites) = append_discipline(disciplines,
@@ -267,12 +274,13 @@ def ufpe_pdf_to_json(document):
                 disc_type = "OBRIG" in _type
                 disc_hours = int(total)
                 missing_infos = False
+                is_coreq = False
             else:
-                is_co_req = False
-                (is_equivalence, is_prerequisite, is_co_req,
+                is_coreq = False
+                (is_equivalence, is_prerequisite, is_coreq,
                 disc_prerequisites, disc_equivalences
                 ) = get_equivalence_and_prereq_values(string,
-                    is_equivalence, is_prerequisite, is_co_req,
+                    is_equivalence, is_prerequisite, is_coreq,
                     disc_prerequisites, disc_equivalences)
 
     (disciplines, _, _, _) = append_discipline(disciplines,
