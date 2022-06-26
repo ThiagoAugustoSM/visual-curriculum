@@ -26,7 +26,7 @@ const Header = (): React.ReactElement => {
       justify="space-between"
       flexWrap="wrap"
     >
-      <Link to="/">
+      <Link to="/visual-curriculum/">
         <Stack direction="row" align="center">
           <Image
             boxSize="100px"
