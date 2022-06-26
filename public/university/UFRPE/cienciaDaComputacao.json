@@ -1,0 +1,406 @@
+{
+    "university": "UFRPE - Universidade Federal Rural de Pernambuco",
+    "course": "Ciência da Computação",
+    "semesters": 9,
+    "totalHours": 3210,
+    "totalHoursObligatory": 1950,
+    "totalHoursElective": 1260,
+    "disciplines": [
+        {
+            "name": "ÁLGEBRA VETORIAL E LINEAR PARA COMPUTAÇÃO",
+            "code": "06418",
+            "prerequisites": [],
+            "semester": 1,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "CALCULO NI",
+            "code": "06507",
+            "prerequisites": [],
+            "semester": 1,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "INTRODUÇÃO À CIÊNCIA DA COMPUTAÇÃO",
+            "code": "14044",
+            "prerequisites": [],
+            "semester": 1,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "INTRODUÇÃO À PROGRAMAÇÃO I",
+            "code": "14117",
+            "prerequisites": [],
+            "semester": 1,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "MATEMÁTICA DISCRETA I",
+            "code": "14203",
+            "prerequisites": [],
+            "semester": 1,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "ALGORITMOS E ESTRUTURAS DE DADOS",
+            "code": "06214",
+            "prerequisites": [
+                "14117",
+                "14203"
+            ],
+            "semester": 2,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "CÁLCULO NII",
+            "code": "06508",
+            "prerequisites": [
+                "06507"
+            ],
+            "semester": 2,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "METODOLOGIA CIENTÍFICA APLICADA À COMPUTAÇÃO",
+            "code": "14112",
+            "prerequisites": [],
+            "semester": 2,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "INTRODUÇÃO À PROGRAMAÇÃO II",
+            "code": "14118",
+            "prerequisites": [
+                "14117"
+            ],
+            "semester": 2,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "MATEMÁTICA DISCRETA II",
+            "code": "14204",
+            "prerequisites": [
+                "14203"
+            ],
+            "semester": 2,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "TEORIA DA COMPUTAÇÃO",
+            "code": "06223",
+            "prerequisites": [
+                "14204"
+            ],
+            "semester": 3,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "ESTATÍSTICA EXPLORATÓRIA I",
+            "code": "06243",
+            "prerequisites": [],
+            "semester": 3,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "FÍSICA APLICADA À COMPUTAÇÃO",
+            "code": "06235",
+            "prerequisites": [
+                "06508"
+            ],
+            "semester": 3,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "CIRCUITOS DIGITAIS",
+            "code": "14063",
+            "prerequisites": [],
+            "semester": 3,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "PROJETO E ANÁLISE DE ALGORITMOS",
+            "code": "14087",
+            "prerequisites": [
+                "06214"
+            ],
+            "semester": 3,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "ENGENHARIA DE SOFTWARE",
+            "code": "06226",
+            "prerequisites": [
+                "14118"
+            ],
+            "semester": 4,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "PARADIGMAS DE PROGRAMAÇÃO",
+            "code": "06252",
+            "prerequisites": [
+                "14118"
+            ],
+            "semester": 4,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "REDES DE COMPUTADORES",
+            "code": "14058",
+            "prerequisites": [],
+            "semester": 4,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES",
+            "code": "14064",
+            "prerequisites": [
+                "14063"
+            ],
+            "semester": 4,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "BANCO DE DADOS S",
+            "code": "14088",
+            "prerequisites": [
+                "06214"
+            ],
+            "semester": 4,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "PROJETO DE DESENVOLVIMENTO DE SOFTWARE",
+            "code": "06251",
+            "prerequisites": [
+                "14118",
+                "14088",
+                "06226"
+            ],
+            "semester": 5,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "SISTEMAS DISTRIBUÍDOS",
+            "code": "14059",
+            "prerequisites": [
+                "14058"
+            ],
+            "semester": 5,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "SISTEMAS OPERACIONAIS",
+            "code": "14065",
+            "prerequisites": [
+                "14064"
+            ],
+            "semester": 5,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "INTELIGÊNCIA ARTIFICIAL",
+            "code": "14074",
+            "prerequisites": [
+                "14118"
+            ],
+            "semester": 5,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "COMPILADORES",
+            "code": "14090",
+            "prerequisites": [
+                "06223",
+                "14118"
+            ],
+            "semester": 5,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "ESTÁGIO SUPERVISIONADO OBRIGATÓRIO I",
+            "code": "14110",
+            "prerequisites": [],
+            "semester": 7,
+            "hours": 120,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "PROJETO DE CONCLUSÃO DE CURSO",
+            "code": "14048",
+            "prerequisites": [],
+            "semester": 8,
+            "hours": 60,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "ESTÁGIO SUPERVISIONADO OBRIGATÓRIO II",
+            "code": "14111",
+            "prerequisites": [],
+            "semester": 8,
+            "hours": 120,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "EDUCAÇÃO FÍSICA A",
+            "code": "04208",
+            "prerequisites": [],
+            "semester": 9,
+            "hours": 30,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        },
+        {
+            "name": "TRABALHO DE CONCLUSÃO DE CURSO",
+            "code": "14049",
+            "prerequisites": [],
+            "semester": 9,
+            "hours": 120,
+            "credits": 4,
+            "isObligatory": true,
+            "ementa": "",
+            "dependents": [],
+            "equivalences": []
+        }
+    ]
+}

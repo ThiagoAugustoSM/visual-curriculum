@@ -1,0 +1,83 @@
+[
+    {
+        "key": "ufpe",
+        "name": "",
+        "website": "https://www.ufpe.br/",
+        "logo": "https://www.ufpe.br/image/company_logo?img_id=20911&t=1655674560496",
+        "courses": [
+            {
+                "key": "engenhariaDaComputacao",
+                "name": "Engenharia da Computação",
+                "logo": "/assets/img/cin-logo.svg"
+            },
+            {
+                "key": "cienciaDaComputacao",
+                "name": "Ciência da computação",
+                "logo": "/assets/img/cin-logo.svg"
+            },
+            {
+                "key": "sistemasDeInformacao",
+                "name": "Sistemas de informação",
+                "logo": "/assets/img/cin-logo.svg"
+            },
+            {
+                "key": "teatro",
+                "name": "Teatro",
+                "logo": "/assets/img/cac-logo.png"
+            },
+            {
+                "key": "historiaB",
+                "name": "História Bacharelado",
+                "logo": "/assets/img/cfch-logo.png"
+            },
+            {
+                "key": "engenhariaCivil",
+                "name": "Engenharia Civil",
+                "logo": "/assets/img/ctg-logo.png"
+            },
+            {
+                "key": "cienciasBiologicasEA",
+                "name": "Ciências Biológicas com ênfase em Ciências Ambientais",
+                "logo": "/assets/img/cb-logo.png"
+            },
+            {
+                "key": "matematicaB",
+                "name": "Matemática Bacharelado",
+                "logo": "/assets/img/ccen-logo.png"
+            },
+            {
+                "key": "enfermagem",
+                "name": "Enfermagem",
+                "logo": "/assets/img/ccs-logo.png"
+            },
+            {
+                "key": "administracao",
+                "name": "Administração",
+                "logo": "/assets/img/ccsa-logo.png"
+            },
+            {
+                "key": "direito",
+                "name": "Direito",
+                "logo": "/assets/img/ccj-logo.png"
+            },
+            {
+                "key": "medicina",
+                "name": "Medicina",
+                "logo": "/assets/img/ccm-logo.png"
+            }
+        ]
+    },
+    {
+        "key": "ufrpe",
+        "name": "Universidade Federal Rural de Pernambuco",
+        "website": "http://www.ufrpe.br/",
+        "logo": "http://www.ufrpe.br/sites/www.ufrpe.br/files/Logo%20UFRPE%20com%20texto_2.png",
+        "courses": [
+            {
+                "key": "cienciaDaComputacao",
+                "name": "Ciência da Computação",
+                "logo": "/assets/img/dcufrpe.jpg"
+            }
+        ]
+    }
+]
