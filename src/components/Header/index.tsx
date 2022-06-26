@@ -12,8 +12,6 @@ import {
 } from '@chakra-ui/react';
 import { FaSun, FaMoon, FaGithub } from 'react-icons/fa';
 
-import Logo from '../../assets/img/peacock-logo.png';
-
 const Header = (): React.ReactElement => {
   const { colorMode, toggleColorMode } = useColorMode();
 
@@ -32,7 +30,7 @@ const Header = (): React.ReactElement => {
         <Stack direction="row" align="center">
           <Image
             boxSize="100px"
-            src={Logo}
+            src={process.env.PUBLIC_URL + '/assets/img/peacock-logo.png'}
             alt="Imagem de um pavão representando a logo do Visual Curriculum"
           />
           <Stack direction="column" textAlign="left">

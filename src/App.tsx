@@ -6,7 +6,6 @@ function App(): React.ReactElement {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="*" element={<Home />} />
         <Route path="/:university/:course" element={<CurriculumPage />} />
       </Routes>
