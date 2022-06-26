@@ -55,68 +55,6 @@ export default function CurriculumPage(): React.ReactElement {
 
   const params = useParams();
 
-  const setters = {
-    setAcademicObligatoryDone,
-    setAcademicElectiveDone,
-    setAcademicTotalDone,
-  };
-
-  function fillOrCleanPreRequisites(
-    goalDiscipline: string,
-    isToFill: boolean
-  ): void {
-    const disciplineQueue = [goalDiscipline];
-    const disciplinesToModify = new Set<string>();
-
-    while (disciplineQueue.length > 0) {
-      const disciplineCode = disciplineQueue[0];
-      const discipline = disciplineMap.get(disciplineCode);
-      disciplineQueue.splice(0, 1);
-      if (!discipline) {
-        continue;
-      }
-      setAcademicHours(
-        setters,
-        isToFill,
-        discipline.isObligatory,
-        discipline.hours
-      );
-      disciplinesToModify.add(disciplineCode);
-      const disciplineList = isToFill
-        ? discipline.prerequisites
-        : discipline.dependents;
-      disciplineList.forEach((prerequisite) => {
-        if (
-          ((isToFill && !activeDisciplines.has(prerequisite.code)) ||
-            (!isToFill && activeDisciplines.has(prerequisite.code))) &&
-          !disciplinesToModify.has(prerequisite.code) &&
-          disciplineQueue.indexOf(prerequisite.code) === -1
-        ) {
-          disciplineQueue.push(prerequisite.code);
-        }
-      });
-    }
-    setActiveDisciplines((currentDisciplines) => {
-      disciplinesToModify.forEach((element) => {
-        if (isToFill) {
-          currentDisciplines.add(element);
-        } else {
-          currentDisciplines.delete(element);
-        }
-      });
-      return currentDisciplines;
-    });
-  }
-
-  const handleClick = (props: OnClickTypes) => {
-    const { id, isActive } = props;
-    if (isActive) {
-      fillOrCleanPreRequisites(id, true);
-    } else {
-      fillOrCleanPreRequisites(id, false);
-    }
-  };
-
   useEffect(() => {
     async function loadData() {
       const university = params.university as string;
@@ -187,16 +125,81 @@ export default function CurriculumPage(): React.ReactElement {
     params.course,
   ]);
 
+  const setters = {
+    setAcademicObligatoryDone,
+    setAcademicElectiveDone,
+    setAcademicTotalDone,
+  };
+
+  function fillOrCleanPreRequisites(
+    goalDiscipline: string,
+    isToFill: boolean
+  ): void {
+    const disciplineQueue = [goalDiscipline];
+    const disciplinesToModify = new Set<string>();
+
+    while (disciplineQueue.length > 0) {
+      const disciplineCode = disciplineQueue[0];
+      const discipline = disciplineMap.get(disciplineCode);
+      disciplineQueue.splice(0, 1);
+      if (!discipline) {
+        continue;
+      }
+      setAcademicHours(
+        setters,
+        isToFill,
+        discipline.isObligatory,
+        discipline.hours
+      );
+      disciplinesToModify.add(disciplineCode);
+      const disciplineList = isToFill
+        ? discipline.prerequisites
+        : discipline.dependents;
+      disciplineList.forEach((prerequisite) => {
+        if (
+          ((isToFill && !activeDisciplines.has(prerequisite.code)) ||
+            (!isToFill && activeDisciplines.has(prerequisite.code))) &&
+          !disciplinesToModify.has(prerequisite.code) &&
+          disciplineQueue.indexOf(prerequisite.code) === -1
+        ) {
+          disciplineQueue.push(prerequisite.code);
+        }
+      });
+    }
+    setActiveDisciplines((currentDisciplines) => {
+      disciplinesToModify.forEach((element) => {
+        if (isToFill) {
+          currentDisciplines.add(element);
+        } else {
+          currentDisciplines.delete(element);
+        }
+      });
+      return currentDisciplines;
+    });
+  }
+
+  const handleClick = (props: OnClickTypes) => {
+    const { id, isActive } = props;
+    if (isActive) {
+      fillOrCleanPreRequisites(id, true);
+    } else {
+      fillOrCleanPreRequisites(id, false);
+    }
+  };
+
   return (
     <Box m="5">
       <Header />
-      <Navigator />
+      <Navigator
+        university={curriculum.university}
+        course={curriculum.course}
+      />
       <Box w="100%" flexWrap="wrap" mb={12}>
         {Array.from(obligatory.entries()).map(([semester, disciplines]) => (
           <Grid key={`rows-${semester}`} display="flex" flexWrap="wrap">
             {disciplines.map((item) => (
               <DisciplineBox
-                key={item.name}
+                key={item.code}
                 id={item.code}
                 onClick={handleClick}
                 isActive={activeDisciplines.has(item.code)}
@@ -210,7 +213,7 @@ export default function CurriculumPage(): React.ReactElement {
           <Grid key={`rows-${semester}`} display="flex" flexWrap="wrap">
             {disciplines.map((item) => (
               <DisciplineBox
-                key={item.name}
+                key={item.code}
                 id={item.code}
                 onClick={handleClick}
                 isActive={activeDisciplines.has(item.code)}
@@ -242,9 +245,9 @@ export default function CurriculumPage(): React.ReactElement {
               <AccordionPanel>
                 <SimpleGrid columns={[1, 2]} spacing="5">
                   <StatsContainer
-                    academicTotalDone={academicTotalDone}
-                    academicObligatoryDone={academicObligatoryDone}
-                    academicElectiveDone={academicElectiveDone}
+                    academicTotal={academicTotalDone}
+                    academicObligatory={academicObligatoryDone}
+                    academicElective={academicElectiveDone}
                     totalHours={curriculum.totalHours}
                     totalHoursObligatory={curriculum.totalHoursObligatory}
                     totalHoursElective={curriculum.totalHoursElective}

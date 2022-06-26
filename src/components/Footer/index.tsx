@@ -2,7 +2,6 @@ import React from 'react';
 import { Box, Stack, Text, Icon, IconButton } from '@chakra-ui/react';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { DiGitMerge } from 'react-icons/di';
-import abagatinhoIcon from '../../assets/img/abagatinho.svg';
 
 const Footer = (): React.ReactElement => {
   return (
@@ -42,12 +41,15 @@ const Footer = (): React.ReactElement => {
           whiteSpace="nowrap"
           position="relative"
           width="var(--chakra-sizes-8)"
-          font-size="var(--chakra-fontSizes-sm)"
+          fontSize="var(--chakra-fontSizes-sm)"
           padding-inline-start="var(--chakra-space-3)"
           cursor="pointer"
         >
           <a href={'https://github.com/Abagatinho'}>
-            <img src={abagatinhoIcon} alt="Abrir organização" />
+            <img
+              src={process.env.PUBLIC_URL + '/assets/img/abagatinho.svg'}
+              alt="Abrir organização"
+            />
           </a>
         </Box>
       </Stack>
