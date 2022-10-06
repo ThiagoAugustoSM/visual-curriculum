@@ -3,6 +3,7 @@ import {
   Box,
   SimpleGrid,
   Grid,
+  GridItem,
   Accordion,
   AccordionItem,
   AccordionButton,
@@ -202,9 +203,12 @@ export default function CurriculumPage(): React.ReactElement {
       />
       <Box w="100%" flexWrap="wrap" mb={12}>
         <Search onChange={handleSearch}></Search>
-
         {Array.from(obligatory.entries()).map(([semester, disciplines]) => (
-          <Grid key={`rows-${semester}`} display="flex" flexWrap="wrap">
+          <Grid
+            key={`rows-${semester}`}
+            templateColumns={`repeat(auto-fit, minmax(318px, 2fr))`}
+            gap={6}
+          >
             {disciplines.map(
               (item) =>
                 (item.name
@@ -213,20 +217,26 @@ export default function CurriculumPage(): React.ReactElement {
                   item.code
                     .toLocaleLowerCase()
                     .includes(searchValue.toLocaleLowerCase())) && (
-                  <DisciplineBox
-                    key={item.code}
-                    id={item.code}
-                    onClick={handleClick}
-                    isActive={activeDisciplines.has(item.code)}
-                    {...item}
-                  />
+                  <GridItem key={`rows-${semester}-${item.code}`}>
+                    <DisciplineBox
+                      key={item.code}
+                      id={item.code}
+                      onClick={handleClick}
+                      isActive={activeDisciplines.has(item.code)}
+                      {...item}
+                    />
+                  </GridItem>
                 )
             )}
           </Grid>
         ))}
         <hr style={{ maxWidth: 'calc(100% - 10px)' }} />
         {Array.from(electives.entries()).map(([semester, disciplines]) => (
-          <Grid key={`rows-${semester}`} display="flex" flexWrap="wrap">
+          <Grid
+            key={`rows-${semester}`}
+            templateColumns="repeat(auto-fit, minmax(318px, 1fr))"
+            gap={12}
+          >
             {disciplines.map(
               (item) =>
                 (item.name
@@ -235,13 +245,15 @@ export default function CurriculumPage(): React.ReactElement {
                   item.code
                     .toLocaleLowerCase()
                     .includes(searchValue.toLocaleLowerCase())) && (
-                  <DisciplineBox
-                    key={item.code}
-                    id={item.code}
-                    onClick={handleClick}
-                    isActive={activeDisciplines.has(item.code)}
-                    {...item}
-                  />
+                  <GridItem key={`rows-${semester}-${item.code}`}>
+                    <DisciplineBox
+                      key={item.code}
+                      id={item.code}
+                      onClick={handleClick}
+                      isActive={activeDisciplines.has(item.code)}
+                      {...item}
+                    />
+                  </GridItem>
                 )
             )}
           </Grid>
