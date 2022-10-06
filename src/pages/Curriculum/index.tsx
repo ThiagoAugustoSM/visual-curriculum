@@ -12,6 +12,7 @@ import Header from '../../components/Header';
 import Navigator from '../../components/Navigator';
 import DisciplineBox from '../../components/DisciplineBox';
 import StatsContainer from '../../components/StatsContainer';
+import Search from '../../components/Search';
 import NextSteps from '../../components/NextSteps';
 import Footer from '../../components/Footer';
 import localForage from 'localforage';
@@ -52,6 +53,7 @@ export default function CurriculumPage(): React.ReactElement {
   const [academicObligatoryDone, setAcademicObligatoryDone] = useState(0);
   const [academicElectiveDone, setAcademicElectiveDone] = useState(0);
   const [academicTotalDone, setAcademicTotalDone] = useState(0);
+  const [searchValue, setSearchValue] = useState('');
 
   const params = useParams();
 
@@ -187,6 +189,10 @@ export default function CurriculumPage(): React.ReactElement {
     }
   };
 
+  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchValue(event.target.value);
+  };
+
   return (
     <Box m="5">
       <Header />
@@ -195,31 +201,49 @@ export default function CurriculumPage(): React.ReactElement {
         course={curriculum.course}
       />
       <Box w="100%" flexWrap="wrap" mb={12}>
+        <Search onChange={handleSearch}></Search>
+
         {Array.from(obligatory.entries()).map(([semester, disciplines]) => (
           <Grid key={`rows-${semester}`} display="flex" flexWrap="wrap">
-            {disciplines.map((item) => (
-              <DisciplineBox
-                key={item.code}
-                id={item.code}
-                onClick={handleClick}
-                isActive={activeDisciplines.has(item.code)}
-                {...item}
-              />
-            ))}
+            {disciplines.map(
+              (item) =>
+                (item.name
+                  .toLocaleLowerCase()
+                  .includes(searchValue.toLocaleLowerCase()) ||
+                  item.code
+                    .toLocaleLowerCase()
+                    .includes(searchValue.toLocaleLowerCase())) && (
+                  <DisciplineBox
+                    key={item.code}
+                    id={item.code}
+                    onClick={handleClick}
+                    isActive={activeDisciplines.has(item.code)}
+                    {...item}
+                  />
+                )
+            )}
           </Grid>
         ))}
         <hr style={{ maxWidth: 'calc(100% - 10px)' }} />
         {Array.from(electives.entries()).map(([semester, disciplines]) => (
           <Grid key={`rows-${semester}`} display="flex" flexWrap="wrap">
-            {disciplines.map((item) => (
-              <DisciplineBox
-                key={item.code}
-                id={item.code}
-                onClick={handleClick}
-                isActive={activeDisciplines.has(item.code)}
-                {...item}
-              />
-            ))}
+            {disciplines.map(
+              (item) =>
+                (item.name
+                  .toLocaleLowerCase()
+                  .includes(searchValue.toLocaleLowerCase()) ||
+                  item.code
+                    .toLocaleLowerCase()
+                    .includes(searchValue.toLocaleLowerCase())) && (
+                  <DisciplineBox
+                    key={item.code}
+                    id={item.code}
+                    onClick={handleClick}
+                    isActive={activeDisciplines.has(item.code)}
+                    {...item}
+                  />
+                )
+            )}
           </Grid>
         ))}
       </Box>
